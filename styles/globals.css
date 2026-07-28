@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --gav-navy: #0a0e1a;
+  --gav-gold: #d4af37;
+  --gav-slate: #141824;
+  --gav-border: #1e2740;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--gav-navy);
+  color: #f8fafc;
+  font-family: var(--font-inter), system-ui, sans-serif;
+  min-height: 100vh;
+}
+
+::selection {
+  background: rgba(212, 175, 55, 0.35);
+  color: #f8fafc;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0e1a;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e2740;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}
+
+@layer components {
+  .prose-gav {
+    @apply text-gavfather-muted leading-relaxed;
+  }
+
+  .prose-gav h1,
+  .prose-gav h2,
+  .prose-gav h3,
+  .prose-gav h4 {
+    @apply font-display text-gavfather-gold font-semibold mt-10 mb-4 text-gavfather-text;
+  }
+
+  .prose-gav h1 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  .prose-gav h2 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  .prose-gav h3 {
+    @apply text-xl md:text-2xl;
+  }
+
+  .prose-gav p {
+    @apply mb-5 text-base md:text-lg text-slate-300;
+  }
+
+  .prose-gav strong {
+    @apply text-gavfather-gold font-semibold;
+  }
+
+  .prose-gav a {
+    @apply text-gavfather-gold underline underline-offset-4 decoration-gavfather-gold/40 hover:decoration-gavfather-gold;
+  }
+
+  .prose-gav blockquote {
+    @apply border-l-4 border-gavfather-gold bg-gavfather-slate/80 pl-5 pr-4 py-3 my-6 italic text-slate-300;
+  }
+
+  .prose-gav ul {
+    @apply list-disc pl-6 mb-5 space-y-2 text-slate-300;
+  }
+
+  .prose-gav ol {
+    @apply list-decimal pl-6 mb-5 space-y-2 text-slate-300;
+  }
+
+  .prose-gav table {
+    @apply w-full my-8 text-sm border-collapse overflow-hidden rounded-lg;
+  }
+
+  .prose-gav thead {
+    @apply bg-gavfather-gold text-gavfather-navy;
+  }
+
+  .prose-gav th {
+    @apply px-3 py-2 text-left font-semibold;
+  }
+
+  .prose-gav td {
+    @apply px-3 py-2 border-b border-gavfather-border bg-gavfather-slate text-slate-300;
+  }
+
+  .prose-gav tr:hover td {
+    @apply bg-gavfather-hover;
+  }
+
+  .prose-gav code {
+    @apply font-mono text-sm text-gavfather-gold-light bg-gavfather-slate px-1.5 py-0.5 rounded;
+  }
+
+  .prose-gav hr {
+    @apply border-gavfather-border my-10;
+  }
+}
