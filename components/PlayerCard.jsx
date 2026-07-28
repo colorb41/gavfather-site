@@ -22,7 +22,7 @@ export default function PlayerCard({
   const isFade = variant === 'fade'
   const border = isFade ? 'border-l-gavfather-fade' : 'border-l-gavfather-gold'
   const scoreColor = isFade ? 'text-gavfather-fade' : 'text-gavfather-gold'
-  const href = `/rankings?week=${week || ''}&search=${encodeURIComponent(player.name)}`
+  const href = `/rankings?week=${week != null ? week : ''}&search=${encodeURIComponent(player.name)}`
 
   return (
     <Link
@@ -43,7 +43,7 @@ export default function PlayerCard({
       <p className="mt-0.5 text-sm text-gavfather-muted">
         {player.team}
         {player.opponent ? ` vs ${player.opponent}` : ''}
-        {week ? ` | ${formatWeekShort(week)}` : ''}
+        {week != null ? ` | ${formatWeekShort(week)}` : ''}
       </p>
 
       <p className={`mt-3 font-mono text-3xl font-bold tabular-nums ${scoreColor}`}>

@@ -6,6 +6,7 @@ import {
   getRankingsByWeek,
   getRankingsUpdatedAt,
   getYearForWeek,
+  isPreseasonWeek,
 } from '../../lib/rankings'
 import { getTrackRecord } from '../../lib/trackRecord'
 import { LAUNCH_YEAR, SITE_NAME, SOCIAL_X_URL } from '../../lib/site'
@@ -13,8 +14,16 @@ import { LAUNCH_YEAR, SITE_NAME, SOCIAL_X_URL } from '../../lib/site'
 function resolveWeekParams(searchParams) {
   const weeks = getAllWeeks()
   const latest = getLatestWeek()
-  const week = Number(searchParams?.week || latest || 1)
-  const year = Number(searchParams?.year || getYearForWeek(week))
+  const weekRaw = searchParams?.week
+  const week =
+    weekRaw !== undefined && weekRaw !== null && weekRaw !== ''
+      ? Number(weekRaw)
+      : latest ?? 0
+  const yearRaw = searchParams?.year
+  const year =
+    yearRaw !== undefined && yearRaw !== null && yearRaw !== ''
+      ? Number(yearRaw)
+      : getYearForWeek(week)
   const requestedFormat = String(searchParams?.format || 'ppr').toLowerCase()
   const weekMeta = weeks.find((w) => w.week === week && w.year === year)
   const format = weekMeta?.formats?.includes(requestedFormat)
@@ -26,16 +35,14 @@ function resolveWeekParams(searchParams) {
 export function generateMetadata({ searchParams }) {
   const { week, year } = resolveWeekParams(searchParams)
   const isLiveSeason = year >= LAUNCH_YEAR
-  const title =
-    Number(week) === 3
-      ? '2026 Draft Rankings'
-      : `Week ${week} Rankings (${year})`
-  const description =
-    Number(week) === 3
-      ? `${SITE_NAME} 2026 fantasy football draft rankings — sleepers, fades, and the full board.`
-      : isLiveSeason
-        ? `${SITE_NAME} fantasy football rankings for Week ${week}, ${year} — sleepers, fades, and the full board.`
-        : `${SITE_NAME} board preview — live ${LAUNCH_YEAR} rankings launch with Preseason 2026.`
+  const title = isPreseasonWeek(week)
+    ? `${year} Draft Rankings`
+    : `Week ${week} Rankings (${year})`
+  const description = isPreseasonWeek(week)
+    ? `${SITE_NAME} ${year} fantasy football draft rankings — sleepers, fades, and the full board.`
+    : isLiveSeason
+      ? `${SITE_NAME} fantasy football rankings for Week ${week}, ${year} — sleepers, fades, and the full board.`
+      : `${SITE_NAME} board preview — live ${LAUNCH_YEAR} rankings launch with Preseason 2026.`
 
   return {
     title,

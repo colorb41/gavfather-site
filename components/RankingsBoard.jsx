@@ -109,14 +109,13 @@ export default function RankingsBoard({
     : '—'
 
   const sharePath = `/rankings?week=${initialWeek}&year=${initialYear}&format=${format}`
-  const shareTitle =
-    Number(initialWeek) === 3
-      ? `The Gavfather Rankings — 2026 Draft Rankings`
-      : `The Gavfather Rankings — Week ${initialWeek} (${initialYear})`
-  const boardLabel =
-    Number(initialWeek) === 3
-      ? '2026 Draft Rankings'
-      : `Week ${initialWeek}`
+  const isDraft = Number(initialWeek) === 0
+  const shareTitle = isDraft
+    ? `The Gavfather Rankings — ${initialYear} Draft Rankings`
+    : `The Gavfather Rankings — Week ${initialWeek} (${initialYear})`
+  const boardLabel = isDraft
+    ? `${initialYear} Draft Rankings`
+    : `Week ${initialWeek}`
 
   return (
     <div>

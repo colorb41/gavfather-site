@@ -16,8 +16,8 @@ export const dynamic = 'force-static'
 
 export default function HomePage() {
   const week = getLatestWeek()
-  const year = week ? getYearForWeek(week) : null
-  const hasBoard = Boolean(week && year)
+  const year = week != null ? getYearForWeek(week) : null
+  const hasBoard = week != null && year != null
   const isLiveSeason = Boolean(hasBoard && year >= LAUNCH_YEAR)
   const topPlays = hasBoard ? getTopPlays(week, 5, 'ppr', year) : []
   const topFades = hasBoard ? getTopFades(week, 5, 'ppr', year) : []

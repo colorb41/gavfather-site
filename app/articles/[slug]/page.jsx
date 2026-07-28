@@ -65,10 +65,10 @@ export default async function ArticlePage({ params }) {
   const { prev, next } = getAdjacentArticles(params.slug)
   const related = getRelatedArticles(params.slug, 3)
 
-  const week = article.week || getLatestWeek()
-  const year = week ? getYearForWeek(week) : LAUNCH_YEAR
-  const offer = week ? getTopPlays(week, 3, 'ppr', year) : []
-  const board = week ? getRankingsByWeek(week, 'ppr', year) : []
+  const week = article.week ?? getLatestWeek()
+  const year = week != null ? getYearForWeek(week) : LAUNCH_YEAR
+  const offer = week != null ? getTopPlays(week, 3, 'ppr', year) : []
+  const board = week != null ? getRankingsByWeek(week, 'ppr', year) : []
   const html = linkPlayerNames(htmlRaw, board)
 
   return (
@@ -110,7 +110,7 @@ export default async function ArticlePage({ params }) {
               THE OFFER
             </h2>
             <p className="mt-1 text-xs text-gavfather-muted">
-              Top plays · {week ? formatWeekShort(week) : 'Preseason 2026'}
+              Top plays · {week != null ? formatWeekShort(week) : 'Preseason 2026'}
             </p>
             <ul className="mt-4 space-y-3">
               {offer.map((p) => (
