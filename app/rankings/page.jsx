@@ -8,9 +8,10 @@ import {
   getRankingsUpdatedAt,
   getYearForWeek,
   liveRankingsExists,
+  normalizeScoringFormat,
 } from '../../lib/rankings'
 import { getTrackRecord } from '../../lib/trackRecord'
-import { LAUNCH_YEAR, SITE_NAME, SOCIAL_X_URL } from '../../lib/site'
+import { SITE_NAME, SOCIAL_X_URL } from '../../lib/site'
 
 function resolveLoggedIn() {
   try {
@@ -25,10 +26,18 @@ function resolveLoggedIn() {
   }
 }
 
-export function generateMetadata() {
+function resolveSuperflex(searchParams) {
+  const raw = String(searchParams?.superflex ?? '').toLowerCase()
+  return raw === '1' || raw === 'true' || raw === 'on' || raw === 'yes'
+}
+
+export function generateMetadata({ searchParams } = {}) {
   const year = getYearForWeek(0)
-  const title = `THE GAVFATHER ${year} RANKINGS | Half PPR`
-  const description = `${SITE_NAME} ${year} fantasy football preseason rankings — Half PPR, 12 teams.`
+  const format = normalizeScoringFormat(searchParams?.format || 'std')
+  const formatLabel =
+    format === 'ppr' ? 'PPR' : format === 'half_ppr' ? 'Half PPR' : 'Standard'
+  const title = `THE GAVFATHER ${year} RANKINGS | ${formatLabel}`
+  const description = `${SITE_NAME} ${year} fantasy football preseason rankings — ${formatLabel}, 12 teams.`
   return {
     title,
     description,
@@ -49,10 +58,13 @@ export function generateMetadata() {
 export default function RankingsPage({ searchParams }) {
   const year = getYearForWeek(0)
   const weeks = getAllWeeks()
-  const format = String(searchParams?.format || 'half_ppr').toLowerCase()
+  // Defaults: Standard scoring, Superflex OFF, ALL positions
+  const format = normalizeScoringFormat(searchParams?.format || 'std')
+  const superflex = resolveSuperflex(searchParams)
+  const initialPos = String(searchParams?.pos || 'ALL').toUpperCase()
   const isLoggedIn = resolveLoggedIn()
 
-  // Always load full live_rankings.csv — board blurs rows for freemium
+  // Pass full player objects (all format columns); client re-ranks instantly
   const allPlayers = liveRankingsExists() ? getLiveRankings() : []
   const previewPlayers = getPreviewPlayers()
   const updatedAt = getRankingsUpdatedAt(0, format, year)
@@ -80,7 +92,7 @@ export default function RankingsPage({ searchParams }) {
   }
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-10 md:px-6 md:py-14">
+    <div className="mx-auto max-w-7xl px-4 py-6 md:px-6 md:py-8">
       <Suspense fallback={<p className="text-gavfather-muted">Loading board…</p>}>
         <RankingsBoard
           initialPlayers={allPlayers}
@@ -89,6 +101,8 @@ export default function RankingsPage({ searchParams }) {
           initialWeek={0}
           initialYear={year}
           initialFormat={format}
+          initialSuperflex={superflex}
+          initialPos={initialPos}
           updatedAt={updatedAt}
           fantasyPros={track?.fantasyPros}
           isLoggedIn={isLoggedIn}
