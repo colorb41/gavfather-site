@@ -4,17 +4,21 @@ import { useMemo, useState, useEffect, useCallback } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import PlayerRow from './PlayerRow'
 import ShareButtons from './ShareButtons'
+import FreemiumGate, {
+  FREE_ALL_LIMIT,
+  FREE_POS_LIMIT,
+  splitFreemiumRows,
+} from './FreemiumGate'
 import {
   rankPlayersByFormat,
   normalizeScoringFormat,
   FORMAT_META,
   FORMAT_IDS,
-  previewIdsFromRanked,
 } from '../lib/rankPlayersByFormat'
 
 const POSITIONS = ['ALL', 'QB', 'RB', 'WR', 'TE']
 const DEFAULT_FORMAT = 'std'
-const DEFAULT_TEAMS = '12 TEAMS'
+const DEFAULT_TEAMS = '12 Teams'
 const DEFAULT_ROSTER = 'Standard Roster'
 
 const FORMAT_PRESETS = FORMAT_IDS.map((id) => FORMAT_META[id])
@@ -39,14 +43,8 @@ function normalizePos(raw) {
   return POSITIONS.includes(p) ? p : 'ALL'
 }
 
-/**
- * Freemium: first 10 at the active position are unlocked.
- * On ALL tab, unlock the preview set (top 10 per position).
- */
-function isRowLocked(player, position, isLoggedIn, previewIds) {
-  if (isLoggedIn) return false
-  if (position === 'ALL') return !previewIds.has(`${player.position}:${player.name}`)
-  return (player.positionalRank || 999) > 10
+function rowDisplayRank(player, position) {
+  return position === 'ALL' ? player.rank : player.positionalRank || player.rank
 }
 
 export default function RankingsBoard({
@@ -62,6 +60,7 @@ export default function RankingsBoard({
   fantasyPros,
   isLoggedIn = false,
   freemiumCapped = false,
+  totalPlayers: totalPlayersProp,
 }) {
   const router = useRouter()
   const searchParams = useSearchParams()
@@ -92,21 +91,13 @@ export default function RankingsBoard({
     setSuperflex(Boolean(initialSuperflex))
   }, [initialSuperflex])
 
-  // Re-rank instantly when scoring format or Superflex roster toggle changes
   const rankedPlayers = useMemo(
     () => rankPlayersByFormat(initialPlayers, format, { superflex }),
     [initialPlayers, format, superflex],
   )
 
-  const previewIds = useMemo(() => {
-    // Prefer format-aware top-10; fall back to server preview set
-    if (rankedPlayers.length) return previewIdsFromRanked(rankedPlayers)
-    const set = new Set()
-    for (const p of previewPlayers) {
-      set.add(`${p.position}:${p.name}`)
-    }
-    return set
-  }, [rankedPlayers, previewPlayers])
+  const totalPlayers =
+    Number(totalPlayersProp) || rankedPlayers.length || previewPlayers.length || 0
 
   const filtered = useMemo(() => {
     let list = [...rankedPlayers]
@@ -131,6 +122,11 @@ export default function RankingsBoard({
     }
     return list
   }, [rankedPlayers, position, search])
+
+  const { unlocked, blurred, showGate } = useMemo(
+    () => splitFreemiumRows(filtered, position, isLoggedIn || !freemiumCapped),
+    [filtered, position, isLoggedIn, freemiumCapped],
+  )
 
   const pushUrl = useCallback(
     ({ nextFormat, nextPos, nextSearch, nextSuperflex } = {}) => {
@@ -177,7 +173,6 @@ export default function RankingsBoard({
     setSearch(value)
   }
 
-  // Debounce search → URL so shareable links don't fight typing
   useEffect(() => {
     const t = setTimeout(() => {
       pushUrl({ nextSearch: search })
@@ -195,13 +190,20 @@ export default function RankingsBoard({
     superflex ? ' Superflex' : ''
   }`
 
-  const unlockedCount = filtered.filter(
-    (p) => !isRowLocked(p, position, isLoggedIn, previewIds),
-  ).length
+  const gated = freemiumCapped && !isLoggedIn
+
+  const countLabel = gated
+    ? position === 'ALL'
+      ? `Showing top ${FREE_ALL_LIMIT} of ${totalPlayers.toLocaleString()} players — sign in to see all`
+      : `Showing top ${FREE_POS_LIMIT} of ${filtered.length.toLocaleString()} ${position}s — sign in to see all`
+    : `Showing all ${totalPlayers.toLocaleString()} players | ${formatMeta.label} | ${DEFAULT_TEAMS}`
+
+  const gateVariant = position === 'ALL' ? 'full' : 'position'
+  const showFade = gated && showGate && unlocked.length > 0
 
   return (
-    <div>
-      {/* SECTION 1 — Rankings identifier (static) */}
+    <div className="relative">
+      {/* SECTION 1 — Rankings identifier */}
       <div
         className="flex flex-col gap-2 px-3 py-2.5 sm:flex-row sm:items-center sm:justify-between sm:gap-4 sm:px-4"
         style={{
@@ -216,6 +218,11 @@ export default function RankingsBoard({
           {initialYear} PRESEASON RANKINGS
         </h1>
         <div className="flex flex-wrap items-center gap-2">
+          {isLoggedIn && (
+            <span className="rounded-full border border-gavfather-gold/50 bg-gavfather-gold/10 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-gavfather-gold">
+              Free Member
+            </span>
+          )}
           <span className="rounded-full bg-gavfather-gold px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-gavfather-navy">
             {formatMeta.badge}
           </span>
@@ -225,7 +232,7 @@ export default function RankingsBoard({
             </span>
           )}
           <span className="rounded-full bg-gavfather-navy px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-gavfather-muted">
-            {DEFAULT_TEAMS}
+            {DEFAULT_TEAMS.toUpperCase()}
           </span>
           <span className="rounded-full bg-gavfather-navy px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-gavfather-muted">
             {DEFAULT_ROSTER}
@@ -253,7 +260,7 @@ export default function RankingsBoard({
         </div>
       )}
 
-      {/* SECTION 2 — Scoring format (always visible) */}
+      {/* SECTION 2 — Scoring format */}
       <div className="mt-3">
         <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-wider text-gavfather-muted">
           Scoring format
@@ -280,7 +287,6 @@ export default function RankingsBoard({
           })}
         </div>
 
-        {/* Superflex = roster construction, not scoring */}
         <div className="mt-3 flex flex-wrap items-center gap-3">
           <span className="text-[11px] font-semibold uppercase tracking-wider text-gavfather-muted">
             Roster
@@ -321,7 +327,7 @@ export default function RankingsBoard({
         </p>
       </div>
 
-      {/* SECTION 2b — Customize panel (collapsed by default) */}
+      {/* SECTION 2b — Customize panel */}
       <div className="mt-2">
         <div className="flex flex-wrap items-center gap-3">
           <button
@@ -396,11 +402,7 @@ export default function RankingsBoard({
         </div>
       </div>
 
-      <p className="mt-2 text-[11px] text-gavfather-muted">
-        Showing {unlockedCount}
-        {freemiumCapped ? ` of ${filtered.length}` : ''} players
-        {freemiumCapped ? ' · free preview = top 10 per position' : ''}
-      </p>
+      <p className="mt-2 text-[11px] text-gavfather-muted">{countLabel}</p>
 
       {/* Desktop table */}
       <div className="mt-3 hidden overflow-x-auto rounded-xl border border-gavfather-border md:block">
@@ -419,57 +421,108 @@ export default function RankingsBoard({
             </tr>
           </thead>
           <tbody>
-            {filtered.map((p) => {
-              const locked = isRowLocked(p, position, isLoggedIn, previewIds)
-              return (
-                <PlayerRow
-                  key={`${p.rank}-${p.name}`}
-                  player={p}
-                  locked={locked}
-                  displayRank={
-                    position === 'ALL' ? p.rank : p.positionalRank || p.rank
-                  }
+            {unlocked.map((p, i) => (
+              <PlayerRow
+                key={`${p.rank}-${p.name}`}
+                player={p}
+                locked={false}
+                displayRank={rowDisplayRank(p, position)}
+                fadeOut={showFade && i === unlocked.length - 1}
+              />
+            ))}
+
+            {/* Smooth fade from last clear row into blurred teaser */}
+            {showFade && (
+              <tr className="border-0">
+                <td colSpan={9} className="relative h-0 p-0">
+                  <div
+                    className="pointer-events-none absolute inset-x-0 -top-14 z-10 h-14 bg-gradient-to-b from-transparent to-gavfather-navy/80"
+                    aria-hidden
+                  />
+                </td>
+              </tr>
+            )}
+
+            {blurred.map((p) => (
+              <PlayerRow
+                key={`${p.rank}-${p.name}-locked`}
+                player={p}
+                locked
+                displayRank={rowDisplayRank(p, position)}
+              />
+            ))}
+
+            {gated && showGate && (
+              <>
+                <tr className="border-0">
+                  <td colSpan={9} className="relative h-0 p-0">
+                    <div
+                      className="pointer-events-none absolute inset-x-0 -top-24 z-10 h-24 bg-gradient-to-b from-transparent via-gavfather-navy/70 to-gavfather-navy"
+                      aria-hidden
+                    />
+                  </td>
+                </tr>
+                <FreemiumGate
+                  asTableRow
+                  variant={gateVariant}
+                  position={position}
+                  totalPlayers={totalPlayers}
+                  colSpan={9}
                 />
-              )
-            })}
+              </>
+            )}
           </tbody>
         </table>
       </div>
 
-      {/* Mobile: Rank, Player, Proj PPG, Injury only */}
+      {/* Mobile list */}
       <div className="mt-3 space-y-3 md:hidden">
-        {filtered.map((p) => {
-          const locked = isRowLocked(p, position, isLoggedIn, previewIds)
-          return (
-            <PlayerRow
-              key={`${p.rank}-${p.name}-m`}
-              player={p}
-              compact
-              locked={locked}
-              displayRank={
-                position === 'ALL' ? p.rank : p.positionalRank || p.rank
-              }
-            />
-          )
-        })}
-      </div>
+        {unlocked.map((p, i) => (
+          <PlayerRow
+            key={`${p.rank}-${p.name}-m`}
+            player={p}
+            compact
+            locked={false}
+            displayRank={rowDisplayRank(p, position)}
+            fadeOut={showFade && i === unlocked.length - 1}
+          />
+        ))}
 
-      {freemiumCapped && (
-        <div className="mt-8 rounded-xl border border-gavfather-gold/40 bg-gavfather-gold/10 px-5 py-6 text-center">
-          <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-full border border-gavfather-gold/50 text-gavfather-gold">
-            <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
-              <path d="M12 1a5 5 0 00-5 5v3H6a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2v-8a2 2 0 00-2-2h-1V6a5 5 0 00-5-5zm-3 8V6a3 3 0 116 0v3H9z" />
-            </svg>
+        {(blurred.length > 0 || (gated && showGate)) && (
+          <div className="relative">
+            {showFade && (
+              <div
+                className="pointer-events-none absolute inset-x-0 -top-10 z-10 h-10 bg-gradient-to-b from-transparent to-gavfather-navy/90"
+                aria-hidden
+              />
+            )}
+            <div className="space-y-3">
+              {blurred.map((p) => (
+                <PlayerRow
+                  key={`${p.rank}-${p.name}-m-locked`}
+                  player={p}
+                  compact
+                  locked
+                  displayRank={rowDisplayRank(p, position)}
+                />
+              ))}
+            </div>
+            {gated && showGate && (
+              <div className="relative z-20 -mt-8">
+                <div
+                  className="pointer-events-none absolute inset-x-0 -top-16 h-16 bg-gradient-to-b from-transparent to-gavfather-navy"
+                  aria-hidden
+                />
+                <FreemiumGate
+                  variant={gateVariant}
+                  position={position}
+                  totalPlayers={totalPlayers}
+                />
+              </div>
+            )}
           </div>
-          <p className="font-display text-lg text-gavfather-gold">
-            Sign in free to see all rankings
-          </p>
-          <p className="mt-2 text-sm text-gavfather-muted">
-            Free preview shows the top 10 at each position. Unlock the full board,
-            reliability tiers, and draft value.
-          </p>
-        </div>
-      )}
+        )}
+      </div>
 
       {!filtered.length && (
         <p className="mt-10 text-center text-gavfather-muted">

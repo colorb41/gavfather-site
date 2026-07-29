@@ -37,7 +37,7 @@ export function generateMetadata({ searchParams } = {}) {
   const formatLabel =
     format === 'ppr' ? 'PPR' : format === 'half_ppr' ? 'Half PPR' : 'Standard'
   const title = `THE GAVFATHER ${year} RANKINGS | ${formatLabel}`
-  const description = `${SITE_NAME} ${year} fantasy football preseason rankings — ${formatLabel}, 12 teams.`
+  const description = `${SITE_NAME} ${year} fantasy football preseason rankings — ${formatLabel}, 12 teams. Free preview: top 20 overall.`
   return {
     title,
     description,
@@ -64,8 +64,8 @@ export default function RankingsPage({ searchParams }) {
   const initialPos = String(searchParams?.pos || 'ALL').toUpperCase()
   const isLoggedIn = resolveLoggedIn()
 
-  // Pass full player objects (all format columns); client re-ranks instantly
   const allPlayers = liveRankingsExists() ? getLiveRankings() : []
+  const totalPlayers = allPlayers.length
   const previewPlayers = getPreviewPlayers()
   const updatedAt = getRankingsUpdatedAt(0, format, year)
   const track = getTrackRecord()
@@ -97,6 +97,7 @@ export default function RankingsPage({ searchParams }) {
         <RankingsBoard
           initialPlayers={allPlayers}
           previewPlayers={previewPlayers}
+          totalPlayers={totalPlayers}
           weeks={weeks}
           initialWeek={0}
           initialYear={year}

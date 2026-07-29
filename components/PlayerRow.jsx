@@ -94,21 +94,38 @@ function TierText({ tier }) {
   return <span className={`text-xs font-semibold ${style}`}>{t}</span>
 }
 
-function LockOverlay() {
+function LockIcon({ className = 'h-3.5 w-3.5' }) {
   return (
-    <span className="inline-flex items-center gap-1 text-gavfather-gold/80">
-      <svg className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
-        <path d="M12 1a5 5 0 00-5 5v3H6a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2v-8a2 2 0 00-2-2h-1V6a5 5 0 00-5-5zm-3 8V6a3 3 0 116 0v3H9z" />
-      </svg>
+    <svg className={className} viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+      <path d="M12 1a5 5 0 00-5 5v3H6a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2v-8a2 2 0 00-2-2h-1V6a5 5 0 00-5-5zm-3 8V6a3 3 0 116 0v3H9z" />
+    </svg>
+  )
+}
+
+function Blur({ children, active }) {
+  if (!active) return children
+  return (
+    <span className="inline-block select-none blur-[6px] saturate-50" aria-hidden>
+      {children}
     </span>
   )
 }
 
+/**
+ * Rankings row.
+ *
+ * When locked (freemium teaser):
+ * - Rank number VISIBLE
+ * - Position badge VISIBLE
+ * - Name / team / score / other stats BLURRED
+ * - Lock icon shown beside the name
+ */
 export default function PlayerRow({
   player,
   compact = false,
   locked = false,
   displayRank,
+  fadeOut = false,
 }) {
   const rank = displayRank ?? player.rank
   const rankGold = rank <= 5 ? 'text-gavfather-gold' : 'text-gavfather-muted'
@@ -125,29 +142,40 @@ export default function PlayerRow({
           locked ? 'select-none' : ''
         }`}
       >
-        <div className={`flex items-start justify-between gap-3 ${locked ? 'blur-sm' : ''}`}>
+        <div className="flex items-start justify-between gap-3">
           <div className="min-w-0">
             <div className="flex items-center gap-2">
-              <span className={`font-display text-xl font-semibold ${rankGold}`}>
-                {rank}
-              </span>
+              <span className={`font-display text-xl font-semibold ${rankGold}`}>{rank}</span>
               <PositionBadge position={player.position} />
+              {locked && (
+                <span className="text-gavfather-gold/80" title="Sign in to unlock">
+                  <LockIcon />
+                </span>
+              )}
             </div>
-            <p className="mt-1 truncate font-semibold text-gavfather-text">{player.name}</p>
+            <p className="mt-1 truncate font-semibold text-gavfather-text">
+              <Blur active={locked}>{player.name}</Blur>
+            </p>
+            <p className="mt-0.5 text-xs text-gavfather-muted">
+              <Blur active={locked}>{player.team || '—'}</Blur>
+            </p>
           </div>
           <div className="text-right">
             <p className="font-mono text-xl font-bold text-gavfather-gold">
-              {ppg.toFixed(1)}
+              <Blur active={locked}>{ppg.toFixed(1)}</Blur>
             </p>
             <div className="mt-1 flex justify-end">
-              <InjuryBadge injury={player.injury} />
+              <Blur active={locked}>
+                <InjuryBadge injury={player.injury} />
+              </Blur>
             </div>
           </div>
         </div>
-        {locked && (
-          <div className="absolute inset-0 flex items-center justify-center bg-gavfather-navy/40">
-            <LockOverlay />
-          </div>
+        {fadeOut && (
+          <div
+            className="pointer-events-none absolute inset-x-0 bottom-0 h-full bg-gradient-to-b from-transparent via-gavfather-navy/40 to-gavfather-navy"
+            aria-hidden
+          />
         )}
       </div>
     )
@@ -159,32 +187,55 @@ export default function PlayerRow({
         locked ? 'select-none' : 'hover:bg-gavfather-hover/80'
       }`}
     >
-      <td className={`px-3 py-3 font-display text-lg font-semibold ${rankGold} ${locked ? 'blur-sm' : ''}`}>
-        {locked ? <LockOverlay /> : rank}
+      {/* Rank — always visible */}
+      <td className={`px-3 py-3 font-display text-lg font-semibold ${rankGold}`}>{rank}</td>
+
+      {/* Player name — blurred when locked */}
+      <td className="px-3 py-3">
+        <div className="flex items-center gap-2">
+          {locked && (
+            <span className="shrink-0 text-gavfather-gold/80" title="Sign in to unlock">
+              <LockIcon />
+            </span>
+          )}
+          <div className="font-semibold text-gavfather-text">
+            <Blur active={locked}>{player.name}</Blur>
+          </div>
+        </div>
       </td>
-      <td className={`px-3 py-3 ${locked ? 'blur-sm' : ''}`}>
-        <div className="font-semibold text-gavfather-text">{player.name}</div>
-      </td>
-      <td className={`hidden px-3 py-3 md:table-cell ${locked ? 'blur-sm' : ''}`}>
+
+      {/* Position — always visible */}
+      <td className="hidden px-3 py-3 md:table-cell">
         <PositionBadge position={player.position} />
       </td>
-      <td className={`hidden px-3 py-3 text-sm text-gavfather-muted md:table-cell ${locked ? 'blur-sm' : ''}`}>
-        {player.team || '—'}
+
+      {/* Team — blurred when locked */}
+      <td className="hidden px-3 py-3 text-sm text-gavfather-muted md:table-cell">
+        <Blur active={locked}>{player.team || '—'}</Blur>
       </td>
-      <td className={`px-3 py-3 font-mono text-base font-bold text-gavfather-gold ${locked ? 'blur-sm' : ''}`}>
-        {ppg.toFixed(1)}
+
+      {/* Score — blurred when locked */}
+      <td className="px-3 py-3 font-mono text-base font-bold text-gavfather-gold">
+        <Blur active={locked}>{ppg.toFixed(1)}</Blur>
       </td>
-      <td className={`hidden px-3 py-3 md:table-cell ${locked ? 'blur-sm' : ''}`}>
-        <ReliabilityBadge value={player.reliability} />
+
+      <td className="hidden px-3 py-3 md:table-cell">
+        <Blur active={locked}>
+          <ReliabilityBadge value={player.reliability} />
+        </Blur>
       </td>
-      <td className={`hidden px-3 py-3 font-mono text-sm text-gavfather-text md:table-cell ${locked ? 'blur-sm' : ''}`}>
-        {sit}
+      <td className="hidden px-3 py-3 font-mono text-sm text-gavfather-text md:table-cell">
+        <Blur active={locked}>{sit}</Blur>
       </td>
-      <td className={`px-3 py-3 text-xs ${locked ? 'blur-sm' : ''}`}>
-        <InjuryBadge injury={player.injury} />
+      <td className="px-3 py-3 text-xs">
+        <Blur active={locked}>
+          <InjuryBadge injury={player.injury} />
+        </Blur>
       </td>
-      <td className={`hidden px-3 py-3 md:table-cell ${locked ? 'blur-sm' : ''}`}>
-        <TierText tier={player.tier} />
+      <td className="hidden px-3 py-3 md:table-cell">
+        <Blur active={locked}>
+          <TierText tier={player.tier} />
+        </Blur>
       </td>
     </tr>
   )
