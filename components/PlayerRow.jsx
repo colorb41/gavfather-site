@@ -1,184 +1,191 @@
 'use client'
 
-import { useState } from 'react'
-import OutlookBadge from './OutlookBadge'
 import PositionBadge from './PositionBadge'
-import StatTooltip from './StatTooltip'
 
-function matchupLetter(grade) {
-  const g = Number(grade) || 0
-  if (g >= 80) return { letter: 'A', className: 'text-gavfather-smash' }
-  if (g >= 65) return { letter: 'B', className: 'text-gavfather-play' }
-  if (g >= 50) return { letter: 'C', className: 'text-orange-400' }
-  return { letter: g >= 35 ? 'D' : 'F', className: 'text-gavfather-fade' }
+const RELIABILITY_STYLES = {
+  PROVEN_ELITE: 'bg-gavfather-gold/20 text-gavfather-gold border-gavfather-gold/40',
+  EMERGING_ELITE: 'bg-gavfather-gold/20 text-gavfather-gold border-gavfather-gold/40',
+  PROVEN_SOLID: 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40',
+  EMERGING: 'bg-sky-500/20 text-sky-300 border-sky-500/40',
+  INJURY_RISK: 'bg-red-500/20 text-red-300 border-red-500/40',
+  UNPROVEN: 'bg-zinc-500/20 text-zinc-300 border-zinc-500/40',
+  VOLATILE: 'bg-orange-500/20 text-orange-300 border-orange-500/40',
+  BASELINE: 'bg-zinc-500/20 text-zinc-300 border-zinc-500/40',
 }
 
-function rowAccent(player) {
-  const injured = player.injury && !/healthy|active/i.test(player.injury)
-  if (injured) return 'border-l-gavfather-fade'
-  if (player.outlook === 'SMASH') return 'border-l-gavfather-smash'
-  if (String(player.outlook).includes('FADE')) return 'border-l-gavfather-fade'
-  if (player.rank <= 5) return 'border-l-gavfather-gold'
-  return 'border-l-transparent'
+const TIER_STYLES = {
+  Elite: 'text-gavfather-gold',
+  QB1: 'text-emerald-300',
+  'RB1/2': 'text-emerald-300',
+  'WR1/2': 'text-emerald-300',
+  TE1: 'text-emerald-300',
+  'TE1/2': 'text-emerald-300',
+  QB2: 'text-sky-300',
+  RB3: 'text-sky-300',
+  WR3: 'text-sky-300',
+  TE2: 'text-sky-300',
+  Streamable: 'text-gavfather-muted',
+  Streamer: 'text-gavfather-muted',
+  Flex: 'text-gavfather-muted',
+  Handcuff: 'text-gavfather-muted',
+  Deep: 'text-gavfather-muted',
+  Avoid: 'text-gavfather-fade',
 }
 
-export default function PlayerRow({ player, compact = false }) {
-  const [open, setOpen] = useState(false)
-  const matchup = matchupLetter(player.matchupGrade)
-  const injured = player.injury && !/healthy|active/i.test(player.injury)
-  const accent = rowAccent(player)
-  const rankGold = player.rank <= 5 ? 'text-gavfather-gold' : 'text-gavfather-muted'
+function ReliabilityBadge({ value }) {
+  const key = String(value || '').toUpperCase().replace(/\s+/g, '_')
+  if (!key || key === '—' || key === '-') {
+    return <span className="text-gavfather-muted/50">—</span>
+  }
+  const style = RELIABILITY_STYLES[key] || RELIABILITY_STYLES.UNPROVEN
+  const label = key.replace(/_/g, ' ')
+  return (
+    <span
+      className={`inline-flex max-w-[140px] truncate rounded border px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wide ${style}`}
+      title={label}
+    >
+      {label}
+    </span>
+  )
+}
+
+function InjuryBadge({ injury }) {
+  const raw = String(injury || '').trim()
+  if (!raw || /^healthy$/i.test(raw) || /^active$/i.test(raw)) {
+    return <span className="text-gavfather-muted/40">—</span>
+  }
+  const lower = raw.toLowerCase()
+  if (lower.includes('questionable') || lower === 'q') {
+    return (
+      <span className="rounded bg-yellow-500/20 px-1.5 py-0.5 text-[10px] font-bold text-yellow-300">
+        Q
+      </span>
+    )
+  }
+  if (lower.includes('doubtful') || lower === 'd') {
+    return (
+      <span className="rounded bg-orange-500/20 px-1.5 py-0.5 text-[10px] font-bold text-orange-300">
+        D
+      </span>
+    )
+  }
+  if (
+    lower.includes('out') ||
+    lower === 'ir' ||
+    lower.includes('injured reserve') ||
+    lower.includes('pup')
+  ) {
+    return (
+      <span className="rounded bg-red-500/20 px-1.5 py-0.5 text-[10px] font-bold text-red-300">
+        OUT
+      </span>
+    )
+  }
+  return (
+    <span className="rounded bg-gavfather-fade/20 px-1.5 py-0.5 text-[10px] font-medium text-gavfather-fade">
+      {raw.length > 12 ? `${raw.slice(0, 12)}…` : raw}
+    </span>
+  )
+}
+
+function TierText({ tier }) {
+  const t = String(tier || '—')
+  const style = TIER_STYLES[t] || 'text-gavfather-muted'
+  return <span className={`text-xs font-semibold ${style}`}>{t}</span>
+}
+
+function LockOverlay() {
+  return (
+    <span className="inline-flex items-center gap-1 text-gavfather-gold/80">
+      <svg className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+        <path d="M12 1a5 5 0 00-5 5v3H6a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2v-8a2 2 0 00-2-2h-1V6a5 5 0 00-5-5zm-3 8V6a3 3 0 116 0v3H9z" />
+      </svg>
+    </span>
+  )
+}
+
+export default function PlayerRow({
+  player,
+  compact = false,
+  locked = false,
+  displayRank,
+}) {
+  const rank = displayRank ?? player.rank
+  const rankGold = rank <= 5 ? 'text-gavfather-gold' : 'text-gavfather-muted'
+  const ppg = Number(player.score ?? player.projectedPpg ?? 0)
+  const sit =
+    player.situation == null || Number.isNaN(Number(player.situation))
+      ? '—'
+      : Number(player.situation).toFixed(1)
 
   if (compact) {
     return (
-      <button
-        type="button"
-        onClick={() => setOpen((v) => !v)}
-        className={`w-full rounded-xl border border-gavfather-border border-l-4 ${accent} bg-gavfather-slate p-4 text-left transition hover:bg-gavfather-hover`}
+      <div
+        className={`relative w-full overflow-hidden rounded-xl border border-gavfather-border bg-gavfather-slate p-4 text-left ${
+          locked ? 'select-none' : ''
+        }`}
       >
-        <div className="flex items-start justify-between gap-3">
+        <div className={`flex items-start justify-between gap-3 ${locked ? 'blur-sm' : ''}`}>
           <div className="min-w-0">
             <div className="flex items-center gap-2">
               <span className={`font-display text-xl font-semibold ${rankGold}`}>
-                {player.rank}
+                {rank}
               </span>
               <PositionBadge position={player.position} />
-              <OutlookBadge outlook={player.outlook} />
             </div>
             <p className="mt-1 truncate font-semibold text-gavfather-text">{player.name}</p>
-            <p className="text-xs text-gavfather-muted">
-              {player.team}
-              {player.opponent ? ` vs ${player.opponent}` : ''}
-            </p>
           </div>
           <div className="text-right">
             <p className="font-mono text-xl font-bold text-gavfather-gold">
-              {Number(player.finalScore).toFixed(1)}
+              {ppg.toFixed(1)}
             </p>
-            <p className={`text-xs font-semibold ${matchup.className}`}>
-              {matchup.letter} ({Number(player.matchupGrade).toFixed(0)})
-            </p>
+            <div className="mt-1 flex justify-end">
+              <InjuryBadge injury={player.injury} />
+            </div>
           </div>
         </div>
-        {injured && (
-          <p className="mt-2 text-xs font-medium text-gavfather-fade">{player.injury}</p>
+        {locked && (
+          <div className="absolute inset-0 flex items-center justify-center bg-gavfather-navy/40">
+            <LockOverlay />
+          </div>
         )}
-        {player.topFactor1 && (
-          <p className="mt-2 truncate text-xs italic text-gavfather-muted">{player.topFactor1}</p>
-        )}
-        {open && <ExpandedScores player={player} />}
-      </button>
+      </div>
     )
   }
 
   return (
-    <>
-      <tr
-        onClick={() => setOpen((v) => !v)}
-        className={`cursor-pointer border-b border-gavfather-border border-l-4 ${accent} transition hover:bg-gavfather-hover/80`}
-      >
-        <td className={`px-3 py-3 font-display text-lg font-semibold ${rankGold}`}>
-          {player.rank}
-        </td>
-        <td className="px-3 py-3">
-          <div className="font-semibold text-gavfather-text">{player.name}</div>
-          <div className="text-xs text-gavfather-muted">{player.team}</div>
-        </td>
-        <td className="px-3 py-3">
-          <PositionBadge position={player.position} />
-        </td>
-        <td className="px-3 py-3 text-sm text-gavfather-muted">
-          {player.opponent || '—'}
-        </td>
-        <td className={`px-3 py-3 font-mono text-sm font-semibold ${matchup.className}`}>
-          <StatTooltip label={`Matchup grade ${Number(player.matchupGrade).toFixed(1)} / 100`}>
-            {matchup.letter}
-          </StatTooltip>
-        </td>
-        <td className="px-3 py-3 text-xs">
-          {injured ? (
-            <span className="rounded bg-gavfather-fade/20 px-1.5 py-0.5 font-medium text-gavfather-fade">
-              {player.injury}
-            </span>
-          ) : (
-            <span className="text-gavfather-muted/50">—</span>
-          )}
-        </td>
-        <td className="px-3 py-3 font-mono text-base font-bold text-gavfather-gold">
-          {Number(player.finalScore).toFixed(1)}
-        </td>
-        <td className="px-3 py-3">
-          <OutlookBadge outlook={player.outlook} />
-        </td>
-        <td className="max-w-[220px] truncate px-3 py-3 text-xs italic text-gavfather-muted">
-          {player.topFactor1 || '—'}
-        </td>
-      </tr>
-      {open && (
-        <tr className="border-b border-gavfather-border bg-gavfather-navy/60">
-          <td colSpan={9} className="px-4 py-4">
-            <ExpandedScores player={player} />
-          </td>
-        </tr>
-      )}
-    </>
-  )
-}
-
-function ExpandedScores({ player }) {
-  const scores = [
-    { label: 'Edge', value: player.edgeScore },
-    { label: 'Hidden', value: player.hiddenScore },
-    { label: 'Research', value: player.researchScore },
-    { label: 'Contextual', value: player.contextualScore },
-    { label: 'Final', value: player.finalScore, highlight: true },
-  ]
-
-  return (
-    <div className="animate-[fadeIn_0.2s_ease]">
-      <div className="grid grid-cols-2 gap-2 sm:grid-cols-5">
-        {scores.map((s) => (
-          <div
-            key={s.label}
-            className={`rounded-lg border px-3 py-2 ${
-              s.highlight
-                ? 'border-gavfather-gold/40 bg-gavfather-gold/10'
-                : 'border-gavfather-border bg-gavfather-slate'
-            }`}
-          >
-            <div className="text-[10px] uppercase tracking-wider text-gavfather-muted">
-              {s.label}
-            </div>
-            <div
-              className={`font-mono text-lg font-bold ${
-                s.highlight ? 'text-gavfather-gold' : 'text-gavfather-text'
-              }`}
-            >
-              {Number(s.value).toFixed(1)}
-            </div>
-          </div>
-        ))}
-      </div>
-      <div className="mt-3 grid gap-2 text-sm text-gavfather-muted md:grid-cols-2">
-        <p>
-          <span className="text-gavfather-gold">Factor 1:</span>{' '}
-          {player.topFactor1 || '—'}
-        </p>
-        <p>
-          <span className="text-gavfather-gold">Factor 2:</span>{' '}
-          {player.topFactor2 || '—'}
-        </p>
-        {player.byeWeek && (
-          <p>
-            <span className="text-gavfather-gold">Bye:</span> Week {player.byeWeek}
-          </p>
-        )}
-        {player.injury && (
-          <p>
-            <span className="text-gavfather-gold">Injury:</span> {player.injury}
-          </p>
-        )}
-      </div>
-    </div>
+    <tr
+      className={`relative border-b border-gavfather-border transition ${
+        locked ? 'select-none' : 'hover:bg-gavfather-hover/80'
+      }`}
+    >
+      <td className={`px-3 py-3 font-display text-lg font-semibold ${rankGold} ${locked ? 'blur-sm' : ''}`}>
+        {locked ? <LockOverlay /> : rank}
+      </td>
+      <td className={`px-3 py-3 ${locked ? 'blur-sm' : ''}`}>
+        <div className="font-semibold text-gavfather-text">{player.name}</div>
+      </td>
+      <td className={`hidden px-3 py-3 md:table-cell ${locked ? 'blur-sm' : ''}`}>
+        <PositionBadge position={player.position} />
+      </td>
+      <td className={`hidden px-3 py-3 text-sm text-gavfather-muted md:table-cell ${locked ? 'blur-sm' : ''}`}>
+        {player.team || '—'}
+      </td>
+      <td className={`px-3 py-3 font-mono text-base font-bold text-gavfather-gold ${locked ? 'blur-sm' : ''}`}>
+        {ppg.toFixed(1)}
+      </td>
+      <td className={`hidden px-3 py-3 md:table-cell ${locked ? 'blur-sm' : ''}`}>
+        <ReliabilityBadge value={player.reliability} />
+      </td>
+      <td className={`hidden px-3 py-3 font-mono text-sm text-gavfather-text md:table-cell ${locked ? 'blur-sm' : ''}`}>
+        {sit}
+      </td>
+      <td className={`px-3 py-3 text-xs ${locked ? 'blur-sm' : ''}`}>
+        <InjuryBadge injury={player.injury} />
+      </td>
+      <td className={`hidden px-3 py-3 md:table-cell ${locked ? 'blur-sm' : ''}`}>
+        <TierText tier={player.tier} />
+      </td>
+    </tr>
   )
 }

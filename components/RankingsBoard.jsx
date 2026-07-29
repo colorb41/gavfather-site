@@ -6,34 +6,52 @@ import PlayerRow from './PlayerRow'
 import ShareButtons from './ShareButtons'
 
 const POSITIONS = ['ALL', 'QB', 'RB', 'WR', 'TE']
-const FORMAT_LABELS = {
-  ppr: 'PPR',
-  half_ppr: 'Half PPR',
-  standard: 'Standard',
-}
-const SORTS = [
-  { id: 'final', label: 'Final Score' },
-  { id: 'edge', label: 'Edge Score' },
-  { id: 'matchup', label: 'Matchup Grade' },
-  { id: 'adp', label: 'ADP Diff' },
+const FORMAT_PRESETS = [
+  { id: 'half_ppr', label: 'Half PPR' },
+  { id: 'ppr', label: 'PPR' },
+  { id: 'standard', label: 'Standard' },
+  { id: 'superflex', label: 'Superflex' },
 ]
+
+function formatUpdated(updatedAt) {
+  if (!updatedAt) return 'July 2026'
+  try {
+    const d = new Date(updatedAt)
+    if (Number.isNaN(d.getTime())) return 'July 2026'
+    return d.toLocaleDateString('en-US', { month: 'long', year: 'numeric' })
+  } catch {
+    return 'July 2026'
+  }
+}
+
+/**
+ * Freemium: first 10 at the active position are unlocked.
+ * On ALL tab, unlock the preview set (top 10 per position).
+ */
+function isRowLocked(player, position, isLoggedIn, previewIds) {
+  if (isLoggedIn) return false
+  if (position === 'ALL') return !previewIds.has(`${player.position}:${player.name}`)
+  // Position tab — lock after positional rank 10
+  return (player.positionalRank || 999) > 10
+}
 
 export default function RankingsBoard({
   initialPlayers,
+  previewPlayers = [],
   weeks,
   initialWeek,
   initialYear,
   initialFormat,
   updatedAt,
   fantasyPros,
+  isLoggedIn = false,
+  freemiumCapped = false,
 }) {
   const router = useRouter()
   const searchParams = useSearchParams()
   const [position, setPosition] = useState('ALL')
   const [search, setSearch] = useState(searchParams.get('search') || '')
-  const [sort, setSort] = useState('final')
-  const [format, setFormat] = useState(initialFormat || 'ppr')
-  const [weekKey, setWeekKey] = useState(`${initialYear}-${initialWeek}`)
+  const [format, setFormat] = useState(initialFormat || 'half_ppr')
 
   useEffect(() => {
     const q = searchParams.get('search')
@@ -41,23 +59,29 @@ export default function RankingsBoard({
   }, [searchParams])
 
   useEffect(() => {
-    setFormat(initialFormat || 'ppr')
-    setWeekKey(`${initialYear}-${initialWeek}`)
-  }, [initialFormat, initialWeek, initialYear])
+    setFormat(initialFormat || 'half_ppr')
+  }, [initialFormat])
 
-  const availableFormats = useMemo(() => {
-    const week = weeks.find((w) => w.week === initialWeek && w.year === initialYear)
-    const formats = week?.formats?.length ? week.formats : ['ppr']
-    return formats.map((id) => ({
-      id,
-      label: FORMAT_LABELS[id] || id.toUpperCase(),
-    }))
-  }, [weeks, initialWeek, initialYear])
+  const previewIds = useMemo(() => {
+    const set = new Set()
+    for (const p of previewPlayers) {
+      set.add(`${p.position}:${p.name}`)
+    }
+    return set
+  }, [previewPlayers])
 
   const filtered = useMemo(() => {
     let list = [...initialPlayers]
     if (position !== 'ALL') {
       list = list.filter((p) => p.position === position)
+      // Position tab: sort by positional PPG rank (best QB first), not overall
+      list.sort(
+        (a, b) =>
+          (a.positionalRank || 999) - (b.positionalRank || 999) ||
+          b.projectedPpg - a.projectedPpg,
+      )
+    } else {
+      list.sort((a, b) => a.rank - b.rank)
     }
     if (search.trim()) {
       const q = search.trim().toLowerCase()
@@ -67,206 +91,204 @@ export default function RankingsBoard({
           p.team.toLowerCase().includes(q),
       )
     }
-    list.sort((a, b) => {
-      if (sort === 'edge') return b.edgeScore - a.edgeScore
-      if (sort === 'matchup') return b.matchupGrade - a.matchupGrade
-      if (sort === 'adp') return b.adpDiff - a.adpDiff
-      return b.finalScore - a.finalScore
-    })
     return list
-  }, [initialPlayers, position, search, sort])
-
-  function onWeekChange(value) {
-    setWeekKey(value)
-    const [year, week] = value.split('-')
-    const nextWeek = weeks.find((w) => String(w.year) === year && String(w.week) === week)
-    const nextFormat =
-      nextWeek?.formats?.includes(format) ? format : nextWeek?.formats?.[0] || 'ppr'
-    setFormat(nextFormat)
-    const params = new URLSearchParams()
-    params.set('week', week)
-    params.set('year', year)
-    params.set('format', nextFormat)
-    router.push(`/rankings?${params.toString()}`)
-  }
+  }, [initialPlayers, position, search])
 
   function onFormatChange(next) {
     setFormat(next)
-    const [year, week] = weekKey.split('-')
     const params = new URLSearchParams()
-    params.set('week', week)
-    params.set('year', year)
+    params.set('week', String(initialWeek ?? 0))
+    params.set('year', String(initialYear ?? 2026))
     params.set('format', next)
     router.push(`/rankings?${params.toString()}`)
   }
 
-  const updatedLabel = updatedAt
-    ? new Date(updatedAt).toLocaleDateString('en-US', {
-        month: 'short',
-        day: 'numeric',
-        year: 'numeric',
-      })
-    : '—'
-
+  const updatedLabel = formatUpdated(updatedAt)
   const sharePath = `/rankings?week=${initialWeek}&year=${initialYear}&format=${format}`
-  const isDraft = Number(initialWeek) === 0
-  const shareTitle = isDraft
-    ? `The Gavfather Rankings — ${initialYear} Draft Rankings`
-    : `The Gavfather Rankings — Week ${initialWeek} (${initialYear})`
-  const boardLabel = isDraft
-    ? `${initialYear} Draft Rankings`
-    : `Week ${initialWeek}`
+  const shareTitle = `The Gavfather ${initialYear} Rankings — Half PPR`
+
+  const unlockedCount = filtered.filter(
+    (p) => !isRowLocked(p, position, isLoggedIn, previewIds),
+  ).length
 
   return (
     <div>
       <div className="flex flex-col gap-3 border-b border-gavfather-border pb-6 md:flex-row md:items-end md:justify-between">
         <div>
           <h1 className="font-display text-3xl font-semibold tracking-wide text-gavfather-gold md:text-5xl">
-            THE GAVFATHER RANKINGS
+            THE GAVFATHER {initialYear} RANKINGS
           </h1>
-          <p className="mt-2 text-sm text-gavfather-muted">
-            {boardLabel} | Updated {updatedLabel}
+          <p className="mt-2 text-sm text-gavfather-text">
+            Half PPR | Preseason | Updated {updatedLabel}
           </p>
+          <div className="mt-3 flex flex-wrap items-center gap-2">
+            <span className="rounded-md bg-gavfather-gold px-3 py-1.5 text-xs font-bold uppercase tracking-widest text-gavfather-navy">
+              HALF PPR
+            </span>
+            <span className="text-xs text-gavfather-muted">
+              Adjust scoring with the panel below
+            </span>
+          </div>
           {fantasyPros?.submitted && (
             fantasyPros.url ? (
               <a
                 href={fantasyPros.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-2 inline-flex items-center gap-2 rounded-full border border-gavfather-gold/30 bg-gavfather-gold/10 px-3 py-1 text-xs font-medium text-gavfather-gold transition hover:bg-gavfather-gold/20"
+                className="mt-3 inline-flex items-center gap-2 rounded-full border border-gavfather-gold/30 bg-gavfather-gold/10 px-3 py-1 text-xs font-medium text-gavfather-gold transition hover:bg-gavfather-gold/20"
               >
                 {fantasyPros.label || 'Submitted to FantasyPros ECR'} ↗
               </a>
             ) : (
-              <p className="mt-2 inline-flex items-center gap-2 rounded-full border border-gavfather-gold/30 bg-gavfather-gold/10 px-3 py-1 text-xs font-medium text-gavfather-gold">
+              <p className="mt-3 inline-flex items-center gap-2 rounded-full border border-gavfather-gold/30 bg-gavfather-gold/10 px-3 py-1 text-xs font-medium text-gavfather-gold">
                 {fantasyPros.label || 'Submitted to FantasyPros ECR'}
               </p>
             )
           )}
         </div>
-        <ShareButtons title={shareTitle} path={sharePath} label="Copy week link" />
+        <ShareButtons title={shareTitle} path={sharePath} label="Copy rankings link" />
       </div>
 
-      <div className="mt-6 space-y-4 rounded-xl border border-gavfather-border bg-gavfather-slate p-4">
-        <div className="flex flex-col gap-3 lg:flex-row lg:items-center">
-          <label className="text-xs uppercase tracking-wider text-gavfather-muted">
-            Week
-            <select
-              value={weekKey}
-              onChange={(e) => onWeekChange(e.target.value)}
-              className="mt-1 block w-full rounded-md border border-gavfather-border bg-gavfather-navy px-3 py-2 text-sm text-gavfather-text outline-none focus:border-gavfather-gold lg:w-48"
+      {/* Scoring presets */}
+      <div className="mt-6 rounded-xl border border-gavfather-border bg-gavfather-slate p-4">
+        <p className="text-xs uppercase tracking-wider text-gavfather-muted">
+          Scoring format
+        </p>
+        <div className="mt-2 flex flex-wrap gap-2">
+          {FORMAT_PRESETS.map((f) => (
+            <button
+              key={f.id}
+              type="button"
+              onClick={() => onFormatChange(f.id)}
+              className={`rounded-md px-3 py-1.5 text-xs font-bold transition ${
+                format === f.id
+                  ? 'bg-gavfather-gold text-gavfather-navy'
+                  : 'bg-gavfather-navy text-gavfather-muted hover:text-gavfather-text'
+              }`}
             >
-              {weeks.map((w) => (
-                <option key={`${w.year}-${w.week}`} value={`${w.year}-${w.week}`}>
-                  {w.label}
-                </option>
-              ))}
-            </select>
-          </label>
+              {f.label}
+            </button>
+          ))}
+        </div>
+        {format === 'superflex' && (
+          <p className="mt-3 text-xs text-gavfather-gold">
+            Superflex rankings coming — enter your league settings to customize
+          </p>
+        )}
+        {format !== 'half_ppr' && format !== 'superflex' && (
+          <p className="mt-3 text-xs text-gavfather-muted">
+            Showing Half PPR projections — {FORMAT_PRESETS.find((x) => x.id === format)?.label}{' '}
+            board customization coming soon.
+          </p>
+        )}
+      </div>
 
+      <div className="mt-4 space-y-4 rounded-xl border border-gavfather-border bg-gavfather-slate p-4">
+        <div className="flex flex-col gap-3 lg:flex-row lg:items-center">
           <label className="flex-1 text-xs uppercase tracking-wider text-gavfather-muted">
             Search
             <input
               type="search"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              placeholder="Filter players…"
+              placeholder="Search player name…"
               className="mt-1 block w-full rounded-md border border-gavfather-border bg-gavfather-navy px-3 py-2 text-sm text-gavfather-text outline-none placeholder:text-gavfather-muted/50 focus:border-gavfather-gold"
             />
           </label>
-
-          <label className="text-xs uppercase tracking-wider text-gavfather-muted">
-            Sort
-            <select
-              value={sort}
-              onChange={(e) => setSort(e.target.value)}
-              className="mt-1 block w-full rounded-md border border-gavfather-border bg-gavfather-navy px-3 py-2 text-sm text-gavfather-text outline-none focus:border-gavfather-gold lg:w-44"
-            >
-              {SORTS.map((s) => (
-                <option key={s.id} value={s.id}>
-                  {s.label}
-                </option>
-              ))}
-            </select>
-          </label>
         </div>
 
-        <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-          <div className="flex flex-wrap gap-1">
-            {POSITIONS.map((pos) => (
-              <button
-                key={pos}
-                type="button"
-                onClick={() => setPosition(pos)}
-                className={`rounded-md px-3 py-1.5 text-xs font-bold tracking-wide transition ${
-                  position === pos
-                    ? 'border-b-2 border-gavfather-gold text-gavfather-gold'
-                    : 'text-gavfather-muted hover:text-gavfather-text'
-                }`}
-              >
-                {pos}
-              </button>
-            ))}
-          </div>
-          <div className="flex items-center gap-2">
-            {availableFormats.length === 1 ? (
-              <span className="rounded-md bg-gavfather-gold px-3 py-1.5 text-xs font-bold text-gavfather-navy">
-                {availableFormats[0].label}
-              </span>
-            ) : (
-              availableFormats.map((f) => (
-                <button
-                  key={f.id}
-                  type="button"
-                  onClick={() => onFormatChange(f.id)}
-                  className={`rounded-md px-3 py-1.5 text-xs font-bold transition ${
-                    format === f.id
-                      ? 'bg-gavfather-gold text-gavfather-navy'
-                      : 'bg-gavfather-navy text-gavfather-muted hover:text-gavfather-text'
-                  }`}
-                >
-                  {f.label}
-                </button>
-              ))
-            )}
-          </div>
+        <div className="flex flex-wrap gap-1">
+          {POSITIONS.map((pos) => (
+            <button
+              key={pos}
+              type="button"
+              onClick={() => setPosition(pos)}
+              className={`rounded-md px-3 py-1.5 text-xs font-bold tracking-wide transition ${
+                position === pos
+                  ? 'border-b-2 border-gavfather-gold text-gavfather-gold'
+                  : 'text-gavfather-muted hover:text-gavfather-text'
+              }`}
+            >
+              {pos}
+            </button>
+          ))}
         </div>
       </div>
 
       <p className="mt-4 text-xs text-gavfather-muted">
-        Showing {filtered.length} players · click a row to expand scores
+        Showing {unlockedCount}
+        {freemiumCapped ? ` of ${filtered.length}` : ''} players
+        {freemiumCapped ? ' · free preview = top 10 per position' : ''}
       </p>
 
       {/* Desktop table */}
       <div className="mt-4 hidden overflow-x-auto rounded-xl border border-gavfather-border md:block">
-        <table className="w-full min-w-[900px] text-left">
+        <table className="w-full min-w-[960px] text-left">
           <thead className="bg-gavfather-slate text-[11px] uppercase tracking-wider text-gavfather-muted">
             <tr>
               <th className="px-3 py-3">Rank</th>
               <th className="px-3 py-3">Player</th>
               <th className="px-3 py-3">Pos</th>
-              <th className="px-3 py-3">Opp</th>
-              <th className="px-3 py-3">Matchup</th>
+              <th className="px-3 py-3">Team</th>
+              <th className="px-3 py-3">Proj PPG</th>
+              <th className="px-3 py-3">Reliability</th>
+              <th className="px-3 py-3">Situation</th>
               <th className="px-3 py-3">Injury</th>
-              <th className="px-3 py-3">Score</th>
-              <th className="px-3 py-3">Outlook</th>
-              <th className="px-3 py-3">Top Factor</th>
+              <th className="px-3 py-3">Tier</th>
             </tr>
           </thead>
           <tbody>
-            {filtered.map((p) => (
-              <PlayerRow key={`${p.rank}-${p.name}`} player={p} />
-            ))}
+            {filtered.map((p) => {
+              const locked = isRowLocked(p, position, isLoggedIn, previewIds)
+              return (
+                <PlayerRow
+                  key={`${p.rank}-${p.name}`}
+                  player={p}
+                  locked={locked}
+                  displayRank={
+                    position === 'ALL' ? p.rank : p.positionalRank || p.rank
+                  }
+                />
+              )
+            })}
           </tbody>
         </table>
       </div>
 
-      {/* Mobile cards */}
+      {/* Mobile: Rank, Player, Proj PPG, Injury only */}
       <div className="mt-4 space-y-3 md:hidden">
-        {filtered.map((p) => (
-          <PlayerRow key={`${p.rank}-${p.name}-m`} player={p} compact />
-        ))}
+        {filtered.map((p) => {
+          const locked = isRowLocked(p, position, isLoggedIn, previewIds)
+          return (
+            <PlayerRow
+              key={`${p.rank}-${p.name}-m`}
+              player={p}
+              compact
+              locked={locked}
+              displayRank={
+                position === 'ALL' ? p.rank : p.positionalRank || p.rank
+              }
+            />
+          )
+        })}
       </div>
+
+      {freemiumCapped && (
+        <div className="mt-8 rounded-xl border border-gavfather-gold/40 bg-gavfather-gold/10 px-5 py-6 text-center">
+          <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-full border border-gavfather-gold/50 text-gavfather-gold">
+            <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+              <path d="M12 1a5 5 0 00-5 5v3H6a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2v-8a2 2 0 00-2-2h-1V6a5 5 0 00-5-5zm-3 8V6a3 3 0 116 0v3H9z" />
+            </svg>
+          </div>
+          <p className="font-display text-lg text-gavfather-gold">
+            Sign in free to see all rankings
+          </p>
+          <p className="mt-2 text-sm text-gavfather-muted">
+            Free preview shows the top 10 at each position. Unlock the full board,
+            reliability tiers, and draft value.
+          </p>
+        </div>
+      )}
 
       {!filtered.length && (
         <p className="mt-10 text-center text-gavfather-muted">

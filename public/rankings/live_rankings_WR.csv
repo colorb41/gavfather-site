@@ -1,386 +1,386 @@
-Rank,Name,Team,Position,Proj_PPG,Tier,Live_Status,Injury_Flag,Age,Data_Basis
-14,Ja'Marr Chase,CIN,WR,19.94,Elite,,,26.5,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[75->+7.5%]
-16,Amon-Ra St. Brown,DET,WR,19.64,Elite,,,26.9,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[88->+11.4%]
-19,Puka Nacua,LA,WR,19.05,Elite,,,25.3,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[62->+3.8%]
-31,CeeDee Lamb,DAL,WR,16.19,Elite,,,27.4,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[50->-0.1%]
-35,A.J. Brown,PHI,WR,15.37,Elite,,,29.2,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[85->+10.5%]
-39,Drake London,ATL,WR,14.65,Elite,,,25.1,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[76->+7.8%]
-42,Rashee Rice,KC,WR,14.31,Elite,,,26.4,2025*0.50+2023*0.20+rel[INJURY_RISK*0.96]+sit[72->+6.6%]
-45,Justin Jefferson,MIN,WR,14.22,Elite,,,27.2,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[51->+0.3%]
-48,Jaxon Smith-Njigba,SEA,WR,13.86,Elite,,,24.5,2025*0.50+2024*0.30+2023*0.20+rel[EMERGING*1.03]+sit[48->-0.6%]
-54,DeVonta Smith,PHI,WR,13.32,Elite,,,27.8,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[85->+10.5%]
-55,Nico Collins,HOU,WR,13.3,Elite,,,27.5,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[59->+2.8%]
-57,George Pickens,DAL,WR,13.0,Elite,,,25.5,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[50->+0.1%]
-59,Tee Higgins,CIN,WR,12.99,WR1/2,,,27.6,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[75->+7.5%]
-61,Zay Flowers,BAL,WR,12.93,WR1/2,,,26.0,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[78->+8.4%]
-65,Terry McLaurin,WAS,WR,12.61,WR1/2,,,31.0,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[64->+4.2%]
-68,DK Metcalf,PIT,WR,12.34,WR1/2,,,28.7,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[61->+3.4%]
-71,DJ Moore,CHI,WR,12.33,WR1/2,,,29.4,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[58->+2.4%]
-74,Malik Nabers,NYG,WR,12.29,WR1/2,,,23.1,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[59->+2.8%]
-75,Chris Olave,NO,WR,12.02,WR1/2,,,26.2,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[47->-0.8%]
-80,Jaylen Waddle,MIA,WR,11.66,WR1/2,,,27.8,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[74->+7.2%]
-86,Garrett Wilson,NYJ,WR,11.46,WR1/2,,,26.1,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[35->-4.5%]
-88,Michael Pittman,IND,WR,11.19,WR1/2,,,28.9,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[61->+3.2%]
-89,Tyreek Hill,MIA,WR,11.24,WR1/2,,,32.5,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[74->+7.2%]
-90,Jameson Williams,DET,WR,11.15,WR1/2,,,25.4,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[88->+11.4%]
-91,Courtland Sutton,DEN,WR,11.11,WR3,,,30.9,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[71->+6.2%]
-98,Davante Adams,NYJ,WR,10.56,WR3,,,33.7,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[35->-4.5%]
-113,Chris Godwin Jr.,TB,WR,10.45,WR3,,,30.5,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[66->+4.9%]
-114,Ladd McConkey,LAC,WR,10.42,WR3,,,24.8,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[70->+6.0%]
-115,Mike Evans,TB,WR,10.37,WR3,,,33.0,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[67->+5.0%]
-119,Stefon Diggs,NE,WR,10.18,WR3,,,32.8,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[38->-3.6%]
-120,Romeo Doubs,GB,WR,10.13,WR3,,,26.4,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[54->+1.3%]
-122,Jordan Addison,MIN,WR,10.22,WR3,,,24.6,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[46->-1.1%]
-123,Deebo Samuel Sr.,WAS,WR,10.16,WR3,,,30.6,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[64->+4.0%]
-127,Christian Watson,GB,WR,9.97,WR3,,,27.3,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[53->+1.0%]
-131,Wan'Dale Robinson,NYG,WR,10.01,WR3,,,25.7,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[61->+3.2%]
-133,T.Dell,HOU,WR,9.87,WR3,,,26.8,2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[55->+1.5%]
-139,Quentin Johnston,LAC,WR,9.87,Flex,,,25.0,2025*0.50+2024*0.30+2023*0.20+rel[EMERGING*1.03]+sit[70->+6.0%]
-140,B.Aiyuk,SF,WR,9.75,Flex,,,28.5,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[82->+9.6%]
-156,Brian Thomas Jr.,JAX,WR,9.4,Flex,,,23.9,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[42->-2.4%]
-157,Keenan Allen,LAC,WR,9.41,Flex,,,34.3,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[70->+6.0%]
-158,Khalil Shakir,BUF,WR,9.28,Flex,,,26.6,2025*0.50+2024*0.30+2023*0.20+rel[BASELINE*1.00]+sit[83->+9.9%]
-161,Alec Pierce,IND,WR,9.21,Flex,,,26.3,2025*0.50+2024*0.30+2023*0.20+rel[BASELINE*1.00]+sit[60->+3.1%]
-163,Emeka Egbuka,TB,WR,9.25,Flex,,,23.9,2025_only+rel[UNPROVEN*0.92]+sit[68->+5.4%]
-169,Michael Wilson,ARI,WR,9.1,Flex,,,26.5,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[57->+2.1%]
-172,Jakobi Meyers,JAX,WR,9.26,Flex,,,29.8,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[42->-2.4%]
-174,Rome Odunze,CHI,WR,9.09,Flex,,,24.2,2025*0.50+2024*0.30+rel[EMERGING*1.03]+sit[58->+2.4%]
-175,Tetairoa McMillan,CAR,WR,9.08,Flex,,,23.4,2025_only+rel[UNPROVEN*0.92]+sit[30->-6.0%]
-179,Jauan Jennings,SF,WR,8.72,Flex,,,29.1,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88]+sit[82->+9.6%]
-180,Josh Downs,IND,WR,8.72,Deep,,,25.1,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[60->+3.1%]
-181,Jayden Reed,GB,WR,8.77,Deep,,,26.3,2025*0.50+2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[53->+0.8%]
-183,Marvin Harrison Jr.,ARI,WR,8.56,Deep,,,24.1,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[56->+1.8%]
-184,A.Cooper,BUF,WR,8.53,Deep,,,32.2,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[83->+9.9%]
-210,Rashid Shaheed,NO,WR,8.11,Deep,,,28.0,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[42->-2.4%]
-211,Parker Washington,JAX,WR,8.09,Deep,,,24.4,2025*0.50+2024*0.30+2023*0.20+rel[EMERGING*1.03]+sit[42->-2.4%]
-212,Xavier Worthy,KC,WR,8.05,Deep,,,23.3,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[72->+6.6%]
-215,Calvin Ridley,TEN,WR,8.15,Deep,,,31.7,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[38->-3.6%]
-237,Jerry Jeudy,CLE,WR,7.86,Deep,,,27.4,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[35->-4.5%]
-245,Keon Coleman,BUF,WR,7.53,Deep,,,23.3,2025*0.50+2024*0.30+rel[EMERGING*1.03]+sit[83->+9.9%]
-253,Ricky Pearsall,SF,WR,7.4,Deep,,,26.0,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[82->+9.6%]
-261,Jalen Coker,CAR,WR,7.46,Deep,,,24.8,2025*0.50+2024*0.30+rel[EMERGING*1.03]+sit[30->-6.0%]
-264,Troy Franklin,DEN,WR,7.23,Deep,,,23.6,2025*0.50+2024*0.30+rel[EMERGING*1.03]+sit[70->+6.1%]
-270,M.Alexander,DET,WR,7.17,Deep,,,29.6,rookie_baseline+rel[UNPROVEN*0.92]+sit[88->+11.4%]
-271,A.Green,DET,WR,7.17,Deep,,,26.8,rookie_baseline+rel[UNPROVEN*0.92]+sit[88->+11.4%]
-272,G.Allison,DET,WR,7.17,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[88->+11.4%]
-273,T.Williams,DET,WR,7.17,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[88->+11.4%]
-280,Cooper Kupp,SEA,WR,7.15,Deep,,,33.2,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[42->-2.3%]
-284,J.Wilson,PHI,WR,7.12,Deep,,,25.4,rookie_baseline+rel[UNPROVEN*0.92]+sit[85->+10.5%]
-285,D.Burnett,PHI,WR,7.12,Deep,,,28.9,rookie_baseline+rel[UNPROVEN*0.92]+sit[85->+10.5%]
-286,H.Butler,PHI,WR,7.12,Deep,,,30.3,rookie_baseline+rel[UNPROVEN*0.92]+sit[85->+10.5%]
-288,A.Smith,PHI,WR,7.12,Deep,,,25.3,rookie_baseline+rel[UNPROVEN*0.92]+sit[85->+10.5%]
-295,J.Kumerow,BUF,WR,7.08,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[83->+9.9%]
-296,T.Gentry,BUF,WR,7.08,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[83->+9.9%]
-298,T.Benjamin,SF,WR,7.06,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[82->+9.6%]
-299,J.Cowing,SF,WR,7.06,Deep,,,25.6,rookie_baseline+rel[UNPROVEN*0.92]+sit[82->+9.6%]
-300,D.Gray,SF,WR,7.06,Deep,,,27.4,rookie_baseline+rel[UNPROVEN*0.92]+sit[82->+9.6%]
-310,Malik Cunningham,DET,WR,7.17,Deep,,,27.9,rookie_baseline+rel[UNPROVEN*0.92]+sit[88->+11.4%]
-313,D.Bryant,BAL,WR,6.98,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[78->+8.4%]
-315,C.Blair,ATL,WR,6.94,Deep,,,28.9,rookie_baseline+rel[UNPROVEN*0.92]+sit[76->+7.8%]
-316,F.Darby,ATL,WR,6.94,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[76->+7.8%]
-317,J.Ali,ATL,WR,6.94,Deep,,,27.5,rookie_baseline+rel[UNPROVEN*0.92]+sit[76->+7.8%]
-321,S.Morgan,CIN,WR,6.92,Deep,,,30.0,rookie_baseline+rel[UNPROVEN*0.92]+sit[75->+7.5%]
-322,K.Lassiter,CIN,WR,6.92,Deep,,,28.6,rookie_baseline+rel[UNPROVEN*0.92]+sit[75->+7.5%]
-325,K.Pryor,CIN,WR,6.92,Deep,,,28.7,rookie_baseline+rel[UNPROVEN*0.92]+sit[75->+7.5%]
-329,T.Lewis,MIA,WR,6.9,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[74->+7.2%]
-330,E.Ezukanma,MIA,WR,6.9,Deep,,,26.6,rookie_baseline+rel[UNPROVEN*0.92]+sit[74->+7.2%]
-331,A.Callaway,MIA,WR,6.9,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[74->+7.2%]
-332,G.DuBose,MIA,WR,6.9,Deep,,,25.2,rookie_baseline+rel[UNPROVEN*0.92]+sit[74->+7.2%]
-333,B.Sanders,MIA,WR,6.9,Deep,,,27.6,rookie_baseline+rel[UNPROVEN*0.92]+sit[74->+7.2%]
-334,K.Merritt,MIA,WR,6.9,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[74->+7.2%]
-335,Tre Tucker,LV,WR,6.96,Deep,,,25.5,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[39->-3.3%]+starter_floor_soft
-336,G.Dieter,KC,WR,6.87,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[72->+6.6%]
-337,M.Kemp,KC,WR,6.87,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[72->+6.6%]
-338,J.Ross,KC,WR,6.87,Deep,,,26.7,rookie_baseline+rel[UNPROVEN*0.92]+sit[72->+6.6%]
-340,D.Johnson,BAL,WR,6.85,Deep,,,30.2,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[78->+8.4%]+starter_floor_soft
-341,Christian Kirk,HOU,WR,7.0,Deep,,,29.8,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[56->+1.9%]+starter_floor_soft
-343,K.Doss,LAC,WR,6.83,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[70->+6.0%]
-344,M.Ffrench,LAC,WR,6.83,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[70->+6.0%]
-345,J.Reed,LAC,WR,6.83,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[70->+6.0%]
-346,J.Moore,LAC,WR,6.83,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[70->+6.0%]
-347,S.Fehoko,LAC,WR,6.83,Deep,,,28.8,rookie_baseline+rel[UNPROVEN*0.92]+sit[70->+6.0%]
-348,Kayshon Boutte,NE,WR,6.83,Deep,,,24.3,2025*0.50+2024*0.30+rel[INJURY_RISK*0.96]+sit[38->-3.6%]+starter_floor_soft
-349,Devontez Walker,BAL,WR,6.9,Deep,,,25.2,2025_only+rel[UNPROVEN*0.92]+sit[78->+8.4%]
-350,Marquise Brown,KC,WR,6.82,Deep,,,29.2,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[72->+6.6%]+starter_floor_soft
-351,M.Washington,DEN,WR,6.8,Deep,,,27.5,rookie_baseline+rel[UNPROVEN*0.92]+sit[68->+5.5%]
-352,J.Virgil,DEN,WR,6.8,Deep,,,28.1,rookie_baseline+rel[UNPROVEN*0.92]+sit[68->+5.5%]
-353,T.Cleveland,DEN,WR,6.8,Deep,,,28.9,rookie_baseline+rel[UNPROVEN*0.92]+sit[68->+5.5%]
-354,S.Williams,DEN,WR,6.8,Deep,,,26.4,rookie_baseline+rel[UNPROVEN*0.92]+sit[68->+5.5%]
-357,Ke'Shawn Williams,CIN,WR,6.92,Deep,,,24.7,rookie_baseline+rel[UNPROVEN*0.92]+sit[75->+7.5%]
-359,C.Grayson,TB,WR,6.74,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[65->+4.6%]
-361,Jason Brownlee,KC,WR,6.87,Deep,,,27.6,rookie_baseline+rel[UNPROVEN*0.92]+sit[72->+6.6%]
-362,Darnell Mooney,ATL,WR,6.81,Deep,,,28.8,2025*0.50+2024*0.30+2023*0.20+rel[BASELINE*1.00]+sit[76->+7.8%]+starter_floor_soft
-365,Tory Horton,SEA,WR,6.73,Deep,,,23.8,2025_only+rel[UNPROVEN*0.92]+sit[41->-2.7%]
-366,J.Badet,WAS,WR,6.65,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[61->+3.3%]
-367,R.Foster,WAS,WR,6.65,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[61->+3.3%]
-368,A.Gandy-Golden,WAS,WR,6.65,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[61->+3.3%]
-370,Darius Slayton,NYG,WR,6.75,Deep,,,29.6,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[59->+2.8%]+starter_floor_soft
-371,Demarcus Robinson,SF,WR,6.64,Deep,,,31.9,2025*0.50+2024*0.30+2023*0.20+rel[BASELINE*1.00]+sit[82->+9.6%]+starter_floor_soft
-372,Jalen McMillan,TB,WR,6.75,Deep,,,24.7,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[66->+4.7%]
-373,D.Patmon,IND,WR,6.61,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[59->+2.6%]
-374,D.Montgomery,IND,WR,6.61,Deep,,,29.8,rookie_baseline+rel[UNPROVEN*0.92]+sit[59->+2.6%]
-375,J.Winfree,IND,WR,6.61,Deep,,,30.0,rookie_baseline+rel[UNPROVEN*0.92]+sit[59->+2.6%]
-376,D.Fountain,IND,WR,6.61,Deep,,,30.7,rookie_baseline+rel[UNPROVEN*0.92]+sit[59->+2.6%]
-377,D.Ratley,NYG,WR,6.59,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[58->+2.3%]
-378,N.Webster,CHI,WR,6.59,Deep,,,30.6,rookie_baseline+rel[UNPROVEN*0.92]+sit[58->+2.4%]
-379,R.Adams,CHI,WR,6.59,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[58->+2.4%]
-380,R.Ridley,CHI,WR,6.59,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[58->+2.4%]
-381,I.Coulter,CHI,WR,6.59,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[58->+2.4%]
-382,D.Newsome,CHI,WR,6.59,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[58->+2.4%]
-383,B.Ford-Wheaton,NYG,WR,6.59,Deep,,,26.5,rookie_baseline+rel[UNPROVEN*0.92]+sit[58->+2.3%]
-384,T.Ginn,CHI,WR,6.59,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[58->+2.4%]
-385,A.Mack,NYG,WR,6.59,Deep,,,29.0,rookie_baseline+rel[UNPROVEN*0.92]+sit[58->+2.3%]
-386,Marvin Mims Jr.,DEN,WR,6.71,Deep,,,24.5,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[70->+5.9%]+starter_floor_soft
-387,L.McCutcheon,LA,WR,6.56,Deep,,,27.5,rookie_baseline+rel[UNPROVEN*0.92]+sit[56->+1.9%]
-388,J.Harris,LA,WR,6.56,Deep,,,29.4,rookie_baseline+rel[UNPROVEN*0.92]+sit[56->+1.9%]
-392,D.Davis,HOU,WR,6.54,Deep,,,29.9,rookie_baseline+rel[UNPROVEN*0.92]+sit[55->+1.5%]
-393,J.Camp,HOU,WR,6.54,Deep,,,28.1,rookie_baseline+rel[UNPROVEN*0.92]+sit[55->+1.5%]
-394,S.Mitchell,HOU,WR,6.54,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[55->+1.5%]
-395,A.Roberts,HOU,WR,6.54,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[55->+1.5%]
-397,P.Cooper,ARI,WR,6.53,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[55->+1.4%]
-400,Luther Burden III,CHI,WR,6.65,Deep,,,22.7,2025_only+rel[UNPROVEN*0.92]+sit[58->+2.4%]+starter_floor_soft
-401,Coleman Owen,IND,WR,6.61,Deep,,,25.4,rookie_baseline+rel[UNPROVEN*0.92]+sit[59->+2.6%]
-402,Anthony Gould,IND,WR,6.61,Deep,,,25.4,rookie_baseline+rel[UNPROVEN*0.92]+sit[59->+2.6%]
-403,D.Shepherd,GB,WR,6.48,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[52->+0.6%]
-410,Jayden Higgins,HOU,WR,6.54,Deep,,,23.7,2025_only+rel[UNPROVEN*0.92]+sit[56->+1.9%]+starter_floor_soft
-412,DeMario Douglas,NE,WR,6.46,Deep,,,25.7,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[38->-3.6%]+starter_floor_soft
-413,Kendrick Bourne,SF,WR,6.41,Deep,,,31.1,2025*0.50+2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[82->+9.6%]+starter_floor_soft
-414,Josh Palmer,BUF,WR,6.38,Deep,,,26.9,2025*0.50+2024*0.30+2023*0.20+rel[BASELINE*1.00]+sit[83->+9.9%]+starter_floor_soft
-419,D.Houston,DAL,WR,6.35,Deep,,,27.4,rookie_baseline+rel[UNPROVEN*0.92]+sit[46->-1.3%]
-420,T.Jackson,MIN,WR,6.34,Deep,,,28.5,rookie_baseline+rel[UNPROVEN*0.92]+sit[45->-1.6%]
-423,D.Smith,JAX,WR,6.29,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[42->-2.4%]
-424,J.Mickens,JAX,WR,6.29,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[42->-2.4%]
-425,E.Cooks,JAX,WR,6.29,Deep,,,27.9,rookie_baseline+rel[UNPROVEN*0.92]+sit[42->-2.4%]
-426,T.Godwin,JAX,WR,6.29,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[42->-2.4%]
-427,J.Jackson,NO,WR,6.27,Deep,,,26.2,rookie_baseline+rel[UNPROVEN*0.92]+sit[41->-2.6%]
-428,A.Carr,NO,WR,6.27,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[41->-2.6%]
-429,K.White,NO,WR,6.27,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[41->-2.6%]
-430,C.Hogan,NO,WR,6.27,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[41->-2.6%]
-431,E.Winston,NO,WR,6.27,Deep,,,29.7,rookie_baseline+rel[UNPROVEN*0.92]+sit[41->-2.6%]
-432,B.Fowler,NO,WR,6.27,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[41->-2.6%]
-433,K.Kirkwood,NO,WR,6.27,Deep,,,31.7,rookie_baseline+rel[UNPROVEN*0.92]+sit[41->-2.6%]
-434,B.Means,NO,WR,6.27,Deep,,,25.6,rookie_baseline+rel[UNPROVEN*0.92]+sit[41->-2.6%]
-435,C.Thompson,SEA,WR,6.26,Deep,,,30.6,rookie_baseline+rel[UNPROVEN*0.92]+sit[41->-2.8%]
-436,C.Johnson,SEA,WR,6.26,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[41->-2.8%]
-437,Dontayvion Wicks,GB,WR,6.3,Deep,,,25.2,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[53->+0.9%]+starter_floor_soft
-438,Travis Hunter,JAX,WR,6.39,Deep,,,23.3,2025_only+rel[UNPROVEN*0.92]+sit[42->-2.4%]
-439,J.Baker,NE,WR,6.21,Deep,,,24.5,rookie_baseline+rel[UNPROVEN*0.92]+sit[38->-3.6%]
-440,D.Fitzpatrick,TEN,WR,6.21,Deep,,,28.7,rookie_baseline+rel[UNPROVEN*0.92]+sit[38->-3.6%]
-441,C.Dowell,TEN,WR,6.21,Deep,,,27.4,rookie_baseline+rel[UNPROVEN*0.92]+sit[38->-3.6%]
-442,R.McMath,TEN,WR,6.21,Deep,,,27.2,rookie_baseline+rel[UNPROVEN*0.92]+sit[38->-3.6%]
-443,J.Gordon,TEN,WR,6.21,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[38->-3.6%]
-444,J.Jackson,TEN,WR,6.21,Deep,,,26.3,rookie_baseline+rel[UNPROVEN*0.92]+sit[38->-3.6%]
-445,D.Moncrief,NE,WR,6.21,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[38->-3.6%]
-446,C.Hollister,TEN,WR,6.21,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[38->-3.6%]
-447,T.Montgomery,NE,WR,6.21,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[38->-3.6%]
-448,I.Zuber,NE,WR,6.21,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[38->-3.6%]
-449,Tyquan Thornton,KC,WR,6.21,Deep,,,26.1,2025*0.50+2023*0.20+rel[INJURY_RISK*0.96]+sit[72->+6.6%]+starter_floor_soft
-451,R.Gafford,LV,WR,6.19,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[37->-3.9%]
-452,K.Wilkerson,LV,WR,6.19,Deep,,,29.6,rookie_baseline+rel[UNPROVEN*0.92]+sit[37->-3.9%]
-453,R.Keyton,LV,WR,6.19,Deep,,,26.0,rookie_baseline+rel[UNPROVEN*0.92]+sit[37->-3.9%]
-454,Adam Thielen,MIN,WR,6.31,Deep,,,36.0,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[45->-1.5%]+starter_floor_soft
-455,J.Malone,NYJ,WR,6.15,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[35->-4.5%]
-456,T.Black,NYJ,WR,6.15,Deep,,,28.6,rookie_baseline+rel[UNPROVEN*0.92]+sit[35->-4.5%]
-457,D.Baldwin,CLE,WR,6.15,Deep,,,26.8,rookie_baseline+rel[UNPROVEN*0.92]+sit[35->-4.5%]
-458,J.Natson,CLE,WR,6.15,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[35->-4.5%]
-459,M.Woods,CLE,WR,6.15,Deep,,,26.5,rookie_baseline+rel[UNPROVEN*0.92]+sit[35->-4.5%]
-460,T.Taylor,CLE,WR,6.15,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[35->-4.5%]
-461,I.Charles,NYJ,WR,6.15,Deep,,,29.4,rookie_baseline+rel[UNPROVEN*0.92]+sit[35->-4.5%]
-462,J.Darden,CLE,WR,6.15,Deep,,,27.6,rookie_baseline+rel[UNPROVEN*0.92]+sit[35->-4.5%]
-463,J.Scott,NYJ,WR,6.15,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[35->-4.5%]
-464,V.Smith,NYJ,WR,6.15,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[35->-4.5%]
-465,J.Bradley,CLE,WR,6.15,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[35->-4.5%]
-466,Mack Hollins,NE,WR,6.14,Deep,,,33.0,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[38->-3.6%]+starter_floor_soft
-468,Rashod Bateman,BAL,WR,6.2,Deep,,,26.8,2025*0.50+2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[78->+8.4%]+starter_floor_soft
-470,Calvin Austin III,PIT,WR,6.15,Deep,,,27.4,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[58->+2.5%]+starter_floor_soft
-473,Devaughn Vele,NO,WR,6.21,Deep,,,28.7,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[42->-2.3%]+starter_floor_soft
-474,Elic Ayomanor,TEN,WR,6.16,Deep,,,23.2,2025_only+rel[UNPROVEN*0.92]+sit[38->-3.6%]+starter_floor_soft
-475,M.Strachan,CAR,WR,6.05,Deep,,,29.1,rookie_baseline+rel[UNPROVEN*0.92]+sit[30->-6.0%]
-476,S.Roberts,CAR,WR,6.05,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[30->-6.0%]
-477,D.Chisena,CAR,WR,6.05,Deep,,,29.5,rookie_baseline+rel[UNPROVEN*0.92]+sit[30->-6.0%]
-478,C.Saunders,CAR,WR,6.05,Deep,,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[30->-6.0%]
-481,DeAndre Hopkins,BAL,WR,6.14,Deep,,,34.2,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[78->+8.4%]+starter_floor_soft
-486,Malik Washington,MIA,WR,6.08,Deep,,,25.9,2025*0.50+2024*0.30+rel[EMERGING*1.03]+sit[74->+7.2%]+starter_floor_soft
-488,Andrei Iosivas,CIN,WR,6.07,Deep,,,26.9,2025*0.50+2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[75->+7.5%]+starter_floor_soft
-493,Tez Johnson,TB,WR,6.02,Deep,,,24.3,2025_only+rel[UNPROVEN*0.92]+sit[66->+4.9%]+starter_floor_soft
-496,Jalen Nailor,MIN,WR,6.03,Deep,,,27.5,2025*0.50+2024*0.30+rel[INJURY_RISK*0.96]+sit[46->-1.3%]+starter_floor_soft
-500,Isaac TeSlaa,DET,WR,5.99,Deep,,,24.5,2025_only+rel[UNPROVEN*0.92]+sit[88->+11.4%]+starter_floor_soft
-501,KaVontae Turpin,DAL,WR,5.93,Deep,,,30.1,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[46->-1.1%]+starter_floor_soft
-505,Ryan Flournoy,DAL,WR,5.88,Deep,,,26.8,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[47->-1.0%]+starter_floor_soft
-506,W.Fuller,MIA,WR,5.82,Deep,,,,2020_ancient*0.40+rel[UNPROVEN*0.92]+sit[74->+7.2%]
-508,Greg Dortch,ARI,WR,5.92,Deep,,,28.3,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[55->+1.6%]+starter_floor_soft
-509,T.Boyd,TEN,WR,5.8,Deep,,,31.8,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[38->-3.6%]+starter_floor_soft
-511,Brandin Cooks,BUF,WR,5.94,Deep,,,32.9,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[83->+9.9%]+starter_floor_soft
-514,Chimere Dike,TEN,WR,5.9,Deep,,,24.7,2025_only+rel[UNPROVEN*0.92]+sit[38->-3.6%]+starter_floor_soft
-517,Cedric Tillman,CLE,WR,5.9,Deep,,,26.4,2025*0.50+2024*0.30+2023*0.20+rel[EMERGING*1.03]+sit[35->-4.5%]+starter_floor_soft
-519,Xavier Legette,CAR,WR,5.82,Deep,,,25.6,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[30->-6.0%]+starter_floor_soft
-523,Matthew Golden,GB,WR,5.73,Deep,,,23.1,2025_only+rel[UNPROVEN*0.92]+sit[53->+0.9%]+starter_floor_soft
-525,Gunner Olszewski,NYG,WR,5.81,Deep,,,29.8,2025_only+rel[UNPROVEN*0.92]+sit[58->+2.4%]
-526,Olamide Zaccheaus,CHI,WR,5.75,Deep,,,29.1,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[58->+2.4%]+starter_floor_soft
-528,Pat Bryant,DEN,WR,5.75,Deep,,,23.7,2025_only+rel[UNPROVEN*0.92]+sit[69->+5.8%]+starter_floor_soft
-531,A.Brown,TB,WR,5.51,Deep,,,,2021_ancient*0.40+rel[UNPROVEN*0.92]+sit[65->+4.6%]
-539,B.Melton,GB,WR,5.44,Deep,,,27.3,2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[52->+0.6%]+starter_floor_soft
-545,Kalif Raymond,DET,WR,5.58,Deep,,,32.1,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[88->+11.4%]+starter_floor_soft
-546,Theo Wease Jr.,MIA,WR,5.51,Deep,,,25.2,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92]+sit[74->+7.2%]
-548,Gabe Davis,BUF,WR,5.43,Deep,,,27.5,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[83->+9.9%]
-549,Xavier Smith,LA,WR,5.34,Deep,,,28.9,2025_only+rel[UNPROVEN*0.92]+sit[57->+2.0%]+starter_floor_soft
-551,Tyler Lockett,LV,WR,5.54,Deep,,,33.9,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[38->-3.8%]+starter_floor_soft
-554,Jordan Watkins,SF,WR,5.35,Deep,,,24.5,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92]+sit[82->+9.6%]
-555,Sterling Shepard,TB,WR,5.41,Deep,,,33.6,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[66->+4.9%]+starter_floor_soft
-556,Isaiah Hodgins,NYG,WR,5.49,Deep,,,27.9,2025_small_sample(3g)_regressed+rel[INJURY_RISK*0.96]+sit[58->+2.5%]
-557,Tyrell Shavers,BUF,WR,5.33,Deep,,,27.0,2025_only+rel[UNPROVEN*0.92]+sit[83->+9.9%]+starter_floor_soft
-560,Tom Kennedy,DET,WR,5.47,Deep,,,30.1,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92]+sit[88->+11.4%]
-564,M.Thomas,NO,WR,5.26,Deep,,,,2023_old*0.80+rel[INJURY_RISK*0.96]+sit[41->-2.6%]
-565,Britain Covey,PHI,WR,5.38,Deep,,,29.5,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92]+sit[85->+10.5%]
-566,Jordan Whittington,LA,WR,5.25,Deep,,,25.9,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[57->+2.0%]+starter_floor_soft
-569,JuJu Smith-Schuster,KC,WR,5.27,Deep,,,29.8,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88]+sit[72->+6.6%]+starter_floor_soft
-572,Dee Eskridge,MIA,WR,5.3,Deep,,,29.4,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92]+sit[74->+7.2%]
-573,Michael Bandy,DEN,WR,5.29,Deep,,,28.7,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92]+sit[69->+5.6%]
-574,Marquez Valdes-Scantling,PIT,WR,5.2,Deep,,,31.9,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[57->+2.2%]+starter_floor_soft
-575,KeAndre Lambert-Smith,LAC,WR,5.31,Deep,,,24.9,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92]+sit[70->+6.0%]
-576,Kameron Johnson,TB,WR,5.28,Deep,,,24.5,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92]+sit[66->+4.7%]
-577,Dylan Drummond,ATL,WR,5.32,Deep,,,26.6,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92]+sit[76->+7.8%]
-580,Jahdae Walker,CHI,WR,5.27,Deep,,,24.2,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92]+sit[58->+2.4%]
-583,N.Agholor,BAL,WR,5.12,Deep,,,33.3,2024*0.30+2023*0.20+rel[VOLATILE*0.88]+sit[78->+8.4%]+starter_floor_soft
-584,Deven Thompkins,ATL,WR,5.28,Deep,,,26.7,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92]+sit[76->+7.8%]
-585,Adonai Mitchell,IND,WR,5.3,Deep,,,23.9,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[60->+3.0%]+starter_floor_soft
-586,Nikko Remigio,KC,WR,5.2,Deep,,,26.8,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92]+sit[72->+6.6%]
-587,Tahj Washington,MIA,WR,5.25,Deep,,,25.3,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92]+sit[74->+7.2%]
-594,Dyami Brown,JAX,WR,5.2,Deep,,,26.8,2025*0.50+2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[42->-2.4%]+starter_floor_soft
-597,Jalen Royals,KC,WR,5.17,Deep,,,23.5,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92]+sit[72->+6.6%]
-598,Ray-Ray McCloud,ATL,WR,5.27,Deep,,,29.9,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[76->+7.8%]
-600,Devin Duvernay,CHI,WR,5.21,Deep,,,29.0,2025_small_sample(1g)_regressed+rel[INJURY_RISK*0.96]+sit[58->+2.4%]
-601,Van Jefferson,TEN,WR,5.21,Deep,,,30.1,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[38->-3.6%]+starter_floor_soft
-602,David Sills,ATL,WR,5.16,Deep,,,31.3,2025_only+rel[UNPROVEN*0.92]+sit[76->+7.8%]+starter_floor_soft
-604,Braxton Berrios,HOU,WR,5.21,Deep,,,30.9,2025_small_sample(1g)_regressed+rel[INJURY_RISK*0.96]+sit[55->+1.6%]
-605,Jahan Dotson,PHI,WR,5.15,Deep,,,26.4,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88]+sit[85->+10.5%]+starter_floor_soft
-608,Tre Harris,LAC,WR,5.15,Deep,,,24.5,2025_only+rel[UNPROVEN*0.92]+sit[70->+6.0%]+starter_floor_soft
-609,D.Turner,LV,WR,4.97,Deep,,,29.6,2024_only*0.85+rel[UNPROVEN*0.92]+sit[37->-3.9%]+starter_floor_soft
-612,Jaylin Noel,HOU,WR,5.12,Deep,,,24.0,2025_only+rel[UNPROVEN*0.92]+sit[56->+1.7%]+starter_floor_soft
-613,John Metchie III,NYJ,WR,5.07,Deep,,,26.1,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[35->-4.5%]+starter_floor_soft
-617,M.Williams,NYJ,WR,4.91,Deep,,,31.9,2024_only*0.85+rel[INJURY_RISK*0.96]+sit[35->-4.5%]+starter_floor_soft
-618,Jacoby Jones,WAS,WR,5.03,Deep,,,25.1,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92]+sit[61->+3.3%]
-622,Tay Martin,WAS,WR,5.04,Deep,,,28.7,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92]+sit[61->+3.4%]
-623,A.Perry,NO,WR,4.89,Deep,,,26.9,2023_old*0.80+rel[UNPROVEN*0.92]+sit[41->-2.6%]
-625,Xavier Hutchinson,HOU,WR,5.01,Deep,,,26.3,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88]+sit[56->+1.9%]+starter_floor_soft
-629,Cody White,SEA,WR,4.91,Deep,,,27.8,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92]+sit[41->-2.8%]
-630,R.Woods,HOU,WR,4.83,Deep,,,34.4,2024*0.30+2023*0.20+rel[VOLATILE*0.88]+sit[55->+1.5%]+starter_floor_soft
-631,Efton Chism III,NE,WR,4.88,Deep,,,24.8,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92]+sit[38->-3.6%]
-632,Nick Westbrook-Ikhine,MIA,WR,4.99,Deep,,,29.4,2025*0.50+2024*0.30+2023*0.20+rel[BASELINE*1.00]+sit[74->+7.2%]
-636,B.Johnson,PIT,WR,4.81,Deep,,,28.1,2023_old*0.80+rel[UNPROVEN*0.92]+sit[57->+2.2%]
-640,Jared Wayne,HOU,WR,4.95,Deep,,,25.9,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92]+sit[55->+1.5%]
-641,Beaux Collins,NYG,WR,4.99,Deep,,,23.7,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92]+sit[58->+2.4%]
-642,Jakobie Keeney-James,GB,WR,4.89,Deep,,,25.9,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92]+sit[52->+0.6%]
-646,K.Osborn,NE,WR,4.74,Deep,,,29.2,2023_old*0.80+rel[INJURY_RISK*0.96]+sit[38->-3.6%]
-647,Kyle Williams,NE,WR,4.79,Deep,,,23.8,2025_only+rel[UNPROVEN*0.92]+sit[38->-3.6%]+starter_floor_soft
-651,Dareke Young,SEA,WR,4.77,Deep,,,27.2,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92]+sit[41->-2.8%]
-656,Ronnie Bell,NO,WR,4.83,Deep,,,26.6,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92]+sit[42->-2.6%]
-657,Shedrick Jackson,LV,WR,4.83,Deep,,,26.9,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92]+sit[37->-3.8%]
-665,Austin Trammell,JAX,WR,4.79,Deep,,,28.2,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92]+sit[42->-2.4%]
-666,Zay Jones,ARI,WR,4.71,Deep,,,31.4,2025*0.50+2023*0.20+rel[INJURY_RISK*0.96]+sit[55->+1.5%]
-667,Tai Felton,MIN,WR,4.81,Deep,,,23.5,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92]+sit[45->-1.6%]
-668,Noah Brown,WAS,WR,4.74,Deep,,,30.7,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[61->+3.4%]
-670,Isaiah Bond,CLE,WR,4.78,Deep,,,22.5,2025_only+rel[UNPROVEN*0.92]+sit[35->-4.5%]+starter_floor_soft
-671,Tim Jones,JAX,WR,4.74,Deep,,,28.3,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92]+sit[42->-2.4%]
-673,James Proche,TEN,WR,4.78,Deep,,,29.9,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92]+sit[38->-3.6%]
-674,Robbie Chosen,WAS,WR,4.69,Deep,,,33.3,2025_small_sample(2g)_regressed+rel[INJURY_RISK*0.96]+sit[61->+3.4%]
-675,Curtis Samuel,BUF,WR,4.6,Deep,,,30.1,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[83->+9.9%]
-677,Tutu Atwell,LA,WR,4.54,Deep,,,26.9,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[56->+1.9%]
-685,Jaylin Lane,WAS,WR,4.64,Deep,,,24.3,2025_only+rel[UNPROVEN*0.92]+sit[62->+3.6%]+starter_floor_soft
-686,Mason Kinsey,TEN,WR,4.73,Deep,,,28.0,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92]+sit[38->-3.6%]
-687,Jack Bech,LV,WR,4.7,Deep,,,23.7,2025_only+rel[UNPROVEN*0.92]+sit[38->-3.7%]+starter_floor_soft
-689,Xavier Restrepo,TEN,WR,4.73,Deep,,,24.4,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92]+sit[38->-3.6%]
-697,Alex Bachman,LV,WR,4.67,Deep,,,30.3,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92]+sit[37->-3.9%]
-714,D.Chark,LAC,WR,4.39,Deep,,,29.9,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[70->+6.0%]
-716,Quentin Skinner,NYJ,WR,4.63,Deep,,,24.7,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92]+sit[35->-4.5%]
-725,Luke McCaffrey,WAS,WR,4.43,Deep,,,25.4,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[62->+3.5%]
-726,Q.Watkins,PHI,WR,4.3,Deep,,,28.2,2023_old*0.80+rel[INJURY_RISK*0.96]+sit[85->+10.5%]
-731,Jalen Tolbert,DAL,WR,4.33,Deep,,,27.5,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[46->-1.1%]
-737,Jimmy Horn Jr.,CAR,WR,4.41,Deep,,,24.0,2025_only+rel[UNPROVEN*0.92]+sit[30->-6.0%]+starter_floor_soft
-739,Malachi Corley,CLE,WR,4.46,Deep,,,24.4,2025_only+rel[UNPROVEN*0.92]+sit[35->-4.5%]+starter_floor_soft
-743,T.Irwin,CIN,WR,4.14,Deep,,,30.7,2023_old*0.80+rel[INJURY_RISK*0.96]+sit[75->+7.5%]
-744,M.Gallup,DAL,WR,4.14,Deep,,,30.5,2023_old*0.80+rel[PROVEN_SOLID*1.06]+sit[46->-1.3%]
-755,David Moore,CAR,WR,4.17,Deep,,,31.6,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[30->-6.0%]
-760,J.Crowder,WAS,WR,3.94,Deep,,,33.2,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[61->+3.3%]
-766,Allen Lazard,NYJ,WR,4.07,Deep,,,30.7,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[35->-4.5%]
-770,Elijah Moore,BUF,WR,3.93,Deep,,,26.4,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[83->+9.9%]
-773,D.Bell,CLE,WR,3.75,Deep,,,25.7,2023_old*0.80+rel[INJURY_RISK*0.96]+sit[35->-4.5%]
-776,R.Moore,ARI,WR,3.73,Deep,,,26.2,2023_old*0.80+rel[UNPROVEN*0.92]+sit[55->+1.4%]
-778,Kevin Austin Jr.,NO,WR,3.88,Deep,,,26.4,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[42->-2.4%]
-779,Lil'Jordan Humphrey,DEN,WR,3.92,Deep,,,28.4,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[69->+5.6%]
-783,H.Ruggs,LV,WR,3.66,Deep,,,,2021_ancient*0.40+rel[UNPROVEN*0.92]+sit[37->-3.9%]
-784,Justin Watson,HOU,WR,3.82,Deep,,,30.4,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[55->+1.5%]
-786,T.Palmer,TB,WR,3.58,Deep,,,25.4,2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[65->+4.6%]
-792,Roman Wilson,PIT,WR,3.62,Deep,,,25.2,2025_only+rel[UNPROVEN*0.92]+sit[58->+2.3%]
-800,Q.Cephus,DET,WR,3.44,Deep,,,28.4,2021_ancient*0.40+rel[UNPROVEN*0.92]+sit[88->+11.4%]
-802,K.Coutee,IND,WR,3.42,Deep,,,,2020_ancient*0.40+rel[UNPROVEN*0.92]+sit[59->+2.6%]
-803,Mecole Hardman,BUF,WR,3.45,Deep,,,28.5,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[83->+9.9%]
-805,Josh Reynolds,NYJ,WR,3.61,Deep,,,31.5,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[35->-4.5%]
-807,Tim Patrick,JAX,WR,3.54,Deep,,,32.8,2025*0.50+2024*0.30+rel[PROVEN_SOLID*1.06]+sit[42->-2.4%]
-811,Tyler Johnson,NYJ,WR,3.52,Deep,,,28.0,2025*0.50+2024*0.30+rel[INJURY_RISK*0.96]+sit[35->-4.5%]
-812,Mitchell Tinsley,CIN,WR,3.41,Deep,,,27.0,2025_only+rel[UNPROVEN*0.92]+sit[75->+7.5%]
-815,T.Fulgham,PHI,WR,3.28,Deep,,,,2020_ancient*0.40+rel[UNPROVEN*0.92]+sit[85->+10.5%]
-816,Hunter Renfrow,CAR,WR,3.45,Deep,,,30.7,2025*0.50+2023*0.20+rel[VOLATILE*0.88]+sit[30->-6.0%]
-817,Chris Moore,WAS,WR,3.39,Deep,,,33.2,2025*0.50+2023*0.20+rel[UNPROVEN*0.92]+sit[62->+3.5%]
-818,Isaiah Williams,NYJ,WR,3.49,Deep,,,25.6,2025_only+rel[UNPROVEN*0.92]+sit[35->-4.5%]
-819,P.Williams,MIA,WR,3.24,Deep,,,,2020_ancient*0.40+rel[UNPROVEN*0.92]+sit[74->+7.2%]
-823,C.Claypool,MIA,WR,3.22,Deep,,,28.2,2022_ancient*0.40+rel[INJURY_RISK*0.96]+sit[74->+7.2%]
-829,A.Erickson,LAC,WR,3.19,Deep,,,33.8,2023_old*0.80+rel[UNPROVEN*0.92]+sit[70->+6.0%]
-831,R.Gage,TB,WR,3.17,Deep,,,30.6,2022_ancient*0.40+rel[PROVEN_SOLID*1.06]+sit[65->+4.6%]
-832,J.Brown,BUF,WR,3.16,Deep,,,,2020_ancient*0.40+rel[UNPROVEN*0.92]+sit[83->+9.9%]
-834,J.Jones,PHI,WR,3.13,Deep,,,,2023_old*0.80+rel[UNPROVEN*0.92]+sit[85->+10.5%]
-836,E.Sanders,BUF,WR,3.12,Deep,,,,2021_ancient*0.40+rel[UNPROVEN*0.92]+sit[83->+9.9%]
-840,D.Parker,NE,WR,3.09,Deep,,,33.6,2023_old*0.80+rel[PROVEN_SOLID*1.06]+sit[38->-3.6%]
-845,Ryan Miller,TB,WR,3.15,Deep,,,26.5,2024_only*0.85+rel[UNPROVEN*0.92]+sit[66->+4.7%]
-846,KhaDarel Hodge,ATL,WR,3.18,Deep,,,32.7,2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[76->+7.8%]
-847,R.Cracraft,MIA,WR,3.01,Deep,,,31.8,2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[74->+7.2%]
-850,Tylan Wallace,BAL,WR,3.1,Deep,,,27.3,2024_only*0.85+rel[UNPROVEN*0.92]+sit[78->+8.4%]
-855,Treylon Burks,WAS,WR,3.0,Deep,,,26.4,2025*0.50+2023*0.20+rel[UNPROVEN*0.92]+sit[62->+3.5%]
-856,J.Agnew,JAX,WR,2.86,Deep,,,31.4,2023_old*0.80+rel[VOLATILE*0.88]+sit[42->-2.4%]
-857,C.Hansen,HOU,WR,2.85,Deep,,,,2020_ancient*0.40+rel[UNPROVEN*0.92]+sit[55->+1.5%]
-859,O.Beckham,MIA,WR,2.84,Deep,,,33.8,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[74->+7.2%]
-860,Cedrick Wilson Jr.,MIA,WR,2.98,Deep,,,30.8,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[74->+7.2%]
-861,I.Smith-Marsette,NYG,WR,2.82,Deep,,,27.0,2023_old*0.80+rel[UNPROVEN*0.92]+sit[58->+2.3%]
-865,J.Edelman,NE,WR,2.7,Deep,,,,2020_ancient*0.40+rel[UNPROVEN*0.92]+sit[38->-3.6%]
-868,J.Burton,CIN,WR,2.67,Deep,,,25.2,2024_only*0.85+rel[UNPROVEN*0.92]+sit[75->+7.5%]
-869,D.Amendola,HOU,WR,2.65,Deep,,,,2021_ancient*0.40+rel[UNPROVEN*0.92]+sit[55->+1.5%]
-871,J.Grant,CHI,WR,2.63,Deep,,,33.8,2021_ancient*0.40+rel[UNPROVEN*0.92]+sit[58->+2.4%]
-874,Malik Heath,GB,WR,2.71,Deep,,,26.4,2025*0.50+2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[52->+0.7%]
-878,M.Jones,DET,WR,2.54,Deep,,,,2022_ancient*0.40+rel[INJURY_RISK*0.96]+sit[88->+11.4%]
-879,C.Davis,NYJ,WR,2.54,Deep,,,,2022_ancient*0.40+rel[PROVEN_SOLID*1.06]+sit[35->-4.5%]
-883,B.Powell,MIN,WR,2.44,Deep,,,31.0,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[45->-1.6%]
-884,Xavier Gipson,PHI,WR,2.61,Deep,,,25.5,2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[85->+10.5%]
-887,Scott Miller,PIT,WR,2.55,Deep,,,29.1,2025*0.50+2023*0.20+rel[INJURY_RISK*0.96]+sit[58->+2.2%]
-888,Darius Cooper,PHI,WR,2.56,Deep,,,24.8,2025_only+rel[UNPROVEN*0.92]+sit[85->+10.5%]
-889,D.Harty,BUF,WR,2.36,Deep,,,28.7,2023_old*0.80+rel[INJURY_RISK*0.96]+sit[83->+9.9%]
-890,T.Johnson,HOU,WR,2.36,Deep,,,30.6,2020_ancient*0.40+rel[UNPROVEN*0.92]+sit[55->+1.5%]
-891,Jonathan Mingo,DAL,WR,2.42,Deep,,,25.4,2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[46->-1.3%]
-892,M.Goodwin,CLE,WR,2.34,Deep,,,,2022_ancient*0.40+rel[INJURY_RISK*0.96]+sit[35->-4.5%]
-894,Derius Davis,LAC,WR,2.51,Deep,,,26.0,2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[70->+6.0%]
-896,Dante Pettis,NO,WR,2.48,Deep,,,30.9,2024_only*0.85+rel[UNPROVEN*0.92]+sit[42->-2.5%]
-897,Casey Washington,ATL,WR,2.46,Deep,,,25.5,2025_only+rel[UNPROVEN*0.92]+sit[76->+7.8%]
-898,Jake Bobo,SEA,WR,2.44,Deep,,,28.1,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[41->-2.8%]
-899,J.Guyton,LAC,WR,2.31,Deep,,,29.2,2023_old*0.80+rel[INJURY_RISK*0.96]+sit[70->+6.0%]
-901,R.Jarrett,TB,WR,2.3,Deep,,,25.6,2024_only*0.85+rel[UNPROVEN*0.92]+sit[65->+4.6%]
-902,B.Edwards,ATL,WR,2.28,Deep,,,,2021_ancient*0.40+rel[UNPROVEN*0.92]+sit[76->+7.8%]
-903,K.Philips,TEN,WR,2.27,Deep,,,27.2,2023_old*0.80+rel[UNPROVEN*0.92]+sit[38->-3.6%]
-904,W.Snead,SF,WR,2.27,Deep,,,,2020_ancient*0.40+rel[UNPROVEN*0.92]+sit[82->+9.6%]
-905,J.Reagor,LAC,WR,2.26,Deep,,,27.7,2023_old*0.80+rel[INJURY_RISK*0.96]+sit[70->+6.0%]
-909,K.Toney,CLE,WR,2.23,Deep,,,27.6,2023_old*0.80+rel[INJURY_RISK*0.96]+sit[35->-4.5%]
-911,A.Robinson,DET,WR,2.22,Deep,,,33.0,2023_old*0.80+rel[INJURY_RISK*0.96]+sit[88->+11.4%]
-913,L.Treadwell,BAL,WR,2.19,Deep,,,31.2,2021_ancient*0.40+rel[UNPROVEN*0.92]+sit[78->+8.4%]
-914,J.Landry,NO,WR,2.19,Deep,,,,2022_ancient*0.40+rel[PROVEN_SOLID*1.06]+sit[41->-2.6%]
-916,G.Tate,NYG,WR,2.17,Deep,,,,2020_ancient*0.40+rel[UNPROVEN*0.92]+sit[58->+2.3%]
-917,T.Marshall,LV,WR,2.16,Deep,,,26.2,2023_old*0.80+rel[INJURY_RISK*0.96]+sit[37->-3.9%]
-920,A.Rodgers,IND,WR,2.12,Deep,,,,2022_ancient*0.40+rel[UNPROVEN*0.92]+sit[59->+2.6%]
-921,L.Fitzgerald,ARI,WR,2.12,Deep,,,,2020_ancient*0.40+rel[UNPROVEN*0.92]+sit[55->+1.4%]
-922,Ashton Dulin,IND,WR,2.19,Deep,,,29.3,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[59->+2.6%]
-923,A.Wesley,ARI,WR,2.09,Deep,,,,2021_ancient*0.40+rel[UNPROVEN*0.92]+sit[55->+1.4%]
-924,Charlie Jones,CIN,WR,2.22,Deep,,,27.8,2023_old*0.80+rel[UNPROVEN*0.92]+sit[75->+7.5%]
-925,P.Campbell,PHI,WR,2.07,Deep,,,29.1,2023_old*0.80+rel[UNPROVEN*0.92]+sit[85->+10.5%]
-927,A.Miller,BAL,WR,2.06,Deep,,,31.9,2020_ancient*0.40+rel[UNPROVEN*0.92]+sit[78->+8.4%]
-928,Ben Skowronek,PIT,WR,2.17,Deep,,,29.2,2025*0.50+2023*0.20+rel[UNPROVEN*0.92]+sit[57->+2.2%]
-929,D.Inman,WAS,WR,2.03,Deep,,,,2020_ancient*0.40+rel[UNPROVEN*0.92]+sit[61->+3.3%]
-932,Brycen Tremayne,CAR,WR,2.21,Deep,,,26.8,2025_only+rel[UNPROVEN*0.92]+sit[30->-6.0%]
-934,Trent Sherfield,ARI,WR,2.13,Deep,,,30.5,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[55->+1.4%]
-935,Malik Turner,SF,WR,2.02,Deep,,,30.6,2021_ancient*0.40+rel[UNPROVEN*0.92]+sit[82->+9.6%]
+overall_rank,player_name,position,recent_team,projected_ppg,reliability_tier,situation_score,career_seasons,tier,live_status,age,data_basis,draft_value_score,Injury_Flag
+14,Ja'Marr Chase,WR,CIN,19.94,PROVEN_ELITE,75.0,5,Elite,,26.5,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[75->+7.5%],17.357922736001303,
+16,Amon-Ra St. Brown,WR,DET,19.64,PROVEN_ELITE,88.0,5,Elite,,26.9,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[88->+11.4%],17.117953034648597,
+19,Puka Nacua,WR,LA,19.05,PROVEN_SOLID,62.5,3,Elite,,25.3,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[62->+3.8%],16.728893691854285,
+31,CeeDee Lamb,WR,DAL,16.19,PROVEN_ELITE,49.7,6,Elite,,27.4,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[50->-0.1%],14.189812797322755,
+35,A.J. Brown,WR,PHI,15.37,PROVEN_ELITE,85.0,6,Elite,,29.2,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[85->+10.5%],13.438611667960291,
+39,Drake London,WR,ATL,14.65,PROVEN_SOLID,76.0,4,Elite,,25.1,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[76->+7.8%],12.80392645327283,
+42,Rashee Rice,WR,KC,14.31,INJURY_RISK,72.0,2,Elite,,26.4,2025*0.50+2023*0.20+rel[INJURY_RISK*0.96]+sit[72->+6.6%],12.508154766238476,
+45,Justin Jefferson,WR,MIN,14.22,PROVEN_ELITE,50.9,6,Elite,,27.2,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[51->+0.3%],12.412687050635231,
+48,Jaxon Smith-Njigba,WR,SEA,13.86,EMERGING,47.9,3,Elite,,24.5,2025*0.50+2024*0.30+2023*0.20+rel[EMERGING*1.03]+sit[48->-0.6%],12.222450787502307,
+54,DeVonta Smith,WR,PHI,13.32,PROVEN_ELITE,85.0,5,Elite,,27.8,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[85->+10.5%],11.676122548910447,
+55,Nico Collins,WR,HOU,13.3,INJURY_RISK,59.3,5,Elite,,27.5,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[59->+2.8%],11.647017497635408,
+57,George Pickens,WR,DAL,13.0,PROVEN_SOLID,50.4,4,Elite,,25.5,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[50->+0.1%],11.513810125130098,
+59,Tee Higgins,WR,CIN,12.99,INJURY_RISK,75.0,6,WR1/2,,27.6,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[75->+7.5%],11.414343526834417,
+61,Zay Flowers,WR,BAL,12.93,PROVEN_SOLID,78.0,3,WR1/2,,26.0,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[78->+8.4%],11.388694336799263,
+65,Terry McLaurin,WR,WAS,12.61,PROVEN_ELITE,64.0,6,WR1/2,,31.0,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[64->+4.2%],11.045742501989777,
+68,DK Metcalf,WR,PIT,12.34,PROVEN_ELITE,61.2,6,WR1/2,,28.7,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[61->+3.4%],10.887806526348294,
+71,DJ Moore,WR,CHI,12.33,PROVEN_ELITE,58.0,6,WR1/2,,29.4,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[58->+2.4%],10.788819021667935,
+74,Malik Nabers,WR,NYG,12.29,UNPROVEN,59.3,1,WR1/2,,23.1,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[59->+2.8%],10.682705115324294,
+75,Chris Olave,WR,NO,12.02,PROVEN_SOLID,47.2,3,WR1/2,,26.2,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[47->-0.8%],10.577879755153274,
+80,Jaylen Waddle,WR,MIA,11.66,PROVEN_ELITE,74.0,5,WR1/2,,27.8,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[74->+7.2%],10.289586995742424,
+86,Garrett Wilson,WR,NYJ,11.46,PROVEN_SOLID,35.0,3,WR1/2,,26.1,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[35->-4.5%],9.977577048095164,
+88,Michael Pittman,WR,IND,11.19,PROVEN_ELITE,60.8,6,WR1/2,,28.9,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[61->+3.2%],9.920940984111224,
+89,Tyreek Hill,WR,MIA,11.24,INJURY_RISK,74.0,5,WR1/2,,32.5,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[74->+7.2%],9.840965637679238,
+90,Jameson Williams,WR,DET,11.15,INJURY_RISK,88.0,3,WR1/2,,25.4,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[88->+11.4%],9.836021297635613,
+91,Courtland Sutton,WR,DEN,11.11,INJURY_RISK,70.7,5,WR3,,30.9,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[71->+6.2%],9.8228327767243,
+98,Davante Adams,WR,NYJ,10.56,INJURY_RISK,35.0,6,WR3,,33.7,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[35->-4.5%],9.486959292044975,
+113,Chris Godwin Jr.,WR,TB,10.45,INJURY_RISK,66.4,5,WR3,,30.5,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[66->+4.9%],9.163821501230071,
+114,Ladd McConkey,WR,LAC,10.42,UNPROVEN,70.0,2,WR3,,24.8,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[70->+6.0%],9.147833422125853,
+115,Mike Evans,WR,TB,10.37,INJURY_RISK,66.6,5,WR3,,33.0,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[67->+5.0%],9.131802412435098,
+119,Stefon Diggs,WR,NE,10.18,PROVEN_ELITE,38.0,6,WR3,,32.8,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[38->-3.6%],9.038462991093636,
+120,Romeo Doubs,WR,GB,10.13,PROVEN_ELITE,54.2,4,WR3,,26.4,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[54->+1.3%],9.023139216805312,
+122,Jordan Addison,WR,MIN,10.22,PROVEN_SOLID,46.4,3,WR3,,24.6,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[46->-1.1%],8.98191597884525,
+123,Deebo Samuel Sr.,WR,WAS,10.16,INJURY_RISK,63.5,5,WR3,,30.6,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[64->+4.0%],8.973125557416775,
+127,Christian Watson,WR,GB,9.97,PROVEN_SOLID,53.4,4,WR3,,27.3,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[53->+1.0%],8.848245450989129,
+131,Wan'Dale Robinson,WR,NYG,10.01,PROVEN_SOLID,60.7,3,WR3,,25.7,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[61->+3.2%],8.824291146187184,
+133,T.Dell,WR,HOU,9.87,UNPROVEN,55.1,2,WR3,,26.8,2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[55->+1.5%],8.7645,
+139,Quentin Johnston,WR,LAC,9.87,EMERGING,70.0,3,Flex,,25.0,2025*0.50+2024*0.30+2023*0.20+rel[EMERGING*1.03]+sit[70->+6.0%],8.668667112952969,
+140,B.Aiyuk,WR,SF,9.75,INJURY_RISK,82.0,4,Flex,,28.5,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[82->+9.6%],8.6625,
+156,Brian Thomas Jr.,WR,JAX,9.4,UNPROVEN,42.0,2,Flex,,23.9,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[42->-2.4%],8.300433851318633,
+157,Keenan Allen,WR,LAC,9.41,INJURY_RISK,70.0,6,Flex,,34.3,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[70->+6.0%],8.296175103082039,
+158,Khalil Shakir,WR,BUF,9.28,BASELINE,83.0,4,Flex,,26.6,2025*0.50+2024*0.30+2023*0.20+rel[BASELINE*1.00]+sit[83->+9.9%],8.27781055695045,
+161,Alec Pierce,WR,IND,9.21,BASELINE,60.2,4,Flex,,26.3,2025*0.50+2024*0.30+2023*0.20+rel[BASELINE*1.00]+sit[60->+3.1%],8.259973509206917,
+163,Emeka Egbuka,WR,TB,9.25,UNPROVEN,67.9,1,Flex,,23.9,2025_only+rel[UNPROVEN*0.92]+sit[68->+5.4%],8.2549956666706,
+169,Michael Wilson,WR,ARI,9.1,PROVEN_SOLID,56.9,3,Flex,,26.5,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[57->+2.1%],8.135759178384696,
+172,Jakobi Meyers,WR,JAX,9.26,INJURY_RISK,42.0,6,Flex,,29.8,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[42->-2.4%],8.094488962338467,
+174,Rome Odunze,WR,CHI,9.09,EMERGING,58.0,2,Flex,,24.2,2025*0.50+2024*0.30+rel[EMERGING*1.03]+sit[58->+2.4%],8.065913613303184,
+175,Tetairoa McMillan,WR,CAR,9.08,UNPROVEN,30.0,1,Flex,,23.4,2025_only+rel[UNPROVEN*0.92]+sit[30->-6.0%],8.047126457004975,
+179,Jauan Jennings,WR,SF,8.72,VOLATILE,82.0,5,Flex,,29.1,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88]+sit[82->+9.6%],7.844675506806158,
+180,Josh Downs,WR,IND,8.72,PROVEN_SOLID,60.3,3,Deep,,25.1,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[60->+3.1%],7.769029007547709,
+181,Jayden Reed,WR,GB,8.77,UNPROVEN,52.7,2,Deep,,26.3,2025*0.50+2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[53->+0.8%],7.73954166779252,
+183,Marvin Harrison Jr.,WR,ARI,8.56,UNPROVEN,56.0,2,Deep,,24.1,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[56->+1.8%],7.625780032588469,
+184,A.Cooper,WR,BUF,8.53,INJURY_RISK,83.0,5,Deep,,32.2,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[83->+9.9%],7.625499999999999,
+210,Rashid Shaheed,WR,NO,8.11,INJURY_RISK,42.1,4,Deep,,28.0,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[42->-2.4%],7.219691198053894,
+211,Parker Washington,WR,JAX,8.09,EMERGING,42.0,2,Deep,,24.4,2025*0.50+2024*0.30+2023*0.20+rel[EMERGING*1.03]+sit[42->-2.4%],7.215642192831614,
+212,Xavier Worthy,WR,KC,8.05,UNPROVEN,72.0,2,Deep,,23.3,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[72->+6.6%],7.197197615406664,
+215,Calvin Ridley,WR,TEN,8.15,PROVEN_SOLID,38.0,3,Deep,,31.7,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[38->-3.6%],7.148447031840908,
+237,Jerry Jeudy,WR,CLE,7.86,PROVEN_SOLID,35.0,6,Deep,,27.4,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[35->-4.5%],6.942888576505243,
+245,Keon Coleman,WR,BUF,7.53,EMERGING,83.0,2,Deep,,23.3,2025*0.50+2024*0.30+rel[EMERGING*1.03]+sit[83->+9.9%],6.804512185320344,
+253,Ricky Pearsall,WR,SF,7.4,UNPROVEN,82.0,1,Deep,,26.0,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[82->+9.6%],6.648927014229464,
+261,Jalen Coker,WR,CAR,7.46,EMERGING,30.0,2,Deep,,24.8,2025*0.50+2024*0.30+rel[EMERGING*1.03]+sit[30->-6.0%],6.591325487477941,
+264,Troy Franklin,WR,DEN,7.23,EMERGING,70.2,2,Deep,,23.6,2025*0.50+2024*0.30+rel[EMERGING*1.03]+sit[70->+6.1%],6.511927646008816,
+270,M.Alexander,WR,DET,7.17,UNPROVEN,88.0,0,Deep,,29.6,rookie_baseline+rel[UNPROVEN*0.92]+sit[88->+11.4%],6.4695,
+271,A.Green,WR,DET,7.17,UNPROVEN,88.0,0,Deep,,26.8,rookie_baseline+rel[UNPROVEN*0.92]+sit[88->+11.4%],6.4695,
+272,G.Allison,WR,DET,7.17,UNPROVEN,88.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[88->+11.4%],6.4695,
+273,T.Williams,WR,DET,7.17,UNPROVEN,88.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[88->+11.4%],6.4695,
+280,Cooper Kupp,WR,SEA,7.15,INJURY_RISK,42.4,6,Deep,,33.2,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[42->-2.3%],6.429283896139132,
+284,J.Wilson,WR,PHI,7.12,UNPROVEN,85.0,0,Deep,,25.4,rookie_baseline+rel[UNPROVEN*0.92]+sit[85->+10.5%],6.427,
+285,D.Burnett,WR,PHI,7.12,UNPROVEN,85.0,0,Deep,,28.9,rookie_baseline+rel[UNPROVEN*0.92]+sit[85->+10.5%],6.427,
+286,H.Butler,WR,PHI,7.12,UNPROVEN,85.0,0,Deep,,30.3,rookie_baseline+rel[UNPROVEN*0.92]+sit[85->+10.5%],6.427,
+288,A.Smith,WR,PHI,7.12,UNPROVEN,85.0,0,Deep,,25.3,rookie_baseline+rel[UNPROVEN*0.92]+sit[85->+10.5%],6.427,
+295,J.Kumerow,WR,BUF,7.08,UNPROVEN,83.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[83->+9.9%],6.393,
+296,T.Gentry,WR,BUF,7.08,UNPROVEN,83.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[83->+9.9%],6.393,
+298,T.Benjamin,WR,SF,7.06,UNPROVEN,82.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[82->+9.6%],6.376,
+299,J.Cowing,WR,SF,7.06,UNPROVEN,82.0,0,Deep,,25.6,rookie_baseline+rel[UNPROVEN*0.92]+sit[82->+9.6%],6.376,
+300,D.Gray,WR,SF,7.06,UNPROVEN,82.0,0,Deep,,27.4,rookie_baseline+rel[UNPROVEN*0.92]+sit[82->+9.6%],6.376,
+310,Malik Cunningham,WR,DET,7.17,UNPROVEN,88.0,0,Deep,,27.9,rookie_baseline+rel[UNPROVEN*0.92]+sit[88->+11.4%],6.333697683749498,
+313,D.Bryant,WR,BAL,6.98,UNPROVEN,78.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[78->+8.4%],6.308,
+315,C.Blair,WR,ATL,6.94,UNPROVEN,76.0,0,Deep,,28.9,rookie_baseline+rel[UNPROVEN*0.92]+sit[76->+7.8%],6.274,
+316,F.Darby,WR,ATL,6.94,UNPROVEN,76.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[76->+7.8%],6.274,
+317,J.Ali,WR,ATL,6.94,UNPROVEN,76.0,0,Deep,,27.5,rookie_baseline+rel[UNPROVEN*0.92]+sit[76->+7.8%],6.274,
+321,S.Morgan,WR,CIN,6.92,UNPROVEN,75.0,0,Deep,,30.0,rookie_baseline+rel[UNPROVEN*0.92]+sit[75->+7.5%],6.257,
+322,K.Lassiter,WR,CIN,6.92,UNPROVEN,75.0,0,Deep,,28.6,rookie_baseline+rel[UNPROVEN*0.92]+sit[75->+7.5%],6.257,
+325,K.Pryor,WR,CIN,6.92,UNPROVEN,75.0,0,Deep,,28.7,rookie_baseline+rel[UNPROVEN*0.92]+sit[75->+7.5%],6.257,
+329,T.Lewis,WR,MIA,6.9,UNPROVEN,74.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[74->+7.2%],6.24,
+330,E.Ezukanma,WR,MIA,6.9,UNPROVEN,74.0,0,Deep,,26.6,rookie_baseline+rel[UNPROVEN*0.92]+sit[74->+7.2%],6.24,
+331,A.Callaway,WR,MIA,6.9,UNPROVEN,74.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[74->+7.2%],6.24,
+332,G.DuBose,WR,MIA,6.9,UNPROVEN,74.0,0,Deep,,25.2,rookie_baseline+rel[UNPROVEN*0.92]+sit[74->+7.2%],6.24,
+333,B.Sanders,WR,MIA,6.9,UNPROVEN,74.0,0,Deep,,27.6,rookie_baseline+rel[UNPROVEN*0.92]+sit[74->+7.2%],6.24,
+334,K.Merritt,WR,MIA,6.9,UNPROVEN,74.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[74->+7.2%],6.24,
+335,Tre Tucker,WR,LV,6.96,PROVEN_SOLID,39.0,3,Deep,,25.5,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[39->-3.3%]+starter_floor_soft,6.223991883473719,
+336,G.Dieter,WR,KC,6.87,UNPROVEN,72.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[72->+6.6%],6.2145,
+337,M.Kemp,WR,KC,6.87,UNPROVEN,72.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[72->+6.6%],6.2145,
+338,J.Ross,WR,KC,6.87,UNPROVEN,72.0,0,Deep,,26.7,rookie_baseline+rel[UNPROVEN*0.92]+sit[72->+6.6%],6.2145,
+340,D.Johnson,WR,BAL,6.85,INJURY_RISK,78.0,4,Deep,,30.2,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[78->+8.4%]+starter_floor_soft,6.1975,
+341,Christian Kirk,WR,HOU,7.0,INJURY_RISK,56.2,5,Deep,,29.8,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[56->+1.9%]+starter_floor_soft,6.196876050584284,
+343,K.Doss,WR,LAC,6.83,UNPROVEN,70.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[70->+6.0%],6.1805,
+344,M.Ffrench,WR,LAC,6.83,UNPROVEN,70.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[70->+6.0%],6.1805,
+345,J.Reed,WR,LAC,6.83,UNPROVEN,70.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[70->+6.0%],6.1805,
+346,J.Moore,WR,LAC,6.83,UNPROVEN,70.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[70->+6.0%],6.1805,
+347,S.Fehoko,WR,LAC,6.83,UNPROVEN,70.0,0,Deep,,28.8,rookie_baseline+rel[UNPROVEN*0.92]+sit[70->+6.0%],6.1805,
+348,Kayshon Boutte,WR,NE,6.83,INJURY_RISK,38.0,2,Deep,,24.3,2025*0.50+2024*0.30+rel[INJURY_RISK*0.96]+sit[38->-3.6%]+starter_floor_soft,6.1646592958346185,
+349,Devontez Walker,WR,BAL,6.9,UNPROVEN,78.0,0,Deep,,25.2,2025_only+rel[UNPROVEN*0.92]+sit[78->+8.4%],6.161762173774267,
+350,Marquise Brown,WR,KC,6.82,INJURY_RISK,72.0,5,Deep,,29.2,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[72->+6.6%]+starter_floor_soft,6.160681609532356,
+351,M.Washington,WR,DEN,6.8,UNPROVEN,68.5,0,Deep,,27.5,rookie_baseline+rel[UNPROVEN*0.92]+sit[68->+5.5%],6.154999999999999,
+352,J.Virgil,WR,DEN,6.8,UNPROVEN,68.5,0,Deep,,28.1,rookie_baseline+rel[UNPROVEN*0.92]+sit[68->+5.5%],6.154999999999999,
+353,T.Cleveland,WR,DEN,6.8,UNPROVEN,68.5,0,Deep,,28.9,rookie_baseline+rel[UNPROVEN*0.92]+sit[68->+5.5%],6.154999999999999,
+354,S.Williams,WR,DEN,6.8,UNPROVEN,68.5,0,Deep,,26.4,rookie_baseline+rel[UNPROVEN*0.92]+sit[68->+5.5%],6.154999999999999,
+357,Ke'Shawn Williams,WR,CIN,6.92,UNPROVEN,75.0,0,Deep,,24.7,rookie_baseline+rel[UNPROVEN*0.92]+sit[75->+7.5%],6.12308698686939,
+359,C.Grayson,WR,TB,6.74,UNPROVEN,65.4,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[65->+4.6%],6.104,
+361,Jason Brownlee,WR,KC,6.87,UNPROVEN,72.0,0,Deep,,27.6,rookie_baseline+rel[UNPROVEN*0.92]+sit[72->+6.6%],6.094484522091331,
+362,Darnell Mooney,WR,ATL,6.81,BASELINE,76.0,6,Deep,,28.8,2025*0.50+2024*0.30+2023*0.20+rel[BASELINE*1.00]+sit[76->+7.8%]+starter_floor_soft,6.088723555914685,
+365,Tory Horton,WR,SEA,6.73,UNPROVEN,41.0,0,Deep,,23.8,2025_only+rel[UNPROVEN*0.92]+sit[41->-2.7%],6.046535915642143,
+366,J.Badet,WR,WAS,6.65,UNPROVEN,61.1,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[61->+3.3%],6.0275,
+367,R.Foster,WR,WAS,6.65,UNPROVEN,61.1,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[61->+3.3%],6.0275,
+368,A.Gandy-Golden,WR,WAS,6.65,UNPROVEN,61.1,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[61->+3.3%],6.0275,
+370,Darius Slayton,WR,NYG,6.75,PROVEN_SOLID,59.2,6,Deep,,29.6,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[59->+2.8%]+starter_floor_soft,6.001816245172072,
+371,Demarcus Robinson,WR,SF,6.64,BASELINE,82.0,6,Deep,,31.9,2025*0.50+2024*0.30+2023*0.20+rel[BASELINE*1.00]+sit[82->+9.6%]+starter_floor_soft,5.996161442654209,
+372,Jalen McMillan,WR,TB,6.75,UNPROVEN,65.7,1,Deep,,24.7,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[66->+4.7%],5.994133486710677,
+373,D.Patmon,WR,IND,6.61,UNPROVEN,58.6,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[59->+2.6%],5.9935,
+374,D.Montgomery,WR,IND,6.61,UNPROVEN,58.6,0,Deep,,29.8,rookie_baseline+rel[UNPROVEN*0.92]+sit[59->+2.6%],5.9935,
+375,J.Winfree,WR,IND,6.61,UNPROVEN,58.6,0,Deep,,30.0,rookie_baseline+rel[UNPROVEN*0.92]+sit[59->+2.6%],5.9935,
+376,D.Fountain,WR,IND,6.61,UNPROVEN,58.6,0,Deep,,30.7,rookie_baseline+rel[UNPROVEN*0.92]+sit[59->+2.6%],5.9935,
+377,D.Ratley,WR,NYG,6.59,UNPROVEN,57.8,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[58->+2.3%],5.9765,
+378,N.Webster,WR,CHI,6.59,UNPROVEN,58.0,0,Deep,,30.6,rookie_baseline+rel[UNPROVEN*0.92]+sit[58->+2.4%],5.9765,
+379,R.Adams,WR,CHI,6.59,UNPROVEN,58.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[58->+2.4%],5.9765,
+380,R.Ridley,WR,CHI,6.59,UNPROVEN,58.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[58->+2.4%],5.9765,
+381,I.Coulter,WR,CHI,6.59,UNPROVEN,58.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[58->+2.4%],5.9765,
+382,D.Newsome,WR,CHI,6.59,UNPROVEN,58.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[58->+2.4%],5.9765,
+383,B.Ford-Wheaton,WR,NYG,6.59,UNPROVEN,57.8,0,Deep,,26.5,rookie_baseline+rel[UNPROVEN*0.92]+sit[58->+2.3%],5.9765,
+384,T.Ginn,WR,CHI,6.59,UNPROVEN,58.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[58->+2.4%],5.9765,
+385,A.Mack,WR,NYG,6.59,UNPROVEN,57.8,0,Deep,,29.0,rookie_baseline+rel[UNPROVEN*0.92]+sit[58->+2.3%],5.9765,
+386,Marvin Mims Jr.,WR,DEN,6.71,PROVEN_SOLID,69.6,3,Deep,,24.5,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[70->+5.9%]+starter_floor_soft,5.958593010320912,
+387,L.McCutcheon,WR,LA,6.56,UNPROVEN,56.2,0,Deep,,27.5,rookie_baseline+rel[UNPROVEN*0.92]+sit[56->+1.9%],5.951,
+388,J.Harris,WR,LA,6.56,UNPROVEN,56.2,0,Deep,,29.4,rookie_baseline+rel[UNPROVEN*0.92]+sit[56->+1.9%],5.951,
+392,D.Davis,WR,HOU,6.54,UNPROVEN,55.1,0,Deep,,29.9,rookie_baseline+rel[UNPROVEN*0.92]+sit[55->+1.5%],5.934,
+393,J.Camp,WR,HOU,6.54,UNPROVEN,55.1,0,Deep,,28.1,rookie_baseline+rel[UNPROVEN*0.92]+sit[55->+1.5%],5.934,
+394,S.Mitchell,WR,HOU,6.54,UNPROVEN,55.1,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[55->+1.5%],5.934,
+395,A.Roberts,WR,HOU,6.54,UNPROVEN,55.1,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[55->+1.5%],5.934,
+397,P.Cooper,WR,ARI,6.53,UNPROVEN,54.8,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[55->+1.4%],5.9255,
+400,Luther Burden III,WR,CHI,6.65,UNPROVEN,58.0,1,Deep,,22.7,2025_only+rel[UNPROVEN*0.92]+sit[58->+2.4%]+starter_floor_soft,5.902609298743135,
+401,Coleman Owen,WR,IND,6.61,UNPROVEN,58.6,0,Deep,,25.4,rookie_baseline+rel[UNPROVEN*0.92]+sit[59->+2.6%],5.902525928561754,
+402,Anthony Gould,WR,IND,6.61,UNPROVEN,58.6,0,Deep,,25.4,rookie_baseline+rel[UNPROVEN*0.92]+sit[59->+2.6%],5.902525928561754,
+403,D.Shepherd,WR,GB,6.48,UNPROVEN,52.1,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[52->+0.6%],5.883,
+410,Jayden Higgins,WR,HOU,6.54,UNPROVEN,56.5,1,Deep,,23.7,2025_only+rel[UNPROVEN*0.92]+sit[56->+1.9%]+starter_floor_soft,5.841209946199938,
+412,DeMario Douglas,WR,NE,6.46,PROVEN_SOLID,38.0,3,Deep,,25.7,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[38->-3.6%]+starter_floor_soft,5.814375252657118,
+413,Kendrick Bourne,WR,SF,6.41,UNPROVEN,82.0,6,Deep,,31.1,2025*0.50+2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[82->+9.6%]+starter_floor_soft,5.793491171674656,
+414,Josh Palmer,WR,BUF,6.38,BASELINE,83.0,5,Deep,,26.9,2025*0.50+2024*0.30+2023*0.20+rel[BASELINE*1.00]+sit[83->+9.9%]+starter_floor_soft,5.789405673729599,
+419,D.Houston,WR,DAL,6.35,UNPROVEN,45.6,0,Deep,,27.4,rookie_baseline+rel[UNPROVEN*0.92]+sit[46->-1.3%],5.7725,
+420,T.Jackson,WR,MIN,6.34,UNPROVEN,44.6,0,Deep,,28.5,rookie_baseline+rel[UNPROVEN*0.92]+sit[45->-1.6%],5.763999999999999,
+423,D.Smith,WR,JAX,6.29,UNPROVEN,42.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[42->-2.4%],5.7215,
+424,J.Mickens,WR,JAX,6.29,UNPROVEN,42.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[42->-2.4%],5.7215,
+425,E.Cooks,WR,JAX,6.29,UNPROVEN,42.0,0,Deep,,27.9,rookie_baseline+rel[UNPROVEN*0.92]+sit[42->-2.4%],5.7215,
+426,T.Godwin,WR,JAX,6.29,UNPROVEN,42.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[42->-2.4%],5.7215,
+427,J.Jackson,WR,NO,6.27,UNPROVEN,41.4,0,Deep,,26.2,rookie_baseline+rel[UNPROVEN*0.92]+sit[41->-2.6%],5.7045,
+428,A.Carr,WR,NO,6.27,UNPROVEN,41.4,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[41->-2.6%],5.7045,
+429,K.White,WR,NO,6.27,UNPROVEN,41.4,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[41->-2.6%],5.7045,
+430,C.Hogan,WR,NO,6.27,UNPROVEN,41.4,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[41->-2.6%],5.7045,
+431,E.Winston,WR,NO,6.27,UNPROVEN,41.4,0,Deep,,29.7,rookie_baseline+rel[UNPROVEN*0.92]+sit[41->-2.6%],5.7045,
+432,B.Fowler,WR,NO,6.27,UNPROVEN,41.4,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[41->-2.6%],5.7045,
+433,K.Kirkwood,WR,NO,6.27,UNPROVEN,41.4,0,Deep,,31.7,rookie_baseline+rel[UNPROVEN*0.92]+sit[41->-2.6%],5.7045,
+434,B.Means,WR,NO,6.27,UNPROVEN,41.4,0,Deep,,25.6,rookie_baseline+rel[UNPROVEN*0.92]+sit[41->-2.6%],5.7045,
+435,C.Thompson,WR,SEA,6.26,UNPROVEN,40.6,0,Deep,,30.6,rookie_baseline+rel[UNPROVEN*0.92]+sit[41->-2.8%],5.696,
+436,C.Johnson,WR,SEA,6.26,UNPROVEN,40.6,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[41->-2.8%],5.696,
+437,Dontayvion Wicks,WR,GB,6.3,PROVEN_SOLID,53.1,3,Deep,,25.2,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[53->+0.9%]+starter_floor_soft,5.673174549918493,
+438,Travis Hunter,WR,JAX,6.39,UNPROVEN,42.0,0,Deep,,23.3,2025_only+rel[UNPROVEN*0.92]+sit[42->-2.4%],5.670258761321802,
+439,J.Baker,WR,NE,6.21,UNPROVEN,38.0,0,Deep,,24.5,rookie_baseline+rel[UNPROVEN*0.92]+sit[38->-3.6%],5.6535,
+440,D.Fitzpatrick,WR,TEN,6.21,UNPROVEN,38.0,0,Deep,,28.7,rookie_baseline+rel[UNPROVEN*0.92]+sit[38->-3.6%],5.6535,
+441,C.Dowell,WR,TEN,6.21,UNPROVEN,38.0,0,Deep,,27.4,rookie_baseline+rel[UNPROVEN*0.92]+sit[38->-3.6%],5.6535,
+442,R.McMath,WR,TEN,6.21,UNPROVEN,38.0,0,Deep,,27.2,rookie_baseline+rel[UNPROVEN*0.92]+sit[38->-3.6%],5.6535,
+443,J.Gordon,WR,TEN,6.21,UNPROVEN,38.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[38->-3.6%],5.6535,
+444,J.Jackson,WR,TEN,6.21,UNPROVEN,38.0,0,Deep,,26.3,rookie_baseline+rel[UNPROVEN*0.92]+sit[38->-3.6%],5.6535,
+445,D.Moncrief,WR,NE,6.21,UNPROVEN,38.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[38->-3.6%],5.6535,
+446,C.Hollister,WR,TEN,6.21,UNPROVEN,38.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[38->-3.6%],5.6535,
+447,T.Montgomery,WR,NE,6.21,UNPROVEN,38.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[38->-3.6%],5.6535,
+448,I.Zuber,WR,NE,6.21,UNPROVEN,38.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[38->-3.6%],5.6535,
+449,Tyquan Thornton,WR,KC,6.21,INJURY_RISK,72.0,2,Deep,,26.1,2025*0.50+2023*0.20+rel[INJURY_RISK*0.96]+sit[72->+6.6%]+starter_floor_soft,5.650341525385124,
+451,R.Gafford,WR,LV,6.19,UNPROVEN,37.1,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[37->-3.9%],5.6365,
+452,K.Wilkerson,WR,LV,6.19,UNPROVEN,37.1,0,Deep,,29.6,rookie_baseline+rel[UNPROVEN*0.92]+sit[37->-3.9%],5.6365,
+453,R.Keyton,WR,LV,6.19,UNPROVEN,37.1,0,Deep,,26.0,rookie_baseline+rel[UNPROVEN*0.92]+sit[37->-3.9%],5.6365,
+454,Adam Thielen,WR,MIN,6.31,INJURY_RISK,45.0,5,Deep,,36.0,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[45->-1.5%]+starter_floor_soft,5.610872030543934,
+455,J.Malone,WR,NYJ,6.15,UNPROVEN,35.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[35->-4.5%],5.6025,
+456,T.Black,WR,NYJ,6.15,UNPROVEN,35.0,0,Deep,,28.6,rookie_baseline+rel[UNPROVEN*0.92]+sit[35->-4.5%],5.6025,
+457,D.Baldwin,WR,CLE,6.15,UNPROVEN,35.0,0,Deep,,26.8,rookie_baseline+rel[UNPROVEN*0.92]+sit[35->-4.5%],5.6025,
+458,J.Natson,WR,CLE,6.15,UNPROVEN,35.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[35->-4.5%],5.6025,
+459,M.Woods,WR,CLE,6.15,UNPROVEN,35.0,0,Deep,,26.5,rookie_baseline+rel[UNPROVEN*0.92]+sit[35->-4.5%],5.6025,
+460,T.Taylor,WR,CLE,6.15,UNPROVEN,35.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[35->-4.5%],5.6025,
+461,I.Charles,WR,NYJ,6.15,UNPROVEN,35.0,0,Deep,,29.4,rookie_baseline+rel[UNPROVEN*0.92]+sit[35->-4.5%],5.6025,
+462,J.Darden,WR,CLE,6.15,UNPROVEN,35.0,0,Deep,,27.6,rookie_baseline+rel[UNPROVEN*0.92]+sit[35->-4.5%],5.6025,
+463,J.Scott,WR,NYJ,6.15,UNPROVEN,35.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[35->-4.5%],5.6025,
+464,V.Smith,WR,NYJ,6.15,UNPROVEN,35.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[35->-4.5%],5.6025,
+465,J.Bradley,WR,CLE,6.15,UNPROVEN,35.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[35->-4.5%],5.6025,
+466,Mack Hollins,WR,NE,6.14,PROVEN_SOLID,38.0,3,Deep,,33.0,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[38->-3.6%]+starter_floor_soft,5.579641258576206,
+468,Rashod Bateman,WR,BAL,6.2,UNPROVEN,78.0,4,Deep,,26.8,2025*0.50+2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[78->+8.4%]+starter_floor_soft,5.565526928482424,
+470,Calvin Austin III,WR,PIT,6.15,PROVEN_SOLID,58.4,3,Deep,,27.4,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[58->+2.5%]+starter_floor_soft,5.558957597233697,
+473,Devaughn Vele,WR,NO,6.21,UNPROVEN,42.2,2,Deep,,28.7,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[42->-2.3%]+starter_floor_soft,5.53229676619112,
+474,Elic Ayomanor,WR,TEN,6.16,UNPROVEN,38.0,1,Deep,,23.2,2025_only+rel[UNPROVEN*0.92]+sit[38->-3.6%]+starter_floor_soft,5.525484258046578,
+475,M.Strachan,WR,CAR,6.05,UNPROVEN,30.0,0,Deep,,29.1,rookie_baseline+rel[UNPROVEN*0.92]+sit[30->-6.0%],5.5175,
+476,S.Roberts,WR,CAR,6.05,UNPROVEN,30.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[30->-6.0%],5.5175,
+477,D.Chisena,WR,CAR,6.05,UNPROVEN,30.0,0,Deep,,29.5,rookie_baseline+rel[UNPROVEN*0.92]+sit[30->-6.0%],5.5175,
+478,C.Saunders,WR,CAR,6.05,UNPROVEN,30.0,0,Deep,,,rookie_baseline+rel[UNPROVEN*0.92]+sit[30->-6.0%],5.5175,
+481,DeAndre Hopkins,WR,BAL,6.14,INJURY_RISK,78.0,6,Deep,,34.2,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[78->+8.4%]+starter_floor_soft,5.5023954091803,
+486,Malik Washington,WR,MIA,6.08,EMERGING,74.0,2,Deep,,25.9,2025*0.50+2024*0.30+rel[EMERGING*1.03]+sit[74->+7.2%]+starter_floor_soft,5.4571326846044,
+488,Andrei Iosivas,WR,CIN,6.07,UNPROVEN,75.0,2,Deep,,26.9,2025*0.50+2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[75->+7.5%]+starter_floor_soft,5.449265462108175,
+493,Tez Johnson,WR,TB,6.02,UNPROVEN,66.3,1,Deep,,24.3,2025_only+rel[UNPROVEN*0.92]+sit[66->+4.9%]+starter_floor_soft,5.416023258468041,
+496,Jalen Nailor,WR,MIN,6.03,INJURY_RISK,45.8,2,Deep,,27.5,2025*0.50+2024*0.30+rel[INJURY_RISK*0.96]+sit[46->-1.3%]+starter_floor_soft,5.383225351225909,
+500,Isaac TeSlaa,WR,DET,5.99,UNPROVEN,88.0,1,Deep,,24.5,2025_only+rel[UNPROVEN*0.92]+sit[88->+11.4%]+starter_floor_soft,5.366988063253007,
+501,KaVontae Turpin,WR,DAL,5.93,INJURY_RISK,46.3,3,Deep,,30.1,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[46->-1.1%]+starter_floor_soft,5.362871337138277,
+505,Ryan Flournoy,WR,DAL,5.88,UNPROVEN,46.6,1,Deep,,26.8,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[47->-1.0%]+starter_floor_soft,5.336122583447047,
+506,W.Fuller,WR,MIA,5.82,UNPROVEN,74.0,1,Deep,,,2020_ancient*0.40+rel[UNPROVEN*0.92]+sit[74->+7.2%],5.322,
+508,Greg Dortch,WR,ARI,5.92,INJURY_RISK,55.3,3,Deep,,28.3,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[55->+1.6%]+starter_floor_soft,5.318078808476481,
+509,T.Boyd,WR,TEN,5.8,INJURY_RISK,38.0,5,Deep,,31.8,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[38->-3.6%]+starter_floor_soft,5.305,
+511,Brandin Cooks,WR,BUF,5.94,INJURY_RISK,83.0,5,Deep,,32.9,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[83->+9.9%]+starter_floor_soft,5.281412671381623,
+514,Chimere Dike,WR,TEN,5.9,UNPROVEN,38.0,1,Deep,,24.7,2025_only+rel[UNPROVEN*0.92]+sit[38->-3.6%]+starter_floor_soft,5.263187361275966,
+517,Cedric Tillman,WR,CLE,5.9,EMERGING,35.0,2,Deep,,26.4,2025*0.50+2024*0.30+2023*0.20+rel[EMERGING*1.03]+sit[35->-4.5%]+starter_floor_soft,5.217503226736346,
+519,Xavier Legette,WR,CAR,5.82,UNPROVEN,30.0,2,Deep,,25.6,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[30->-6.0%]+starter_floor_soft,5.210627396825168,
+523,Matthew Golden,WR,GB,5.73,UNPROVEN,53.1,1,Deep,,23.1,2025_only+rel[UNPROVEN*0.92]+sit[53->+0.9%]+starter_floor_soft,5.167456626233447,
+525,Gunner Olszewski,WR,NYG,5.81,UNPROVEN,58.1,0,Deep,,29.8,2025_only+rel[UNPROVEN*0.92]+sit[58->+2.4%],5.144676424668995,
+526,Olamide Zaccheaus,WR,CHI,5.75,INJURY_RISK,58.0,4,Deep,,29.1,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[58->+2.4%]+starter_floor_soft,5.138694374703661,
+528,Pat Bryant,WR,DEN,5.75,UNPROVEN,69.4,1,Deep,,23.7,2025_only+rel[UNPROVEN*0.92]+sit[69->+5.8%]+starter_floor_soft,5.120904304079654,
+531,A.Brown,WR,TB,5.51,UNPROVEN,65.4,1,Deep,,,2021_ancient*0.40+rel[UNPROVEN*0.92]+sit[65->+4.6%],5.0585,
+539,B.Melton,WR,GB,5.44,UNPROVEN,52.1,1,Deep,,27.3,2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[52->+0.6%]+starter_floor_soft,4.9990000000000006,
+545,Kalif Raymond,WR,DET,5.58,INJURY_RISK,88.0,5,Deep,,32.1,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[88->+11.4%]+starter_floor_soft,4.9592031820619535,
+546,Theo Wease Jr.,WR,MIA,5.51,UNPROVEN,74.0,0,Deep,,25.2,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92]+sit[74->+7.2%],4.939830073408478,
+548,Gabe Davis,WR,BUF,5.43,INJURY_RISK,83.0,4,Deep,,27.5,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[83->+9.9%],4.936210558129984,
+549,Xavier Smith,WR,LA,5.34,UNPROVEN,56.6,1,Deep,,28.9,2025_only+rel[UNPROVEN*0.92]+sit[57->+2.0%]+starter_floor_soft,4.92876607740931,
+551,Tyler Lockett,WR,LV,5.54,INJURY_RISK,37.5,6,Deep,,33.9,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[38->-3.8%]+starter_floor_soft,4.911731832613999,
+554,Jordan Watkins,WR,SF,5.35,UNPROVEN,82.0,0,Deep,,24.5,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92]+sit[82->+9.6%],4.890569771233068,
+555,Sterling Shepard,WR,TB,5.41,INJURY_RISK,66.4,3,Deep,,33.6,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[66->+4.9%]+starter_floor_soft,4.880782434476351,
+556,Isaiah Hodgins,WR,NYG,5.49,INJURY_RISK,58.2,2,Deep,,27.9,2025_small_sample(3g)_regressed+rel[INJURY_RISK*0.96]+sit[58->+2.5%],4.880103777954898,
+557,Tyrell Shavers,WR,BUF,5.33,UNPROVEN,83.0,1,Deep,,27.0,2025_only+rel[UNPROVEN*0.92]+sit[83->+9.9%]+starter_floor_soft,4.879031756597305,
+560,Tom Kennedy,WR,DET,5.47,UNPROVEN,88.0,0,Deep,,30.1,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92]+sit[88->+11.4%],4.862471236567358,
+564,M.Thomas,WR,NO,5.26,INJURY_RISK,41.4,2,Deep,,,2023_old*0.80+rel[INJURY_RISK*0.96]+sit[41->-2.6%],4.846,
+565,Britain Covey,WR,PHI,5.38,UNPROVEN,85.0,0,Deep,,29.5,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92]+sit[85->+10.5%],4.817131601271521,
+566,Jordan Whittington,WR,LA,5.25,UNPROVEN,56.6,1,Deep,,25.9,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[57->+2.0%]+starter_floor_soft,4.794719362197075,
+569,JuJu Smith-Schuster,WR,KC,5.27,VOLATILE,72.0,5,Deep,,29.8,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88]+sit[72->+6.6%]+starter_floor_soft,4.780473402694482,
+572,Dee Eskridge,WR,MIA,5.3,UNPROVEN,74.0,0,Deep,,29.4,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92]+sit[74->+7.2%],4.762092727129211,
+573,Michael Bandy,WR,DEN,5.29,UNPROVEN,68.6,0,Deep,,28.7,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92]+sit[69->+5.6%],4.759435831969682,
+574,Marquez Valdes-Scantling,WR,PIT,5.2,INJURY_RISK,57.4,4,Deep,,31.9,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[57->+2.2%]+starter_floor_soft,4.758639522219588,
+575,KeAndre Lambert-Smith,WR,LAC,5.31,UNPROVEN,70.0,0,Deep,,24.9,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92]+sit[70->+6.0%],4.754363283658951,
+576,Kameron Johnson,WR,TB,5.28,UNPROVEN,65.5,0,Deep,,24.5,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92]+sit[66->+4.7%],4.75098214315146,
+577,Dylan Drummond,WR,ATL,5.32,UNPROVEN,76.0,0,Deep,,26.6,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92]+sit[76->+7.8%],4.7474904223881245,
+580,Jahdae Walker,WR,CHI,5.27,UNPROVEN,58.0,0,Deep,,24.2,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92]+sit[58->+2.4%],4.732400732320817,
+583,N.Agholor,WR,BAL,5.12,VOLATILE,78.0,5,Deep,,33.3,2024*0.30+2023*0.20+rel[VOLATILE*0.88]+sit[78->+8.4%]+starter_floor_soft,4.727,
+584,Deven Thompkins,WR,ATL,5.28,UNPROVEN,76.0,1,Deep,,26.7,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92]+sit[76->+7.8%],4.721981396810676,
+585,Adonai Mitchell,WR,IND,5.3,UNPROVEN,59.9,1,Deep,,23.9,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[60->+3.0%]+starter_floor_soft,4.714091439911532,
+586,Nikko Remigio,WR,KC,5.2,UNPROVEN,72.0,0,Deep,,26.8,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92]+sit[72->+6.6%],4.712196703682603,
+587,Tahj Washington,WR,MIA,5.25,UNPROVEN,74.0,0,Deep,,25.3,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92]+sit[74->+7.2%],4.710222509772115,
+594,Dyami Brown,WR,JAX,5.2,UNPROVEN,42.0,2,Deep,,26.8,2025*0.50+2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[42->-2.4%]+starter_floor_soft,4.681340483885136,
+597,Jalen Royals,WR,KC,5.17,UNPROVEN,72.0,0,Deep,,23.5,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92]+sit[72->+6.6%],4.669204578275437,
+598,Ray-Ray McCloud,WR,ATL,5.27,INJURY_RISK,76.0,5,Deep,,29.9,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[76->+7.8%],4.66876936303599,
+600,Devin Duvernay,WR,CHI,5.21,INJURY_RISK,58.0,3,Deep,,29.0,2025_small_sample(1g)_regressed+rel[INJURY_RISK*0.96]+sit[58->+2.4%],4.657081980366039,
+601,Van Jefferson,WR,TEN,5.21,INJURY_RISK,38.0,5,Deep,,30.1,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[38->-3.6%]+starter_floor_soft,4.655145330522775,
+602,David Sills,WR,ATL,5.16,UNPROVEN,76.0,1,Deep,,31.3,2025_only+rel[UNPROVEN*0.92]+sit[76->+7.8%]+starter_floor_soft,4.651453722266193,
+604,Braxton Berrios,WR,HOU,5.21,INJURY_RISK,55.2,4,Deep,,30.9,2025_small_sample(1g)_regressed+rel[INJURY_RISK*0.96]+sit[55->+1.6%],4.639332314944954,
+605,Jahan Dotson,WR,PHI,5.15,VOLATILE,85.0,4,Deep,,26.4,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88]+sit[85->+10.5%]+starter_floor_soft,4.637418674784654,
+608,Tre Harris,WR,LAC,5.15,UNPROVEN,70.0,1,Deep,,24.5,2025_only+rel[UNPROVEN*0.92]+sit[70->+6.0%]+starter_floor_soft,4.6027775669492375,
+609,D.Turner,WR,LV,4.97,UNPROVEN,37.1,1,Deep,,29.6,2024_only*0.85+rel[UNPROVEN*0.92]+sit[37->-3.9%]+starter_floor_soft,4.5995,
+612,Jaylin Noel,WR,HOU,5.12,UNPROVEN,55.7,1,Deep,,24.0,2025_only+rel[UNPROVEN*0.92]+sit[56->+1.7%]+starter_floor_soft,4.582154108447227,
+613,John Metchie III,WR,NYJ,5.07,INJURY_RISK,35.0,2,Deep,,26.1,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[35->-4.5%]+starter_floor_soft,4.579253917458725,
+617,M.Williams,WR,NYJ,4.91,INJURY_RISK,35.0,3,Deep,,31.9,2024_only*0.85+rel[INJURY_RISK*0.96]+sit[35->-4.5%]+starter_floor_soft,4.5485,
+618,Jacoby Jones,WR,WAS,5.03,UNPROVEN,61.1,0,Deep,,25.1,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92]+sit[61->+3.3%],4.543658196386329,
+622,Tay Martin,WR,WAS,5.04,UNPROVEN,61.2,0,Deep,,28.7,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92]+sit[61->+3.4%],4.535809696386329,
+623,A.Perry,WR,NO,4.89,UNPROVEN,41.4,0,Deep,,26.9,2023_old*0.80+rel[UNPROVEN*0.92]+sit[41->-2.6%],4.531499999999999,
+625,Xavier Hutchinson,WR,HOU,5.01,VOLATILE,56.3,3,Deep,,26.3,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88]+sit[56->+1.9%]+starter_floor_soft,4.522164691412218,
+629,Cody White,WR,SEA,4.91,UNPROVEN,40.6,0,Deep,,27.8,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92]+sit[41->-2.8%],4.493522480456957,
+630,R.Woods,WR,HOU,4.83,VOLATILE,55.1,5,Deep,,34.4,2024*0.30+2023*0.20+rel[VOLATILE*0.88]+sit[55->+1.5%]+starter_floor_soft,4.4805,
+631,Efton Chism III,WR,NE,4.88,UNPROVEN,38.0,0,Deep,,24.8,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92]+sit[38->-3.6%],4.476234988390093,
+632,Nick Westbrook-Ikhine,WR,MIA,4.99,BASELINE,74.0,4,Deep,,29.4,2025*0.50+2024*0.30+2023*0.20+rel[BASELINE*1.00]+sit[74->+7.2%],4.475294523259176,
+636,B.Johnson,WR,PIT,4.81,UNPROVEN,57.3,1,Deep,,28.1,2023_old*0.80+rel[UNPROVEN*0.92]+sit[57->+2.2%],4.4635,
+640,Jared Wayne,WR,HOU,4.95,UNPROVEN,55.1,0,Deep,,25.9,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92]+sit[55->+1.5%],4.437943095778045,
+641,Beaux Collins,WR,NYG,4.99,UNPROVEN,57.9,0,Deep,,23.7,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92]+sit[58->+2.4%],4.4338707030033975,
+642,Jakobie Keeney-James,WR,GB,4.89,UNPROVEN,52.1,0,Deep,,25.9,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92]+sit[52->+0.6%],4.426926380980785,
+646,K.Osborn,WR,NE,4.74,INJURY_RISK,38.0,3,Deep,,29.2,2023_old*0.80+rel[INJURY_RISK*0.96]+sit[38->-3.6%],4.404,
+647,Kyle Williams,WR,NE,4.79,UNPROVEN,38.0,1,Deep,,23.8,2025_only+rel[UNPROVEN*0.92]+sit[38->-3.6%]+starter_floor_soft,4.387829987495319,
+651,Dareke Young,WR,SEA,4.77,UNPROVEN,40.6,0,Deep,,27.2,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92]+sit[41->-2.8%],4.352346109244835,
+656,Ronnie Bell,WR,NO,4.83,UNPROVEN,41.5,0,Deep,,26.6,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92]+sit[42->-2.6%],4.342063138870744,
+657,Shedrick Jackson,WR,LV,4.83,UNPROVEN,37.2,0,Deep,,26.9,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92]+sit[37->-3.8%],4.323328167542901,
+665,Austin Trammell,WR,JAX,4.79,UNPROVEN,42.0,0,Deep,,28.2,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92]+sit[42->-2.4%],4.290864823948712,
+666,Zay Jones,WR,ARI,4.71,INJURY_RISK,55.1,4,Deep,,31.4,2025*0.50+2023*0.20+rel[INJURY_RISK*0.96]+sit[55->+1.5%],4.285666852835299,
+667,Tai Felton,WR,MIN,4.81,UNPROVEN,44.7,0,Deep,,23.5,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92]+sit[45->-1.6%],4.281792032756939,
+668,Noah Brown,WR,WAS,4.74,INJURY_RISK,61.4,3,Deep,,30.7,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[61->+3.4%],4.281506769662191,
+670,Isaiah Bond,WR,CLE,4.78,UNPROVEN,35.0,1,Deep,,22.5,2025_only+rel[UNPROVEN*0.92]+sit[35->-4.5%]+starter_floor_soft,4.273552666769995,
+671,Tim Jones,WR,JAX,4.74,UNPROVEN,42.0,0,Deep,,28.3,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92]+sit[42->-2.4%],4.271362575973224,
+673,James Proche,WR,TEN,4.78,UNPROVEN,38.0,0,Deep,,29.9,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92]+sit[38->-3.6%],4.260568652790276,
+674,Robbie Chosen,WR,WAS,4.69,INJURY_RISK,61.3,2,Deep,,33.3,2025_small_sample(2g)_regressed+rel[INJURY_RISK*0.96]+sit[61->+3.4%],4.25075219638633,
+675,Curtis Samuel,WR,BUF,4.6,INJURY_RISK,83.0,4,Deep,,30.1,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[83->+9.9%],4.246860246847176,
+677,Tutu Atwell,WR,LA,4.54,INJURY_RISK,56.5,3,Deep,,26.9,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[56->+1.9%],4.241606794210416,
+685,Jaylin Lane,WR,WAS,4.64,UNPROVEN,61.9,1,Deep,,24.3,2025_only+rel[UNPROVEN*0.92]+sit[62->+3.6%]+starter_floor_soft,4.217194886849691,
+686,Mason Kinsey,WR,TEN,4.73,UNPROVEN,38.0,0,Deep,,28.0,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92]+sit[38->-3.6%],4.216730553615538,
+687,Jack Bech,WR,LV,4.7,UNPROVEN,37.7,1,Deep,,23.7,2025_only+rel[UNPROVEN*0.92]+sit[38->-3.7%]+starter_floor_soft,4.212962638476815,
+689,Xavier Restrepo,WR,TEN,4.73,UNPROVEN,38.0,0,Deep,,24.4,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92]+sit[38->-3.6%],4.198159487701321,
+697,Alex Bachman,WR,LV,4.67,UNPROVEN,37.1,0,Deep,,30.3,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92]+sit[37->-3.9%],4.170235732203733,
+714,D.Chark,WR,LAC,4.39,INJURY_RISK,70.0,3,Deep,,29.9,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[70->+6.0%],4.1065,
+716,Quentin Skinner,WR,NYJ,4.63,UNPROVEN,35.0,0,Deep,,24.7,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92]+sit[35->-4.5%],4.106431324234488,
+725,Luke McCaffrey,WR,WAS,4.43,UNPROVEN,61.5,1,Deep,,25.4,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[62->+3.5%],4.045403568800122,
+726,Q.Watkins,WR,PHI,4.3,INJURY_RISK,85.0,2,Deep,,28.2,2023_old*0.80+rel[INJURY_RISK*0.96]+sit[85->+10.5%],4.029999999999999,
+731,Jalen Tolbert,WR,DAL,4.33,INJURY_RISK,46.2,2,Deep,,27.5,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[46->-1.1%],3.992615659771898,
+737,Jimmy Horn Jr.,WR,CAR,4.41,UNPROVEN,30.0,1,Deep,,24.0,2025_only+rel[UNPROVEN*0.92]+sit[30->-6.0%]+starter_floor_soft,3.945033121946486,
+739,Malachi Corley,WR,CLE,4.46,UNPROVEN,35.0,1,Deep,,24.4,2025_only+rel[UNPROVEN*0.92]+sit[35->-4.5%]+starter_floor_soft,3.93922115467086,
+743,T.Irwin,WR,CIN,4.14,INJURY_RISK,75.0,2,Deep,,30.7,2023_old*0.80+rel[INJURY_RISK*0.96]+sit[75->+7.5%],3.894,
+744,M.Gallup,WR,DAL,4.14,PROVEN_SOLID,45.6,4,Deep,,30.5,2023_old*0.80+rel[PROVEN_SOLID*1.06]+sit[46->-1.3%],3.894,
+755,David Moore,WR,CAR,4.17,INJURY_RISK,30.0,2,Deep,,31.6,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[30->-6.0%],3.752652895131887,
+760,J.Crowder,WR,WAS,3.94,INJURY_RISK,61.1,2,Deep,,33.2,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[61->+3.3%],3.724,
+766,Allen Lazard,WR,NYJ,4.07,INJURY_RISK,35.0,5,Deep,,30.7,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[35->-4.5%],3.6511816780991744,
+770,Elijah Moore,WR,BUF,3.93,INJURY_RISK,83.0,4,Deep,,26.4,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[83->+9.9%],3.58278148995219,
+773,D.Bell,WR,CLE,3.75,INJURY_RISK,35.0,2,Deep,,25.7,2023_old*0.80+rel[INJURY_RISK*0.96]+sit[35->-4.5%],3.5625,
+776,R.Moore,WR,ARI,3.73,UNPROVEN,54.8,2,Deep,,26.2,2023_old*0.80+rel[UNPROVEN*0.92]+sit[55->+1.4%],3.5455,
+778,Kevin Austin Jr.,WR,NO,3.88,UNPROVEN,41.9,0,Deep,,26.4,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[42->-2.4%],3.535763824183121,
+779,Lil'Jordan Humphrey,WR,DEN,3.92,INJURY_RISK,68.7,2,Deep,,28.4,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[69->+5.6%],3.5249152047837016,
+783,H.Ruggs,WR,LV,3.66,UNPROVEN,37.1,1,Deep,,,2021_ancient*0.40+rel[UNPROVEN*0.92]+sit[37->-3.9%],3.486,
+784,Justin Watson,WR,HOU,3.82,INJURY_RISK,55.1,3,Deep,,30.4,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[55->+1.5%],3.4684478775751386,
+786,T.Palmer,WR,TB,3.58,UNPROVEN,65.4,1,Deep,,25.4,2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[65->+4.6%],3.418,
+792,Roman Wilson,WR,PIT,3.62,UNPROVEN,57.7,0,Deep,,25.2,2025_only+rel[UNPROVEN*0.92]+sit[58->+2.3%],3.3712977876104424,
+800,Q.Cephus,WR,DET,3.44,UNPROVEN,88.0,1,Deep,,28.4,2021_ancient*0.40+rel[UNPROVEN*0.92]+sit[88->+11.4%],3.299,
+802,K.Coutee,WR,IND,3.42,UNPROVEN,58.6,0,Deep,,,2020_ancient*0.40+rel[UNPROVEN*0.92]+sit[59->+2.6%],3.282,
+803,Mecole Hardman,WR,BUF,3.45,INJURY_RISK,83.0,2,Deep,,28.5,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[83->+9.9%],3.281516406070682,
+805,Josh Reynolds,WR,NYJ,3.61,INJURY_RISK,35.0,3,Deep,,31.5,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[35->-4.5%],3.262319622093163,
+807,Tim Patrick,WR,JAX,3.54,PROVEN_SOLID,42.0,3,Deep,,32.8,2025*0.50+2024*0.30+rel[PROVEN_SOLID*1.06]+sit[42->-2.4%],3.2339451312471064,
+811,Tyler Johnson,WR,NYJ,3.52,INJURY_RISK,35.0,3,Deep,,28.0,2025*0.50+2024*0.30+rel[INJURY_RISK*0.96]+sit[35->-4.5%],3.196325599818067,
+812,Mitchell Tinsley,WR,CIN,3.41,UNPROVEN,75.0,0,Deep,,27.0,2025_only+rel[UNPROVEN*0.92]+sit[75->+7.5%],3.181230609165392,
+815,T.Fulgham,WR,PHI,3.28,UNPROVEN,85.0,1,Deep,,,2020_ancient*0.40+rel[UNPROVEN*0.92]+sit[85->+10.5%],3.163,
+816,Hunter Renfrow,WR,CAR,3.45,VOLATILE,30.0,4,Deep,,30.7,2025*0.50+2023*0.20+rel[VOLATILE*0.88]+sit[30->-6.0%],3.1617114947089937,
+817,Chris Moore,WR,WAS,3.39,UNPROVEN,61.7,2,Deep,,33.2,2025*0.50+2023*0.20+rel[UNPROVEN*0.92]+sit[62->+3.5%],3.151441677270886,
+818,Isaiah Williams,WR,NYJ,3.49,UNPROVEN,35.0,0,Deep,,25.6,2025_only+rel[UNPROVEN*0.92]+sit[35->-4.5%],3.1403763292065205,
+819,P.Williams,WR,MIA,3.24,UNPROVEN,74.0,1,Deep,,,2020_ancient*0.40+rel[UNPROVEN*0.92]+sit[74->+7.2%],3.129,
+823,C.Claypool,WR,MIA,3.22,INJURY_RISK,74.0,2,Deep,,28.2,2022_ancient*0.40+rel[INJURY_RISK*0.96]+sit[74->+7.2%],3.112,
+829,A.Erickson,WR,LAC,3.19,UNPROVEN,70.0,1,Deep,,33.8,2023_old*0.80+rel[UNPROVEN*0.92]+sit[70->+6.0%],3.0865,
+831,R.Gage,WR,TB,3.17,PROVEN_SOLID,65.4,3,Deep,,30.6,2022_ancient*0.40+rel[PROVEN_SOLID*1.06]+sit[65->+4.6%],3.0695,
+832,J.Brown,WR,BUF,3.16,UNPROVEN,83.0,1,Deep,,,2020_ancient*0.40+rel[UNPROVEN*0.92]+sit[83->+9.9%],3.061,
+834,J.Jones,WR,PHI,3.13,UNPROVEN,85.0,3,Deep,,,2023_old*0.80+rel[UNPROVEN*0.92]+sit[85->+10.5%],3.0355,
+836,E.Sanders,WR,BUF,3.12,UNPROVEN,83.0,2,Deep,,,2021_ancient*0.40+rel[UNPROVEN*0.92]+sit[83->+9.9%],3.027,
+840,D.Parker,WR,NE,3.09,PROVEN_SOLID,38.0,4,Deep,,33.6,2023_old*0.80+rel[PROVEN_SOLID*1.06]+sit[38->-3.6%],3.0015,
+845,Ryan Miller,WR,TB,3.15,UNPROVEN,65.5,0,Deep,,26.5,2024_only*0.85+rel[UNPROVEN*0.92]+sit[66->+4.7%],2.955797151826223,
+846,KhaDarel Hodge,WR,ATL,3.18,UNPROVEN,76.0,1,Deep,,32.7,2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[76->+7.8%],2.9505735331634484,
+847,R.Cracraft,WR,MIA,3.01,UNPROVEN,74.0,0,Deep,,31.8,2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[74->+7.2%],2.9335,
+850,Tylan Wallace,WR,BAL,3.1,UNPROVEN,78.0,1,Deep,,27.3,2024_only*0.85+rel[UNPROVEN*0.92]+sit[78->+8.4%],2.8987628147695275,
+855,Treylon Burks,WR,WAS,3.0,UNPROVEN,61.6,1,Deep,,26.4,2025*0.50+2023*0.20+rel[UNPROVEN*0.92]+sit[62->+3.5%],2.8263370133925982,
+856,J.Agnew,WR,JAX,2.86,VOLATILE,42.0,3,Deep,,31.4,2023_old*0.80+rel[VOLATILE*0.88]+sit[42->-2.4%],2.806,
+857,C.Hansen,WR,HOU,2.85,UNPROVEN,55.1,0,Deep,,,2020_ancient*0.40+rel[UNPROVEN*0.92]+sit[55->+1.5%],2.7975,
+859,O.Beckham,WR,MIA,2.84,INJURY_RISK,74.0,2,Deep,,33.8,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[74->+7.2%],2.789,
+860,Cedrick Wilson Jr.,WR,MIA,2.98,INJURY_RISK,74.0,4,Deep,,30.8,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[74->+7.2%],2.773557970837145,
+861,I.Smith-Marsette,WR,NYG,2.82,UNPROVEN,57.8,0,Deep,,27.0,2023_old*0.80+rel[UNPROVEN*0.92]+sit[58->+2.3%],2.772,
+865,J.Edelman,WR,NE,2.7,UNPROVEN,38.0,0,Deep,,,2020_ancient*0.40+rel[UNPROVEN*0.92]+sit[38->-3.6%],2.67,
+868,J.Burton,WR,CIN,2.67,UNPROVEN,75.0,0,Deep,,25.2,2024_only*0.85+rel[UNPROVEN*0.92]+sit[75->+7.5%],2.6445,
+869,D.Amendola,WR,HOU,2.65,UNPROVEN,55.1,1,Deep,,,2021_ancient*0.40+rel[UNPROVEN*0.92]+sit[55->+1.5%],2.6275,
+871,J.Grant,WR,CHI,2.63,UNPROVEN,58.0,1,Deep,,33.8,2021_ancient*0.40+rel[UNPROVEN*0.92]+sit[58->+2.4%],2.6105,
+874,Malik Heath,WR,GB,2.71,UNPROVEN,52.2,0,Deep,,26.4,2025*0.50+2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[52->+0.7%],2.5929191336226096,
+878,M.Jones,WR,DET,2.54,INJURY_RISK,88.0,3,Deep,,,2022_ancient*0.40+rel[INJURY_RISK*0.96]+sit[88->+11.4%],2.534,
+879,C.Davis,WR,NYJ,2.54,PROVEN_SOLID,35.0,3,Deep,,,2022_ancient*0.40+rel[PROVEN_SOLID*1.06]+sit[35->-4.5%],2.534,
+883,B.Powell,WR,MIN,2.44,INJURY_RISK,44.6,2,Deep,,31.0,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[45->-1.6%],2.449,
+884,Xavier Gipson,WR,PHI,2.61,UNPROVEN,85.0,1,Deep,,25.5,2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[85->+10.5%],2.446413591969222,
+887,Scott Miller,WR,PIT,2.55,INJURY_RISK,57.5,2,Deep,,29.1,2025*0.50+2023*0.20+rel[INJURY_RISK*0.96]+sit[58->+2.2%],2.4316658604985912,
+888,Darius Cooper,WR,PHI,2.56,UNPROVEN,85.0,0,Deep,,24.8,2025_only+rel[UNPROVEN*0.92]+sit[85->+10.5%],2.4077029181535945,
+889,D.Harty,WR,BUF,2.36,INJURY_RISK,83.0,3,Deep,,28.7,2023_old*0.80+rel[INJURY_RISK*0.96]+sit[83->+9.9%],2.381,
+890,T.Johnson,WR,HOU,2.36,UNPROVEN,55.1,1,Deep,,30.6,2020_ancient*0.40+rel[UNPROVEN*0.92]+sit[55->+1.5%],2.381,
+891,Jonathan Mingo,WR,DAL,2.42,UNPROVEN,45.7,1,Deep,,25.4,2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[46->-1.3%],2.365048030068309,
+892,M.Goodwin,WR,CLE,2.34,INJURY_RISK,35.0,2,Deep,,,2022_ancient*0.40+rel[INJURY_RISK*0.96]+sit[35->-4.5%],2.364,
+894,Derius Davis,WR,LAC,2.51,UNPROVEN,70.0,1,Deep,,26.0,2024*0.30+2023*0.20+rel[UNPROVEN*0.92]+sit[70->+6.0%],2.357903578679758,
+896,Dante Pettis,WR,NO,2.48,UNPROVEN,41.6,1,Deep,,30.9,2024_only*0.85+rel[UNPROVEN*0.92]+sit[42->-2.5%],2.34959393187522,
+897,Casey Washington,WR,ATL,2.46,UNPROVEN,76.0,0,Deep,,25.5,2025_only+rel[UNPROVEN*0.92]+sit[76->+7.8%],2.3463975655316536,
+898,Jake Bobo,WR,SEA,2.44,INJURY_RISK,40.6,2,Deep,,28.1,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[41->-2.8%],2.343736033992311,
+899,J.Guyton,WR,LAC,2.31,INJURY_RISK,70.0,2,Deep,,29.2,2023_old*0.80+rel[INJURY_RISK*0.96]+sit[70->+6.0%],2.3385,
+901,R.Jarrett,WR,TB,2.3,UNPROVEN,65.4,0,Deep,,25.6,2024_only*0.85+rel[UNPROVEN*0.92]+sit[65->+4.6%],2.33,
+902,B.Edwards,WR,ATL,2.28,UNPROVEN,76.0,1,Deep,,,2021_ancient*0.40+rel[UNPROVEN*0.92]+sit[76->+7.8%],2.313,
+903,K.Philips,WR,TEN,2.27,UNPROVEN,38.0,0,Deep,,27.2,2023_old*0.80+rel[UNPROVEN*0.92]+sit[38->-3.6%],2.3045,
+904,W.Snead,WR,SF,2.27,UNPROVEN,82.0,1,Deep,,,2020_ancient*0.40+rel[UNPROVEN*0.92]+sit[82->+9.6%],2.3045,
+905,J.Reagor,WR,LAC,2.26,INJURY_RISK,70.0,2,Deep,,27.7,2023_old*0.80+rel[INJURY_RISK*0.96]+sit[70->+6.0%],2.296,
+909,K.Toney,WR,CLE,2.23,INJURY_RISK,35.0,3,Deep,,27.6,2023_old*0.80+rel[INJURY_RISK*0.96]+sit[35->-4.5%],2.2705,
+911,A.Robinson,WR,DET,2.22,INJURY_RISK,88.0,4,Deep,,33.0,2023_old*0.80+rel[INJURY_RISK*0.96]+sit[88->+11.4%],2.262,
+913,L.Treadwell,WR,BAL,2.19,UNPROVEN,78.0,1,Deep,,31.2,2021_ancient*0.40+rel[UNPROVEN*0.92]+sit[78->+8.4%],2.2365,
+914,J.Landry,WR,NO,2.19,PROVEN_SOLID,41.4,3,Deep,,,2022_ancient*0.40+rel[PROVEN_SOLID*1.06]+sit[41->-2.6%],2.2365,
+916,G.Tate,WR,NYG,2.17,UNPROVEN,57.8,1,Deep,,,2020_ancient*0.40+rel[UNPROVEN*0.92]+sit[58->+2.3%],2.2195,
+917,T.Marshall,WR,LV,2.16,INJURY_RISK,37.1,2,Deep,,26.2,2023_old*0.80+rel[INJURY_RISK*0.96]+sit[37->-3.9%],2.2110000000000003,
+920,A.Rodgers,WR,IND,2.12,UNPROVEN,58.6,0,Deep,,,2022_ancient*0.40+rel[UNPROVEN*0.92]+sit[59->+2.6%],2.177,
+921,L.Fitzgerald,WR,ARI,2.12,UNPROVEN,54.8,1,Deep,,,2020_ancient*0.40+rel[UNPROVEN*0.92]+sit[55->+1.4%],2.177,
+922,Ashton Dulin,WR,IND,2.19,UNPROVEN,58.8,1,Deep,,29.3,2025*0.50+2024*0.30+rel[UNPROVEN*0.92]+sit[59->+2.6%],2.171279606320668,
+923,A.Wesley,WR,ARI,2.09,UNPROVEN,54.8,1,Deep,,,2021_ancient*0.40+rel[UNPROVEN*0.92]+sit[55->+1.4%],2.1514999999999995,
+924,Charlie Jones,WR,CIN,2.22,UNPROVEN,75.0,0,Deep,,27.8,2023_old*0.80+rel[UNPROVEN*0.92]+sit[75->+7.5%],2.1481983641968814,
+925,P.Campbell,WR,PHI,2.07,UNPROVEN,85.0,1,Deep,,29.1,2023_old*0.80+rel[UNPROVEN*0.92]+sit[85->+10.5%],2.1345,
+927,A.Miller,WR,BAL,2.06,UNPROVEN,78.0,1,Deep,,31.9,2020_ancient*0.40+rel[UNPROVEN*0.92]+sit[78->+8.4%],2.126,
+928,Ben Skowronek,WR,PIT,2.17,UNPROVEN,57.4,1,Deep,,29.2,2025*0.50+2023*0.20+rel[UNPROVEN*0.92]+sit[57->+2.2%],2.117128988099099,
+929,D.Inman,WR,WAS,2.03,UNPROVEN,61.1,0,Deep,,,2020_ancient*0.40+rel[UNPROVEN*0.92]+sit[61->+3.3%],2.1005,
+932,Brycen Tremayne,WR,CAR,2.21,UNPROVEN,30.0,0,Deep,,26.8,2025_only+rel[UNPROVEN*0.92]+sit[30->-6.0%],2.074408145134122,
+934,Trent Sherfield,WR,ARI,2.13,INJURY_RISK,54.8,2,Deep,,30.5,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[55->+1.4%],2.0155534198680294,
+935,Malik Turner,WR,SF,2.02,UNPROVEN,82.0,0,Deep,,30.6,2021_ancient*0.40+rel[UNPROVEN*0.92]+sit[82->+9.6%],2.0147770082907352,

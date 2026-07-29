@@ -1,146 +1,146 @@
-Rank,Name,Team,Position,Proj_PPG,Tier,Live_Status,Injury_Flag,Age,Data_Basis
-1,Josh Allen,BUF,QB,36.2375,Elite,,,30.3,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[83->+9.9%]
-2,Lamar Jackson,BAL,QB,30.575000000000003,Elite,,,29.6,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[78->+8.4%]
-3,Patrick Mahomes,KC,QB,28.5375,Elite,,,31.0,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[72->+6.6%]
-4,Brock Purdy,SF,QB,26.373,Elite,,,26.7,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[82->+9.6%]
-5,Joe Burrow,CIN,QB,25.4644,Elite,,,29.7,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[75->+7.5%]
-6,Jalen Hurts,PHI,QB,25.0514,Elite,,,28.1,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[85->+10.5%]
-7,Jared Goff,DET,QB,24.78,QB1,,,31.9,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[88->+11.4%] [talent_cap_applied]
-8,Justin Herbert,LAC,QB,24.2372,QB1,,,28.5,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[70->+6.0%]
-10,Trevor Lawrence,JAX,QB,21.274,QB1,,,26.9,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[42->-2.4%]
-11,Matthew Stafford,LA,QB,20.537000000000003,QB1,,,38.6,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[61->+3.3%]
-13,Bo Nix,DEN,QB,20.35,QB1,,,26.5,2025*0.50+2024*0.30+rel[UNPROVEN*0.92] [sophomore_discount]+sit[64->+4.3%] [floor_applied]
-15,Jayden Daniels,WAS,QB,19.8,QB1,,,25.7,2025*0.50+2024*0.30+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[55->+1.4%] [floor_applied]
-17,Drake Maye,NE,QB,19.25,QB2,,,24.0,2025*0.50+2024*0.30+rel[EMERGING*1.03] [sophomore_discount]+sit[38->-3.6%] [floor_applied]
-18,Baker Mayfield,TB,QB,19.294,QB2,,,31.4,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[58->+2.5%]
-22,Dak Prescott,DAL,QB,18.081,QB2,,,33.1,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[55->+1.4%]
-24,Tua Tagovailoa,MIA,QB,17.472,QB2,,,28.5,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[74->+7.2%]
-25,D.Carr,NO,QB,16.9365,QB2,,,35.4,2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[43->-2.2%]
-26,Jordan Love,GB,QB,16.821,QB2,,,27.8,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[54->+1.2%]
-27,Caleb Williams,CHI,QB,16.821,Streamable,,,24.8,2025*0.50+2024*0.30+rel[EMERGING*1.03] [sophomore_discount]+sit[58->+2.4%]
-28,C.J. Stroud,HOU,QB,16.5795,Streamable,,,24.9,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[56->+1.7%]
-32,Kyler Murray,ARI,QB,15.69,Streamable,,,29.1,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[39->-3.2%]
-36,Justin Fields,NYJ,QB,14.84,Streamable,,,27.5,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[35->-4.5%]+starter_floor_soft
-37,Daniel Jones,IND,QB,14.77,Streamable,,,29.3,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[58->+2.3%]+starter_floor_soft
-38,Sam Darnold,CLE,QB,14.73,Streamable,,,29.2,2025*0.50+2024*0.30+rel[INJURY_RISK*0.96]+sit[35->-4.5%]+starter_floor_soft
-43,Bryce Young,CAR,QB,14.15,Avoid,,,25.1,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[30->-6.0%]+starter_floor_soft
-46,Kirk Cousins,ATL,QB,14.08,Avoid,,,38.0,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[76->+7.8%]+starter_floor_soft
-49,Aaron Rodgers,PIT,QB,13.72,Avoid,,,42.7,2025*0.50+2024*0.30+rel[INJURY_RISK*0.96]+sit[56->+1.9%]+starter_floor_soft
-51,Mac Jones,SF,QB,13.51,Avoid,,,28.0,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[82->+9.6%]+starter_floor_soft
-52,Geno Smith,LV,QB,13.55,Avoid,,,35.9,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[27->-6.8%]+starter_floor_soft
-53,Jaxson Dart,NYG,QB,13.22,Avoid,,,23.3,2025_only+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[47->-1.0%]+starter_floor_soft
-56,Marcus Mariota,WAS,QB,13.05,Avoid,,,32.8,2025_only+rel[INJURY_RISK*0.96] [sophomore_discount]+sit[55->+1.4%]+starter_floor_soft
-62,Jacoby Brissett,ARI,QB,12.75,Avoid,,,33.7,2025*0.50+2024*0.30+rel[INJURY_RISK*0.96] [sophomore_discount]+sit[39->-3.2%]+starter_floor_soft
-64,Joe Flacco,CIN,QB,12.68,Avoid,,,41.6,2025*0.50+2024*0.30+2023*0.20+rel[UNPROVEN*0.92] [sophomore_discount]+sit[75->+7.5%]+starter_floor_soft
-67,Carson Wentz,MIN,QB,12.41,Avoid,,,33.7,2025_only+rel[INJURY_RISK*0.96]+sit[32->-5.4%]
-69,Tyler Shough,NO,QB,12.22,Avoid,,,26.9,2025_only+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[43->-2.2%]+starter_floor_soft
-70,Michael Penix Jr.,ATL,QB,12.36,Avoid,,,26.3,2025_only+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[76->+7.8%]+starter_floor_soft
-79,Russell Wilson,NYG,QB,11.77,Avoid,,,37.8,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[47->-1.0%]
-83,W.Levis,TEN,QB,11.56,Avoid,,,27.2,2024*0.30+2023*0.20+rel[UNPROVEN*0.92] [sophomore_discount]+sit[34->-4.7%]+starter_floor_soft
-84,J.J. McCarthy,MIN,QB,11.5,Avoid,,,23.6,2025_only+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[32->-5.4%]+starter_floor_soft
-87,Cam Ward,TEN,QB,11.24,Avoid,,,24.3,2025_only+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[34->-4.7%]+starter_floor_soft
-93,Spencer Rattler,NO,QB,10.98,Avoid,,,25.9,2025*0.50+2024*0.30+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[43->-2.2%]+starter_floor_soft
-94,Shedeur Sanders,CLE,QB,10.94,Avoid,,,24.6,2025_only+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[35->-4.5%]+starter_floor_soft
-95,H.Hooker,DET,QB,10.82,Avoid,,,28.6,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[88->+11.4%]
-96,N.Sudfeld,DET,QB,10.82,Avoid,,,32.9,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[88->+11.4%]
-99,Gardner Minshew,KC,QB,10.93,Avoid,,,30.3,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[72->+6.6%]
-100,Anthony Richardson,IND,QB,10.97,Avoid,,,24.3,2024*0.30+2023*0.20+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[58->+2.3%]
-101,A.Brown,BAL,QB,10.53,Avoid,,,28.1,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[78->+8.4%]
-102,R.Griffin,BAL,QB,10.53,Avoid,,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[78->+8.4%]
-105,J.Rosen,ATL,QB,10.47,Avoid,,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[76->+7.8%]
-106,M.Schaub,ATL,QB,10.47,Avoid,,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[76->+7.8%]
-107,L.Woodside,ATL,QB,10.47,Avoid,,,31.6,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[76->+7.8%]
-108,T.Boyle,MIA,QB,10.41,Avoid,,,31.9,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[74->+7.2%]
-109,Taysom Hill,NO,QB,10.66,Avoid,,,36.0,2025*0.50+2024*0.30+2023*0.20+rel[BASELINE*1.00]+sit[43->-2.2%]+starter_floor_soft
-110,C.Henne,KC,QB,10.36,Avoid,,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[72->+6.6%]
-111,B.Gabbert,KC,QB,10.36,Avoid,,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[72->+6.6%]
-112,Adrian Martinez,SF,QB,10.65,Avoid,,,26.7,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[82->+9.6%]
-125,B.Perkins,LA,QB,10.04,Avoid,,,29.7,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[61->+3.3%]
-126,J.Wolford,LA,QB,10.04,Avoid,,,30.9,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[61->+3.3%]
-128,N.Peterman,CHI,QB,9.95,Avoid,,,32.3,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[58->+2.4%]
-129,K.Trask,TB,QB,9.95,Avoid,,,28.5,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[58->+2.5%]
-130,T.Bray,CHI,QB,9.95,Avoid,,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[58->+2.4%]
-134,G.Gilbert,WAS,QB,9.86,Avoid,,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[55->+1.4%]
-135,B.DiNucci,DAL,QB,9.85,Avoid,,,29.8,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[55->+1.4%]
-136,J.Lovett,GB,QB,9.83,Avoid,,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[54->+1.2%]
-137,S.Clifford,GB,QB,9.83,Avoid,,,28.1,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[54->+1.2%]
-138,K.Benkert,GB,QB,9.83,Avoid,,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[54->+1.2%]
-143,J.Fromm,NYG,QB,9.62,Avoid,,,28.1,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[47->-1.0%]
-144,D.Webb,NYG,QB,9.62,Avoid,,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[47->-1.0%]
-146,Davis Mills,HOU,QB,9.54,Avoid,,,27.9,2025_only+rel[INJURY_RISK*0.96] [sophomore_discount]+sit[56->+1.7%]
-147,I.Book,NO,QB,9.5,Avoid,,,28.4,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[43->-2.2%]
-148,J.Haener,NO,QB,9.5,Avoid,,,27.5,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[43->-2.2%]
-150,J.Luton,JAX,QB,9.48,Avoid,,,30.4,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[42->-2.4%]
-151,M.Barkley,JAX,QB,9.48,Avoid,,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[42->-2.4%]
-152,T.Heinicke,LAC,QB,9.46,Avoid,,,33.5,2023_old*0.80+rel[INJURY_RISK*0.96] [sophomore_discount]+sit[70->+6.0%]
-153,D.Blough,ARI,QB,9.41,Avoid,,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[39->-3.2%]
-154,T.McSorley,ARI,QB,9.41,Avoid,,,31.0,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[39->-3.2%]
-155,Jalen Milroe,SEA,QB,9.75,Avoid,,,23.7,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[51->+0.4%]
-159,E.Stick,LAC,QB,9.28,Avoid,,,31.0,2023_old*0.80+rel[UNPROVEN*0.92] [sophomore_discount]+sit[70->+6.0%]
-160,C.Streveler,NYJ,QB,9.28,Avoid,,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[35->-4.5%]
-165,Kedon Slovis,ARI,QB,9.41,Avoid,,,25.4,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[39->-3.2%]
-166,J.Hall,MIN,QB,9.19,Avoid,,,28.4,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[32->-5.4%]
-167,S.Mannion,MIN,QB,9.19,Avoid,,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[32->-5.4%]
-168,K.Mond,MIN,QB,9.19,Avoid,,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[32->-5.4%]
-170,J.Eason,CAR,QB,9.13,Avoid,,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[30->-6.0%]
-173,B.Hoyer,LV,QB,9.05,Avoid,,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[27->-6.8%]
-177,Zach Wilson,MIA,QB,9.28,Avoid,,,27.1,2025_small_sample(1g)_regressed+rel[INJURY_RISK*0.96]+sit[74->+7.2%]
-178,C.Keenum,HOU,QB,8.9,Avoid,,,38.5,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[56->+1.7%]
-185,Tyler Huntley,BAL,QB,8.4,Avoid,,,28.6,2025*0.50+2024*0.30+rel[UNPROVEN*0.92] [sophomore_discount]+sit[78->+8.4%]
-190,Aidan O'Connell,LV,QB,8.51,Avoid,,,28.0,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96] [sophomore_discount]+sit[27->-6.8%]
-198,Jameis Winston,NYG,QB,8.13,Avoid,,,32.7,2024_only*0.85+rel[UNPROVEN*0.92] [sophomore_discount]+sit[47->-1.0%]
-208,S.Howell,SEA,QB,8.06,Avoid,,,26.0,2023_old*0.80+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[51->+0.4%]
-220,Tanner McKee,PHI,QB,8.23,Avoid,,,26.3,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92] [sophomore_discount]+sit[85->+10.5%]
-224,D.Watson,CLE,QB,7.84,Avoid,,,31.0,2024*0.30+2023*0.20+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[35->-4.5%]
-227,Mason Rudolph,PIT,QB,7.91,Avoid,,,31.1,2024*0.30+2023*0.20+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[56->+1.9%]
-228,Riley Leonard,IND,QB,7.86,Avoid,,,24.0,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92] [sophomore_discount]+sit[58->+2.3%]
-233,Chris Oladokun,KC,QB,7.96,Avoid,,,29.0,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92] [sophomore_discount]+sit[72->+6.6%]
-238,Trey Lance,LAC,QB,7.92,Avoid,,,26.3,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92] [sophomore_discount]+sit[70->+6.0%]
-242,Tyrod Taylor,NYJ,QB,7.59,Avoid,,,37.1,2025*0.50+2023*0.20+rel[UNPROVEN*0.92] [sophomore_discount]+sit[35->-4.5%]
-247,Shane Buechele,KC,QB,7.82,Avoid,,,28.6,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92] [sophomore_discount]+sit[72->+6.6%]
-248,Teddy Bridgewater,TB,QB,7.83,Avoid,,,33.8,2025_small_sample(1g)_regressed+rel[INJURY_RISK*0.96] [sophomore_discount]+sit[58->+2.5%]
-251,Jarrett Stidham,DEN,QB,7.72,Avoid,,,30.1,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92] [sophomore_discount]+sit[64->+4.3%]
-262,Joe Milton III,DAL,QB,7.54,Avoid,,,26.5,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92] [sophomore_discount]+sit[55->+1.4%]
-269,R.Tannehill,TEN,QB,7.19,Avoid,,,,2023_old*0.80+rel[PROVEN_SOLID*1.06]+sit[34->-4.7%]
-278,Quinn Ewers,MIA,QB,7.09,Avoid,,,23.5,2025_only+rel[UNPROVEN*0.92] [sophomore_discount]+sit[74->+7.2%]
-279,Tyson Bagent,CHI,QB,7.49,Avoid,,,26.2,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92] [sophomore_discount]+sit[58->+2.4%]
-292,T.Brady,TB,QB,7.09,Avoid,,,,2022_ancient*0.40+rel[PROVEN_SOLID*1.06]+sit[58->+2.5%]
-294,Clayton Tune,GB,QB,7.4,Avoid,,,27.4,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92] [sophomore_discount]+sit[54->+1.2%]
-312,Kenny Pickett,LV,QB,7.2,Avoid,,,28.2,2025_small_sample(2g)_regressed+rel[INJURY_RISK*0.96] [sophomore_discount]+sit[27->-6.8%]
-339,Josh Johnson,WAS,QB,6.94,Avoid,,,40.3,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92] [sophomore_discount]+sit[55->+1.4%]
-389,Mitchell Trubisky,BUF,QB,6.88,Avoid,,,32.0,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[83->+9.9%]
-391,Nick Mullens,JAX,QB,6.92,Avoid,,,31.4,2023_old*0.80+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[42->-2.4%]
-467,Drew Lock,SEA,QB,6.49,Avoid,,,29.8,2024_only*0.85+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[51->+0.4%]
-471,Jimmy Garoppolo,LA,QB,6.39,Avoid,,,34.8,2023_old*0.80+rel[INJURY_RISK*0.96] [sophomore_discount]+sit[61->+3.3%]
-489,D.Ridder,LV,QB,5.96,Avoid,,,27.0,2023_old*0.80+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[27->-6.8%]
-498,Dillon Gabriel,CLE,QB,6.02,Avoid,,,25.7,2025_only+rel[UNPROVEN*0.92] [sophomore_discount]+sit[35->-4.5%]
-512,Malik Willis,GB,QB,6.01,Avoid,,,27.3,2024_only*0.85+rel[UNPROVEN*0.92] [sophomore_discount]+sit[54->+1.2%]
-516,Philip Rivers,IND,QB,5.79,Avoid,,,44.7,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[58->+2.3%]
-521,Andy Dalton,CAR,QB,5.97,Avoid,,,38.8,2024_only*0.85+rel[INJURY_RISK*0.96] [sophomore_discount]+sit[30->-6.0%]
-534,T.DeVito,NYG,QB,5.47,Avoid,,,28.1,2023_old*0.80+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[47->-1.0%]
-542,Joshua Dobbs,NE,QB,5.78,Avoid,,,31.6,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[38->-3.6%]
-562,Cooper Rush,BAL,QB,5.58,Avoid,,,32.8,2024_only*0.85+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[78->+8.4%]
-599,M.Ryan,IND,QB,5.05,Avoid,,,41.3,2022_ancient*0.40+rel[PROVEN_SOLID*1.06]+sit[58->+2.3%]
-603,M.White,BUF,QB,5.03,Avoid,,,31.4,2022_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[83->+9.9%]
-669,R.Fitzpatrick,WAS,QB,4.59,Avoid,,,,2020_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[55->+1.4%]
-676,B.Roethlisberger,PIT,QB,4.55,Avoid,,,,2021_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[56->+1.9%]
-727,D.Brees,NO,QB,4.3,Avoid,,,,2020_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[43->-2.2%]
-729,B.Zappe,CLE,QB,4.28,Avoid,,,27.4,2023_old*0.80+rel[UNPROVEN*0.92] [sophomore_discount]+sit[35->-4.5%]
-741,Brady Cook,NYJ,QB,4.4,Avoid,,,24.9,2025_only+rel[UNPROVEN*0.92] [sophomore_discount]+sit[35->-4.5%]
-781,Kyle Allen,DET,QB,4.06,Avoid,,,30.5,2020_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[88->+11.4%]
-809,T.Siemian,NYJ,QB,3.34,Avoid,,,34.7,2023_old*0.80+rel[UNPROVEN*0.92] [sophomore_discount]+sit[35->-4.5%]
-826,D.Haskins,WAS,QB,3.2,Avoid,,,,2020_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[55->+1.4%]
-833,N.Foles,IND,QB,3.15,Avoid,,,,2020_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[58->+2.3%]
-842,C.Newton,CAR,QB,3.08,Avoid,,,,2021_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[30->-6.0%]
-851,S.Ehlinger,IND,QB,2.95,Avoid,,,27.9,2022_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[58->+2.3%]
-852,A.Smith,WAS,QB,2.94,Avoid,,,,2020_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[55->+1.4%]
-862,C.Beathard,JAX,QB,2.75,Avoid,,,32.8,2020_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[42->-2.4%]
-863,Brandon Allen,TEN,QB,3.07,Avoid,,,34.0,2020_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[34->-4.7%]
-877,C.McCoy,ARI,QB,2.57,Avoid,,,,2022_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[39->-3.2%]
-931,P.Walker,CLE,QB,2.02,Avoid,,,31.5,2022_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[35->-4.5%]
-933,D.Thompson-Robinson,CLE,QB,1.95,Avoid,,,26.8,2023_old*0.80+rel[UNPROVEN*0.92] [sophomore_discount]+sit[35->-4.5%]
-939,M.Glennon,NYG,QB,1.65,Avoid,,,,2021_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[47->-1.0%]
-940,S.Thompson,MIA,QB,1.24,Avoid,,,29.2,2022_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[74->+7.2%]
-941,C.Daniel,LAC,QB,1.04,Avoid,,,,2020_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[70->+6.0%]
-942,J.Driskel,CLE,QB,0.74,Avoid,,,33.4,2022_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[35->-4.5%]
-943,Max Brosmer,MIN,QB,0.68,Avoid,,,25.4,2025_only+rel[UNPROVEN*0.92] [sophomore_discount]+sit[32->-5.4%]
+overall_rank,player_name,position,recent_team,projected_ppg,reliability_tier,situation_score,career_seasons,tier,live_status,age,data_basis,draft_value_score,Injury_Flag
+1,Josh Allen,QB,BUF,36.2375,PROVEN_ELITE,83.0,6,Elite,,30.3,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[83->+9.9%],31.3222089997734,
+2,Lamar Jackson,QB,BAL,30.575000000000003,PROVEN_ELITE,78.0,6,Elite,,29.6,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[78->+8.4%],26.36171398991424,
+3,Patrick Mahomes,QB,KC,28.5375,PROVEN_ELITE,72.0,6,Elite,,31.0,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[72->+6.6%],24.74813904588802,
+4,Brock Purdy,QB,SF,26.373,PROVEN_ELITE,82.0,4,Elite,,26.7,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[82->+9.6%],22.957008109592348,
+5,Joe Burrow,QB,CIN,25.4644,PROVEN_ELITE,75.0,6,Elite,,29.7,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[75->+7.5%],22.08714354034948,
+6,Jalen Hurts,QB,PHI,25.0514,INJURY_RISK,85.0,5,Elite,,28.1,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[85->+10.5%],21.74039818960651,
+7,Jared Goff,QB,DET,24.78,PROVEN_ELITE,88.0,6,QB1,,31.9,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[88->+11.4%] [talent_cap_applied],21.42687940019688,
+8,Justin Herbert,QB,LAC,24.2372,PROVEN_ELITE,70.0,6,QB1,,28.5,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[70->+6.0%],21.105298734014266,
+10,Trevor Lawrence,QB,JAX,21.274,PROVEN_ELITE,42.0,5,QB1,,26.9,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[42->-2.4%],18.460587733421963,
+11,Matthew Stafford,QB,LA,20.537000000000003,PROVEN_ELITE,61.1,6,QB1,,38.6,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[61->+3.3%],17.912560667863332,
+13,Bo Nix,QB,DEN,20.35,UNPROVEN,64.5,2,QB1,,26.5,2025*0.50+2024*0.30+rel[UNPROVEN*0.92] [sophomore_discount]+sit[64->+4.3%] [floor_applied],17.716322779647236,
+15,Jayden Daniels,QB,WAS,19.8,UNPROVEN,54.8,1,QB1,,25.7,2025*0.50+2024*0.30+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[55->+1.4%] [floor_applied],17.243745880652497,
+17,Drake Maye,QB,NE,19.25,EMERGING,38.0,2,QB2,,24.0,2025*0.50+2024*0.30+rel[EMERGING*1.03] [sophomore_discount]+sit[38->-3.6%] [floor_applied],16.949793237726833,
+18,Baker Mayfield,QB,TB,19.294,INJURY_RISK,58.2,5,QB2,,31.4,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[58->+2.5%],16.834532567404718,
+22,Dak Prescott,QB,DAL,18.081,INJURY_RISK,54.6,5,QB2,,33.1,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[55->+1.4%],15.853095103141214,
+24,Tua Tagovailoa,QB,MIA,17.472,PROVEN_ELITE,74.0,6,QB2,,28.5,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[74->+7.2%],15.220437062966033,
+25,D.Carr,QB,NO,16.9365,PROVEN_ELITE,42.7,5,QB2,,35.4,2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12]+sit[43->-2.2%],14.771024999999998,
+26,Jordan Love,QB,GB,16.821,INJURY_RISK,54.1,3,QB2,,27.8,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[54->+1.2%],14.75577026404454,
+27,Caleb Williams,QB,CHI,16.821,EMERGING,58.0,2,Streamable,,24.8,2025*0.50+2024*0.30+rel[EMERGING*1.03] [sophomore_discount]+sit[58->+2.4%],14.629406652048653,
+28,C.J. Stroud,QB,HOU,16.5795,PROVEN_SOLID,55.8,3,Streamable,,24.9,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[56->+1.7%],14.526541275908553,
+32,Kyler Murray,QB,ARI,15.69,INJURY_RISK,39.4,5,Streamable,,29.1,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[39->-3.2%],13.899148057941844,
+36,Justin Fields,QB,NYJ,14.84,PROVEN_SOLID,35.0,5,Streamable,,27.5,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[35->-4.5%]+starter_floor_soft,13.08007134296228,
+37,Daniel Jones,QB,IND,14.77,INJURY_RISK,57.8,5,Streamable,,29.3,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[58->+2.3%]+starter_floor_soft,13.006315216504012,
+38,Sam Darnold,QB,CLE,14.73,INJURY_RISK,35.0,4,Streamable,,29.2,2025*0.50+2024*0.30+rel[INJURY_RISK*0.96]+sit[35->-4.5%]+starter_floor_soft,12.933520453360629,
+43,Bryce Young,QB,CAR,14.15,PROVEN_SOLID,30.0,3,Avoid,,25.1,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[30->-6.0%]+starter_floor_soft,12.440554525978792,
+46,Kirk Cousins,QB,ATL,14.08,PROVEN_SOLID,76.0,6,Avoid,,38.0,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[76->+7.8%]+starter_floor_soft,12.296730588818695,
+49,Aaron Rodgers,QB,PIT,13.72,INJURY_RISK,56.4,5,Avoid,,42.7,2025*0.50+2024*0.30+rel[INJURY_RISK*0.96]+sit[56->+1.9%]+starter_floor_soft,12.043980478690765,
+51,Mac Jones,QB,SF,13.51,PROVEN_SOLID,82.0,5,Avoid,,28.0,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]+sit[82->+9.6%]+starter_floor_soft,11.944790252366763,
+52,Geno Smith,QB,LV,13.55,INJURY_RISK,27.3,4,Avoid,,35.9,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[27->-6.8%]+starter_floor_soft,11.925842672922844,
+53,Jaxson Dart,QB,NYG,13.22,UNPROVEN,46.8,1,Avoid,,23.3,2025_only+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[47->-1.0%]+starter_floor_soft,11.75793997235546,
+56,Marcus Mariota,QB,WAS,13.05,INJURY_RISK,54.8,2,Avoid,,32.8,2025_only+rel[INJURY_RISK*0.96] [sophomore_discount]+sit[55->+1.4%]+starter_floor_soft,11.550294564450793,
+62,Jacoby Brissett,QB,ARI,12.75,INJURY_RISK,39.4,2,Avoid,,33.7,2025*0.50+2024*0.30+rel[INJURY_RISK*0.96] [sophomore_discount]+sit[39->-3.2%]+starter_floor_soft,11.359962567160592,
+64,Joe Flacco,QB,CIN,12.68,UNPROVEN,75.0,0,Avoid,,41.6,2025*0.50+2024*0.30+2023*0.20+rel[UNPROVEN*0.92] [sophomore_discount]+sit[75->+7.5%]+starter_floor_soft,11.099424663370128,
+67,Carson Wentz,QB,MIN,12.41,INJURY_RISK,31.9,3,Avoid,,33.7,2025_only+rel[INJURY_RISK*0.96]+sit[32->-5.4%],10.985561225932358,
+69,Tyler Shough,QB,NO,12.22,UNPROVEN,42.7,1,Avoid,,26.9,2025_only+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[43->-2.2%]+starter_floor_soft,10.860340698664563,
+70,Michael Penix Jr.,QB,ATL,12.36,UNPROVEN,76.0,1,Avoid,,26.3,2025_only+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[76->+7.8%]+starter_floor_soft,10.84510781663048,
+79,Russell Wilson,QB,NYG,11.77,INJURY_RISK,46.8,5,Avoid,,37.8,2025*0.50+2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[47->-1.0%],10.312880111906956,
+83,W.Levis,QB,TEN,11.56,UNPROVEN,34.5,2,Avoid,,27.2,2024*0.30+2023*0.20+rel[UNPROVEN*0.92] [sophomore_discount]+sit[34->-4.7%]+starter_floor_soft,10.201,
+84,J.J. McCarthy,QB,MIN,11.5,UNPROVEN,31.9,1,Avoid,,23.6,2025_only+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[32->-5.4%]+starter_floor_soft,10.186877921503948,
+87,Cam Ward,QB,TEN,11.24,UNPROVEN,34.5,1,Avoid,,24.3,2025_only+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[34->-4.7%]+starter_floor_soft,9.926189575800372,
+93,Spencer Rattler,QB,NO,10.98,UNPROVEN,42.7,1,Avoid,,25.9,2025*0.50+2024*0.30+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[43->-2.2%]+starter_floor_soft,9.75435759048421,
+94,Shedeur Sanders,QB,CLE,10.94,UNPROVEN,35.0,1,Avoid,,24.6,2025_only+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[35->-4.5%]+starter_floor_soft,9.613055684119848,
+95,H.Hooker,QB,DET,10.82,UNPROVEN,88.0,0,Avoid,,28.6,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[88->+11.4%],9.572,
+96,N.Sudfeld,QB,DET,10.82,UNPROVEN,88.0,0,Avoid,,32.9,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[88->+11.4%],9.572,
+99,Gardner Minshew,QB,KC,10.93,INJURY_RISK,72.0,3,Avoid,,30.3,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96]+sit[72->+6.6%],9.430027193848687,
+100,Anthony Richardson,QB,IND,10.97,UNPROVEN,57.8,1,Avoid,,24.3,2024*0.30+2023*0.20+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[58->+2.3%],9.411636071150722,
+101,A.Brown,QB,BAL,10.53,UNPROVEN,78.0,0,Avoid,,28.1,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[78->+8.4%],9.3255,
+102,R.Griffin,QB,BAL,10.53,UNPROVEN,78.0,0,Avoid,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[78->+8.4%],9.3255,
+105,J.Rosen,QB,ATL,10.47,UNPROVEN,76.0,0,Avoid,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[76->+7.8%],9.2745,
+106,M.Schaub,QB,ATL,10.47,UNPROVEN,76.0,0,Avoid,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[76->+7.8%],9.2745,
+107,L.Woodside,QB,ATL,10.47,UNPROVEN,76.0,0,Avoid,,31.6,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[76->+7.8%],9.2745,
+108,T.Boyle,QB,MIA,10.41,UNPROVEN,74.0,0,Avoid,,31.9,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[74->+7.2%],9.2235,
+109,Taysom Hill,QB,NO,10.66,BASELINE,42.7,6,Avoid,,36.0,2025*0.50+2024*0.30+2023*0.20+rel[BASELINE*1.00]+sit[43->-2.2%]+starter_floor_soft,9.185563240360976,
+110,C.Henne,QB,KC,10.36,UNPROVEN,72.0,0,Avoid,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[72->+6.6%],9.181,
+111,B.Gabbert,QB,KC,10.36,UNPROVEN,72.0,0,Avoid,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[72->+6.6%],9.181,
+112,Adrian Martinez,QB,SF,10.65,UNPROVEN,82.0,0,Avoid,,26.7,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[82->+9.6%],9.176043522379445,
+125,B.Perkins,QB,LA,10.04,UNPROVEN,61.1,0,Avoid,,29.7,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[61->+3.3%],8.908999999999999,
+126,J.Wolford,QB,LA,10.04,UNPROVEN,61.1,0,Avoid,,30.9,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[61->+3.3%],8.908999999999999,
+128,N.Peterman,QB,CHI,9.95,UNPROVEN,58.0,0,Avoid,,32.3,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[58->+2.4%],8.8325,
+129,K.Trask,QB,TB,9.95,UNPROVEN,58.2,0,Avoid,,28.5,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[58->+2.5%],8.8325,
+130,T.Bray,QB,CHI,9.95,UNPROVEN,58.0,0,Avoid,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[58->+2.4%],8.8325,
+134,G.Gilbert,QB,WAS,9.86,UNPROVEN,54.8,0,Avoid,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[55->+1.4%],8.755999999999998,
+135,B.DiNucci,QB,DAL,9.85,UNPROVEN,54.6,0,Avoid,,29.8,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[55->+1.4%],8.747499999999999,
+136,J.Lovett,QB,GB,9.83,UNPROVEN,54.1,0,Avoid,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[54->+1.2%],8.7305,
+137,S.Clifford,QB,GB,9.83,UNPROVEN,54.1,0,Avoid,,28.1,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[54->+1.2%],8.7305,
+138,K.Benkert,QB,GB,9.83,UNPROVEN,54.1,0,Avoid,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[54->+1.2%],8.7305,
+143,J.Fromm,QB,NYG,9.62,UNPROVEN,46.8,0,Avoid,,28.1,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[47->-1.0%],8.552,
+144,D.Webb,QB,NYG,9.62,UNPROVEN,46.8,0,Avoid,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[47->-1.0%],8.552,
+146,Davis Mills,QB,HOU,9.54,INJURY_RISK,55.8,2,Avoid,,27.9,2025_only+rel[INJURY_RISK*0.96] [sophomore_discount]+sit[56->+1.7%],8.455911364901057,
+147,I.Book,QB,NO,9.5,UNPROVEN,42.7,0,Avoid,,28.4,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[43->-2.2%],8.45,
+148,J.Haener,QB,NO,9.5,UNPROVEN,42.7,0,Avoid,,27.5,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[43->-2.2%],8.45,
+150,J.Luton,QB,JAX,9.48,UNPROVEN,42.0,0,Avoid,,30.4,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[42->-2.4%],8.433,
+151,M.Barkley,QB,JAX,9.48,UNPROVEN,42.0,0,Avoid,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[42->-2.4%],8.433,
+152,T.Heinicke,QB,LAC,9.46,INJURY_RISK,70.0,2,Avoid,,33.5,2023_old*0.80+rel[INJURY_RISK*0.96] [sophomore_discount]+sit[70->+6.0%],8.416,
+153,D.Blough,QB,ARI,9.41,UNPROVEN,39.4,0,Avoid,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[39->-3.2%],8.3735,
+154,T.McSorley,QB,ARI,9.41,UNPROVEN,39.4,0,Avoid,,31.0,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[39->-3.2%],8.3735,
+155,Jalen Milroe,QB,SEA,9.75,UNPROVEN,51.3,0,Avoid,,23.7,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[51->+0.4%],8.359363799961864,
+159,E.Stick,QB,LAC,9.28,UNPROVEN,70.0,0,Avoid,,31.0,2023_old*0.80+rel[UNPROVEN*0.92] [sophomore_discount]+sit[70->+6.0%],8.262999999999998,
+160,C.Streveler,QB,NYJ,9.28,UNPROVEN,35.0,0,Avoid,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[35->-4.5%],8.262999999999998,
+165,Kedon Slovis,QB,ARI,9.41,UNPROVEN,39.4,0,Avoid,,25.4,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[39->-3.2%],8.19689588377724,
+166,J.Hall,QB,MIN,9.19,UNPROVEN,31.9,0,Avoid,,28.4,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[32->-5.4%],8.186499999999999,
+167,S.Mannion,QB,MIN,9.19,UNPROVEN,31.9,0,Avoid,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[32->-5.4%],8.186499999999999,
+168,K.Mond,QB,MIN,9.19,UNPROVEN,31.9,0,Avoid,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[32->-5.4%],8.186499999999999,
+170,J.Eason,QB,CAR,9.13,UNPROVEN,30.0,0,Avoid,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[30->-6.0%],8.1355,
+173,B.Hoyer,QB,LV,9.05,UNPROVEN,27.3,0,Avoid,,,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[27->-6.8%],8.0675,
+177,Zach Wilson,QB,MIA,9.28,INJURY_RISK,74.0,3,Avoid,,27.1,2025_small_sample(1g)_regressed+rel[INJURY_RISK*0.96]+sit[74->+7.2%],7.989908222827478,
+178,C.Keenum,QB,HOU,8.9,UNPROVEN,55.8,0,Avoid,,38.5,rookie_baseline+rel[UNPROVEN*0.92] [sophomore_discount]+sit[56->+1.7%],7.94,
+185,Tyler Huntley,QB,BAL,8.4,UNPROVEN,78.0,0,Avoid,,28.6,2025*0.50+2024*0.30+rel[UNPROVEN*0.92] [sophomore_discount]+sit[78->+8.4%],7.59700727069725,
+190,Aidan O'Connell,QB,LV,8.51,INJURY_RISK,27.3,2,Avoid,,28.0,2024*0.30+2023*0.20+rel[INJURY_RISK*0.96] [sophomore_discount]+sit[27->-6.8%],7.414104928759293,
+198,Jameis Winston,QB,NYG,8.13,UNPROVEN,46.8,0,Avoid,,32.7,2024_only*0.85+rel[UNPROVEN*0.92] [sophomore_discount]+sit[47->-1.0%],7.2859842531309535,
+208,S.Howell,QB,SEA,8.06,UNPROVEN,51.3,1,Avoid,,26.0,2023_old*0.80+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[51->+0.4%],7.226,
+220,Tanner McKee,QB,PHI,8.23,UNPROVEN,85.0,0,Avoid,,26.3,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92] [sophomore_discount]+sit[85->+10.5%],7.065467751725843,
+224,D.Watson,QB,CLE,7.84,UNPROVEN,35.0,1,Avoid,,31.0,2024*0.30+2023*0.20+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[35->-4.5%],7.039,
+227,Mason Rudolph,QB,PIT,7.91,UNPROVEN,56.4,1,Avoid,,31.1,2024*0.30+2023*0.20+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[56->+1.9%],7.010007148285146,
+228,Riley Leonard,QB,IND,7.86,UNPROVEN,57.8,0,Avoid,,24.0,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92] [sophomore_discount]+sit[58->+2.3%],7.007871474928673,
+233,Chris Oladokun,QB,KC,7.96,UNPROVEN,72.0,0,Avoid,,29.0,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92] [sophomore_discount]+sit[72->+6.6%],6.999816463168655,
+238,Trey Lance,QB,LAC,7.92,UNPROVEN,70.0,0,Avoid,,26.3,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92] [sophomore_discount]+sit[70->+6.0%],6.9100348233133975,
+242,Tyrod Taylor,QB,NYJ,7.59,UNPROVEN,35.0,0,Avoid,,37.1,2025*0.50+2023*0.20+rel[UNPROVEN*0.92] [sophomore_discount]+sit[35->-4.5%],6.854250774556819,
+247,Shane Buechele,QB,KC,7.82,UNPROVEN,72.0,0,Avoid,,28.6,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92] [sophomore_discount]+sit[72->+6.6%],6.79796787181479,
+248,Teddy Bridgewater,QB,TB,7.83,INJURY_RISK,58.2,2,Avoid,,33.8,2025_small_sample(1g)_regressed+rel[INJURY_RISK*0.96] [sophomore_discount]+sit[58->+2.5%],6.783036967142401,
+251,Jarrett Stidham,QB,DEN,7.72,UNPROVEN,64.5,0,Avoid,,30.1,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92] [sophomore_discount]+sit[64->+4.3%],6.690731749806725,
+262,Joe Milton III,QB,DAL,7.54,UNPROVEN,54.6,0,Avoid,,26.5,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92] [sophomore_discount]+sit[55->+1.4%],6.561871750070545,
+269,R.Tannehill,QB,TEN,7.19,PROVEN_SOLID,34.5,4,Avoid,,,2023_old*0.80+rel[PROVEN_SOLID*1.06]+sit[34->-4.7%],6.4865,
+278,Quinn Ewers,QB,MIA,7.09,UNPROVEN,74.0,0,Avoid,,23.5,2025_only+rel[UNPROVEN*0.92] [sophomore_discount]+sit[74->+7.2%],6.433048950496809,
+279,Tyson Bagent,QB,CHI,7.49,UNPROVEN,58.0,0,Avoid,,26.2,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92] [sophomore_discount]+sit[58->+2.4%],6.4297749143227305,
+292,T.Brady,QB,TB,7.09,PROVEN_SOLID,58.2,3,Avoid,,,2022_ancient*0.40+rel[PROVEN_SOLID*1.06]+sit[58->+2.5%],6.4015,
+294,Clayton Tune,QB,GB,7.4,UNPROVEN,54.1,0,Avoid,,27.4,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92] [sophomore_discount]+sit[54->+1.2%],6.395100248724785,
+312,Kenny Pickett,QB,LV,7.2,INJURY_RISK,27.3,2,Avoid,,28.2,2025_small_sample(2g)_regressed+rel[INJURY_RISK*0.96] [sophomore_discount]+sit[27->-6.8%],6.316389665875191,
+339,Josh Johnson,QB,WAS,6.94,UNPROVEN,54.8,0,Avoid,,40.3,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92] [sophomore_discount]+sit[55->+1.4%],6.201507809455874,
+389,Mitchell Trubisky,QB,BUF,6.88,UNPROVEN,83.0,1,Avoid,,32.0,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[83->+9.9%],5.949196191431081,
+391,Nick Mullens,QB,JAX,6.92,UNPROVEN,42.0,1,Avoid,,31.4,2023_old*0.80+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[42->-2.4%],5.940614588196412,
+467,Drew Lock,QB,SEA,6.49,UNPROVEN,51.3,1,Avoid,,29.8,2024_only*0.85+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[51->+0.4%],5.578557504562348,
+471,Jimmy Garoppolo,QB,LA,6.39,INJURY_RISK,61.1,2,Avoid,,34.8,2023_old*0.80+rel[INJURY_RISK*0.96] [sophomore_discount]+sit[61->+3.3%],5.549890250207586,
+489,D.Ridder,QB,LV,5.96,UNPROVEN,27.3,1,Avoid,,27.0,2023_old*0.80+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[27->-6.8%],5.441,
+498,Dillon Gabriel,QB,CLE,6.02,UNPROVEN,35.0,0,Avoid,,25.7,2025_only+rel[UNPROVEN*0.92] [sophomore_discount]+sit[35->-4.5%],5.383002226743317,
+512,Malik Willis,QB,GB,6.01,UNPROVEN,54.1,0,Avoid,,27.3,2024_only*0.85+rel[UNPROVEN*0.92] [sophomore_discount]+sit[54->+1.2%],5.276523977538344,
+516,Philip Rivers,QB,IND,5.79,UNPROVEN,57.8,1,Avoid,,44.7,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[58->+2.3%],5.224706448417417,
+521,Andy Dalton,QB,CAR,5.97,INJURY_RISK,30.0,2,Avoid,,38.8,2024_only*0.85+rel[INJURY_RISK*0.96] [sophomore_discount]+sit[30->-6.0%],5.199203958980845,
+534,T.DeVito,QB,NYG,5.47,UNPROVEN,46.8,1,Avoid,,28.1,2023_old*0.80+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[47->-1.0%],5.0245,
+542,Joshua Dobbs,QB,NE,5.78,UNPROVEN,38.0,1,Avoid,,31.6,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[38->-3.6%],4.985955638280275,
+562,Cooper Rush,QB,BAL,5.58,UNPROVEN,78.0,1,Avoid,,32.8,2024_only*0.85+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[78->+8.4%],4.853967439448532,
+599,M.Ryan,QB,IND,5.05,PROVEN_SOLID,57.8,3,Avoid,,41.3,2022_ancient*0.40+rel[PROVEN_SOLID*1.06]+sit[58->+2.3%],4.6675,
+603,M.White,QB,BUF,5.03,UNPROVEN,83.0,0,Avoid,,31.4,2022_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[83->+9.9%],4.6505,
+669,R.Fitzpatrick,QB,WAS,4.59,UNPROVEN,54.8,1,Avoid,,,2020_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[55->+1.4%],4.2765,
+676,B.Roethlisberger,QB,PIT,4.55,UNPROVEN,56.4,2,Avoid,,,2021_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[56->+1.9%],4.2425,
+727,D.Brees,QB,NO,4.3,UNPROVEN,42.7,1,Avoid,,,2020_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[43->-2.2%],4.029999999999999,
+729,B.Zappe,QB,CLE,4.28,UNPROVEN,35.0,0,Avoid,,27.4,2023_old*0.80+rel[UNPROVEN*0.92] [sophomore_discount]+sit[35->-4.5%],4.013,
+741,Brady Cook,QB,NYJ,4.4,UNPROVEN,35.0,0,Avoid,,24.9,2025_only+rel[UNPROVEN*0.92] [sophomore_discount]+sit[35->-4.5%],3.930351749027688,
+781,Kyle Allen,QB,DET,4.06,UNPROVEN,88.0,0,Avoid,,30.5,2020_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[88->+11.4%],3.4923365621839118,
+809,T.Siemian,QB,NYJ,3.34,UNPROVEN,35.0,0,Avoid,,34.7,2023_old*0.80+rel[UNPROVEN*0.92] [sophomore_discount]+sit[35->-4.5%],3.214,
+826,D.Haskins,QB,WAS,3.2,UNPROVEN,54.8,0,Avoid,,,2020_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[55->+1.4%],3.095,
+833,N.Foles,QB,IND,3.15,UNPROVEN,57.8,1,Avoid,,,2020_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[58->+2.3%],3.0525,
+842,C.Newton,QB,CAR,3.08,UNPROVEN,30.0,1,Avoid,,,2021_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount] [rookie_discount]+sit[30->-6.0%],2.993,
+851,S.Ehlinger,QB,IND,2.95,UNPROVEN,57.8,0,Avoid,,27.9,2022_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[58->+2.3%],2.8825000000000003,
+852,A.Smith,QB,WAS,2.94,UNPROVEN,54.8,0,Avoid,,,2020_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[55->+1.4%],2.874,
+862,C.Beathard,QB,JAX,2.75,UNPROVEN,42.0,0,Avoid,,32.8,2020_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[42->-2.4%],2.7125,
+863,Brandon Allen,QB,TEN,3.07,UNPROVEN,34.5,0,Avoid,,34.0,2020_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[34->-4.7%],2.710859281290775,
+877,C.McCoy,QB,ARI,2.57,UNPROVEN,39.4,0,Avoid,,,2022_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[39->-3.2%],2.5595,
+931,P.Walker,QB,CLE,2.02,UNPROVEN,35.0,0,Avoid,,31.5,2022_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[35->-4.5%],2.092,
+933,D.Thompson-Robinson,QB,CLE,1.95,UNPROVEN,35.0,0,Avoid,,26.8,2023_old*0.80+rel[UNPROVEN*0.92] [sophomore_discount]+sit[35->-4.5%],2.0325,
+939,M.Glennon,QB,NYG,1.65,UNPROVEN,46.8,0,Avoid,,,2021_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[47->-1.0%],1.7775,
+940,S.Thompson,QB,MIA,1.24,UNPROVEN,74.0,0,Avoid,,29.2,2022_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[74->+7.2%],1.429,
+941,C.Daniel,QB,LAC,1.04,UNPROVEN,70.0,0,Avoid,,,2020_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[70->+6.0%],1.259,
+942,J.Driskel,QB,CLE,0.74,UNPROVEN,35.0,0,Avoid,,33.4,2022_ancient*0.40+rel[UNPROVEN*0.92] [sophomore_discount]+sit[35->-4.5%],1.004,
+943,Max Brosmer,QB,MIN,0.68,UNPROVEN,31.9,0,Avoid,,25.4,2025_only+rel[UNPROVEN*0.92] [sophomore_discount]+sit[32->-5.4%],0.7197270311650847,

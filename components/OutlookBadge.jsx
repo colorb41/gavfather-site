@@ -1,9 +1,15 @@
 const STYLES = {
   SMASH: 'bg-gavfather-smash text-white',
+  ELITE: 'bg-gavfather-smash text-white',
   PLAY: 'bg-gavfather-play text-black',
+  QB1: 'bg-gavfather-play text-black',
+  'RB1/2': 'bg-gavfather-play text-black',
+  'WR1/2': 'bg-gavfather-play text-black',
+  TE1: 'bg-gavfather-play text-black',
   NEUTRAL: 'bg-gavfather-neutral-badge text-white',
   FADE: 'bg-gavfather-fade-badge text-white',
   HARD_FADE: 'bg-gavfather-hard-fade text-white',
+  AVOID: 'bg-gavfather-hard-fade text-white',
 }
 
 export default function OutlookBadge({ outlook, className = '' }) {
