@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-30T17:20:30",
-  "total_changes": 41,
+  "updated_at": "2026-07-30T21:02:01",
+  "total_changes": 46,
   "high_priority_count": 2,
   "changes": [
     {
@@ -452,6 +452,61 @@
       "overall_rank": 59,
       "change_type": "INJURY_IMPROVED",
       "detail": "Questionable -> Healthy",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-07-30T21:01:57",
+      "player_id": "8484",
+      "name": "Ko Kieft",
+      "position": "TE",
+      "team": "TB",
+      "overall_rank": null,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-07-30T21:01:57",
+      "player_id": "11592",
+      "name": "Erick All",
+      "position": "TE",
+      "team": "CIN",
+      "overall_rank": null,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-07-30T21:01:57",
+      "player_id": "14063",
+      "name": "Liam Clifford",
+      "position": "WR",
+      "team": "IND",
+      "overall_rank": null,
+      "change_type": "NEW_PLAYER_SIGNED",
+      "detail": "Appeared on IND roster",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-07-30T21:01:57",
+      "player_id": "13349",
+      "name": "Eli Stowers",
+      "position": "TE",
+      "team": "PHI",
+      "overall_rank": null,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-07-30T21:01:57",
+      "player_id": "12884",
+      "name": "Quincy Skinner",
+      "position": "WR",
+      "team": "NYJ",
+      "overall_rank": null,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> NYJ",
       "priority": "MEDIUM"
     }
   ]
