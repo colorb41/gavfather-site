@@ -14,6 +14,14 @@ function factorText(text, negative = false) {
   )
 }
 
+function hasMatchup(player) {
+  const opponent = player?.opponent
+  if (opponent == null || opponent === '') return false
+  const grade = player?.matchupGrade
+  if (grade == null || grade === '' || Number(grade) === 0) return false
+  return true
+}
+
 export default function PlayerCard({
   player,
   week,
@@ -23,6 +31,8 @@ export default function PlayerCard({
   const border = isFade ? 'border-l-gavfather-fade' : 'border-l-gavfather-gold'
   const scoreColor = isFade ? 'text-gavfather-fade' : 'text-gavfather-gold'
   const href = `/rankings?week=${week != null ? week : ''}&search=${encodeURIComponent(player.name)}`
+  const showMatchup = hasMatchup(player)
+  const matchupGrade = Number(player.matchupGrade)
 
   return (
     <Link
@@ -42,7 +52,7 @@ export default function PlayerCard({
       <h3 className="mt-3 text-lg font-bold text-gavfather-text">{player.name}</h3>
       <p className="mt-0.5 text-sm text-gavfather-muted">
         {player.team}
-        {player.opponent ? ` vs ${player.opponent}` : ''}
+        {showMatchup ? ` vs ${player.opponent}` : ''}
         {week != null ? ` | ${formatWeekShort(week)}` : ''}
       </p>
 
@@ -55,9 +65,11 @@ export default function PlayerCard({
         {factorText(player.topFactor2, isFade)}
       </div>
 
-      <div className="mt-4">
-        <ScarcityMeter grade={player.matchupGrade} />
-      </div>
+      {showMatchup && (
+        <div className="mt-4">
+          <ScarcityMeter grade={matchupGrade} />
+        </div>
+      )}
 
       <span className="mt-3 inline-block text-xs font-medium text-gavfather-gold">
         View on board →

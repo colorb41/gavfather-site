@@ -19,8 +19,9 @@ export default function HomePage() {
   const year = week != null ? getYearForWeek(week) : null
   const hasBoard = week != null && year != null
   const isLiveSeason = Boolean(hasBoard && year >= LAUNCH_YEAR)
-  const topPlays = hasBoard ? getTopPlays(week, 5, 'ppr', year) : []
-  const topFades = hasBoard ? getTopFades(week, 5, 'ppr', year) : []
+  // Standard board order (CSV overall_rank) — not PPR / raw PPG
+  const topPlays = hasBoard ? getTopPlays(week, 5, 'std', year) : []
+  const topFades = hasBoard ? getTopFades(week, 5, 'std', year) : []
   const articles = getAllArticles().slice(0, 3)
 
   return (
