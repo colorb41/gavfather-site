@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-30T13:45:39",
-  "total_changes": 35,
-  "high_priority_count": 1,
+  "updated_at": "2026-07-30T17:20:30",
+  "total_changes": 41,
+  "high_priority_count": 2,
   "changes": [
     {
       "timestamp": "2026-07-29T02:02:23",
@@ -387,6 +387,72 @@
       "change_type": "INJURY_IMPROVED",
       "detail": "Questionable -> Healthy",
       "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-07-30T17:20:26",
+      "player_id": "13939",
+      "name": "Gabriel Benyard",
+      "position": "WR",
+      "team": "CAR",
+      "overall_rank": null,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> CAR",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-07-30T17:20:26",
+      "player_id": "8135",
+      "name": "Treylon Burks",
+      "position": "WR",
+      "team": "WAS",
+      "overall_rank": 891,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Foot)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-07-30T17:20:26",
+      "player_id": "3976",
+      "name": "Mitchell Trubisky",
+      "position": "QB",
+      "team": "TEN",
+      "overall_rank": 1168,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-07-30T17:20:26",
+      "player_id": "10219",
+      "name": "Chris Rodriguez",
+      "position": "RB",
+      "team": "JAX",
+      "overall_rank": null,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Foot)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-07-30T17:20:26",
+      "player_id": "9221",
+      "name": "Jahmyr Gibbs",
+      "position": "RB",
+      "team": "DET",
+      "overall_rank": 1,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Back)",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-07-30T17:20:27",
+      "player_id": "7611",
+      "name": "Rhamondre Stevenson",
+      "position": "RB",
+      "team": "NE",
+      "overall_rank": 59,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "MEDIUM"
     }
   ]
 }
