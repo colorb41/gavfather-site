@@ -1,6 +1,7 @@
 'use client'
 
 import PositionBadge from './PositionBadge'
+import OutlookBadge from './OutlookBadge'
 
 const RELIABILITY_STYLES = {
   PROVEN_ELITE: 'bg-gavfather-gold/20 text-gavfather-gold border-gavfather-gold/40',
@@ -111,6 +112,59 @@ function Blur({ children, active }) {
   )
 }
 
+function lastNameOf(name) {
+  const parts = String(name || '')
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean)
+  return parts.length ? parts[parts.length - 1] : 'This player'
+}
+
+/**
+ * vs Market ADP pill — BUY (green) / FADE (red). Hidden for NEUTRAL / missing ADP.
+ */
+export function AdpVsMarketPill({ player }) {
+  const signal = String(player?.adpSignal || player?.adp_signal || '')
+    .trim()
+    .toUpperCase()
+  const marketRaw =
+    player?.consensusAdpPositional ?? player?.consensus_adp_positional
+  const ourRaw = player?.ourPositionalRank ?? player?.our_positional_rank
+  const pos = String(player?.position || '').toUpperCase()
+
+  if (signal !== 'BUY' && signal !== 'FADE') return null
+  if (marketRaw == null || marketRaw === '') return null
+  if (ourRaw == null || ourRaw === '') return null
+
+  const market = Math.round(Number(marketRaw))
+  const ours = Math.round(Number(ourRaw))
+  if (!Number.isFinite(market) || !Number.isFinite(ours)) return null
+  if (!pos) return null
+
+  const isBuy = signal === 'BUY'
+  const label = isBuy
+    ? `▲ ${pos}${ours} vs ${pos}${market}`
+    : `▼ ${pos}${ours} vs ${pos}${market}`
+
+  const who = lastNameOf(player?.name)
+  const title = isBuy
+    ? `The Gavfather ranks ${who} as ${pos}${ours}. The market drafts them as ${pos}${market}. We think they're being undervalued.`
+    : `The Gavfather ranks ${who} as ${pos}${ours}. The market drafts them as ${pos}${market}. We think they're being overvalued.`
+
+  return (
+    <span
+      title={title}
+      className={`inline-flex max-w-full cursor-help truncate rounded-full px-2 py-0.5 text-[10px] font-bold tracking-wide ${
+        isBuy
+          ? 'bg-emerald-500/20 text-emerald-300 ring-1 ring-emerald-500/40'
+          : 'bg-red-500/20 text-red-300 ring-1 ring-red-500/40'
+      }`}
+    >
+      {label}
+    </span>
+  )
+}
+
 /**
  * Rankings row.
  *
@@ -134,6 +188,11 @@ export default function PlayerRow({
     player.situation == null || Number.isNaN(Number(player.situation))
       ? '—'
       : Number(player.situation).toFixed(1)
+  const outlook =
+    player.outlook ||
+    String(player.tier || 'NEUTRAL')
+      .toUpperCase()
+      .replace(/\s+/g, '_')
 
   if (compact) {
     return (
@@ -159,6 +218,14 @@ export default function PlayerRow({
             <p className="mt-0.5 text-xs text-gavfather-muted">
               <Blur active={locked}>{player.team || '—'}</Blur>
             </p>
+            <div className="mt-2 flex flex-wrap items-center gap-1.5">
+              <Blur active={locked}>
+                <AdpVsMarketPill player={player} />
+              </Blur>
+              <Blur active={locked}>
+                <OutlookBadge outlook={outlook} />
+              </Blur>
+            </div>
           </div>
           <div className="text-right">
             <p className="font-mono text-xl font-bold text-gavfather-gold">
@@ -217,6 +284,20 @@ export default function PlayerRow({
       {/* Score — blurred when locked */}
       <td className="px-3 py-3 font-mono text-base font-bold text-gavfather-gold">
         <Blur active={locked}>{ppg.toFixed(1)}</Blur>
+      </td>
+
+      {/* vs Market ADP */}
+      <td className="px-3 py-3">
+        <Blur active={locked}>
+          <AdpVsMarketPill player={player} />
+        </Blur>
+      </td>
+
+      {/* Outlook */}
+      <td className="hidden px-3 py-3 md:table-cell">
+        <Blur active={locked}>
+          <OutlookBadge outlook={outlook} />
+        </Blur>
       </td>
 
       <td className="hidden px-3 py-3 md:table-cell">

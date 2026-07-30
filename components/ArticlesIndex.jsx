@@ -3,16 +3,20 @@
 import { useMemo, useState } from 'react'
 import ArticleCard from './ArticleCard'
 
-const FILTERS = [
-  { id: 'all', label: 'ALL' },
-  { id: 'sleepers', label: 'Sleepers' },
-  { id: 'busts', label: 'Busts' },
-  { id: 'rankings', label: 'Rankings' },
-  { id: 'research', label: 'Research' },
-  { id: 'deep dive', label: 'Deep Dive' },
-]
+function labelForCategory(id) {
+  if (id === 'all') return 'ALL'
+  return String(id)
+    .split(/[\s_-]+/)
+    .filter(Boolean)
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(' ')
+}
 
 export default function ArticlesIndex({ articles }) {
+  const categories = useMemo(
+    () => ['all', ...new Set(articles.map((a) => a.category).filter(Boolean))],
+    [articles],
+  )
   const [filter, setFilter] = useState('all')
 
   const visible = useMemo(() => {
@@ -26,24 +30,21 @@ export default function ArticlesIndex({ articles }) {
         <h1 className="font-display text-4xl font-semibold tracking-wide text-gavfather-gold md:text-5xl">
           FROM THE FAMILY
         </h1>
-        <p className="mt-3 max-w-2xl text-gavfather-muted">
-          Data-driven analysis. Every week, a new theme. Always an offer.
-        </p>
       </div>
 
       <div className="mb-8 flex flex-wrap gap-2">
-        {FILTERS.map((f) => (
+        {categories.map((id) => (
           <button
-            key={f.id}
+            key={id}
             type="button"
-            onClick={() => setFilter(f.id)}
+            onClick={() => setFilter(id)}
             className={`rounded-full px-4 py-1.5 text-xs font-bold uppercase tracking-wide transition ${
-              filter === f.id
+              filter === id
                 ? 'bg-gavfather-gold text-gavfather-navy'
                 : 'border border-gavfather-border text-gavfather-muted hover:border-gavfather-gold/40 hover:text-gavfather-gold'
             }`}
           >
-            {f.label}
+            {labelForCategory(id)}
           </button>
         ))}
       </div>

@@ -17,9 +17,15 @@ import {
 } from '../lib/rankPlayersByFormat'
 
 const POSITIONS = ['ALL', 'QB', 'RB', 'WR', 'TE']
+const ADP_FILTERS = [
+  { id: 'ALL', label: 'All Players' },
+  { id: 'BUY', label: '🟢 Buy' },
+  { id: 'FADE', label: '🔴 Fade' },
+]
 const DEFAULT_FORMAT = 'std'
 const DEFAULT_TEAMS = '12 Teams'
 const DEFAULT_ROSTER = 'Standard Roster'
+const TABLE_COL_SPAN = 11
 
 const FORMAT_PRESETS = FORMAT_IDS.map((id) => FORMAT_META[id])
 
@@ -41,6 +47,17 @@ function formatUpdated(updatedAt) {
 function normalizePos(raw) {
   const p = String(raw || 'ALL').toUpperCase()
   return POSITIONS.includes(p) ? p : 'ALL'
+}
+
+function normalizeAdpFilter(raw) {
+  const f = String(raw || 'ALL').toUpperCase()
+  return f === 'BUY' || f === 'FADE' ? f : 'ALL'
+}
+
+function playerAdpSignal(player) {
+  return String(player?.adpSignal || player?.adp_signal || '')
+    .trim()
+    .toUpperCase()
 }
 
 function rowDisplayRank(player, position) {
@@ -71,6 +88,9 @@ export default function RankingsBoard({
   )
   const [superflex, setSuperflex] = useState(() => Boolean(initialSuperflex))
   const [customizeOpen, setCustomizeOpen] = useState(false)
+  const [adpFilter, setAdpFilter] = useState(() =>
+    normalizeAdpFilter(searchParams.get('adp')),
+  )
 
   useEffect(() => {
     const q = searchParams.get('search')
@@ -81,6 +101,8 @@ export default function RankingsBoard({
     if (fmt != null) setFormat(normalizeScoringFormat(fmt))
     const sf = searchParams.get('superflex')
     if (sf != null) setSuperflex(sf === '1' || sf === 'true')
+    const adp = searchParams.get('adp')
+    if (adp != null) setAdpFilter(normalizeAdpFilter(adp))
   }, [searchParams])
 
   useEffect(() => {
@@ -95,6 +117,17 @@ export default function RankingsBoard({
     () => rankPlayersByFormat(initialPlayers, format, { superflex }),
     [initialPlayers, format, superflex],
   )
+
+  const signalCounts = useMemo(() => {
+    let buy = 0
+    let fade = 0
+    for (const p of rankedPlayers) {
+      const sig = playerAdpSignal(p)
+      if (sig === 'BUY') buy += 1
+      else if (sig === 'FADE') fade += 1
+    }
+    return { buy, fade }
+  }, [rankedPlayers])
 
   const totalPlayers =
     Number(totalPlayersProp) || rankedPlayers.length || previewPlayers.length || 0
@@ -111,6 +144,11 @@ export default function RankingsBoard({
     } else {
       list.sort((a, b) => a.rank - b.rank)
     }
+
+    if (adpFilter === 'BUY' || adpFilter === 'FADE') {
+      list = list.filter((p) => playerAdpSignal(p) === adpFilter)
+    }
+
     if (search.trim()) {
       const q = search.trim().toLowerCase()
       list = list.filter(
@@ -121,7 +159,7 @@ export default function RankingsBoard({
       )
     }
     return list
-  }, [rankedPlayers, position, search])
+  }, [rankedPlayers, position, search, adpFilter])
 
   const { unlocked, blurred, showGate } = useMemo(
     () => splitFreemiumRows(filtered, position, isLoggedIn || !freemiumCapped),
@@ -129,22 +167,24 @@ export default function RankingsBoard({
   )
 
   const pushUrl = useCallback(
-    ({ nextFormat, nextPos, nextSearch, nextSuperflex } = {}) => {
+    ({ nextFormat, nextPos, nextSearch, nextSuperflex, nextAdp } = {}) => {
       const params = new URLSearchParams()
       const fmt = normalizeScoringFormat(nextFormat ?? format)
       const pos = nextPos ?? position
       const q = nextSearch !== undefined ? nextSearch : search
       const sf = nextSuperflex !== undefined ? nextSuperflex : superflex
+      const adp = normalizeAdpFilter(nextAdp ?? adpFilter)
 
       if (fmt && fmt !== DEFAULT_FORMAT) params.set('format', fmt)
       if (sf) params.set('superflex', '1')
       if (pos && pos !== 'ALL') params.set('pos', pos)
+      if (adp && adp !== 'ALL') params.set('adp', adp)
       if (q && String(q).trim()) params.set('search', String(q).trim())
 
       const qs = params.toString()
       router.replace(qs ? `/rankings?${qs}` : '/rankings', { scroll: false })
     },
-    [format, position, search, superflex, router],
+    [format, position, search, superflex, adpFilter, router],
   )
 
   function onFormatChange(next) {
@@ -161,12 +201,23 @@ export default function RankingsBoard({
   function onResetDefaults() {
     setFormat(DEFAULT_FORMAT)
     setSuperflex(false)
-    pushUrl({ nextFormat: DEFAULT_FORMAT, nextSuperflex: false })
+    setAdpFilter('ALL')
+    pushUrl({
+      nextFormat: DEFAULT_FORMAT,
+      nextSuperflex: false,
+      nextAdp: 'ALL',
+    })
   }
 
   function onPositionChange(pos) {
     setPosition(pos)
     pushUrl({ nextPos: pos })
+  }
+
+  function onAdpFilterChange(next) {
+    const adp = normalizeAdpFilter(next)
+    setAdpFilter(adp)
+    pushUrl({ nextAdp: adp })
   }
 
   function onSearchChange(value) {
@@ -185,7 +236,7 @@ export default function RankingsBoard({
   const updatedLabel = formatUpdated(updatedAt)
   const sharePath = `/rankings?format=${format}${superflex ? '&superflex=1' : ''}${
     position !== 'ALL' ? `&pos=${position}` : ''
-  }`
+  }${adpFilter !== 'ALL' ? `&adp=${adpFilter}` : ''}`
   const shareTitle = `The Gavfather ${initialYear} Rankings — ${formatMeta.label}${
     superflex ? ' Superflex' : ''
   }`
@@ -196,7 +247,9 @@ export default function RankingsBoard({
     ? position === 'ALL'
       ? `Showing top ${FREE_ALL_LIMIT} of ${totalPlayers.toLocaleString()} players — sign in to see all`
       : `Showing top ${FREE_POS_LIMIT} of ${filtered.length.toLocaleString()} ${position}s — sign in to see all`
-    : `Showing all ${totalPlayers.toLocaleString()} players | ${formatMeta.label} | ${DEFAULT_TEAMS}`
+    : adpFilter !== 'ALL'
+      ? `Showing ${filtered.length.toLocaleString()} ${adpFilter} signals | ${formatMeta.label} | ${DEFAULT_TEAMS}`
+      : `Showing all ${totalPlayers.toLocaleString()} players | ${formatMeta.label} | ${DEFAULT_TEAMS}`
 
   const gateVariant = position === 'ALL' ? 'full' : 'position'
   const showFade = gated && showGate && unlocked.length > 0
@@ -239,6 +292,17 @@ export default function RankingsBoard({
           </span>
           <span className="text-[11px] text-gavfather-muted">{updatedLabel}</span>
         </div>
+      </div>
+
+      {/* ADP signal stats bar */}
+      <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 px-1 text-[12px] sm:px-0">
+        <span className="font-semibold text-emerald-300">
+          {signalCounts.buy} BUY signals
+        </span>
+        <span className="text-gavfather-muted">|</span>
+        <span className="font-semibold text-red-300">
+          {signalCounts.fade} FADE signals today
+        </span>
       </div>
 
       {fantasyPros?.submitted && (
@@ -370,7 +434,7 @@ export default function RankingsBoard({
         )}
       </div>
 
-      {/* SECTION 3 — Search + position filter */}
+      {/* SECTION 3 — Search + position + ADP filters */}
       <div className="mt-3 space-y-2">
         <input
           type="search"
@@ -400,13 +464,41 @@ export default function RankingsBoard({
             )
           })}
         </div>
+
+        <div className="flex flex-wrap items-center gap-1.5">
+          <span className="mr-1 text-[11px] font-semibold uppercase tracking-wider text-gavfather-muted">
+            vs Market
+          </span>
+          {ADP_FILTERS.map((f) => {
+            const active = adpFilter === f.id
+            return (
+              <button
+                key={f.id}
+                type="button"
+                onClick={() => onAdpFilterChange(f.id)}
+                className={`rounded-full px-3.5 py-1.5 text-xs font-bold tracking-wide transition ${
+                  active
+                    ? f.id === 'BUY'
+                      ? 'bg-emerald-500 text-gavfather-navy'
+                      : f.id === 'FADE'
+                        ? 'bg-red-500 text-white'
+                        : 'bg-gavfather-gold text-gavfather-navy'
+                    : 'bg-gavfather-slate text-gavfather-muted hover:text-gavfather-text'
+                }`}
+                aria-pressed={active}
+              >
+                {f.label}
+              </button>
+            )
+          })}
+        </div>
       </div>
 
       <p className="mt-2 text-[11px] text-gavfather-muted">{countLabel}</p>
 
       {/* Desktop table */}
       <div className="mt-3 hidden overflow-x-auto rounded-xl border border-gavfather-border md:block">
-        <table className="w-full min-w-[960px] text-left">
+        <table className="w-full min-w-[1100px] text-left">
           <thead className="bg-gavfather-slate text-[11px] uppercase tracking-wider text-gavfather-muted">
             <tr>
               <th className="px-3 py-3">Rank</th>
@@ -414,6 +506,8 @@ export default function RankingsBoard({
               <th className="px-3 py-3">Pos</th>
               <th className="px-3 py-3">Team</th>
               <th className="px-3 py-3">{formatMeta.ppgHeader}</th>
+              <th className="px-3 py-3">vs Market</th>
+              <th className="px-3 py-3">Outlook</th>
               <th className="px-3 py-3">Reliability</th>
               <th className="px-3 py-3">Situation</th>
               <th className="px-3 py-3">Injury</th>
@@ -431,10 +525,9 @@ export default function RankingsBoard({
               />
             ))}
 
-            {/* Smooth fade from last clear row into blurred teaser */}
             {showFade && (
               <tr className="border-0">
-                <td colSpan={9} className="relative h-0 p-0">
+                <td colSpan={TABLE_COL_SPAN} className="relative h-0 p-0">
                   <div
                     className="pointer-events-none absolute inset-x-0 -top-14 z-10 h-14 bg-gradient-to-b from-transparent to-gavfather-navy/80"
                     aria-hidden
@@ -455,7 +548,7 @@ export default function RankingsBoard({
             {gated && showGate && (
               <>
                 <tr className="border-0">
-                  <td colSpan={9} className="relative h-0 p-0">
+                  <td colSpan={TABLE_COL_SPAN} className="relative h-0 p-0">
                     <div
                       className="pointer-events-none absolute inset-x-0 -top-24 z-10 h-24 bg-gradient-to-b from-transparent via-gavfather-navy/70 to-gavfather-navy"
                       aria-hidden
@@ -467,7 +560,7 @@ export default function RankingsBoard({
                   variant={gateVariant}
                   position={position}
                   totalPlayers={totalPlayers}
-                  colSpan={9}
+                  colSpan={TABLE_COL_SPAN}
                 />
               </>
             )}
