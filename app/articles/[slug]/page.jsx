@@ -20,6 +20,13 @@ import {
 } from '../../../lib/rankings'
 import { LAUNCH_YEAR } from '../../../lib/site'
 
+export const revalidate = 3600
+// Revalidate every hour so scheduled articles
+// appear within 1 hour of their publish date
+
+export const dynamic = 'force-dynamic'
+// Also add this to ensure fresh data on each request
+
 export function generateStaticParams() {
   return getAllArticles().map((a) => ({ slug: a.slug }))
 }

@@ -3,6 +3,13 @@ import ArticlesIndex from '../../components/ArticlesIndex'
 import { getAllArticles } from '../../lib/articles'
 import { LAUNCH_YEAR, SOCIAL_X_URL } from '../../lib/site'
 
+export const revalidate = 3600
+// Revalidate every hour so scheduled articles
+// appear within 1 hour of their publish date
+
+export const dynamic = 'force-dynamic'
+// Also add this to ensure fresh data on each request
+
 export const metadata = {
   title: 'Articles',
   description: 'Data-driven fantasy football analysis from The Gavfather.',
