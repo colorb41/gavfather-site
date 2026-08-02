@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-02T13:07:39",
-  "total_changes": 95,
+  "updated_at": "2026-08-02T16:53:42",
+  "total_changes": 99,
   "high_priority_count": 6,
   "changes": [
     {
@@ -1047,6 +1047,50 @@
       "change_type": "PROMOTED_TO_STARTER",
       "detail": "Depth chart 2 -> 1",
       "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-08-02T16:53:38",
+      "player_id": "13431",
+      "name": "Miles Kitselman",
+      "position": "TE",
+      "team": "DET",
+      "overall_rank": null,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Leg)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-02T16:53:38",
+      "player_id": "13647",
+      "name": "Ben Patterson",
+      "position": "WR",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from JAX",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-02T16:53:38",
+      "player_id": "13291",
+      "name": "Kejon Owens",
+      "position": "RB",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "PUP -> Questionable",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-02T16:53:38",
+      "player_id": "13291",
+      "name": "Kejon Owens",
+      "position": "RB",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from MIN",
+      "priority": "LOW"
     }
   ]
 }
