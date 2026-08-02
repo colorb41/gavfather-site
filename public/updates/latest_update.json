@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-02T16:53:42",
-  "total_changes": 99,
+  "updated_at": "2026-08-02T20:47:13",
+  "total_changes": 100,
   "high_priority_count": 6,
   "changes": [
     {
@@ -1091,6 +1091,17 @@
       "change_type": "RELEASED",
       "detail": "Released from MIN",
       "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-02T20:47:09",
+      "player_id": "11619",
+      "name": "Ja'Lynn Polk",
+      "position": "WR",
+      "team": "NO",
+      "overall_rank": null,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> NA (Undisclosed)",
+      "priority": "MEDIUM"
     }
   ]
 }
