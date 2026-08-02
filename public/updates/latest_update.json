@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-02T06:29:12",
-  "total_changes": 93,
-  "high_priority_count": 5,
+  "updated_at": "2026-08-02T09:51:53",
+  "total_changes": 95,
+  "high_priority_count": 6,
   "changes": [
     {
       "timestamp": "2026-07-29T02:02:23",
@@ -1025,6 +1025,28 @@
       "change_type": "INJURY_WORSENED",
       "detail": "Healthy -> Questionable (Hamstring)",
       "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-02T09:51:49",
+      "player_id": "5872",
+      "name": "Deebo Samuel",
+      "position": "WR",
+      "team": "SF",
+      "overall_rank": null,
+      "change_type": "DEMOTED_FROM_STARTER",
+      "detail": "Depth chart 1 -> 2",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-02T09:51:49",
+      "player_id": "2216",
+      "name": "Mike Evans",
+      "position": "WR",
+      "team": "SF",
+      "overall_rank": 117,
+      "change_type": "PROMOTED_TO_STARTER",
+      "detail": "Depth chart 2 -> 1",
+      "priority": "HIGH"
     }
   ]
 }
