@@ -1,6 +1,6 @@
-ï»¿---
+---
 title: "Every Position Is a Station: Your 2026 Draft Guide"
-date: "2026-08-10"
+date: "2026-08-09"
 week: 0
 theme: "The Bear"
 category: "research"
@@ -27,7 +27,7 @@ Draft a QB in round 1 of a standard league
 and you have wasted a pick. Draft a TE 
 in round 12 and you are streaming all season. 
 The Gavfather System tells you when each 
-position reaches its tipping point â€” and 
+position reaches its tipping point — and 
 what to do before and after it.
 
 ---
@@ -37,8 +37,8 @@ what to do before and after it.
 **Standard leagues: rounds 7-10**
 
 There are 32 starting QBs. You need one. 
-The replacement level QB â€” the 13th best 
-you could pick up off waivers â€” projects 
+The replacement level QB — the 13th best 
+you could pick up off waivers — projects 
 around 14-15 PPG. The gap between QB1 
 and QB13 is real but not as large as 
 the gap between RB1 and RB13.
@@ -58,7 +58,7 @@ Everything changes. You need two startable QBs.
 The replacement level is the 25th best QB 
 which is genuinely bad. 
 
-Allen, Lamar, Mahomes, Hurts â€” these go 
+Allen, Lamar, Mahomes, Hurts — these go 
 in the first three rounds in superflex. 
 Missing the run means starting a streaming 
 QB every week. Do not miss the run.
@@ -186,7 +186,7 @@ Full rankings at thegavfather.com/rankings.
 
 An offer your roster can't refuse.
 
-*â€” GH*
+*— GH*
 
 ---
 

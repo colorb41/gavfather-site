@@ -1,6 +1,6 @@
-ï»¿---
+---
 title: "Believe: The One Metric That Predicts Everything"
-date: "2026-08-17"
+date: "2026-08-13"
 week: 0
 theme: "Ted Lasso"
 category: "research"
@@ -13,8 +13,8 @@ excerpt: "Ted Lasso threw darts he had never thrown before and hit the bullseye.
 
 ---
 
-There is a scene in Ted Lasso where Ted â€” 
-a man who has never played soccer in his life â€” 
+There is a scene in Ted Lasso where Ted — 
+a man who has never played soccer in his life — 
 walks into a dart match against the most 
 arrogant man in the room and hits the bullseye.
 
@@ -56,7 +56,7 @@ Low on both = avoid.
 The market obsesses over boom rate alone. 
 Fantasy Twitter loves the guy who scored 
 38 points in Week 7. But boom rate without 
-consistency is exactly what Ted warned about â€” 
+consistency is exactly what Ted warned about — 
 talent without process. Flashy but unreliable.
 
 The data says: you want both.
@@ -74,7 +74,7 @@ player-seasons going back to 2004.
 The reason it works is behavioral. 
 Players who score big regularly AND 
 show up every week are doing something 
-fundamentally right â€” they have genuine 
+fundamentally right — they have genuine 
 roles, real opportunity, and the talent 
 to convert that opportunity consistently.
 
@@ -94,36 +94,36 @@ Based on their 2025 performance and career data
 these are the players with the strongest 
 Boom-Consistency profiles heading into 2026:
 
-**Jahmyr Gibbs, RB â€” Detroit Lions**
+**Jahmyr Gibbs, RB — Detroit Lions**
 The highest boom-consistency profile among RBs. 
 Elite ceiling, shows up every week, and Detroit's 
 situation score of 88 out of 100 ensures the 
 opportunity is there. Note the Munich game 
-in Week 8 â€” historically the lowest scoring 
+in Week 8 — historically the lowest scoring 
 international venue.
 
-**Ja'Marr Chase, WR â€” Cincinnati Bengals**
+**Ja'Marr Chase, WR — Cincinnati Bengals**
 Five elite seasons. High boom rate. 
 Low variance. Joe Burrow throwing to him. 
 The textbook boom-consistency profile. 
 WR2 in our rankings. The market undervalues 
 the consistency component of his game.
 
-**Amon-Ra St. Brown, WR â€” Detroit Lions**
+**Amon-Ra St. Brown, WR — Detroit Lions**
 Consistent every single week. High floor. 
 Real boom upside in Detroit's elite offense. 
 Drew Petzing's new TE-heavy scheme actually 
 benefits Amon-Ra by keeping the defense 
 honest and opening underneath routes.
 
-**Trey McBride, TE â€” Arizona Cardinals**
+**Trey McBride, TE — Arizona Cardinals**
 The most consistent TE in football. 
-Nathaniel Hackett's new scheme is TE-friendly â€” 
+Nathaniel Hackett's new scheme is TE-friendly — 
 he made McBride a star in Arizona before 
 and now returns to work with him again. 
 The model has him TE1 for a reason.
 
-**Josh Allen, QB â€” Buffalo Bills**
+**Josh Allen, QB — Buffalo Bills**
 The single highest boom-consistency 
 profile at QB. His rushing floor ensures 
 he never has a truly bad game. His ceiling 
@@ -136,20 +136,20 @@ worth taking early even in standard leagues.
 
 High ADP. Low boom-consistency score.
 
-**Patrick Mahomes** â€” ACL recovery means 
+**Patrick Mahomes** — ACL recovery means 
 unknown ceiling AND unknown floor. 
 The consistency component is at risk 
 until he proves he is fully healthy.
 
 **Players with high 2025 touchdown counts 
-relative to opportunity** â€” touchdowns 
+relative to opportunity** — touchdowns 
 are not sticky. A player who scored 14 TDs 
 last year because of red zone usage will 
 not necessarily repeat. Their boom rate 
 was real. Their consistency underneath it 
 may not have been.
 
-**Rookie wide receivers** â€” by definition 
+**Rookie wide receivers** — by definition 
 they have no consistency data. High boom 
 potential based on athleticism and situation. 
 Low consistency because they have never 
@@ -180,7 +180,7 @@ Full rankings at thegavfather.com/rankings.
 
 An offer your roster can't refuse.
 
-*â€” GH*
+*— GH*
 
 ---
 
