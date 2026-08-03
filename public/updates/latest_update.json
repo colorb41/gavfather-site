@@ -1,30 +1,8 @@
 {
-  "updated_at": "2026-08-03T11:17:13",
+  "updated_at": "2026-08-03T14:26:07",
   "total_changes": 100,
   "high_priority_count": 6,
   "changes": [
-    {
-      "timestamp": "2026-07-29T17:09:34",
-      "player_id": "11584",
-      "name": "Bucky Irving",
-      "position": "RB",
-      "team": "TB",
-      "overall_rank": 42,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-07-29T17:09:34",
-      "player_id": "4574",
-      "name": "Cooper Rush",
-      "position": "QB",
-      "team": "ATL",
-      "overall_rank": 1174,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> ATL",
-      "priority": "MEDIUM"
-    },
     {
       "timestamp": "2026-07-29T17:09:34",
       "player_id": "3976",
@@ -1102,6 +1080,28 @@
       "change_type": "TRADED_OR_SIGNED",
       "detail": "FA -> LV",
       "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-03T14:26:03",
+      "player_id": "5973",
+      "name": "Josh Oliver",
+      "position": "TE",
+      "team": "MIN",
+      "overall_rank": 504,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-03T14:26:03",
+      "player_id": "12473",
+      "name": "Mitchell Evans",
+      "position": "TE",
+      "team": "CAR",
+      "overall_rank": 575,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "LOW"
     }
   ]
 }
