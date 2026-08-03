@@ -1,118 +1,8 @@
 {
-  "updated_at": "2026-08-03T14:26:07",
+  "updated_at": "2026-08-03T17:46:48",
   "total_changes": 100,
   "high_priority_count": 6,
   "changes": [
-    {
-      "timestamp": "2026-07-29T17:09:34",
-      "player_id": "3976",
-      "name": "Mitchell Trubisky",
-      "position": "QB",
-      "team": "TEN",
-      "overall_rank": 1168,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Undisclosed)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-07-29T17:09:34",
-      "player_id": "10219",
-      "name": "Chris Rodriguez",
-      "position": "RB",
-      "team": "JAX",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-07-29T17:09:34",
-      "player_id": "14055",
-      "name": "Louis Hansen",
-      "position": "TE",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from HOU",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-07-29T17:09:34",
-      "player_id": "12476",
-      "name": "Devin Neal",
-      "position": "RB",
-      "team": "NO",
-      "overall_rank": 539,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-07-29T17:09:34",
-      "player_id": "11624",
-      "name": "Xavier Worthy",
-      "position": "WR",
-      "team": "KC",
-      "overall_rank": 130,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-07-29T17:09:34",
-      "player_id": "7989",
-      "name": "DJ Turner",
-      "position": "WR",
-      "team": "HOU",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> HOU",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-07-29T17:09:34",
-      "player_id": "4854",
-      "name": "River Cracraft",
-      "position": "WR",
-      "team": "WAS",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> WAS",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-07-29T17:09:34",
-      "player_id": "2549",
-      "name": "Trevor Siemian",
-      "position": "QB",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from ATL",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-07-29T17:09:34",
-      "player_id": "12506",
-      "name": "Harold Fannin",
-      "position": "TE",
-      "team": "CLE",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-07-29T17:09:34",
-      "player_id": "4435",
-      "name": "Anthony Firkser",
-      "position": "TE",
-      "team": "",
-      "overall_rank": 579,
-      "change_type": "RELEASED",
-      "detail": "Released from WAS",
-      "priority": "LOW"
-    },
     {
       "timestamp": "2026-07-29T20:47:34",
       "player_id": "6783",
@@ -1101,6 +991,116 @@
       "overall_rank": 575,
       "change_type": "INJURY_IMPROVED",
       "detail": "Questionable -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-03T17:46:44",
+      "player_id": "6768",
+      "name": "Tua Tagovailoa",
+      "position": "QB",
+      "team": "ATL",
+      "overall_rank": 468,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-03T17:46:44",
+      "player_id": "8523",
+      "name": "Nick Muse",
+      "position": "TE",
+      "team": "DET",
+      "overall_rank": null,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> DET",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-03T17:46:44",
+      "player_id": "9220",
+      "name": "Evan Hull",
+      "position": "RB",
+      "team": "",
+      "overall_rank": 1112,
+      "change_type": "RELEASED",
+      "detail": "Released from HOU",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-03T17:46:44",
+      "player_id": "13414",
+      "name": "Kaelon Black",
+      "position": "RB",
+      "team": "SF",
+      "overall_rank": null,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Thigh)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-03T17:46:44",
+      "player_id": "12534",
+      "name": "Kyle Monangai",
+      "position": "RB",
+      "team": "CHI",
+      "overall_rank": 195,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-03T17:46:44",
+      "player_id": "11729",
+      "name": "Sione Vaki",
+      "position": "RB",
+      "team": "DET",
+      "overall_rank": 425,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Eye)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-03T17:46:44",
+      "player_id": "12001",
+      "name": "Lawrence Keys",
+      "position": "WR",
+      "team": "DET",
+      "overall_rank": null,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Leg)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-03T17:46:44",
+      "player_id": "12412",
+      "name": "Terrell Jennings",
+      "position": "RB",
+      "team": "NE",
+      "overall_rank": 567,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "PUP -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-03T17:46:44",
+      "player_id": "4435",
+      "name": "Anthony Firkser",
+      "position": "TE",
+      "team": "DET",
+      "overall_rank": 579,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Leg)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-03T17:46:44",
+      "player_id": "11619",
+      "name": "Ja'Lynn Polk",
+      "position": "WR",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from NO",
       "priority": "LOW"
     }
   ]
