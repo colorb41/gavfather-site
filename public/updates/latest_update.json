@@ -1,41 +1,8 @@
 {
-  "updated_at": "2026-08-02T20:47:13",
+  "updated_at": "2026-08-03T02:12:06",
   "total_changes": 100,
   "high_priority_count": 6,
   "changes": [
-    {
-      "timestamp": "2026-07-29T02:02:23",
-      "player_id": "12113",
-      "name": "Thomas Yassmin",
-      "position": "TE",
-      "team": "GB",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> GB",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-07-29T13:55:30",
-      "player_id": "6768",
-      "name": "Tua Tagovailoa",
-      "position": "QB",
-      "team": "ATL",
-      "overall_rank": 468,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Undisclosed)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-07-29T13:55:30",
-      "player_id": "13330",
-      "name": "Kenyon Sadiq",
-      "position": "TE",
-      "team": "NYJ",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
     {
       "timestamp": "2026-07-29T17:09:34",
       "player_id": "11584",
@@ -1101,6 +1068,39 @@
       "overall_rank": null,
       "change_type": "INJURY_WORSENED",
       "detail": "Healthy -> NA (Undisclosed)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-03T02:12:02",
+      "player_id": "7608",
+      "name": "Khalil Herbert",
+      "position": "RB",
+      "team": "SF",
+      "overall_rank": 713,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> SF",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-03T02:12:02",
+      "player_id": "11963",
+      "name": "Chris Collier",
+      "position": "RB",
+      "team": "LV",
+      "overall_rank": null,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Questionable -> IR (Undisclosed)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-03T02:12:02",
+      "player_id": "11963",
+      "name": "Chris Collier",
+      "position": "RB",
+      "team": "LV",
+      "overall_rank": null,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> LV",
       "priority": "MEDIUM"
     }
   ]
