@@ -1,96 +1,8 @@
 {
-  "updated_at": "2026-08-03T20:58:19",
+  "updated_at": "2026-08-04T01:57:30",
   "total_changes": 100,
   "high_priority_count": 6,
   "changes": [
-    {
-      "timestamp": "2026-07-29T20:47:34",
-      "player_id": "13353",
-      "name": "Chris Brazzell",
-      "position": "WR",
-      "team": "CAR",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Questionable -> Out (Knee)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-07-29T20:47:34",
-      "player_id": "7357",
-      "name": "Dan Chisena",
-      "position": "WR",
-      "team": "CAR",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Questionable -> IR (Undisclosed)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-07-29T20:47:34",
-      "player_id": "11563",
-      "name": "Bo Nix",
-      "position": "QB",
-      "team": "DEN",
-      "overall_rank": 65,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-07-29T20:47:34",
-      "player_id": "12481",
-      "name": "Cam Skattebo",
-      "position": "RB",
-      "team": "NYG",
-      "overall_rank": 16,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-07-29T20:47:34",
-      "player_id": "12467",
-      "name": "Jordan James",
-      "position": "RB",
-      "team": "SF",
-      "overall_rank": 480,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Ribs)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-07-30T01:52:46",
-      "player_id": "10228",
-      "name": "Charlie Jones",
-      "position": "WR",
-      "team": "CIN",
-      "overall_rank": 1007,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-07-30T01:52:46",
-      "player_id": "14056",
-      "name": "Kyre Duplessis",
-      "position": "WR",
-      "team": "SEA",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> SEA",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-07-30T01:52:46",
-      "player_id": "10225",
-      "name": "Jonathan Mingo",
-      "position": "WR",
-      "team": "DAL",
-      "overall_rank": 951,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
     {
       "timestamp": "2026-07-30T01:52:46",
       "player_id": "11621",
@@ -1101,6 +1013,94 @@
       "overall_rank": null,
       "change_type": "INJURY_WORSENED",
       "detail": "Healthy -> Questionable (Undisclosed)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-04T01:57:27",
+      "player_id": "11589",
+      "name": "Trey Benson",
+      "position": "RB",
+      "team": "ARI",
+      "overall_rank": 625,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Knee)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-04T01:57:27",
+      "player_id": "8135",
+      "name": "Treylon Burks",
+      "position": "WR",
+      "team": "WAS",
+      "overall_rank": 891,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-04T01:57:27",
+      "player_id": "9220",
+      "name": "Evan Hull",
+      "position": "RB",
+      "team": "ARI",
+      "overall_rank": 1112,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> ARI",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-04T01:57:27",
+      "player_id": "12656",
+      "name": "Robbie Ouzts",
+      "position": "RB",
+      "team": "SEA",
+      "overall_rank": 211,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Undisclosed)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-04T01:57:27",
+      "player_id": "10219",
+      "name": "Chris Rodriguez",
+      "position": "RB",
+      "team": "JAX",
+      "overall_rank": null,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-04T01:57:27",
+      "player_id": "10214",
+      "name": "Davis Allen",
+      "position": "TE",
+      "team": "LAR",
+      "overall_rank": 474,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Quadriceps)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-04T01:57:27",
+      "player_id": "14067",
+      "name": "Jeff Weimer",
+      "position": "WR",
+      "team": "KC",
+      "overall_rank": null,
+      "change_type": "NEW_PLAYER_SIGNED",
+      "detail": "Appeared on KC roster",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-04T01:57:27",
+      "player_id": "9482",
+      "name": "Michael Mayer",
+      "position": "TE",
+      "team": "LV",
+      "overall_rank": 502,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Nose)",
       "priority": "MEDIUM"
     }
   ]
