@@ -1,85 +1,8 @@
 {
-  "updated_at": "2026-08-04T17:39:48",
+  "updated_at": "2026-08-04T21:05:56",
   "total_changes": 100,
   "high_priority_count": 6,
   "changes": [
-    {
-      "timestamp": "2026-07-30T21:01:57",
-      "player_id": "12884",
-      "name": "Quincy Skinner",
-      "position": "WR",
-      "team": "NYJ",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> NYJ",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-07-31T02:11:10",
-      "player_id": "4992",
-      "name": "Dante Pettis",
-      "position": "WR",
-      "team": "BUF",
-      "overall_rank": 950,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> BUF",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-07-31T02:11:10",
-      "player_id": "5773",
-      "name": "KhaDarel Hodge",
-      "position": "WR",
-      "team": "",
-      "overall_rank": 894,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-07-31T02:11:10",
-      "player_id": "5872",
-      "name": "Deebo Samuel",
-      "position": "WR",
-      "team": "SF",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> SF",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-07-31T02:11:10",
-      "player_id": "5987",
-      "name": "Alexander Mattison",
-      "position": "RB",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-07-31T02:11:10",
-      "player_id": "13261",
-      "name": "Layne Pryor",
-      "position": "TE",
-      "team": "HOU",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-07-31T02:11:10",
-      "player_id": "13859",
-      "name": "Jalen Walthall",
-      "position": "WR",
-      "team": "NYJ",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Undisclosed)",
-      "priority": "MEDIUM"
-    },
     {
       "timestamp": "2026-07-31T02:11:10",
       "player_id": "8416",
@@ -1101,6 +1024,83 @@
       "overall_rank": 588,
       "change_type": "TRADED_OR_SIGNED",
       "detail": "FA -> PIT",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-04T21:05:53",
+      "player_id": "11589",
+      "name": "Trey Benson",
+      "position": "RB",
+      "team": "ARI",
+      "overall_rank": 625,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-04T21:05:53",
+      "player_id": "13430",
+      "name": "RJ Maryland",
+      "position": "TE",
+      "team": "GB",
+      "overall_rank": null,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Undisclosed)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-04T21:05:53",
+      "player_id": "4040",
+      "name": "JuJu Smith-Schuster",
+      "position": "WR",
+      "team": "NYG",
+      "overall_rank": 565,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Knee)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-04T21:05:53",
+      "player_id": "13309",
+      "name": "Aaron Anderson",
+      "position": "WR",
+      "team": "CLE",
+      "overall_rank": null,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Undisclosed)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-04T21:05:53",
+      "player_id": "11615",
+      "name": "Ainias Smith",
+      "position": "WR",
+      "team": "CAR",
+      "overall_rank": null,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Undisclosed)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-04T21:05:53",
+      "player_id": "12725",
+      "name": "Luke Lachey",
+      "position": "TE",
+      "team": "GB",
+      "overall_rank": null,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Foot)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-04T21:05:53",
+      "player_id": "11508",
+      "name": "Princeton Fant",
+      "position": "TE",
+      "team": "DAL",
+      "overall_rank": null,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Questionable -> Out (Knee - ACL + MCL)",
       "priority": "MEDIUM"
     }
   ]
