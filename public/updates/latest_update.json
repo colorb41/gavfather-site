@@ -1,107 +1,8 @@
 {
-  "updated_at": "2026-08-05T17:24:31",
+  "updated_at": "2026-08-05T21:02:29",
   "total_changes": 100,
-  "high_priority_count": 4,
+  "high_priority_count": 7,
   "changes": [
-    {
-      "timestamp": "2026-08-01T02:12:21",
-      "player_id": "13834",
-      "name": "Cody Hardy",
-      "position": "TE",
-      "team": "NO",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "PUP -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-01T02:12:22",
-      "player_id": "11963",
-      "name": "Chris Collier",
-      "position": "RB",
-      "team": "LV",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Undisclosed)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-01T06:24:05",
-      "player_id": "13859",
-      "name": "Jalen Walthall",
-      "position": "WR",
-      "team": "NYJ",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> NYJ",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-01T16:54:34",
-      "player_id": "11598",
-      "name": "Tanner McLachlan",
-      "position": "TE",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from SF",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-01T16:54:34",
-      "player_id": "12981",
-      "name": "Gee Scott",
-      "position": "TE",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from NYJ",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-01T16:54:34",
-      "player_id": "13413",
-      "name": "Cyrus Allen",
-      "position": "WR",
-      "team": "KC",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Knee)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-01T16:54:34",
-      "player_id": "11621",
-      "name": "Brenden Rice",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from GB",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-01T16:54:34",
-      "player_id": "11963",
-      "name": "Chris Collier",
-      "position": "RB",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from LV",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-01T20:43:28",
-      "player_id": "12981",
-      "name": "Gee Scott",
-      "position": "TE",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Questionable -> IR (Undisclosed)",
-      "priority": "MEDIUM"
-    },
     {
       "timestamp": "2026-08-01T20:43:28",
       "player_id": "11638",
@@ -1101,6 +1002,105 @@
       "overall_rank": null,
       "change_type": "RELEASED",
       "detail": "Released from DET",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-05T21:02:25",
+      "player_id": "11616",
+      "name": "Jacob Cowing",
+      "position": "WR",
+      "team": "SF",
+      "overall_rank": null,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Hip)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-05T21:02:25",
+      "player_id": "7526",
+      "name": "Jaylen Waddle",
+      "position": "WR",
+      "team": "DEN",
+      "overall_rank": 76,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Undisclosed)",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-08-05T21:02:25",
+      "player_id": "13431",
+      "name": "Miles Kitselman",
+      "position": "TE",
+      "team": "DET",
+      "overall_rank": null,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Questionable -> IR (Leg)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-05T21:02:25",
+      "player_id": "4040",
+      "name": "JuJu Smith-Schuster",
+      "position": "WR",
+      "team": "NYG",
+      "overall_rank": 565,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-05T21:02:25",
+      "player_id": "12171",
+      "name": "British Brooks",
+      "position": "RB",
+      "team": "HOU",
+      "overall_rank": 495,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Hand)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-05T21:02:26",
+      "player_id": "2449",
+      "name": "Stefon Diggs",
+      "position": "WR",
+      "team": "WAS",
+      "overall_rank": 84,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> WAS",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-08-05T21:02:26",
+      "player_id": "9757",
+      "name": "Kendre Miller",
+      "position": "RB",
+      "team": "NO",
+      "overall_rank": 725,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Back)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-05T21:02:26",
+      "player_id": "9756",
+      "name": "Jordan Addison",
+      "position": "WR",
+      "team": "MIN",
+      "overall_rank": 87,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Thumb)",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-08-05T21:02:26",
+      "player_id": "13298",
+      "name": "KC Concepcion",
+      "position": "WR",
+      "team": "CLE",
+      "overall_rank": null,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
       "priority": "LOW"
     }
   ]
