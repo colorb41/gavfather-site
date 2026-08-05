@@ -1,107 +1,8 @@
 {
-  "updated_at": "2026-08-04T21:05:56",
+  "updated_at": "2026-08-05T01:56:52",
   "total_changes": 100,
-  "high_priority_count": 6,
+  "high_priority_count": 5,
   "changes": [
-    {
-      "timestamp": "2026-07-31T02:11:10",
-      "player_id": "8416",
-      "name": "Jalen Virgil",
-      "position": "WR",
-      "team": "BUF",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Undisclosed)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-07-31T02:11:10",
-      "player_id": "12817",
-      "name": "Jake Briningstool",
-      "position": "TE",
-      "team": "KC",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-07-31T10:32:33",
-      "player_id": "2216",
-      "name": "Mike Evans",
-      "position": "WR",
-      "team": "SF",
-      "overall_rank": 117,
-      "change_type": "DEMOTED_FROM_STARTER",
-      "detail": "Depth chart 1 -> 2",
-      "priority": "HIGH"
-    },
-    {
-      "timestamp": "2026-07-31T17:23:58",
-      "player_id": "11598",
-      "name": "Tanner McLachlan",
-      "position": "TE",
-      "team": "SF",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Undisclosed)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-07-31T17:23:58",
-      "player_id": "9484",
-      "name": "Tucker Kraft",
-      "position": "TE",
-      "team": "GB",
-      "overall_rank": 74,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "PUP -> Questionable",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-07-31T17:23:58",
-      "player_id": "12721",
-      "name": "Kaden Prather",
-      "position": "WR",
-      "team": "GB",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> GB",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-07-31T17:23:58",
-      "player_id": "13110",
-      "name": "Zach Horton",
-      "position": "TE",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from DET",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-07-31T17:23:58",
-      "player_id": "13859",
-      "name": "Jalen Walthall",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from NYJ",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-07-31T17:23:58",
-      "player_id": "7891",
-      "name": "Brock Wright",
-      "position": "TE",
-      "team": "DET",
-      "overall_rank": 663,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
     {
       "timestamp": "2026-07-31T17:23:58",
       "player_id": "8416",
@@ -1101,6 +1002,105 @@
       "overall_rank": null,
       "change_type": "INJURY_WORSENED",
       "detail": "Questionable -> Out (Knee - ACL + MCL)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-05T01:56:49",
+      "player_id": "12981",
+      "name": "Gee Scott",
+      "position": "TE",
+      "team": "NYJ",
+      "overall_rank": null,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "IR -> Questionable",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-05T01:56:49",
+      "player_id": "8475",
+      "name": "Montrell Washington",
+      "position": "WR",
+      "team": "HOU",
+      "overall_rank": null,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> HOU",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-05T01:56:49",
+      "player_id": "11618",
+      "name": "Jalen McMillan",
+      "position": "WR",
+      "team": "TB",
+      "overall_rank": 517,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Calf)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-05T01:56:49",
+      "player_id": "11139",
+      "name": "Elijah Cooks",
+      "position": "WR",
+      "team": "CAR",
+      "overall_rank": null,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> CAR",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-05T01:56:49",
+      "player_id": "14068",
+      "name": "Drew Biber",
+      "position": "TE",
+      "team": "GB",
+      "overall_rank": null,
+      "change_type": "NEW_PLAYER_SIGNED",
+      "detail": "Appeared on GB roster",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-05T01:56:49",
+      "player_id": "11802",
+      "name": "Tejhaun Palmer",
+      "position": "WR",
+      "team": "NE",
+      "overall_rank": null,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> NE",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-05T01:56:49",
+      "player_id": "8255",
+      "name": "Raheem Blackshear",
+      "position": "RB",
+      "team": "DET",
+      "overall_rank": null,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> DET",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-05T01:56:49",
+      "player_id": "12485",
+      "name": "Tez Johnson",
+      "position": "WR",
+      "team": "TB",
+      "overall_rank": 479,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Groin)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-05T01:56:49",
+      "player_id": "12972",
+      "name": "Roc Taylor",
+      "position": "WR",
+      "team": "CAR",
+      "overall_rank": null,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> CAR",
       "priority": "MEDIUM"
     }
   ]
