@@ -1,162 +1,8 @@
 {
-  "updated_at": "2026-08-05T13:53:30",
+  "updated_at": "2026-08-05T17:24:31",
   "total_changes": 100,
-  "high_priority_count": 5,
+  "high_priority_count": 4,
   "changes": [
-    {
-      "timestamp": "2026-07-31T17:23:58",
-      "player_id": "8416",
-      "name": "Jalen Virgil",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from BUF",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-07-31T17:23:58",
-      "player_id": "12534",
-      "name": "Kyle Monangai",
-      "position": "RB",
-      "team": "CHI",
-      "overall_rank": 195,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Undisclosed)",
-      "priority": "HIGH"
-    },
-    {
-      "timestamp": "2026-07-31T17:23:58",
-      "player_id": "4435",
-      "name": "Anthony Firkser",
-      "position": "TE",
-      "team": "DET",
-      "overall_rank": 579,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> DET",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-07-31T17:23:58",
-      "player_id": "14064",
-      "name": "Roydell Williams",
-      "position": "RB",
-      "team": "IND",
-      "overall_rank": null,
-      "change_type": "NEW_PLAYER_SIGNED",
-      "detail": "Appeared on IND roster",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-07-31T20:58:48",
-      "player_id": "12981",
-      "name": "Gee Scott",
-      "position": "TE",
-      "team": "NYJ",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Undisclosed)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-07-31T20:58:48",
-      "player_id": "12906",
-      "name": "Cam Camper",
-      "position": "WR",
-      "team": "NYJ",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> NYJ",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-07-31T20:58:48",
-      "player_id": "13353",
-      "name": "Chris Brazzell",
-      "position": "WR",
-      "team": "CAR",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Out -> IR (Knee)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-07-31T20:58:48",
-      "player_id": "12530",
-      "name": "Travis Hunter",
-      "position": "WR",
-      "team": "JAX",
-      "overall_rank": 359,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-07-31T20:58:48",
-      "player_id": "13859",
-      "name": "Jalen Walthall",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Questionable -> IR (Undisclosed)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-07-31T20:58:48",
-      "player_id": "6598",
-      "name": "Trenton Irwin",
-      "position": "WR",
-      "team": "SF",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> SF",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-07-31T20:58:48",
-      "player_id": "13280",
-      "name": "Chamon Metayer",
-      "position": "TE",
-      "team": "CAR",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> CAR",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-07-31T20:58:48",
-      "player_id": "11621",
-      "name": "Brenden Rice",
-      "position": "WR",
-      "team": "GB",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "PUP -> Questionable",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-07-31T20:58:48",
-      "player_id": "7050",
-      "name": "Josiah Deguara",
-      "position": "TE",
-      "team": "SF",
-      "overall_rank": 632,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> SF",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-01T02:12:21",
-      "player_id": "9483",
-      "name": "Zack Kuntz",
-      "position": "TE",
-      "team": "LV",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> LV",
-      "priority": "MEDIUM"
-    },
     {
       "timestamp": "2026-08-01T02:12:21",
       "player_id": "13834",
@@ -1102,6 +948,160 @@
       "change_type": "TRADED_OR_SIGNED",
       "detail": "FA -> CAR",
       "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-05T17:24:27",
+      "player_id": "12981",
+      "name": "Gee Scott",
+      "position": "TE",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from NYJ",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-05T17:24:27",
+      "player_id": "13939",
+      "name": "Gabriel Benyard",
+      "position": "WR",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from CAR",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-05T17:24:27",
+      "player_id": "14049",
+      "name": "Brandon Hayes",
+      "position": "WR",
+      "team": "PHI",
+      "overall_rank": null,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> PHI",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-05T17:24:27",
+      "player_id": "5773",
+      "name": "KhaDarel Hodge",
+      "position": "WR",
+      "team": "SF",
+      "overall_rank": 894,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> SF",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-05T17:24:27",
+      "player_id": "1339",
+      "name": "Zach Ertz",
+      "position": "TE",
+      "team": "",
+      "overall_rank": 105,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-05T17:24:27",
+      "player_id": "8414",
+      "name": "Britain Covey",
+      "position": "WR",
+      "team": "PHI",
+      "overall_rank": 676,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Hamstring)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-05T17:24:27",
+      "player_id": "13430",
+      "name": "RJ Maryland",
+      "position": "TE",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from GB",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-05T17:24:27",
+      "player_id": "14061",
+      "name": "Jeremiah Franklin",
+      "position": "TE",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from NE",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-05T17:24:27",
+      "player_id": "13309",
+      "name": "Aaron Anderson",
+      "position": "WR",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from CLE",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-05T17:24:27",
+      "player_id": "12984",
+      "name": "CJ Dippre",
+      "position": "TE",
+      "team": "NE",
+      "overall_rank": null,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "PUP -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-05T17:24:27",
+      "player_id": "11615",
+      "name": "Ainias Smith",
+      "position": "WR",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from CAR",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-05T17:24:27",
+      "player_id": "12725",
+      "name": "Luke Lachey",
+      "position": "TE",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from GB",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-05T17:24:27",
+      "player_id": "14069",
+      "name": "Connor Hulstein",
+      "position": "TE",
+      "team": "NYJ",
+      "overall_rank": null,
+      "change_type": "NEW_PLAYER_SIGNED",
+      "detail": "Appeared on NYJ roster",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-05T17:24:27",
+      "player_id": "12001",
+      "name": "Lawrence Keys",
+      "position": "WR",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from DET",
+      "priority": "LOW"
     }
   ]
 }
