@@ -7,10 +7,14 @@ import { SITE_NAME, SITE_URL } from '../lib/site'
 import '../styles/globals.css'
 
 function getDraftBannerDate() {
-  const fallback = 'July 27, 2026'
+  const fallback = new Date().toLocaleDateString('en-US', {
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+  })
   const candidates = [
-    path.join(process.cwd(), 'data', 'meta.json'),
     path.join(process.cwd(), 'public', 'data', 'meta.json'),
+    path.join(process.cwd(), 'data', 'meta.json'),
   ]
   for (const filePath of candidates) {
     try {

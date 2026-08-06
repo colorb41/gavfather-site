@@ -30,17 +30,22 @@ const TABLE_COL_SPAN = 11
 const FORMAT_PRESETS = FORMAT_IDS.map((id) => FORMAT_META[id])
 
 function formatUpdated(updatedAt) {
-  if (!updatedAt) return 'Updated July 28, 2026'
+  const fallbackDate = new Date().toLocaleDateString('en-US', {
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+  })
+  if (!updatedAt) return `Updated ${fallbackDate}`
   try {
     const d = new Date(updatedAt)
-    if (Number.isNaN(d.getTime())) return 'Updated July 28, 2026'
+    if (Number.isNaN(d.getTime())) return `Updated ${fallbackDate}`
     return `Updated ${d.toLocaleDateString('en-US', {
       month: 'long',
       day: 'numeric',
       year: 'numeric',
     })}`
   } catch {
-    return 'Updated July 28, 2026'
+    return `Updated ${fallbackDate}`
   }
 }
 
