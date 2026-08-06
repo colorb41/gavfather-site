@@ -1,6 +1,6 @@
 ---
 title: "The Moneyball Picks: Players the Market Is Getting Wrong"
-date: "2026-08-06"
+date: "2026-08-03"
 week: 0
 theme: "Moneyball"
 category: "research"
@@ -39,8 +39,8 @@ right now.
 The Gavfather System compares our positional 
 rankings to consensus ADP from real fantasy 
 drafts. When we rank a player significantly 
-higher than the market — at their specific 
-position — that is a BUY signal.
+higher than the market ï¿½ at their specific 
+position ï¿½ that is a BUY signal.
 
 Not because we think we are smarter than 
 everyone. Because the data says something 
@@ -50,7 +50,7 @@ the market hasn't priced in yet.
 
 ## The Sleeper List
 
-**Justin Herbert, QB — Los Angeles Chargers**
+**Justin Herbert, QB ï¿½ Los Angeles Chargers**
 
 Our rank: QB3. Market rank: QB11.
 
@@ -71,7 +71,7 @@ before anyone else noticed the price was wrong.
 
 ---
 
-**Kyren Williams, RB — Los Angeles Rams**
+**Kyren Williams, RB ï¿½ Los Angeles Rams**
 
 Our rank: RB4. Market rank: RB16.
 
@@ -88,7 +88,7 @@ The model has him as a round 2-3 value.
 
 ---
 
-**Courtland Sutton, WR — Denver Broncos**
+**Courtland Sutton, WR ï¿½ Denver Broncos**
 
 Our rank: WR16. Market rank: WR30.
 
@@ -106,7 +106,7 @@ The model is not.
 
 ---
 
-**DK Metcalf, WR — Seattle Seahawks**
+**DK Metcalf, WR ï¿½ Seattle Seahawks**
 
 Our rank: WR17. Market rank: WR33.
 
@@ -124,7 +124,7 @@ and a favorable situation.
 
 ---
 
-**Brian Thomas Jr., WR — Jacksonville Jaguars**
+**Brian Thomas Jr., WR ï¿½ Jacksonville Jaguars**
 
 Our rank: WR25. Market rank: WR37.
 
@@ -146,7 +146,7 @@ The rest of the season he is a value.
 
 ---
 
-**Jauan Jennings, WR — San Francisco 49ers**
+**Jauan Jennings, WR ï¿½ San Francisco 49ers**
 
 Our rank: WR33. Market rank: WR62.
 
@@ -162,7 +162,7 @@ yards after contact and a role that
 is more secure than consensus believes.
 
 Caveat: San Francisco plays TWO international 
-games in 2026 — Melbourne Week 1 and 
+games in 2026 ï¿½ Melbourne Week 1 and 
 Mexico City Week 11. Know this going in.
 
 ---
@@ -197,8 +197,8 @@ individual calls were wrong.
 The Gavfather System works the same way. 
 Not every BUY signal hits. But over a 
 full draft the players where our model 
-disagrees most with the market — and 
-turns out to be right — are how you 
+disagrees most with the market ï¿½ and 
+turns out to be right ï¿½ are how you 
 finish first instead of sixth.
 
 Full rankings and all BUY signals at 
@@ -206,7 +206,7 @@ thegavfather.com/rankings.
 
 An offer your roster can't refuse.
 
-*— GH*
+*ï¿½ GH*
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Should I Stay or Should I Go: The TE Question"
-date: "2026-08-11"
+date: "2026-08-05"
 week: 0
 theme: "Seinfeld"
 category: "research"
@@ -41,8 +41,8 @@ positional gap in fantasy football.
 
 In 2025 Trey McBride averaged 12.63 PPG. 
 The 13th best TE averaged 7.07 PPG. 
-That is a 5.56 point per game advantage — 
-every single week — from having an elite TE.
+That is a 5.56 point per game advantage ï¿½ 
+every single week ï¿½ from having an elite TE.
 
 Over 17 weeks that is 94 points. 
 Nearly six full wins in a typical scoring system.
@@ -60,11 +60,11 @@ trying to decide whether to shake his boss's hand.
 
 ## The 2026 TE Tiers
 
-**Tier 1 — Take them in rounds 3-4 (worth the reach):**
+**Tier 1 ï¿½ Take them in rounds 3-4 (worth the reach):**
 
-Trey McBride, ARI — 12.63 projected PPG
-George Kittle, SF — 11.56 projected PPG
-Brock Bowers, LV — 11.97 projected PPG
+Trey McBride, ARI ï¿½ 12.63 projected PPG
+George Kittle, SF ï¿½ 11.56 projected PPG
+Brock Bowers, LV ï¿½ 11.97 projected PPG
 
 These three are genuinely different from 
 everyone else. If one is available in 
@@ -83,12 +83,12 @@ Maximum uncertainty. The model applies
 a 7% discount for scheme uncertainty.
 His ceiling is elite. His floor has questions.
 
-**Tier 2 — Rounds 7-9 if tier 1 is gone:**
+**Tier 2 ï¿½ Rounds 7-9 if tier 1 is gone:**
 
-Travis Kelce, KC — 9.86 projected PPG
-Dallas Goedert, PHI — 9.52 projected PPG
-Harold Fannin Jr., CLE — 9.53 projected PPG
-Tucker Kraft, GB — 9.96 projected PPG
+Travis Kelce, KC ï¿½ 9.86 projected PPG
+Dallas Goedert, PHI ï¿½ 9.52 projected PPG
+Harold Fannin Jr., CLE ï¿½ 9.53 projected PPG
+Tucker Kraft, GB ï¿½ 9.96 projected PPG
 
 These are legitimate TE1 options with 
 weekly upside. Missing tier 1 is not 
@@ -97,7 +97,7 @@ a disaster if you land one of these.
 Goedert note: Philadelphia plays London in 
 Week 6. One suppressed week baked in.
 
-**Tier 3 — Round 10+ or stream:**
+**Tier 3 ï¿½ Round 10+ or stream:**
 
 Everyone else. The model projects them 
 between 7-9 PPG with significant variance.
@@ -121,8 +121,8 @@ Do not be George.
 The data is clear: take an elite TE early 
 or be disciplined enough to wait until 
 the right tier 2 option is available. 
-The middle ground — reaching in rounds 
-5-6 for a tier 2.5 option — is where 
+The middle ground ï¿½ reaching in rounds 
+5-6 for a tier 2.5 option ï¿½ is where 
 drafts go wrong.
 
 ---
@@ -147,7 +147,7 @@ Full rankings at thegavfather.com/rankings.
 
 An offer your roster can't refuse.
 
-*— GH*
+*ï¿½ GH*
 
 ---
 

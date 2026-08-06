@@ -1,6 +1,6 @@
 ---
 title: "The Bust List: This Is Not Going to Work Out for You"
-date: "2026-08-04"
+date: "2026-08-02"
 week: 0
 theme: "Succession"
 category: "research"
@@ -21,7 +21,7 @@ Fantasy football drafts are the same.
 
 The Gavfather System's bust prediction model is 
 86% accurate. It finds players who outperformed 
-their underlying opportunity — who scored more 
+their underlying opportunity ï¿½ who scored more 
 points than their target share, carry volume, 
 and efficiency metrics should have produced.
 
@@ -35,7 +35,7 @@ Powerful on paper. About to be humiliated.
 
 ## The Pattern
 
-Before the names — here is what the bust model 
+Before the names ï¿½ here is what the bust model 
 actually looks for.
 
 Players most likely to regress share these traits:
@@ -62,7 +62,7 @@ The model bought the process.
 
 ## The Bust List
 
-**Patrick Mahomes, QB — Kansas City Chiefs**
+**Patrick Mahomes, QB ï¿½ Kansas City Chiefs**
 
 The market has Mahomes as a top-3 QB. 
 The Gavfather System has him QB9.
@@ -83,7 +83,7 @@ This is not going to work out for them.
 
 ---
 
-**Jalen Hurts, QB — Philadelphia Eagles**
+**Jalen Hurts, QB ï¿½ Philadelphia Eagles**
 
 Sean Mannion has never called a play at the NFL 
 level. He was a backup quarterback. He was a QB 
@@ -101,7 +101,7 @@ run one before. It might work. It usually doesn't.
 
 ---
 
-**Dak Prescott, QB — Dallas Cowboys**
+**Dak Prescott, QB ï¿½ Dallas Cowboys**
 
 The market has Dak as QB5. 
 The Gavfather has him QB20.
@@ -109,7 +109,7 @@ The Gavfather has him QB20.
 Fifteen spot positional disagreement.
 
 Injury history. Dallas situation score of 49.7 
-out of 100 — one of the lower scores among 
+out of 100 ï¿½ one of the lower scores among 
 starting QB situations. A receiving corps that 
 lost key pieces.
 
@@ -138,7 +138,7 @@ The market has not fully accepted this yet.
 
 Christian McCaffrey. George Kittle. Brock Purdy.
 
-All three play TWO international games in 2026 — 
+All three play TWO international games in 2026 ï¿½ 
 Melbourne in Week 1 and Mexico City in Week 11.
 
 London games average 40.5 points. 
@@ -162,7 +162,7 @@ Full rankings at thegavfather.com/rankings.
 
 An offer your roster can't refuse.
 
-*— GH*
+*ï¿½ GH*
 
 ---
 
