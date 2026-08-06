@@ -1,13 +1,18 @@
 import Link from 'next/link'
+import OfferFeature from '../components/OfferFeature'
 import ArticleCard from '../components/ArticleCard'
 import EmailCapture from '../components/EmailCapture'
 import HeroParticles from '../components/HeroParticles'
 import { getAllArticles } from '../lib/articles'
+import { getCurrentOffer, getOfferHistory, formatOfferTitle } from '../lib/offers'
 
-export const dynamic = 'force-static'
+/** Revalidate hourly so the Sunday rollover picks up without a redeploy. */
+export const revalidate = 3600
 
 export default function HomePage() {
   const articles = getAllArticles().slice(0, 3)
+  const offer = getCurrentOffer()
+  const history = getOfferHistory().slice(0, 3)
 
   return (
     <div>
@@ -40,36 +45,46 @@ export default function HomePage() {
 
       {/* SECTION 2 — One big call */}
       <section className="mx-auto max-w-3xl px-4 py-14 md:px-6 md:py-20">
-        <div className="rounded-xl border border-gavfather-border border-l-4 border-l-gavfather-gold bg-gavfather-slate px-6 py-10 text-center shadow-gold-sm md:px-12 md:py-14">
-          <p className="font-display text-sm font-semibold tracking-[0.2em] text-gavfather-gold md:text-base">
-            THE OFFER THIS WEEK
-          </p>
-          <p className="mt-2 text-sm text-gavfather-muted">
-            One call. The data is confident.
-          </p>
+        {offer ? (
+          <OfferFeature offer={offer} />
+        ) : (
+          <p className="text-center text-gavfather-muted">No offer published yet.</p>
+        )}
 
-          <h2 className="mt-8 font-display text-2xl font-semibold text-gavfather-text md:text-4xl">
-            Justin Herbert, QB — LAC
-          </h2>
-
-          <div className="mx-auto mt-6 max-w-xl space-y-4 text-left text-sm leading-relaxed text-slate-300 md:text-base">
-            <p>
-              The market has him QB6. We have him QB3.
-            </p>
-            <p>
-              Mike McDaniel left his head coaching job to be Herbert&apos;s offensive
-              coordinator. The model applies +9% for the scheme upgrade. The gap between
-              what the market thinks and what the data says is the largest at any position.
-            </p>
+        {history.length > 0 ? (
+          <div className="mt-10 border-t border-gavfather-border pt-8">
+            <div className="flex items-baseline justify-between gap-4">
+              <h3 className="font-display text-sm font-semibold tracking-[0.18em] text-gavfather-muted">
+                PREVIOUS OFFERS
+              </h3>
+              <Link
+                href="/offers"
+                className="text-sm font-medium text-gavfather-gold hover:text-gavfather-gold-light"
+              >
+                Full history →
+              </Link>
+            </div>
+            <ul className="mt-4 space-y-3">
+              {history.map((past) => (
+                <li key={past.week}>
+                  <Link
+                    href={`/offers#week-${past.week}`}
+                    className="flex flex-wrap items-baseline justify-between gap-2 text-sm text-slate-300 transition hover:text-gavfather-gold"
+                  >
+                    <span>
+                      <span className="text-gavfather-muted">Week {past.week}</span>
+                      <span className="mx-2 text-gavfather-border">·</span>
+                      {formatOfferTitle(past)}
+                    </span>
+                    {past.blurb ? (
+                      <span className="max-w-md truncate text-gavfather-muted">{past.blurb}</span>
+                    ) : null}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
-
-          <Link
-            href="/articles/2026-big-calls"
-            className="mt-9 inline-flex items-center justify-center rounded-md bg-gavfather-gold px-6 py-3 text-sm font-bold uppercase tracking-widest text-gavfather-navy transition hover:bg-gavfather-gold-light"
-          >
-            Read the Full Analysis →
-          </Link>
-        </div>
+        ) : null}
       </section>
 
       {/* SECTION 3 — Latest articles */}

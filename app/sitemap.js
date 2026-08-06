@@ -4,10 +4,11 @@ import { getAllWeeks } from '../lib/rankings'
 
 export default function sitemap() {
   const lastMod = new Date()
-  const staticRoutes = ['', '/rankings', '/articles', '/about'].map((route) => ({
+  const staticRoutes = ['', '/rankings', '/offers', '/articles', '/about'].map((route) => ({
     url: `${SITE_URL}${route}`,
     lastModified: lastMod,
-    changeFrequency: route === '' || route === '/rankings' ? 'weekly' : 'monthly',
+    changeFrequency:
+      route === '' || route === '/rankings' || route === '/offers' ? 'weekly' : 'monthly',
     priority: route === '' ? 1 : 0.8,
   }))
 

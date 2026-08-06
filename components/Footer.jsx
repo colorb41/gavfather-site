@@ -18,6 +18,9 @@ export default function Footer() {
           <Link href="/rankings" className="text-gavfather-muted transition hover:text-gavfather-gold">
             Rankings
           </Link>
+          <Link href="/offers" className="text-gavfather-muted transition hover:text-gavfather-gold">
+            Offers
+          </Link>
           <Link href="/articles" className="text-gavfather-muted transition hover:text-gavfather-gold">
             Articles
           </Link>
