@@ -52,21 +52,27 @@ function ReliabilityBadge({ value }) {
 
 function InjuryBadge({ injury }) {
   const raw = String(injury || '').trim()
-  if (!raw || /^healthy$/i.test(raw) || /^active$/i.test(raw)) {
+  if (
+    !raw ||
+    /^healthy$/i.test(raw) ||
+    /^active$/i.test(raw) ||
+    /^nan$/i.test(raw) ||
+    raw === '—'
+  ) {
     return <span className="text-gavfather-muted/40">—</span>
   }
   const lower = raw.toLowerCase()
-  if (lower.includes('questionable') || lower === 'q') {
+  if (lower.includes('questionable') || lower === 'q' || lower === 'mild' || lower === 'minor' || lower === 'monitor') {
     return (
       <span className="rounded bg-yellow-500/20 px-1.5 py-0.5 text-[10px] font-bold text-yellow-300">
-        Q
+        {lower === 'mild' || lower === 'minor' || lower === 'monitor' ? raw.toUpperCase() : 'Q'}
       </span>
     )
   }
-  if (lower.includes('doubtful') || lower === 'd') {
+  if (lower.includes('doubtful') || lower === 'd' || lower === 'moderate' || lower === 'recovering') {
     return (
       <span className="rounded bg-orange-500/20 px-1.5 py-0.5 text-[10px] font-bold text-orange-300">
-        D
+        {lower === 'moderate' || lower === 'recovering' ? raw.toUpperCase() : 'D'}
       </span>
     )
   }
@@ -74,11 +80,24 @@ function InjuryBadge({ injury }) {
     lower.includes('out') ||
     lower === 'ir' ||
     lower.includes('injured reserve') ||
-    lower.includes('pup')
+    lower.includes('pup') ||
+    lower === 'severe' ||
+    lower === 'season_ending' ||
+    lower === 'returning'
   ) {
+    const label =
+      lower === 'pup'
+        ? 'PUP'
+        : lower === 'severe'
+          ? 'SEVERE'
+          : lower === 'season_ending'
+            ? 'OUT'
+            : lower === 'returning'
+              ? 'RTN'
+              : 'OUT'
     return (
       <span className="rounded bg-red-500/20 px-1.5 py-0.5 text-[10px] font-bold text-red-300">
-        OUT
+        {label}
       </span>
     )
   }
