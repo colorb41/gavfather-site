@@ -1,19 +1,8 @@
 {
-  "updated_at": "2026-08-06T10:33:50",
+  "updated_at": "2026-08-06T13:50:57",
   "total_changes": 100,
   "high_priority_count": 6,
   "changes": [
-    {
-      "timestamp": "2026-07-29T17:09:34",
-      "player_id": "4574",
-      "name": "Cooper Rush",
-      "position": "QB",
-      "team": "ATL",
-      "overall_rank": 1174,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> ATL",
-      "priority": "MEDIUM"
-    },
     {
       "timestamp": "2026-07-29T17:09:34",
       "player_id": "3976",
@@ -1101,6 +1090,17 @@
       "overall_rank": null,
       "change_type": "TRADED_OR_SIGNED",
       "detail": "FA -> DET",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-06T13:50:53",
+      "player_id": "12514",
+      "name": "Emeka Egbuka",
+      "position": "WR",
+      "team": "TB",
+      "overall_rank": 29,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
       "priority": "MEDIUM"
     }
   ]
