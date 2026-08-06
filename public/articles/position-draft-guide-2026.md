@@ -2,8 +2,8 @@
 title: "Every Position Is a Station: Your 2026 Draft Guide"
 date: "2026-08-04"
 week: 0
-theme: "The Bear"
-category: "research"
+theme: "Position Strategy"
+category: "draft"
 excerpt: "In The Bear every station in the kitchen has a role and a timing. Draft too early and you ruin the meal. Draft too late and you're scrambling. The Gavfather System tells you when to pull the trigger at every position."
 ---
 

@@ -2,8 +2,8 @@
 title: "Why I Built an AI System. (It's Not What You Think.)"
 date: "2026-07-29"
 week: 0
-theme: "Origin Story"
-category: "research"
+theme: "Behind the System"
+category: "about"
 excerpt: "I won my first fantasy championship in high school knowing nothing about football. My first question was why the players' pants didn't fall down when they got tackled. I still won. Fast forward to now — I work in tech, and I figured I could apply AI to the data nobody else looks at."
 ---
 

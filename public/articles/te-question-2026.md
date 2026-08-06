@@ -2,8 +2,8 @@
 title: "Should I Stay or Should I Go: The TE Question"
 date: "2026-08-05"
 week: 0
-theme: "Seinfeld"
-category: "research"
+theme: "Tight Ends"
+category: "tight-ends"
 excerpt: "George Costanza spent nine seasons overthinking every decision until it was too late. Every fantasy drafter does the same thing with tight end. The data finally has an answer."
 ---
 

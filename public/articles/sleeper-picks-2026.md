@@ -2,8 +2,8 @@
 title: "The Moneyball Picks: Players the Market Is Getting Wrong"
 date: "2026-08-03"
 week: 0
-theme: "Moneyball"
-category: "research"
+theme: "Sleepers"
+category: "sleepers"
 excerpt: "Billy Beane didn't find better players. He found players the market mispriced. The Gavfather System does the same thing with 22 years of NFL data. Here are this year's undervalued assets."
 ---
 

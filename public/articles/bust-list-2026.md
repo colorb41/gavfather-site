@@ -2,8 +2,8 @@
 title: "The Bust List: This Is Not Going to Work Out for You"
 date: "2026-08-02"
 week: 0
-theme: "Succession"
-category: "research"
+theme: "Busts"
+category: "busts"
 excerpt: "Succession taught us that the most confident person in the room is usually the one about to get humiliated. The data agrees. Here are the players everyone loves that the model wants nothing to do with."
 ---
 

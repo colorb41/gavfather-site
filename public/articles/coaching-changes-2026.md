@@ -1,9 +1,9 @@
-﻿---
+---
 title: "21 Teams Changed Offensive Coordinators. Your Rankings Don't Know."
 date: "2026-07-31"
 week: 0
-theme: "Preseason 2026"
-category: "research"
+theme: "Coaching Changes"
+category: "coaching"
 excerpt: "The most coordinator turnover in NFL history happened this offseason. Virtually every public rankings site is still using 2025 scheme data that no longer applies. We are not."
 ---
 

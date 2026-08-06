@@ -2,7 +2,7 @@
 title: "Believe: The One Metric That Predicts Everything"
 date: "2026-08-06"
 week: 0
-theme: "Ted Lasso"
+theme: "Boom Consistency"
 category: "research"
 excerpt: "Ted Lasso threw darts he had never thrown before and hit the bullseye. Not because of talent. Because of process. The Gavfather System found the one process metric that predicts fantasy performance better than anything else in 22 years of data."
 ---

@@ -5,6 +5,10 @@ const GRADIENTS = {
   busts: 'from-gavfather-fade/40 via-gavfather-slate to-gavfather-navy',
   sleepers: 'from-gavfather-smash/35 via-gavfather-slate to-gavfather-navy',
   research: 'from-blue-500/35 via-gavfather-slate to-gavfather-navy',
+  coaching: 'from-amber-500/30 via-gavfather-slate to-gavfather-navy',
+  draft: 'from-emerald-500/30 via-gavfather-slate to-gavfather-navy',
+  'tight-ends': 'from-cyan-500/30 via-gavfather-slate to-gavfather-navy',
+  about: 'from-gavfather-border via-gavfather-slate to-gavfather-navy',
   'deep dive': 'from-purple-500/30 via-gavfather-slate to-gavfather-navy',
   default: 'from-gavfather-border via-gavfather-slate to-gavfather-navy',
 }
@@ -46,7 +50,6 @@ export default function ArticleCard({ article }) {
           <span>
             {formatDate(article.date)}
             {article.readTime ? ` · ${article.readTime}` : ''}
-            {article.category ? ` · ${article.category}` : ''}
           </span>
         </div>
         <span className="mt-3 text-sm font-medium text-gavfather-gold transition group-hover:text-gavfather-gold-light">

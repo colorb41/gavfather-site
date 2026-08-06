@@ -1,9 +1,9 @@
-﻿---
+---
 title: "The 10 People at Every Fantasy Draft (And What the Data Says About Them)"
 date: "2026-07-30"
 week: 0
-theme: "Draft Day"
-category: "research"
+theme: "Draft Strategy"
+category: "draft"
 excerpt: "You know these people. You've drafted with these people. You might BE one of these people. The data has opinions about all of them."
 ---
 

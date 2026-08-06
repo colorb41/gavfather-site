@@ -2,7 +2,7 @@
 title: "With Great Data Comes Great Fantasy Football Rankings"
 date: "2026-07-29"
 week: 0
-theme: "Spider-Man"
+theme: "Big Calls"
 category: "rankings"
 excerpt: "The Gavfather System swung through 22 years of NFL data and came back with 5 calls that will get me laughed at. Until they hit."
 ---
