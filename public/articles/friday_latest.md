@@ -4,7 +4,7 @@ date: "2026-08-07"
 week: 0
 theme: "Camp Report"
 category: "research"
-excerpt: "The Gavfather System processed 101 data points from camp this week. Here is everything that changed and what it means for your draft."
+excerpt: "The Gavfather System processed 116 data points from camp this week. Here is everything that changed and what it means for your draft."
 ---
 
 # Camp Report: Week 6
@@ -15,7 +15,7 @@ excerpt: "The Gavfather System processed 101 data points from camp this week. He
 ---
 
 The Gavfather System processed data from all 32 NFL training camps this week.
-101 changes detected. 10 flagged as high priority.
+116 changes detected. 10 flagged as high priority.
 Here is everything that matters for your Labor Day draft.
 
 ---
@@ -91,11 +91,11 @@ INJURY_WORSENED: Healthy -> Questionable (Shoulder)
 
 Players the model ranks significantly higher than market ADP:
 
-**Tyrone Tracy Jr. (RB, NYG)** — We have RB29, market has RB50
-**Brian Thomas Jr. (WR, JAX)** — We have WR16, market has WR37
-**Deebo Samuel Sr. (WR, WAS)** — We have WR27, market has WR46
-**Romeo Doubs (WR, GB)** — We have WR33, market has WR51
+**Brian Thomas Jr. (WR, JAX)** — We have WR16, market has WR38
+**Tyrone Tracy Jr. (RB, NYG)** — We have RB29, market has RB48
 **Jauan Jennings (WR, SF)** — We have WR46, market has WR64
+**Romeo Doubs (WR, GB)** — We have WR33, market has WR51
+**Deebo Samuel Sr. (WR, WAS)** — We have WR27, market has WR42
 
 ---
 
@@ -108,4 +108,4 @@ An offer your roster can't refuse.
 
 ---
 
-*Rankings updated automatically. Camp data refreshed twice daily. Last update: August 07, 2026 01:31 AM*
+*Rankings updated automatically. Camp data refreshed twice daily. Last update: August 07, 2026 02:16 PM*

@@ -1,30 +1,187 @@
 {
-  "updated": "2026-08-07T01:31:29",
+  "updated": "2026-08-07T14:16:49",
   "source": "CampResearcher.v2",
   "override_count": 11,
-  "player_count": 74,
-  "news_items_processed": 1391,
+  "player_count": 75,
+  "news_items_processed": 1394,
   "players": {
-    "Jaylen Waddle": {
-      "status": "MONITOR",
-      "injury": "Muscle tightness (left practice Aug 5)",
-      "week1_outlook": "EXPECTED OK - reported not serious",
-      "ppg_multiplier": 0.95,
-      "ranking_note": "Monitor. Tightness only but has injury history. DEN passing game still elite with McDaniel.",
-      "impact": "MILD",
-      "source": "FantasyAlarm Aug 5 live tracker",
+    "Alvin Kamara": {
+      "status": "NEUTRAL",
+      "injury": "Alvin Kamara taking passing down reps in team drills Alvin Kamara taking passing down reps in team drills Fri, Aug 7th 9",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Alvin Kamara taking passing down reps in team drills Fri, Aug 7th 9:10am EDT By Garrett Ball",
+      "impact": "NEUTRAL",
+      "source": "FantasyPros",
       "headlines": [
-        "Monitor. Tightness only but has injury history. DEN passing game still elite with McDaniel."
+        "Alvin Kamara taking passing down reps in team drills"
       ],
-      "old_rank": 155,
-      "new_rank": 166,
-      "old_ppg": 10.33,
-      "new_ppg": 9.81,
+      "old_rank": 223,
+      "new_rank": 222,
+      "old_ppg": 7.9,
+      "new_ppg": 7.9,
+      "position": "RB",
+      "team": "NO",
+      "updated": "2026-08-07",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Alec Pierce": {
+      "status": "MODERATE",
+      "injury": "PUP list some time in the next week or so",
+      "week1_outlook": "UNCERTAIN",
+      "ppg_multiplier": 0.82,
+      "ranking_note": "Alec Pierce , WR, Colts (ankle) : The expectation is for Pierce to come off the PUP list some time in the next week or so.",
+      "impact": "MODERATE",
+      "source": "Yahoo Sports",
+      "headlines": [
+        "Alec Pierce (ankle) without timetable to return",
+        "Alec Pierce , WR, Colts (ankle) : The expectation is for Pierce to come off the PUP list some time in the next week or so.",
+        "Alec Pierce - PUP"
+      ],
+      "old_rank": 224,
+      "new_rank": 352,
+      "old_ppg": 7.87,
+      "new_ppg": 6.45,
       "position": "WR",
-      "team": "MIA",
-      "updated": "2026-08-05",
-      "auto_generated": false,
-      "from_override": true
+      "team": "IND",
+      "updated": "2026-08-07",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Trevor Lawrence": {
+      "status": "NEUTRAL",
+      "injury": "WR Kansas City Chiefs WR Kansas City Chiefs WR Kansas City Chiefs",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "WR Kansas City Chiefs",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "WR Kansas City Chiefs",
+        "WR New England Patriots",
+        "WR Houston Texans Finger",
+        "WR Arizona Cardinals",
+        "WR Carolina Panthers"
+      ],
+      "old_rank": 10,
+      "new_rank": 10,
+      "old_ppg": 19.82,
+      "new_ppg": 19.82,
+      "position": "QB",
+      "team": "JAX",
+      "updated": "2026-08-07",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Romeo Doubs": {
+      "status": "MILD",
+      "injury": "Romeo Doubs - Questionable Romeo Doubs listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Romeo Doubs listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "Romeo Doubs",
+        "Romeo Doubs - Questionable"
+      ],
+      "old_rank": 160,
+      "new_rank": 177,
+      "old_ppg": 10.0,
+      "new_ppg": 9.3,
+      "position": "WR",
+      "team": "GB",
+      "updated": "2026-08-07",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Justin Herbert": {
+      "status": "NEUTRAL",
+      "injury": "RB Carolina Panthers RB Carolina Panthers RB Carolina Panthers",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "RB Carolina Panthers",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "RB Carolina Panthers",
+        "RB Arizona Cardinals",
+        "RB Green Bay Packers",
+        "RB Detroit Lions Back"
+      ],
+      "old_rank": 12,
+      "new_rank": 12,
+      "old_ppg": 19.5,
+      "new_ppg": 19.5,
+      "position": "QB",
+      "team": "LAC",
+      "updated": "2026-08-07",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Bam Knight": {
+      "status": "NEUTRAL",
+      "injury": "Bam Knight Bam Knight Impressive to open preseason RB Arizona Cardinals August 6, 2026 Knight rushed 12 times for 60 yar",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Bam Knight Impressive to open preseason RB Arizona Cardinals August 6, 2026 Knight rushed 12 times for 60 yards in the Cardinals' 33-30 preseason loss to the Panthers on Thursday. He also fumbled once but recovered. ANALYSIS Subscribe now t",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Bam Knight"
+      ],
+      "old_rank": 233,
+      "new_rank": 230,
+      "old_ppg": 7.72,
+      "new_ppg": 7.72,
+      "position": "RB",
+      "team": "ARI",
+      "updated": "2026-08-07",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Cam Skattebo": {
+      "status": "NEUTRAL",
+      "injury": "TE Carolina Panthers TE Carolina Panthers TE Carolina Panthers",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "TE Carolina Panthers",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "TE Carolina Panthers"
+      ],
+      "old_rank": 49,
+      "new_rank": 48,
+      "old_ppg": 14.46,
+      "new_ppg": 14.46,
+      "position": "RB",
+      "team": "NYG",
+      "updated": "2026-08-07",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Travis Etienne": {
+      "status": "NEUTRAL",
+      "injury": "Trevor Etienne Trevor Etienne Draws start in preseason opener RB Carolina Panthers August 6, 2026 Etienne started the Pa",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Trevor Etienne Draws start in preseason opener RB Carolina Panthers August 6, 2026 Etienne started the Panthers' 33-30 preseason win over the Cardinals on Thursday, rushing four times for 12 yards and bringing in his only target for minus-1",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Trevor Etienne"
+      ],
+      "old_rank": 144,
+      "new_rank": 141,
+      "old_ppg": 10.83,
+      "new_ppg": 10.83,
+      "position": "RB",
+      "team": "JAX",
+      "updated": "2026-08-07",
+      "auto_generated": true,
+      "from_override": false
     },
     "Malik Nabers": {
       "status": "RETURNING",
@@ -47,47 +204,23 @@
       "auto_generated": false,
       "from_override": true
     },
-    "Courtland Sutton": {
+    "L.Bellamy": {
       "status": "NEUTRAL",
-      "injury": "Courtland Sutton being limited early in training camp Courtland Sutton being limited early in training camp Thu, Aug 6th",
+      "injury": "ACL LB Atlanta Falcons Knee - ACL LB Atlant",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "Courtland Sutton being limited early in training camp Thu, Aug 6th 6:54pm EDT By Ari Koslow",
+      "ranking_note": "LB Atlanta Falcons Knee - ACL",
       "impact": "NEUTRAL",
-      "source": "FantasyPros",
+      "source": "RotoWire",
       "headlines": [
-        "Courtland Sutton being limited early in training camp",
-        "Courtland Sutton",
-        "Corey Sutton - Injured Reserve"
+        "LB Atlanta Falcons Knee - ACL"
       ],
-      "old_rank": 80,
-      "new_rank": 78,
-      "old_ppg": 12.21,
-      "new_ppg": 12.21,
-      "position": "WR",
+      "old_rank": 277,
+      "new_rank": 260,
+      "old_ppg": 7.36,
+      "new_ppg": 7.36,
+      "position": "RB",
       "team": "DEN",
-      "updated": "2026-08-07",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Romeo Doubs": {
-      "status": "NEUTRAL",
-      "injury": "undisclosed) does not practice Thursday Romeo Doubs",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Romeo Doubs (undisclosed) does not practice Thursday Thu, Aug 6th 6:50pm EDT By Ari Koslow",
-      "impact": "NEUTRAL",
-      "source": "FantasyPros",
-      "headlines": [
-        "Romeo Doubs (undisclosed) does not practice Thursday",
-        "Romeo Doubs"
-      ],
-      "old_rank": 160,
-      "new_rank": 157,
-      "old_ppg": 10.0,
-      "new_ppg": 10.0,
-      "position": "WR",
-      "team": "GB",
       "updated": "2026-08-07",
       "auto_generated": true,
       "from_override": false
@@ -101,7 +234,6 @@
       "impact": "MILD",
       "source": "Sleeper",
       "headlines": [
-        "Jahmyr Gibbs agrees to 3-year, $67.5 million deal with Lions",
         "Jahmyr Gibbs",
         "Jahmyr Gibbs - Questionable"
       ],
@@ -111,142 +243,6 @@
       "new_ppg": 17.3,
       "position": "RB",
       "team": "DET",
-      "updated": "2026-08-07",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Joe Burrow": {
-      "status": "NEUTRAL",
-      "injury": "Joe Burrow, Bengals starters to play in preseason opener Joe Burrow, Bengals starters to play in preseason opener Thu, A",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Joe Burrow, Bengals starters to play in preseason opener Thu, Aug 6th 3:01pm EDT By Ari Koslow",
-      "impact": "NEUTRAL",
-      "source": "FantasyPros",
-      "headlines": [
-        "Joe Burrow, Bengals starters to play in preseason opener"
-      ],
-      "old_rank": 7,
-      "new_rank": 7,
-      "old_ppg": 20.08,
-      "new_ppg": 20.08,
-      "position": "QB",
-      "team": "CIN",
-      "updated": "2026-08-07",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Josh Jacobs": {
-      "status": "NEUTRAL",
-      "injury": "Josh Jacobs (groin) misses practice Thursday, not a long-term concern Josh Jacobs (groin) misses practice Thursday, not ",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Josh Jacobs (groin) misses practice Thursday, not a long-term concern Thu, Aug 6th 2:46pm EDT By Ari Koslow",
-      "impact": "NEUTRAL",
-      "source": "FantasyPros",
-      "headlines": [
-        "Josh Jacobs (groin) misses practice Thursday, not a long-term concern",
-        "Josh Jacobs"
-      ],
-      "old_rank": 39,
-      "new_rank": 39,
-      "old_ppg": 15.03,
-      "new_ppg": 15.03,
-      "position": "RB",
-      "team": "GB",
-      "updated": "2026-08-07",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Jonathan Taylor": {
-      "status": "NEUTRAL",
-      "injury": "Jonathan Taylor agrees to two-year, $44 million extension with Colts Jonathan Taylor agrees to two-year, $44 million ext",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Jonathan Taylor agrees to two-year, $44 million extension with Colts Thu, Aug 6th 7:59am EDT By Garrett Ball",
-      "impact": "NEUTRAL",
-      "source": "FantasyPros",
-      "headlines": [
-        "Jonathan Taylor agrees to two-year, $44 million extension with Colts",
-        "Jordan Taylor - Inactive"
-      ],
-      "old_rank": 5,
-      "new_rank": 5,
-      "old_ppg": 20.17,
-      "new_ppg": 20.17,
-      "position": "RB",
-      "team": "IND",
-      "updated": "2026-08-07",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Justin Herbert": {
-      "status": "NEUTRAL",
-      "injury": "RB Green Bay Packers RB Green Bay Packers RB Green Bay Packers",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "RB Green Bay Packers",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "RB Green Bay Packers",
-        "RB Detroit Lions Back",
-        "RB Jacksonville Jaguars",
-        "RB Green Bay Packers Groin",
-        "RB New York Jets Knee"
-      ],
-      "old_rank": 12,
-      "new_rank": 12,
-      "old_ppg": 19.5,
-      "new_ppg": 19.5,
-      "position": "QB",
-      "team": "LAC",
-      "updated": "2026-08-07",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Trevor Lawrence": {
-      "status": "NEUTRAL",
-      "injury": "Knee WR Tampa Bay Buccaneers Knee WR Tampa B",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "WR Tampa Bay Buccaneers Knee",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "WR Tampa Bay Buccaneers Knee",
-        "WR New York Giants Knee - ACL",
-        "WR San Francisco 49ers Hamstring",
-        "WR Denver Broncos Undisclosed",
-        "WR New Orleans Saints"
-      ],
-      "old_rank": 10,
-      "new_rank": 10,
-      "old_ppg": 19.82,
-      "new_ppg": 19.82,
-      "position": "QB",
-      "team": "JAX",
-      "updated": "2026-08-07",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "L.Bellamy": {
-      "status": "NEUTRAL",
-      "injury": "ACL LB Atlanta Falcons Knee - ACL LB Atlant",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "LB Atlanta Falcons Knee - ACL",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "LB Atlanta Falcons Knee - ACL"
-      ],
-      "old_rank": 272,
-      "new_rank": 260,
-      "old_ppg": 7.36,
-      "new_ppg": 7.36,
-      "position": "RB",
-      "team": "DEN",
       "updated": "2026-08-07",
       "auto_generated": true,
       "from_override": false
@@ -263,11 +259,54 @@
         "George Pickens"
       ],
       "old_rank": 53,
-      "new_rank": 53,
+      "new_rank": 52,
       "old_ppg": 14.0,
       "new_ppg": 14.0,
       "position": "WR",
       "team": "DAL",
+      "updated": "2026-08-07",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Jaylen Waddle": {
+      "status": "MONITOR",
+      "injury": "Muscle tightness (left practice Aug 5)",
+      "week1_outlook": "EXPECTED OK - reported not serious",
+      "ppg_multiplier": 0.95,
+      "ranking_note": "Monitor. Tightness only but has injury history. DEN passing game still elite with McDaniel.",
+      "impact": "MILD",
+      "source": "FantasyAlarm Aug 5 live tracker",
+      "headlines": [
+        "Monitor. Tightness only but has injury history. DEN passing game still elite with McDaniel."
+      ],
+      "old_rank": 155,
+      "new_rank": 165,
+      "old_ppg": 10.33,
+      "new_ppg": 9.81,
+      "position": "WR",
+      "team": "MIA",
+      "updated": "2026-08-05",
+      "auto_generated": false,
+      "from_override": true
+    },
+    "Courtland Sutton": {
+      "status": "NEUTRAL",
+      "injury": "Courtland Sutton Courtland Sutton Healthy per head coach WR Denver Broncos August 6, 2026 Head coach Sean Payton clarifi",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Courtland Sutton Healthy per head coach WR Denver Broncos August 6, 2026 Head coach Sean Payton clarified after Thursday's practice that Sutton isn't injured, Luca Evans of The Denver Post reports. ANALYSIS Subscribe now to instantly reveal",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Courtland Sutton",
+        "Corey Sutton - Injured Reserve"
+      ],
+      "old_rank": 80,
+      "new_rank": 78,
+      "old_ppg": 12.21,
+      "new_ppg": 12.21,
+      "position": "WR",
+      "team": "DEN",
       "updated": "2026-08-07",
       "auto_generated": true,
       "from_override": false
@@ -283,101 +322,12 @@
       "headlines": [
         "Chris Olave"
       ],
-      "old_rank": 60,
+      "old_rank": 58,
       "new_rank": 60,
       "old_ppg": 13.5,
       "new_ppg": 13.5,
       "position": "WR",
       "team": "NO",
-      "updated": "2026-08-07",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Michael Carter": {
-      "status": "MILD",
-      "injury": "Michael Mayer - Questionable Michael Mayer listed as Questionable",
-      "week1_outlook": "EXPECTED OK",
-      "ppg_multiplier": 0.93,
-      "ranking_note": "Michael Mayer listed as Questionable. ",
-      "impact": "MILD",
-      "source": "Sleeper",
-      "headlines": [
-        "Michael Mayer",
-        "Michael Clark - Inactive",
-        "Michael Mayer - Questionable"
-      ],
-      "old_rank": 316,
-      "new_rank": 340,
-      "old_ppg": 7.16,
-      "new_ppg": 6.66,
-      "position": "RB",
-      "team": "ARI",
-      "updated": "2026-08-07",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Cam Skattebo": {
-      "status": "NEUTRAL",
-      "injury": "TE Las Vegas Raiders TE Las Vegas Raiders TE Las Vegas Raiders",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "TE Las Vegas Raiders",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "TE Las Vegas Raiders",
-        "TE New York Jets Abdomen",
-        "TE Miami Dolphins Undisclosed"
-      ],
-      "old_rank": 49,
-      "new_rank": 49,
-      "old_ppg": 14.46,
-      "new_ppg": 14.46,
-      "position": "RB",
-      "team": "NYG",
-      "updated": "2026-08-07",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Chris Rodriguez Jr.": {
-      "status": "NEUTRAL",
-      "injury": "Chris Rodriguez Chris Rodriguez Active practice Thursday RB Jacksonville Jaguars August 6, 2026 Rodriguez had his most a",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Chris Rodriguez Active practice Thursday RB Jacksonville Jaguars August 6, 2026 Rodriguez had his most active practice of training camp thus far Thursday, according to John Shipley of SI.com. ANALYSIS Subscribe now to instantly reveal our t",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Chris Rodriguez"
-      ],
-      "old_rank": 476,
-      "new_rank": 475,
-      "old_ppg": 6.29,
-      "new_ppg": 6.29,
-      "position": "RB",
-      "team": "WAS",
-      "updated": "2026-08-07",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Alec Pierce": {
-      "status": "MODERATE",
-      "injury": "PUP list some time in the next week or so",
-      "week1_outlook": "UNCERTAIN",
-      "ppg_multiplier": 0.82,
-      "ranking_note": "Alec Pierce , WR, Colts (ankle) : The expectation is for Pierce to come off the PUP list some time in the next week or so.",
-      "impact": "MODERATE",
-      "source": "Yahoo Sports",
-      "headlines": [
-        "Alec Pierce , WR, Colts (ankle) : The expectation is for Pierce to come off the PUP list some time in the next week or so.",
-        "Alec Pierce - PUP"
-      ],
-      "old_rank": 224,
-      "new_rank": 352,
-      "old_ppg": 7.87,
-      "new_ppg": 6.45,
-      "position": "WR",
-      "team": "IND",
       "updated": "2026-08-07",
       "auto_generated": true,
       "from_override": false
@@ -394,7 +344,7 @@
         "Rising sleeper TE. Ahead of schedule. GB passing game benefits."
       ],
       "old_rank": 180,
-      "new_rank": 172,
+      "new_rank": 171,
       "old_ppg": 9.2,
       "new_ppg": 9.66,
       "position": "TE",
@@ -435,8 +385,8 @@
       "headlines": [
         "D.J. Foster - Inactive"
       ],
-      "old_rank": 276,
-      "new_rank": 287,
+      "old_rank": 309,
+      "new_rank": 276,
       "old_ppg": 7.36,
       "new_ppg": 7.36,
       "position": "RB",
@@ -456,8 +406,8 @@
       "headlines": [
         "Theo Riddick - Injured Reserve"
       ],
-      "old_rank": 274,
-      "new_rank": 289,
+      "old_rank": 261,
+      "new_rank": 301,
       "old_ppg": 7.36,
       "new_ppg": 7.36,
       "position": "RB",
@@ -499,7 +449,7 @@
         "Corey Brown - Injured Reserve"
       ],
       "old_rank": 59,
-      "new_rank": 61,
+      "new_rank": 59,
       "old_ppg": 13.5,
       "new_ppg": 13.5,
       "position": "RB",
@@ -522,7 +472,7 @@
         "Troy Williams - Inactive"
       ],
       "old_rank": 967,
-      "new_rank": 967,
+      "new_rank": 966,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
@@ -545,7 +495,7 @@
         "Jordan Thompson - Inactive"
       ],
       "old_rank": 328,
-      "new_rank": 322,
+      "new_rank": 323,
       "old_ppg": 6.85,
       "new_ppg": 6.85,
       "position": "RB",
@@ -566,7 +516,7 @@
         "Christian Wade - Inactive"
       ],
       "old_rank": 167,
-      "new_rank": 163,
+      "new_rank": 162,
       "old_ppg": 9.87,
       "new_ppg": 9.87,
       "position": "WR",
@@ -607,7 +557,7 @@
       "headlines": [
         "Ryan Williams - Inactive"
       ],
-      "old_rank": 1171,
+      "old_rank": 1172,
       "new_rank": 1172,
       "old_ppg": 7.36,
       "new_ppg": 7.36,
@@ -653,8 +603,8 @@
         "Mack Brown - Inactive",
         "Marlon Brown - Injured Reserve"
       ],
-      "old_rank": 239,
-      "new_rank": 236,
+      "old_rank": 238,
+      "new_rank": 237,
       "old_ppg": 7.55,
       "new_ppg": 7.55,
       "position": "WR",
@@ -695,8 +645,8 @@
       "headlines": [
         "Kevin Monangai - Inactive"
       ],
-      "old_rank": 339,
-      "new_rank": 334,
+      "old_rank": 338,
+      "new_rank": 335,
       "old_ppg": 6.76,
       "new_ppg": 6.76,
       "position": "RB",
@@ -760,8 +710,8 @@
       "headlines": [
         "Keavon Milton - Inactive"
       ],
-      "old_rank": 278,
-      "new_rank": 285,
+      "old_rank": 280,
+      "new_rank": 259,
       "old_ppg": 7.36,
       "new_ppg": 7.36,
       "position": "RB",
@@ -781,8 +731,8 @@
       "headlines": [
         "Carson Williams - Inactive"
       ],
-      "old_rank": 21,
-      "new_rank": 19,
+      "old_rank": 20,
+      "new_rank": 18,
       "old_ppg": 18.0,
       "new_ppg": 18.0,
       "position": "QB",
@@ -911,7 +861,7 @@
         "Mike Evans - Questionable"
       ],
       "old_rank": 147,
-      "new_rank": 158,
+      "new_rank": 157,
       "old_ppg": 10.72,
       "new_ppg": 9.97,
       "position": "WR",
@@ -954,7 +904,7 @@
         "Lavon Coleman - Inactive"
       ],
       "old_rank": 322,
-      "new_rank": 316,
+      "new_rank": 317,
       "old_ppg": 7.02,
       "new_ppg": 7.02,
       "position": "WR",
@@ -974,8 +924,8 @@
       "headlines": [
         "Robbie Ouzts - Questionable"
       ],
-      "old_rank": 281,
-      "new_rank": 323,
+      "old_rank": 284,
+      "new_rank": 325,
       "old_ppg": 7.36,
       "new_ppg": 6.84,
       "position": "RB",
@@ -1020,8 +970,8 @@
         "Andre Johnson - Inactive",
         "Damaris Johnson - Inactive"
       ],
-      "old_rank": 283,
-      "new_rank": 281,
+      "old_rank": 276,
+      "new_rank": 262,
       "old_ppg": 7.36,
       "new_ppg": 7.36,
       "position": "RB",
@@ -1066,8 +1016,8 @@
         "Mike Williams - Inactive",
         "Kasen Williams - Inactive"
       ],
-      "old_rank": 27,
-      "new_rank": 25,
+      "old_rank": 28,
+      "new_rank": 27,
       "old_ppg": 17.0,
       "new_ppg": 17.0,
       "position": "RB",
@@ -1108,8 +1058,8 @@
       "headlines": [
         "Tre McBride - Inactive"
       ],
-      "old_rank": 67,
-      "new_rank": 67,
+      "old_rank": 68,
+      "new_rank": 66,
       "old_ppg": 13.0,
       "new_ppg": 13.0,
       "position": "TE",
@@ -1129,7 +1079,7 @@
       "headlines": [
         "Carlton Mitchell - Inactive"
       ],
-      "old_rank": 473,
+      "old_rank": 474,
       "new_rank": 471,
       "old_ppg": 6.3,
       "new_ppg": 6.3,
@@ -1151,8 +1101,8 @@
         "M Harris - Inactive",
         "RJ Harris - Inactive"
       ],
-      "old_rank": 449,
-      "new_rank": 433,
+      "old_rank": 463,
+      "new_rank": 367,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
@@ -1269,6 +1219,27 @@
       "auto_generated": true,
       "from_override": false
     },
+    "Michael Carter": {
+      "status": "NEUTRAL",
+      "injury": "Michael Clark - Inactive Michael Clark listed as Inactive",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Michael Clark listed as Inactive. ",
+      "impact": "NEUTRAL",
+      "source": "Sleeper",
+      "headlines": [
+        "Michael Clark - Inactive"
+      ],
+      "old_rank": 316,
+      "new_rank": 312,
+      "old_ppg": 7.16,
+      "new_ppg": 7.16,
+      "position": "RB",
+      "team": "ARI",
+      "updated": "2026-08-07",
+      "auto_generated": true,
+      "from_override": false
+    },
     "Tyler Higbee": {
       "status": "NEUTRAL",
       "injury": "Tyler Thigpen - Inactive Tyler Thigpen listed as Inactive",
@@ -1303,8 +1274,8 @@
         "Jerrod Johnson - Inactive",
         "Johnny Johnson - Inactive"
       ],
-      "old_rank": 231,
-      "new_rank": 228,
+      "old_rank": 230,
+      "new_rank": 227,
       "old_ppg": 6.56,
       "new_ppg": 6.56,
       "position": "TE",
@@ -1346,8 +1317,8 @@
       "headlines": [
         "Akeem Hunt - Inactive"
       ],
-      "old_rank": 230,
-      "new_rank": 227,
+      "old_rank": 231,
+      "new_rank": 228,
       "old_ppg": 7.77,
       "new_ppg": 7.77,
       "position": "RB",
@@ -1388,7 +1359,7 @@
       "headlines": [
         "Sione Vaki - Questionable"
       ],
-      "old_rank": 290,
+      "old_rank": 282,
       "new_rank": 324,
       "old_ppg": 7.36,
       "new_ppg": 6.84,
@@ -1410,8 +1381,8 @@
         "Jalin Marshall - Inactive",
         "Jalin Moore - Inactive"
       ],
-      "old_rank": 433,
-      "new_rank": 449,
+      "old_rank": 462,
+      "new_rank": 365,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
@@ -1431,8 +1402,8 @@
       "headlines": [
         "T.J. Yeldon - Inactive"
       ],
-      "old_rank": 265,
-      "new_rank": 267,
+      "old_rank": 258,
+      "new_rank": 297,
       "old_ppg": 7.36,
       "new_ppg": 7.36,
       "position": "RB",
@@ -1453,7 +1424,7 @@
         "Najee Harris - Questionable"
       ],
       "old_rank": 157,
-      "new_rank": 176,
+      "new_rank": 175,
       "old_ppg": 10.18,
       "new_ppg": 9.47,
       "position": "RB",
@@ -1483,6 +1454,27 @@
       "auto_generated": true,
       "from_override": false
     },
+    "Josh Jacobs": {
+      "status": "MILD",
+      "injury": "Josh Jacobs - Questionable Josh Jacobs listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Josh Jacobs listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "Josh Jacobs - Questionable"
+      ],
+      "old_rank": 39,
+      "new_rank": 53,
+      "old_ppg": 15.03,
+      "new_ppg": 13.98,
+      "position": "RB",
+      "team": "GB",
+      "updated": "2026-08-07",
+      "auto_generated": true,
+      "from_override": false
+    },
     "Zach Charbonnet": {
       "status": "MODERATE",
       "injury": "PUP Zach Charbonnet listed as PUP",
@@ -1504,6 +1496,27 @@
       "auto_generated": true,
       "from_override": false
     },
+    "Jonathan Taylor": {
+      "status": "NEUTRAL",
+      "injury": "Jordan Taylor - Inactive Jordan Taylor listed as Inactive",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Jordan Taylor listed as Inactive. ",
+      "impact": "NEUTRAL",
+      "source": "Sleeper",
+      "headlines": [
+        "Jordan Taylor - Inactive"
+      ],
+      "old_rank": 5,
+      "new_rank": 5,
+      "old_ppg": 20.17,
+      "new_ppg": 20.17,
+      "position": "RB",
+      "team": "IND",
+      "updated": "2026-08-07",
+      "auto_generated": true,
+      "from_override": false
+    },
     "Jordan Addison": {
       "status": "MINOR",
       "injury": "Jammed thumb - missing few days",
@@ -1516,7 +1529,7 @@
         "Minor thumb issue. Not serious. Monitor."
       ],
       "old_rank": 159,
-      "new_rank": 170,
+      "new_rank": 169,
       "old_ppg": 10.01,
       "new_ppg": 9.71,
       "position": "WR",
