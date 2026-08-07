@@ -1,19 +1,8 @@
 {
-  "updated_at": "2026-08-07T16:47:16",
+  "updated_at": "2026-08-07T20:35:13",
   "total_changes": 100,
   "high_priority_count": 7,
   "changes": [
-    {
-      "timestamp": "2026-08-01T21:58:21",
-      "player_id": "6074",
-      "name": "Donald Parham",
-      "position": "TE",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
     {
       "timestamp": "2026-08-01T21:58:21",
       "player_id": "11621",
@@ -1101,6 +1090,17 @@
       "overall_rank": 641,
       "change_type": "TRADED_OR_SIGNED",
       "detail": "DAL -> NYG",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-07T20:35:09",
+      "player_id": "12541",
+      "name": "Dont'e Thornton",
+      "position": "WR",
+      "team": "LV",
+      "overall_rank": null,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Undisclosed)",
       "priority": "MEDIUM"
     }
   ]
