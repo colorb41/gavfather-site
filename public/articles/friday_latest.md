@@ -4,7 +4,7 @@ date: "2026-08-07"
 week: 0
 theme: "Camp Report"
 category: "research"
-excerpt: "The Gavfather System processed 116 data points from camp this week. Here is everything that changed and what it means for your draft."
+excerpt: "The Gavfather System processed 142 data points from camp this week. Here is everything that changed and what it means for your draft."
 ---
 
 # Camp Report: Week 6
@@ -15,7 +15,7 @@ excerpt: "The Gavfather System processed 116 data points from camp this week. He
 ---
 
 The Gavfather System processed data from all 32 NFL training camps this week.
-116 changes detected. 10 flagged as high priority.
+142 changes detected. 10 flagged as high priority.
 Here is everything that matters for your Labor Day draft.
 
 ---
@@ -108,4 +108,4 @@ An offer your roster can't refuse.
 
 ---
 
-*Rankings updated automatically. Camp data refreshed twice daily. Last update: August 07, 2026 02:16 PM*
+*Rankings updated automatically. Camp data refreshed twice daily. Last update: August 07, 2026 10:38 PM*
