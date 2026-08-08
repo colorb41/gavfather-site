@@ -1,30 +1,8 @@
 {
-  "updated_at": "2026-08-08T01:08:36",
+  "updated_at": "2026-08-08T04:51:08",
   "total_changes": 100,
-  "high_priority_count": 6,
+  "high_priority_count": 7,
   "changes": [
-    {
-      "timestamp": "2026-08-06T02:00:16",
-      "player_id": "12001",
-      "name": "Lawrence Keys",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Questionable -> IR (Leg)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-06T02:00:16",
-      "player_id": "13750",
-      "name": "TJ Harden",
-      "position": "RB",
-      "team": "SEA",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> SEA",
-      "priority": "MEDIUM"
-    },
     {
       "timestamp": "2026-08-06T06:25:23",
       "player_id": "13430",
@@ -1101,6 +1079,28 @@
       "overall_rank": null,
       "change_type": "TRADED_OR_SIGNED",
       "detail": "FA -> PIT",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-08T04:51:05",
+      "player_id": "9508",
+      "name": "Tyjae Spears",
+      "position": "RB",
+      "team": "TEN",
+      "overall_rank": 122,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Undisclosed)",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-08-08T04:51:05",
+      "player_id": "12516",
+      "name": "Kalel Mullings",
+      "position": "RB",
+      "team": "TEN",
+      "overall_rank": 210,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Hip)",
       "priority": "MEDIUM"
     }
   ]
