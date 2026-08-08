@@ -1,63 +1,8 @@
 {
-  "updated_at": "2026-08-08T16:25:55",
+  "updated_at": "2026-08-08T20:22:18",
   "total_changes": 100,
-  "high_priority_count": 7,
+  "high_priority_count": 8,
   "changes": [
-    {
-      "timestamp": "2026-08-07T00:30:44",
-      "player_id": "11964",
-      "name": "Dayton Wade",
-      "position": "WR",
-      "team": "BAL",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Undisclosed)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-07T00:30:44",
-      "player_id": "2750",
-      "name": "DeAndre Carter",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-07T00:30:44",
-      "player_id": "6964",
-      "name": "Sean McKeon",
-      "position": "TE",
-      "team": "IND",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> IR (Undisclosed)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-07T00:30:44",
-      "player_id": "12499",
-      "name": "Elic Ayomanor",
-      "position": "WR",
-      "team": "TEN",
-      "overall_rank": 500,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Shoulder)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-07T00:30:44",
-      "player_id": "11615",
-      "name": "Ainias Smith",
-      "position": "WR",
-      "team": "CAR",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "IR -> Questionable",
-      "priority": "LOW"
-    },
     {
       "timestamp": "2026-08-07T00:30:44",
       "player_id": "8121",
@@ -1101,6 +1046,61 @@
       "overall_rank": null,
       "change_type": "INJURY_WORSENED",
       "detail": "Healthy -> Questionable (Concussion)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-08T20:22:15",
+      "player_id": "13415",
+      "name": "Haynes King",
+      "position": "QB",
+      "team": "CAR",
+      "overall_rank": null,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Hamstring)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-08T20:22:15",
+      "player_id": "13417",
+      "name": "De'Zhaun Stribling",
+      "position": "WR",
+      "team": "SF",
+      "overall_rank": null,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-08T20:22:15",
+      "player_id": "7597",
+      "name": "Kenny Yeboah",
+      "position": "TE",
+      "team": "ARI",
+      "overall_rank": null,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Questionable -> IR (Hamstring)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-08T20:22:15",
+      "player_id": "9997",
+      "name": "Zay Flowers",
+      "position": "WR",
+      "team": "BAL",
+      "overall_rank": 48,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Quadriceps)",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-08-08T20:22:15",
+      "player_id": "11433",
+      "name": "Nate Adkins",
+      "position": "TE",
+      "team": "DEN",
+      "overall_rank": 742,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Undisclosed)",
       "priority": "MEDIUM"
     }
   ]
