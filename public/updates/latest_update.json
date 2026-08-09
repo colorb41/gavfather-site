@@ -1,96 +1,8 @@
 {
-  "updated_at": "2026-08-09T12:38:03",
+  "updated_at": "2026-08-09T16:27:22",
   "total_changes": 100,
   "high_priority_count": 6,
   "changes": [
-    {
-      "timestamp": "2026-08-07T05:31:33",
-      "player_id": "12889",
-      "name": "Beaux Collins",
-      "position": "WR",
-      "team": "DAL",
-      "overall_rank": 641,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> DAL",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-07T14:16:49",
-      "player_id": "11921",
-      "name": "Xavier Weaver",
-      "position": "WR",
-      "team": "ARI",
-      "overall_rank": 1062,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Concussion)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-07T14:16:49",
-      "player_id": "13413",
-      "name": "Cyrus Allen",
-      "position": "WR",
-      "team": "KC",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-07T14:16:49",
-      "player_id": "12536",
-      "name": "Jaylin Noel",
-      "position": "WR",
-      "team": "HOU",
-      "overall_rank": 638,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "PUP -> Questionable",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-07T14:16:49",
-      "player_id": "7597",
-      "name": "Kenny Yeboah",
-      "position": "TE",
-      "team": "ARI",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Hamstring)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-07T14:16:49",
-      "player_id": "8121",
-      "name": "Romeo Doubs",
-      "position": "WR",
-      "team": "NE",
-      "overall_rank": 84,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-07T14:16:49",
-      "player_id": "11626",
-      "name": "Xavier Legette",
-      "position": "WR",
-      "team": "CAR",
-      "overall_rank": 530,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-07T14:16:49",
-      "player_id": "11600",
-      "name": "Ja'Tavion Sanders",
-      "position": "TE",
-      "team": "CAR",
-      "overall_rank": 566,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
     {
       "timestamp": "2026-08-07T14:16:49",
       "player_id": "3155",
@@ -1102,6 +1014,94 @@
       "change_type": "TRADED_OR_SIGNED",
       "detail": "FA -> CAR",
       "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-09T13:54:21",
+      "player_id": "1408",
+      "name": "Le'Veon Bell",
+      "position": "RB",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from TB",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-09T13:54:21",
+      "player_id": "11633",
+      "name": "Jamari Thrash",
+      "position": "WR",
+      "team": "CLE",
+      "overall_rank": 1072,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> CLE",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-09T13:54:21",
+      "player_id": "7605",
+      "name": "Kyle Trask",
+      "position": "QB",
+      "team": "CAR",
+      "overall_rank": null,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> CAR",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-09T13:54:21",
+      "player_id": "14058",
+      "name": "Malick Meiga",
+      "position": "WR",
+      "team": "CAR",
+      "overall_rank": null,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Out (Undisclosed)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-09T13:54:21",
+      "player_id": "6039",
+      "name": "Ty Johnson",
+      "position": "RB",
+      "team": "BUF",
+      "overall_rank": 219,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Knee)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-09T13:54:21",
+      "player_id": "11588",
+      "name": "Jawhar Jordan",
+      "position": "RB",
+      "team": "HOU",
+      "overall_rank": 377,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Hip)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-09T16:27:19",
+      "player_id": "14058",
+      "name": "Malick Meiga",
+      "position": "WR",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Out (Undisclosed)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-09T16:27:19",
+      "player_id": "14058",
+      "name": "Malick Meiga",
+      "position": "WR",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from CAR",
+      "priority": "LOW"
     }
   ]
 }
