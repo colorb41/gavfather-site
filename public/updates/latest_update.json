@@ -1,30 +1,8 @@
 {
-  "updated_at": "2026-08-09T01:13:29",
+  "updated_at": "2026-08-09T04:59:04",
   "total_changes": 100,
   "high_priority_count": 6,
   "changes": [
-    {
-      "timestamp": "2026-08-07T05:31:33",
-      "player_id": "7597",
-      "name": "Kenny Yeboah",
-      "position": "TE",
-      "team": "ARI",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Hamstring)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-07T05:31:33",
-      "player_id": "11626",
-      "name": "Xavier Legette",
-      "position": "WR",
-      "team": "CAR",
-      "overall_rank": 530,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
     {
       "timestamp": "2026-08-07T05:31:33",
       "player_id": "11600",
@@ -1101,6 +1079,28 @@
       "overall_rank": null,
       "change_type": "TRADED_OR_SIGNED",
       "detail": "FA -> DEN",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-09T04:59:00",
+      "player_id": "1408",
+      "name": "Le'Veon Bell",
+      "position": "RB",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from TB",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-09T04:59:01",
+      "player_id": "11588",
+      "name": "Jawhar Jordan",
+      "position": "RB",
+      "team": "HOU",
+      "overall_rank": 377,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Hip)",
       "priority": "MEDIUM"
     }
   ]
