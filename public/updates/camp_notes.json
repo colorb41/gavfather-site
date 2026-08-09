@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-08T22:31:37",
+  "updated": "2026-08-09T13:54:20",
   "source": "CampResearcher.v2",
   "override_count": 11,
-  "player_count": 74,
-  "news_items_processed": 1393,
+  "player_count": 75,
+  "news_items_processed": 1400,
   "players": {
     "Cam Skattebo": {
       "status": "NEUTRAL",
@@ -23,7 +23,7 @@
       "new_ppg": 14.46,
       "position": "RB",
       "team": "NYG",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -42,73 +42,96 @@
         "De'Veon Smith - Inactive"
       ],
       "old_rank": 82,
-      "new_rank": 94,
+      "new_rank": 93,
       "old_ppg": 12.06,
       "new_ppg": 11.22,
       "position": "WR",
       "team": "PHI",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
     "Josh Downs": {
-      "status": "NEUTRAL",
-      "injury": "Josh Downs (groin) misses practice Saturday Josh Downs (groin) misses practice Saturday Sat, Aug 8th 1:19pm EDT By Ari K",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Josh Downs (groin) misses practice Saturday Sat, Aug 8th 1:19pm EDT By Ari Koslow",
-      "impact": "NEUTRAL",
-      "source": "FantasyPros",
+      "status": "MILD",
+      "injury": "Josh Downs - Questionable Josh Downs listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Josh Downs listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
       "headlines": [
         "Josh Downs (groin) misses practice Saturday",
-        "Josh Downs"
+        "Josh Downs",
+        "Josh Downs - Questionable"
       ],
-      "old_rank": 199,
-      "new_rank": 197,
+      "old_rank": 198,
+      "new_rank": 221,
       "old_ppg": 8.46,
-      "new_ppg": 8.46,
+      "new_ppg": 7.87,
       "position": "WR",
       "team": "IND",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
     "Zay Flowers": {
-      "status": "NEUTRAL",
-      "injury": "Zay Flowers (quad contusion) considered day-to-day Zay Flowers (quad contusion) considered day-to-day Sat, Aug 8th 1:09p",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Zay Flowers (quad contusion) considered day-to-day Sat, Aug 8th 1:09pm EDT By Diego Sandoval",
-      "impact": "NEUTRAL",
-      "source": "FantasyPros",
+      "status": "MILD",
+      "injury": "Zay Flowers - Questionable Zay Flowers listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Zay Flowers listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
       "headlines": [
         "Zay Flowers (quad contusion) considered day-to-day",
-        "Zay Flowers"
+        "Zay Flowers",
+        "Zay Flowers - Questionable"
       ],
       "old_rank": 88,
-      "new_rank": 84,
+      "new_rank": 96,
       "old_ppg": 11.92,
-      "new_ppg": 11.92,
+      "new_ppg": 11.09,
       "position": "WR",
       "team": "BAL",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
+    "Malik Nabers": {
+      "status": "RETURNING",
+      "injury": "ACL + meniscus (recovering ahead of schedule)",
+      "week1_outlook": "LIKELY - on track per camp reports",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Upgrade slightly. Running routes, ahead of schedule. Worst case misses 1-2 games.",
+      "impact": "MILD",
+      "source": "Yahoo Sports camp tracker Aug 5",
+      "headlines": [
+        "Upgrade slightly. Running routes, ahead of schedule. Worst case misses 1-2 games."
+      ],
+      "old_rank": 62,
+      "new_rank": 73,
+      "old_ppg": 13.49,
+      "new_ppg": 12.55,
+      "position": "WR",
+      "team": "NYG",
+      "updated": "2026-08-05",
+      "auto_generated": false,
+      "from_override": true
+    },
     "Trevor Lawrence": {
       "status": "NEUTRAL",
-      "injury": "WR San Francisco 49ers Calf WR San Francisco 49ers Calf WR San Francisco 49ers Calf",
+      "injury": "ACL WR New York Giants Knee - ACL WR New Yo",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "WR San Francisco 49ers Calf",
+      "ranking_note": "WR New York Giants Knee - ACL",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
+        "WR New York Giants Knee - ACL",
         "WR San Francisco 49ers Calf",
         "WR San Francisco 49ers Quadriceps",
         "WR San Francisco 49ers",
-        "WR Baltimore Ravens Quadriceps",
-        "WR Baltimore Ravens Leg"
+        "WR Baltimore Ravens Quadriceps"
       ],
       "old_rank": 10,
       "new_rank": 10,
@@ -116,24 +139,24 @@
       "new_ppg": 19.82,
       "position": "QB",
       "team": "JAX",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
     "Justin Herbert": {
       "status": "NEUTRAL",
-      "injury": "RB Seattle Seahawks Lower Body RB Seattle Seahawks Lower Body RB Seattle Seahawks Lower Body",
+      "injury": "RB Houston Texans Hip RB Houston Texans Hip RB Houston Texans Hip",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "RB Seattle Seahawks Lower Body",
+      "ranking_note": "RB Houston Texans Hip",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
+        "RB Houston Texans Hip",
         "RB Seattle Seahawks Lower Body",
+        "RB Buffalo Bills Knee",
         "RB Tennessee Titans Undisclosed",
-        "RB Green Bay Packers Groin",
-        "RB Kansas City Chiefs",
-        "RB Jacksonville Jaguars"
+        "RB Green Bay Packers Groin"
       ],
       "old_rank": 12,
       "new_rank": 12,
@@ -141,7 +164,52 @@
       "new_ppg": 19.5,
       "position": "QB",
       "team": "LAC",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Dak Prescott": {
+      "status": "NEUTRAL",
+      "injury": "OT Washington Commanders Triceps OT Washington Commanders Triceps OT Washington Commanders Triceps",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "OT Washington Commanders Triceps",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "OT Washington Commanders Triceps"
+      ],
+      "old_rank": 11,
+      "new_rank": 11,
+      "old_ppg": 19.81,
+      "new_ppg": 19.81,
+      "position": "QB",
+      "team": "DAL",
+      "updated": "2026-08-09",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Theo Johnson": {
+      "status": "MILD",
+      "injury": "knee injury RB Buffalo Bills Knee August 8",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Ty Johnson Departs practice with knee injury RB Buffalo Bills Knee August 8, 2026 Johnson left practice early Saturday due to an apparent right knee injury, Matt Parrino of NYup.com reports. ANALYSIS Subscribe now to instantly reveal our ta",
+      "impact": "MILD",
+      "source": "RotoWire",
+      "headlines": [
+        "Ty Johnson",
+        "Storm Johnson - Inactive",
+        "Steve Johnson - Inactive",
+        "Tez Johnson - Questionable"
+      ],
+      "old_rank": 345,
+      "new_rank": 482,
+      "old_ppg": 6.59,
+      "new_ppg": 6.13,
+      "position": "TE",
+      "team": "NYG",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -163,7 +231,7 @@
       "new_ppg": 9.97,
       "position": "WR",
       "team": "TB",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -200,13 +268,13 @@
         "Tyjae Spears",
         "Tyjae Spears - Questionable"
       ],
-      "old_rank": 214,
+      "old_rank": 213,
       "new_rank": 233,
       "old_ppg": 8.16,
       "new_ppg": 7.59,
       "position": "RB",
       "team": "TEN",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -228,16 +296,16 @@
       "new_ppg": 13.98,
       "position": "RB",
       "team": "GB",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
     "Kenneth Walker III": {
       "status": "NEUTRAL",
-      "injury": "Jesse Newell of The Athletic August 7, 2026 Jesse Newell of The Athletic indicates Johnson has been fourth in the team's",
+      "injury": "Jesse Newell of The Athletic Jesse Newell of The Athletic indicates Johnson has been fourth in the team's RB pecking ord",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "August 7, 2026 Jesse Newell of The Athletic indicates Johnson has been fourth in the team's RB pecking order behind top option Kenneth Walker , as well as both Emari Demercado and Brashard Smith to this point in training camp. ANALYSIS Subs",
+      "ranking_note": "Jesse Newell of The Athletic indicates Johnson has been fourth in the team's RB pecking order behind top option Kenneth Walker , as well as both Emari Demercado and Brashard Smith to this point in training camp.",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
@@ -249,7 +317,7 @@
       "new_ppg": 14.49,
       "position": "RB",
       "team": "SEA",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -270,7 +338,7 @@
       "new_ppg": 6.28,
       "position": "RB",
       "team": "JAX",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -293,51 +361,9 @@
       "new_ppg": 6.45,
       "position": "WR",
       "team": "IND",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
-    },
-    "Patrick Mahomes": {
-      "status": "RECOVERING",
-      "injury": "ACL + LCL (Week 15 2025)",
-      "week1_outlook": "UNCERTAIN - ESPN still asking about status",
-      "ppg_multiplier": 0.88,
-      "ranking_note": "QB9. Fade until confirmed Week 1 starter.",
-      "impact": "MODERATE",
-      "source": "ESPN camp tour",
-      "headlines": [
-        "QB9. Fade until confirmed Week 1 starter."
-      ],
-      "old_rank": 16,
-      "new_rank": 29,
-      "old_ppg": 18.84,
-      "new_ppg": 16.58,
-      "position": "QB",
-      "team": "KC",
-      "updated": "2026-08-05",
-      "auto_generated": false,
-      "from_override": true
-    },
-    "Malik Nabers": {
-      "status": "RETURNING",
-      "injury": "ACL + meniscus (recovering ahead of schedule)",
-      "week1_outlook": "LIKELY - on track per camp reports",
-      "ppg_multiplier": 0.93,
-      "ranking_note": "Upgrade slightly. Running routes, ahead of schedule. Worst case misses 1-2 games.",
-      "impact": "MILD",
-      "source": "Yahoo Sports camp tracker Aug 5",
-      "headlines": [
-        "Upgrade slightly. Running routes, ahead of schedule. Worst case misses 1-2 games."
-      ],
-      "old_rank": 62,
-      "new_rank": 73,
-      "old_ppg": 13.49,
-      "new_ppg": 12.55,
-      "position": "WR",
-      "team": "NYG",
-      "updated": "2026-08-05",
-      "auto_generated": false,
-      "from_override": true
     },
     "Tucker Kraft": {
       "status": "RETURNING",
@@ -392,13 +418,13 @@
       "headlines": [
         "D.J. Foster - Inactive"
       ],
-      "old_rank": 276,
-      "new_rank": 286,
+      "old_rank": 309,
+      "new_rank": 301,
       "old_ppg": 7.36,
       "new_ppg": 7.36,
       "position": "RB",
       "team": "ARI",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -413,13 +439,13 @@
       "headlines": [
         "Theo Riddick - Injured Reserve"
       ],
-      "old_rank": 274,
-      "new_rank": 288,
+      "old_rank": 261,
+      "new_rank": 292,
       "old_ppg": 7.36,
       "new_ppg": 7.36,
       "position": "RB",
       "team": "LV",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -435,7 +461,7 @@
         "Healthy and practicing. Suspension risk remains. Mahomes injury also concern for KC."
       ],
       "old_rank": 73,
-      "new_rank": 92,
+      "new_rank": 91,
       "old_ppg": 12.6,
       "new_ppg": 11.34,
       "position": "WR",
@@ -456,12 +482,12 @@
         "Corey Brown - Injured Reserve"
       ],
       "old_rank": 59,
-      "new_rank": 58,
+      "new_rank": 59,
       "old_ppg": 13.5,
       "new_ppg": 13.5,
       "position": "RB",
       "team": "CIN",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -479,12 +505,12 @@
         "Troy Williams - Inactive"
       ],
       "old_rank": 967,
-      "new_rank": 967,
+      "new_rank": 966,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
       "team": "DET",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -507,7 +533,7 @@
       "new_ppg": 6.85,
       "position": "RB",
       "team": "MIN",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -528,7 +554,7 @@
       "new_ppg": 9.87,
       "position": "WR",
       "team": "GB",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -549,7 +575,7 @@
       "new_ppg": 10.26,
       "position": "RB",
       "team": "TB",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -564,13 +590,13 @@
       "headlines": [
         "Ryan Williams - Inactive"
       ],
-      "old_rank": 1171,
-      "new_rank": 1171,
+      "old_rank": 1172,
+      "new_rank": 1172,
       "old_ppg": 7.36,
       "new_ppg": 7.36,
       "position": "RB",
       "team": "BUF",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -593,7 +619,7 @@
       "new_ppg": 12.08,
       "position": "RB",
       "team": "DAL",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -610,13 +636,13 @@
         "Mack Brown - Inactive",
         "Marlon Brown - Injured Reserve"
       ],
-      "old_rank": 239,
+      "old_rank": 238,
       "new_rank": 237,
       "old_ppg": 7.55,
       "new_ppg": 7.55,
       "position": "WR",
       "team": "KC",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -637,7 +663,7 @@
       "new_ppg": 26.38,
       "position": "QB",
       "team": "BUF",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -652,38 +678,36 @@
       "headlines": [
         "Kevin Monangai - Inactive"
       ],
-      "old_rank": 339,
+      "old_rank": 338,
       "new_rank": 333,
       "old_ppg": 6.76,
       "new_ppg": 6.76,
       "position": "RB",
       "team": "CHI",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
-    "Theo Johnson": {
-      "status": "MILD",
-      "injury": "Tez Johnson - Questionable Tez Johnson listed as Questionable",
-      "week1_outlook": "EXPECTED OK",
-      "ppg_multiplier": 0.93,
-      "ranking_note": "Tez Johnson listed as Questionable. ",
-      "impact": "MILD",
-      "source": "Sleeper",
+    "Patrick Mahomes": {
+      "status": "RECOVERING",
+      "injury": "ACL + LCL (Week 15 2025)",
+      "week1_outlook": "UNCERTAIN - ESPN still asking about status",
+      "ppg_multiplier": 0.88,
+      "ranking_note": "QB9. Fade until confirmed Week 1 starter.",
+      "impact": "MODERATE",
+      "source": "ESPN camp tour",
       "headlines": [
-        "Storm Johnson - Inactive",
-        "Steve Johnson - Inactive",
-        "Tez Johnson - Questionable"
+        "QB9. Fade until confirmed Week 1 starter."
       ],
-      "old_rank": 345,
-      "new_rank": 482,
-      "old_ppg": 6.59,
-      "new_ppg": 6.13,
-      "position": "TE",
-      "team": "NYG",
-      "updated": "2026-08-08",
-      "auto_generated": true,
-      "from_override": false
+      "old_rank": 16,
+      "new_rank": 29,
+      "old_ppg": 18.84,
+      "new_ppg": 16.58,
+      "position": "QB",
+      "team": "KC",
+      "updated": "2026-08-05",
+      "auto_generated": false,
+      "from_override": true
     },
     "Kendall Milton": {
       "status": "NEUTRAL",
@@ -696,13 +720,13 @@
       "headlines": [
         "Keavon Milton - Inactive"
       ],
-      "old_rank": 278,
-      "new_rank": 284,
+      "old_rank": 280,
+      "new_rank": 259,
       "old_ppg": 7.36,
       "new_ppg": 7.36,
       "position": "RB",
       "team": "CIN",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -717,13 +741,13 @@
       "headlines": [
         "Carson Williams - Inactive"
       ],
-      "old_rank": 21,
-      "new_rank": 19,
+      "old_rank": 20,
+      "new_rank": 18,
       "old_ppg": 18.0,
       "new_ppg": 18.0,
       "position": "QB",
       "team": "CHI",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -747,7 +771,7 @@
       "new_ppg": 6.36,
       "position": "RB",
       "team": "GB",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -768,7 +792,7 @@
       "new_ppg": 10.48,
       "position": "RB",
       "team": "ARI",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -789,7 +813,7 @@
       "new_ppg": 5.87,
       "position": "RB",
       "team": "BUF",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -810,7 +834,7 @@
       "new_ppg": 12.04,
       "position": "WR",
       "team": "CHI",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -831,7 +855,7 @@
       "new_ppg": 10.77,
       "position": "WR",
       "team": "MIA",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -853,7 +877,7 @@
       "new_ppg": 5.57,
       "position": "TE",
       "team": "PIT",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -870,12 +894,12 @@
         "Kevin Coleman - Questionable"
       ],
       "old_rank": 322,
-      "new_rank": 346,
+      "new_rank": 345,
       "old_ppg": 7.02,
       "new_ppg": 6.53,
       "position": "WR",
       "team": "BUF",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -890,13 +914,13 @@
       "headlines": [
         "Robbie Ouzts - Questionable"
       ],
-      "old_rank": 281,
-      "new_rank": 324,
+      "old_rank": 284,
+      "new_rank": 323,
       "old_ppg": 7.36,
       "new_ppg": 6.84,
       "position": "RB",
       "team": "SEA",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -920,7 +944,7 @@
       "new_ppg": 7.71,
       "position": "WR",
       "team": "ARI",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -936,13 +960,13 @@
         "Andre Johnson - Inactive",
         "Damaris Johnson - Inactive"
       ],
-      "old_rank": 283,
-      "new_rank": 280,
+      "old_rank": 276,
+      "new_rank": 262,
       "old_ppg": 7.36,
       "new_ppg": 7.36,
       "position": "RB",
       "team": "LAC",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -963,7 +987,7 @@
       "new_ppg": 8.7,
       "position": "WR",
       "team": "GB",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -982,13 +1006,13 @@
         "Mike Williams - Inactive",
         "Kasen Williams - Inactive"
       ],
-      "old_rank": 27,
-      "new_rank": 25,
+      "old_rank": 28,
+      "new_rank": 27,
       "old_ppg": 17.0,
       "new_ppg": 17.0,
       "position": "RB",
       "team": "LA",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -1009,7 +1033,7 @@
       "new_ppg": 11.06,
       "position": "WR",
       "team": "DET",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -1024,13 +1048,13 @@
       "headlines": [
         "Tre McBride - Inactive"
       ],
-      "old_rank": 67,
-      "new_rank": 69,
+      "old_rank": 68,
+      "new_rank": 66,
       "old_ppg": 13.0,
       "new_ppg": 13.0,
       "position": "TE",
       "team": "ARI",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -1045,13 +1069,13 @@
       "headlines": [
         "Carlton Mitchell - Inactive"
       ],
-      "old_rank": 473,
+      "old_rank": 474,
       "new_rank": 471,
       "old_ppg": 6.3,
       "new_ppg": 6.3,
       "position": "RB",
       "team": "BAL",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -1067,13 +1091,13 @@
         "M Harris - Inactive",
         "RJ Harris - Inactive"
       ],
-      "old_rank": 449,
-      "new_rank": 459,
+      "old_rank": 463,
+      "new_rank": 367,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
       "team": "LA",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -1094,7 +1118,7 @@
       "new_ppg": 7.25,
       "position": "WR",
       "team": "MIN",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -1115,7 +1139,7 @@
       "new_ppg": 12.21,
       "position": "WR",
       "team": "DEN",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -1131,12 +1155,12 @@
         "Xavier Worthy - Questionable"
       ],
       "old_rank": 321,
-      "new_rank": 345,
+      "new_rank": 346,
       "old_ppg": 7.02,
       "new_ppg": 6.53,
       "position": "WR",
       "team": "KC",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -1157,7 +1181,7 @@
       "new_ppg": 17.3,
       "position": "RB",
       "team": "DET",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -1178,7 +1202,7 @@
       "new_ppg": 9.02,
       "position": "RB",
       "team": "MIN",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -1200,7 +1224,7 @@
       "new_ppg": 5.83,
       "position": "RB",
       "team": "SF",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -1221,7 +1245,7 @@
       "new_ppg": 7.16,
       "position": "RB",
       "team": "ARI",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -1242,7 +1266,7 @@
       "new_ppg": 7.49,
       "position": "TE",
       "team": "LA",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -1259,13 +1283,13 @@
         "Jerrod Johnson - Inactive",
         "Johnny Johnson - Inactive"
       ],
-      "old_rank": 231,
-      "new_rank": 227,
+      "old_rank": 230,
+      "new_rank": 226,
       "old_ppg": 6.56,
       "new_ppg": 6.56,
       "position": "TE",
       "team": "NO",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -1282,12 +1306,12 @@
         "DeAndre Washington - Inactive"
       ],
       "old_rank": 211,
-      "new_rank": 209,
+      "new_rank": 208,
       "old_ppg": 8.28,
       "new_ppg": 8.28,
       "position": "WR",
       "team": "JAX",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -1302,13 +1326,13 @@
       "headlines": [
         "Akeem Hunt - Inactive"
       ],
-      "old_rank": 230,
-      "new_rank": 226,
+      "old_rank": 231,
+      "new_rank": 227,
       "old_ppg": 7.77,
       "new_ppg": 7.77,
       "position": "RB",
       "team": "KC",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -1324,12 +1348,12 @@
         "Joe Mixon - Questionable"
       ],
       "old_rank": 87,
-      "new_rank": 96,
+      "new_rank": 95,
       "old_ppg": 11.93,
       "new_ppg": 11.09,
       "position": "RB",
       "team": "HOU",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -1344,13 +1368,13 @@
       "headlines": [
         "Sione Vaki - Questionable"
       ],
-      "old_rank": 290,
-      "new_rank": 323,
+      "old_rank": 282,
+      "new_rank": 322,
       "old_ppg": 7.36,
       "new_ppg": 6.84,
       "position": "RB",
       "team": "DET",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -1366,13 +1390,13 @@
         "Jalin Marshall - Inactive",
         "Jalin Moore - Inactive"
       ],
-      "old_rank": 433,
-      "new_rank": 458,
+      "old_rank": 462,
+      "new_rank": 365,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
       "team": "ATL",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -1387,13 +1411,13 @@
       "headlines": [
         "Kalel Mullings - Questionable"
       ],
-      "old_rank": 284,
-      "new_rank": 322,
+      "old_rank": 281,
+      "new_rank": 324,
       "old_ppg": 7.36,
       "new_ppg": 6.84,
       "position": "RB",
       "team": "TEN",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -1408,13 +1432,13 @@
       "headlines": [
         "T.J. Yeldon - Inactive"
       ],
-      "old_rank": 265,
-      "new_rank": 267,
+      "old_rank": 258,
+      "new_rank": 297,
       "old_ppg": 7.36,
       "new_ppg": 7.36,
       "position": "RB",
       "team": "BUF",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -1435,7 +1459,7 @@
       "new_ppg": 9.47,
       "position": "RB",
       "team": "LAC",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -1451,12 +1475,12 @@
         "Darren Waller - Questionable"
       ],
       "old_rank": 189,
-      "new_rank": 210,
+      "new_rank": 209,
       "old_ppg": 8.79,
       "new_ppg": 8.17,
       "position": "TE",
       "team": "MIA",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -1477,7 +1501,7 @@
       "new_ppg": 6.44,
       "position": "RB",
       "team": "SEA",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },
@@ -1498,7 +1522,7 @@
       "new_ppg": 20.17,
       "position": "RB",
       "team": "IND",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "auto_generated": true,
       "from_override": false
     },

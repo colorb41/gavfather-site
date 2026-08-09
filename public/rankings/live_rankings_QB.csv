@@ -1,34 +1,34 @@
 overall_rank,player_name,position,recent_team,projected_ppg,projected_ppg_std,projected_ppg_half_ppr,projected_ppg_ppr,projected_ppg_superflex,reliability_tier,situation_score,career_seasons,tier,live_status,age,data_basis,draft_value_score,draft_value_score_std,draft_value_score_half_ppr,draft_value_score_ppr,avg_receptions_per_game,avg_targets_per_game,avg_carries_per_game,Injury_Flag,consensus_adp,adp_diff,consensus_adp_overall,consensus_adp_positional,our_positional_rank,adp_diff_positional,adp_diff_overall,adp_signal
-6,Josh Allen,QB,BUF,26.38,,26.38,,26.38,PROVEN_ELITE,50.0,6,Elite,,30.3,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,25.1,19.1,25.1,1.0,1,0.0,19.1,NEUTRAL
-32,Jalen Hurts,QB,PHI,22.41,,22.41,,22.41,PROVEN_ELITE,50.0,5,Elite,,28.1,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,74.8,42.8,74.8,7.0,2,5.0,42.8,BUY
-38,Lamar Jackson,QB,BAL,22.57,,22.57,,22.57,PROVEN_ELITE,50.0,6,Elite,,29.6,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,52.9,14.9,52.9,3.0,3,0.0,14.9,NEUTRAL
-41,Drake Maye,QB,NE,20.0,,20.0,,20.0,EMERGING,50.0,2,Elite,,24.0,2025*0.50+2024*0.30+rel[EMERGING*1.03] [consensus_floor:20.0:QB3 consensus - AJ Brown],,,,,,,,,48.8,7.799999999999997,48.8,2.0,4,-2.0,7.799999999999997,NEUTRAL
-55,Dak Prescott,QB,DAL,19.81,,19.81,,19.81,PROVEN_ELITE,50.0,5,Elite,,33.1,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,67.2,12.200000000000005,67.2,5.0,5,0.0,12.200000000000005,NEUTRAL
-58,Justin Herbert,QB,LAC,19.5,,19.5,,19.5,PROVEN_ELITE,50.0,6,Elite,,28.5,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12] [consensus_floor:19.5:QB8 consensus McDaniel],,,,,,,,,109.9,51.900000000000006,109.9,15.0,6,9.0,51.900000000000006,BUY
-59,Baker Mayfield,QB,TB,19.97,,19.97,,19.97,PROVEN_ELITE,50.0,5,QB1,,31.4,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,133.0,74.0,133.0,17.0,7,10.0,74.0,BUY
-63,Brock Purdy,QB,SF,20.4,,20.4,,20.4,PROVEN_ELITE,50.0,4,QB1,,26.7,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,78.3,15.299999999999995,78.3,8.0,8,0.0,15.299999999999995,NEUTRAL
-67,Jared Goff,QB,DET,20.13,,20.13,,20.13,PROVEN_ELITE,50.0,6,QB1,,31.9,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,106.3,39.3,106.3,14.0,9,5.0,39.3,BUY
-69,Patrick Mahomes,QB,KC,18.84,,18.84,,18.84,PROVEN_ELITE,50.0,6,QB1,,31.0,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12] [camp_research:RECOVERING:0.88:QB9. Fade until confirmed Week 1 starter.],,,,,,,,,99.0,30.0,99.0,11.0,10,1.0,30.0,NEUTRAL
-70,Trevor Lawrence,QB,JAX,19.82,,19.82,,19.82,PROVEN_ELITE,50.0,5,QB1,,26.9,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,90.2,20.200000000000003,90.2,10.0,11,-1.0,20.200000000000003,NEUTRAL
-93,Matthew Stafford,QB,LA,18.07,,18.07,,18.07,PROVEN_ELITE,50.0,6,QB1,,38.6,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,84.4,-8.599999999999994,84.4,9.0,12,-3.0,-8.599999999999994,FADE
-106,Jaxson Dart,QB,NYG,16.01,,16.01,,16.01,UNPROVEN,50.0,1,QB2,,23.3,2025_only+rel[UNPROVEN*0.92],,,,,,,,,103.4,-2.5999999999999943,103.4,12.0,13,-1.0,-2.5999999999999943,NEUTRAL
-108,Jordan Love,QB,GB,17.47,,17.47,,17.47,PROVEN_SOLID,50.0,3,QB2,,27.8,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06],,,,,,,,,148.3,40.30000000000001,148.3,20.0,14,6.0,40.30000000000001,BUY
-117,Sam Darnold,QB,SEA,17.56,,17.56,,17.56,PROVEN_SOLID,78.0,4,QB2,,29.2,2025*0.50+2024*0.30+rel[PROVEN_SOLID*1.06] [team_corr:SEA:1.05:SEA - Super Bowl LX winner],,,,,,,,,144.5,27.5,144.5,19.0,15,4.0,27.5,BUY
-126,Caleb Williams,QB,CHI,18.0,,18.0,,18.0,EMERGING,50.0,2,QB2,,24.8,2025*0.50+2024*0.30+rel[EMERGING*1.03] [consensus_floor:18.0:QB7 consensus yr2 leap],,,,,,,,,104.7,-21.3,104.7,13.0,16,-3.0,-21.3,FADE
-127,Joe Burrow,QB,CIN,20.08,,20.08,,20.08,PROVEN_ELITE,50.0,6,QB2,,29.7,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,57.9,-69.1,57.9,4.0,17,-13.0,-69.1,FADE
-191,Bo Nix,QB,DEN,17.0,,17.0,,17.0,UNPROVEN,50.0,2,QB2,,26.5,2025*0.50+2024*0.30+rel[UNPROVEN*0.92] [consensus_floor:17.0:QB12 consensus],,,,,,,,,116.4,-74.6,116.4,16.0,18,-2.0,-74.6,NEUTRAL
+6,Josh Allen,QB,BUF,26.38,,26.38,,26.38,PROVEN_ELITE,50.0,6,Elite,,30.3,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,24.4,18.4,24.4,1.0,1,0.0,18.4,NEUTRAL
+32,Jalen Hurts,QB,PHI,22.41,,22.41,,22.41,PROVEN_ELITE,50.0,5,Elite,,28.1,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,73.7,41.7,73.7,7.0,2,5.0,41.7,BUY
+38,Lamar Jackson,QB,BAL,22.57,,22.57,,22.57,PROVEN_ELITE,50.0,6,Elite,,29.6,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,51.8,13.799999999999995,51.8,3.0,3,0.0,13.799999999999995,NEUTRAL
+41,Drake Maye,QB,NE,20.0,,20.0,,20.0,EMERGING,50.0,2,Elite,,24.0,2025*0.50+2024*0.30+rel[EMERGING*1.03] [consensus_floor:20.0:QB3 consensus - AJ Brown],,,,,,,,,49.7,8.700000000000003,49.7,2.0,4,-2.0,8.700000000000003,NEUTRAL
+55,Dak Prescott,QB,DAL,19.81,,19.81,,19.81,PROVEN_ELITE,50.0,5,Elite,,33.1,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,67.5,12.5,67.5,5.0,5,0.0,12.5,NEUTRAL
+58,Justin Herbert,QB,LAC,19.5,,19.5,,19.5,PROVEN_ELITE,50.0,6,Elite,,28.5,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12] [consensus_floor:19.5:QB8 consensus McDaniel],,,,,,,,,109.1,51.1,109.1,15.0,6,9.0,51.1,BUY
+59,Baker Mayfield,QB,TB,19.97,,19.97,,19.97,PROVEN_ELITE,50.0,5,QB1,,31.4,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,131.5,72.5,131.5,17.0,7,10.0,72.5,BUY
+63,Brock Purdy,QB,SF,20.4,,20.4,,20.4,PROVEN_ELITE,50.0,4,QB1,,26.7,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,74.8,11.799999999999995,74.8,8.0,8,0.0,11.799999999999995,NEUTRAL
+67,Jared Goff,QB,DET,20.13,,20.13,,20.13,PROVEN_ELITE,50.0,6,QB1,,31.9,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,105.1,38.1,105.1,13.0,9,4.0,38.1,BUY
+69,Patrick Mahomes,QB,KC,18.84,,18.84,,18.84,PROVEN_ELITE,50.0,6,QB1,,31.0,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12] [camp_research:RECOVERING:0.88:QB9. Fade until confirmed Week 1 starter.],,,,,,,,,98.5,29.5,98.5,11.0,10,1.0,29.5,NEUTRAL
+70,Trevor Lawrence,QB,JAX,19.82,,19.82,,19.82,PROVEN_ELITE,50.0,5,QB1,,26.9,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,90.9,20.90000000000001,90.9,10.0,11,-1.0,20.90000000000001,NEUTRAL
+93,Matthew Stafford,QB,LA,18.07,,18.07,,18.07,PROVEN_ELITE,50.0,6,QB1,,38.6,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,83.6,-9.400000000000006,83.6,9.0,12,-3.0,-9.400000000000006,FADE
+106,Jaxson Dart,QB,NYG,16.01,,16.01,,16.01,UNPROVEN,50.0,1,QB2,,23.3,2025_only+rel[UNPROVEN*0.92],,,,,,,,,99.0,-7.0,99.0,12.0,13,-1.0,-7.0,NEUTRAL
+108,Jordan Love,QB,GB,17.47,,17.47,,17.47,PROVEN_SOLID,50.0,3,QB2,,27.8,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06],,,,,,,,,148.7,40.69999999999999,148.7,21.0,14,7.0,40.69999999999999,BUY
+117,Sam Darnold,QB,SEA,17.56,,17.56,,17.56,PROVEN_SOLID,78.0,4,QB2,,29.2,2025*0.50+2024*0.30+rel[PROVEN_SOLID*1.06] [team_corr:SEA:1.05:SEA - Super Bowl LX winner],,,,,,,,,146.1,29.099999999999994,146.1,19.0,15,4.0,29.099999999999994,BUY
+126,Caleb Williams,QB,CHI,18.0,,18.0,,18.0,EMERGING,50.0,2,QB2,,24.8,2025*0.50+2024*0.30+rel[EMERGING*1.03] [consensus_floor:18.0:QB7 consensus yr2 leap],,,,,,,,,105.8,-20.200000000000003,105.8,14.0,16,-2.0,-20.200000000000003,NEUTRAL
+127,Joe Burrow,QB,CIN,20.08,,20.08,,20.08,PROVEN_ELITE,50.0,6,QB2,,29.7,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,58.7,-68.3,58.7,4.0,17,-13.0,-68.3,FADE
+191,Bo Nix,QB,DEN,17.0,,17.0,,17.0,UNPROVEN,50.0,2,QB2,,26.5,2025*0.50+2024*0.30+rel[UNPROVEN*0.92] [consensus_floor:17.0:QB12 consensus],,,,,,,,,117.4,-73.6,117.4,16.0,18,-2.0,-73.6,NEUTRAL
 226,D.Carr,QB,NO,16.64,,16.64,,16.64,PROVEN_ELITE,50.0,5,Streamable,,35.4,2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,19,,,UNKNOWN
-232,Jayden Daniels,QB,WAS,19.0,,19.0,,19.0,EMERGING,50.0,1,Streamable,,25.7,2025*0.50+2024*0.30+rel[EMERGING*1.00] [sophomore_leap_player] [consensus_floor:19.0:QB5 consensus],,,,,,,,,68.6,-163.4,68.6,6.0,20,-14.0,-163.4,FADE
+232,Jayden Daniels,QB,WAS,19.0,,19.0,,19.0,EMERGING,50.0,1,Streamable,,25.7,2025*0.50+2024*0.30+rel[EMERGING*1.00] [sophomore_leap_player] [consensus_floor:19.0:QB5 consensus],,,,,,,,,69.0,-163.0,69.0,6.0,20,-14.0,-163.0,FADE
 243,Geno Smith,QB,LV,15.97,,15.97,,15.97,PROVEN_ELITE,50.0,4,Streamable,,35.9,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,21,,,UNKNOWN
-247,C.J. Stroud,QB,HOU,15.71,,15.71,,15.71,PROVEN_SOLID,50.0,3,Streamable,,24.9,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,22,,,UNKNOWN
+247,C.J. Stroud,QB,HOU,15.71,,15.71,,15.71,PROVEN_SOLID,50.0,3,Streamable,,24.9,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,173.7,-73.30000000000001,173.7,24.0,22,2.0,-73.30000000000001,NEUTRAL
 457,Jacoby Brissett,QB,ARI,14.34,,14.34,,14.34,EMERGING,50.0,2,Streamable,,33.7,2025*0.50+2024*0.30+starter_floor_soft+rel[EMERGING*1.03],,,,,,,,,,,,,23,,,UNKNOWN
-463,Bryce Young,QB,CAR,15.02,,15.02,,15.02,PROVEN_SOLID,50.0,3,Streamable,,25.1,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,187.4,-275.6,187.4,25.0,24,1.0,-275.6,NEUTRAL
-509,Kyler Murray,QB,MIN,16.07,,16.07,,16.07,PROVEN_ELITE,60.0,5,Avoid,,29.1,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12] [team_corr:MIN:0.85:MIN - backup risk behind McCarthy],,,,,,,,,149.1,-359.9,149.1,21.0,25,-4.0,-359.9,FADE
+463,Bryce Young,QB,CAR,15.02,,15.02,,15.02,PROVEN_SOLID,50.0,3,Streamable,,25.1,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,187.4,-275.6,187.4,26.0,24,2.0,-275.6,NEUTRAL
+509,Kyler Murray,QB,MIN,16.07,,16.07,,16.07,PROVEN_ELITE,60.0,5,Avoid,,29.1,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12] [team_corr:MIN:0.85:MIN - backup risk behind McCarthy],,,,,,,,,147.2,-361.8,147.2,20.0,25,-5.0,-361.8,FADE
 520,Aaron Rodgers,QB,PIT,14.69,,14.69,,14.69,PROVEN_SOLID,50.0,5,Avoid,,42.7,2025*0.50+2024*0.30+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,26,,,UNKNOWN
-570,Tyler Shough,QB,NO,13.59,,13.59,,13.59,UNPROVEN,50.0,1,Avoid,,26.9,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,137.7,-432.3,137.7,18.0,27,-9.0,-432.3,FADE
+570,Tyler Shough,QB,NO,13.59,,13.59,,13.59,UNPROVEN,50.0,1,Avoid,,26.9,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,138.8,-431.2,138.8,18.0,27,-9.0,-431.2,FADE
 602,Mac Jones,QB,SF,13.44,,13.44,,13.44,PROVEN_SOLID,50.0,5,Avoid,,28.0,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,28,,,UNKNOWN
 611,Justin Fields,QB,NYJ,15.64,,15.64,,15.64,PROVEN_SOLID,50.0,5,Avoid,,27.5,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,29,,,UNKNOWN
-665,Cam Ward,QB,TEN,12.33,,12.33,,12.33,UNPROVEN,50.0,1,Avoid,,24.3,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,176.6,-488.4,176.6,24.0,30,-6.0,-488.4,FADE
+665,Cam Ward,QB,TEN,12.33,,12.33,,12.33,UNPROVEN,50.0,1,Avoid,,24.3,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,182.2,-482.8,182.2,25.0,30,-5.0,-482.8,FADE
 720,J.J. McCarthy,QB,MIN,12.76,,12.76,,12.76,UNPROVEN,50.0,1,Avoid,,23.6,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,31,,,UNKNOWN
 752,Carson Wentz,QB,MIN,14.49,,14.49,,14.49,PROVEN_SOLID,50.0,3,Avoid,,33.7,2025_only+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,32,,,UNKNOWN
 755,Kirk Cousins,QB,ATL,14.06,,14.06,,14.06,PROVEN_SOLID,50.0,6,Avoid,,38.0,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,33,,,UNKNOWN
@@ -39,7 +39,7 @@ overall_rank,player_name,position,recent_team,projected_ppg,projected_ppg_std,pr
 907,Shedeur Sanders,QB,CLE,11.9,,11.9,,11.9,UNPROVEN,50.0,1,Avoid,,24.6,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,38,,,UNKNOWN
 927,Russell Wilson,QB,NYG,13.87,,13.87,,13.87,PROVEN_ELITE,50.0,5,Avoid,,37.8,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,39,,,UNKNOWN
 937,D.Watson,QB,CLE,11.37,,11.37,,11.37,UNPROVEN,50.0,1,Avoid,,31.0,2024*0.30+2023*0.20+rel[UNPROVEN*0.92],,,,,,,,,,,,,40,,,UNKNOWN
-958,Daniel Jones,QB,IND,10.85,,10.85,,10.85,PROVEN_ELITE,50.0,5,Avoid,,29.3,"2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_ELITE*1.12] [camp_notes:SEVERE:0.65:Continue to monitor this situation, as well as the status of QB Daniel Jones , who is coming back from an Achilles tear.]",,,,,,,,,167.6,-790.4,167.6,23.0,41,-18.0,-790.4,FADE
+958,Daniel Jones,QB,IND,10.85,,10.85,,10.85,PROVEN_ELITE,50.0,5,Avoid,,29.3,"2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_ELITE*1.12] [camp_notes:SEVERE:0.65:Continue to monitor this situation, as well as the status of QB Daniel Jones , who is coming back from an Achilles tear.]",,,,,,,,,159.7,-798.3,159.7,23.0,41,-18.0,-798.3,FADE
 975,S.Howell,QB,SEA,11.13,,11.13,,11.13,UNPROVEN,50.0,1,Avoid,,26.0,2023_old*0.80+rel[UNPROVEN*0.92],,,,,,,,,,,,,42,,,UNKNOWN
 989,K.Benkert,QB,GB,11.04,,11.04,,11.04,UNPROVEN,50.0,0,Avoid,,,rookie_baseline+rel[UNPROVEN*0.92],,,,,,,,,,,,,43,,,UNKNOWN
 990,K.Mond,QB,MIN,11.04,,11.04,,11.04,UNPROVEN,50.0,0,Avoid,,,rookie_baseline+rel[UNPROVEN*0.92],,,,,,,,,,,,,44,,,UNKNOWN
@@ -126,7 +126,7 @@ overall_rank,player_name,position,recent_team,projected_ppg,projected_ppg_std,pr
 1175,Jimmy Garoppolo,QB,LA,7.55,,7.55,,7.55,EMERGING,50.0,2,Avoid,,34.8,2023_old*0.80+rel[EMERGING*1.03],,,,,,,,,,,,,125,,,UNKNOWN
 1176,Cooper Rush,QB,BAL,7.14,,7.14,,7.14,UNPROVEN,50.0,1,Avoid,,32.8,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,126,,,UNKNOWN
 1177,M.White,QB,BUF,5.21,,5.21,,5.21,UNPROVEN,50.0,0,Avoid,,31.4,2022_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,127,,,UNKNOWN
-1178,Malik Willis,QB,GB,6.75,,6.75,,6.75,UNPROVEN,50.0,0,Avoid,,27.3,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,151.6,-1026.4,151.6,22.0,128,-106.0,-1026.4,FADE
+1178,Malik Willis,QB,GB,6.75,,6.75,,6.75,UNPROVEN,50.0,0,Avoid,,27.3,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,154.3,-1023.7,154.3,22.0,128,-106.0,-1023.7,FADE
 1179,B.Zappe,QB,CLE,5.09,,5.09,,5.09,UNPROVEN,50.0,0,Avoid,,27.4,2023_old*0.80+rel[UNPROVEN*0.92],,,,,,,,,,,,,129,,,UNKNOWN
 1180,B.Roethlisberger,QB,PIT,5.08,,5.08,,5.08,UNPROVEN,50.0,2,Avoid,,,2021_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,130,,,UNKNOWN
 1181,M.Ryan,QB,IND,4.94,,4.94,,4.94,PROVEN_SOLID,50.0,3,Avoid,,41.3,2022_ancient*0.40+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,131,,,UNKNOWN
