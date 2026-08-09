@@ -1,129 +1,8 @@
 {
-  "updated_at": "2026-08-09T16:27:22",
+  "updated_at": "2026-08-09T20:24:59",
   "total_changes": 100,
   "high_priority_count": 6,
   "changes": [
-    {
-      "timestamp": "2026-08-07T14:16:49",
-      "player_id": "3155",
-      "name": "Laquon Treadwell",
-      "position": "WR",
-      "team": "IND",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Hamstring)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-07T14:16:49",
-      "player_id": "12889",
-      "name": "Beaux Collins",
-      "position": "WR",
-      "team": "DAL",
-      "overall_rank": 641,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> DAL",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-07T16:47:12",
-      "player_id": "11046",
-      "name": "Colton Dowell",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from SF",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-07T16:47:12",
-      "player_id": "11633",
-      "name": "Jamari Thrash",
-      "position": "WR",
-      "team": "CLE",
-      "overall_rank": 1072,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Undisclosed)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-07T16:47:12",
-      "player_id": "7438",
-      "name": "Kristian Wilkerson",
-      "position": "WR",
-      "team": "ATL",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> ATL",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-07T16:47:12",
-      "player_id": "13413",
-      "name": "Cyrus Allen",
-      "position": "WR",
-      "team": "KC",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-07T16:47:12",
-      "player_id": "12536",
-      "name": "Jaylin Noel",
-      "position": "WR",
-      "team": "HOU",
-      "overall_rank": 638,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "PUP -> Questionable",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-07T16:47:12",
-      "player_id": "14062",
-      "name": "Tyler Moore",
-      "position": "TE",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from NYG",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-07T16:47:12",
-      "player_id": "13357",
-      "name": "Lance Mason",
-      "position": "TE",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from SEA",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-07T16:47:12",
-      "player_id": "11615",
-      "name": "Ainias Smith",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from CAR",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-07T16:47:12",
-      "player_id": "8121",
-      "name": "Romeo Doubs",
-      "position": "WR",
-      "team": "NE",
-      "overall_rank": 84,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "MEDIUM"
-    },
     {
       "timestamp": "2026-08-07T16:47:12",
       "player_id": "12001",
@@ -1102,6 +981,127 @@
       "change_type": "RELEASED",
       "detail": "Released from CAR",
       "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-09T20:24:54",
+      "player_id": "10222",
+      "name": "Jayden Reed",
+      "position": "WR",
+      "team": "GB",
+      "overall_rank": 239,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Ankle)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-09T20:24:54",
+      "player_id": "11370",
+      "name": "Chris Brooks",
+      "position": "RB",
+      "team": "GB",
+      "overall_rank": 531,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "PUP -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-09T20:24:54",
+      "player_id": "8206",
+      "name": "Skylar Thompson",
+      "position": "QB",
+      "team": "BAL",
+      "overall_rank": null,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Undisclosed)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-09T20:24:54",
+      "player_id": "4179",
+      "name": "Joshua Dobbs",
+      "position": "QB",
+      "team": "DET",
+      "overall_rank": 1173,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> DET",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-09T20:24:54",
+      "player_id": "12217",
+      "name": "Shawn Bowman",
+      "position": "TE",
+      "team": "ARI",
+      "overall_rank": null,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> ARI",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-09T20:24:54",
+      "player_id": "2152",
+      "name": "Teddy Bridgewater",
+      "position": "QB",
+      "team": "DET",
+      "overall_rank": 1159,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> NA (Personal)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-09T20:24:55",
+      "player_id": "10212",
+      "name": "Josh Whyle",
+      "position": "TE",
+      "team": "GB",
+      "overall_rank": 745,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Neck)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-09T20:24:55",
+      "player_id": "6453",
+      "name": "D.J. Montgomery",
+      "position": "WR",
+      "team": "IND",
+      "overall_rank": null,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> IND",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-09T20:24:55",
+      "player_id": "12471",
+      "name": "DJ Giddens",
+      "position": "RB",
+      "team": "IND",
+      "overall_rank": 380,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Hamstring)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-09T20:24:55",
+      "player_id": "5086",
+      "name": "Marquez Valdes-Scantling",
+      "position": "WR",
+      "team": "DAL",
+      "overall_rank": 676,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Undisclosed)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-09T20:24:55",
+      "player_id": "12501",
+      "name": "Matthew Golden",
+      "position": "WR",
+      "team": "GB",
+      "overall_rank": 553,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Toe)",
+      "priority": "MEDIUM"
     }
   ]
 }
