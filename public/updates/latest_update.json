@@ -1,30 +1,8 @@
 {
-  "updated_at": "2026-08-09T04:59:04",
+  "updated_at": "2026-08-09T08:35:27",
   "total_changes": 100,
   "high_priority_count": 6,
   "changes": [
-    {
-      "timestamp": "2026-08-07T05:31:33",
-      "player_id": "11600",
-      "name": "Ja'Tavion Sanders",
-      "position": "TE",
-      "team": "CAR",
-      "overall_rank": 566,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-07T05:31:33",
-      "player_id": "3155",
-      "name": "Laquon Treadwell",
-      "position": "WR",
-      "team": "IND",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Hamstring)",
-      "priority": "MEDIUM"
-    },
     {
       "timestamp": "2026-08-07T05:31:33",
       "player_id": "12889",
@@ -1101,6 +1079,28 @@
       "overall_rank": 377,
       "change_type": "INJURY_WORSENED",
       "detail": "Healthy -> Questionable (Hip)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-09T08:35:23",
+      "player_id": "11633",
+      "name": "Jamari Thrash",
+      "position": "WR",
+      "team": "CLE",
+      "overall_rank": 1072,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> CLE",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-09T08:35:23",
+      "player_id": "7605",
+      "name": "Kyle Trask",
+      "position": "QB",
+      "team": "CAR",
+      "overall_rank": null,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> CAR",
       "priority": "MEDIUM"
     }
   ]
