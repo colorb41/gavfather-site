@@ -1,34 +1,34 @@
 overall_rank,player_name,position,recent_team,projected_ppg,projected_ppg_std,projected_ppg_half_ppr,projected_ppg_ppr,projected_ppg_superflex,reliability_tier,situation_score,career_seasons,tier,live_status,age,data_basis,draft_value_score,draft_value_score_std,draft_value_score_half_ppr,draft_value_score_ppr,avg_receptions_per_game,avg_targets_per_game,avg_carries_per_game,Injury_Flag,consensus_adp,adp_diff,consensus_adp_overall,consensus_adp_positional,our_positional_rank,adp_diff_positional,adp_diff_overall,adp_signal
-22,Trey McBride,TE,ARI,13.0,,13.0,,13.0,VOLATILE,50.0,4,Elite,,26.8,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [consensus_floor:13.0:TE1 consensus],,,,,,,,,45.1,23.1,45.1,1.0,1,0.0,23.1,NEUTRAL
-34,Brock Bowers,TE,LV,12.5,,12.5,,12.5,EMERGING,50.0,2,Elite,,23.7,2025*0.50+2024*0.30+rel[EMERGING*1.00] [sophomore_leap_player] [consensus_floor:12.5:TE2 consensus],,,,,,,,,45.4,11.4,45.4,2.0,2,0.0,11.4,NEUTRAL
-45,George Kittle,TE,SF,10.62,,10.62,,10.62,PROVEN_ELITE,50.0,6,Elite,,32.9,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12] [camp_research:PUP:0.82:Drop to TE3. McBride and Bowers ahead until cleared.],,,,,,,,,128.1,83.1,128.1,11.0,3,8.0,83.1,BUY
-49,Tyler Warren,TE,IND,10.0,,10.0,,10.0,EMERGING,65.0,1,TE1,,24.3,2025_only+rel[EMERGING*1.00] [sophomore_leap_player] [team_corr:IND:1.0:IND TE1 - Steichen offense] [consensus_floor:10.0:TE4 consensus IND],,,,,,,,,72.2,23.200000000000003,72.2,4.0,4,0.0,23.200000000000003,NEUTRAL
-50,Dallas Goedert,TE,PHI,10.66,,10.66,,10.66,PROVEN_ELITE,50.0,6,TE1,,31.7,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,105.9,55.900000000000006,105.9,8.0,5,3.0,55.900000000000006,BUY
-52,Harold Fannin Jr.,TE,CLE,10.5,,10.5,,10.5,EMERGING,58.0,1,TE1,,22.1,2025_only+rel[EMERGING*1.00] [sophomore_leap_player] [team_corr:CLE:1.0:CLE TE1 - Monken run heavy] [consensus_floor:10.5:TE3 consensus CLE],,,,,,,,,84.7,32.7,84.7,6.0,6,0.0,32.7,NEUTRAL
-53,Colston Loveland,TE,CHI,10.0,,10.0,,10.0,EMERGING,72.0,1,TE1,,22.4,2025_only+rel[EMERGING*1.00] [sophomore_leap_player] [team_corr:CHI:1.05:CHI TE1 - Caleb Williams year 2] [consensus_floor:10.0:TE4 consensus CHI],,,,,,,,,68.5,15.5,68.5,3.0,7,-4.0,15.5,FADE
-60,Dalton Kincaid,TE,BUF,9.5,,9.5,,9.5,PROVEN_SOLID,50.0,3,TE1,,26.9,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06] [consensus_floor:9.5:TE BUF],,,,,,,,,153.2,93.2,153.2,15.0,8,7.0,93.2,BUY
+22,Trey McBride,TE,ARI,13.0,,13.0,,13.0,VOLATILE,50.0,4,Elite,,26.8,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [consensus_floor:13.0:TE1 consensus],,,,,,,,,44.8,22.8,44.8,1.0,1,0.0,22.8,NEUTRAL
+34,Brock Bowers,TE,LV,12.5,,12.5,,12.5,EMERGING,50.0,2,Elite,,23.7,2025*0.50+2024*0.30+rel[EMERGING*1.00] [sophomore_leap_player] [consensus_floor:12.5:TE2 consensus],,,,,,,,,45.5,11.5,45.5,2.0,2,0.0,11.5,NEUTRAL
+45,George Kittle,TE,SF,10.62,,10.62,,10.62,PROVEN_ELITE,50.0,6,Elite,,32.9,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12] [camp_research:PUP:0.82:Drop to TE3. McBride and Bowers ahead until cleared.],,,,,,,,,126.4,81.4,126.4,11.0,3,8.0,81.4,BUY
+49,Tyler Warren,TE,IND,10.0,,10.0,,10.0,EMERGING,65.0,1,TE1,,24.3,2025_only+rel[EMERGING*1.00] [sophomore_leap_player] [team_corr:IND:1.0:IND TE1 - Steichen offense] [consensus_floor:10.0:TE4 consensus IND],,,,,,,,,71.8,22.8,71.8,4.0,4,0.0,22.8,NEUTRAL
+50,Dallas Goedert,TE,PHI,10.66,,10.66,,10.66,PROVEN_ELITE,50.0,6,TE1,,31.7,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,103.2,53.2,103.2,8.0,5,3.0,53.2,BUY
+52,Harold Fannin Jr.,TE,CLE,10.5,,10.5,,10.5,EMERGING,58.0,1,TE1,,22.1,2025_only+rel[EMERGING*1.00] [sophomore_leap_player] [team_corr:CLE:1.0:CLE TE1 - Monken run heavy] [consensus_floor:10.5:TE3 consensus CLE],,,,,,,,,85.0,33.0,85.0,6.0,6,0.0,33.0,NEUTRAL
+53,Colston Loveland,TE,CHI,10.0,,10.0,,10.0,EMERGING,72.0,1,TE1,,22.4,2025_only+rel[EMERGING*1.00] [sophomore_leap_player] [team_corr:CHI:1.05:CHI TE1 - Caleb Williams year 2] [consensus_floor:10.0:TE4 consensus CHI],,,,,,,,,68.3,15.299999999999995,68.3,3.0,7,-4.0,15.299999999999995,FADE
+60,Dalton Kincaid,TE,BUF,9.5,,9.5,,9.5,PROVEN_SOLID,50.0,3,TE1,,26.9,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06] [consensus_floor:9.5:TE BUF],,,,,,,,,152.0,92.0,152.0,15.0,8,7.0,92.0,BUY
 73,Kyle Pitts,TE,ATL,9.08,,9.08,,9.08,PROVEN_ELITE,50.0,5,TE1/2,,25.9,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,9,,,UNKNOWN
-79,Travis Kelce,TE,KC,8.68,,8.68,,8.68,VOLATILE,50.0,6,TE1/2,,36.9,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,119.8,40.8,119.8,10.0,10,0.0,40.8,NEUTRAL
-82,Hunter Henry,TE,NE,8.61,,8.61,,8.61,PROVEN_ELITE,50.0,6,TE1/2,,31.7,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,165.6,83.6,165.6,17.0,11,6.0,83.6,BUY
+79,Travis Kelce,TE,KC,8.68,,8.68,,8.68,VOLATILE,50.0,6,TE1/2,,36.9,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,121.8,42.8,121.8,10.0,10,0.0,42.8,NEUTRAL
+82,Hunter Henry,TE,NE,8.61,,8.61,,8.61,PROVEN_ELITE,50.0,6,TE1/2,,31.7,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,162.9,80.9,162.9,17.0,11,6.0,80.9,BUY
 85,Darren Waller,TE,MIA,8.79,,8.79,,8.79,PROVEN_SOLID,50.0,4,TE1/2,,34.0,2025*0.50+2023*0.20+rel[PROVEN_SOLID*1.06] [camp_notes:MILD:0.93:Darren Waller listed as Questionable. ],,,,,,,,,,,,,12,,,UNKNOWN
-86,Sam LaPorta,TE,DET,10.53,,10.53,,10.53,PROVEN_SOLID,50.0,3,TE2,,25.6,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06],,,,,,,,,93.5,7.5,93.5,7.0,13,-6.0,7.5,FADE
+86,Sam LaPorta,TE,DET,10.53,,10.53,,10.53,PROVEN_SOLID,50.0,3,TE2,,25.6,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06],,,,,,,,,93.8,7.799999999999997,93.8,7.0,13,-6.0,7.799999999999997,FADE
 98,Zach Ertz,TE,WAS,7.85,,7.85,,7.85,PROVEN_ELITE,50.0,5,TE2,,35.8,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12] [camp_notes:MILD:0.93:Zach Ertz listed as Questionable. ],,,,,,,,,,,,,14,,,UNKNOWN
-100,Tucker Kraft,TE,GB,9.2,,9.2,,9.2,VOLATILE,50.0,3,TE2,,25.8,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [camp_research:RETURNING:1.05:Rising sleeper TE. Ahead of schedule. GB passing game benefits.],,,,,,,,,110.4,10.400000000000006,110.4,9.0,15,-6.0,10.400000000000006,FADE
+100,Tucker Kraft,TE,GB,9.2,,9.2,,9.2,VOLATILE,50.0,3,TE2,,25.8,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [camp_research:RETURNING:1.05:Rising sleeper TE. Ahead of schedule. GB passing game benefits.],,,,,,,,,106.4,6.400000000000006,106.4,9.0,15,-6.0,6.400000000000006,FADE
 101,Dalton Schultz,TE,HOU,7.92,,7.92,,7.92,PROVEN_ELITE,50.0,6,TE2,,30.1,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,16,,,UNKNOWN
 103,Tyler Higbee,TE,LA,7.49,,7.49,,7.49,PROVEN_ELITE,50.0,5,TE2,,33.7,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,17,,,UNKNOWN
 107,T.J. Hockenson,TE,MIN,7.84,,7.84,,7.84,PROVEN_SOLID,50.0,6,TE2,,29.2,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,18,,,UNKNOWN
 109,Cade Otton,TE,TB,7.55,,7.55,,7.55,PROVEN_ELITE,50.0,4,Streamer,,27.4,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,19,,,UNKNOWN
 112,Jake Tonges,TE,SF,7.24,,7.24,,7.24,UNPROVEN,50.0,1,Streamer,,27.2,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,20,,,UNKNOWN
 116,Pat Freiermuth,TE,PIT,7.26,,7.26,,7.26,PROVEN_ELITE,50.0,5,Streamer,,27.9,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,21,,,UNKNOWN
-121,Jake Ferguson,TE,DAL,6.97,,6.97,,6.97,VOLATILE,50.0,4,Streamer,,27.6,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,151.0,30.0,151.0,14.0,22,-8.0,30.0,FADE
-123,Mark Andrews,TE,BAL,7.01,,7.01,,7.01,VOLATILE,50.0,6,Streamer,,31.0,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,130.5,7.5,130.5,12.0,23,-11.0,7.5,FADE
-195,Brenton Strange,TE,JAX,6.76,,6.76,,6.76,EMERGING,50.0,2,Streamer,,25.7,2025*0.50+2024*0.30+rel[EMERGING*1.03],,,,,,,,,166.1,-28.90000000000001,166.1,18.0,24,-6.0,-28.90000000000001,FADE
-196,Juwan Johnson,TE,NO,6.56,,6.56,,6.56,VOLATILE,50.0,5,Streamer,,30.0,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,162.4,-33.599999999999994,162.4,16.0,25,-9.0,-33.599999999999994,FADE
+121,Jake Ferguson,TE,DAL,6.97,,6.97,,6.97,VOLATILE,50.0,4,Streamer,,27.6,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,151.8,30.80000000000001,151.8,14.0,22,-8.0,30.80000000000001,FADE
+123,Mark Andrews,TE,BAL,7.01,,7.01,,7.01,VOLATILE,50.0,6,Streamer,,31.0,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,133.6,10.599999999999994,133.6,12.0,23,-11.0,10.599999999999994,FADE
+195,Brenton Strange,TE,JAX,6.76,,6.76,,6.76,EMERGING,50.0,2,Streamer,,25.7,2025*0.50+2024*0.30+rel[EMERGING*1.03],,,,,,,,,164.1,-30.90000000000001,164.1,18.0,24,-6.0,-30.90000000000001,FADE
+196,Juwan Johnson,TE,NO,6.56,,6.56,,6.56,VOLATILE,50.0,5,Streamer,,30.0,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,153.7,-42.30000000000001,153.7,16.0,25,-9.0,-42.30000000000001,FADE
 198,Theo Johnson,TE,NYG,6.59,,6.59,,6.59,EMERGING,50.0,2,Streamer,,25.5,2025*0.50+2024*0.30+rel[EMERGING*1.03],,,,,,,,,,,,,26,,,UNKNOWN
 202,David Njoku,TE,CLE,7.38,,7.38,,7.38,VOLATILE,50.0,6,Streamer,,30.1,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,,,,,27,,,UNKNOWN
 205,Oronde Gadsden II,TE,LAC,6.52,,6.52,,6.52,UNPROVEN,50.0,1,Streamer,,23.2,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,28,,,UNKNOWN
 215,AJ Barner,TE,SEA,6.17,,6.17,,6.17,EMERGING,50.0,2,Streamer,,24.3,2025*0.50+2024*0.30+rel[EMERGING*1.03],,,,,,,,,,,,,29,,,UNKNOWN
-228,Isaiah Likely,TE,BAL,6.51,,6.51,,6.51,PROVEN_ELITE,50.0,4,Streamer,,26.4,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,136.4,-91.6,136.4,13.0,30,-17.0,-91.6,FADE
+228,Isaiah Likely,TE,BAL,6.51,,6.51,,6.51,PROVEN_ELITE,50.0,4,Streamer,,26.4,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,136.9,-91.1,136.9,13.0,30,-17.0,-91.1,FADE
 229,Chig Okonkwo,TE,TEN,6.14,,6.14,,6.14,PROVEN_ELITE,50.0,4,Streamer,,27.0,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,31,,,UNKNOWN
 241,Evan Engram,TE,DEN,5.73,,5.73,,5.73,VOLATILE,50.0,6,Streamer,,32.0,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,,,,,32,,,UNKNOWN
 242,Jonnu Smith,TE,PIT,5.57,,5.57,,5.57,VOLATILE,50.0,6,Streamer,,31.0,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,,,,,33,,,UNKNOWN
