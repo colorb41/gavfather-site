@@ -1,74 +1,8 @@
 {
-  "updated_at": "2026-08-10T16:48:18",
+  "updated_at": "2026-08-10T20:35:49",
   "total_changes": 100,
-  "high_priority_count": 5,
+  "high_priority_count": 6,
   "changes": [
-    {
-      "timestamp": "2026-08-08T16:25:51",
-      "player_id": "13859",
-      "name": "Jalen Walthall",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from NYJ",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-08T16:25:51",
-      "player_id": "9500",
-      "name": "Josh Downs",
-      "position": "WR",
-      "team": "IND",
-      "overall_rank": 129,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Groin)",
-      "priority": "HIGH"
-    },
-    {
-      "timestamp": "2026-08-08T16:25:51",
-      "player_id": "13725",
-      "name": "Dominic Richardson",
-      "position": "RB",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from DAL",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-08T16:25:51",
-      "player_id": "10863",
-      "name": "A.T. Perry",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from PIT",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-08T16:25:51",
-      "player_id": "12975",
-      "name": "JJ Galbreath",
-      "position": "TE",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from PIT",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-08T16:25:51",
-      "player_id": "8176",
-      "name": "Danny Gray",
-      "position": "WR",
-      "team": "PHI",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Concussion)",
-      "priority": "MEDIUM"
-    },
     {
       "timestamp": "2026-08-08T20:22:15",
       "player_id": "13415",
@@ -1101,6 +1035,72 @@
       "overall_rank": 62,
       "change_type": "INJURY_WORSENED",
       "detail": "Healthy -> Questionable (Leg)",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-08-10T20:35:44",
+      "player_id": "10867",
+      "name": "Jake Bobo",
+      "position": "WR",
+      "team": "SEA",
+      "overall_rank": 973,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-10T20:35:44",
+      "player_id": "4034",
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "team": "SF",
+      "overall_rank": 7,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Undisclosed)",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-08-10T20:35:44",
+      "player_id": "12536",
+      "name": "Jaylin Noel",
+      "position": "WR",
+      "team": "HOU",
+      "overall_rank": 638,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-10T20:35:45",
+      "player_id": "8172",
+      "name": "Greg Dulcich",
+      "position": "TE",
+      "team": "MIA",
+      "overall_rank": 478,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-10T20:35:45",
+      "player_id": "9497",
+      "name": "Jalin Hyatt",
+      "position": "WR",
+      "team": "NYG",
+      "overall_rank": 1060,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Ankle)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-10T20:35:45",
+      "player_id": "6806",
+      "name": "J.K. Dobbins",
+      "position": "RB",
+      "team": "DEN",
+      "overall_rank": 43,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Undisclosed)",
       "priority": "HIGH"
     }
   ]
