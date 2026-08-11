@@ -1,129 +1,8 @@
 {
-  "updated_at": "2026-08-11T12:50:18",
+  "updated_at": "2026-08-11T16:53:31",
   "total_changes": 100,
   "high_priority_count": 6,
   "changes": [
-    {
-      "timestamp": "2026-08-09T01:13:25",
-      "player_id": "13208",
-      "name": "Kyrese Rowan",
-      "position": "WR",
-      "team": "DEN",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> DEN",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-09T04:59:00",
-      "player_id": "1408",
-      "name": "Le'Veon Bell",
-      "position": "RB",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from TB",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-09T04:59:01",
-      "player_id": "11588",
-      "name": "Jawhar Jordan",
-      "position": "RB",
-      "team": "HOU",
-      "overall_rank": 377,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Hip)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-09T08:35:23",
-      "player_id": "11633",
-      "name": "Jamari Thrash",
-      "position": "WR",
-      "team": "CLE",
-      "overall_rank": 1072,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> CLE",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-09T08:35:23",
-      "player_id": "7605",
-      "name": "Kyle Trask",
-      "position": "QB",
-      "team": "CAR",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> CAR",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-09T13:54:21",
-      "player_id": "1408",
-      "name": "Le'Veon Bell",
-      "position": "RB",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from TB",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-09T13:54:21",
-      "player_id": "11633",
-      "name": "Jamari Thrash",
-      "position": "WR",
-      "team": "CLE",
-      "overall_rank": 1072,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> CLE",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-09T13:54:21",
-      "player_id": "7605",
-      "name": "Kyle Trask",
-      "position": "QB",
-      "team": "CAR",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> CAR",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-09T13:54:21",
-      "player_id": "14058",
-      "name": "Malick Meiga",
-      "position": "WR",
-      "team": "CAR",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Out (Undisclosed)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-09T13:54:21",
-      "player_id": "6039",
-      "name": "Ty Johnson",
-      "position": "RB",
-      "team": "BUF",
-      "overall_rank": 219,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Knee)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-09T13:54:21",
-      "player_id": "11588",
-      "name": "Jawhar Jordan",
-      "position": "RB",
-      "team": "HOU",
-      "overall_rank": 377,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Hip)",
-      "priority": "MEDIUM"
-    },
     {
       "timestamp": "2026-08-09T16:27:19",
       "player_id": "14058",
@@ -1101,6 +980,127 @@
       "overall_rank": 579,
       "change_type": "INJURY_IMPROVED",
       "detail": "IR -> Questionable",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-11T14:23:08",
+      "player_id": "7593",
+      "name": "Trey Sermon",
+      "position": "RB",
+      "team": "ATL",
+      "overall_rank": null,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> ATL",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-11T14:23:08",
+      "player_id": "14058",
+      "name": "Malick Meiga",
+      "position": "WR",
+      "team": "CAR",
+      "overall_rank": null,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> CAR",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-11T16:53:27",
+      "player_id": "10222",
+      "name": "Jayden Reed",
+      "position": "WR",
+      "team": "GB",
+      "overall_rank": 239,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-11T16:53:27",
+      "player_id": "13975",
+      "name": "Le'Meke Brockington",
+      "position": "WR",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from ATL",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-11T16:53:27",
+      "player_id": "8523",
+      "name": "Nick Muse",
+      "position": "TE",
+      "team": "ATL",
+      "overall_rank": null,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> ATL",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-11T16:53:27",
+      "player_id": "14031",
+      "name": "Kyron Hudson",
+      "position": "WR",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from CHI",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-11T16:53:27",
+      "player_id": "13328",
+      "name": "Anthony Hankerson",
+      "position": "RB",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from MIA",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-11T16:53:27",
+      "player_id": "14039",
+      "name": "Mante Morrow",
+      "position": "WR",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from LAC",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-11T16:53:27",
+      "player_id": "10212",
+      "name": "Josh Whyle",
+      "position": "TE",
+      "team": "GB",
+      "overall_rank": 745,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-11T16:53:27",
+      "player_id": "4435",
+      "name": "Anthony Firkser",
+      "position": "TE",
+      "team": "",
+      "overall_rank": 579,
+      "change_type": "RELEASED",
+      "detail": "Released from DET",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-11T16:53:27",
+      "player_id": "12501",
+      "name": "Matthew Golden",
+      "position": "WR",
+      "team": "GB",
+      "overall_rank": 553,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
       "priority": "LOW"
     }
   ]
