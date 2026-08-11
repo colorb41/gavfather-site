@@ -1,151 +1,8 @@
 {
-  "updated_at": "2026-08-11T16:53:31",
+  "updated_at": "2026-08-11T20:38:00",
   "total_changes": 100,
-  "high_priority_count": 6,
+  "high_priority_count": 15,
   "changes": [
-    {
-      "timestamp": "2026-08-09T16:27:19",
-      "player_id": "14058",
-      "name": "Malick Meiga",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Out (Undisclosed)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-09T16:27:19",
-      "player_id": "14058",
-      "name": "Malick Meiga",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from CAR",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-09T20:24:54",
-      "player_id": "10222",
-      "name": "Jayden Reed",
-      "position": "WR",
-      "team": "GB",
-      "overall_rank": 239,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Ankle)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-09T20:24:54",
-      "player_id": "11370",
-      "name": "Chris Brooks",
-      "position": "RB",
-      "team": "GB",
-      "overall_rank": 531,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "PUP -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-09T20:24:54",
-      "player_id": "8206",
-      "name": "Skylar Thompson",
-      "position": "QB",
-      "team": "BAL",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Undisclosed)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-09T20:24:54",
-      "player_id": "4179",
-      "name": "Joshua Dobbs",
-      "position": "QB",
-      "team": "DET",
-      "overall_rank": 1173,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> DET",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-09T20:24:54",
-      "player_id": "12217",
-      "name": "Shawn Bowman",
-      "position": "TE",
-      "team": "ARI",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> ARI",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-09T20:24:54",
-      "player_id": "2152",
-      "name": "Teddy Bridgewater",
-      "position": "QB",
-      "team": "DET",
-      "overall_rank": 1159,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> NA (Personal)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-09T20:24:55",
-      "player_id": "10212",
-      "name": "Josh Whyle",
-      "position": "TE",
-      "team": "GB",
-      "overall_rank": 745,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Neck)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-09T20:24:55",
-      "player_id": "6453",
-      "name": "D.J. Montgomery",
-      "position": "WR",
-      "team": "IND",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> IND",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-09T20:24:55",
-      "player_id": "12471",
-      "name": "DJ Giddens",
-      "position": "RB",
-      "team": "IND",
-      "overall_rank": 380,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Hamstring)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-09T20:24:55",
-      "player_id": "5086",
-      "name": "Marquez Valdes-Scantling",
-      "position": "WR",
-      "team": "DAL",
-      "overall_rank": 676,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Undisclosed)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-09T20:24:55",
-      "player_id": "12501",
-      "name": "Matthew Golden",
-      "position": "WR",
-      "team": "GB",
-      "overall_rank": 553,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Toe)",
-      "priority": "MEDIUM"
-    },
     {
       "timestamp": "2026-08-09T22:33:24",
       "player_id": "10222",
@@ -1102,6 +959,149 @@
       "change_type": "INJURY_IMPROVED",
       "detail": "Questionable -> Healthy",
       "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-11T20:37:55",
+      "player_id": "6783",
+      "name": "Jerry Jeudy",
+      "position": "WR",
+      "team": "CLE",
+      "overall_rank": 267,
+      "change_type": "DEMOTED_FROM_STARTER",
+      "detail": "Depth chart 1 -> 2",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-11T20:37:55",
+      "player_id": "7526",
+      "name": "Jaylen Waddle",
+      "position": "WR",
+      "team": "DEN",
+      "overall_rank": 80,
+      "change_type": "PROMOTED_TO_STARTER",
+      "detail": "Depth chart 2 -> 1",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-08-11T20:37:55",
+      "player_id": "12524",
+      "name": "Shedeur Sanders",
+      "position": "QB",
+      "team": "CLE",
+      "overall_rank": 907,
+      "change_type": "DEMOTED_FROM_STARTER",
+      "detail": "Depth chart 1 -> 2",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-11T20:37:55",
+      "player_id": "7021",
+      "name": "Rico Dowdle",
+      "position": "RB",
+      "team": "PIT",
+      "overall_rank": 119,
+      "change_type": "DEMOTED_FROM_STARTER",
+      "detail": "Depth chart 1 -> 2",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-08-11T20:37:55",
+      "player_id": "7694",
+      "name": "Tommy Tremble",
+      "position": "TE",
+      "team": "CAR",
+      "overall_rank": 473,
+      "change_type": "PROMOTED_TO_STARTER",
+      "detail": "Depth chart 2 -> 1",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-08-11T20:37:55",
+      "player_id": "12656",
+      "name": "Robbie Ouzts",
+      "position": "RB",
+      "team": "SEA",
+      "overall_rank": 206,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Questionable -> IR (Undisclosed)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-11T20:37:55",
+      "player_id": "9493",
+      "name": "Puka Nacua",
+      "position": "WR",
+      "team": "LAR",
+      "overall_rank": 3,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Undisclosed)",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-08-11T20:37:55",
+      "player_id": "8228",
+      "name": "Jaylen Warren",
+      "position": "RB",
+      "team": "PIT",
+      "overall_rank": 91,
+      "change_type": "PROMOTED_TO_STARTER",
+      "detail": "Depth chart 2 -> 1",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-08-11T20:37:55",
+      "player_id": "11600",
+      "name": "Ja'Tavion Sanders",
+      "position": "TE",
+      "team": "CAR",
+      "overall_rank": 566,
+      "change_type": "DEMOTED_FROM_STARTER",
+      "detail": "Depth chart 1 -> 2",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-11T20:37:55",
+      "player_id": "5045",
+      "name": "Courtland Sutton",
+      "position": "WR",
+      "team": "DEN",
+      "overall_rank": 46,
+      "change_type": "DEMOTED_FROM_STARTER",
+      "detail": "Depth chart 1 -> 2",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-08-11T20:37:55",
+      "player_id": "4017",
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "team": "CLE",
+      "overall_rank": null,
+      "change_type": "PROMOTED_TO_STARTER",
+      "detail": "Depth chart 2 -> 1",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-08-11T20:37:55",
+      "player_id": "13298",
+      "name": "KC Concepcion",
+      "position": "WR",
+      "team": "CLE",
+      "overall_rank": null,
+      "change_type": "PROMOTED_TO_STARTER",
+      "detail": "Depth chart 2 -> 1",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-08-11T20:37:55",
+      "player_id": "5846",
+      "name": "DK Metcalf",
+      "position": "WR",
+      "team": "PIT",
+      "overall_rank": 47,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Undisclosed)",
+      "priority": "HIGH"
     }
   ]
 }
