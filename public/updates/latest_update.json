@@ -1,118 +1,8 @@
 {
-  "updated_at": "2026-08-12T12:55:56",
+  "updated_at": "2026-08-12T16:52:32",
   "total_changes": 100,
-  "high_priority_count": 23,
+  "high_priority_count": 22,
   "changes": [
-    {
-      "timestamp": "2026-08-10T20:35:44",
-      "player_id": "4034",
-      "name": "Christian McCaffrey",
-      "position": "RB",
-      "team": "SF",
-      "overall_rank": 7,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Undisclosed)",
-      "priority": "HIGH"
-    },
-    {
-      "timestamp": "2026-08-10T20:35:44",
-      "player_id": "12536",
-      "name": "Jaylin Noel",
-      "position": "WR",
-      "team": "HOU",
-      "overall_rank": 638,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-10T20:35:45",
-      "player_id": "8172",
-      "name": "Greg Dulcich",
-      "position": "TE",
-      "team": "MIA",
-      "overall_rank": 478,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-10T20:35:45",
-      "player_id": "9497",
-      "name": "Jalin Hyatt",
-      "position": "WR",
-      "team": "NYG",
-      "overall_rank": 1060,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Ankle)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-10T20:35:45",
-      "player_id": "6806",
-      "name": "J.K. Dobbins",
-      "position": "RB",
-      "team": "DEN",
-      "overall_rank": 43,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Undisclosed)",
-      "priority": "HIGH"
-    },
-    {
-      "timestamp": "2026-08-10T22:39:29",
-      "player_id": "11636",
-      "name": "Johnny Wilson",
-      "position": "WR",
-      "team": "PHI",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Knee)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-10T22:39:29",
-      "player_id": "13331",
-      "name": "Dae'Quan Wright",
-      "position": "TE",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from PHI",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-10T22:39:29",
-      "player_id": "11232",
-      "name": "Isaiah Winstead",
-      "position": "WR",
-      "team": "PIT",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> PIT",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-10T22:39:29",
-      "player_id": "11046",
-      "name": "Colton Dowell",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from PIT",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-10T22:39:29",
-      "player_id": "10867",
-      "name": "Jake Bobo",
-      "position": "WR",
-      "team": "SEA",
-      "overall_rank": 973,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
     {
       "timestamp": "2026-08-10T22:39:29",
       "player_id": "8523",
@@ -1102,6 +992,116 @@
       "change_type": "INJURY_WORSENED",
       "detail": "Healthy -> Questionable (Knee)",
       "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-12T14:23:58",
+      "player_id": "4040",
+      "name": "JuJu Smith-Schuster",
+      "position": "WR",
+      "team": "NYG",
+      "overall_rank": 626,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Knee)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-12T16:52:28",
+      "player_id": "11931",
+      "name": "Austin Reed",
+      "position": "QB",
+      "team": "BAL",
+      "overall_rank": null,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> BAL",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-12T16:52:28",
+      "player_id": "13431",
+      "name": "Miles Kitselman",
+      "position": "TE",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from DET",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-12T16:52:28",
+      "player_id": "7561",
+      "name": "Elijah Mitchell",
+      "position": "RB",
+      "team": "",
+      "overall_rank": 761,
+      "change_type": "RELEASED",
+      "detail": "Released from PHI",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-12T16:52:28",
+      "player_id": "4219",
+      "name": "Jeremy McNichols",
+      "position": "RB",
+      "team": "WAS",
+      "overall_rank": 461,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Quadriceps)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-12T16:52:28",
+      "player_id": "12514",
+      "name": "Emeka Egbuka",
+      "position": "WR",
+      "team": "TB",
+      "overall_rank": 29,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Undisclosed)",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-08-12T16:52:28",
+      "player_id": "8206",
+      "name": "Skylar Thompson",
+      "position": "QB",
+      "team": "BAL",
+      "overall_rank": null,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Questionable -> IR (Undisclosed)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-12T16:52:28",
+      "player_id": "13309",
+      "name": "Aaron Anderson",
+      "position": "WR",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from CLE",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-12T16:52:28",
+      "player_id": "14068",
+      "name": "Drew Biber",
+      "position": "TE",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from GB",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-12T16:52:28",
+      "player_id": "7989",
+      "name": "DJ Turner",
+      "position": "WR",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from HOU",
+      "priority": "LOW"
     }
   ]
 }
