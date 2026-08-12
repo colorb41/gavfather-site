@@ -1,19 +1,8 @@
 {
-  "updated_at": "2026-08-12T09:07:04",
+  "updated_at": "2026-08-12T12:55:56",
   "total_changes": 100,
   "high_priority_count": 23,
   "changes": [
-    {
-      "timestamp": "2026-08-10T20:35:44",
-      "player_id": "10867",
-      "name": "Jake Bobo",
-      "position": "WR",
-      "team": "SEA",
-      "overall_rank": 973,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
     {
       "timestamp": "2026-08-10T20:35:44",
       "player_id": "4034",
@@ -1102,6 +1091,17 @@
       "change_type": "INJURY_IMPROVED",
       "detail": "IR -> Questionable",
       "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-12T12:55:51",
+      "player_id": "4040",
+      "name": "JuJu Smith-Schuster",
+      "position": "WR",
+      "team": "NYG",
+      "overall_rank": 626,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Knee)",
+      "priority": "MEDIUM"
     }
   ]
 }
