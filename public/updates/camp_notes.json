@@ -1,49 +1,27 @@
 {
-  "updated": "2026-08-13T14:26:35",
+  "updated": "2026-08-13T22:44:35",
   "source": "CampResearcher.v2",
   "override_count": 11,
-  "player_count": 39,
-  "news_items_processed": 1413,
+  "player_count": 34,
+  "news_items_processed": 1408,
   "players": {
-    "R.White": {
-      "status": "NEUTRAL",
-      "injury": "TE Carolina Panthers TE Carolina Panthers TE Carolina Panthers",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "TE Carolina Panthers",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "TE Carolina Panthers",
-        "TE Kansas City Chiefs"
-      ],
-      "old_rank": 126,
-      "new_rank": 123,
-      "old_ppg": 8.63,
-      "new_ppg": 8.63,
-      "position": "RB",
-      "team": "TB",
-      "updated": "2026-08-13",
-      "auto_generated": true,
-      "from_override": false
-    },
     "T.Lawrence": {
       "status": "NEUTRAL",
-      "injury": "WR Jacksonville Jaguars WR Jacksonville Jaguars WR Jacksonville Jaguars",
+      "injury": "WR Pittsburgh Steelers Leg WR Pittsburgh Steelers Leg WR Pittsburgh Steelers Leg",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "WR Jacksonville Jaguars",
+      "ranking_note": "WR Pittsburgh Steelers Leg",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "WR Jacksonville Jaguars",
-        "WR Philadelphia Eagles Hamstring",
-        "WR Carolina Panthers",
-        "WR New England Patriots",
-        "WR Minnesota Vikings"
+        "WR Pittsburgh Steelers Leg",
+        "WR Pittsburgh Steelers Undisclosed",
+        "WR New York Giants Knee - ACL",
+        "WR Los Angeles Rams Groin",
+        "WR Dallas Cowboys Knee"
       ],
-      "old_rank": 29,
-      "new_rank": 28,
+      "old_rank": 28,
+      "new_rank": 29,
       "old_ppg": 12.59,
       "new_ppg": 12.59,
       "position": "QB",
@@ -52,105 +30,41 @@
       "auto_generated": true,
       "from_override": false
     },
-    "A.St. Brown": {
-      "status": "NEUTRAL",
-      "injury": "A",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "A.J. Brown Top target during joint practice WR New England Patriots August 12, 2026 Brown remained the Patriots' No. 1 option in the passing game during Tuesday's joint practice with the Colts, Ethan Hurwitz of SI.com reports. ANALYSIS Subs",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
+    "D.Metcalf": {
+      "status": "MILD",
+      "injury": "DK Metcalf - Questionable DK Metcalf listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "DK Metcalf listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
       "headlines": [
-        "A.J. Brown",
-        "Amon-Ra St. Brown"
+        "DK Metcalf",
+        "DK Metcalf - Questionable"
       ],
-      "old_rank": 9,
-      "new_rank": 10,
-      "old_ppg": 15.0,
-      "new_ppg": 15.0,
-      "position": "WR",
-      "team": "NE",
-      "updated": "2026-08-13",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "N.Collins": {
-      "status": "NEUTRAL",
-      "injury": "Nico Collins Nico Collins Showing no rust ahead of 2026 WR Houston Texans August 12, 2026 Collins has been in top form a",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Nico Collins Showing no rust ahead of 2026 WR Houston Texans August 12, 2026 Collins has been in top form at practice ahead of the 2026 campaign, John Harris of the Texans' official website reports. ANALYSIS Subscribe now to instantly revea",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Nico Collins"
-      ],
-      "old_rank": 42,
-      "new_rank": 42,
-      "old_ppg": 11.67,
-      "new_ppg": 11.67,
-      "position": "WR",
-      "team": "HOU",
-      "updated": "2026-08-13",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "J.Smith-Njigba": {
-      "status": "NEUTRAL",
-      "injury": "Jaxon Smith-Njigba Jaxon Smith-Njigba Always willing to be coached up WR Seattle Seahawks August 12, 2026 Smith-Njigba i",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Jaxon Smith-Njigba Always willing to be coached up WR Seattle Seahawks August 12, 2026 Smith-Njigba is always willing to be coached up in an attempt to be a better player, Anthony Moeglin of Roundtable Sports reports. ANALYSIS Subscribe now",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Jaxon Smith-Njigba"
-      ],
-      "old_rank": 107,
-      "new_rank": 107,
-      "old_ppg": 9.34,
-      "new_ppg": 9.34,
+      "old_rank": 140,
+      "new_rank": 180,
+      "old_ppg": 7.67,
+      "new_ppg": 7.13,
       "position": "WR",
       "team": "SEA",
       "updated": "2026-08-13",
       "auto_generated": true,
       "from_override": false
     },
-    "T.Pollard": {
-      "status": "NEUTRAL",
-      "injury": "irt at the Titans' joint practice with the",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Tony Pollard Looking to remain top option in TEN RB Tennessee Titans August 12, 2026 Pollard found paydirt at the Titans' joint practice with the 49ers on Tuesday, Jim Wyatt of the Titans' official website reports. ANALYSIS Subscribe now to",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Tony Pollard"
-      ],
-      "old_rank": 148,
-      "new_rank": 147,
-      "old_ppg": 7.49,
-      "new_ppg": 7.49,
-      "position": "RB",
-      "team": "TEN",
-      "updated": "2026-08-13",
-      "auto_generated": true,
-      "from_override": false
-    },
     "R.Blackshear": {
       "status": "NEUTRAL",
-      "injury": "RB Carolina Panthers RB Carolina Panthers RB Carolina Panthers",
+      "injury": "Undisclosed RB New England Patriots Undisclosed RB",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "RB Carolina Panthers",
+      "ranking_note": "RB New England Patriots Undisclosed",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "RB Carolina Panthers",
-        "RB Seattle Seahawks Lower Body",
-        "RB Kansas City Chiefs"
+        "RB New England Patriots Undisclosed",
+        "RB Jacksonville Jaguars"
       ],
-      "old_rank": 195,
+      "old_rank": 194,
       "new_rank": 201,
       "old_ppg": 6.77,
       "new_ppg": 6.77,
@@ -160,23 +74,67 @@
       "auto_generated": true,
       "from_override": false
     },
-    "B.Nix": {
+    "T.McBride": {
       "status": "NEUTRAL",
-      "injury": "Bo Nix Bo Nix Won't play preseason Week 1 QB Denver Broncos August 12, 2026 Nix isn't in line to play in Friday's presea",
+      "injury": "Knee DE Los Angeles Rams Knee DE Los Angeles",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "Bo Nix Won't play preseason Week 1 QB Denver Broncos August 12, 2026 Nix isn't in line to play in Friday's preseason opener against the Falcons, James Palmer of The Athletic reports. ANALYSIS Subscribe now to instantly reveal our take on th",
+      "ranking_note": "DE Los Angeles Rams Knee",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "Bo Nix"
+        "DE Los Angeles Rams Knee",
+        "Tre McBride - Inactive"
       ],
-      "old_rank": 13,
-      "new_rank": 13,
-      "old_ppg": 14.37,
-      "new_ppg": 14.37,
-      "position": "QB",
-      "team": "DEN",
+      "old_rank": 112,
+      "new_rank": 111,
+      "old_ppg": 9.2,
+      "new_ppg": 9.2,
+      "position": "TE",
+      "team": "ARI",
+      "updated": "2026-08-13",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "C.Brown": {
+      "status": "NEUTRAL",
+      "injury": "CB Baltimore Ravens Leg CB Baltimore Ravens Leg CB Baltimore Ravens Leg",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "CB Baltimore Ravens Leg",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "CB Baltimore Ravens Leg"
+      ],
+      "old_rank": 51,
+      "new_rank": 51,
+      "old_ppg": 11.14,
+      "new_ppg": 11.14,
+      "position": "RB",
+      "team": "CIN",
+      "updated": "2026-08-13",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Z.Flowers": {
+      "status": "MILD",
+      "injury": "Zay Flowers - Questionable Zay Flowers listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Zay Flowers listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "Zay Flowers",
+        "Zay Flowers - Questionable"
+      ],
+      "old_rank": 150,
+      "new_rank": 188,
+      "old_ppg": 7.38,
+      "new_ppg": 6.86,
+      "position": "WR",
+      "team": "BAL",
       "updated": "2026-08-13",
       "auto_generated": true,
       "from_override": false
@@ -192,8 +150,8 @@
       "headlines": [
         "Corey Washington - Inactive"
       ],
-      "old_rank": 218,
-      "new_rank": 227,
+      "old_rank": 245,
+      "new_rank": 252,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
@@ -244,27 +202,6 @@
       "new_ppg": 12.2,
       "position": "RB",
       "team": "LA",
-      "updated": "2026-08-13",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "T.McBride": {
-      "status": "NEUTRAL",
-      "injury": "Tre McBride - Inactive Tre McBride listed as Inactive",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Tre McBride listed as Inactive. ",
-      "impact": "NEUTRAL",
-      "source": "Sleeper",
-      "headlines": [
-        "Tre McBride - Inactive"
-      ],
-      "old_rank": 112,
-      "new_rank": 111,
-      "old_ppg": 9.2,
-      "new_ppg": 9.2,
-      "position": "TE",
-      "team": "ARI",
       "updated": "2026-08-13",
       "auto_generated": true,
       "from_override": false
@@ -343,8 +280,8 @@
       "headlines": [
         "David Olson - Inactive"
       ],
-      "old_rank": 421,
-      "new_rank": 421,
+      "old_rank": 420,
+      "new_rank": 417,
       "old_ppg": 4.6,
       "new_ppg": 4.6,
       "position": "TE",
@@ -364,8 +301,8 @@
       "headlines": [
         "Adrien Robinson - Inactive"
       ],
-      "old_rank": 429,
-      "new_rank": 432,
+      "old_rank": 419,
+      "new_rank": 418,
       "old_ppg": 4.6,
       "new_ppg": 4.6,
       "position": "TE",
@@ -395,27 +332,6 @@
       "auto_generated": true,
       "from_override": false
     },
-    "L.Musgrave": {
-      "status": "MODERATE",
-      "injury": "PUP Luke Musgrave listed as PUP",
-      "week1_outlook": "UNCERTAIN",
-      "ppg_multiplier": 0.82,
-      "ranking_note": "Luke Musgrave listed as PUP. ",
-      "impact": "MODERATE",
-      "source": "Sleeper",
-      "headlines": [
-        "Luke Musgrave - PUP"
-      ],
-      "old_rank": 401,
-      "new_rank": 475,
-      "old_ppg": 4.6,
-      "new_ppg": 3.77,
-      "position": "TE",
-      "team": "GB",
-      "updated": "2026-08-13",
-      "auto_generated": true,
-      "from_override": false
-    },
     "J.Johnson": {
       "status": "NEUTRAL",
       "injury": "Josh Johnson - Inactive Josh Johnson listed as Inactive",
@@ -427,7 +343,7 @@
       "headlines": [
         "Josh Johnson - Inactive"
       ],
-      "old_rank": 364,
+      "old_rank": 365,
       "new_rank": 362,
       "old_ppg": 5.1,
       "new_ppg": 5.1,
@@ -470,33 +386,12 @@
         "Ty Johnson - Questionable",
         "Tez Johnson - Questionable"
       ],
-      "old_rank": 463,
+      "old_rank": 464,
       "new_rank": 473,
       "old_ppg": 5.15,
       "new_ppg": 4.79,
       "position": "RB",
       "team": "BUF",
-      "updated": "2026-08-13",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Z.Flowers": {
-      "status": "MILD",
-      "injury": "Zay Flowers - Questionable Zay Flowers listed as Questionable",
-      "week1_outlook": "EXPECTED OK",
-      "ppg_multiplier": 0.93,
-      "ranking_note": "Zay Flowers listed as Questionable. ",
-      "impact": "MILD",
-      "source": "Sleeper",
-      "headlines": [
-        "Zay Flowers - Questionable"
-      ],
-      "old_rank": 150,
-      "new_rank": 188,
-      "old_ppg": 7.38,
-      "new_ppg": 6.86,
-      "position": "WR",
-      "team": "BAL",
       "updated": "2026-08-13",
       "auto_generated": true,
       "from_override": false
@@ -518,6 +413,27 @@
       "new_ppg": 6.01,
       "position": "TE",
       "team": "TB",
+      "updated": "2026-08-13",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "T.Reiman": {
+      "status": "MODERATE",
+      "injury": "PUP Tip Reiman listed as PUP",
+      "week1_outlook": "UNCERTAIN",
+      "ppg_multiplier": 0.82,
+      "ranking_note": "Tip Reiman listed as PUP. ",
+      "impact": "MODERATE",
+      "source": "Sleeper",
+      "headlines": [
+        "Tip Reiman - PUP"
+      ],
+      "old_rank": 400,
+      "new_rank": 475,
+      "old_ppg": 4.6,
+      "new_ppg": 3.77,
+      "position": "TE",
+      "team": "ARI",
       "updated": "2026-08-13",
       "auto_generated": true,
       "from_override": false
@@ -554,33 +470,12 @@
       "headlines": [
         "Bisi Johnson - Inactive"
       ],
-      "old_rank": 241,
-      "new_rank": 252,
+      "old_rank": 238,
+      "new_rank": 227,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
       "team": "PIT",
-      "updated": "2026-08-13",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "D.Metcalf": {
-      "status": "MILD",
-      "injury": "DK Metcalf - Questionable DK Metcalf listed as Questionable",
-      "week1_outlook": "EXPECTED OK",
-      "ppg_multiplier": 0.93,
-      "ranking_note": "DK Metcalf listed as Questionable. ",
-      "impact": "MILD",
-      "source": "Sleeper",
-      "headlines": [
-        "DK Metcalf - Questionable"
-      ],
-      "old_rank": 140,
-      "new_rank": 180,
-      "old_ppg": 7.67,
-      "new_ppg": 7.13,
-      "position": "WR",
-      "team": "SEA",
       "updated": "2026-08-13",
       "auto_generated": true,
       "from_override": false
