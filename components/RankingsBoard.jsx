@@ -35,7 +35,9 @@ function formatUpdated(updatedAt) {
   if (!updatedAt) return `Updated ${fallbackDate}`
   try {
     const d = new Date(updatedAt)
-    if (Number.isNaN(d.getTime())) return `Updated ${fallbackDate}`
+    if (Number.isNaN(d.getTime()) || d.getUTCFullYear() < 2026) {
+      return `Updated ${fallbackDate}`
+    }
     return `Updated ${formatEasternDate(d)}`
   } catch {
     return `Updated ${fallbackDate}`
