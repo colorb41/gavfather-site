@@ -1,6 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import { Cinzel, Inter, JetBrains_Mono } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { SITE_NAME, SITE_URL } from '../lib/site'
@@ -98,6 +99,7 @@ export default function RootLayout({ children }) {
         </div>
         <main className="flex-1">{children}</main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   )
