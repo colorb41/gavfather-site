@@ -4,15 +4,11 @@ import { Cinzel, Inter, JetBrains_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import { SITE_NAME, SITE_URL } from '../lib/site'
+import { SITE_NAME, SITE_URL, formatEasternDate } from '../lib/site'
 import '../styles/globals.css'
 
 function getDraftBannerDate() {
-  const fallback = new Date().toLocaleDateString('en-US', {
-    month: 'long',
-    day: 'numeric',
-    year: 'numeric',
-  })
+  const fallback = formatEasternDate()
   const candidates = [
     path.join(process.cwd(), 'public', 'data', 'meta.json'),
     path.join(process.cwd(), 'data', 'meta.json'),
@@ -25,11 +21,7 @@ function getDraftBannerDate() {
       if (!raw) continue
       const parsed = new Date(raw)
       if (Number.isNaN(parsed.getTime())) return String(raw)
-      return parsed.toLocaleDateString('en-US', {
-        month: 'long',
-        day: 'numeric',
-        year: 'numeric',
-      })
+      return formatEasternDate(parsed)
     } catch {
       // fall through
     }

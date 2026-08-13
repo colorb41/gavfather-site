@@ -15,6 +15,7 @@ import {
   FORMAT_META,
   FORMAT_IDS,
 } from '../lib/rankPlayersByFormat'
+import { formatEasternDate } from '../lib/site'
 
 const POSITIONS = ['ALL', 'QB', 'RB', 'WR', 'TE']
 const ADP_FILTERS = [
@@ -30,20 +31,12 @@ const TABLE_COL_SPAN = 11
 const FORMAT_PRESETS = FORMAT_IDS.map((id) => FORMAT_META[id])
 
 function formatUpdated(updatedAt) {
-  const fallbackDate = new Date().toLocaleDateString('en-US', {
-    month: 'long',
-    day: 'numeric',
-    year: 'numeric',
-  })
+  const fallbackDate = formatEasternDate()
   if (!updatedAt) return `Updated ${fallbackDate}`
   try {
     const d = new Date(updatedAt)
     if (Number.isNaN(d.getTime())) return `Updated ${fallbackDate}`
-    return `Updated ${d.toLocaleDateString('en-US', {
-      month: 'long',
-      day: 'numeric',
-      year: 'numeric',
-    })}`
+    return `Updated ${formatEasternDate(d)}`
   } catch {
     return `Updated ${fallbackDate}`
   }
