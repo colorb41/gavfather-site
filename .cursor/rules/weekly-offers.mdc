@@ -1,0 +1,26 @@
+---
+description: Weekly offer rotates every Sunday — auto-select, don't ask for the player
+alwaysApply: true
+---
+
+# Weekly Offers
+
+The homepage **THE OFFER THIS WEEK** rotates every Sunday (America/New_York) from `epochSunday` in `public/data/offers.json`.
+
+## Automatic selection (default)
+
+`lib/offers.js` resolves each week without manual work:
+
+1. **Curated override** in `public/data/offers.json` `offers[]` (if present for that week)
+2. Else next unused single-player **Call** from `pipelineArticle` (default `2026-big-calls`)
+3. Else next unused live-board edge (BUY / ADP gap, else Elite by overall rank)
+
+History is derived the same way — do not require a hand-written entry for every past week.
+
+## Agent behavior
+
+- Do **not** ask the user who the offer of the week should be. Resolve it with `getCurrentOffer()` / `resolveOfferForWeek()`.
+- Only write a curated `offers.json` entry when the user wants polished custom copy, or when fixing a bad auto pick.
+- When adding a curated entry, keep `week`, `player`, `position`, `team`, `blurb`, `body`, `articleSlug`.
+- Never reuse a player already used in an earlier offer week.
+- Week 1 = Herbert (curated). New Sundays advance the calendar week automatically; no code change required for the rollover itself.
