@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import { Cinzel, Inter, JetBrains_Mono } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/react'
+import { Analytics } from '@vercel/analytics/next'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { SITE_NAME, SITE_URL, formatEasternDate } from '../lib/site'
