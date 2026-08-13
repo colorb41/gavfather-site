@@ -58,12 +58,14 @@ Healthy and practicing.
 That is the sentence people
 wanted. It is not enough.
 Suspension risk remains.
-Mahomes is still RECOVERING.
+Mahomes is cleared for camp
+and taking 1st-team reps —
+do not stack a Rice fade on
+a quarterback who is practicing.
 We have Rice WR28. The market
 has him WR6. That is a 22-spot
-FADE. Healthy in July does not
-fix a quarterback who might
-not be there in September.
+FADE on Rice's price, not on
+whether Mahomes exists in September.
 
 ---
 

@@ -115,20 +115,27 @@ toll is real.
 
 Mahomes tore his ACL AND his LCL in Week 15.
 
-He's "hopeful" for Week 1. Hopeful is not 
-confirmed. Hopeful is what you say when 
-you genuinely don't know.
+That was December. This is August.
 
-Even at full health: Bieniemy is back as OC 
-running a ground-and-pound scheme. More carries. 
+He is fully cleared for training camp
+with no limitations. Andy Reid said so.
+Dr. Dan Cooper, who did the surgery,
+said so. He is taking first-team
+11-on-11. The knee, he told ESPN,
+"feels great." Reid is likely sitting
+him the entire preseason. That is
+not the same thing as not cleared.
+
+Week 1 is Sept 14 vs Denver.
+That is the target.
+
+Even at full health: Bieniemy is back as OC
+running a ground-and-pound scheme. More carries.
 Fewer Mahomes attempts. Less opportunity.
 
-The model applies -12% combined.
-
-The market still has him top 3 QB because 
-the market remembers who he was before 
-he got hurt. The model only knows what 
-the numbers say right now.
+The remaining model haircut is scheme
+and rust from no preseason games.
+It is not a medical disappearance.
 
 **The call:** Mahomes QB9.
 

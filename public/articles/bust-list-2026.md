@@ -67,19 +67,22 @@ The model bought the process.
 The market has Mahomes as a top-3 QB. 
 The Gavfather System has him QB9.
 
-He tore his ACL and LCL in Week 15 of 2025. 
-He is "hopeful" for Week 1. Hopeful is not 
-confirmed. Hopeful is what you say when you 
-genuinely do not know.
+He tore his ACL and LCL in Week 15 of 2025.
+He is now fully cleared for camp with no
+limitations, taking first-team 11-on-11.
+Reid is sitting him in the preseason.
+Week 1 (Sept 14 vs DEN) is the target.
 
-Even at full health: Eric Bieniemy is back as OC 
-running a ground-and-pound scheme. More carries. 
-Fewer attempts. Less opportunity.
+The remaining issue is not clearance.
+It is Bieniemy back as OC in a
+ground-and-pound scheme: more carries,
+fewer attempts, less opportunity —
+plus rust from skipping the exhibitions.
 
-The Star Loyalist will draft Mahomes in round 3 
-convinced this is the year he bounces back.
-
-This is not going to work out for them.
+The Star Loyalist will still reach
+for last year's Mahomes. Price the
+scheme. Do not invent a medical hold
+that the Chiefs already lifted.
 
 ---
 

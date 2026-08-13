@@ -101,29 +101,31 @@ spot with a medical question attached.
 
 ---
 
-## Kansas City: the vacancy is still Mahomes
+## Kansas City: the vacancy closed
 
-Patrick Mahomes. ACL + LCL, Week 15 2025.
-Status: RECOVERING. Week 1: UNCERTAIN.
-ESPN is still asking if he is the
-Week 1 starter. That is the tell.
+Patrick Mahomes tore his ACL and LCL
+in Week 15 2025. That is still the
+injury. It is not still the status.
 
-The board has him QB10, overall 69,
-18.84 PPG before the camp cut.
-The camp engine applies 0.88x and
-tells you to fade until he is confirmed.
+He was fully cleared for camp with
+no limitations (Reid + Dr. Cooper,
+late July). He is taking first-team
+11-on-11. Reid is likely sitting him
+the entire preseason. Week 1 is
+Sept 14 vs Denver. That is the
+target, not a mystery.
+
+The board has him QB10, overall 69.
+The remaining haircut is rust and
+a run-heavier Bieniemy scheme —
+not "he might not play."
 
 Rashee Rice is healthy and practicing.
-That is the good news. The bad news
-is the same as last month: suspension
-risk plus a quarterback who might not
-be out there. Rice is a FADE at WR6
-ADP when we have him WR28.
-
-If Mahomes is not Week 1, the vacancy
-is the entire Kansas City passing game.
-Do not build a team that needs that
-building to be open on Labor Day.
+The remaining Rice issue is
+suspension risk, not the quarterback.
+Rice is still a FADE at WR6 ADP
+when we have him WR28. That fade
+is price, not Mahomes.
 
 ---
 

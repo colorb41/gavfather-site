@@ -34,10 +34,10 @@ Status: PUP | Achilles tear (January 2026 playoffs)
 Week 1: UNLIKELY - Australia Week 1 adds risk
 *Drop to TE3. McBride and Bowers ahead until cleared.*
 
-**🟡 Patrick Mahomes**
-Status: RECOVERING | ACL + LCL (Week 15 2025)
-Week 1: UNCERTAIN - ESPN still asking about status
-*QB9. Fade until confirmed Week 1 starter.*
+**🟢 Patrick Mahomes**
+Status: RETURNING | ACL + LCL (Week 15 2025) — fully cleared for camp
+Week 1: LIKELY — 1st-team camp reps; Reid sitting him in preseason only
+*Cleared for full camp with no limitations (Reid + Dr. Cooper). Taking 1st-team 11-on-11. Unlikely to play preseason. Week 1 Sept 14 vs DEN is the target — not a medical hold.*
 
 **🟡 Tua Tagovailoa**
 Status: QUESTIONABLE | Undisclosed camp issue

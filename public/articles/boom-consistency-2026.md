@@ -136,10 +136,11 @@ worth taking early even in standard leagues.
 
 High ADP. Low boom-consistency score.
 
-**Patrick Mahomes** � ACL recovery means 
-unknown ceiling AND unknown floor. 
-The consistency component is at risk 
-until he proves he is fully healthy.
+**Patrick Mahomes** — fully cleared for camp
+and taking 1st-team reps. The remaining
+consistency risk is rust from skipping
+the preseason, not whether he is allowed
+to practice. Week 1 vs Denver is the target.
 
 **Players with high 2025 touchdown counts 
 relative to opportunity** � touchdowns 
