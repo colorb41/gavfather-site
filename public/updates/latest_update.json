@@ -1,41 +1,8 @@
 {
-  "updated_at": "2026-08-13T09:07:08",
+  "updated_at": "2026-08-13T12:57:00",
   "total_changes": 100,
-  "high_priority_count": 21,
+  "high_priority_count": 22,
   "changes": [
-    {
-      "timestamp": "2026-08-11T16:53:27",
-      "player_id": "13975",
-      "name": "Le'Meke Brockington",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from ATL",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-11T16:53:27",
-      "player_id": "8523",
-      "name": "Nick Muse",
-      "position": "TE",
-      "team": "ATL",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> ATL",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-11T16:53:27",
-      "player_id": "14031",
-      "name": "Kyron Hudson",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from CHI",
-      "priority": "LOW"
-    },
     {
       "timestamp": "2026-08-11T16:53:27",
       "player_id": "13328",
@@ -1101,6 +1068,39 @@
       "overall_rank": null,
       "change_type": "TRADED_OR_SIGNED",
       "detail": "FA -> NE",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-13T12:56:51",
+      "player_id": "7694",
+      "name": "Tommy Tremble",
+      "position": "TE",
+      "team": "CAR",
+      "overall_rank": null,
+      "change_type": "PROMOTED_TO_STARTER",
+      "detail": "Depth chart 2 -> 1",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-08-13T12:56:51",
+      "player_id": "6996",
+      "name": "JaMycal Hasty",
+      "position": "RB",
+      "team": "NE",
+      "overall_rank": null,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> NE",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-13T12:56:51",
+      "player_id": "2505",
+      "name": "Darren Waller",
+      "position": "TE",
+      "team": "CAR",
+      "overall_rank": null,
+      "change_type": "DEMOTED_FROM_STARTER",
+      "detail": "Depth chart 1 -> 6",
       "priority": "MEDIUM"
     }
   ]
