@@ -1,5 +1,5 @@
 ---
-title: "Camp Report Week 6: What Changed, Who Rose, Who Fell"
+title: "Camp Report Week 6: August 7"
 date: "2026-08-07"
 week: 0
 theme: "Camp Report"
