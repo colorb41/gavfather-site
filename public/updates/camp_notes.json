@@ -1,88 +1,22 @@
 {
-  "updated": "2026-08-14T14:19:02",
+  "updated": "2026-08-14T22:25:32",
   "source": "CampResearcher.v2",
   "override_count": 11,
-  "player_count": 35,
-  "news_items_processed": 1400,
+  "player_count": 37,
+  "news_items_processed": 1661,
   "players": {
-    "A.Miller": {
-      "status": "NEUTRAL",
-      "injury": "Jam Miller Jam Miller Leading rusher against Indy RB New England Patriots August 14, 2026 Miller carried the ball 14 tim",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Jam Miller Leading rusher against Indy RB New England Patriots August 14, 2026 Miller carried the ball 14 times for 55 yards and failed to catch his only target in Thursday's 13-13 preseason tie with the Colts. ANALYSIS Subscribe now to ins",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Jam Miller"
-      ],
-      "old_rank": 213,
-      "new_rank": 220,
-      "old_ppg": 6.44,
-      "new_ppg": 6.44,
-      "position": "WR",
-      "team": "BAL",
-      "updated": "2026-08-14",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "R.Blackshear": {
-      "status": "NEUTRAL",
-      "injury": "RB New England Patriots RB New England Patriots RB New England Patriots",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "RB New England Patriots",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "RB New England Patriots",
-        "RB Indianapolis Colts",
-        "RB Green Bay Packers"
-      ],
-      "old_rank": 195,
-      "new_rank": 195,
-      "old_ppg": 6.77,
-      "new_ppg": 6.77,
-      "position": "RB",
-      "team": "CAR",
-      "updated": "2026-08-14",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "T.Lawrence": {
-      "status": "NEUTRAL",
-      "injury": "WR New England Patriots WR New England Patriots WR New England Patriots",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "WR New England Patriots",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "WR New England Patriots",
-        "WR Pittsburgh Steelers",
-        "WR Green Bay Packers",
-        "WR San Francisco 49ers"
-      ],
-      "old_rank": 28,
-      "new_rank": 29,
-      "old_ppg": 12.59,
-      "new_ppg": 12.59,
-      "position": "QB",
-      "team": "JAX",
-      "updated": "2026-08-14",
-      "auto_generated": true,
-      "from_override": false
-    },
     "R.White": {
       "status": "NEUTRAL",
-      "injury": "TE Pittsburgh Steelers TE Pittsburgh Steelers TE Pittsburgh Steelers",
+      "injury": "TE Washington Commanders TE Washington Commanders TE Washington Commanders",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "TE Pittsburgh Steelers",
+      "ranking_note": "TE Washington Commanders",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "TE Pittsburgh Steelers"
+        "TE Washington Commanders",
+        "TE Las Vegas Raiders",
+        "TE Arizona Cardinals"
       ],
       "old_rank": 126,
       "new_rank": 123,
@@ -94,23 +28,137 @@
       "auto_generated": true,
       "from_override": false
     },
-    "P.Freiermuth": {
+    "T.Lawrence": {
       "status": "NEUTRAL",
-      "injury": "Pat Freiermuth Pat Freiermuth Just one grab in preseason opener TE Pittsburgh Steelers August 13, 2026 Freiermuth caught",
+      "injury": "WR Tampa Bay Buccaneers Toe WR Tampa Bay Buccaneers Toe WR Tampa Bay Buccaneers Toe",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "Pat Freiermuth Just one grab in preseason opener TE Pittsburgh Steelers August 13, 2026 Freiermuth caught his only target for two yards in Thursday's 28-9 preseason win over the Packers. ANALYSIS Subscribe now to instantly reveal our take o",
+      "ranking_note": "WR Tampa Bay Buccaneers Toe",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "Pat Freiermuth"
+        "WR Tampa Bay Buccaneers Toe",
+        "WR Washington Commanders",
+        "WR New England Patriots",
+        "WR New Orleans Saints Hamstring",
+        "WR San Francisco 49ers"
       ],
-      "old_rank": 296,
-      "new_rank": 293,
-      "old_ppg": 6.03,
-      "new_ppg": 6.03,
+      "old_rank": 28,
+      "new_rank": 28,
+      "old_ppg": 12.59,
+      "new_ppg": 12.59,
+      "position": "QB",
+      "team": "JAX",
+      "updated": "2026-08-14",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "R.Blackshear": {
+      "status": "NEUTRAL",
+      "injury": "RB Washington Commanders RB Washington Commanders RB Washington Commanders",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "RB Washington Commanders",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "RB Washington Commanders",
+        "RB Seattle Seahawks Lower Body",
+        "RB Green Bay Packers Groin",
+        "RB Indianapolis Colts"
+      ],
+      "old_rank": 194,
+      "new_rank": 193,
+      "old_ppg": 6.77,
+      "new_ppg": 6.77,
+      "position": "RB",
+      "team": "CAR",
+      "updated": "2026-08-14",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "S.Darnold": {
+      "status": "NEUTRAL",
+      "injury": "Sam Darnold Sam Darnold Not playing Saturday QB Seattle Seahawks August 14, 2026 Coach Mike Macdonald said Friday that D",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Sam Darnold Not playing Saturday QB Seattle Seahawks August 14, 2026 Coach Mike Macdonald said Friday that Darnold won't suit up for Saturday's preseason game versus the Cowboys, Curtis Crabtree of Fox 13 Seattle reports. ANALYSIS Subscribe",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Sam Darnold"
+      ],
+      "old_rank": 17,
+      "new_rank": 17,
+      "old_ppg": 13.89,
+      "new_ppg": 13.89,
+      "position": "QB",
+      "team": "MIN",
+      "updated": "2026-08-14",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "S.LaPorta": {
+      "status": "NEUTRAL",
+      "injury": "Sam LaPorta Sam LaPorta Rested during exhibition opener TE Detroit Lions August 14, 2026 LaPorta did not play in Thursda",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Sam LaPorta Rested during exhibition opener TE Detroit Lions August 14, 2026 LaPorta did not play in Thursday night's preseason opener against the Bengals. ANALYSIS Subscribe now to instantly reveal our take on this news.",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Sam LaPorta"
+      ],
+      "old_rank": 174,
+      "new_rank": 173,
+      "old_ppg": 7.3,
+      "new_ppg": 7.3,
       "position": "TE",
-      "team": "PIT",
+      "team": "DET",
+      "updated": "2026-08-14",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "A.St. Brown": {
+      "status": "NEUTRAL",
+      "injury": "A",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "A.J. Brown Held out of preseason opener WR New England Patriots August 14, 2026 Brown was among the Patriots' key skill players who didn't see action in Thursday's preseason opener against the Colts, Evan Lazar of the team's official site r",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "A.J. Brown",
+        "Sashi Brown - Inactive"
+      ],
+      "old_rank": 10,
+      "new_rank": 9,
+      "old_ppg": 15.0,
+      "new_ppg": 15.0,
+      "position": "WR",
+      "team": "NE",
+      "updated": "2026-08-14",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "T.McBride": {
+      "status": "NEUTRAL",
+      "injury": "Trey McBride Trey McBride Limited to one snap TE Arizona Cardinals August 14, 2026 McBride played one snap in Thursday's",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Trey McBride Limited to one snap TE Arizona Cardinals August 14, 2026 McBride played one snap in Thursday's 27-14 preseason win over the Raiders. ANALYSIS Subscribe now to instantly reveal our take on this news.",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Trey McBride",
+        "Tre McBride - Inactive"
+      ],
+      "old_rank": 112,
+      "new_rank": 111,
+      "old_ppg": 9.2,
+      "new_ppg": 9.2,
+      "position": "TE",
+      "team": "ARI",
       "updated": "2026-08-14",
       "auto_generated": true,
       "from_override": false
@@ -124,14 +172,36 @@
       "impact": "NEUTRAL",
       "source": "Sleeper",
       "headlines": [
-        "Corey Washington - Inactive"
+        "Corey Washington - Inactive",
+        "Eric Washington - Inactive"
       ],
-      "old_rank": 260,
-      "new_rank": 269,
+      "old_rank": 245,
+      "new_rank": 253,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
       "team": "ATL",
+      "updated": "2026-08-14",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "T.Benson": {
+      "status": "NEUTRAL",
+      "injury": "Tom Benson - Inactive Tom Benson listed as Inactive",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Tom Benson listed as Inactive. ",
+      "impact": "NEUTRAL",
+      "source": "Sleeper",
+      "headlines": [
+        "Tom Benson - Inactive"
+      ],
+      "old_rank": 362,
+      "new_rank": 360,
+      "old_ppg": 5.12,
+      "new_ppg": 5.12,
+      "position": "RB",
+      "team": "ARI",
       "updated": "2026-08-14",
       "auto_generated": true,
       "from_override": false
@@ -182,27 +252,6 @@
       "auto_generated": true,
       "from_override": false
     },
-    "T.McBride": {
-      "status": "NEUTRAL",
-      "injury": "Tre McBride - Inactive Tre McBride listed as Inactive",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Tre McBride listed as Inactive. ",
-      "impact": "NEUTRAL",
-      "source": "Sleeper",
-      "headlines": [
-        "Tre McBride - Inactive"
-      ],
-      "old_rank": 112,
-      "new_rank": 111,
-      "old_ppg": 9.2,
-      "new_ppg": 9.2,
-      "position": "TE",
-      "team": "ARI",
-      "updated": "2026-08-14",
-      "auto_generated": true,
-      "from_override": false
-    },
     "A.Richardson": {
       "status": "NEUTRAL",
       "injury": "Daryl Richardson - Inactive Daryl Richardson listed as Inactive",
@@ -235,8 +284,8 @@
       "headlines": [
         "M Harris - Inactive"
       ],
-      "old_rank": 144,
-      "new_rank": 143,
+      "old_rank": 145,
+      "new_rank": 144,
       "old_ppg": 7.61,
       "new_ppg": 7.61,
       "position": "WR",
@@ -266,6 +315,48 @@
       "auto_generated": true,
       "from_override": false
     },
+    "Z.Davidson": {
+      "status": "NEUTRAL",
+      "injury": "David Olson - Inactive David Olson listed as Inactive",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "David Olson listed as Inactive. ",
+      "impact": "NEUTRAL",
+      "source": "Sleeper",
+      "headlines": [
+        "David Olson - Inactive"
+      ],
+      "old_rank": 420,
+      "new_rank": 417,
+      "old_ppg": 4.6,
+      "new_ppg": 4.6,
+      "position": "TE",
+      "team": "BUF",
+      "updated": "2026-08-14",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "D.Martin-Robinson": {
+      "status": "NEUTRAL",
+      "injury": "Adrien Robinson - Inactive Adrien Robinson listed as Inactive",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Adrien Robinson listed as Inactive. ",
+      "impact": "NEUTRAL",
+      "source": "Sleeper",
+      "headlines": [
+        "Adrien Robinson - Inactive"
+      ],
+      "old_rank": 419,
+      "new_rank": 418,
+      "old_ppg": 4.6,
+      "new_ppg": 4.6,
+      "position": "TE",
+      "team": "TEN",
+      "updated": "2026-08-14",
+      "auto_generated": true,
+      "from_override": false
+    },
     "J.Daniels": {
       "status": "NEUTRAL",
       "injury": "B",
@@ -283,27 +374,6 @@
       "new_ppg": 16.74,
       "position": "QB",
       "team": "WAS",
-      "updated": "2026-08-14",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "L.Musgrave": {
-      "status": "MODERATE",
-      "injury": "PUP Luke Musgrave listed as PUP",
-      "week1_outlook": "UNCERTAIN",
-      "ppg_multiplier": 0.82,
-      "ranking_note": "Luke Musgrave listed as PUP. ",
-      "impact": "MODERATE",
-      "source": "Sleeper",
-      "headlines": [
-        "Luke Musgrave - PUP"
-      ],
-      "old_rank": 410,
-      "new_rank": 475,
-      "old_ppg": 4.6,
-      "new_ppg": 3.77,
-      "position": "TE",
-      "team": "GB",
       "updated": "2026-08-14",
       "auto_generated": true,
       "from_override": false
@@ -360,6 +430,7 @@
       "source": "Sleeper",
       "headlines": [
         "Ty Johnson - Questionable",
+        "Strain",
         "Tez Johnson - Questionable"
       ],
       "old_rank": 464,
@@ -368,27 +439,6 @@
       "new_ppg": 4.79,
       "position": "RB",
       "team": "BUF",
-      "updated": "2026-08-14",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Z.Flowers": {
-      "status": "MILD",
-      "injury": "Zay Flowers - Questionable Zay Flowers listed as Questionable",
-      "week1_outlook": "EXPECTED OK",
-      "ppg_multiplier": 0.93,
-      "ranking_note": "Zay Flowers listed as Questionable. ",
-      "impact": "MILD",
-      "source": "Sleeper",
-      "headlines": [
-        "Zay Flowers - Questionable"
-      ],
-      "old_rank": 150,
-      "new_rank": 188,
-      "old_ppg": 7.38,
-      "new_ppg": 6.86,
-      "position": "WR",
-      "team": "BAL",
       "updated": "2026-08-14",
       "auto_generated": true,
       "from_override": false
@@ -405,11 +455,32 @@
         "Jeff Cotton - Inactive"
       ],
       "old_rank": 298,
-      "new_rank": 295,
+      "new_rank": 296,
       "old_ppg": 6.01,
       "new_ppg": 6.01,
       "position": "TE",
       "team": "TB",
+      "updated": "2026-08-14",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "T.Reiman": {
+      "status": "MODERATE",
+      "injury": "PUP Tip Reiman listed as PUP",
+      "week1_outlook": "UNCERTAIN",
+      "ppg_multiplier": 0.82,
+      "ranking_note": "Tip Reiman listed as PUP. ",
+      "impact": "MODERATE",
+      "source": "Sleeper",
+      "headlines": [
+        "Tip Reiman - PUP"
+      ],
+      "old_rank": 400,
+      "new_rank": 475,
+      "old_ppg": 4.6,
+      "new_ppg": 3.77,
+      "position": "TE",
+      "team": "ARI",
       "updated": "2026-08-14",
       "auto_generated": true,
       "from_override": false
@@ -423,6 +494,7 @@
       "impact": "MODERATE",
       "source": "Sleeper",
       "headlines": [
+        "Surgery",
         "Zach Charbonnet - PUP"
       ],
       "old_rank": 292,
@@ -431,27 +503,6 @@
       "new_ppg": 5.03,
       "position": "RB",
       "team": "SEA",
-      "updated": "2026-08-14",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "I.Smith": {
-      "status": "MILD",
-      "injury": "Irv Smith - Questionable Irv Smith listed",
-      "week1_outlook": "EXPECTED OK",
-      "ppg_multiplier": 0.93,
-      "ranking_note": "Irv Smith listed as Questionable. ",
-      "impact": "MILD",
-      "source": "Sleeper",
-      "headlines": [
-        "Irv Smith - Questionable"
-      ],
-      "old_rank": 267,
-      "new_rank": 297,
-      "old_ppg": 4.6,
-      "new_ppg": 4.28,
-      "position": "TE",
-      "team": "HOU",
       "updated": "2026-08-14",
       "auto_generated": true,
       "from_override": false
@@ -467,8 +518,8 @@
       "headlines": [
         "Bisi Johnson - Inactive"
       ],
-      "old_rank": 218,
-      "new_rank": 215,
+      "old_rank": 238,
+      "new_rank": 228,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
@@ -488,8 +539,8 @@
       "headlines": [
         "DK Metcalf - Questionable"
       ],
-      "old_rank": 140,
-      "new_rank": 180,
+      "old_rank": 141,
+      "new_rank": 181,
       "old_ppg": 7.67,
       "new_ppg": 7.13,
       "position": "WR",

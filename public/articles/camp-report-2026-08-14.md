@@ -4,7 +4,7 @@ date: "2026-08-14"
 week: 0
 theme: "Camp Report"
 category: "research"
-excerpt: "The Gavfather System processed 475 data points from camp this week. Here is everything that changed and what it means for your draft."
+excerpt: "The Gavfather System processed 552 data points from camp this week. Here is everything that changed and what it means for your draft."
 ---
 
 # Camp Report: Week 7
@@ -15,7 +15,7 @@ excerpt: "The Gavfather System processed 475 data points from camp this week. He
 ---
 
 The Gavfather System processed data from all 32 NFL training camps this week.
-475 changes detected. 52 flagged as high priority.
+552 changes detected. 59 flagged as high priority.
 Here is everything that matters for your Labor Day draft.
 
 ---
@@ -48,15 +48,6 @@ Week 1: EXPECTED OK - reported not serious
 
 Players who improved their situation this week:
 
-**🟢 Cyrus Allen (WR, KC)**
-INJURY_IMPROVED: Questionable -> Healthy
-
-**🟢 Jaylin Noel (WR, HOU)**
-INJURY_IMPROVED: PUP -> Questionable
-
-**🟢 Romeo Doubs (WR, NE)**
-INJURY_IMPROVED: Questionable -> Healthy
-
 **🟢 Jalen Walthall (WR, NYJ)**
 INJURY_IMPROVED: IR -> Questionable
 
@@ -66,9 +57,15 @@ INJURY_IMPROVED: Questionable -> Healthy
 **🟢 De'Zhaun Stribling (WR, SF)**
 INJURY_IMPROVED: Questionable -> Healthy
 
+**🟢 Chris Brooks (RB, GB)**
+INJURY_IMPROVED: PUP -> Healthy
+
 ## The Fallers
 
 Players who hurt their draft stock this week:
+
+**🔴 Tyjae Spears (RB, TEN) — Rank #122**
+INJURY_WORSENED: Healthy -> Questionable (Undisclosed)
 
 ---
 
@@ -81,4 +78,4 @@ An offer your roster can't refuse.
 
 ---
 
-*Rankings updated automatically. Camp data refreshed twice daily. Last update: August 14, 2026 02:19 PM*
+*Rankings updated automatically. Camp data refreshed twice daily. Last update: August 14, 2026 10:25 PM*
