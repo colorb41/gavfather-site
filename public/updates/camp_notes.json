@@ -1,24 +1,48 @@
 {
-  "updated": "2026-08-15T13:36:54",
+  "updated": "2026-08-15T22:23:41",
   "source": "CampResearcher.v2",
   "override_count": 11,
-  "player_count": 34,
-  "news_items_processed": 1639,
+  "player_count": 36,
+  "news_items_processed": 1668,
   "players": {
-    "T.Lawrence": {
+    "R.White": {
       "status": "NEUTRAL",
-      "injury": "WR Washington Commanders WR Washington Commanders WR Washington Commanders",
+      "injury": "TE Tennessee Titans Pectoral TE Tennessee Titans Pectoral TE Tennessee Titans Pectoral",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "WR Washington Commanders",
+      "ranking_note": "TE Tennessee Titans Pectoral",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "WR Washington Commanders",
-        "WR Tampa Bay Buccaneers"
+        "TE Tennessee Titans Pectoral"
+      ],
+      "old_rank": 125,
+      "new_rank": 122,
+      "old_ppg": 8.63,
+      "new_ppg": 8.63,
+      "position": "RB",
+      "team": "TB",
+      "updated": "2026-08-15",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "T.Lawrence": {
+      "status": "NEUTRAL",
+      "injury": "WR Tampa Bay Buccaneers WR Tampa Bay Buccaneers WR Tampa Bay Buccaneers",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "WR Tampa Bay Buccaneers",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "WR Tampa Bay Buccaneers",
+        "WR Philadelphia Eagles Hamstring",
+        "WR Buffalo Bills Lower Body",
+        "WR Indianapolis Colts Groin",
+        "WR San Francisco 49ers"
       ],
       "old_rank": 29,
-      "new_rank": 28,
+      "new_rank": 29,
       "old_ppg": 12.59,
       "new_ppg": 12.59,
       "position": "QB",
@@ -29,22 +53,90 @@
     },
     "R.Blackshear": {
       "status": "NEUTRAL",
-      "injury": "RB Washington Commanders RB Washington Commanders RB Washington Commanders",
+      "injury": "RB New Orleans Saints Leg RB New Orleans Saints Leg RB New Orleans Saints Leg",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "RB Washington Commanders",
+      "ranking_note": "RB New Orleans Saints Leg",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "RB Washington Commanders",
-        "RB Tampa Bay Buccaneers"
+        "RB New Orleans Saints Leg",
+        "RB Free Agent Undisclosed",
+        "RB New Orleans Saints Hamstring",
+        "RB New Orleans Saints Back",
+        "RB Arizona Cardinals Knee"
       ],
-      "old_rank": 200,
-      "new_rank": 196,
+      "old_rank": 193,
+      "new_rank": 198,
       "old_ppg": 6.77,
       "new_ppg": 6.77,
       "position": "RB",
       "team": "CAR",
+      "updated": "2026-08-15",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "D.Moore": {
+      "status": "MILD",
+      "injury": "DJ Moore - Questionable DJ Moore listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "DJ Moore listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "DJ Moore",
+        "DJ Moore - Questionable"
+      ],
+      "old_rank": 385,
+      "new_rank": 442,
+      "old_ppg": 8.09,
+      "new_ppg": 7.52,
+      "position": "WR",
+      "team": "CHI",
+      "updated": "2026-08-15",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "J.Gibbs": {
+      "status": "NEUTRAL",
+      "injury": "Knee S Minnesota Vikings Knee S Minnesota Vi",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "S Minnesota Vikings Knee",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "S Minnesota Vikings Knee",
+        "S Minnesota Vikings Undisclosed"
+      ],
+      "old_rank": 7,
+      "new_rank": 7,
+      "old_ppg": 15.7,
+      "new_ppg": 15.7,
+      "position": "RB",
+      "team": "DET",
+      "updated": "2026-08-15",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "C.Stroud": {
+      "status": "NEUTRAL",
+      "injury": "C",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "C.J. Stroud Scheduled to play against Vegas on Thursday QB Houston Texans August 15, 2026 Texans coach DeMeco Ryans said Saturday that Stroud and the other healthy starters will play in Thursday's preseason game against Las Vegas, DJ Bien-A",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "C.J. Stroud"
+      ],
+      "old_rank": 37,
+      "new_rank": 37,
+      "old_ppg": 12.08,
+      "new_ppg": 12.08,
+      "position": "QB",
+      "team": "HOU",
       "updated": "2026-08-15",
       "auto_generated": true,
       "from_override": false
@@ -61,7 +153,7 @@
         "Sashi Brown - Inactive"
       ],
       "old_rank": 9,
-      "new_rank": 10,
+      "new_rank": 9,
       "old_ppg": 15.0,
       "new_ppg": 15.0,
       "position": "WR",
@@ -82,8 +174,8 @@
         "Corey Washington - Inactive",
         "Eric Washington - Inactive"
       ],
-      "old_rank": 212,
-      "new_rank": 232,
+      "old_rank": 244,
+      "new_rank": 255,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
@@ -103,8 +195,8 @@
       "headlines": [
         "Tom Benson - Inactive"
       ],
-      "old_rank": 362,
-      "new_rank": 360,
+      "old_rank": 361,
+      "new_rank": 359,
       "old_ppg": 5.12,
       "new_ppg": 5.12,
       "position": "RB",
@@ -126,7 +218,7 @@
         "D.J. Williams - Questionable"
       ],
       "old_rank": 462,
-      "new_rank": 471,
+      "new_rank": 472,
       "old_ppg": 6.19,
       "new_ppg": 5.76,
       "position": "RB",
@@ -213,7 +305,7 @@
         "M Harris - Inactive"
       ],
       "old_rank": 145,
-      "new_rank": 144,
+      "new_rank": 143,
       "old_ppg": 7.61,
       "new_ppg": 7.61,
       "position": "WR",
@@ -234,7 +326,7 @@
         "Adam Thielen - NA"
       ],
       "old_rank": 135,
-      "new_rank": 135,
+      "new_rank": 134,
       "old_ppg": 7.95,
       "new_ppg": 7.95,
       "position": "WR",
@@ -254,33 +346,12 @@
       "headlines": [
         "David Olson - Inactive"
       ],
-      "old_rank": 429,
-      "new_rank": 432,
+      "old_rank": 422,
+      "new_rank": 398,
       "old_ppg": 4.6,
       "new_ppg": 4.6,
       "position": "TE",
       "team": "BUF",
-      "updated": "2026-08-15",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "D.Martin-Robinson": {
-      "status": "NEUTRAL",
-      "injury": "Adrien Robinson - Inactive Adrien Robinson listed as Inactive",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Adrien Robinson listed as Inactive. ",
-      "impact": "NEUTRAL",
-      "source": "Sleeper",
-      "headlines": [
-        "Adrien Robinson - Inactive"
-      ],
-      "old_rank": 428,
-      "new_rank": 431,
-      "old_ppg": 4.6,
-      "new_ppg": 4.6,
-      "position": "TE",
-      "team": "TEN",
       "updated": "2026-08-15",
       "auto_generated": true,
       "from_override": false
@@ -317,8 +388,8 @@
       "headlines": [
         "Josh Johnson - Inactive"
       ],
-      "old_rank": 365,
-      "new_rank": 363,
+      "old_rank": 363,
+      "new_rank": 361,
       "old_ppg": 5.1,
       "new_ppg": 5.1,
       "position": "TE",
@@ -339,7 +410,7 @@
         "Joe Mixon - Questionable"
       ],
       "old_rank": 124,
-      "new_rank": 133,
+      "new_rank": 132,
       "old_ppg": 8.73,
       "new_ppg": 8.12,
       "position": "RB",
@@ -361,8 +432,8 @@
         "Strain",
         "Tez Johnson - Questionable"
       ],
-      "old_rank": 463,
-      "new_rank": 473,
+      "old_rank": 464,
+      "new_rank": 474,
       "old_ppg": 5.15,
       "new_ppg": 4.79,
       "position": "RB",
@@ -392,27 +463,6 @@
       "auto_generated": true,
       "from_override": false
     },
-    "T.Reiman": {
-      "status": "MODERATE",
-      "injury": "PUP Tip Reiman listed as PUP",
-      "week1_outlook": "UNCERTAIN",
-      "ppg_multiplier": 0.82,
-      "ranking_note": "Tip Reiman listed as PUP. ",
-      "impact": "MODERATE",
-      "source": "Sleeper",
-      "headlines": [
-        "Tip Reiman - PUP"
-      ],
-      "old_rank": 416,
-      "new_rank": 475,
-      "old_ppg": 4.6,
-      "new_ppg": 3.77,
-      "position": "TE",
-      "team": "ARI",
-      "updated": "2026-08-15",
-      "auto_generated": true,
-      "from_override": false
-    },
     "Z.Charbonnet": {
       "status": "MODERATE",
       "injury": "PUP Zach Charbonnet listed as PUP",
@@ -426,7 +476,7 @@
         "Zach Charbonnet - PUP"
       ],
       "old_rank": 292,
-      "new_rank": 368,
+      "new_rank": 367,
       "old_ppg": 6.14,
       "new_ppg": 5.03,
       "position": "RB",
@@ -446,8 +496,8 @@
       "headlines": [
         "Bisi Johnson - Inactive"
       ],
-      "old_rank": 240,
-      "new_rank": 222,
+      "old_rank": 234,
+      "new_rank": 261,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
@@ -489,7 +539,7 @@
         "J.K. Dobbins - Questionable"
       ],
       "old_rank": 109,
-      "new_rank": 124,
+      "new_rank": 123,
       "old_ppg": 9.27,
       "new_ppg": 8.62,
       "position": "RB",
