@@ -1,55 +1,29 @@
 {
-  "updated": "2026-08-14T22:25:32",
+  "updated": "2026-08-15T13:36:54",
   "source": "CampResearcher.v2",
   "override_count": 11,
-  "player_count": 37,
-  "news_items_processed": 1661,
+  "player_count": 34,
+  "news_items_processed": 1639,
   "players": {
-    "R.White": {
-      "status": "NEUTRAL",
-      "injury": "TE Washington Commanders TE Washington Commanders TE Washington Commanders",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "TE Washington Commanders",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "TE Washington Commanders",
-        "TE Las Vegas Raiders",
-        "TE Arizona Cardinals"
-      ],
-      "old_rank": 126,
-      "new_rank": 123,
-      "old_ppg": 8.63,
-      "new_ppg": 8.63,
-      "position": "RB",
-      "team": "TB",
-      "updated": "2026-08-14",
-      "auto_generated": true,
-      "from_override": false
-    },
     "T.Lawrence": {
       "status": "NEUTRAL",
-      "injury": "WR Tampa Bay Buccaneers Toe WR Tampa Bay Buccaneers Toe WR Tampa Bay Buccaneers Toe",
+      "injury": "WR Washington Commanders WR Washington Commanders WR Washington Commanders",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "WR Tampa Bay Buccaneers Toe",
+      "ranking_note": "WR Washington Commanders",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "WR Tampa Bay Buccaneers Toe",
         "WR Washington Commanders",
-        "WR New England Patriots",
-        "WR New Orleans Saints Hamstring",
-        "WR San Francisco 49ers"
+        "WR Tampa Bay Buccaneers"
       ],
-      "old_rank": 28,
+      "old_rank": 29,
       "new_rank": 28,
       "old_ppg": 12.59,
       "new_ppg": 12.59,
       "position": "QB",
       "team": "JAX",
-      "updated": "2026-08-14",
+      "updated": "2026-08-15",
       "auto_generated": true,
       "from_override": false
     },
@@ -63,103 +37,36 @@
       "source": "RotoWire",
       "headlines": [
         "RB Washington Commanders",
-        "RB Seattle Seahawks Lower Body",
-        "RB Green Bay Packers Groin",
-        "RB Indianapolis Colts"
+        "RB Tampa Bay Buccaneers"
       ],
-      "old_rank": 194,
-      "new_rank": 193,
+      "old_rank": 200,
+      "new_rank": 196,
       "old_ppg": 6.77,
       "new_ppg": 6.77,
       "position": "RB",
       "team": "CAR",
-      "updated": "2026-08-14",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "S.Darnold": {
-      "status": "NEUTRAL",
-      "injury": "Sam Darnold Sam Darnold Not playing Saturday QB Seattle Seahawks August 14, 2026 Coach Mike Macdonald said Friday that D",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Sam Darnold Not playing Saturday QB Seattle Seahawks August 14, 2026 Coach Mike Macdonald said Friday that Darnold won't suit up for Saturday's preseason game versus the Cowboys, Curtis Crabtree of Fox 13 Seattle reports. ANALYSIS Subscribe",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Sam Darnold"
-      ],
-      "old_rank": 17,
-      "new_rank": 17,
-      "old_ppg": 13.89,
-      "new_ppg": 13.89,
-      "position": "QB",
-      "team": "MIN",
-      "updated": "2026-08-14",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "S.LaPorta": {
-      "status": "NEUTRAL",
-      "injury": "Sam LaPorta Sam LaPorta Rested during exhibition opener TE Detroit Lions August 14, 2026 LaPorta did not play in Thursda",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Sam LaPorta Rested during exhibition opener TE Detroit Lions August 14, 2026 LaPorta did not play in Thursday night's preseason opener against the Bengals. ANALYSIS Subscribe now to instantly reveal our take on this news.",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Sam LaPorta"
-      ],
-      "old_rank": 174,
-      "new_rank": 173,
-      "old_ppg": 7.3,
-      "new_ppg": 7.3,
-      "position": "TE",
-      "team": "DET",
-      "updated": "2026-08-14",
+      "updated": "2026-08-15",
       "auto_generated": true,
       "from_override": false
     },
     "A.St. Brown": {
       "status": "NEUTRAL",
-      "injury": "A",
+      "injury": "Sashi Brown - Inactive Sashi Brown listed as Inactive",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "A.J. Brown Held out of preseason opener WR New England Patriots August 14, 2026 Brown was among the Patriots' key skill players who didn't see action in Thursday's preseason opener against the Colts, Evan Lazar of the team's official site r",
+      "ranking_note": "Sashi Brown listed as Inactive. ",
       "impact": "NEUTRAL",
-      "source": "RotoWire",
+      "source": "Sleeper",
       "headlines": [
-        "A.J. Brown",
         "Sashi Brown - Inactive"
       ],
-      "old_rank": 10,
-      "new_rank": 9,
+      "old_rank": 9,
+      "new_rank": 10,
       "old_ppg": 15.0,
       "new_ppg": 15.0,
       "position": "WR",
       "team": "NE",
-      "updated": "2026-08-14",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "T.McBride": {
-      "status": "NEUTRAL",
-      "injury": "Trey McBride Trey McBride Limited to one snap TE Arizona Cardinals August 14, 2026 McBride played one snap in Thursday's",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Trey McBride Limited to one snap TE Arizona Cardinals August 14, 2026 McBride played one snap in Thursday's 27-14 preseason win over the Raiders. ANALYSIS Subscribe now to instantly reveal our take on this news.",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Trey McBride",
-        "Tre McBride - Inactive"
-      ],
-      "old_rank": 112,
-      "new_rank": 111,
-      "old_ppg": 9.2,
-      "new_ppg": 9.2,
-      "position": "TE",
-      "team": "ARI",
-      "updated": "2026-08-14",
+      "updated": "2026-08-15",
       "auto_generated": true,
       "from_override": false
     },
@@ -175,13 +82,13 @@
         "Corey Washington - Inactive",
         "Eric Washington - Inactive"
       ],
-      "old_rank": 245,
-      "new_rank": 253,
+      "old_rank": 212,
+      "new_rank": 232,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
       "team": "ATL",
-      "updated": "2026-08-14",
+      "updated": "2026-08-15",
       "auto_generated": true,
       "from_override": false
     },
@@ -202,7 +109,7 @@
       "new_ppg": 5.12,
       "position": "RB",
       "team": "ARI",
-      "updated": "2026-08-14",
+      "updated": "2026-08-15",
       "auto_generated": true,
       "from_override": false
     },
@@ -224,7 +131,7 @@
       "new_ppg": 5.76,
       "position": "RB",
       "team": "DEN",
-      "updated": "2026-08-14",
+      "updated": "2026-08-15",
       "auto_generated": true,
       "from_override": false
     },
@@ -248,7 +155,28 @@
       "new_ppg": 12.2,
       "position": "RB",
       "team": "LA",
-      "updated": "2026-08-14",
+      "updated": "2026-08-15",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "T.McBride": {
+      "status": "NEUTRAL",
+      "injury": "Tre McBride - Inactive Tre McBride listed as Inactive",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Tre McBride listed as Inactive. ",
+      "impact": "NEUTRAL",
+      "source": "Sleeper",
+      "headlines": [
+        "Tre McBride - Inactive"
+      ],
+      "old_rank": 112,
+      "new_rank": 111,
+      "old_ppg": 9.2,
+      "new_ppg": 9.2,
+      "position": "TE",
+      "team": "ARI",
+      "updated": "2026-08-15",
       "auto_generated": true,
       "from_override": false
     },
@@ -269,7 +197,7 @@
       "new_ppg": 12.69,
       "position": "QB",
       "team": "IND",
-      "updated": "2026-08-14",
+      "updated": "2026-08-15",
       "auto_generated": true,
       "from_override": false
     },
@@ -290,7 +218,7 @@
       "new_ppg": 7.61,
       "position": "WR",
       "team": "ARI",
-      "updated": "2026-08-14",
+      "updated": "2026-08-15",
       "auto_generated": true,
       "from_override": false
     },
@@ -311,7 +239,7 @@
       "new_ppg": 7.95,
       "position": "WR",
       "team": "CAR",
-      "updated": "2026-08-14",
+      "updated": "2026-08-15",
       "auto_generated": true,
       "from_override": false
     },
@@ -326,13 +254,13 @@
       "headlines": [
         "David Olson - Inactive"
       ],
-      "old_rank": 420,
-      "new_rank": 417,
+      "old_rank": 429,
+      "new_rank": 432,
       "old_ppg": 4.6,
       "new_ppg": 4.6,
       "position": "TE",
       "team": "BUF",
-      "updated": "2026-08-14",
+      "updated": "2026-08-15",
       "auto_generated": true,
       "from_override": false
     },
@@ -347,13 +275,13 @@
       "headlines": [
         "Adrien Robinson - Inactive"
       ],
-      "old_rank": 419,
-      "new_rank": 418,
+      "old_rank": 428,
+      "new_rank": 431,
       "old_ppg": 4.6,
       "new_ppg": 4.6,
       "position": "TE",
       "team": "TEN",
-      "updated": "2026-08-14",
+      "updated": "2026-08-15",
       "auto_generated": true,
       "from_override": false
     },
@@ -374,7 +302,7 @@
       "new_ppg": 16.74,
       "position": "QB",
       "team": "WAS",
-      "updated": "2026-08-14",
+      "updated": "2026-08-15",
       "auto_generated": true,
       "from_override": false
     },
@@ -390,12 +318,12 @@
         "Josh Johnson - Inactive"
       ],
       "old_rank": 365,
-      "new_rank": 362,
+      "new_rank": 363,
       "old_ppg": 5.1,
       "new_ppg": 5.1,
       "position": "TE",
       "team": "NO",
-      "updated": "2026-08-14",
+      "updated": "2026-08-15",
       "auto_generated": true,
       "from_override": false
     },
@@ -416,7 +344,7 @@
       "new_ppg": 8.12,
       "position": "RB",
       "team": "HOU",
-      "updated": "2026-08-14",
+      "updated": "2026-08-15",
       "auto_generated": true,
       "from_override": false
     },
@@ -433,13 +361,13 @@
         "Strain",
         "Tez Johnson - Questionable"
       ],
-      "old_rank": 464,
+      "old_rank": 463,
       "new_rank": 473,
       "old_ppg": 5.15,
       "new_ppg": 4.79,
       "position": "RB",
       "team": "BUF",
-      "updated": "2026-08-14",
+      "updated": "2026-08-15",
       "auto_generated": true,
       "from_override": false
     },
@@ -460,7 +388,7 @@
       "new_ppg": 6.01,
       "position": "TE",
       "team": "TB",
-      "updated": "2026-08-14",
+      "updated": "2026-08-15",
       "auto_generated": true,
       "from_override": false
     },
@@ -475,13 +403,13 @@
       "headlines": [
         "Tip Reiman - PUP"
       ],
-      "old_rank": 400,
+      "old_rank": 416,
       "new_rank": 475,
       "old_ppg": 4.6,
       "new_ppg": 3.77,
       "position": "TE",
       "team": "ARI",
-      "updated": "2026-08-14",
+      "updated": "2026-08-15",
       "auto_generated": true,
       "from_override": false
     },
@@ -503,7 +431,7 @@
       "new_ppg": 5.03,
       "position": "RB",
       "team": "SEA",
-      "updated": "2026-08-14",
+      "updated": "2026-08-15",
       "auto_generated": true,
       "from_override": false
     },
@@ -518,13 +446,13 @@
       "headlines": [
         "Bisi Johnson - Inactive"
       ],
-      "old_rank": 238,
-      "new_rank": 228,
+      "old_rank": 240,
+      "new_rank": 222,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
       "team": "PIT",
-      "updated": "2026-08-14",
+      "updated": "2026-08-15",
       "auto_generated": true,
       "from_override": false
     },
@@ -545,7 +473,7 @@
       "new_ppg": 7.13,
       "position": "WR",
       "team": "SEA",
-      "updated": "2026-08-14",
+      "updated": "2026-08-15",
       "auto_generated": true,
       "from_override": false
     },
@@ -566,7 +494,7 @@
       "new_ppg": 8.62,
       "position": "RB",
       "team": "LAC",
-      "updated": "2026-08-14",
+      "updated": "2026-08-15",
       "auto_generated": true,
       "from_override": false
     },
