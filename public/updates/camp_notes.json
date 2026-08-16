@@ -1,27 +1,27 @@
 {
-  "updated": "2026-08-16T13:37:57",
+  "updated": "2026-08-16T22:23:17",
   "source": "CampResearcher.v2",
   "override_count": 11,
-  "player_count": 34,
-  "news_items_processed": 1652,
+  "player_count": 37,
+  "news_items_processed": 1668,
   "players": {
     "T.Lawrence": {
       "status": "NEUTRAL",
-      "injury": "WR Jacksonville Jaguars WR Jacksonville Jaguars WR Jacksonville Jaguars",
+      "injury": "WR Las Vegas Raiders WR Las Vegas Raiders WR Las Vegas Raiders",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "WR Jacksonville Jaguars",
+      "ranking_note": "WR Las Vegas Raiders",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "WR Jacksonville Jaguars",
-        "WR New Orleans Saints",
-        "WR Buffalo Bills Lower Body",
-        "WR Philadelphia Eagles",
-        "WR Minnesota Vikings"
+        "WR Las Vegas Raiders",
+        "WR Kansas City Chiefs Shoulder",
+        "WR Indianapolis Colts",
+        "WR Minnesota Vikings",
+        "WR Carolina Panthers"
       ],
       "old_rank": 29,
-      "new_rank": 29,
+      "new_rank": 28,
       "old_ppg": 12.59,
       "new_ppg": 12.59,
       "position": "QB",
@@ -30,18 +30,42 @@
       "auto_generated": true,
       "from_override": false
     },
-    "R.White": {
+    "R.Blackshear": {
       "status": "NEUTRAL",
-      "injury": "TE Philadelphia Eagles TE Philadelphia Eagles TE Philadelphia Eagles",
+      "injury": "Knee RB Chicago Bears Knee RB Chicago Bears",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "TE Philadelphia Eagles",
+      "ranking_note": "RB Chicago Bears Knee",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "TE Philadelphia Eagles",
-        "TE Jacksonville Jaguars",
-        "TE New Orleans Saints"
+        "RB Chicago Bears Knee",
+        "RB Arizona Cardinals Ankle",
+        "RB Seattle Seahawks Knee - ACL",
+        "RB Kansas City Chiefs"
+      ],
+      "old_rank": 199,
+      "new_rank": 196,
+      "old_ppg": 6.77,
+      "new_ppg": 6.77,
+      "position": "RB",
+      "team": "CAR",
+      "updated": "2026-08-16",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "R.White": {
+      "status": "NEUTRAL",
+      "injury": "Achilles TE San Francisco 49ers Achilles TE San",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "TE San Francisco 49ers Achilles",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "TE San Francisco 49ers Achilles",
+        "TE Green Bay Packers Knee - ACL",
+        "TE Minnesota Vikings"
       ],
       "old_rank": 125,
       "new_rank": 122,
@@ -53,23 +77,46 @@
       "auto_generated": true,
       "from_override": false
     },
-    "S.Barkley": {
+    "Z.Charbonnet": {
+      "status": "MODERATE",
+      "injury": "ACL August 16",
+      "week1_outlook": "UNCERTAIN",
+      "ppg_multiplier": 0.82,
+      "ranking_note": "Zach Charbonnet Remains sidelined ahead of Seattle's second preseason game RB Seattle Seahawks Knee - ACL August 16, 2026 Charbonnet (knee) remains on the active/PUP list as the Seahawks' second preseason contest (Aug. 23 versus the Titans)",
+      "impact": "MODERATE",
+      "source": "RotoWire",
+      "headlines": [
+        "Zach Charbonnet",
+        "Surgery",
+        "Zach Charbonnet - PUP"
+      ],
+      "old_rank": 292,
+      "new_rank": 367,
+      "old_ppg": 6.14,
+      "new_ppg": 5.03,
+      "position": "RB",
+      "team": "SEA",
+      "updated": "2026-08-16",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "T.Hockenson": {
       "status": "NEUTRAL",
-      "injury": "K Jacksonville Jaguars K Jacksonville Jaguars K Jacksonville Jaguars",
+      "injury": "T",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "K Jacksonville Jaguars",
+      "ranking_note": "T.J. Hockenson Minimal work in preseason opener TE Minnesota Vikings August 16, 2026 Hockenson played five snaps on offense and didn't show up in the box score otherwise during the Vikings' 13-10 preseason win over the Giants on Saturday. A",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "K Jacksonville Jaguars"
+        "T.J. Hockenson"
       ],
-      "old_rank": 12,
-      "new_rank": 12,
-      "old_ppg": 14.38,
-      "new_ppg": 14.38,
-      "position": "RB",
-      "team": "PHI",
+      "old_rank": 315,
+      "new_rank": 314,
+      "old_ppg": 5.75,
+      "new_ppg": 5.75,
+      "position": "TE",
+      "team": "MIN",
       "updated": "2026-08-16",
       "auto_generated": true,
       "from_override": false
@@ -85,8 +132,8 @@
       "headlines": [
         "Sashi Brown - Inactive"
       ],
-      "old_rank": 9,
-      "new_rank": 9,
+      "old_rank": 10,
+      "new_rank": 10,
       "old_ppg": 15.0,
       "new_ppg": 15.0,
       "position": "WR",
@@ -107,8 +154,8 @@
         "Corey Washington - Inactive",
         "Eric Washington - Inactive"
       ],
-      "old_rank": 244,
-      "new_rank": 255,
+      "old_rank": 241,
+      "new_rank": 256,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
@@ -151,7 +198,7 @@
         "D.J. Williams - Questionable"
       ],
       "old_rank": 462,
-      "new_rank": 472,
+      "new_rank": 471,
       "old_ppg": 6.19,
       "new_ppg": 5.76,
       "position": "RB",
@@ -259,7 +306,7 @@
         "DJ Moore - Questionable"
       ],
       "old_rank": 385,
-      "new_rank": 442,
+      "new_rank": 441,
       "old_ppg": 8.09,
       "new_ppg": 7.52,
       "position": "WR",
@@ -300,12 +347,33 @@
       "headlines": [
         "David Olson - Inactive"
       ],
-      "old_rank": 422,
-      "new_rank": 398,
+      "old_rank": 412,
+      "new_rank": 425,
       "old_ppg": 4.6,
       "new_ppg": 4.6,
       "position": "TE",
       "team": "BUF",
+      "updated": "2026-08-16",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "D.Martin-Robinson": {
+      "status": "NEUTRAL",
+      "injury": "Adrien Robinson - Inactive Adrien Robinson listed as Inactive",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Adrien Robinson listed as Inactive. ",
+      "impact": "NEUTRAL",
+      "source": "Sleeper",
+      "headlines": [
+        "Adrien Robinson - Inactive"
+      ],
+      "old_rank": 415,
+      "new_rank": 422,
+      "old_ppg": 4.6,
+      "new_ppg": 4.6,
+      "position": "TE",
+      "team": "TEN",
       "updated": "2026-08-16",
       "auto_generated": true,
       "from_override": false
@@ -386,8 +454,8 @@
         "Strain",
         "Tez Johnson - Questionable"
       ],
-      "old_rank": 464,
-      "new_rank": 474,
+      "old_rank": 463,
+      "new_rank": 473,
       "old_ppg": 5.15,
       "new_ppg": 4.79,
       "position": "RB",
@@ -417,24 +485,23 @@
       "auto_generated": true,
       "from_override": false
     },
-    "Z.Charbonnet": {
+    "T.Reiman": {
       "status": "MODERATE",
-      "injury": "PUP Zach Charbonnet listed as PUP",
+      "injury": "PUP Tip Reiman listed as PUP",
       "week1_outlook": "UNCERTAIN",
       "ppg_multiplier": 0.82,
-      "ranking_note": "Zach Charbonnet listed as PUP. ",
+      "ranking_note": "Tip Reiman listed as PUP. ",
       "impact": "MODERATE",
       "source": "Sleeper",
       "headlines": [
-        "Surgery",
-        "Zach Charbonnet - PUP"
+        "Tip Reiman - PUP"
       ],
-      "old_rank": 292,
-      "new_rank": 367,
-      "old_ppg": 6.14,
-      "new_ppg": 5.03,
-      "position": "RB",
-      "team": "SEA",
+      "old_rank": 416,
+      "new_rank": 475,
+      "old_ppg": 4.6,
+      "new_ppg": 3.77,
+      "position": "TE",
+      "team": "ARI",
       "updated": "2026-08-16",
       "auto_generated": true,
       "from_override": false
@@ -450,8 +517,8 @@
       "headlines": [
         "Bisi Johnson - Inactive"
       ],
-      "old_rank": 234,
-      "new_rank": 261,
+      "old_rank": 233,
+      "new_rank": 232,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
