@@ -1,45 +1,24 @@
 {
-  "updated": "2026-08-15T22:23:41",
+  "updated": "2026-08-16T13:37:57",
   "source": "CampResearcher.v2",
   "override_count": 11,
-  "player_count": 36,
-  "news_items_processed": 1668,
+  "player_count": 34,
+  "news_items_processed": 1652,
   "players": {
-    "R.White": {
-      "status": "NEUTRAL",
-      "injury": "TE Tennessee Titans Pectoral TE Tennessee Titans Pectoral TE Tennessee Titans Pectoral",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "TE Tennessee Titans Pectoral",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "TE Tennessee Titans Pectoral"
-      ],
-      "old_rank": 125,
-      "new_rank": 122,
-      "old_ppg": 8.63,
-      "new_ppg": 8.63,
-      "position": "RB",
-      "team": "TB",
-      "updated": "2026-08-15",
-      "auto_generated": true,
-      "from_override": false
-    },
     "T.Lawrence": {
       "status": "NEUTRAL",
-      "injury": "WR Tampa Bay Buccaneers WR Tampa Bay Buccaneers WR Tampa Bay Buccaneers",
+      "injury": "WR Jacksonville Jaguars WR Jacksonville Jaguars WR Jacksonville Jaguars",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "WR Tampa Bay Buccaneers",
+      "ranking_note": "WR Jacksonville Jaguars",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "WR Tampa Bay Buccaneers",
-        "WR Philadelphia Eagles Hamstring",
+        "WR Jacksonville Jaguars",
+        "WR New Orleans Saints",
         "WR Buffalo Bills Lower Body",
-        "WR Indianapolis Colts Groin",
-        "WR San Francisco 49ers"
+        "WR Philadelphia Eagles",
+        "WR Minnesota Vikings"
       ],
       "old_rank": 29,
       "new_rank": 29,
@@ -47,97 +26,51 @@
       "new_ppg": 12.59,
       "position": "QB",
       "team": "JAX",
-      "updated": "2026-08-15",
+      "updated": "2026-08-16",
       "auto_generated": true,
       "from_override": false
     },
-    "R.Blackshear": {
+    "R.White": {
       "status": "NEUTRAL",
-      "injury": "RB New Orleans Saints Leg RB New Orleans Saints Leg RB New Orleans Saints Leg",
+      "injury": "TE Philadelphia Eagles TE Philadelphia Eagles TE Philadelphia Eagles",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "RB New Orleans Saints Leg",
+      "ranking_note": "TE Philadelphia Eagles",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "RB New Orleans Saints Leg",
-        "RB Free Agent Undisclosed",
-        "RB New Orleans Saints Hamstring",
-        "RB New Orleans Saints Back",
-        "RB Arizona Cardinals Knee"
+        "TE Philadelphia Eagles",
+        "TE Jacksonville Jaguars",
+        "TE New Orleans Saints"
       ],
-      "old_rank": 193,
-      "new_rank": 198,
-      "old_ppg": 6.77,
-      "new_ppg": 6.77,
+      "old_rank": 125,
+      "new_rank": 122,
+      "old_ppg": 8.63,
+      "new_ppg": 8.63,
       "position": "RB",
-      "team": "CAR",
-      "updated": "2026-08-15",
+      "team": "TB",
+      "updated": "2026-08-16",
       "auto_generated": true,
       "from_override": false
     },
-    "D.Moore": {
-      "status": "MILD",
-      "injury": "DJ Moore - Questionable DJ Moore listed as Questionable",
-      "week1_outlook": "EXPECTED OK",
-      "ppg_multiplier": 0.93,
-      "ranking_note": "DJ Moore listed as Questionable. ",
-      "impact": "MILD",
-      "source": "Sleeper",
-      "headlines": [
-        "DJ Moore",
-        "DJ Moore - Questionable"
-      ],
-      "old_rank": 385,
-      "new_rank": 442,
-      "old_ppg": 8.09,
-      "new_ppg": 7.52,
-      "position": "WR",
-      "team": "CHI",
-      "updated": "2026-08-15",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "J.Gibbs": {
+    "S.Barkley": {
       "status": "NEUTRAL",
-      "injury": "Knee S Minnesota Vikings Knee S Minnesota Vi",
+      "injury": "K Jacksonville Jaguars K Jacksonville Jaguars K Jacksonville Jaguars",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "S Minnesota Vikings Knee",
+      "ranking_note": "K Jacksonville Jaguars",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "S Minnesota Vikings Knee",
-        "S Minnesota Vikings Undisclosed"
+        "K Jacksonville Jaguars"
       ],
-      "old_rank": 7,
-      "new_rank": 7,
-      "old_ppg": 15.7,
-      "new_ppg": 15.7,
+      "old_rank": 12,
+      "new_rank": 12,
+      "old_ppg": 14.38,
+      "new_ppg": 14.38,
       "position": "RB",
-      "team": "DET",
-      "updated": "2026-08-15",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "C.Stroud": {
-      "status": "NEUTRAL",
-      "injury": "C",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "C.J. Stroud Scheduled to play against Vegas on Thursday QB Houston Texans August 15, 2026 Texans coach DeMeco Ryans said Saturday that Stroud and the other healthy starters will play in Thursday's preseason game against Las Vegas, DJ Bien-A",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "C.J. Stroud"
-      ],
-      "old_rank": 37,
-      "new_rank": 37,
-      "old_ppg": 12.08,
-      "new_ppg": 12.08,
-      "position": "QB",
-      "team": "HOU",
-      "updated": "2026-08-15",
+      "team": "PHI",
+      "updated": "2026-08-16",
       "auto_generated": true,
       "from_override": false
     },
@@ -158,7 +91,7 @@
       "new_ppg": 15.0,
       "position": "WR",
       "team": "NE",
-      "updated": "2026-08-15",
+      "updated": "2026-08-16",
       "auto_generated": true,
       "from_override": false
     },
@@ -180,7 +113,7 @@
       "new_ppg": 6.44,
       "position": "WR",
       "team": "ATL",
-      "updated": "2026-08-15",
+      "updated": "2026-08-16",
       "auto_generated": true,
       "from_override": false
     },
@@ -201,7 +134,7 @@
       "new_ppg": 5.12,
       "position": "RB",
       "team": "ARI",
-      "updated": "2026-08-15",
+      "updated": "2026-08-16",
       "auto_generated": true,
       "from_override": false
     },
@@ -223,7 +156,7 @@
       "new_ppg": 5.76,
       "position": "RB",
       "team": "DEN",
-      "updated": "2026-08-15",
+      "updated": "2026-08-16",
       "auto_generated": true,
       "from_override": false
     },
@@ -247,7 +180,7 @@
       "new_ppg": 12.2,
       "position": "RB",
       "team": "LA",
-      "updated": "2026-08-15",
+      "updated": "2026-08-16",
       "auto_generated": true,
       "from_override": false
     },
@@ -268,7 +201,7 @@
       "new_ppg": 9.2,
       "position": "TE",
       "team": "ARI",
-      "updated": "2026-08-15",
+      "updated": "2026-08-16",
       "auto_generated": true,
       "from_override": false
     },
@@ -289,7 +222,7 @@
       "new_ppg": 12.69,
       "position": "QB",
       "team": "IND",
-      "updated": "2026-08-15",
+      "updated": "2026-08-16",
       "auto_generated": true,
       "from_override": false
     },
@@ -310,7 +243,28 @@
       "new_ppg": 7.61,
       "position": "WR",
       "team": "ARI",
-      "updated": "2026-08-15",
+      "updated": "2026-08-16",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "D.Moore": {
+      "status": "MILD",
+      "injury": "DJ Moore - Questionable DJ Moore listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "DJ Moore listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "DJ Moore - Questionable"
+      ],
+      "old_rank": 385,
+      "new_rank": 442,
+      "old_ppg": 8.09,
+      "new_ppg": 7.52,
+      "position": "WR",
+      "team": "CHI",
+      "updated": "2026-08-16",
       "auto_generated": true,
       "from_override": false
     },
@@ -331,7 +285,7 @@
       "new_ppg": 7.95,
       "position": "WR",
       "team": "CAR",
-      "updated": "2026-08-15",
+      "updated": "2026-08-16",
       "auto_generated": true,
       "from_override": false
     },
@@ -352,7 +306,7 @@
       "new_ppg": 4.6,
       "position": "TE",
       "team": "BUF",
-      "updated": "2026-08-15",
+      "updated": "2026-08-16",
       "auto_generated": true,
       "from_override": false
     },
@@ -373,7 +327,7 @@
       "new_ppg": 16.74,
       "position": "QB",
       "team": "WAS",
-      "updated": "2026-08-15",
+      "updated": "2026-08-16",
       "auto_generated": true,
       "from_override": false
     },
@@ -394,7 +348,7 @@
       "new_ppg": 5.1,
       "position": "TE",
       "team": "NO",
-      "updated": "2026-08-15",
+      "updated": "2026-08-16",
       "auto_generated": true,
       "from_override": false
     },
@@ -415,7 +369,7 @@
       "new_ppg": 8.12,
       "position": "RB",
       "team": "HOU",
-      "updated": "2026-08-15",
+      "updated": "2026-08-16",
       "auto_generated": true,
       "from_override": false
     },
@@ -438,7 +392,7 @@
       "new_ppg": 4.79,
       "position": "RB",
       "team": "BUF",
-      "updated": "2026-08-15",
+      "updated": "2026-08-16",
       "auto_generated": true,
       "from_override": false
     },
@@ -459,7 +413,7 @@
       "new_ppg": 6.01,
       "position": "TE",
       "team": "TB",
-      "updated": "2026-08-15",
+      "updated": "2026-08-16",
       "auto_generated": true,
       "from_override": false
     },
@@ -481,7 +435,7 @@
       "new_ppg": 5.03,
       "position": "RB",
       "team": "SEA",
-      "updated": "2026-08-15",
+      "updated": "2026-08-16",
       "auto_generated": true,
       "from_override": false
     },
@@ -502,7 +456,7 @@
       "new_ppg": 6.44,
       "position": "WR",
       "team": "PIT",
-      "updated": "2026-08-15",
+      "updated": "2026-08-16",
       "auto_generated": true,
       "from_override": false
     },
@@ -523,7 +477,7 @@
       "new_ppg": 7.13,
       "position": "WR",
       "team": "SEA",
-      "updated": "2026-08-15",
+      "updated": "2026-08-16",
       "auto_generated": true,
       "from_override": false
     },
@@ -544,7 +498,7 @@
       "new_ppg": 8.62,
       "position": "RB",
       "team": "LAC",
-      "updated": "2026-08-15",
+      "updated": "2026-08-16",
       "auto_generated": true,
       "from_override": false
     },
