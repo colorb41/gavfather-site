@@ -1,48 +1,24 @@
 {
-  "updated": "2026-08-16T22:23:17",
+  "updated": "2026-08-17T13:45:09",
   "source": "CampResearcher.v2",
   "override_count": 11,
-  "player_count": 37,
-  "news_items_processed": 1668,
+  "player_count": 39,
+  "news_items_processed": 1670,
   "players": {
-    "T.Lawrence": {
-      "status": "NEUTRAL",
-      "injury": "WR Las Vegas Raiders WR Las Vegas Raiders WR Las Vegas Raiders",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "WR Las Vegas Raiders",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "WR Las Vegas Raiders",
-        "WR Kansas City Chiefs Shoulder",
-        "WR Indianapolis Colts",
-        "WR Minnesota Vikings",
-        "WR Carolina Panthers"
-      ],
-      "old_rank": 29,
-      "new_rank": 28,
-      "old_ppg": 12.59,
-      "new_ppg": 12.59,
-      "position": "QB",
-      "team": "JAX",
-      "updated": "2026-08-16",
-      "auto_generated": true,
-      "from_override": false
-    },
     "R.Blackshear": {
       "status": "NEUTRAL",
-      "injury": "Knee RB Chicago Bears Knee RB Chicago Bears",
+      "injury": "RB New York Jets Thigh RB New York Jets Thigh RB New York Jets Thigh",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "RB Chicago Bears Knee",
+      "ranking_note": "RB New York Jets Thigh",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "RB Chicago Bears Knee",
+        "RB New York Jets Thigh",
+        "RB Arizona Cardinals",
+        "RB Seattle Seahawks Hamstring",
         "RB Arizona Cardinals Ankle",
-        "RB Seattle Seahawks Knee - ACL",
-        "RB Kansas City Chiefs"
+        "RB Chicago Bears Knee"
       ],
       "old_rank": 199,
       "new_rank": 196,
@@ -50,22 +26,44 @@
       "new_ppg": 6.77,
       "position": "RB",
       "team": "CAR",
-      "updated": "2026-08-16",
+      "updated": "2026-08-17",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "C.Otton": {
+      "status": "NEUTRAL",
+      "injury": "OT Tampa Bay Buccaneers OT Tampa Bay Buccaneers OT Tampa Bay Buccaneers",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "OT Tampa Bay Buccaneers",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "OT Tampa Bay Buccaneers",
+        "Jeff Cotton - Inactive"
+      ],
+      "old_rank": 298,
+      "new_rank": 296,
+      "old_ppg": 6.01,
+      "new_ppg": 6.01,
+      "position": "TE",
+      "team": "TB",
+      "updated": "2026-08-17",
       "auto_generated": true,
       "from_override": false
     },
     "R.White": {
       "status": "NEUTRAL",
-      "injury": "Achilles TE San Francisco 49ers Achilles TE San",
+      "injury": "TE New Orleans Saints TE New Orleans Saints TE New Orleans Saints",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "TE San Francisco 49ers Achilles",
+      "ranking_note": "TE New Orleans Saints",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "TE San Francisco 49ers Achilles",
-        "TE Green Bay Packers Knee - ACL",
-        "TE Minnesota Vikings"
+        "TE New Orleans Saints",
+        "TE Philadelphia Eagles",
+        "TE Jacksonville Jaguars"
       ],
       "old_rank": 125,
       "new_rank": 122,
@@ -73,51 +71,95 @@
       "new_ppg": 8.63,
       "position": "RB",
       "team": "TB",
-      "updated": "2026-08-16",
+      "updated": "2026-08-17",
       "auto_generated": true,
       "from_override": false
     },
-    "Z.Charbonnet": {
-      "status": "MODERATE",
-      "injury": "ACL August 16",
-      "week1_outlook": "UNCERTAIN",
-      "ppg_multiplier": 0.82,
-      "ranking_note": "Zach Charbonnet Remains sidelined ahead of Seattle's second preseason game RB Seattle Seahawks Knee - ACL August 16, 2026 Charbonnet (knee) remains on the active/PUP list as the Seahawks' second preseason contest (Aug. 23 versus the Titans)",
-      "impact": "MODERATE",
-      "source": "RotoWire",
-      "headlines": [
-        "Zach Charbonnet",
-        "Surgery",
-        "Zach Charbonnet - PUP"
-      ],
-      "old_rank": 292,
-      "new_rank": 367,
-      "old_ppg": 6.14,
-      "new_ppg": 5.03,
-      "position": "RB",
-      "team": "SEA",
-      "updated": "2026-08-16",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "T.Hockenson": {
+    "T.Lawrence": {
       "status": "NEUTRAL",
-      "injury": "T",
+      "injury": "WR Jacksonville Jaguars WR Jacksonville Jaguars WR Jacksonville Jaguars",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "T.J. Hockenson Minimal work in preseason opener TE Minnesota Vikings August 16, 2026 Hockenson played five snaps on offense and didn't show up in the box score otherwise during the Vikings' 13-10 preseason win over the Giants on Saturday. A",
+      "ranking_note": "WR Jacksonville Jaguars",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "T.J. Hockenson"
+        "WR Jacksonville Jaguars",
+        "WR Kansas City Chiefs",
+        "WR Indianapolis Colts Ankle",
+        "WR New Orleans Saints",
+        "WR Las Vegas Raiders"
       ],
-      "old_rank": 315,
-      "new_rank": 314,
-      "old_ppg": 5.75,
-      "new_ppg": 5.75,
+      "old_rank": 29,
+      "new_rank": 28,
+      "old_ppg": 12.59,
+      "new_ppg": 12.59,
+      "position": "QB",
+      "team": "JAX",
+      "updated": "2026-08-17",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Z.Flowers": {
+      "status": "NEUTRAL",
+      "injury": "Zay Flowers Zay Flowers Doesn't see field in preseason opener WR Baltimore Ravens August 16, 2026 Flowers was rested for",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Zay Flowers Doesn't see field in preseason opener WR Baltimore Ravens August 16, 2026 Flowers was rested for Baltimore's 24-7 preseason win over the Eagles on Saturday. ANALYSIS Subscribe now to instantly reveal our take on this news.",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Zay Flowers"
+      ],
+      "old_rank": 137,
+      "new_rank": 136,
+      "old_ppg": 7.93,
+      "new_ppg": 7.93,
+      "position": "WR",
+      "team": "BAL",
+      "updated": "2026-08-17",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "M.Andrews": {
+      "status": "NEUTRAL",
+      "injury": "Mark Andrews Mark Andrews No action in preseason opener TE Baltimore Ravens August 16, 2026 Andrews was rested for Balti",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Mark Andrews No action in preseason opener TE Baltimore Ravens August 16, 2026 Andrews was rested for Baltimore's 24-7 preseason win over the Eagles on Saturday. ANALYSIS Subscribe now to instantly reveal our take on this news.",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Mark Andrews"
+      ],
+      "old_rank": 182,
+      "new_rank": 182,
+      "old_ppg": 7.09,
+      "new_ppg": 7.09,
       "position": "TE",
-      "team": "MIN",
-      "updated": "2026-08-16",
+      "team": "BAL",
+      "updated": "2026-08-17",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "J.Gibbs": {
+      "status": "NEUTRAL",
+      "injury": "Knee S Minnesota Vikings Knee S Minnesota Vi",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "S Minnesota Vikings Knee",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "S Minnesota Vikings Knee"
+      ],
+      "old_rank": 7,
+      "new_rank": 7,
+      "old_ppg": 15.7,
+      "new_ppg": 15.7,
+      "position": "RB",
+      "team": "DET",
+      "updated": "2026-08-17",
       "auto_generated": true,
       "from_override": false
     },
@@ -138,7 +180,7 @@
       "new_ppg": 15.0,
       "position": "WR",
       "team": "NE",
-      "updated": "2026-08-16",
+      "updated": "2026-08-17",
       "auto_generated": true,
       "from_override": false
     },
@@ -160,7 +202,7 @@
       "new_ppg": 6.44,
       "position": "WR",
       "team": "ATL",
-      "updated": "2026-08-16",
+      "updated": "2026-08-17",
       "auto_generated": true,
       "from_override": false
     },
@@ -181,7 +223,7 @@
       "new_ppg": 5.12,
       "position": "RB",
       "team": "ARI",
-      "updated": "2026-08-16",
+      "updated": "2026-08-17",
       "auto_generated": true,
       "from_override": false
     },
@@ -203,7 +245,7 @@
       "new_ppg": 5.76,
       "position": "RB",
       "team": "DEN",
-      "updated": "2026-08-16",
+      "updated": "2026-08-17",
       "auto_generated": true,
       "from_override": false
     },
@@ -227,7 +269,7 @@
       "new_ppg": 12.2,
       "position": "RB",
       "team": "LA",
-      "updated": "2026-08-16",
+      "updated": "2026-08-17",
       "auto_generated": true,
       "from_override": false
     },
@@ -248,7 +290,7 @@
       "new_ppg": 9.2,
       "position": "TE",
       "team": "ARI",
-      "updated": "2026-08-16",
+      "updated": "2026-08-17",
       "auto_generated": true,
       "from_override": false
     },
@@ -269,7 +311,7 @@
       "new_ppg": 12.69,
       "position": "QB",
       "team": "IND",
-      "updated": "2026-08-16",
+      "updated": "2026-08-17",
       "auto_generated": true,
       "from_override": false
     },
@@ -290,7 +332,7 @@
       "new_ppg": 7.61,
       "position": "WR",
       "team": "ARI",
-      "updated": "2026-08-16",
+      "updated": "2026-08-17",
       "auto_generated": true,
       "from_override": false
     },
@@ -311,7 +353,7 @@
       "new_ppg": 7.52,
       "position": "WR",
       "team": "CHI",
-      "updated": "2026-08-16",
+      "updated": "2026-08-17",
       "auto_generated": true,
       "from_override": false
     },
@@ -332,7 +374,7 @@
       "new_ppg": 7.95,
       "position": "WR",
       "team": "CAR",
-      "updated": "2026-08-16",
+      "updated": "2026-08-17",
       "auto_generated": true,
       "from_override": false
     },
@@ -353,7 +395,7 @@
       "new_ppg": 4.6,
       "position": "TE",
       "team": "BUF",
-      "updated": "2026-08-16",
+      "updated": "2026-08-17",
       "auto_generated": true,
       "from_override": false
     },
@@ -374,7 +416,7 @@
       "new_ppg": 4.6,
       "position": "TE",
       "team": "TEN",
-      "updated": "2026-08-16",
+      "updated": "2026-08-17",
       "auto_generated": true,
       "from_override": false
     },
@@ -395,7 +437,7 @@
       "new_ppg": 16.74,
       "position": "QB",
       "team": "WAS",
-      "updated": "2026-08-16",
+      "updated": "2026-08-17",
       "auto_generated": true,
       "from_override": false
     },
@@ -416,7 +458,7 @@
       "new_ppg": 5.1,
       "position": "TE",
       "team": "NO",
-      "updated": "2026-08-16",
+      "updated": "2026-08-17",
       "auto_generated": true,
       "from_override": false
     },
@@ -437,7 +479,7 @@
       "new_ppg": 8.12,
       "position": "RB",
       "team": "HOU",
-      "updated": "2026-08-16",
+      "updated": "2026-08-17",
       "auto_generated": true,
       "from_override": false
     },
@@ -460,28 +502,7 @@
       "new_ppg": 4.79,
       "position": "RB",
       "team": "BUF",
-      "updated": "2026-08-16",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "C.Otton": {
-      "status": "NEUTRAL",
-      "injury": "Jeff Cotton - Inactive Jeff Cotton listed as Inactive",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Jeff Cotton listed as Inactive. ",
-      "impact": "NEUTRAL",
-      "source": "Sleeper",
-      "headlines": [
-        "Jeff Cotton - Inactive"
-      ],
-      "old_rank": 298,
-      "new_rank": 296,
-      "old_ppg": 6.01,
-      "new_ppg": 6.01,
-      "position": "TE",
-      "team": "TB",
-      "updated": "2026-08-16",
+      "updated": "2026-08-17",
       "auto_generated": true,
       "from_override": false
     },
@@ -502,7 +523,29 @@
       "new_ppg": 3.77,
       "position": "TE",
       "team": "ARI",
-      "updated": "2026-08-16",
+      "updated": "2026-08-17",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Z.Charbonnet": {
+      "status": "MODERATE",
+      "injury": "PUP Zach Charbonnet listed as PUP",
+      "week1_outlook": "UNCERTAIN",
+      "ppg_multiplier": 0.82,
+      "ranking_note": "Zach Charbonnet listed as PUP. ",
+      "impact": "MODERATE",
+      "source": "Sleeper",
+      "headlines": [
+        "Surgery",
+        "Zach Charbonnet - PUP"
+      ],
+      "old_rank": 292,
+      "new_rank": 367,
+      "old_ppg": 6.14,
+      "new_ppg": 5.03,
+      "position": "RB",
+      "team": "SEA",
+      "updated": "2026-08-17",
       "auto_generated": true,
       "from_override": false
     },
@@ -523,7 +566,7 @@
       "new_ppg": 6.44,
       "position": "WR",
       "team": "PIT",
-      "updated": "2026-08-16",
+      "updated": "2026-08-17",
       "auto_generated": true,
       "from_override": false
     },
@@ -544,7 +587,7 @@
       "new_ppg": 7.13,
       "position": "WR",
       "team": "SEA",
-      "updated": "2026-08-16",
+      "updated": "2026-08-17",
       "auto_generated": true,
       "from_override": false
     },
@@ -565,7 +608,7 @@
       "new_ppg": 8.62,
       "position": "RB",
       "team": "LAC",
-      "updated": "2026-08-16",
+      "updated": "2026-08-17",
       "auto_generated": true,
       "from_override": false
     },
