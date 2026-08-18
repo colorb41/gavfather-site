@@ -1,26 +1,26 @@
 {
-  "updated": "2026-08-18T13:49:19",
+  "updated": "2026-08-18T22:26:10",
   "source": "CampResearcher.v2",
   "override_count": 11,
-  "player_count": 38,
-  "news_items_processed": 1694,
+  "player_count": 39,
+  "news_items_processed": 1681,
   "players": {
     "T.Lawrence": {
       "status": "NEUTRAL",
-      "injury": "Knee WR Tampa Bay Buccaneers Knee WR Tampa B",
+      "injury": "WR New Orleans Saints WR New Orleans Saints WR New Orleans Saints",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "WR Tampa Bay Buccaneers Knee",
+      "ranking_note": "WR New Orleans Saints",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "WR Tampa Bay Buccaneers Knee",
-        "WR Miami Dolphins Knee - ACL",
-        "WR Buffalo Bills Foot",
-        "WR Jacksonville Jaguars",
-        "WR Indianapolis Colts"
+        "WR New Orleans Saints",
+        "WR Los Angeles Chargers Lower Body",
+        "WR San Francisco 49ers Quadriceps",
+        "WR San Francisco 49ers Foot",
+        "WR New York Giants Knee"
       ],
-      "old_rank": 28,
+      "old_rank": 29,
       "new_rank": 28,
       "old_ppg": 12.59,
       "new_ppg": 12.59,
@@ -30,45 +30,22 @@
       "auto_generated": true,
       "from_override": false
     },
-    "R.White": {
-      "status": "NEUTRAL",
-      "injury": "Undisclosed TE Tampa Bay Buccaneers Undisclosed TE",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "TE Tampa Bay Buccaneers Undisclosed",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "TE Tampa Bay Buccaneers Undisclosed",
-        "TE New York Jets Abdomen",
-        "TE Carolina Panthers"
-      ],
-      "old_rank": 126,
-      "new_rank": 123,
-      "old_ppg": 8.63,
-      "new_ppg": 8.63,
-      "position": "RB",
-      "team": "TB",
-      "updated": "2026-08-18",
-      "auto_generated": true,
-      "from_override": false
-    },
     "R.Blackshear": {
       "status": "NEUTRAL",
-      "injury": "Undisclosed RB Jacksonville Jaguars Undisclosed RB",
+      "injury": "RB Tampa Bay Buccaneers RB Tampa Bay Buccaneers RB Tampa Bay Buccaneers",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "RB Jacksonville Jaguars Undisclosed",
+      "ranking_note": "RB Tampa Bay Buccaneers",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "RB Jacksonville Jaguars Undisclosed",
+        "RB Tampa Bay Buccaneers",
         "RB San Francisco 49ers Undisclosed",
-        "RB Free Agent Achilles",
-        "RB New York Jets Groin",
-        "RB Chicago Bears Knee"
+        "RB San Francisco 49ers Thigh",
+        "RB Chicago Bears Knee",
+        "RB Arizona Cardinals Ankle"
       ],
-      "old_rank": 200,
+      "old_rank": 199,
       "new_rank": 197,
       "old_ppg": 6.77,
       "new_ppg": 6.77,
@@ -78,23 +55,65 @@
       "auto_generated": true,
       "from_override": false
     },
-    "D.Moore": {
+    "J.Chase": {
       "status": "NEUTRAL",
-      "injury": "DJ Moore DJ Moore Suited up for Tuesday's session WR Buffalo Bills August 18, 2026 Moore (lower body) is practicing Tues",
+      "injury": "C Los Angeles Chargers Leg C Los Angeles Chargers Leg C Los Angeles Chargers Leg",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "DJ Moore Suited up for Tuesday's session WR Buffalo Bills August 18, 2026 Moore (lower body) is practicing Tuesday, Joe Buscaglia of The Athletic reports. ANALYSIS Subscribe now to instantly reveal our take on this news.",
+      "ranking_note": "C Los Angeles Chargers Leg",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "DJ Moore"
+        "C Los Angeles Chargers Leg"
       ],
-      "old_rank": 361,
-      "new_rank": 358,
-      "old_ppg": 8.7,
-      "new_ppg": 8.7,
+      "old_rank": 8,
+      "new_rank": 8,
+      "old_ppg": 15.61,
+      "new_ppg": 15.61,
       "position": "WR",
-      "team": "CHI",
+      "team": "CIN",
+      "updated": "2026-08-18",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "J.Dobbins": {
+      "status": "NEUTRAL",
+      "injury": "undisclosed) was in full pads for Tuesday's practic",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "J.K. Dobbins Suited up in full pads Tuesday RB Denver Broncos August 18, 2026 Dobbins (undisclosed) was in full pads for Tuesday's practice, Chris Tomasson of The Denver Gazette reports. ANALYSIS Subscribe now to instantly reveal our take o",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "J.K. Dobbins"
+      ],
+      "old_rank": 100,
+      "new_rank": 100,
+      "old_ppg": 9.96,
+      "new_ppg": 9.96,
+      "position": "RB",
+      "team": "LAC",
+      "updated": "2026-08-18",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "C.Stroud": {
+      "status": "NEUTRAL",
+      "injury": "C",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "August 18, 2026 In reference to Higgins, who appeared to sustain a leg injury during Tuesday's practice, QB C.J. Stroud noted afterward, \"I think he'll be fine,\" Aaron Wilson of KPRC 2 Houston reports. ANALYSIS Subscribe now to instantly re",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "C.J. Stroud"
+      ],
+      "old_rank": 37,
+      "new_rank": 37,
+      "old_ppg": 12.08,
+      "new_ppg": 12.08,
+      "position": "QB",
+      "team": "HOU",
       "updated": "2026-08-18",
       "auto_generated": true,
       "from_override": false
@@ -111,7 +130,7 @@
         "Kittle still believes he has a shot for Week 1 in Australia and also is confident he'll avoid the PUP to start the season ."
       ],
       "old_rank": 295,
-      "new_rank": 372,
+      "new_rank": 371,
       "old_ppg": 6.04,
       "new_ppg": 4.95,
       "position": "RB",
@@ -132,7 +151,7 @@
         "Sashi Brown - Inactive"
       ],
       "old_rank": 10,
-      "new_rank": 9,
+      "new_rank": 10,
       "old_ppg": 15.0,
       "new_ppg": 15.0,
       "position": "WR",
@@ -153,8 +172,8 @@
         "Corey Washington - Inactive",
         "Eric Washington - Inactive"
       ],
-      "old_rank": 251,
-      "new_rank": 247,
+      "old_rank": 255,
+      "new_rank": 210,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
@@ -174,8 +193,8 @@
       "headlines": [
         "Tom Benson - Inactive"
       ],
-      "old_rank": 362,
-      "new_rank": 359,
+      "old_rank": 361,
+      "new_rank": 358,
       "old_ppg": 5.12,
       "new_ppg": 5.12,
       "position": "RB",
@@ -263,7 +282,7 @@
         "Tre McBride - Inactive"
       ],
       "old_rank": 112,
-      "new_rank": 111,
+      "new_rank": 112,
       "old_ppg": 9.2,
       "new_ppg": 9.2,
       "position": "TE",
@@ -305,11 +324,32 @@
         "M Harris - Inactive"
       ],
       "old_rank": 145,
-      "new_rank": 144,
+      "new_rank": 143,
       "old_ppg": 7.61,
       "new_ppg": 7.61,
       "position": "WR",
       "team": "ARI",
+      "updated": "2026-08-18",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "D.Moore": {
+      "status": "MILD",
+      "injury": "DJ Moore - Questionable DJ Moore listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "DJ Moore listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "DJ Moore - Questionable"
+      ],
+      "old_rank": 385,
+      "new_rank": 441,
+      "old_ppg": 8.09,
+      "new_ppg": 7.52,
+      "position": "WR",
+      "team": "CHI",
       "updated": "2026-08-18",
       "auto_generated": true,
       "from_override": false
@@ -326,7 +366,7 @@
         "Adam Thielen - NA"
       ],
       "old_rank": 135,
-      "new_rank": 135,
+      "new_rank": 134,
       "old_ppg": 7.95,
       "new_ppg": 7.95,
       "position": "WR",
@@ -368,7 +408,7 @@
         "Adrien Robinson - Inactive"
       ],
       "old_rank": 400,
-      "new_rank": 400,
+      "new_rank": 397,
       "old_ppg": 4.6,
       "new_ppg": 4.6,
       "position": "TE",
@@ -409,8 +449,8 @@
       "headlines": [
         "Josh Johnson - Inactive"
       ],
-      "old_rank": 365,
-      "new_rank": 362,
+      "old_rank": 364,
+      "new_rank": 361,
       "old_ppg": 5.1,
       "new_ppg": 5.1,
       "position": "TE",
@@ -431,7 +471,7 @@
         "Joe Mixon - Questionable"
       ],
       "old_rank": 124,
-      "new_rank": 133,
+      "new_rank": 132,
       "old_ppg": 8.73,
       "new_ppg": 8.12,
       "position": "RB",
@@ -495,7 +535,7 @@
       "headlines": [
         "Tip Reiman - PUP"
       ],
-      "old_rank": 398,
+      "old_rank": 399,
       "new_rank": 475,
       "old_ppg": 4.6,
       "new_ppg": 3.77,
@@ -518,7 +558,7 @@
         "Zach Charbonnet - PUP"
       ],
       "old_rank": 291,
-      "new_rank": 367,
+      "new_rank": 366,
       "old_ppg": 6.14,
       "new_ppg": 5.03,
       "position": "RB",
@@ -538,8 +578,8 @@
       "headlines": [
         "Bisi Johnson - Inactive"
       ],
-      "old_rank": 238,
-      "new_rank": 228,
+      "old_rank": 218,
+      "new_rank": 215,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
@@ -565,27 +605,6 @@
       "new_ppg": 7.13,
       "position": "WR",
       "team": "SEA",
-      "updated": "2026-08-18",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "J.Dobbins": {
-      "status": "MILD",
-      "injury": "J",
-      "week1_outlook": "EXPECTED OK",
-      "ppg_multiplier": 0.93,
-      "ranking_note": "J.K. Dobbins listed as Questionable. ",
-      "impact": "MILD",
-      "source": "Sleeper",
-      "headlines": [
-        "J.K. Dobbins - Questionable"
-      ],
-      "old_rank": 109,
-      "new_rank": 124,
-      "old_ppg": 9.27,
-      "new_ppg": 8.62,
-      "position": "RB",
-      "team": "LAC",
       "updated": "2026-08-18",
       "auto_generated": true,
       "from_override": false
