@@ -1,24 +1,25 @@
 {
-  "updated": "2026-08-20T13:52:49",
+  "updated": "2026-08-20T22:30:32",
   "source": "CampResearcher.v2",
   "override_count": 11,
-  "player_count": 39,
-  "news_items_processed": 1680,
+  "player_count": 37,
+  "news_items_processed": 1697,
   "players": {
     "R.Blackshear": {
       "status": "NEUTRAL",
-      "injury": "Hamstring RB Washington Commanders Hamstring RB W",
+      "injury": "Undisclosed RB Cleveland Browns Undisclosed RB Clev",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "RB Washington Commanders Hamstring",
+      "ranking_note": "RB Cleveland Browns Undisclosed",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "RB Washington Commanders Hamstring",
-        "RB Cleveland Browns Undisclosed"
+        "RB Cleveland Browns Undisclosed",
+        "RB Dallas Cowboys Shoulder",
+        "RB Washington Commanders Hamstring"
       ],
-      "old_rank": 194,
-      "new_rank": 192,
+      "old_rank": 196,
+      "new_rank": 194,
       "old_ppg": 6.77,
       "new_ppg": 6.77,
       "position": "RB",
@@ -27,65 +28,22 @@
       "auto_generated": true,
       "from_override": false
     },
-    "R.White": {
-      "status": "NEUTRAL",
-      "injury": "TE Indianapolis Colts Groin TE Indianapolis Colts Groin TE Indianapolis Colts Groin",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "TE Indianapolis Colts Groin",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "TE Indianapolis Colts Groin",
-        "TE Green Bay Packers Knee - ACL"
-      ],
-      "old_rank": 125,
-      "new_rank": 123,
-      "old_ppg": 8.63,
-      "new_ppg": 8.63,
-      "position": "RB",
-      "team": "TB",
-      "updated": "2026-08-20",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "S.Barkley": {
-      "status": "NEUTRAL",
-      "injury": "Undisclosed K Free Agent Undisclosed K Free Agent U",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "K Free Agent Undisclosed",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "K Free Agent Undisclosed"
-      ],
-      "old_rank": 12,
-      "new_rank": 12,
-      "old_ppg": 14.38,
-      "new_ppg": 14.38,
-      "position": "RB",
-      "team": "PHI",
-      "updated": "2026-08-20",
-      "auto_generated": true,
-      "from_override": false
-    },
     "T.Lawrence": {
       "status": "NEUTRAL",
-      "injury": "Hamstring WR Houston Texans Hamstring WR Houston",
+      "injury": "WR Los Angeles Rams Groin WR Los Angeles Rams Groin WR Los Angeles Rams Groin",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "WR Houston Texans Hamstring",
+      "ranking_note": "WR Los Angeles Rams Groin",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "WR Houston Texans Hamstring",
-        "WR Indianapolis Colts Ankle",
-        "WR Pittsburgh Steelers Hamstring",
-        "WR Pittsburgh Steelers Undisclosed",
-        "WR Tennessee Titans Undisclosed"
+        "WR Los Angeles Rams Groin",
+        "WR Indianapolis Colts",
+        "WR Buffalo Bills Undisclosed",
+        "WR Philadelphia Eagles Hamstring",
+        "WR New York Giants Knee - ACL"
       ],
-      "old_rank": 29,
+      "old_rank": 28,
       "new_rank": 28,
       "old_ppg": 12.59,
       "new_ppg": 12.59,
@@ -95,66 +53,67 @@
       "auto_generated": true,
       "from_override": false
     },
-    "D.Thompkins": {
+    "D.Moore": {
       "status": "NEUTRAL",
-      "injury": "DT Tampa Bay Buccaneers DT Tampa Bay Buccaneers DT Tampa Bay Buccaneers",
+      "injury": "DJ Moore DJ Moore Taking part in team drills Thursday WR Buffalo Bills August 20, 2026 Moore (lower body) is participati",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "DT Tampa Bay Buccaneers",
+      "ranking_note": "DJ Moore Taking part in team drills Thursday WR Buffalo Bills August 20, 2026 Moore (lower body) is participating in team drills Thursday, Matthew Bove of 7 News WKBW reports. ANALYSIS Subscribe now to instantly reveal our take on this news",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "DT Tampa Bay Buccaneers"
+        "DJ Moore"
       ],
-      "old_rank": 246,
-      "new_rank": 251,
-      "old_ppg": 6.44,
-      "new_ppg": 6.44,
+      "old_rank": 360,
+      "new_rank": 358,
+      "old_ppg": 8.7,
+      "new_ppg": 8.7,
       "position": "WR",
-      "team": "CAR",
+      "team": "CHI",
       "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
     },
-    "B.Nix": {
-      "status": "NEUTRAL",
-      "injury": "Bo Nix Bo Nix In line to play in Friday's preseason contest QB Denver Broncos August 19, 2026 Coach Sean Payton said Nix",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Bo Nix In line to play in Friday's preseason contest QB Denver Broncos August 19, 2026 Coach Sean Payton said Nix is expected to play roughly 14 snaps during Friday's preseason game against the Packers, Zac Stevens of TheDNVR.com reports. A",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Bo Nix"
-      ],
-      "old_rank": 13,
-      "new_rank": 13,
-      "old_ppg": 14.37,
-      "new_ppg": 14.37,
-      "position": "QB",
-      "team": "DEN",
-      "updated": "2026-08-20",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "D.Metcalf": {
+    "S.LaPorta": {
       "status": "MILD",
-      "injury": "DK Metcalf - Questionable DK Metcalf listed as Questionable",
+      "injury": "Sam LaPorta - Questionable Sam LaPorta listed as Questionable",
       "week1_outlook": "EXPECTED OK",
       "ppg_multiplier": 0.93,
-      "ranking_note": "DK Metcalf listed as Questionable. ",
+      "ranking_note": "Sam LaPorta listed as Questionable. ",
       "impact": "MILD",
       "source": "Sleeper",
       "headlines": [
-        "DK Metcalf",
-        "DK Metcalf - Questionable"
+        "Sam LaPorta",
+        "Sam LaPorta - Questionable"
       ],
-      "old_rank": 141,
-      "new_rank": 180,
-      "old_ppg": 7.67,
-      "new_ppg": 7.13,
-      "position": "WR",
-      "team": "SEA",
+      "old_rank": 191,
+      "new_rank": 283,
+      "old_ppg": 6.79,
+      "new_ppg": 6.31,
+      "position": "TE",
+      "team": "DET",
+      "updated": "2026-08-20",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "R.White": {
+      "status": "NEUTRAL",
+      "injury": "TE Detroit Lions Hip TE Detroit Lions Hip TE Detroit Lions Hip",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "TE Detroit Lions Hip",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "TE Detroit Lions Hip",
+        "TE Indianapolis Colts Groin"
+      ],
+      "old_rank": 126,
+      "new_rank": 124,
+      "old_ppg": 8.63,
+      "new_ppg": 8.63,
+      "position": "RB",
+      "team": "TB",
       "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
@@ -164,7 +123,7 @@
       "injury": "C",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "C.J. Stroud Change in plans for Thursday's contest QB Houston Texans August 19, 2026 Stroud and other starters will now be rested for Thursday's preseason game against the Raiders, Jonathan M. Alexander of the Houston Chronicle reports. ANA",
+      "ranking_note": "C.J. Stroud On track to play Thursday QB Houston Texans August 20, 2026 Stroud is expected to play a few series during Thursday's preseason game against the Raiders, Aaron Wilson of KPRC 2 Houston reports. ANALYSIS Subscribe now to instantl",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
@@ -176,6 +135,27 @@
       "new_ppg": 12.08,
       "position": "QB",
       "team": "HOU",
+      "updated": "2026-08-20",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "J.Burrow": {
+      "status": "NEUTRAL",
+      "injury": "Joe Burrow Joe Burrow Will sit out Saturday's preseason contest QB Cincinnati Bengals August 20, 2026 Bengals head coach",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Joe Burrow Will sit out Saturday's preseason contest QB Cincinnati Bengals August 20, 2026 Bengals head coach Zac Taylor said that Burrow and other key starters are in line to be rested for Saturday's preseason game against the Bears, Jay M",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Joe Burrow"
+      ],
+      "old_rank": 3,
+      "new_rank": 3,
+      "old_ppg": 17.15,
+      "new_ppg": 17.15,
+      "position": "QB",
+      "team": "CIN",
       "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
@@ -192,7 +172,7 @@
         "Kittle still believes he has a shot for Week 1 in Australia and also is confident he'll avoid the PUP to start the season ."
       ],
       "old_rank": 295,
-      "new_rank": 371,
+      "new_rank": 372,
       "old_ppg": 6.04,
       "new_ppg": 4.95,
       "position": "RB",
@@ -213,7 +193,7 @@
         "Sashi Brown - Inactive"
       ],
       "old_rank": 10,
-      "new_rank": 10,
+      "new_rank": 9,
       "old_ppg": 15.0,
       "new_ppg": 15.0,
       "position": "WR",
@@ -234,33 +214,12 @@
         "Corey Washington - Inactive",
         "Eric Washington - Inactive"
       ],
-      "old_rank": 261,
-      "new_rank": 268,
+      "old_rank": 209,
+      "new_rank": 233,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
       "team": "ATL",
-      "updated": "2026-08-20",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "T.Benson": {
-      "status": "NEUTRAL",
-      "injury": "Tom Benson - Inactive Tom Benson listed as Inactive",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Tom Benson listed as Inactive. ",
-      "impact": "NEUTRAL",
-      "source": "Sleeper",
-      "headlines": [
-        "Tom Benson - Inactive"
-      ],
-      "old_rank": 361,
-      "new_rank": 358,
-      "old_ppg": 5.12,
-      "new_ppg": 5.12,
-      "position": "RB",
-      "team": "ARI",
       "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
@@ -278,7 +237,7 @@
         "D.J. Williams - Questionable"
       ],
       "old_rank": 462,
-      "new_rank": 471,
+      "new_rank": 472,
       "old_ppg": 6.19,
       "new_ppg": 5.76,
       "position": "RB",
@@ -365,32 +324,11 @@
         "M Harris - Inactive"
       ],
       "old_rank": 145,
-      "new_rank": 143,
+      "new_rank": 144,
       "old_ppg": 7.61,
       "new_ppg": 7.61,
       "position": "WR",
       "team": "ARI",
-      "updated": "2026-08-20",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "D.Moore": {
-      "status": "MILD",
-      "injury": "DJ Moore - Questionable DJ Moore listed as Questionable",
-      "week1_outlook": "EXPECTED OK",
-      "ppg_multiplier": 0.93,
-      "ranking_note": "DJ Moore listed as Questionable. ",
-      "impact": "MILD",
-      "source": "Sleeper",
-      "headlines": [
-        "DJ Moore - Questionable"
-      ],
-      "old_rank": 385,
-      "new_rank": 441,
-      "old_ppg": 8.09,
-      "new_ppg": 7.52,
-      "position": "WR",
-      "team": "CHI",
       "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
@@ -407,11 +345,53 @@
         "Adam Thielen - NA"
       ],
       "old_rank": 135,
-      "new_rank": 134,
+      "new_rank": 135,
       "old_ppg": 7.95,
       "new_ppg": 7.95,
       "position": "WR",
       "team": "CAR",
+      "updated": "2026-08-20",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Z.Davidson": {
+      "status": "NEUTRAL",
+      "injury": "David Olson - Inactive David Olson listed as Inactive",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "David Olson listed as Inactive. ",
+      "impact": "NEUTRAL",
+      "source": "Sleeper",
+      "headlines": [
+        "David Olson - Inactive"
+      ],
+      "old_rank": 433,
+      "new_rank": 400,
+      "old_ppg": 4.6,
+      "new_ppg": 4.6,
+      "position": "TE",
+      "team": "BUF",
+      "updated": "2026-08-20",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "D.Martin-Robinson": {
+      "status": "NEUTRAL",
+      "injury": "Adrien Robinson - Inactive Adrien Robinson listed as Inactive",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Adrien Robinson listed as Inactive. ",
+      "impact": "NEUTRAL",
+      "source": "Sleeper",
+      "headlines": [
+        "Adrien Robinson - Inactive"
+      ],
+      "old_rank": 409,
+      "new_rank": 409,
+      "old_ppg": 4.6,
+      "new_ppg": 4.6,
+      "position": "TE",
+      "team": "TEN",
       "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
@@ -437,28 +417,6 @@
       "auto_generated": true,
       "from_override": false
     },
-    "L.Musgrave": {
-      "status": "MODERATE",
-      "injury": "PUP Luke Musgrave listed as PUP",
-      "week1_outlook": "UNCERTAIN",
-      "ppg_multiplier": 0.82,
-      "ranking_note": "Luke Musgrave listed as PUP. ",
-      "impact": "MODERATE",
-      "source": "Sleeper",
-      "headlines": [
-        "Luke Musgrave - PUP",
-        "Bill Musgrave - Inactive"
-      ],
-      "old_rank": 415,
-      "new_rank": 475,
-      "old_ppg": 4.6,
-      "new_ppg": 3.77,
-      "position": "TE",
-      "team": "GB",
-      "updated": "2026-08-20",
-      "auto_generated": true,
-      "from_override": false
-    },
     "J.Johnson": {
       "status": "NEUTRAL",
       "injury": "Josh Johnson - Inactive Josh Johnson listed as Inactive",
@@ -471,7 +429,7 @@
         "Josh Johnson - Inactive"
       ],
       "old_rank": 364,
-      "new_rank": 361,
+      "new_rank": 362,
       "old_ppg": 5.1,
       "new_ppg": 5.1,
       "position": "TE",
@@ -492,7 +450,7 @@
         "Joe Mixon - Questionable"
       ],
       "old_rank": 124,
-      "new_rank": 132,
+      "new_rank": 133,
       "old_ppg": 8.73,
       "new_ppg": 8.12,
       "position": "RB",
@@ -514,8 +472,8 @@
         "Strain",
         "Tez Johnson - Questionable"
       ],
-      "old_rank": 463,
-      "new_rank": 473,
+      "old_rank": 464,
+      "new_rank": 474,
       "old_ppg": 5.15,
       "new_ppg": 4.79,
       "position": "RB",
@@ -536,7 +494,7 @@
         "Jeff Cotton - Inactive"
       ],
       "old_rank": 298,
-      "new_rank": 294,
+      "new_rank": 295,
       "old_ppg": 6.01,
       "new_ppg": 6.01,
       "position": "TE",
@@ -558,33 +516,11 @@
         "Zach Charbonnet - PUP"
       ],
       "old_rank": 291,
-      "new_rank": 366,
+      "new_rank": 367,
       "old_ppg": 6.14,
       "new_ppg": 5.03,
       "position": "RB",
       "team": "SEA",
-      "updated": "2026-08-20",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "I.Smith": {
-      "status": "MILD",
-      "injury": "Irv Smith - Questionable Irv Smith listed",
-      "week1_outlook": "EXPECTED OK",
-      "ppg_multiplier": 0.93,
-      "ranking_note": "Irv Smith listed as Questionable. ",
-      "impact": "MILD",
-      "source": "Sleeper",
-      "headlines": [
-        "Sprain",
-        "Irv Smith - Questionable"
-      ],
-      "old_rank": 266,
-      "new_rank": 296,
-      "old_ppg": 4.6,
-      "new_ppg": 4.28,
-      "position": "TE",
-      "team": "HOU",
       "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
@@ -600,12 +536,33 @@
       "headlines": [
         "Bisi Johnson - Inactive"
       ],
-      "old_rank": 214,
-      "new_rank": 219,
+      "old_rank": 218,
+      "new_rank": 223,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
       "team": "PIT",
+      "updated": "2026-08-20",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "D.Metcalf": {
+      "status": "MILD",
+      "injury": "DK Metcalf - Questionable DK Metcalf listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "DK Metcalf listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "DK Metcalf - Questionable"
+      ],
+      "old_rank": 141,
+      "new_rank": 179,
+      "old_ppg": 7.67,
+      "new_ppg": 7.13,
+      "position": "WR",
+      "team": "SEA",
       "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
