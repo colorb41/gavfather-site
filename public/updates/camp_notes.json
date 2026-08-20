@@ -1,32 +1,29 @@
 {
-  "updated": "2026-08-19T22:27:34",
+  "updated": "2026-08-20T13:52:49",
   "source": "CampResearcher.v2",
   "override_count": 11,
-  "player_count": 37,
-  "news_items_processed": 1678,
+  "player_count": 39,
+  "news_items_processed": 1680,
   "players": {
-    "T.Lawrence": {
+    "R.Blackshear": {
       "status": "NEUTRAL",
-      "injury": "WR Indianapolis Colts Ankle WR Indianapolis Colts Ankle WR Indianapolis Colts Ankle",
+      "injury": "Hamstring RB Washington Commanders Hamstring RB W",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "WR Indianapolis Colts Ankle",
+      "ranking_note": "RB Washington Commanders Hamstring",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "WR Indianapolis Colts Ankle",
-        "WR Pittsburgh Steelers Hamstring",
-        "WR Pittsburgh Steelers Undisclosed",
-        "WR Houston Texans Hamstring",
-        "WR Tennessee Titans Undisclosed"
+        "RB Washington Commanders Hamstring",
+        "RB Cleveland Browns Undisclosed"
       ],
-      "old_rank": 29,
-      "new_rank": 28,
-      "old_ppg": 12.59,
-      "new_ppg": 12.59,
-      "position": "QB",
-      "team": "JAX",
-      "updated": "2026-08-19",
+      "old_rank": 194,
+      "new_rank": 192,
+      "old_ppg": 6.77,
+      "new_ppg": 6.77,
+      "position": "RB",
+      "team": "CAR",
+      "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
     },
@@ -48,30 +45,95 @@
       "new_ppg": 8.63,
       "position": "RB",
       "team": "TB",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
     },
-    "R.Blackshear": {
+    "S.Barkley": {
       "status": "NEUTRAL",
-      "injury": "Undisclosed RB Cleveland Browns Undisclosed RB Clev",
+      "injury": "Undisclosed K Free Agent Undisclosed K Free Agent U",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "RB Cleveland Browns Undisclosed",
+      "ranking_note": "K Free Agent Undisclosed",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "RB Cleveland Browns Undisclosed",
-        "RB New Orleans Saints",
-        "RB Philadelphia Eagles"
+        "K Free Agent Undisclosed"
       ],
-      "old_rank": 194,
-      "new_rank": 197,
-      "old_ppg": 6.77,
-      "new_ppg": 6.77,
+      "old_rank": 12,
+      "new_rank": 12,
+      "old_ppg": 14.38,
+      "new_ppg": 14.38,
       "position": "RB",
+      "team": "PHI",
+      "updated": "2026-08-20",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "T.Lawrence": {
+      "status": "NEUTRAL",
+      "injury": "Hamstring WR Houston Texans Hamstring WR Houston",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "WR Houston Texans Hamstring",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "WR Houston Texans Hamstring",
+        "WR Indianapolis Colts Ankle",
+        "WR Pittsburgh Steelers Hamstring",
+        "WR Pittsburgh Steelers Undisclosed",
+        "WR Tennessee Titans Undisclosed"
+      ],
+      "old_rank": 29,
+      "new_rank": 28,
+      "old_ppg": 12.59,
+      "new_ppg": 12.59,
+      "position": "QB",
+      "team": "JAX",
+      "updated": "2026-08-20",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "D.Thompkins": {
+      "status": "NEUTRAL",
+      "injury": "DT Tampa Bay Buccaneers DT Tampa Bay Buccaneers DT Tampa Bay Buccaneers",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "DT Tampa Bay Buccaneers",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "DT Tampa Bay Buccaneers"
+      ],
+      "old_rank": 246,
+      "new_rank": 251,
+      "old_ppg": 6.44,
+      "new_ppg": 6.44,
+      "position": "WR",
       "team": "CAR",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "B.Nix": {
+      "status": "NEUTRAL",
+      "injury": "Bo Nix Bo Nix In line to play in Friday's preseason contest QB Denver Broncos August 19, 2026 Coach Sean Payton said Nix",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Bo Nix In line to play in Friday's preseason contest QB Denver Broncos August 19, 2026 Coach Sean Payton said Nix is expected to play roughly 14 snaps during Friday's preseason game against the Packers, Zac Stevens of TheDNVR.com reports. A",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Bo Nix"
+      ],
+      "old_rank": 13,
+      "new_rank": 13,
+      "old_ppg": 14.37,
+      "new_ppg": 14.37,
+      "position": "QB",
+      "team": "DEN",
+      "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
     },
@@ -87,13 +149,13 @@
         "DK Metcalf",
         "DK Metcalf - Questionable"
       ],
-      "old_rank": 142,
+      "old_rank": 141,
       "new_rank": 180,
       "old_ppg": 7.67,
       "new_ppg": 7.13,
       "position": "WR",
       "team": "SEA",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
     },
@@ -114,49 +176,7 @@
       "new_ppg": 12.08,
       "position": "QB",
       "team": "HOU",
-      "updated": "2026-08-19",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "T.Pollard": {
-      "status": "POSITIVE",
-      "injury": "undisclosed) returned to practice Wednesday",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.05,
-      "ranking_note": "Tony Pollard Returns to practice Wednesday RB Tennessee Titans August 19, 2026 Pollard (undisclosed) returned to practice Wednesday, Turron Davenport of ESPN.com reports. ANALYSIS Subscribe now to instantly reveal our take on this news.",
-      "impact": "POSITIVE",
-      "source": "RotoWire",
-      "headlines": [
-        "Tony Pollard"
-      ],
-      "old_rank": 139,
-      "new_rank": 129,
-      "old_ppg": 7.86,
-      "new_ppg": 8.25,
-      "position": "RB",
-      "team": "TEN",
-      "updated": "2026-08-19",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "J.Chase": {
-      "status": "NEUTRAL",
-      "injury": "Knee C Los Angeles Chargers Knee C Los Angel",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "C Los Angeles Chargers Knee",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "C Los Angeles Chargers Knee"
-      ],
-      "old_rank": 8,
-      "new_rank": 8,
-      "old_ppg": 15.61,
-      "new_ppg": 15.61,
-      "position": "WR",
-      "team": "CIN",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
     },
@@ -177,7 +197,7 @@
       "new_ppg": 4.95,
       "position": "RB",
       "team": "BAL",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
     },
@@ -198,7 +218,7 @@
       "new_ppg": 15.0,
       "position": "WR",
       "team": "NE",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
     },
@@ -214,13 +234,13 @@
         "Corey Washington - Inactive",
         "Eric Washington - Inactive"
       ],
-      "old_rank": 246,
-      "new_rank": 256,
+      "old_rank": 261,
+      "new_rank": 268,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
       "team": "ATL",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
     },
@@ -241,7 +261,7 @@
       "new_ppg": 5.12,
       "position": "RB",
       "team": "ARI",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
     },
@@ -258,12 +278,12 @@
         "D.J. Williams - Questionable"
       ],
       "old_rank": 462,
-      "new_rank": 472,
+      "new_rank": 471,
       "old_ppg": 6.19,
       "new_ppg": 5.76,
       "position": "RB",
       "team": "DEN",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
     },
@@ -287,7 +307,7 @@
       "new_ppg": 12.2,
       "position": "RB",
       "team": "LA",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
     },
@@ -308,7 +328,7 @@
       "new_ppg": 9.2,
       "position": "TE",
       "team": "ARI",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
     },
@@ -329,7 +349,7 @@
       "new_ppg": 12.69,
       "position": "QB",
       "team": "IND",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
     },
@@ -344,13 +364,13 @@
       "headlines": [
         "M Harris - Inactive"
       ],
-      "old_rank": 146,
-      "new_rank": 144,
+      "old_rank": 145,
+      "new_rank": 143,
       "old_ppg": 7.61,
       "new_ppg": 7.61,
       "position": "WR",
       "team": "ARI",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
     },
@@ -366,12 +386,12 @@
         "DJ Moore - Questionable"
       ],
       "old_rank": 385,
-      "new_rank": 442,
+      "new_rank": 441,
       "old_ppg": 8.09,
       "new_ppg": 7.52,
       "position": "WR",
       "team": "CHI",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
     },
@@ -387,33 +407,12 @@
         "Adam Thielen - NA"
       ],
       "old_rank": 135,
-      "new_rank": 135,
+      "new_rank": 134,
       "old_ppg": 7.95,
       "new_ppg": 7.95,
       "position": "WR",
       "team": "CAR",
-      "updated": "2026-08-19",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Z.Davidson": {
-      "status": "NEUTRAL",
-      "injury": "David Olson - Inactive David Olson listed as Inactive",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "David Olson listed as Inactive. ",
-      "impact": "NEUTRAL",
-      "source": "Sleeper",
-      "headlines": [
-        "David Olson - Inactive"
-      ],
-      "old_rank": 425,
-      "new_rank": 428,
-      "old_ppg": 4.6,
-      "new_ppg": 4.6,
-      "position": "TE",
-      "team": "BUF",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
     },
@@ -434,7 +433,29 @@
       "new_ppg": 16.74,
       "position": "QB",
       "team": "WAS",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "L.Musgrave": {
+      "status": "MODERATE",
+      "injury": "PUP Luke Musgrave listed as PUP",
+      "week1_outlook": "UNCERTAIN",
+      "ppg_multiplier": 0.82,
+      "ranking_note": "Luke Musgrave listed as PUP. ",
+      "impact": "MODERATE",
+      "source": "Sleeper",
+      "headlines": [
+        "Luke Musgrave - PUP",
+        "Bill Musgrave - Inactive"
+      ],
+      "old_rank": 415,
+      "new_rank": 475,
+      "old_ppg": 4.6,
+      "new_ppg": 3.77,
+      "position": "TE",
+      "team": "GB",
+      "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
     },
@@ -449,13 +470,13 @@
       "headlines": [
         "Josh Johnson - Inactive"
       ],
-      "old_rank": 363,
+      "old_rank": 364,
       "new_rank": 361,
       "old_ppg": 5.1,
       "new_ppg": 5.1,
       "position": "TE",
       "team": "NO",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
     },
@@ -471,12 +492,12 @@
         "Joe Mixon - Questionable"
       ],
       "old_rank": 124,
-      "new_rank": 133,
+      "new_rank": 132,
       "old_ppg": 8.73,
       "new_ppg": 8.12,
       "position": "RB",
       "team": "HOU",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
     },
@@ -494,12 +515,12 @@
         "Tez Johnson - Questionable"
       ],
       "old_rank": 463,
-      "new_rank": 474,
+      "new_rank": 473,
       "old_ppg": 5.15,
       "new_ppg": 4.79,
       "position": "RB",
       "team": "BUF",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
     },
@@ -515,12 +536,12 @@
         "Jeff Cotton - Inactive"
       ],
       "old_rank": 298,
-      "new_rank": 295,
+      "new_rank": 294,
       "old_ppg": 6.01,
       "new_ppg": 6.01,
       "position": "TE",
       "team": "TB",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
     },
@@ -542,7 +563,29 @@
       "new_ppg": 5.03,
       "position": "RB",
       "team": "SEA",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "I.Smith": {
+      "status": "MILD",
+      "injury": "Irv Smith - Questionable Irv Smith listed",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Irv Smith listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "Sprain",
+        "Irv Smith - Questionable"
+      ],
+      "old_rank": 266,
+      "new_rank": 296,
+      "old_ppg": 4.6,
+      "new_ppg": 4.28,
+      "position": "TE",
+      "team": "HOU",
+      "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
     },
@@ -557,13 +600,13 @@
       "headlines": [
         "Bisi Johnson - Inactive"
       ],
-      "old_rank": 210,
-      "new_rank": 233,
+      "old_rank": 214,
+      "new_rank": 219,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
       "team": "PIT",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
       "auto_generated": true,
       "from_override": false
     },
