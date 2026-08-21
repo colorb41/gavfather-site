@@ -1,27 +1,70 @@
 {
-  "updated": "2026-08-21T13:51:46",
+  "updated": "2026-08-21T22:27:11",
   "source": "CampResearcher.v2",
   "override_count": 11,
-  "player_count": 35,
-  "news_items_processed": 1685,
+  "player_count": 36,
+  "news_items_processed": 1687,
   "players": {
-    "T.Lawrence": {
+    "R.White": {
       "status": "NEUTRAL",
-      "injury": "Undisclosed WR Jacksonville Jaguars Undisclosed WR",
+      "injury": "TE Carolina Panthers TE Carolina Panthers TE Carolina Panthers",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "WR Jacksonville Jaguars Undisclosed",
+      "ranking_note": "TE Carolina Panthers",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "WR Jacksonville Jaguars Undisclosed",
-        "WR San Francisco 49ers",
-        "WR Los Angeles Chargers",
-        "WR Las Vegas Raiders",
-        "WR Los Angeles Chargers Lower Body"
+        "TE Carolina Panthers",
+        "TE Los Angeles Chargers"
       ],
-      "old_rank": 28,
-      "new_rank": 28,
+      "old_rank": 126,
+      "new_rank": 124,
+      "old_ppg": 8.63,
+      "new_ppg": 8.63,
+      "position": "RB",
+      "team": "TB",
+      "updated": "2026-08-21",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Z.Jones": {
+      "status": "NEUTRAL",
+      "injury": "Zay Jones Zay Jones Joining forces with Texans WR Houston Texans August 21, 2026 Jones is signing a contract with the Te",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Zay Jones Joining forces with Texans WR Houston Texans August 21, 2026 Jones is signing a contract with the Texans after completing a tryout with the team Friday, Mike Garafolo of NFL Network reports. ANALYSIS Subscribe now to instantly rev",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Zay Jones"
+      ],
+      "old_rank": 256,
+      "new_rank": 273,
+      "old_ppg": 6.44,
+      "new_ppg": 6.44,
+      "position": "WR",
+      "team": "ARI",
+      "updated": "2026-08-21",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "T.Lawrence": {
+      "status": "NEUTRAL",
+      "injury": "ACL WR Houston Texans Knee - ACL WR Houston",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "WR Houston Texans Knee - ACL",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "WR Houston Texans Knee - ACL",
+        "WR Seattle Seahawks Knee",
+        "WR Free Agent Knee - ACL",
+        "WR Los Angeles Chargers Undisclosed",
+        "WR Tennessee Titans Undisclosed"
+      ],
+      "old_rank": 29,
+      "new_rank": 29,
       "old_ppg": 12.59,
       "new_ppg": 12.59,
       "position": "QB",
@@ -30,22 +73,62 @@
       "auto_generated": true,
       "from_override": false
     },
-    "R.Blackshear": {
+    "N.Collins": {
       "status": "NEUTRAL",
-      "injury": "RB San Francisco 49ers RB San Francisco 49ers RB San Francisco 49ers",
+      "injury": "Nico Collins Nico Collins Held out of second preseason game WR Houston Texans August 21, 2026 Collins didn't play in Thu",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "RB San Francisco 49ers",
+      "ranking_note": "Nico Collins Held out of second preseason game WR Houston Texans August 21, 2026 Collins didn't play in Thursday's preseason game against the Raiders. ANALYSIS Subscribe now to instantly reveal our take on this news.",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "RB San Francisco 49ers",
-        "RB Los Angeles Chargers",
-        "RB Las Vegas Raiders",
-        "RB San Francisco 49ers Undisclosed",
-        "RB Pittsburgh Steelers"
+        "Nico Collins"
       ],
-      "old_rank": 193,
+      "old_rank": 42,
+      "new_rank": 42,
+      "old_ppg": 11.67,
+      "new_ppg": 11.67,
+      "position": "WR",
+      "team": "HOU",
+      "updated": "2026-08-21",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "D.Montgomery": {
+      "status": "NEUTRAL",
+      "injury": "ire",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "David Montgomery Sits out preseason action RB Houston Texans August 21, 2026 Montgomery did not play in Houston's preseason game against Las Vegas on Thursday, according to Texans Wire . ANALYSIS Subscribe now to instantly reveal our take o",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "David Montgomery"
+      ],
+      "old_rank": 113,
+      "new_rank": 113,
+      "old_ppg": 9.19,
+      "new_ppg": 9.19,
+      "position": "RB",
+      "team": "DET",
+      "updated": "2026-08-21",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "R.Blackshear": {
+      "status": "NEUTRAL",
+      "injury": "RB Las Vegas Raiders RB Las Vegas Raiders RB Las Vegas Raiders",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "RB Las Vegas Raiders",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "RB Las Vegas Raiders",
+        "RB San Francisco 49ers",
+        "RB Los Angeles Chargers"
+      ],
+      "old_rank": 197,
       "new_rank": 198,
       "old_ppg": 6.77,
       "new_ppg": 6.77,
@@ -72,69 +155,6 @@
       "new_ppg": 10.59,
       "position": "WR",
       "team": "LAC",
-      "updated": "2026-08-21",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "C.Stroud": {
-      "status": "NEUTRAL",
-      "injury": "C",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "C.J. Stroud Leads TD drive in brief outing QB Houston Texans August 20, 2026 Stroud completed four of six passes for 27 yards in Thursday's 22-20 preseason loss to the Raiders. ANALYSIS Subscribe now to instantly reveal our take on this new",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "C.J. Stroud"
-      ],
-      "old_rank": 37,
-      "new_rank": 37,
-      "old_ppg": 12.08,
-      "new_ppg": 12.08,
-      "position": "QB",
-      "team": "HOU",
-      "updated": "2026-08-21",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "R.White": {
-      "status": "NEUTRAL",
-      "injury": "Achilles TE San Francisco 49ers Achilles TE San",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "TE San Francisco 49ers Achilles",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "TE San Francisco 49ers Achilles"
-      ],
-      "old_rank": 126,
-      "new_rank": 124,
-      "old_ppg": 8.63,
-      "new_ppg": 8.63,
-      "position": "RB",
-      "team": "TB",
-      "updated": "2026-08-21",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "R.Ali": {
-      "status": "MODERATE",
-      "injury": "PUP to start the season",
-      "week1_outlook": "UNCERTAIN",
-      "ppg_multiplier": 0.82,
-      "ranking_note": "Kittle still believes he has a shot for Week 1 in Australia and also is confident he'll avoid the PUP to start the season .",
-      "impact": "MODERATE",
-      "source": "Yahoo Sports",
-      "headlines": [
-        "Kittle still believes he has a shot for Week 1 in Australia and also is confident he'll avoid the PUP to start the season ."
-      ],
-      "old_rank": 295,
-      "new_rank": 372,
-      "old_ppg": 6.04,
-      "new_ppg": 4.95,
-      "position": "RB",
-      "team": "BAL",
       "updated": "2026-08-21",
       "auto_generated": true,
       "from_override": false
@@ -172,8 +192,8 @@
         "Corey Washington - Inactive",
         "Eric Washington - Inactive"
       ],
-      "old_rank": 260,
-      "new_rank": 270,
+      "old_rank": 255,
+      "new_rank": 243,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
@@ -193,8 +213,8 @@
       "headlines": [
         "Sam LaPorta - Questionable"
       ],
-      "old_rank": 191,
-      "new_rank": 283,
+      "old_rank": 192,
+      "new_rank": 284,
       "old_ppg": 6.79,
       "new_ppg": 6.31,
       "position": "TE",
@@ -344,8 +364,8 @@
       "headlines": [
         "David Olson - Inactive"
       ],
-      "old_rank": 399,
-      "new_rank": 399,
+      "old_rank": 404,
+      "new_rank": 433,
       "old_ppg": 4.6,
       "new_ppg": 4.6,
       "position": "TE",
@@ -386,8 +406,8 @@
       "headlines": [
         "Josh Johnson - Inactive"
       ],
-      "old_rank": 365,
-      "new_rank": 362,
+      "old_rank": 364,
+      "new_rank": 363,
       "old_ppg": 5.1,
       "new_ppg": 5.1,
       "position": "TE",
@@ -430,7 +450,7 @@
         "Strain",
         "Tez Johnson - Questionable"
       ],
-      "old_rank": 464,
+      "old_rank": 463,
       "new_rank": 474,
       "old_ppg": 5.15,
       "new_ppg": 4.79,
@@ -452,7 +472,7 @@
         "Jeff Cotton - Inactive"
       ],
       "old_rank": 298,
-      "new_rank": 295,
+      "new_rank": 296,
       "old_ppg": 6.01,
       "new_ppg": 6.01,
       "position": "TE",
@@ -473,8 +493,8 @@
         "Surgery",
         "Zach Charbonnet - PUP"
       ],
-      "old_rank": 291,
-      "new_rank": 367,
+      "old_rank": 292,
+      "new_rank": 368,
       "old_ppg": 6.14,
       "new_ppg": 5.03,
       "position": "RB",
@@ -494,8 +514,8 @@
       "headlines": [
         "Bisi Johnson - Inactive"
       ],
-      "old_rank": 208,
-      "new_rank": 226,
+      "old_rank": 210,
+      "new_rank": 222,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
@@ -516,7 +536,7 @@
         "DK Metcalf - Questionable"
       ],
       "old_rank": 141,
-      "new_rank": 179,
+      "new_rank": 180,
       "old_ppg": 7.67,
       "new_ppg": 7.13,
       "position": "WR",

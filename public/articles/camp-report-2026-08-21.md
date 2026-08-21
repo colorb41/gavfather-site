@@ -15,7 +15,7 @@ excerpt: "The Gavfather System processed 1000 data points from camp this week. H
 ---
 
 The Gavfather System processed data from all 32 NFL training camps this week.
-1000 changes detected. 20 flagged as high priority.
+1000 changes detected. 23 flagged as high priority.
 Here is everything that matters for your Labor Day draft.
 
 ---
@@ -48,15 +48,6 @@ Week 1: EXPECTED OK - reported not serious
 
 Players who improved their situation this week:
 
-**🟢 Thomas Odukoya (TE, )**
-INJURY_IMPROVED: Questionable -> Healthy
-
-**🟢 Zavion Thomas (WR, CHI)**
-INJURY_IMPROVED: Questionable -> Healthy
-
-**🟢 Kendre Miller (RB, NO)**
-INJURY_IMPROVED: Questionable -> Healthy
-
 **🟢 Sione Vaki (RB, DET)**
 INJURY_IMPROVED: Questionable -> Healthy
 
@@ -70,6 +61,15 @@ INJURY_IMPROVED: Questionable -> Healthy
 INJURY_IMPROVED: Questionable -> Healthy
 
 **🟢 Michael Wiley (RB, )**
+INJURY_IMPROVED: Questionable -> Healthy
+
+**🟢 Najee Harris (RB, NYG)**
+INJURY_IMPROVED: Questionable -> Healthy
+
+**🟢 Laquon Treadwell (WR, IND)**
+INJURY_IMPROVED: Questionable -> Healthy
+
+**🟢 Marquez Valdes-Scantling (WR, DAL)**
 INJURY_IMPROVED: Questionable -> Healthy
 
 ## The Fallers
@@ -87,4 +87,4 @@ An offer your roster can't refuse.
 
 ---
 
-*Rankings updated automatically. Camp data refreshed twice daily. Last update: August 21, 2026 01:51 PM*
+*Rankings updated automatically. Camp data refreshed twice daily. Last update: August 21, 2026 10:27 PM*
