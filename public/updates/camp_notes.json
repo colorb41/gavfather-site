@@ -1,50 +1,67 @@
 {
-  "updated": "2026-08-22T13:37:54",
+  "updated": "2026-08-22T22:24:28",
   "source": "CampResearcher.v2",
   "override_count": 11,
-  "player_count": 32,
-  "news_items_processed": 1681,
+  "player_count": 33,
+  "news_items_processed": 1703,
   "players": {
-    "R.Blackshear": {
+    "S.Barkley": {
       "status": "NEUTRAL",
-      "injury": "RB Green Bay Packers RB Green Bay Packers RB Green Bay Packers",
+      "injury": "K Indianapolis Colts K Indianapolis Colts K Indianapolis Colts",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "RB Green Bay Packers",
+      "ranking_note": "K Indianapolis Colts",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "RB Green Bay Packers",
-        "RB Jacksonville Jaguars",
-        "RB Carolina Panthers"
+        "K Indianapolis Colts"
       ],
-      "old_rank": 197,
-      "new_rank": 198,
-      "old_ppg": 6.77,
-      "new_ppg": 6.77,
+      "old_rank": 12,
+      "new_rank": 12,
+      "old_ppg": 14.38,
+      "new_ppg": 14.38,
       "position": "RB",
-      "team": "CAR",
+      "team": "PHI",
+      "updated": "2026-08-22",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "R.Davis": {
+      "status": "NEUTRAL",
+      "injury": "Ray Davis Ray Davis Scores in second preseason game RB Buffalo Bills August 22, 2026 Davis rushed seven times for 21 yar",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Ray Davis Scores in second preseason game RB Buffalo Bills August 22, 2026 Davis rushed seven times for 21 yards and a touchdown while adding a 10-yard catch on his lone target in Saturday's 31-7 preseason win over the Browns. ANALYSIS Subs",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Ray Davis"
+      ],
+      "old_rank": 294,
+      "new_rank": 292,
+      "old_ppg": 6.09,
+      "new_ppg": 6.09,
+      "position": "RB",
+      "team": "BUF",
       "updated": "2026-08-22",
       "auto_generated": true,
       "from_override": false
     },
     "T.Lawrence": {
       "status": "NEUTRAL",
-      "injury": "WR Green Bay Packers WR Green Bay Packers WR Green Bay Packers",
+      "injury": "WR San Francisco 49ers Calf WR San Francisco 49ers Calf WR San Francisco 49ers Calf",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "WR Green Bay Packers",
+      "ranking_note": "WR San Francisco 49ers Calf",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "WR Green Bay Packers",
-        "WR Carolina Panthers Ankle",
-        "WR Jacksonville Jaguars",
-        "WR Carolina Panthers",
-        "WR Jacksonville Jaguars Hand"
+        "WR San Francisco 49ers Calf",
+        "WR San Francisco 49ers Quadriceps",
+        "WR San Francisco 49ers Shoulder"
       ],
-      "old_rank": 29,
-      "new_rank": 29,
+      "old_rank": 28,
+      "new_rank": 28,
       "old_ppg": 12.59,
       "new_ppg": 12.59,
       "position": "QB",
@@ -53,46 +70,27 @@
       "auto_generated": true,
       "from_override": false
     },
-    "B.Nix": {
+    "R.Blackshear": {
       "status": "NEUTRAL",
-      "injury": "Bo Nix Bo Nix Looks sharp in preseason debut QB Denver Broncos August 21, 2026 Nix completed six of nine passes for 76 y",
+      "injury": "Undisclosed RB Miami Dolphins Undisclosed RB Miami",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "Bo Nix Looks sharp in preseason debut QB Denver Broncos August 21, 2026 Nix completed six of nine passes for 76 yards with one touchdown and no interceptions in the Broncos' 33-13 preseason loss to the Packers on Friday. ANALYSIS Subscribe ",
+      "ranking_note": "RB Miami Dolphins Undisclosed",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "Bo Nix"
+        "RB Miami Dolphins Undisclosed",
+        "RB San Francisco 49ers Ribs",
+        "RB Baltimore Ravens Undisclosed",
+        "RB Indianapolis Colts",
+        "RB New Orleans Saints Undisclosed"
       ],
-      "old_rank": 13,
-      "new_rank": 13,
-      "old_ppg": 14.37,
-      "new_ppg": 14.37,
-      "position": "QB",
-      "team": "DEN",
-      "updated": "2026-08-22",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "J.Williams": {
-      "status": "MILD",
-      "injury": "D",
-      "week1_outlook": "EXPECTED OK",
-      "ppg_multiplier": 0.93,
-      "ranking_note": "D.J. Williams listed as Questionable. ",
-      "impact": "MILD",
-      "source": "Sleeper",
-      "headlines": [
-        "C.J. Williams",
-        "DJ Williams - Inactive",
-        "D.J. Williams - Questionable"
-      ],
-      "old_rank": 462,
-      "new_rank": 472,
-      "old_ppg": 6.19,
-      "new_ppg": 5.76,
+      "old_rank": 195,
+      "new_rank": 196,
+      "old_ppg": 6.77,
+      "new_ppg": 6.77,
       "position": "RB",
-      "team": "DEN",
+      "team": "CAR",
       "updated": "2026-08-22",
       "auto_generated": true,
       "from_override": false
@@ -108,8 +106,8 @@
       "headlines": [
         "Sashi Brown - Inactive"
       ],
-      "old_rank": 10,
-      "new_rank": 9,
+      "old_rank": 9,
+      "new_rank": 10,
       "old_ppg": 15.0,
       "new_ppg": 15.0,
       "position": "WR",
@@ -130,8 +128,8 @@
         "Corey Washington - Inactive",
         "Eric Washington - Inactive"
       ],
-      "old_rank": 255,
-      "new_rank": 243,
+      "old_rank": 242,
+      "new_rank": 256,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
@@ -157,6 +155,28 @@
       "new_ppg": 6.31,
       "position": "TE",
       "team": "DET",
+      "updated": "2026-08-22",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "J.Williams": {
+      "status": "MILD",
+      "injury": "D",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "D.J. Williams listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "DJ Williams - Inactive",
+        "D.J. Williams - Questionable"
+      ],
+      "old_rank": 462,
+      "new_rank": 472,
+      "old_ppg": 6.19,
+      "new_ppg": 5.76,
+      "position": "RB",
+      "team": "DEN",
       "updated": "2026-08-22",
       "auto_generated": true,
       "from_override": false
@@ -280,8 +300,8 @@
       "headlines": [
         "David Olson - Inactive"
       ],
-      "old_rank": 404,
-      "new_rank": 433,
+      "old_rank": 424,
+      "new_rank": 413,
       "old_ppg": 4.6,
       "new_ppg": 4.6,
       "position": "TE",
@@ -430,8 +450,8 @@
       "headlines": [
         "Bisi Johnson - Inactive"
       ],
-      "old_rank": 210,
-      "new_rank": 222,
+      "old_rank": 264,
+      "new_rank": 258,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
