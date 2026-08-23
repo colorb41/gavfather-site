@@ -52,11 +52,6 @@ Signal: FADE
 
 ## Camp flags at QB
 
-**Daniel Jones** — SEVERE
-Achilles tear
-Week 1: UNLIKELY
-*Continue to monitor this situation, as well as the status of QB Daniel Jones , who is coming back from an Achilles tear.*
-
 **Patrick Mahomes** — RETURNING
 ACL + LCL (Week 15 2025) — fully cleared for camp
 Week 1: LIKELY — 1st-team camp reps; Reid sitting him in preseason only
@@ -90,13 +85,13 @@ Week 1: OUT
 
 **Malik Willis (QB, MIA)** — We have QB126 — market has QB22 — 7.2 PPG
 
-**Daniel Jones (QB, IND)** — We have QB80 — market has QB24 — 10.2 PPG
-
 **Joe Burrow (QB, CIN)** — We have QB16 — market has QB4 — 20.9 PPG
 
 **Jayden Daniels (QB, WAS)** — We have QB18 — market has QB6 — 19.8 PPG
 
-**Tyler Shough (QB, NO)** — We have QB28 — market has QB19 — 13.6 PPG
+**Tyler Shough (QB, NO)** — We have QB29 — market has QB19 — 13.6 PPG
+
+**Kyler Murray (QB, MIN)** — We have QB26 — market has QB18 — 16.4 PPG
 
 
 ---

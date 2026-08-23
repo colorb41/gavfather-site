@@ -125,7 +125,7 @@ that bet. It also has not made
 it safer.
 
 **Rachaad White, WAS
-RB25 vs ADP RB37. BUY. Tampa's
+RB25 vs ADP RB37. BUY. Washington's
 backfield is still a committee
 with a toe issue on Egbuka
 stealing the headlines. White

@@ -51,6 +51,9 @@ Live board plus camp file, 2026-08-17.
 
 ## Camp flags in the backfield
 
+**Robbie Ouzts** — SEVERE | IR Robbie Ouzts listed as IR | Week 1: UNLIKELY
+*Robbie Ouzts listed as IR. *
+
 **Bijan Robinson** — HEALTHY | None - just signed extension | Week 1: FULL GO
 *Extension signed. Team commitment confirmed. ATL RB1 locked in.*
 

@@ -4,7 +4,7 @@ date: "2026-08-06"
 week: 0
 theme: "Camp Report"
 category: "research"
-excerpt: "80 camp updates and 22 high-priority deltas this week. Here is what actually moved."
+excerpt: "76 camp updates and 22 high-priority deltas this week. Here is what actually moved."
 ---
 
 # What Actually Moved This Week
@@ -15,7 +15,7 @@ excerpt: "80 camp updates and 22 high-priority deltas this week. Here is what ac
 
 This is the Thursday digest: what the camp file and the delta log actually changed in the last seven days. Not what a podcast felt.
 
-80 camp notes updated this week. 22 high-priority delta events.
+76 camp notes updated this week. 22 high-priority delta events.
 
 ## Camp notes that moved
 
@@ -24,6 +24,9 @@ This is the Thursday digest: what the camp file and the delta log actually chang
 
 **Jayden Daniels** — NEUTRAL (2026-08-23) | PPG 19.78 → 19.78
 *Jayden Daniels expected to play against Lions Sat, Aug 22nd 10:18am EDT By Cooper Kleinberg*
+
+**Tory Horton** — MILD (2026-08-23) | PPG 6.91 → 6.43
+*Tory Horton listed as Questionable. *
 
 **Tyreek Hill** — RELEASED (2026-08-23) | PPG 11.58 → 11.58
 *REMOVE from rankings. No NFL team on Sleeper but ranked as MIA (Sleeper still lists Questionable) — released/unsigned*
@@ -51,9 +54,6 @@ This is the Thursday digest: what the camp file and the delta log actually chang
 
 **Baker Mayfield** — NEUTRAL (2026-08-23) | PPG 19.03 → 19.03
 *Baker Mayfield Pair of completions on first two series QB Tampa Bay Buccaneers August 22, 2026 Mayfield completed two of four passes for 10 yards with no touchdowns or interceptions in the Buccaneers' 16-15 preseason win over the Chiefs on *
-
-**Breece Hall** — MILD (2026-08-23) | PPG 12.29 → 11.43
-*Breece Hall listed as Questionable. *
 
 ## High-priority roster/injury deltas
 

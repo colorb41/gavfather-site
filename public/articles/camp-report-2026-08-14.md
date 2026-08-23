@@ -97,4 +97,4 @@ An offer your roster can't refuse.
 
 ---
 
-*Rankings updated automatically. Camp data refreshed twice daily. Last update: August 23, 2026 12:13 PM*
+*Rankings updated automatically. Camp data refreshed twice daily. Last update: August 23, 2026 12:19 PM*
