@@ -90,12 +90,12 @@ him in the WR2 conversation.
 Do not climb for him on a rumor
 that it is minor.
 
-**Jaylen Waddle, MIA.**
+**Jaylen Waddle, DEN**
 Muscle tightness, left practice
 August 5. MONITOR. Has injury
 history. We have him WR30 vs
-ADP WR27 — a small FADE. Miami
-with McDaniel still looks
+ADP WR27 — a small FADE. Denver
+with Bo Nix still looks
 explosive on paper. Waddle
 has to stay on the field for
 that paper to cash.
@@ -116,7 +116,7 @@ These are the BUY receivers
 after ADP and camp are both
 in the file:
 
-**Jauan Jennings, SF.**
+**Jauan Jennings, MINSF
 WR46 vs ADP WR68. +22 spots.
 Pearsall is gone. This is
 the vacancy pick, not a
@@ -128,7 +128,7 @@ The model liked him before
 camp. Camp did not give you
 a reason to stop.
 
-**Stefon Diggs, NE.**
+**Stefon Diggs, WASNE
 WR26 vs ADP WR45. +19 spots.
 New England's passing game
 is not a mystery to the
@@ -136,13 +136,13 @@ model. It is a mystery to
 people who still think Diggs
 is a 2023 story.
 
-**Romeo Doubs, GB.**
+**Romeo Doubs, NEGB
 WR33 vs ADP WR52. +19 spots.
 Kraft is back. The Packers
 passing game is a real
 environment again.
 
-**Deebo Samuel Sr., WAS.**
+**Deebo Samuel Sr., SFWAS
 WR27 vs ADP WR42. +15 spots.
 McLaurin is flying. Deebo
 is the other Washington

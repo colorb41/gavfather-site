@@ -1,6 +1,6 @@
 ---
 title: "The QB Board After Camp: Confidence Intervals, Not Vibes"
-date: "2026-08-19"
+date: "2026-08-05"
 week: 0
 theme: "Quarterbacks"
 category: "quarterbacks"
@@ -15,7 +15,7 @@ excerpt: "QB order, camp medical flags, and the largest ADP gaps after today's f
 
 The quarterback board is a set of confidence intervals. Camp keeps shrinking them.
 
-Live file 2026-08-19.
+Live file 2026-08-05.
 
 ## Current QB order
 

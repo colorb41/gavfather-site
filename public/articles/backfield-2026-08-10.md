@@ -1,6 +1,6 @@
 ---
 title: "The Backfield Map: Who Is Actually Locked In"
-date: "2026-08-17"
+date: "2026-08-10"
 week: 0
 theme: "Running Backs"
 category: "running-backs"
@@ -15,7 +15,7 @@ excerpt: "Locked-in backs vs PUP rooms vs the biggest RB BUY gaps on the live bo
 
 Running back rooms in August are a kitchen where everyone thinks they are the lead. Only a few stations are actually firing.
 
-Live board plus camp file, 2026-08-17.
+Live board plus camp file, 2026-08-10.
 
 ## Top of the board
 

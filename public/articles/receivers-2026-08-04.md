@@ -1,6 +1,6 @@
 ---
 title: "The WR Camp Board: Who Camp Actually Moved"
-date: "2026-08-18"
+date: "2026-08-04"
 week: 0
 theme: "Wide Receivers"
 category: "wide-receivers"
@@ -15,7 +15,7 @@ excerpt: "Camp flags on receivers and tight ends, plus the largest BUY/FADE gaps
 
 Camp does not rewrite the entire WR board. It circles the names the market is still mispricing.
 
-Live BUY/FADE plus camp flags, 2026-08-18.
+Live BUY/FADE plus camp flags, 2026-08-04.
 
 ## Camp flags (WR/TE)
 

@@ -124,7 +124,7 @@ historic. Camp has not killed
 that bet. It also has not made
 it safer.
 
-**Rachaad White, TB.**
+**Rachaad White, WAS
 RB25 vs ADP RB37. BUY. Tampa's
 backfield is still a committee
 with a toe issue on Egbuka

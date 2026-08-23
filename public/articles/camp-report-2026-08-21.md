@@ -15,7 +15,7 @@ excerpt: "The Gavfather System processed 1000 data points from camp this week. H
 ---
 
 The Gavfather System processed data from all 32 NFL training camps this week.
-1000 changes detected. 23 flagged as high priority.
+1000 changes detected. 22 flagged as high priority.
 Here is everything that matters for your Labor Day draft.
 
 ---
@@ -42,39 +42,49 @@ Week 1: UNCERTAIN
 **🟡 Jaylen Waddle**
 Status: MONITOR | Muscle tightness (left practice Aug 5)
 Week 1: EXPECTED OK - reported not serious
-*Monitor. Tightness only but has injury history. DEN passing game still elite with McDaniel.*
+*Monitor. Tightness only but has injury history. Now with DEN (Bo Nix) after March 2026 trade from MIA.*
 
 ## The Risers
 
 Players who improved their situation this week:
 
-**🟢 Sione Vaki (RB, DET)**
+**🟢 Jadarian Price (RB, SEA)**
 INJURY_IMPROVED: Questionable -> Healthy
 
-**🟢 Brenden Rice (WR, )**
+**🟢 Sean McKeon (TE, IND)**
+INJURY_IMPROVED: IR -> Questionable
+
+**🟢 Kyron Hudson (WR, )**
+INJURY_IMPROVED: IR -> Questionable
+
+**🟢 Kaelon Black (RB, SF)**
 INJURY_IMPROVED: Questionable -> Healthy
 
-**🟢 Josh Downs (WR, IND)**
+**🟢 Equanimeous St. Brown (WR, )**
 INJURY_IMPROVED: Questionable -> Healthy
 
-**🟢 Zay Flowers (WR, BAL)**
+**🟢 Jahmyr Gibbs (RB, DET)**
 INJURY_IMPROVED: Questionable -> Healthy
 
-**🟢 Michael Wiley (RB, )**
-INJURY_IMPROVED: Questionable -> Healthy
+**🟢 Kenny Yeboah (TE, )**
+INJURY_IMPROVED: IR -> Questionable
 
-**🟢 Najee Harris (RB, NYG)**
-INJURY_IMPROVED: Questionable -> Healthy
-
-**🟢 Laquon Treadwell (WR, IND)**
-INJURY_IMPROVED: Questionable -> Healthy
-
-**🟢 Marquez Valdes-Scantling (WR, DAL)**
+**🟢 Tyjae Spears (RB, TEN)**
 INJURY_IMPROVED: Questionable -> Healthy
 
 ## The Fallers
 
 Players who hurt their draft stock this week:
+
+## This Week's Best Values
+
+Players the model ranks significantly higher than market ADP:
+
+**Tyrone Tracy Jr. (RB, NYG)** — We have RB24, market has RB53
+**Stefon Diggs (WR, WAS)** — We have WR21, market has WR46
+**Deebo Samuel Sr. (WR, SF)** — We have WR26, market has WR49
+**Romeo Doubs (WR, NE)** — We have WR28, market has WR51
+**Kayshon Boutte (WR, NE)** — We have WR50, market has WR72
 
 ---
 
@@ -87,4 +97,4 @@ An offer your roster can't refuse.
 
 ---
 
-*Rankings updated automatically. Camp data refreshed twice daily. Last update: August 21, 2026 10:27 PM*
+*Rankings updated automatically. Camp data refreshed twice daily. Last update: August 23, 2026 12:13 PM*

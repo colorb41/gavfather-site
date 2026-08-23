@@ -4,7 +4,7 @@ date: "2026-08-20"
 week: 0
 theme: "Camp Report"
 category: "research"
-excerpt: "28 camp updates and 14 high-priority deltas this week. Here is what actually moved."
+excerpt: "80 camp updates and 22 high-priority deltas this week. Here is what actually moved."
 ---
 
 # What Actually Moved This Week
@@ -15,55 +15,69 @@ excerpt: "28 camp updates and 14 high-priority deltas this week. Here is what ac
 
 This is the Thursday digest: what the camp file and the delta log actually changed in the last seven days. Not what a podcast felt.
 
-28 camp notes updated this week. 14 high-priority delta events.
+80 camp notes updated this week. 22 high-priority delta events.
 
 ## Camp notes that moved
 
-**R.Blackshear** — NEUTRAL (2026-08-20) | PPG 6.77 → 6.77
-*RB Washington Commanders Hamstring*
+**Stefon Diggs** — NEUTRAL (2026-08-23) | PPG 10.98 → 10.98
+*Stefon Diggs expected to play against Lions Sat, Aug 22nd 10:21am EDT By Cooper Kleinberg*
 
-**R.White** — NEUTRAL (2026-08-20) | PPG 8.63 → 8.63
-*TE Indianapolis Colts Groin*
+**Jayden Daniels** — NEUTRAL (2026-08-23) | PPG 19.78 → 19.78
+*Jayden Daniels expected to play against Lions Sat, Aug 22nd 10:18am EDT By Cooper Kleinberg*
 
-**S.Barkley** — NEUTRAL (2026-08-20) | PPG 14.38 → 14.38
-*K Free Agent Undisclosed*
+**Tyreek Hill** — RELEASED (2026-08-23) | PPG 11.58 → 11.58
+*REMOVE from rankings. No NFL team on Sleeper but ranked as MIA (Sleeper still lists Questionable) — released/unsigned*
 
-**T.Lawrence** — NEUTRAL (2026-08-20) | PPG 12.59 → 12.59
-*WR Houston Texans Hamstring*
+**Parker Washington** — MILD (2026-08-23) | PPG 7.99 → 7.43
+*Parker Washington listed as Questionable. *
 
-**D.Thompkins** — NEUTRAL (2026-08-20) | PPG 6.44 → 6.44
-*DT Tampa Bay Buccaneers*
+**Trevor Lawrence** — NEUTRAL (2026-08-23) | PPG 20.08 → 20.08
+*WR Jacksonville Jaguars Undisclosed*
 
-**B.Nix** — NEUTRAL (2026-08-20) | PPG 14.37 → 14.37
-*Bo Nix In line to play in Friday's preseason contest QB Denver Broncos August 19, 2026 Coach Sean Payton said Nix is expected to play roughly 14 snaps during Friday's preseason game against the Packers, Zac Stevens of TheDNVR.com reports. A*
+**Jaydon Blue** — NEUTRAL (2026-08-23) | PPG 5.79 → 5.79
+*Jaydon Blue Stands out with extended playing time RB Dallas Cowboys August 22, 2026 Blue (shoulder) rushed 15 times for 75 yards in the Cowboys' 34-13 preseason win over the Cardinals on Saturday. He also returned one kickoff for 26 yards. *
 
-**D.Metcalf** — MILD (2026-08-20) | PPG 7.67 → 7.13
-*DK Metcalf listed as Questionable. *
+**Kyren Williams** — NEUTRAL (2026-08-23) | PPG 17.44 → 17.44
+*K Cincinnati Bengals*
 
-**C.Stroud** — NEUTRAL (2026-08-20) | PPG 12.08 → 12.08
-*C.J. Stroud Change in plans for Thursday's contest QB Houston Texans August 19, 2026 Stroud and other starters will now be rested for Thursday's preseason game against the Raiders, Jonathan M. Alexander of the Houston Chronicle reports. ANA*
+**Justin Herbert** — NEUTRAL (2026-08-23) | PPG 20.45 → 20.45
+*RB Kansas City Chiefs*
 
-**R.Ali** — MODERATE (2026-08-20) | PPG 6.04 → 4.95
-*Kittle still believes he has a shot for Week 1 in Australia and also is confident he'll avoid the PUP to start the season .*
+**E.Elliott** — NEUTRAL (2026-08-23) | PPG 5.36 → 5.36
+*Jake Elliott Perfect on trio of PATs K Philadelphia Eagles August 22, 2026 Elliott connected on all three of his extra-point tries and did not attempt any field goals in the Eagles' 24-21 preseason loss to the Patriots on Saturday. ANALYSIS*
 
-**A.St. Brown** — NEUTRAL (2026-08-20) | PPG 15.00 → 15.00
-*Sashi Brown listed as Inactive. *
+**Cam Skattebo** — NEUTRAL (2026-08-23) | PPG 14.46 → 14.46
+*TE Philadelphia Eagles*
 
-**C.Washington** — NEUTRAL (2026-08-20) | PPG 6.44 → 6.44
-*Corey Washington listed as Inactive. *
+**Baker Mayfield** — NEUTRAL (2026-08-23) | PPG 19.03 → 19.03
+*Baker Mayfield Pair of completions on first two series QB Tampa Bay Buccaneers August 22, 2026 Mayfield completed two of four passes for 10 yards with no touchdowns or interceptions in the Buccaneers' 16-15 preseason win over the Chiefs on *
 
-**T.Benson** — NEUTRAL (2026-08-20) | PPG 5.12 → 5.12
-*Tom Benson listed as Inactive. *
+**Breece Hall** — MILD (2026-08-23) | PPG 12.29 → 11.43
+*Breece Hall listed as Questionable. *
 
 ## High-priority roster/injury deltas
+
+**Darren Waller (TE, CAR)** — PROMOTED_TO_STARTER: Depth chart 6 -> 1
+
+**Parker Washington (WR, JAX)** — PROMOTED_TO_STARTER: Depth chart 2 -> 1
 
 **Jerry Jeudy (WR, CLE)** — PROMOTED_TO_STARTER: Depth chart 2 -> 1
 
 **Malik Washington (WR, MIA)** — PROMOTED_TO_STARTER: Depth chart 2 -> 1
 
-**Darren Waller (TE, CAR)** — PROMOTED_TO_STARTER: Depth chart 6 -> 1
+**Jordan Mason (RB, MIN)** — PROMOTED_TO_STARTER: Depth chart 2 -> 1
 
 ## Still BUY on the live board
+
+**Tyrone Tracy Jr. (RB, NYG)** — We have RB24 — market has RB53 — 10.2 PPG
+
+**Stefon Diggs (WR, WAS)** — We have WR21 — market has WR46 — 11.0 PPG
+
+**Deebo Samuel Sr. (WR, SF)** — We have WR26 — market has WR49 — 10.9 PPG
+
+**Romeo Doubs (WR, NE)** — We have WR28 — market has WR51 — 10.2 PPG
+
+**Kayshon Boutte (WR, NE)** — We have WR50 — market has WR72 — 7.3 PPG
 
 
 ---
