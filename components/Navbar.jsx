@@ -1,7 +1,6 @@
 'use client'
 
 import { useState } from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
 
 const LINKS = [
@@ -18,13 +17,12 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-gavfather-gold/20 bg-gavfather-navy/90 backdrop-blur-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 md:px-6">
         <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
-          <Image
-            src="/images/header_logo.png"
+          <img
+            src="/logo.svg"
             alt="The Gavfather"
-            width={201}
-            height={80}
-            className="h-10 w-auto"
-            priority
+            width={40}
+            height={40}
+            className="h-10 w-10 shrink-0"
           />
         </Link>
 
