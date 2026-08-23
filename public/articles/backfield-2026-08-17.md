@@ -19,15 +19,15 @@ Live board plus camp file, 2026-08-17.
 
 ## Top of the board
 
-**Jonathan Taylor (RB, IND)** — We have RB1 — market has RB3 — 20.7 PPG
+**Bijan Robinson (RB, ATL)** — We have RB1 — market has RB2 — 20.8 PPG
 
-**Bijan Robinson (RB, ATL)** — We have RB2 — market has RB2 — 20.8 PPG
+**Jonathan Taylor (RB, IND)** — We have RB2 — market has RB3 — 20.7 PPG
 
 **Jahmyr Gibbs (RB, DET)** — We have RB3 — market has RB1 — 18.5 PPG
 
-**Kyren Williams (RB, LAR)** — We have RB4 — market has RB14 — 17.4 PPG
+**De'Von Achane (RB, MIA)** — We have RB4 — market has RB7 — 18.2 PPG
 
-**De'Von Achane (RB, MIA)** — We have RB5 — market has RB7 — 18.2 PPG
+**Kyren Williams (RB, LAR)** — We have RB5 — market has RB14 — 17.4 PPG
 
 **Christian McCaffrey (RB, SF)** — We have RB6 — market has RB4 — 15.8 PPG
 
@@ -39,20 +39,29 @@ Live board plus camp file, 2026-08-17.
 
 **Tyrone Tracy Jr. (RB, NYG)** — We have RB24 — market has RB53 — 10.2 PPG
 
-**TreVeyon Henderson (RB, NE)** — We have RB10 — market has RB26 — 12.9 PPG
+**J.K. Dobbins (RB, DEN)** — We have RB18 — market has RB33 — 13.1 PPG
 
-**J.K. Dobbins (RB, DEN)** — We have RB20 — market has RB33 — 13.1 PPG
+**Rachaad White (RB, WAS)** — We have RB28 — market has RB42 — 9.2 PPG
 
-**Rachaad White (RB, WAS)** — We have RB30 — market has RB42 — 9.2 PPG
+**Tyjae Spears (RB, TEN)** — We have RB33 — market has RB45 — 8.3 PPG
 
-**Kyren Williams (RB, LAR)** — We have RB4 — market has RB14 — 17.4 PPG
+**TreVeyon Henderson (RB, NE)** — We have RB14 — market has RB26 — 12.9 PPG
 
-**Zach Charbonnet (RB, SEA)** — We have RB33 — market has RB43 — 8.4 PPG
+**Tyler Allgeier (RB, ARI)** — We have RB38 — market has RB49 — 7.6 PPG
 
 ## Camp flags in the backfield
 
-**Robbie Ouzts** — SEVERE | IR Robbie Ouzts listed as IR | Week 1: UNLIKELY
-*Robbie Ouzts listed as IR. *
+**Isiah Pacheco** — SEASON_ENDING | Sleeper IR — Knee - MCL | Week 1: OUT
+*REMOVE from rankings. Sleeper IR — Knee - MCL*
+
+**Jerome Ford** — SEASON_ENDING | IR Jerome Ford listed as IR | Week 1: OUT
+*Jerome Ford listed as IR. *
+
+**Justice Hill** — SEASON_ENDING | IR Julian Hill listed as IR | Week 1: OUT
+*Julian Hill listed as IR. *
+
+**Zach Charbonnet** — SEASON_ENDING | Sleeper IR — Knee - ACL | Week 1: OUT
+*REMOVE from rankings. Sleeper IR — Knee - ACL*
 
 **Bijan Robinson** — HEALTHY | None - just signed extension | Week 1: FULL GO
 *Extension signed. Team commitment confirmed. ATL RB1 locked in.*

@@ -24,15 +24,50 @@ Here is everything that matters for your Labor Day draft.
 
 Players whose situations changed this week:
 
+**🔴 Brenden Bates**
+Status: SEASON_ENDING | IR Brenden Bates listed as IR
+Week 1: OUT
+*Brenden Bates listed as IR. *
+
+**🔴 Gunner Olszewski**
+Status: SEASON_ENDING | IR Gunner Olszewski listed as IR
+Week 1: OUT
+*Gunner Olszewski listed as IR. *
+
+**🔴 Isiah Pacheco**
+Status: SEASON_ENDING | Sleeper IR — Knee - MCL
+Week 1: OUT
+*REMOVE from rankings. Sleeper IR — Knee - MCL*
+
+**🔴 Jayden Higgins**
+Status: SEASON_ENDING | knee) officially placed on season-ending IR
+Week 1: OUT
+*Jayden Higgins (knee) officially placed on season-ending IR Fri, Aug 21st 3:07pm EDT By Diego Sandoval*
+
+**🔴 Jerome Ford**
+Status: SEASON_ENDING | IR Jerome Ford listed as IR
+Week 1: OUT
+*Jerome Ford listed as IR. *
+
+**🔴 Justice Hill**
+Status: SEASON_ENDING | IR Julian Hill listed as IR
+Week 1: OUT
+*Julian Hill listed as IR. *
+
 **🔴 Ricky Pearsall**
 Status: SEASON_ENDING | PCL - likely out for 2026 season
 Week 1: OUT
 *REMOVE from rankings. SF passes go to Evans and others.*
 
+**🔴 Zach Charbonnet**
+Status: SEASON_ENDING | Sleeper IR — Knee - ACL
+Week 1: OUT
+*REMOVE from rankings. Sleeper IR — Knee - ACL*
+
 **🔴 George Kittle**
 Status: PUP | Achilles tear (January 2026 playoffs)
 Week 1: UNLIKELY - Australia Week 1 adds risk
-*Drop to TE3. McBride and Bowers ahead until cleared.*
+*Achilles PUP — late-round dart only until cleared. McBride and Bowers are the TE1/TE2.*
 
 **🟡 Tua Tagovailoa**
 Status: QUESTIONABLE | Undisclosed camp issue
@@ -81,10 +116,10 @@ Players who hurt their draft stock this week:
 Players the model ranks significantly higher than market ADP:
 
 **Tyrone Tracy Jr. (RB, NYG)** — We have RB24, market has RB53
-**Stefon Diggs (WR, WAS)** — We have WR21, market has WR46
 **Deebo Samuel Sr. (WR, SF)** — We have WR26, market has WR49
-**Romeo Doubs (WR, NE)** — We have WR28, market has WR51
-**Kayshon Boutte (WR, NE)** — We have WR50, market has WR72
+**Stefon Diggs (WR, WAS)** — We have WR24, market has WR46
+**Brian Thomas Jr. (WR, JAX)** — We have WR14, market has WR35
+**Romeo Doubs (WR, NE)** — We have WR30, market has WR51
 
 ---
 
@@ -97,4 +132,4 @@ An offer your roster can't refuse.
 
 ---
 
-*Rankings updated automatically. Camp data refreshed twice daily. Last update: August 23, 2026 12:19 PM*
+*Rankings updated automatically. Camp data refreshed twice daily. Last update: August 23, 2026 01:07 PM*

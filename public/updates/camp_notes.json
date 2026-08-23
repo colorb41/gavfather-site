@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-23T12:16:29",
+  "updated": "2026-08-23T13:14:09",
   "source": "CampResearcher.v2",
   "override_count": 15,
-  "player_count": 86,
-  "news_items_processed": 283,
+  "player_count": 81,
+  "news_items_processed": 269,
   "players": {
     "Stefon Diggs": {
       "status": "NEUTRAL",
@@ -16,8 +16,8 @@
       "headlines": [
         "Stefon Diggs expected to play against Lions"
       ],
-      "old_rank": 131,
-      "new_rank": 128,
+      "old_rank": 88,
+      "new_rank": 86,
       "old_ppg": 10.98,
       "new_ppg": 10.98,
       "position": "WR",
@@ -39,8 +39,8 @@
       ],
       "old_rank": 14,
       "new_rank": 14,
-      "old_ppg": 19.78,
-      "new_ppg": 19.78,
+      "old_ppg": 19.5,
+      "new_ppg": 19.5,
       "position": "QB",
       "team": "WAS",
       "updated": "2026-08-23",
@@ -58,8 +58,8 @@
       "headlines": [
         "Clocking 22mph in camp. No issues. Undervalued WAS sleeper. Daniels connection real."
       ],
-      "old_rank": 77,
-      "new_rank": 71,
+      "old_rank": 74,
+      "new_rank": 67,
       "old_ppg": 12.36,
       "new_ppg": 12.73,
       "position": "WR",
@@ -80,32 +80,75 @@
         "Tory Horton to 'be out for a period of time'",
         "Tory Horton - Questionable"
       ],
-      "old_rank": 321,
-      "new_rank": 458,
-      "old_ppg": 6.91,
-      "new_ppg": 6.43,
+      "old_rank": 210,
+      "new_rank": 222,
+      "old_ppg": 6.43,
+      "new_ppg": 5.98,
       "position": "WR",
       "team": "SEA",
       "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
     },
-    "Tyreek Hill": {
-      "status": "RELEASED",
-      "injury": "No NFL team on Sleeper but ranked as MIA (Sleeper still lists Questionable) \u2014 released/unsigned",
-      "week1_outlook": "OUT",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "REMOVE from rankings. No NFL team on Sleeper but ranked as MIA (Sleeper still lists Questionable) \u2014 released/unsigned",
-      "impact": "RELEASED",
-      "source": "Sleeper_roster",
+    "George Kittle": {
+      "status": "PUP",
+      "injury": "Achilles tear (January 2026 playoffs)",
+      "week1_outlook": "UNLIKELY - Australia Week 1 adds risk",
+      "ppg_multiplier": 0.5,
+      "ranking_note": "Achilles PUP — late-round dart only until cleared. McBride and Bowers are the TE1/TE2.",
+      "impact": "SEVERE",
+      "source": "49ers/Lynch/ESPN",
       "headlines": [
-        "No NFL team on Sleeper but ranked as MIA (Sleeper still lists Questionable) \u2014 released/unsigned"
+        "Achilles PUP — late-round dart only until cleared. McBride and Bowers are the TE1/TE2."
       ],
-      "old_rank": 88,
-      "new_rank": 86,
-      "old_ppg": 11.58,
-      "new_ppg": 11.58,
-      "position": "WR",
+      "old_rank": 205,
+      "new_rank": 411,
+      "old_ppg": 6.49,
+      "new_ppg": 3.25,
+      "position": "TE",
+      "team": "SF",
+      "updated": "2026-08-23",
+      "auto_generated": false,
+      "from_override": true
+    },
+    "Cam Skattebo": {
+      "status": "NEUTRAL",
+      "injury": "Achilles TE San Francisco 49ers Achilles TE San",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "TE San Francisco 49ers Achilles",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "TE San Francisco 49ers Achilles",
+        "TE Philadelphia Eagles"
+      ],
+      "old_rank": 44,
+      "new_rank": 44,
+      "old_ppg": 14.46,
+      "new_ppg": 14.46,
+      "position": "RB",
+      "team": "NYG",
+      "updated": "2026-08-23",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "De'Von Achane": {
+      "status": "NEUTRAL",
+      "injury": "Knee C Los Angeles Chargers Knee C Los Angel",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "C Los Angeles Chargers Knee",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "C Los Angeles Chargers Knee"
+      ],
+      "old_rank": 22,
+      "new_rank": 21,
+      "old_ppg": 18.17,
+      "new_ppg": 18.17,
+      "position": "RB",
       "team": "MIA",
       "updated": "2026-08-23",
       "auto_generated": true,
@@ -121,11 +164,10 @@
       "source": "Sleeper",
       "headlines": [
         "Parker Washington",
-        "Parker Washington - Questionable",
-        "On offense, Coen must work Hunter into an offense that features receivers Parker Washington , Brian Thomas Jr ."
+        "Parker Washington - Questionable"
       ],
-      "old_rank": 218,
-      "new_rank": 231,
+      "old_rank": 154,
+      "new_rank": 166,
       "old_ppg": 7.99,
       "new_ppg": 7.43,
       "position": "WR",
@@ -146,13 +188,12 @@
         "WR Jacksonville Jaguars Undisclosed",
         "WR Cincinnati Bengals",
         "WR Tampa Bay Buccaneers",
-        "WR New England Patriots",
-        "WR Kansas City Chiefs"
+        "WR New England Patriots"
       ],
       "old_rank": 13,
       "new_rank": 13,
-      "old_ppg": 20.08,
-      "new_ppg": 20.08,
+      "old_ppg": 20.11,
+      "new_ppg": 20.11,
       "position": "QB",
       "team": "JAX",
       "updated": "2026-08-23",
@@ -168,12 +209,34 @@
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "Jaydon Blue"
+        "Jaydon Blue",
+        "Blue (shoulder) rushed 15 times for 75 yards in the Cowboys' 34-13 preseason win over the Cardinals on Saturday. He also returned one kickoff for 26 yards."
       ],
-      "old_rank": 497,
-      "new_rank": 495,
+      "old_rank": 235,
+      "new_rank": 230,
       "old_ppg": 5.79,
       "new_ppg": 5.79,
+      "position": "RB",
+      "team": "DAL",
+      "updated": "2026-08-23",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Malik Davis": {
+      "status": "NEUTRAL",
+      "injury": "Malik Davis Malik Davis Solid in preseason start RB Dallas Cowboys August 22, 2026 Davis rushed five times for 29 yards ",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Malik Davis Solid in preseason start RB Dallas Cowboys August 22, 2026 Davis rushed five times for 29 yards and brought in his only target for an eight-yard touchdown in the Cowboys' 34-13 preseason win over the Cardinals on Saturday. He al",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Malik Davis"
+      ],
+      "old_rank": 347,
+      "new_rank": 345,
+      "old_ppg": 4.37,
+      "new_ppg": 4.37,
       "position": "RB",
       "team": "DAL",
       "updated": "2026-08-23",
@@ -215,98 +278,54 @@
       "headlines": [
         "RB Kansas City Chiefs"
       ],
-      "old_rank": 11,
-      "new_rank": 10,
-      "old_ppg": 20.45,
-      "new_ppg": 20.45,
+      "old_rank": 12,
+      "new_rank": 11,
+      "old_ppg": 20.27,
+      "new_ppg": 20.27,
       "position": "QB",
       "team": "LAC",
       "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
     },
-    "E.Elliott": {
+    "Justin Fields": {
       "status": "NEUTRAL",
-      "injury": "Jake Elliott Jake Elliott Perfect on trio of PATs K Philadelphia Eagles August 22, 2026 Elliott connected on all three o",
+      "injury": "Justin Fields Justin Fields Sharp in Saturday's start QB Kansas City Chiefs August 22, 2026 Fields completed nine of 12 ",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "Jake Elliott Perfect on trio of PATs K Philadelphia Eagles August 22, 2026 Elliott connected on all three of his extra-point tries and did not attempt any field goals in the Eagles' 24-21 preseason loss to the Patriots on Saturday. ANALYSIS",
+      "ranking_note": "Justin Fields Sharp in Saturday's start QB Kansas City Chiefs August 22, 2026 Fields completed nine of 12 passes for 64 yards with no touchdowns or interceptions and rushed once for 15 yards in the Chiefs' 16-15 preseason loss to the Buccan",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "Jake Elliott"
+        "Justin Fields"
       ],
-      "old_rank": 539,
-      "new_rank": 536,
-      "old_ppg": 5.36,
-      "new_ppg": 5.36,
-      "position": "RB",
-      "team": "DAL",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Cam Skattebo": {
-      "status": "NEUTRAL",
-      "injury": "TE Philadelphia Eagles TE Philadelphia Eagles TE Philadelphia Eagles",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "TE Philadelphia Eagles",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "TE Philadelphia Eagles"
-      ],
-      "old_rank": 47,
-      "new_rank": 47,
-      "old_ppg": 14.46,
-      "new_ppg": 14.46,
-      "position": "RB",
-      "team": "NYG",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Baker Mayfield": {
-      "status": "NEUTRAL",
-      "injury": "ir of completions on first two series QB T",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Baker Mayfield Pair of completions on first two series QB Tampa Bay Buccaneers August 22, 2026 Mayfield completed two of four passes for 10 yards with no touchdowns or interceptions in the Buccaneers' 16-15 preseason win over the Chiefs on ",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Baker Mayfield"
-      ],
-      "old_rank": 15,
-      "new_rank": 15,
-      "old_ppg": 19.03,
-      "new_ppg": 19.03,
+      "old_rank": 32,
+      "new_rank": 30,
+      "old_ppg": 16.05,
+      "new_ppg": 16.05,
       "position": "QB",
-      "team": "TB",
+      "team": "KC",
       "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
     },
-    "Breece Hall": {
-      "status": "MILD",
-      "injury": "Breece Hall - Questionable Breece Hall listed as Questionable",
-      "week1_outlook": "EXPECTED OK",
-      "ppg_multiplier": 0.93,
-      "ranking_note": "Breece Hall listed as Questionable. ",
-      "impact": "MILD",
-      "source": "Sleeper",
+    "Devontez Walker": {
+      "status": "NEUTRAL",
+      "injury": "Devontez Walker Devontez Walker Hauls in two passes vs",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Devontez Walker Hauls in two passes vs. Minnesota WR Baltimore Ravens August 22, 2026 Walker recorded two catches on three targets for 32 yards during the Ravens' 13-3 preseason win over the Vikings on Saturday. ANALYSIS Subscribe now to in",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
       "headlines": [
-        "Breece Hall , Jets (groin) : After suffering a groin strain that didn't seem like a \"big deal\", Jets head coach Aaron Glenn told reporters Hall will be out 2-3 ",
-        "Breece Hall, NYJ (groin) \u2014 out 2-3 weeks",
-        "Breece Hall - Questionable"
+        "Devontez Walker"
       ],
-      "old_rank": 78,
-      "new_rank": 96,
-      "old_ppg": 12.29,
-      "new_ppg": 11.43,
-      "position": "RB",
-      "team": "NYJ",
+      "old_rank": 214,
+      "new_rank": 207,
+      "old_ppg": 6.37,
+      "new_ppg": 6.37,
+      "position": "WR",
+      "team": "BAL",
       "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
@@ -322,8 +341,8 @@
       "headlines": [
         "That cleared the way for Rico Dowdle to take over the backfield."
       ],
-      "old_rank": 187,
-      "new_rank": 173,
+      "old_rank": 130,
+      "new_rank": 117,
       "old_ppg": 8.79,
       "new_ppg": 9.23,
       "position": "RB",
@@ -345,32 +364,11 @@
         "Puka Nacua - Questionable"
       ],
       "old_rank": 26,
-      "new_rank": 33,
+      "new_rank": 32,
       "old_ppg": 17.04,
       "new_ppg": 15.85,
       "position": "WR",
       "team": "LAR",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Rome Odunze": {
-      "status": "NEUTRAL",
-      "injury": "We should see his ADP fall a bit while WR Rome Odunze could see a boost, being selected about 10 picks later on Yahoo",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "We should see his ADP fall a bit while WR Rome Odunze could see a boost, being selected about 10 picks later on Yahoo.",
-      "impact": "NEUTRAL",
-      "source": "Yahoo Sports",
-      "headlines": [
-        "We should see his ADP fall a bit while WR Rome Odunze could see a boost, being selected about 10 picks later on Yahoo."
-      ],
-      "old_rank": 186,
-      "new_rank": 184,
-      "old_ppg": 8.88,
-      "new_ppg": 8.88,
-      "position": "WR",
-      "team": "CHI",
       "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
@@ -386,8 +384,8 @@
       "headlines": [
         "Upgrade slightly. Running routes, ahead of schedule. Worst case misses 1-2 games."
       ],
-      "old_rank": 60,
-      "new_rank": 74,
+      "old_rank": 56,
+      "new_rank": 71,
       "old_ppg": 13.49,
       "new_ppg": 12.55,
       "position": "WR",
@@ -408,8 +406,8 @@
         "Alec Pierce , Colts (ankle) : The expectation is for Pierce to come off the PUP list some time in the next week or so.",
         "Alec Pierce - PUP"
       ],
-      "old_rank": 352,
-      "new_rank": 539,
+      "old_rank": 206,
+      "new_rank": 262,
       "old_ppg": 6.49,
       "new_ppg": 5.32,
       "position": "WR",
@@ -430,8 +428,8 @@
         "Tyler Warren , Colts (groin) : Warren suffered a groin injury at practice on Wednesday and is going to miss about a week, per NFL Network's Ian Rapoport .",
         "Tyler Warren - Questionable"
       ],
-      "old_rank": 176,
-      "new_rank": 192,
+      "old_rank": 118,
+      "new_rank": 133,
       "old_ppg": 9.26,
       "new_ppg": 8.61,
       "position": "TE",
@@ -451,8 +449,8 @@
       "headlines": [
         "Rising sleeper TE. Ahead of schedule. GB passing game benefits."
       ],
-      "old_rank": 178,
-      "new_rank": 163,
+      "old_rank": 121,
+      "new_rank": 107,
       "old_ppg": 9.2,
       "new_ppg": 9.66,
       "position": "TE",
@@ -461,26 +459,27 @@
       "auto_generated": false,
       "from_override": true
     },
-    "George Kittle": {
-      "status": "PUP",
-      "injury": "Achilles tear (January 2026 playoffs)",
-      "week1_outlook": "UNLIKELY - Australia Week 1 adds risk",
-      "ppg_multiplier": 0.5,
-      "ranking_note": "Achilles PUP \u2014 late-round dart only until cleared. McBride and Bowers are the TE1/TE2.",
-      "impact": "SEVERE",
-      "source": "49ers/Lynch/ESPN",
+    "Breece Hall": {
+      "status": "MILD",
+      "injury": "Breece Hall - Questionable Breece Hall listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Breece Hall listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
       "headlines": [
-        "Achilles PUP \u2014 late-round dart only until cleared. McBride and Bowers are the TE1/TE2."
+        "Breece Hall, NYJ (groin) — out 2-3 weeks",
+        "Breece Hall - Questionable"
       ],
-      "old_rank": 145,
-      "new_rank": 185,
-      "old_ppg": 10.66,
-      "new_ppg": 5.33,
-      "position": "TE",
-      "team": "SF",
+      "old_rank": 75,
+      "new_rank": 84,
+      "old_ppg": 12.29,
+      "new_ppg": 11.43,
+      "position": "RB",
+      "team": "NYJ",
       "updated": "2026-08-23",
-      "auto_generated": false,
-      "from_override": true
+      "auto_generated": true,
+      "from_override": false
     },
     "Chuba Hubbard": {
       "status": "MILD",
@@ -491,11 +490,11 @@
       "impact": "MILD",
       "source": "Sleeper",
       "headlines": [
-        "Chuba Hubbard, CAR (hamstring) \u2014 week-to-week",
+        "Chuba Hubbard, CAR (hamstring) — week-to-week",
         "Chuba Hubbard - Questionable"
       ],
-      "old_rank": 215,
-      "new_rank": 227,
+      "old_rank": 152,
+      "new_rank": 164,
       "old_ppg": 8.09,
       "new_ppg": 7.52,
       "position": "RB",
@@ -513,15 +512,36 @@
       "impact": "MILD",
       "source": "Sleeper",
       "headlines": [
-        "Kyle Monangai, CHI (knee) \u2014 expected to miss multiple weeks",
+        "Kyle Monangai, CHI (knee) — expected to miss multiple weeks",
         "Kyle Monangai - Questionable"
       ],
-      "old_rank": 346,
-      "new_rank": 477,
+      "old_rank": 200,
+      "new_rank": 213,
       "old_ppg": 6.59,
       "new_ppg": 6.13,
       "position": "RB",
       "team": "CHI",
+      "updated": "2026-08-23",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Audric Estimé": {
+      "status": "MILD",
+      "injury": "Audric Estime - Questionable Audric Estime listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Audric Estime listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "Audric Estime - Questionable"
+      ],
+      "old_rank": 223,
+      "new_rank": 236,
+      "old_ppg": 6.1,
+      "new_ppg": 5.67,
+      "position": "RB",
+      "team": "NO",
       "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
@@ -537,8 +557,8 @@
       "headlines": [
         "Khalil Shakir - Questionable"
       ],
-      "old_rank": 323,
-      "new_rank": 462,
+      "old_rank": 189,
+      "new_rank": 206,
       "old_ppg": 6.86,
       "new_ppg": 6.38,
       "position": "WR",
@@ -558,8 +578,8 @@
       "headlines": [
         "Rachaad White - Questionable"
       ],
-      "old_rank": 177,
-      "new_rank": 193,
+      "old_rank": 119,
+      "new_rank": 135,
       "old_ppg": 9.24,
       "new_ppg": 8.59,
       "position": "RB",
@@ -579,8 +599,8 @@
       "headlines": [
         "Cade Otton - Questionable"
       ],
-      "old_rank": 322,
-      "new_rank": 460,
+      "old_rank": 188,
+      "new_rank": 204,
       "old_ppg": 6.88,
       "new_ppg": 6.4,
       "position": "TE",
@@ -589,42 +609,84 @@
       "auto_generated": true,
       "from_override": false
     },
-    "Isiah Pacheco": {
+    "Isaiah Davis": {
       "status": "MILD",
-      "injury": "Isiah Pacheco - Questionable Isiah Pacheco listed as Questionable",
+      "injury": "Isaiah Davis - Questionable Isaiah Davis listed as Questionable",
       "week1_outlook": "EXPECTED OK",
       "ppg_multiplier": 0.93,
-      "ranking_note": "Isiah Pacheco listed as Questionable. ",
+      "ranking_note": "Isaiah Davis listed as Questionable. ",
       "impact": "MILD",
       "source": "Sleeper",
       "headlines": [
-        "Isiah Pacheco - Questionable"
+        "Isaiah Davis - Questionable"
       ],
-      "old_rank": 324,
-      "new_rank": 463,
-      "old_ppg": 6.86,
-      "new_ppg": 6.38,
+      "old_rank": 266,
+      "new_rank": 285,
+      "old_ppg": 5.37,
+      "new_ppg": 4.99,
       "position": "RB",
-      "team": "DET",
+      "team": "NYJ",
+      "updated": "2026-08-23",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Will Mallory": {
+      "status": "MILD",
+      "injury": "Will Mallory - Questionable Will Mallory listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Will Mallory listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "Will Mallory - Questionable"
+      ],
+      "old_rank": 404,
+      "new_rank": 413,
+      "old_ppg": 3.48,
+      "new_ppg": 3.24,
+      "position": "TE",
+      "team": "IND",
+      "updated": "2026-08-23",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Trey Benson": {
+      "status": "MILD",
+      "injury": "Trey Benson - Questionable Trey Benson listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Trey Benson listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "Trey Benson - Questionable"
+      ],
+      "old_rank": 287,
+      "new_rank": 330,
+      "old_ppg": 5.04,
+      "new_ppg": 4.69,
+      "position": "RB",
+      "team": "ARI",
       "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
     },
     "Patrick Mahomes": {
       "status": "RETURNING",
-      "injury": "ACL + LCL (Week 15 2025) \u2014 fully cleared for camp",
-      "week1_outlook": "LIKELY \u2014 1st-team camp reps; Reid sitting him in preseason only",
+      "injury": "ACL + LCL (Week 15 2025) — fully cleared for camp",
+      "week1_outlook": "LIKELY — 1st-team camp reps; Reid sitting him in preseason only",
       "ppg_multiplier": 0.95,
-      "ranking_note": "Cleared for full camp with no limitations (Reid + Dr. Cooper). Taking 1st-team 11-on-11. Unlikely to play preseason. Week 1 Sept 14 vs DEN is the target \u2014 not a medical hold.",
+      "ranking_note": "Cleared for full camp with no limitations (Reid + Dr. Cooper). Taking 1st-team 11-on-11. Unlikely to play preseason. Week 1 Sept 14 vs DEN is the target — not a medical hold.",
       "impact": "MILD",
       "source": "NFL.com / AP / ESPN camp, Aug 2026",
       "headlines": [
-        "Cleared for full camp with no limitations (Reid + Dr. Cooper). Taking 1st-team 11-on-11. Unlikely to play preseason. Week 1 Sept 14 vs DEN is the target \u2014 not a medical hold."
+        "Cleared for full camp with no limitations (Reid + Dr. Cooper). Taking 1st-team 11-on-11. Unlikely to play preseason. Week 1 Sept 14 vs DEN is the target — not a medical hold."
       ],
-      "old_rank": 3,
-      "new_rank": 11,
-      "old_ppg": 21.27,
-      "new_ppg": 20.21,
+      "old_rank": 5,
+      "new_rank": 12,
+      "old_ppg": 21.21,
+      "new_ppg": 20.15,
       "position": "QB",
       "team": "KC",
       "updated": "2026-08-12",
@@ -642,12 +704,75 @@
       "headlines": [
         "Sam LaPorta - Questionable"
       ],
-      "old_rank": 164,
-      "new_rank": 177,
+      "old_rank": 106,
+      "new_rank": 120,
       "old_ppg": 9.79,
       "new_ppg": 9.1,
       "position": "TE",
       "team": "DET",
+      "updated": "2026-08-23",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Luther Burden III": {
+      "status": "MILD",
+      "injury": "Luther Burden - Questionable Luther Burden listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Luther Burden listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "Luther Burden - Questionable"
+      ],
+      "old_rank": 228,
+      "new_rank": 249,
+      "old_ppg": 5.99,
+      "new_ppg": 5.57,
+      "position": "WR",
+      "team": "CHI",
+      "updated": "2026-08-23",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Jalen McMillan": {
+      "status": "MILD",
+      "injury": "Jalen McMillan - Questionable Jalen McMillan listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Jalen McMillan listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "Jalen McMillan - Questionable"
+      ],
+      "old_rank": 209,
+      "new_rank": 219,
+      "old_ppg": 6.47,
+      "new_ppg": 6.02,
+      "position": "WR",
+      "team": "TB",
+      "updated": "2026-08-23",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Jeremy McNichols": {
+      "status": "MILD",
+      "injury": "Jeremy McNichols - Questionable Jeremy McNichols listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Jeremy McNichols listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "Jeremy McNichols - Questionable"
+      ],
+      "old_rank": 273,
+      "new_rank": 318,
+      "old_ppg": 5.18,
+      "new_ppg": 4.82,
+      "position": "RB",
+      "team": "WAS",
       "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
@@ -663,10 +788,10 @@
       "headlines": [
         "James Conner - Questionable"
       ],
-      "old_rank": 115,
-      "new_rank": 141,
-      "old_ppg": 11.27,
-      "new_ppg": 10.48,
+      "old_rank": 150,
+      "new_rank": 163,
+      "old_ppg": 8.11,
+      "new_ppg": 7.54,
       "position": "RB",
       "team": "ARI",
       "updated": "2026-08-23",
@@ -684,8 +809,8 @@
       "headlines": [
         "Jakobi Meyers - Questionable"
       ],
-      "old_rank": 147,
-      "new_rank": 164,
+      "old_rank": 96,
+      "new_rank": 108,
       "old_ppg": 10.38,
       "new_ppg": 9.65,
       "position": "WR",
@@ -705,12 +830,33 @@
       "headlines": [
         "Emeka Egbuka - Questionable"
       ],
-      "old_rank": 128,
-      "new_rank": 144,
+      "old_rank": 87,
+      "new_rank": 94,
       "old_ppg": 11.08,
       "new_ppg": 10.3,
       "position": "WR",
       "team": "TB",
+      "updated": "2026-08-23",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "British Brooks": {
+      "status": "MILD",
+      "injury": "British Brooks - Questionable British Brooks listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "British Brooks listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "British Brooks - Questionable"
+      ],
+      "old_rank": 270,
+      "new_rank": 312,
+      "old_ppg": 5.23,
+      "new_ppg": 4.86,
+      "position": "RB",
+      "team": "HOU",
       "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
@@ -726,33 +872,12 @@
       "headlines": [
         "Mike Evans - Questionable"
       ],
-      "old_rank": 159,
-      "new_rank": 175,
+      "old_rank": 104,
+      "new_rank": 118,
       "old_ppg": 9.86,
       "new_ppg": 9.17,
       "position": "WR",
       "team": "SF",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Robbie Ouzts": {
-      "status": "SEVERE",
-      "injury": "IR Robbie Ouzts listed as IR",
-      "week1_outlook": "UNLIKELY",
-      "ppg_multiplier": 0.65,
-      "ranking_note": "Robbie Ouzts listed as IR. ",
-      "impact": "SEVERE",
-      "source": "Sleeper",
-      "headlines": [
-        "Robbie Ouzts - IR"
-      ],
-      "old_rank": 249,
-      "new_rank": 625,
-      "old_ppg": 7.36,
-      "new_ppg": 4.78,
-      "position": "RB",
-      "team": "SEA",
       "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
@@ -768,8 +893,8 @@
       "headlines": [
         "Christian McCaffrey - Questionable"
       ],
-      "old_rank": 35,
-      "new_rank": 46,
+      "old_rank": 34,
+      "new_rank": 43,
       "old_ppg": 15.78,
       "new_ppg": 14.68,
       "position": "RB",
@@ -789,12 +914,75 @@
       "headlines": [
         "Jacory Croskey-Merritt - Questionable"
       ],
-      "old_rank": 231,
-      "new_rank": 312,
+      "old_rank": 166,
+      "new_rank": 182,
       "old_ppg": 7.59,
       "new_ppg": 7.06,
       "position": "RB",
       "team": "WAS",
+      "updated": "2026-08-23",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Ben Sims": {
+      "status": "MILD",
+      "injury": "Ben Sims - Questionable Ben Sims listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Ben Sims listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "Ben Sims - Questionable"
+      ],
+      "old_rank": 398,
+      "new_rank": 409,
+      "old_ppg": 3.51,
+      "new_ppg": 3.26,
+      "position": "TE",
+      "team": "MIA",
+      "updated": "2026-08-23",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Ollie Gordon II": {
+      "status": "MILD",
+      "injury": "Ollie Gordon - Questionable Ollie Gordon listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Ollie Gordon listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "Ollie Gordon - Questionable"
+      ],
+      "old_rank": 341,
+      "new_rank": 357,
+      "old_ppg": 4.57,
+      "new_ppg": 4.25,
+      "position": "RB",
+      "team": "MIA",
+      "updated": "2026-08-23",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Marvin Mims Jr.": {
+      "status": "MILD",
+      "injury": "Marvin Mims - Questionable Marvin Mims listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Marvin Mims listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "Marvin Mims - Questionable"
+      ],
+      "old_rank": 213,
+      "new_rank": 224,
+      "old_ppg": 6.37,
+      "new_ppg": 5.92,
+      "position": "WR",
+      "team": "DEN",
       "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
@@ -810,10 +998,10 @@
       "headlines": [
         "Jeremiyah Love - Questionable"
       ],
-      "old_rank": 32,
-      "new_rank": 40,
-      "old_ppg": 16.1,
-      "new_ppg": 14.97,
+      "old_rank": 31,
+      "new_rank": 39,
+      "old_ppg": 16.08,
+      "new_ppg": 14.95,
       "position": "QB",
       "team": "GB",
       "updated": "2026-08-23",
@@ -831,12 +1019,33 @@
       "headlines": [
         "DeVonta Smith - Questionable"
       ],
-      "old_rank": 146,
-      "new_rank": 155,
+      "old_rank": 95,
+      "new_rank": 101,
       "old_ppg": 10.61,
       "new_ppg": 9.87,
       "position": "WR",
       "team": "PHI",
+      "updated": "2026-08-23",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Devin Neal": {
+      "status": "MILD",
+      "injury": "Devin Neal - Questionable Devin Neal listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Devin Neal listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "Devin Neal - Questionable"
+      ],
+      "old_rank": 324,
+      "new_rank": 342,
+      "old_ppg": 4.83,
+      "new_ppg": 4.49,
+      "position": "RB",
+      "team": "NO",
       "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
@@ -850,15 +1059,35 @@
       "impact": "MILD",
       "source": "Sleeper",
       "headlines": [
-        "Xavier Worthy - Questionable",
-        "The Chiefs had big plans last season for 2024 first-round pick Xavier Worthy at wide receiver, but he injured his shoulder on the third play of the first game, "
+        "Xavier Worthy - Questionable"
       ],
-      "old_rank": 318,
-      "new_rank": 342,
+      "old_rank": 186,
+      "new_rank": 200,
       "old_ppg": 6.99,
       "new_ppg": 6.5,
       "position": "WR",
       "team": "KC",
+      "updated": "2026-08-23",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Davis Allen": {
+      "status": "MILD",
+      "injury": "Davis Allen - Questionable Davis Allen listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Davis Allen listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "Davis Allen - Questionable"
+      ],
+      "old_rank": 380,
+      "new_rank": 396,
+      "old_ppg": 3.76,
+      "new_ppg": 3.5,
+      "position": "TE",
+      "team": "LAR",
       "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
@@ -874,12 +1103,33 @@
       "headlines": [
         "Andy Jones - Inactive"
       ],
-      "old_rank": 165,
-      "new_rank": 160,
+      "old_rank": 108,
+      "new_rank": 104,
       "old_ppg": 9.74,
       "new_ppg": 9.74,
       "position": "RB",
       "team": "MIN",
+      "updated": "2026-08-23",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Cedric Tillman": {
+      "status": "MILD",
+      "injury": "Cedric Tillman - Questionable Cedric Tillman listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Cedric Tillman listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "Cedric Tillman - Questionable"
+      ],
+      "old_rank": 253,
+      "new_rank": 266,
+      "old_ppg": 5.58,
+      "new_ppg": 5.19,
+      "position": "WR",
+      "team": "CLE",
       "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
@@ -895,8 +1145,8 @@
       "headlines": [
         "Quinshon Judkins - Questionable"
       ],
-      "old_rank": 192,
-      "new_rank": 212,
+      "old_rank": 134,
+      "new_rank": 150,
       "old_ppg": 8.7,
       "new_ppg": 8.09,
       "position": "RB",
@@ -905,23 +1155,23 @@
       "auto_generated": true,
       "from_override": false
     },
-    "Sione Vaki": {
+    "Christian Kirk": {
       "status": "MILD",
-      "injury": "Sione Vaki - Questionable Sione Vaki listed as Questionable",
+      "injury": "irk - Questionable Christian Kirk listed a",
       "week1_outlook": "EXPECTED OK",
       "ppg_multiplier": 0.93,
-      "ranking_note": "Sione Vaki listed as Questionable. ",
+      "ranking_note": "Christian Kirk listed as Questionable. ",
       "impact": "MILD",
       "source": "Sleeper",
       "headlines": [
-        "Sione Vaki - Questionable"
+        "Christian Kirk - Questionable"
       ],
-      "old_rank": 326,
-      "new_rank": 466,
-      "old_ppg": 6.84,
-      "new_ppg": 6.36,
-      "position": "RB",
-      "team": "DET",
+      "old_rank": 234,
+      "new_rank": 261,
+      "old_ppg": 5.79,
+      "new_ppg": 5.38,
+      "position": "WR",
+      "team": "SF",
       "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
@@ -937,8 +1187,8 @@
       "headlines": [
         "Keon Coleman - Questionable"
       ],
-      "old_rank": 350,
-      "new_rank": 479,
+      "old_rank": 204,
+      "new_rank": 215,
       "old_ppg": 6.53,
       "new_ppg": 6.07,
       "position": "WR",
@@ -956,11 +1206,10 @@
       "impact": "MILD",
       "source": "Sleeper",
       "headlines": [
-        "Quentin Johnston - Questionable",
-        "They feel great about what rookie receiver Brenen Thompson has shown in camp and the improvements they've seen from Quentin Johnston , Tre' Harris and Derius Da"
+        "Quentin Johnston - Questionable"
       ],
-      "old_rank": 219,
-      "new_rank": 300,
+      "old_rank": 156,
+      "new_rank": 174,
       "old_ppg": 7.88,
       "new_ppg": 7.33,
       "position": "WR",
@@ -969,23 +1218,44 @@
       "auto_generated": true,
       "from_override": false
     },
-    "Kalel Mullings": {
+    "DJ Giddens": {
       "status": "MILD",
-      "injury": "Kalel Mullings - Questionable Kalel Mullings listed as Questionable",
+      "injury": "DJ Giddens - Questionable DJ Giddens listed as Questionable",
       "week1_outlook": "EXPECTED OK",
       "ppg_multiplier": 0.93,
-      "ranking_note": "Kalel Mullings listed as Questionable. ",
+      "ranking_note": "DJ Giddens listed as Questionable. ",
       "impact": "MILD",
       "source": "Sleeper",
       "headlines": [
-        "Kalel Mullings - Questionable"
+        "DJ Giddens - Questionable"
       ],
-      "old_rank": 327,
-      "new_rank": 471,
-      "old_ppg": 6.79,
-      "new_ppg": 6.31,
+      "old_rank": 269,
+      "new_rank": 302,
+      "old_ppg": 5.25,
+      "new_ppg": 4.88,
       "position": "RB",
-      "team": "TEN",
+      "team": "IND",
+      "updated": "2026-08-23",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Jordan James": {
+      "status": "MILD",
+      "injury": "Jordan James - Questionable Jordan James listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Jordan James listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "Jordan James - Questionable"
+      ],
+      "old_rank": 274,
+      "new_rank": 319,
+      "old_ppg": 5.18,
+      "new_ppg": 4.82,
+      "position": "RB",
+      "team": "SF",
       "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
@@ -1002,8 +1272,8 @@
         "Ty Johnson - Questionable",
         "Tez Johnson - Questionable"
       ],
-      "old_rank": 476,
-      "new_rank": 489,
+      "old_rank": 216,
+      "new_rank": 225,
       "old_ppg": 6.35,
       "new_ppg": 5.91,
       "position": "TE",
@@ -1012,23 +1282,23 @@
       "auto_generated": true,
       "from_override": false
     },
-    "J.Ali": {
+    "LeQuint Allen Jr.": {
       "status": "MILD",
-      "injury": "Jalin Hyatt - Questionable Jalin Hyatt listed as Questionable",
+      "injury": "LeQuint Allen - Questionable LeQuint Allen listed as Questionable",
       "week1_outlook": "EXPECTED OK",
       "ppg_multiplier": 0.93,
-      "ranking_note": "Jalin Hyatt listed as Questionable. ",
+      "ranking_note": "LeQuint Allen listed as Questionable. ",
       "impact": "MILD",
       "source": "Sleeper",
       "headlines": [
-        "Jalin Hyatt - Questionable"
+        "LeQuint Allen - Questionable"
       ],
-      "old_rank": 374,
-      "new_rank": 485,
-      "old_ppg": 6.44,
-      "new_ppg": 5.99,
-      "position": "WR",
-      "team": "ATL",
+      "old_rank": 371,
+      "new_rank": 376,
+      "old_ppg": 4.08,
+      "new_ppg": 3.79,
+      "position": "RB",
+      "team": "JAX",
       "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
@@ -1044,12 +1314,117 @@
       "headlines": [
         "Alvin Kamara - Questionable"
       ],
-      "old_rank": 303,
-      "new_rank": 319,
+      "old_rank": 175,
+      "new_rank": 187,
       "old_ppg": 7.35,
       "new_ppg": 6.84,
       "position": "RB",
       "team": "NO",
+      "updated": "2026-08-23",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Tip Reiman": {
+      "status": "MODERATE",
+      "injury": "PUP Tip Reiman listed as PUP",
+      "week1_outlook": "UNCERTAIN",
+      "ppg_multiplier": 0.82,
+      "ranking_note": "Tip Reiman listed as PUP. ",
+      "impact": "MODERATE",
+      "source": "Sleeper",
+      "headlines": [
+        "Tip Reiman - PUP"
+      ],
+      "old_rank": 400,
+      "new_rank": 423,
+      "old_ppg": 3.5,
+      "new_ppg": 2.87,
+      "position": "TE",
+      "team": "ARI",
+      "updated": "2026-08-23",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Emanuel Wilson": {
+      "status": "MILD",
+      "injury": "Emanuel Wilson - Questionable Emanuel Wilson listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Emanuel Wilson listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "Emanuel Wilson - Questionable"
+      ],
+      "old_rank": 298,
+      "new_rank": 336,
+      "old_ppg": 4.95,
+      "new_ppg": 4.6,
+      "position": "RB",
+      "team": "SEA",
+      "updated": "2026-08-23",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Elijah Higgins": {
+      "status": "MILD",
+      "injury": "Elijah Higgins - Questionable Elijah Higgins listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Elijah Higgins listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "Elijah Higgins - Questionable"
+      ],
+      "old_rank": 376,
+      "new_rank": 382,
+      "old_ppg": 3.94,
+      "new_ppg": 3.66,
+      "position": "TE",
+      "team": "ARI",
+      "updated": "2026-08-23",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Jawhar Jordan": {
+      "status": "MILD",
+      "injury": "Jawhar Jordan - Questionable Jawhar Jordan listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Jawhar Jordan listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "Jawhar Jordan - Questionable"
+      ],
+      "old_rank": 289,
+      "new_rank": 331,
+      "old_ppg": 5.03,
+      "new_ppg": 4.68,
+      "position": "RB",
+      "team": "HOU",
+      "updated": "2026-08-23",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Brashard Smith": {
+      "status": "MILD",
+      "injury": "Brandon Smith - Questionable Brandon Smith listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Brandon Smith listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "Brandon Smith - Questionable"
+      ],
+      "old_rank": 299,
+      "new_rank": 335,
+      "old_ppg": 4.95,
+      "new_ppg": 4.6,
+      "position": "RB",
+      "team": "KC",
       "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
@@ -1065,33 +1440,12 @@
       "headlines": [
         "Josh Jacobs - Questionable"
       ],
-      "old_rank": 72,
-      "new_rank": 81,
+      "old_rank": 69,
+      "new_rank": 77,
       "old_ppg": 12.86,
       "new_ppg": 11.96,
       "position": "RB",
       "team": "GB",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Zach Charbonnet": {
-      "status": "MODERATE",
-      "injury": "PUP Zach Charbonnet listed as PUP",
-      "week1_outlook": "UNCERTAIN",
-      "ppg_multiplier": 0.82,
-      "ranking_note": "Zach Charbonnet listed as PUP. ",
-      "impact": "MODERATE",
-      "source": "Sleeper",
-      "headlines": [
-        "Zach Charbonnet - PUP"
-      ],
-      "old_rank": 205,
-      "new_rank": 317,
-      "old_ppg": 8.38,
-      "new_ppg": 6.87,
-      "position": "RB",
-      "team": "SEA",
       "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
@@ -1107,12 +1461,33 @@
       "headlines": [
         "Michael Pittman - Questionable"
       ],
-      "old_rank": 169,
-      "new_rank": 182,
+      "old_rank": 112,
+      "new_rank": 124,
       "old_ppg": 9.63,
       "new_ppg": 8.96,
       "position": "WR",
       "team": "PIT",
+      "updated": "2026-08-23",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Phil Mafah": {
+      "status": "MILD",
+      "injury": "Phil Mafah - Questionable Phil Mafah listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Phil Mafah listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "Phil Mafah - Questionable"
+      ],
+      "old_rank": 268,
+      "new_rank": 299,
+      "old_ppg": 5.26,
+      "new_ppg": 4.89,
+      "position": "RB",
+      "team": "DAL",
       "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
@@ -1128,558 +1503,12 @@
       "headlines": [
         "DK Metcalf - Questionable"
       ],
-      "old_rank": 144,
-      "new_rank": 151,
+      "old_rank": 93,
+      "new_rank": 100,
       "old_ppg": 10.82,
       "new_ppg": 10.06,
       "position": "WR",
       "team": "PIT",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Wan'Dale Robinson": {
-      "status": "NEUTRAL",
-      "injury": "But I'd wager we see Downs' slot rate fall from near league leading to the realm of Ladd McConkey (62",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "But I'd wager we see Downs' slot rate fall from near league leading to the realm of Ladd McConkey (62.9%) or Wan'Dale Robinson (63.9%), as Steichen experiments with more bunch and stack sets to get Downs free releases off the line scrimmage",
-      "impact": "NEUTRAL",
-      "source": "ESPN",
-      "headlines": [
-        "But I'd wager we see Downs' slot rate fall from near league leading to the realm of Ladd McConkey (62.9%) or Wan'Dale Robinson (63.9%), as Steichen experiments "
-      ],
-      "old_rank": 161,
-      "new_rank": 157,
-      "old_ppg": 9.8,
-      "new_ppg": 9.8,
-      "position": "WR",
-      "team": "TEN",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Matthew Stafford": {
-      "status": "NEUTRAL",
-      "injury": "ir veterans skip (QB Matthew Stafford wasn",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "It was a light practice that the Rams sometimes let their veterans skip (QB Matthew Stafford wasn't out there, either).",
-      "impact": "NEUTRAL",
-      "source": "ESPN",
-      "headlines": [
-        "It was a light practice that the Rams sometimes let their veterans skip (QB Matthew Stafford wasn't out there, either)."
-      ],
-      "old_rank": 18,
-      "new_rank": 18,
-      "old_ppg": 18.6,
-      "new_ppg": 18.6,
-      "position": "QB",
-      "team": "LAR",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Bijan Robinson": {
-      "status": "HEALTHY",
-      "injury": "None - just signed extension",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.02,
-      "ranking_note": "Extension signed. Team commitment confirmed. ATL RB1 locked in.",
-      "impact": "POSITIVE",
-      "source": "Yahoo Sports Aug 5",
-      "headlines": [
-        "Extension signed. Team commitment confirmed. ATL RB1 locked in."
-      ],
-      "old_rank": 7,
-      "new_rank": 3,
-      "old_ppg": 20.77,
-      "new_ppg": 21.19,
-      "position": "RB",
-      "team": "ATL",
-      "updated": "2026-08-05",
-      "auto_generated": false,
-      "from_override": true
-    },
-    "Rashee Rice": {
-      "status": "HEALTHY",
-      "injury": "None - returning from suspension concern",
-      "week1_outlook": "ON TRACK - 11-on-11 drills Aug 5",
-      "ppg_multiplier": 0.9,
-      "ranking_note": "Healthy and practicing. Suspension risk remains.",
-      "impact": "MODERATE",
-      "source": "FantasyAlarm Aug 5",
-      "headlines": [
-        "Healthy and practicing. Suspension risk remains."
-      ],
-      "old_rank": 70,
-      "new_rank": 85,
-      "old_ppg": 12.9,
-      "new_ppg": 11.61,
-      "position": "WR",
-      "team": "KC",
-      "updated": "2026-08-05",
-      "auto_generated": false,
-      "from_override": true
-    },
-    "Chris Rodriguez Jr.": {
-      "status": "NEUTRAL",
-      "injury": "The Jaguars are expecting a physical running game with Bhayshul Tuten and Chris Rodriguez Jr",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "The Jaguars are expecting a physical running game with Bhayshul Tuten and Chris Rodriguez Jr .",
-      "impact": "NEUTRAL",
-      "source": "ESPN",
-      "headlines": [
-        "The Jaguars are expecting a physical running game with Bhayshul Tuten and Chris Rodriguez Jr ."
-      ],
-      "old_rank": 306,
-      "new_rank": 302,
-      "old_ppg": 7.3,
-      "new_ppg": 7.3,
-      "position": "RB",
-      "team": "JAX",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Jordan Addison": {
-      "status": "MINOR",
-      "injury": "Jammed thumb - missing few days",
-      "week1_outlook": "EXPECTED OK",
-      "ppg_multiplier": 0.97,
-      "ranking_note": "Minor thumb issue. Not serious. Monitor.",
-      "impact": "MILD",
-      "source": "FantasyAlarm Aug 5",
-      "headlines": [
-        "Minor thumb issue. Not serious. Monitor."
-      ],
-      "old_rank": 168,
-      "new_rank": 171,
-      "old_ppg": 9.65,
-      "new_ppg": 9.36,
-      "position": "WR",
-      "team": "MIN",
-      "updated": "2026-08-05",
-      "auto_generated": false,
-      "from_override": true
-    },
-    "Jordan Mason": {
-      "status": "NEUTRAL",
-      "injury": "will continue to split carries with Jordan Mason",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "will continue to split carries with Jordan Mason .",
-      "impact": "NEUTRAL",
-      "source": "ESPN",
-      "headlines": [
-        "will continue to split carries with Jordan Mason ."
-      ],
-      "old_rank": 475,
-      "new_rank": 467,
-      "old_ppg": 6.35,
-      "new_ppg": 6.35,
-      "position": "RB",
-      "team": "MIN",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "De'Von Achane": {
-      "status": "NEUTRAL",
-      "injury": "In fact, Miami plans to use Willis and running back De'Von Achane in dual-threat action when the timing is right",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "In fact, Miami plans to use Willis and running back De'Von Achane in dual-threat action when the timing is right.",
-      "impact": "NEUTRAL",
-      "source": "ESPN",
-      "headlines": [
-        "In fact, Miami plans to use Willis and running back De'Von Achane in dual-threat action when the timing is right."
-      ],
-      "old_rank": 21,
-      "new_rank": 21,
-      "old_ppg": 18.17,
-      "new_ppg": 18.17,
-      "position": "RB",
-      "team": "MIA",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Z.Moss": {
-      "status": "RELEASED",
-      "injury": "No NFL team on Sleeper but ranked as CIN (Sleeper still lists Questionable) \u2014 released/unsigned",
-      "week1_outlook": "OUT",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "REMOVE from rankings. No NFL team on Sleeper but ranked as CIN (Sleeper still lists Questionable) \u2014 released/unsigned",
-      "impact": "RELEASED",
-      "source": "Sleeper_roster",
-      "headlines": [
-        "No NFL team on Sleeper but ranked as CIN (Sleeper still lists Questionable) \u2014 released/unsigned"
-      ],
-      "old_rank": 174,
-      "new_rank": 169,
-      "old_ppg": 9.5,
-      "new_ppg": 9.5,
-      "position": "RB",
-      "team": "CIN",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "S.Phillips": {
-      "status": "RELEASED",
-      "injury": "No NFL team on Sleeper but ranked as HOU (Sleeper still lists Inactive) \u2014 released/unsigned",
-      "week1_outlook": "OUT",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "REMOVE from rankings. No NFL team on Sleeper but ranked as HOU (Sleeper still lists Inactive) \u2014 released/unsigned",
-      "impact": "RELEASED",
-      "source": "Sleeper_roster",
-      "headlines": [
-        "No NFL team on Sleeper but ranked as HOU (Sleeper still lists Inactive) \u2014 released/unsigned"
-      ],
-      "old_rank": 300,
-      "new_rank": 296,
-      "old_ppg": 7.36,
-      "new_ppg": 7.36,
-      "position": "RB",
-      "team": "HOU",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "S.Perry": {
-      "status": "RELEASED",
-      "injury": "No NFL team on Sleeper but ranked as TEN (Sleeper still lists Inactive) \u2014 released/unsigned",
-      "week1_outlook": "OUT",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "REMOVE from rankings. No NFL team on Sleeper but ranked as TEN (Sleeper still lists Inactive) \u2014 released/unsigned",
-      "impact": "RELEASED",
-      "source": "Sleeper_roster",
-      "headlines": [
-        "No NFL team on Sleeper but ranked as TEN (Sleeper still lists Inactive) \u2014 released/unsigned"
-      ],
-      "old_rank": 299,
-      "new_rank": 295,
-      "old_ppg": 7.36,
-      "new_ppg": 7.36,
-      "position": "RB",
-      "team": "TEN",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "J.Brooks": {
-      "status": "RELEASED",
-      "injury": "No NFL team on Sleeper but ranked as CAR (Sleeper still lists Questionable) \u2014 released/unsigned",
-      "week1_outlook": "OUT",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "REMOVE from rankings. No NFL team on Sleeper but ranked as CAR (Sleeper still lists Questionable) \u2014 released/unsigned",
-      "impact": "RELEASED",
-      "source": "Sleeper_roster",
-      "headlines": [
-        "No NFL team on Sleeper but ranked as CAR (Sleeper still lists Questionable) \u2014 released/unsigned"
-      ],
-      "old_rank": 271,
-      "new_rank": 268,
-      "old_ppg": 7.36,
-      "new_ppg": 7.36,
-      "position": "RB",
-      "team": "CAR",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "D.Foster": {
-      "status": "RELEASED",
-      "injury": "No NFL team on Sleeper but ranked as ARI (Sleeper still lists Inactive) \u2014 released/unsigned",
-      "week1_outlook": "OUT",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "REMOVE from rankings. No NFL team on Sleeper but ranked as ARI (Sleeper still lists Inactive) \u2014 released/unsigned",
-      "impact": "RELEASED",
-      "source": "Sleeper_roster",
-      "headlines": [
-        "No NFL team on Sleeper but ranked as ARI (Sleeper still lists Inactive) \u2014 released/unsigned"
-      ],
-      "old_rank": 284,
-      "new_rank": 287,
-      "old_ppg": 7.36,
-      "new_ppg": 7.36,
-      "position": "RB",
-      "team": "ARI",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "T.Yeldon": {
-      "status": "RELEASED",
-      "injury": "No NFL team on Sleeper but ranked as BUF (Sleeper still lists Inactive) \u2014 released/unsigned",
-      "week1_outlook": "OUT",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "REMOVE from rankings. No NFL team on Sleeper but ranked as BUF (Sleeper still lists Inactive) \u2014 released/unsigned",
-      "impact": "RELEASED",
-      "source": "Sleeper_roster",
-      "headlines": [
-        "No NFL team on Sleeper but ranked as BUF (Sleeper still lists Inactive) \u2014 released/unsigned"
-      ],
-      "old_rank": 283,
-      "new_rank": 288,
-      "old_ppg": 7.36,
-      "new_ppg": 7.36,
-      "position": "RB",
-      "team": "BUF",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "T.Riddick": {
-      "status": "RELEASED",
-      "injury": "No NFL team on Sleeper but ranked as LV (Sleeper still lists Injured Reserve) \u2014 released/unsigned",
-      "week1_outlook": "OUT",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "REMOVE from rankings. No NFL team on Sleeper but ranked as LV (Sleeper still lists Injured Reserve) \u2014 released/unsigned",
-      "impact": "RELEASED",
-      "source": "Sleeper_roster",
-      "headlines": [
-        "No NFL team on Sleeper but ranked as LV (Sleeper still lists Injured Reserve) \u2014 released/unsigned"
-      ],
-      "old_rank": 293,
-      "new_rank": 247,
-      "old_ppg": 7.36,
-      "new_ppg": 7.36,
-      "position": "RB",
-      "team": "LV",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "D.Williams": {
-      "status": "RELEASED",
-      "injury": "No NFL team on Sleeper but ranked as GB (Sleeper still lists Inactive) \u2014 released/unsigned",
-      "week1_outlook": "OUT",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "REMOVE from rankings. No NFL team on Sleeper but ranked as GB (Sleeper still lists Inactive) \u2014 released/unsigned",
-      "impact": "RELEASED",
-      "source": "Sleeper_roster",
-      "headlines": [
-        "No NFL team on Sleeper but ranked as GB (Sleeper still lists Inactive) \u2014 released/unsigned"
-      ],
-      "old_rank": 972,
-      "new_rank": 972,
-      "old_ppg": 7.36,
-      "new_ppg": 7.36,
-      "position": "RB",
-      "team": "GB",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "A.Sherman": {
-      "status": "RELEASED",
-      "injury": "No NFL team on Sleeper but ranked as KC (Sleeper still lists Injured Reserve) \u2014 released/unsigned",
-      "week1_outlook": "OUT",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "REMOVE from rankings. No NFL team on Sleeper but ranked as KC (Sleeper still lists Injured Reserve) \u2014 released/unsigned",
-      "impact": "RELEASED",
-      "source": "Sleeper_roster",
-      "headlines": [
-        "No NFL team on Sleeper but ranked as KC (Sleeper still lists Injured Reserve) \u2014 released/unsigned"
-      ],
-      "old_rank": 276,
-      "new_rank": 239,
-      "old_ppg": 7.36,
-      "new_ppg": 7.36,
-      "position": "RB",
-      "team": "KC",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "T.Cannon": {
-      "status": "RELEASED",
-      "injury": "No NFL team on Sleeper but ranked as BAL (Sleeper still lists Inactive) \u2014 released/unsigned",
-      "week1_outlook": "OUT",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "REMOVE from rankings. No NFL team on Sleeper but ranked as BAL (Sleeper still lists Inactive) \u2014 released/unsigned",
-      "impact": "RELEASED",
-      "source": "Sleeper_roster",
-      "headlines": [
-        "No NFL team on Sleeper but ranked as BAL (Sleeper still lists Inactive) \u2014 released/unsigned"
-      ],
-      "old_rank": 275,
-      "new_rank": 240,
-      "old_ppg": 7.36,
-      "new_ppg": 7.36,
-      "position": "RB",
-      "team": "BAL",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "K.Barner": {
-      "status": "RELEASED",
-      "injury": "No NFL team on Sleeper but ranked as TB (Sleeper still lists Inactive) \u2014 released/unsigned",
-      "week1_outlook": "OUT",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "REMOVE from rankings. No NFL team on Sleeper but ranked as TB (Sleeper still lists Inactive) \u2014 released/unsigned",
-      "impact": "RELEASED",
-      "source": "Sleeper_roster",
-      "headlines": [
-        "No NFL team on Sleeper but ranked as TB (Sleeper still lists Inactive) \u2014 released/unsigned"
-      ],
-      "old_rank": 243,
-      "new_rank": 264,
-      "old_ppg": 7.36,
-      "new_ppg": 7.36,
-      "position": "RB",
-      "team": "TB",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "R.Nall": {
-      "status": "RELEASED",
-      "injury": "No NFL team on Sleeper but ranked as CHI (Sleeper still lists Inactive) \u2014 released/unsigned",
-      "week1_outlook": "OUT",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "REMOVE from rankings. No NFL team on Sleeper but ranked as CHI (Sleeper still lists Inactive) \u2014 released/unsigned",
-      "impact": "RELEASED",
-      "source": "Sleeper_roster",
-      "headlines": [
-        "No NFL team on Sleeper but ranked as CHI (Sleeper still lists Inactive) \u2014 released/unsigned"
-      ],
-      "old_rank": 254,
-      "new_rank": 254,
-      "old_ppg": 7.36,
-      "new_ppg": 7.36,
-      "position": "RB",
-      "team": "CHI",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "D.Carr": {
-      "status": "RELEASED",
-      "injury": "No NFL team on Sleeper but ranked as NO (Sleeper still lists NA) \u2014 released/unsigned",
-      "week1_outlook": "OUT",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "REMOVE from rankings. No NFL team on Sleeper but ranked as NO (Sleeper still lists NA) \u2014 released/unsigned",
-      "impact": "RELEASED",
-      "source": "Sleeper_roster",
-      "headlines": [
-        "No NFL team on Sleeper but ranked as NO (Sleeper still lists NA) \u2014 released/unsigned"
-      ],
-      "old_rank": 27,
-      "new_rank": 26,
-      "old_ppg": 17.04,
-      "new_ppg": 17.04,
-      "position": "QB",
-      "team": "NO",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "D.Johnson": {
-      "status": "RELEASED",
-      "injury": "No NFL team on Sleeper but ranked as BAL (Sleeper still lists Inactive) \u2014 released/unsigned",
-      "week1_outlook": "OUT",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "REMOVE from rankings. No NFL team on Sleeper but ranked as BAL (Sleeper still lists Inactive) \u2014 released/unsigned",
-      "impact": "RELEASED",
-      "source": "Sleeper_roster",
-      "headlines": [
-        "No NFL team on Sleeper but ranked as BAL (Sleeper still lists Inactive) \u2014 released/unsigned"
-      ],
-      "old_rank": 1003,
-      "new_rank": 1003,
-      "old_ppg": 7.12,
-      "new_ppg": 7.12,
-      "position": "WR",
-      "team": "BAL",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Adam Thielen": {
-      "status": "RELEASED",
-      "injury": "No NFL team on Sleeper but ranked as MIN (Sleeper still lists NA) \u2014 released/unsigned",
-      "week1_outlook": "OUT",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "REMOVE from rankings. No NFL team on Sleeper but ranked as MIN (Sleeper still lists NA) \u2014 released/unsigned",
-      "impact": "RELEASED",
-      "source": "Sleeper_roster",
-      "headlines": [
-        "No NFL team on Sleeper but ranked as MIN (Sleeper still lists NA) \u2014 released/unsigned"
-      ],
-      "old_rank": 234,
-      "new_rank": 230,
-      "old_ppg": 7.47,
-      "new_ppg": 7.47,
-      "position": "WR",
-      "team": "MIN",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "L.Thomas": {
-      "status": "RELEASED",
-      "injury": "No NFL team on Sleeper but ranked as WAS (Sleeper still lists Inactive) \u2014 released/unsigned",
-      "week1_outlook": "OUT",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "REMOVE from rankings. No NFL team on Sleeper but ranked as WAS (Sleeper still lists Inactive) \u2014 released/unsigned",
-      "impact": "RELEASED",
-      "source": "Sleeper_roster",
-      "headlines": [
-        "No NFL team on Sleeper but ranked as WAS (Sleeper still lists Inactive) \u2014 released/unsigned"
-      ],
-      "old_rank": 551,
-      "new_rank": 550,
-      "old_ppg": 5.26,
-      "new_ppg": 5.26,
-      "position": "TE",
-      "team": "WAS",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "D.Baldwin": {
-      "status": "RELEASED",
-      "injury": "No NFL team on Sleeper but ranked as CLE (Sleeper still lists Injured Reserve) \u2014 released/unsigned",
-      "week1_outlook": "OUT",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "REMOVE from rankings. No NFL team on Sleeper but ranked as CLE (Sleeper still lists Injured Reserve) \u2014 released/unsigned",
-      "impact": "RELEASED",
-      "source": "Sleeper_roster",
-      "headlines": [
-        "No NFL team on Sleeper but ranked as CLE (Sleeper still lists Injured Reserve) \u2014 released/unsigned"
-      ],
-      "old_rank": 458,
-      "new_rank": 386,
-      "old_ppg": 6.44,
-      "new_ppg": 6.44,
-      "position": "WR",
-      "team": "CLE",
-      "updated": "2026-08-23",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "J.Kumerow": {
-      "status": "RELEASED",
-      "injury": "No NFL team on Sleeper but ranked as BUF (Sleeper still lists Inactive) \u2014 released/unsigned",
-      "week1_outlook": "OUT",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "REMOVE from rankings. No NFL team on Sleeper but ranked as BUF (Sleeper still lists Inactive) \u2014 released/unsigned",
-      "impact": "RELEASED",
-      "source": "Sleeper_roster",
-      "headlines": [
-        "No NFL team on Sleeper but ranked as BUF (Sleeper still lists Inactive) \u2014 released/unsigned"
-      ],
-      "old_rank": 455,
-      "new_rank": 389,
-      "old_ppg": 6.44,
-      "new_ppg": 6.44,
-      "position": "WR",
-      "team": "BUF",
       "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
@@ -1716,13 +1545,34 @@
       "headlines": [
         "Monitor. Tightness only but has injury history. Now with DEN (Bo Nix) after March 2026 trade from MIA."
       ],
-      "old_rank": 156,
-      "new_rank": 170,
+      "old_rank": 103,
+      "new_rank": 113,
       "old_ppg": 9.99,
       "new_ppg": 9.49,
       "position": "WR",
       "team": "DEN",
       "updated": "2026-08-23",
+      "auto_generated": false,
+      "from_override": true
+    },
+    "Rashee Rice": {
+      "status": "HEALTHY",
+      "injury": "None - returning from suspension concern",
+      "week1_outlook": "ON TRACK - 11-on-11 drills Aug 5",
+      "ppg_multiplier": 0.9,
+      "ranking_note": "Healthy and practicing. Suspension risk remains.",
+      "impact": "MODERATE",
+      "source": "FantasyAlarm Aug 5",
+      "headlines": [
+        "Healthy and practicing. Suspension risk remains."
+      ],
+      "old_rank": 68,
+      "new_rank": 81,
+      "old_ppg": 12.9,
+      "new_ppg": 11.61,
+      "position": "WR",
+      "team": "KC",
+      "updated": "2026-08-05",
       "auto_generated": false,
       "from_override": true
     },
@@ -1737,9 +1587,9 @@
       "headlines": [
         "Camp questionable. ATL backup risk with Penix available."
       ],
-      "old_rank": 85,
-      "new_rank": 150,
-      "old_ppg": 11.9,
+      "old_rank": 81,
+      "new_rank": 99,
+      "old_ppg": 11.91,
       "new_ppg": 10.12,
       "position": "",
       "team": "",
@@ -1747,9 +1597,51 @@
       "auto_generated": false,
       "from_override": true
     },
+    "Bijan Robinson": {
+      "status": "HEALTHY",
+      "injury": "None - just signed extension",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.02,
+      "ranking_note": "Extension signed. Team commitment confirmed. ATL RB1 locked in.",
+      "impact": "POSITIVE",
+      "source": "Yahoo Sports Aug 5",
+      "headlines": [
+        "Extension signed. Team commitment confirmed. ATL RB1 locked in."
+      ],
+      "old_rank": 8,
+      "new_rank": 5,
+      "old_ppg": 20.77,
+      "new_ppg": 21.19,
+      "position": "RB",
+      "team": "ATL",
+      "updated": "2026-08-05",
+      "auto_generated": false,
+      "from_override": true
+    },
+    "Jordan Addison": {
+      "status": "MINOR",
+      "injury": "Jammed thumb - missing few days",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.97,
+      "ranking_note": "Minor thumb issue. Not serious. Monitor.",
+      "impact": "MILD",
+      "source": "FantasyAlarm Aug 5",
+      "headlines": [
+        "Minor thumb issue. Not serious. Monitor."
+      ],
+      "old_rank": 111,
+      "new_rank": 114,
+      "old_ppg": 9.65,
+      "new_ppg": 9.36,
+      "position": "WR",
+      "team": "MIN",
+      "updated": "2026-08-05",
+      "auto_generated": false,
+      "from_override": true
+    },
     "Joe Mixon": {
       "status": "RELEASED",
-      "injury": "Released by HOU March 2026; missed all 2025 (foot/NFI); July reporting \u2014 career likely over, not on a roster",
+      "injury": "Released by HOU March 2026; missed all 2025 (foot/NFI); July reporting — career likely over, not on a roster",
       "week1_outlook": "OUT",
       "ppg_multiplier": 0.0,
       "ranking_note": "REMOVE from rankings. Released March 2026; no team; told former teammates career likely over (NFL.com / Wilson KPRC2).",
@@ -1770,7 +1662,7 @@
     },
     "J.Mixon": {
       "status": "RELEASED",
-      "injury": "Released by HOU March 2026; missed all 2025 (foot/NFI); July reporting \u2014 career likely over, not on a roster",
+      "injury": "Released by HOU March 2026; missed all 2025 (foot/NFI); July reporting — career likely over, not on a roster",
       "week1_outlook": "OUT",
       "ppg_multiplier": 0.0,
       "ranking_note": "REMOVE from rankings. Released March 2026; no team; told former teammates career likely over (NFL.com / Wilson KPRC2).",
@@ -1791,14 +1683,14 @@
     },
     "Brandon Aiyuk": {
       "status": "RELEASED",
-      "injury": "Reserve/left squad since late 2025; DNR; ACL/MCL/meniscus 2024; has not filed for reinstatement \u2014 nonfactor for 49ers camp",
+      "injury": "Reserve/left squad since late 2025; DNR; ACL/MCL/meniscus 2024; has not filed for reinstatement — nonfactor for 49ers camp",
       "week1_outlook": "OUT",
       "ppg_multiplier": 0.0,
-      "ranking_note": "REMOVE from rankings. Left squad / DNR \u2014 not practicing, not paid, not on the 90-man. Market ADP correctly has him undraftable.",
+      "ranking_note": "REMOVE from rankings. Left squad / DNR — not practicing, not paid, not on the 90-man. Market ADP correctly has him undraftable.",
       "impact": "SEASON_ENDING",
       "source": "Niners/Lynch / ESPN Graziano Aug 2026",
       "headlines": [
-        "REMOVE from rankings. Left squad / DNR \u2014 not practicing, not paid, not on the 90-man. Market ADP correctly has him undraftable."
+        "REMOVE from rankings. Left squad / DNR — not practicing, not paid, not on the 90-man. Market ADP correctly has him undraftable."
       ],
       "old_rank": 0,
       "new_rank": 0,
@@ -1812,14 +1704,14 @@
     },
     "B.Aiyuk": {
       "status": "RELEASED",
-      "injury": "Reserve/left squad since late 2025; DNR; ACL/MCL/meniscus 2024; has not filed for reinstatement \u2014 nonfactor for 49ers camp",
+      "injury": "Reserve/left squad since late 2025; DNR; ACL/MCL/meniscus 2024; has not filed for reinstatement — nonfactor for 49ers camp",
       "week1_outlook": "OUT",
       "ppg_multiplier": 0.0,
-      "ranking_note": "REMOVE from rankings. Left squad / DNR \u2014 not practicing, not paid, not on the 90-man. Market ADP correctly has him undraftable.",
+      "ranking_note": "REMOVE from rankings. Left squad / DNR — not practicing, not paid, not on the 90-man. Market ADP correctly has him undraftable.",
       "impact": "SEASON_ENDING",
       "source": "Niners/Lynch / ESPN Graziano Aug 2026",
       "headlines": [
-        "REMOVE from rankings. Left squad / DNR \u2014 not practicing, not paid, not on the 90-man. Market ADP correctly has him undraftable."
+        "REMOVE from rankings. Left squad / DNR — not practicing, not paid, not on the 90-man. Market ADP correctly has him undraftable."
       ],
       "old_rank": 0,
       "new_rank": 0,

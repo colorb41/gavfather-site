@@ -23,6 +23,10 @@ Live BUY/FADE plus camp flags, 2026-08-04.
 None - fully healthy
 *Clocking 22mph in camp. No issues. Undervalued WAS sleeper. Daniels connection real.*
 
+**Jayden Higgins (WR, HOU)** — SEASON_ENDING
+knee) officially placed on season-ending IR
+*Jayden Higgins (knee) officially placed on season-ending IR Fri, Aug 21st 3:07pm EDT By Diego Sandoval*
+
 **Malik Nabers (WR, NYG)** — RETURNING
 ACL + meniscus (recovering ahead of schedule)
 *Upgrade slightly. Running routes, ahead of schedule. Worst case misses 1-2 games.*
@@ -33,47 +37,55 @@ ACL (last season) - just came off PUP
 
 **George Kittle (TE, SF)** — PUP
 Achilles tear (January 2026 playoffs)
-*Drop to TE3. McBride and Bowers ahead until cleared.*
+*Achilles PUP — late-round dart only until cleared. McBride and Bowers are the TE1/TE2.*
 
-**Rashee Rice (WR, KC)** — HEALTHY
-None - returning from suspension concern
-*Healthy and practicing. Suspension risk remains.*
+**Brenden Bates (TE, CLE)** — SEASON_ENDING
+IR Brenden Bates listed as IR
+*Brenden Bates listed as IR. *
+
+**Gunner Olszewski (WR, NYG)** — SEASON_ENDING
+IR Gunner Olszewski listed as IR
+*Gunner Olszewski listed as IR. *
 
 **Jaylen Waddle (WR, DEN)** — MONITOR
 Muscle tightness (left practice Aug 5)
 *Monitor. Tightness only but has injury history. Now with DEN (Bo Nix) after March 2026 trade from MIA.*
 
-## BUY — still too cheap
+**Rashee Rice (WR, KC)** — HEALTHY
+None - returning from suspension concern
+*Healthy and practicing. Suspension risk remains.*
 
-**Stefon Diggs (WR, WAS)** — We have WR21 — market has WR46 — 11.0 PPG
+## BUY — still too cheap
 
 **Deebo Samuel Sr. (WR, SF)** — We have WR26 — market has WR49 — 10.9 PPG
 
-**Romeo Doubs (WR, NE)** — We have WR28 — market has WR51 — 10.2 PPG
+**Stefon Diggs (WR, WAS)** — We have WR24 — market has WR46 — 11.0 PPG
 
-**Kayshon Boutte (WR, NE)** — We have WR50 — market has WR72 — 7.3 PPG
+**Calvin Ridley (WR, TEN)** — We have WR42 — market has WR63 — 8.5 PPG
 
-**Jauan Jennings (WR, MIN)** — We have WR44 — market has WR65 — 7.8 PPG
+**Brian Thomas Jr. (WR, JAX)** — We have WR14 — market has WR35 — 13.2 PPG
 
-**Brian Thomas Jr. (WR, JAX)** — We have WR15 — market has WR35 — 13.2 PPG
+**Romeo Doubs (WR, NE)** — We have WR30 — market has WR51 — 10.2 PPG
 
-**Courtland Sutton (WR, DEN)** — We have WR16 — market has WR30 — 12.7 PPG
+**Darius Slayton (WR, NYG)** — We have WR55 — market has WR75 — 6.9 PPG
 
-**Keenan Allen (WR, IND)** — We have WR46 — market has WR58 — 8.1 PPG
+**Kayshon Boutte (WR, NE)** — We have WR52 — market has WR72 — 7.3 PPG
+
+**Jauan Jennings (WR, MIN)** — We have WR48 — market has WR65 — 7.8 PPG
 
 ## FADE — still too expensive
 
-**Adonai Mitchell (WR, NYJ)** — We have WR250 — market has WR71 — 4.9 PPG
+**Tre Harris (WR, LAC)** — We have WR123 — market has WR79 — 4.8 PPG
 
-**Tre Harris (WR, LAC)** — We have WR258 — market has WR79 — 4.8 PPG
+**Luther Burden III (WR, CHI)** — We have WR74 — market has WR31 — 6.0 PPG
 
-**Matthew Golden (WR, GB)** — We have WR202 — market has WR48 — 5.6 PPG
+**Matthew Golden (WR, GB)** — We have WR87 — market has WR48 — 5.6 PPG
 
-**Rashod Bateman (WR, BAL)** — We have WR213 — market has WR61 — 5.4 PPG
+**Alec Pierce (WR, IND)** — We have WR62 — market has WR29 — 6.5 PPG
 
-**Luther Burden III (WR, CHI)** — We have WR180 — market has WR31 — 6.5 PPG
+**Rashod Bateman (WR, BAL)** — We have WR92 — market has WR61 — 5.4 PPG
 
-**Pat Bryant (WR, DEN)** — We have WR220 — market has WR81 — 5.5 PPG
+**Adonai Mitchell (WR, NYJ)** — We have WR102 — market has WR71 — 4.9 PPG
 
 
 ---

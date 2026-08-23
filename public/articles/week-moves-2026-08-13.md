@@ -4,7 +4,7 @@ date: "2026-08-13"
 week: 0
 theme: "Camp Report"
 category: "research"
-excerpt: "76 camp updates and 22 high-priority deltas this week. Here is what actually moved."
+excerpt: "80 camp updates and 22 high-priority deltas this week. Here is what actually moved."
 ---
 
 # What Actually Moved This Week
@@ -15,45 +15,45 @@ excerpt: "76 camp updates and 22 high-priority deltas this week. Here is what ac
 
 This is the Thursday digest: what the camp file and the delta log actually changed in the last seven days. Not what a podcast felt.
 
-76 camp notes updated this week. 22 high-priority delta events.
+80 camp notes updated this week. 22 high-priority delta events.
 
 ## Camp notes that moved
 
 **Stefon Diggs** — NEUTRAL (2026-08-23) | PPG 10.98 → 10.98
 *Stefon Diggs expected to play against Lions Sat, Aug 22nd 10:21am EDT By Cooper Kleinberg*
 
-**Jayden Daniels** — NEUTRAL (2026-08-23) | PPG 19.78 → 19.78
+**Jayden Daniels** — NEUTRAL (2026-08-23) | PPG 19.59 → 19.59
 *Jayden Daniels expected to play against Lions Sat, Aug 22nd 10:18am EDT By Cooper Kleinberg*
 
-**Tory Horton** — MILD (2026-08-23) | PPG 6.91 → 6.43
+**Tory Horton** — MILD (2026-08-23) | PPG 6.43 → 5.98
 *Tory Horton listed as Questionable. *
 
-**Tyreek Hill** — RELEASED (2026-08-23) | PPG 11.58 → 11.58
-*REMOVE from rankings. No NFL team on Sleeper but ranked as MIA (Sleeper still lists Questionable) — released/unsigned*
+**Jayden Higgins** — SEASON_ENDING (2026-08-23) | PPG 5.89 → 5.89
+*Jayden Higgins (knee) officially placed on season-ending IR Fri, Aug 21st 3:07pm EDT By Diego Sandoval*
+
+**De'Von Achane** — NEUTRAL (2026-08-23) | PPG 18.17 → 18.17
+*C Los Angeles Chargers Knee*
 
 **Parker Washington** — MILD (2026-08-23) | PPG 7.99 → 7.43
 *Parker Washington listed as Questionable. *
 
-**Trevor Lawrence** — NEUTRAL (2026-08-23) | PPG 20.08 → 20.08
+**Trevor Lawrence** — NEUTRAL (2026-08-23) | PPG 20.11 → 20.11
 *WR Jacksonville Jaguars Undisclosed*
 
 **Jaydon Blue** — NEUTRAL (2026-08-23) | PPG 5.79 → 5.79
 *Jaydon Blue Stands out with extended playing time RB Dallas Cowboys August 22, 2026 Blue (shoulder) rushed 15 times for 75 yards in the Cowboys' 34-13 preseason win over the Cardinals on Saturday. He also returned one kickoff for 26 yards. *
 
+**Malik Davis** — NEUTRAL (2026-08-23) | PPG 4.37 → 4.37
+*Malik Davis Solid in preseason start RB Dallas Cowboys August 22, 2026 Davis rushed five times for 29 yards and brought in his only target for an eight-yard touchdown in the Cowboys' 34-13 preseason win over the Cardinals on Saturday. He al*
+
 **Kyren Williams** — NEUTRAL (2026-08-23) | PPG 17.44 → 17.44
 *K Cincinnati Bengals*
 
-**Justin Herbert** — NEUTRAL (2026-08-23) | PPG 20.45 → 20.45
+**Justin Herbert** — NEUTRAL (2026-08-23) | PPG 20.27 → 20.27
 *RB Kansas City Chiefs*
 
-**E.Elliott** — NEUTRAL (2026-08-23) | PPG 5.36 → 5.36
-*Jake Elliott Perfect on trio of PATs K Philadelphia Eagles August 22, 2026 Elliott connected on all three of his extra-point tries and did not attempt any field goals in the Eagles' 24-21 preseason loss to the Patriots on Saturday. ANALYSIS*
-
-**Cam Skattebo** — NEUTRAL (2026-08-23) | PPG 14.46 → 14.46
-*TE Philadelphia Eagles*
-
-**Baker Mayfield** — NEUTRAL (2026-08-23) | PPG 19.03 → 19.03
-*Baker Mayfield Pair of completions on first two series QB Tampa Bay Buccaneers August 22, 2026 Mayfield completed two of four passes for 10 yards with no touchdowns or interceptions in the Buccaneers' 16-15 preseason win over the Chiefs on *
+**Justin Fields** — NEUTRAL (2026-08-23) | PPG 16.05 → 16.05
+*Justin Fields Sharp in Saturday's start QB Kansas City Chiefs August 22, 2026 Fields completed nine of 12 passes for 64 yards with no touchdowns or interceptions and rushed once for 15 yards in the Chiefs' 16-15 preseason loss to the Buccan*
 
 ## High-priority roster/injury deltas
 
@@ -71,13 +71,13 @@ This is the Thursday digest: what the camp file and the delta log actually chang
 
 **Tyrone Tracy Jr. (RB, NYG)** — We have RB24 — market has RB53 — 10.2 PPG
 
-**Stefon Diggs (WR, WAS)** — We have WR21 — market has WR46 — 11.0 PPG
-
 **Deebo Samuel Sr. (WR, SF)** — We have WR26 — market has WR49 — 10.9 PPG
 
-**Romeo Doubs (WR, NE)** — We have WR28 — market has WR51 — 10.2 PPG
+**Stefon Diggs (WR, WAS)** — We have WR24 — market has WR46 — 11.0 PPG
 
-**Kayshon Boutte (WR, NE)** — We have WR50 — market has WR72 — 7.3 PPG
+**Brian Thomas Jr. (WR, JAX)** — We have WR14 — market has WR35 — 13.2 PPG
+
+**Romeo Doubs (WR, NE)** — We have WR30 — market has WR51 — 10.2 PPG
 
 
 ---
