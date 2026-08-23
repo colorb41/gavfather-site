@@ -1,20 +1,47 @@
 {
-  "updated": "2026-08-22T22:24:28",
+  "updated": "2026-08-23T13:38:35",
   "source": "CampResearcher.v2",
   "override_count": 11,
   "player_count": 33,
-  "news_items_processed": 1703,
+  "news_items_processed": 1698,
   "players": {
-    "S.Barkley": {
+    "T.Lawrence": {
       "status": "NEUTRAL",
-      "injury": "K Indianapolis Colts K Indianapolis Colts K Indianapolis Colts",
+      "injury": "Undisclosed WR Jacksonville Jaguars Undisclosed WR",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "K Indianapolis Colts",
+      "ranking_note": "WR Jacksonville Jaguars Undisclosed",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "K Indianapolis Colts"
+        "WR Jacksonville Jaguars Undisclosed",
+        "WR Cincinnati Bengals",
+        "WR Tampa Bay Buccaneers",
+        "WR New England Patriots",
+        "WR Kansas City Chiefs"
+      ],
+      "old_rank": 29,
+      "new_rank": 29,
+      "old_ppg": 12.59,
+      "new_ppg": 12.59,
+      "position": "QB",
+      "team": "JAX",
+      "updated": "2026-08-23",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "S.Barkley": {
+      "status": "NEUTRAL",
+      "injury": "K Cincinnati Bengals K Cincinnati Bengals K Cincinnati Bengals",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "K Cincinnati Bengals",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "K Cincinnati Bengals",
+        "K New England Patriots",
+        "K Philadelphia Eagles"
       ],
       "old_rank": 12,
       "new_rank": 12,
@@ -22,68 +49,21 @@
       "new_ppg": 14.38,
       "position": "RB",
       "team": "PHI",
-      "updated": "2026-08-22",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "R.Davis": {
-      "status": "NEUTRAL",
-      "injury": "Ray Davis Ray Davis Scores in second preseason game RB Buffalo Bills August 22, 2026 Davis rushed seven times for 21 yar",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Ray Davis Scores in second preseason game RB Buffalo Bills August 22, 2026 Davis rushed seven times for 21 yards and a touchdown while adding a 10-yard catch on his lone target in Saturday's 31-7 preseason win over the Browns. ANALYSIS Subs",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Ray Davis"
-      ],
-      "old_rank": 294,
-      "new_rank": 292,
-      "old_ppg": 6.09,
-      "new_ppg": 6.09,
-      "position": "RB",
-      "team": "BUF",
-      "updated": "2026-08-22",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "T.Lawrence": {
-      "status": "NEUTRAL",
-      "injury": "WR San Francisco 49ers Calf WR San Francisco 49ers Calf WR San Francisco 49ers Calf",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "WR San Francisco 49ers Calf",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "WR San Francisco 49ers Calf",
-        "WR San Francisco 49ers Quadriceps",
-        "WR San Francisco 49ers Shoulder"
-      ],
-      "old_rank": 28,
-      "new_rank": 28,
-      "old_ppg": 12.59,
-      "new_ppg": 12.59,
-      "position": "QB",
-      "team": "JAX",
-      "updated": "2026-08-22",
+      "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
     },
     "R.Blackshear": {
       "status": "NEUTRAL",
-      "injury": "Undisclosed RB Miami Dolphins Undisclosed RB Miami",
+      "injury": "RB Kansas City Chiefs RB Kansas City Chiefs RB Kansas City Chiefs",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "RB Miami Dolphins Undisclosed",
+      "ranking_note": "RB Kansas City Chiefs",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "RB Miami Dolphins Undisclosed",
-        "RB San Francisco 49ers Ribs",
-        "RB Baltimore Ravens Undisclosed",
-        "RB Indianapolis Colts",
-        "RB New Orleans Saints Undisclosed"
+        "RB Kansas City Chiefs",
+        "RB Tampa Bay Buccaneers"
       ],
       "old_rank": 195,
       "new_rank": 196,
@@ -91,7 +71,53 @@
       "new_ppg": 6.77,
       "position": "RB",
       "team": "CAR",
-      "updated": "2026-08-22",
+      "updated": "2026-08-23",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "K.Williams": {
+      "status": "NEUTRAL",
+      "injury": "Kyle Williams Kyle Williams Flashes speed on long TD WR New England Patriots August 22, 2026 Williams brought in two of ",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Kyle Williams Flashes speed on long TD WR New England Patriots August 22, 2026 Williams brought in two of six targets for 74 yards and a touchdown in the Patriots' 24-21 preseason win over the Eagles on Saturday. ANALYSIS Subscribe now to i",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Kyle Williams",
+        "Mike Williams - DNR",
+        "Kyle Williams - Inactive",
+        "Mike Williams - Inactive",
+        "Ed Williams - Inactive"
+      ],
+      "old_rank": 34,
+      "new_rank": 34,
+      "old_ppg": 12.2,
+      "new_ppg": 12.2,
+      "position": "RB",
+      "team": "LA",
+      "updated": "2026-08-23",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "R.White": {
+      "status": "NEUTRAL",
+      "injury": "TE Philadelphia Eagles TE Philadelphia Eagles TE Philadelphia Eagles",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "TE Philadelphia Eagles",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "TE Philadelphia Eagles"
+      ],
+      "old_rank": 126,
+      "new_rank": 124,
+      "old_ppg": 8.63,
+      "new_ppg": 8.63,
+      "position": "RB",
+      "team": "TB",
+      "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
     },
@@ -106,13 +132,13 @@
       "headlines": [
         "Sashi Brown - Inactive"
       ],
-      "old_rank": 9,
-      "new_rank": 10,
+      "old_rank": 10,
+      "new_rank": 9,
       "old_ppg": 15.0,
       "new_ppg": 15.0,
       "position": "WR",
       "team": "NE",
-      "updated": "2026-08-22",
+      "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
     },
@@ -128,13 +154,13 @@
         "Corey Washington - Inactive",
         "Eric Washington - Inactive"
       ],
-      "old_rank": 242,
-      "new_rank": 256,
+      "old_rank": 244,
+      "new_rank": 254,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
       "team": "ATL",
-      "updated": "2026-08-22",
+      "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
     },
@@ -150,12 +176,12 @@
         "Sam LaPorta - Questionable"
       ],
       "old_rank": 192,
-      "new_rank": 284,
+      "new_rank": 283,
       "old_ppg": 6.79,
       "new_ppg": 6.31,
       "position": "TE",
       "team": "DET",
-      "updated": "2026-08-22",
+      "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
     },
@@ -177,31 +203,7 @@
       "new_ppg": 5.76,
       "position": "RB",
       "team": "DEN",
-      "updated": "2026-08-22",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "K.Williams": {
-      "status": "NEUTRAL",
-      "injury": "Mike Williams - DNR Mike Williams listed as DNR",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Mike Williams listed as DNR. ",
-      "impact": "NEUTRAL",
-      "source": "Sleeper",
-      "headlines": [
-        "Mike Williams - DNR",
-        "Kyle Williams - Inactive",
-        "Mike Williams - Inactive",
-        "Ed Williams - Inactive"
-      ],
-      "old_rank": 34,
-      "new_rank": 34,
-      "old_ppg": 12.2,
-      "new_ppg": 12.2,
-      "position": "RB",
-      "team": "LA",
-      "updated": "2026-08-22",
+      "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
     },
@@ -222,7 +224,7 @@
       "new_ppg": 9.2,
       "position": "TE",
       "team": "ARI",
-      "updated": "2026-08-22",
+      "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
     },
@@ -243,7 +245,7 @@
       "new_ppg": 12.69,
       "position": "QB",
       "team": "IND",
-      "updated": "2026-08-22",
+      "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
     },
@@ -264,7 +266,7 @@
       "new_ppg": 7.61,
       "position": "WR",
       "team": "ARI",
-      "updated": "2026-08-22",
+      "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
     },
@@ -285,7 +287,7 @@
       "new_ppg": 7.95,
       "position": "WR",
       "team": "CAR",
-      "updated": "2026-08-22",
+      "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
     },
@@ -300,13 +302,13 @@
       "headlines": [
         "David Olson - Inactive"
       ],
-      "old_rank": 424,
-      "new_rank": 413,
+      "old_rank": 426,
+      "new_rank": 411,
       "old_ppg": 4.6,
       "new_ppg": 4.6,
       "position": "TE",
       "team": "BUF",
-      "updated": "2026-08-22",
+      "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
     },
@@ -327,7 +329,7 @@
       "new_ppg": 16.74,
       "position": "QB",
       "team": "WAS",
-      "updated": "2026-08-22",
+      "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
     },
@@ -348,7 +350,7 @@
       "new_ppg": 5.1,
       "position": "TE",
       "team": "NO",
-      "updated": "2026-08-22",
+      "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
     },
@@ -369,7 +371,7 @@
       "new_ppg": 8.12,
       "position": "RB",
       "team": "HOU",
-      "updated": "2026-08-22",
+      "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
     },
@@ -392,7 +394,7 @@
       "new_ppg": 4.79,
       "position": "RB",
       "team": "BUF",
-      "updated": "2026-08-22",
+      "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
     },
@@ -407,13 +409,13 @@
       "headlines": [
         "Jeff Cotton - Inactive"
       ],
-      "old_rank": 298,
-      "new_rank": 296,
+      "old_rank": 297,
+      "new_rank": 295,
       "old_ppg": 6.01,
       "new_ppg": 6.01,
       "position": "TE",
       "team": "TB",
-      "updated": "2026-08-22",
+      "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
     },
@@ -429,13 +431,13 @@
         "Surgery",
         "Zach Charbonnet - PUP"
       ],
-      "old_rank": 292,
+      "old_rank": 291,
       "new_rank": 368,
       "old_ppg": 6.14,
       "new_ppg": 5.03,
       "position": "RB",
       "team": "SEA",
-      "updated": "2026-08-22",
+      "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
     },
@@ -450,13 +452,13 @@
       "headlines": [
         "Bisi Johnson - Inactive"
       ],
-      "old_rank": 264,
-      "new_rank": 258,
+      "old_rank": 262,
+      "new_rank": 268,
       "old_ppg": 6.44,
       "new_ppg": 6.44,
       "position": "WR",
       "team": "PIT",
-      "updated": "2026-08-22",
+      "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
     },
@@ -477,7 +479,7 @@
       "new_ppg": 7.13,
       "position": "WR",
       "team": "SEA",
-      "updated": "2026-08-22",
+      "updated": "2026-08-23",
       "auto_generated": true,
       "from_override": false
     },
