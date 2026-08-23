@@ -1,167 +1,162 @@
 overall_rank,player_name,position,recent_team,projected_ppg,projected_ppg_std,projected_ppg_half_ppr,projected_ppg_ppr,projected_ppg_superflex,reliability_tier,situation_score,career_seasons,tier,live_status,age,data_basis,draft_value_score,draft_value_score_std,draft_value_score_half_ppr,draft_value_score_ppr,avg_receptions_per_game,avg_targets_per_game,avg_carries_per_game,Injury_Flag,consensus_adp,adp_diff,consensus_adp_overall,consensus_adp_positional,our_positional_rank,adp_diff_positional,adp_diff_overall,adp_signal
-1,Bijan Robinson,RB,ATL,20.77,,20.77,,20.77,PROVEN_SOLID,71.5,3,Elite,,24.6,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06] [camp_research:HEALTHY:1.02:Extension signed. Team commitment confirmed. ATL RB1 locked in.],,,,,,,,HEALTHY,2.3,1.2999999999999998,2.3,2.0,1,1.0,1.2999999999999998,NEUTRAL
-2,Jonathan Taylor,RB,IND,20.67,,20.67,,20.67,PROVEN_ELITE,77.1,6,Elite,,27.6,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,6.0,4.0,6.0,3.0,2,1.0,4.0,NEUTRAL
-3,Jahmyr Gibbs,RB,DET,18.52,,18.52,,18.52,PROVEN_SOLID,78.8,3,Elite,,24.5,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06] [consensus_floor:20.0:RB1 consensus],,,,,,,,,1.5,-1.5,1.5,1.0,3,-2.0,-1.5,NEUTRAL
-4,De'Von Achane,RB,MIA,18.17,,18.17,,18.17,PROVEN_SOLID,58.9,3,Elite,,24.9,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06],,,,,,,,,11.7,7.699999999999999,11.7,7.0,4,3.0,7.699999999999999,BUY
-5,Kyren Williams,RB,LAR,17.44,,17.44,,17.44,PROVEN_SOLID,65.0,3,Elite,,26.0,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06],,,,,,,,,27.2,22.2,27.2,14.0,5,9.0,22.2,BUY
-10,Christian McCaffrey,RB,SF,15.78,,15.78,,15.78,PROVEN_SOLID,81.6,3,Elite,,30.2,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06] [consensus_floor:17.0:RB3-4 consensus] [camp_notes:MILD:0.93:Christian McCaffrey listed as Questionable. ],,,,,,,,MILD,6.6,-3.4000000000000004,6.6,4.0,6,-2.0,-3.4000000000000004,NEUTRAL
+1,Bijan Robinson,RB,ATL,20.77,,20.77,,20.77,PROVEN_SOLID,69.9,3,Elite,,24.6,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06] [camp_research:HEALTHY:1.02:Extension signed. Team commitment confirmed. ATL RB1 locked in.],,,,,,,,HEALTHY,2.3,1.2999999999999998,2.3,2.0,1,1.0,1.2999999999999998,NEUTRAL
+2,Jonathan Taylor,RB,IND,20.67,,20.67,,20.67,PROVEN_ELITE,75.3,6,Elite,,27.6,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,6.0,4.0,6.0,3.0,2,1.0,4.0,NEUTRAL
+3,Jahmyr Gibbs,RB,DET,18.52,,18.52,,18.52,PROVEN_SOLID,79.7,3,Elite,,24.5,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06] [consensus_floor:20.0:RB1 consensus],,,,,,,,,1.5,-1.5,1.5,1.0,3,-2.0,-1.5,NEUTRAL
+4,De'Von Achane,RB,MIA,18.17,,18.17,,18.17,PROVEN_SOLID,58.3,3,Elite,,24.9,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06],,,,,,,,,11.7,7.699999999999999,11.7,7.0,4,3.0,7.699999999999999,BUY
+7,Kyren Williams,RB,LAR,17.44,,17.44,,17.44,PROVEN_SOLID,65.0,3,Elite,,26.0,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06],,,,,,,,,27.2,20.2,27.2,14.0,5,9.0,20.2,BUY
+11,Christian McCaffrey,RB,SF,15.78,,15.78,,15.78,PROVEN_SOLID,81.5,3,Elite,,30.2,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06] [consensus_floor:17.0:RB3-4 consensus] [camp_notes:MILD:0.93:Christian McCaffrey listed as Questionable. ],,,,,,,,MILD,6.6,-4.4,6.6,4.0,6,-2.0,-4.4,NEUTRAL
 12,Ashton Jeanty,RB,LV,14.77,,14.77,,14.77,EMERGING,60.0,1,Elite,,22.7,2025_only+rel[EMERGING*1.00] [sophomore_leap_player] [team_corr:LV:0.95:LV RB1 yr2 - weak team situation] [consensus_floor:15.0:RB7 consensus - yr2 leap],,,,,,,,,14.8,2.8000000000000007,14.8,8.0,7,1.0,2.8000000000000007,NEUTRAL
-13,James Cook,RB,BUF,15.24,,15.24,,15.24,VOLATILE,78.0,4,Elite,,26.9,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [consensus_floor:15.5:RB6 consensus],,,,,,,,,,,,,8,,,UNKNOWN
-14,Derrick Henry,RB,BAL,15.23,,15.23,,15.23,PROVEN_ELITE,60.1,6,Elite,,32.7,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12] [consensus_floor:14.5:RB7-8 consensus],,,,,,,,,9.7,-4.300000000000001,9.7,6.0,9,-3.0,-4.300000000000001,FADE
-17,Cam Skattebo,RB,NYG,14.46,,14.46,,14.46,EMERGING,58.0,1,Elite,,24.6,2025_only+rel[EMERGING*1.00] [sophomore_leap_player] [team_corr:NYG:1.0:NYG RB1 - Nagy scheme],,,,,,,,,35.3,18.299999999999997,35.3,17.0,10,7.0,18.299999999999997,BUY
-20,Omarion Hampton,RB,LAC,14.04,,14.04,,14.04,EMERGING,80.0,1,Elite,,23.5,2025_only+rel[EMERGING*1.00] [sophomore_leap_player] [team_corr:LAC:1.08:LAC RB1 yr2 - McDaniel zone run scheme] [consensus_floor:13.0:RB10 consensus - LAC yr2],,,,,,,,,24.0,4.0,24.0,12.0,11,1.0,4.0,NEUTRAL
-21,D'Andre Swift,RB,CHI,14.0,,14.0,,14.0,PROVEN_ELITE,64.4,6,Elite,,27.6,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,43.0,22.0,43.0,20.0,12,8.0,22.0,BUY
-22,Kenneth Walker III,RB,KC,13.87,,13.87,,13.87,PROVEN_ELITE,69.2,4,RB1/2,,25.9,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,13,,,UNKNOWN
-23,TreVeyon Henderson,RB,NE,12.92,,12.92,,12.92,EMERGING,65.0,1,RB1/2,,23.9,2025_only+rel[EMERGING*1.00] [sophomore_leap_player] [team_corr:NE:1.0:NE RB1 - Patriots offense] [consensus_floor:13.5:RB9 consensus],,,,,,,,,61.1,38.1,61.1,26.0,14,12.0,38.1,BUY
-25,Saquon Barkley,RB,PHI,13.47,,13.47,,13.47,VOLATILE,72.9,5,RB1/2,,29.6,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [consensus_floor:13.0:RB11 consensus],,,,,,,,,17.4,-7.600000000000001,17.4,10.0,15,-5.0,-7.600000000000001,FADE
-26,Chase Brown,RB,CIN,13.35,,13.35,,13.35,EMERGING,75.0,2,RB1/2,,26.4,2025*0.50+2024*0.30+2023*0.20+rel[EMERGING*1.03] [team_corr:CIN:1.05:CIN RB1 - Burrow healthy] [consensus_floor:13.5:RB8-15 consensus breakout],,,,,,,,,15.3,-10.7,15.3,9.0,16,-7.0,-10.7,FADE
-29,Josh Jacobs,RB,GB,12.86,,12.86,,12.86,PROVEN_ELITE,63.1,6,RB1/2,,28.6,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12] [camp_notes:MILD:0.93:Josh Jacobs listed as Questionable. ],,,,,,,,MILD,24.0,-5.0,24.0,13.0,17,-4.0,-5.0,FADE
-31,J.K. Dobbins,RB,DEN,13.08,,13.08,,13.08,PROVEN_ELITE,76.3,4,RB1/2,,27.7,2025*0.50+2024*0.30+rel[PROVEN_ELITE*1.12],,,,,,,,,80.6,49.599999999999994,80.6,33.0,18,15.0,49.599999999999994,BUY
-33,Breece Hall,RB,NYJ,12.29,,12.29,,12.29,PROVEN_SOLID,59.5,3,RB1/2,,25.3,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06] [camp_notes:MILD:0.93:Breece Hall listed as Questionable. ],,,,,,,,MILD,35.9,2.8999999999999986,35.9,18.0,19,-1.0,2.8999999999999986,NEUTRAL
-38,Rhamondre Stevenson,RB,NE,11.67,,11.67,,11.67,PROVEN_ELITE,67.9,5,RB1/2,,28.5,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,67.1,29.099999999999994,67.1,28.0,20,8.0,29.099999999999994,BUY
-43,Javonte Williams,RB,DAL,11.11,,11.11,,11.11,PROVEN_SOLID,80.6,4,RB1/2,,26.4,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06],,,,,,,,,33.4,-9.600000000000001,33.4,16.0,21,-5.0,-9.600000000000001,FADE
-44,Bucky Irving,RB,TB,11.45,,11.45,,11.45,UNPROVEN,65.0,2,RB1/2,,24.0,2025*0.50+2024*0.30+rel[UNPROVEN*0.92] [team_corr:TB:1.0:TB RB1 - Reich scheme] [consensus_floor:12.0:RB14 consensus TB],,,,,,,,,45.8,1.7999999999999972,45.8,21.0,22,-1.0,1.7999999999999972,NEUTRAL
-47,Travis Etienne,RB,NO,10.91,,10.91,,10.91,VOLATILE,67.3,4,RB1/2,,27.6,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,,,,,23,,,UNKNOWN
-57,Zach Charbonnet,RB,SEA,10.21,,10.21,,10.21,PROVEN_SOLID,65.7,3,RB1/2,,25.6,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06],,,,,,,,,131.3,74.30000000000001,131.3,43.0,24,19.0,74.30000000000001,BUY
-58,Tyrone Tracy Jr.,RB,NYG,10.15,,10.15,,10.15,EMERGING,67.6,2,RB3,,26.8,2025*0.50+2024*0.30+rel[EMERGING*1.03],,,,,,,,,158.5,100.5,158.5,53.0,25,28.0,100.5,BUY
-66,Aaron Jones,RB,MIN,9.74,,9.74,,9.74,PROVEN_ELITE,72.2,6,RB3,,31.7,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,26,,,UNKNOWN
-73,RJ Harvey,RB,DEN,9.56,,9.56,,9.56,UNPROVEN,64.3,1,RB3,,25.6,2025_only+rel[UNPROVEN*0.92],,,,,,,,,96.0,23.0,96.0,34.0,27,7.0,23.0,BUY
-78,David Montgomery,RB,HOU,9.3,,9.3,,9.3,PROVEN_ELITE,62.0,6,RB3,,29.2,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12] [team_corr:HOU:0.85:Traded to Texans from Lions],,,,,,,,,55.0,-23.0,55.0,25.0,28,-3.0,-23.0,FADE
-81,Rachaad White,RB,WAS,9.24,,9.24,,9.24,PROVEN_SOLID,70.7,4,RB3,,27.6,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06] [camp_notes:MILD:0.93:Rachaad White listed as Questionable. ],,,,,,,,MILD,121.8,40.8,121.8,42.0,29,13.0,40.8,BUY
-84,Rico Dowdle,RB,PIT,8.79,,8.79,,8.79,VOLATILE,48.7,3,RB3,,28.2,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [camp_notes:POSITIVE:1.05:That cleared the way for Rico Dowdle to take over the backfield.],,,,,,,,POSITIVE,75.5,-8.5,75.5,31.0,30,1.0,-8.5,NEUTRAL
-86,Quinshon Judkins,RB,CLE,8.7,,8.7,,8.7,UNPROVEN,58.3,1,RB3,,22.8,2025_only+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:Quinshon Judkins listed as Questionable. ],,,,,,,,MILD,51.6,-34.4,51.6,22.0,31,-9.0,-34.4,FADE
-91,Tony Pollard,RB,TEN,8.4,,8.4,,8.4,VOLATILE,61.8,6,RB3,,29.3,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,67.1,-23.900000000000006,67.1,29.0,32,-3.0,-23.900000000000006,FADE
-94,Jaylen Warren,RB,PIT,8.31,,8.31,,8.31,VOLATILE,60.7,4,RB3,,27.8,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,63.3,-30.700000000000003,63.3,27.0,33,-6.0,-30.700000000000003,FADE
-95,Tyjae Spears,RB,TEN,8.28,,8.28,,8.28,PROVEN_SOLID,73.8,3,RB3,,25.2,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,140.1,45.099999999999994,140.1,45.0,34,11.0,45.099999999999994,BUY
-100,Chuba Hubbard,RB,CAR,8.09,,8.09,,8.09,VOLATILE,61.5,5,RB3,,27.2,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [camp_notes:MILD:0.93:Chuba Hubbard listed as Questionable. ],,,,,,,,MILD,79.9,-20.099999999999994,79.9,32.0,35,-3.0,-20.099999999999994,FADE
-105,Woody Marks,RB,HOU,7.82,,7.82,,7.82,UNPROVEN,63.4,1,RB3,,25.7,2025_only+rel[UNPROVEN*0.92],,,,,,,,,139.2,34.19999999999999,139.2,44.0,36,8.0,34.19999999999999,BUY
-109,James Conner,RB,ARI,8.11,,8.11,,8.11,PROVEN_ELITE,66.5,5,Flex,,31.3,2024*0.30+2023*0.20+no_2025*0.72+rel[PROVEN_ELITE*1.12] [camp_notes:MILD:0.93:James Conner listed as Questionable. ],,,,,,,,MILD,,,,,37,,,UNKNOWN
-112,Michael Carter,RB,TEN,7.64,,7.64,,7.64,PROVEN_SOLID,53.8,3,Flex,,27.3,2025*0.50+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,38,,,UNKNOWN
-113,Tyler Allgeier,RB,ARI,7.61,,7.61,,7.61,PROVEN_SOLID,54.5,4,Flex,,26.4,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,154.6,41.599999999999994,154.6,49.0,39,10.0,41.599999999999994,BUY
-114,Jacory Croskey-Merritt,RB,WAS,7.59,,7.59,,7.59,UNPROVEN,58.7,1,Flex,,25.4,2025_only+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:Jacory Croskey-Merritt listed as Questionable. ],,,,,,,,MILD,105.0,-9.0,105.0,38.0,40,-2.0,-9.0,NEUTRAL
-116,Najee Harris,RB,NYG,7.88,,7.88,,7.88,PROVEN_ELITE,59.6,4,Flex,,28.5,2024*0.30+2023*0.20+no_2025*0.72+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,41,,,UNKNOWN
-120,Isiah Pacheco,RB,DET,7.38,,7.38,,7.38,VOLATILE,66.8,4,Flex,,27.5,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,156.6,36.599999999999994,156.6,50.0,42,8.0,36.599999999999994,BUY
-122,Devin Singletary,RB,NYG,7.32,,7.32,,7.32,PROVEN_SOLID,51.6,6,Flex,,29.0,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,43,,,UNKNOWN
-123,Chris Rodriguez Jr.,RB,JAX,7.3,,7.3,,7.3,UNPROVEN,63.8,1,Flex,,26.9,2025*0.50+2023*0.20+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,156.7,33.69999999999999,156.7,51.0,44,7.0,33.69999999999999,BUY
-128,Alvin Kamara,RB,NO,7.35,,7.35,,7.35,VOLATILE,55.3,6,Flex,,31.1,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [camp_notes:MILD:0.93:Alvin Kamara listed as Questionable. ],,,,,,,,MILD,147.2,19.19999999999999,147.2,46.0,45,1.0,19.19999999999999,NEUTRAL
-129,Bam Knight,RB,ARI,7.1,,7.1,,7.1,UNPROVEN,46.5,1,Flex,,25.4,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,46,,,UNKNOWN
-130,Emari Demercado,RB,KC,7.25,,7.25,,7.25,PROVEN_SOLID,57.2,3,Flex,,27.6,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,47,,,UNKNOWN
-135,Sean Tucker,RB,TB,6.79,,6.79,,6.79,EMERGING,56.6,2,Flex,,24.9,2025*0.50+2024*0.30+starter_floor_soft+rel[EMERGING*1.03],,,,,,,,,,,,,48,,,UNKNOWN
-137,Keaton Mitchell,RB,LAC,6.72,,6.72,,6.72,UNPROVEN,49.9,1,Handcuff,,24.6,2025*0.50+2023*0.20+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,154.1,17.099999999999994,154.1,48.0,49,-1.0,17.099999999999994,NEUTRAL
-138,Kenneth Gainwell,RB,TB,6.72,,6.72,,6.72,VOLATILE,48.6,5,Handcuff,,27.5,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,,,,,50,,,UNKNOWN
-140,Ty Johnson,RB,BUF,6.7,,6.7,,6.7,PROVEN_SOLID,66.0,5,Handcuff,,29.0,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,51,,,UNKNOWN
-144,Kyle Monangai,RB,CHI,6.59,,6.59,,6.59,UNPROVEN,52.4,1,Handcuff,,24.2,2025_only+starter_floor_soft+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:Kyle Monangai listed as Questionable. ],,,,,,,,MILD,96.2,-47.8,96.2,35.0,52,-17.0,-47.8,FADE
-146,Brian Robinson,RB,ATL,6.54,,6.54,,6.54,VOLATILE,59.5,4,Handcuff,,27.4,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,159.6,13.599999999999994,159.6,54.0,53,1.0,13.599999999999994,NEUTRAL
-153,Jordan Mason,RB,MIN,6.35,,6.35,,6.35,VOLATILE,60.2,3,Handcuff,,27.3,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,115.5,-37.5,115.5,40.0,54,-14.0,-37.5,FADE
-154,Dylan Sampson,RB,CLE,6.32,,6.32,,6.32,UNPROVEN,46.3,1,Handcuff,,22.0,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,174.6,20.599999999999994,174.6,62.0,56,6.0,20.599999999999994,BUY
-155,Jaleel McLaughlin,RB,DEN,6.48,,6.48,,6.48,PROVEN_SOLID,56.3,3,Handcuff,,26.0,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,57,,,UNKNOWN
-160,Kimani Vidal,RB,LAC,6.01,,6.01,,6.01,VOLATILE,57.9,2,Handcuff,,25.0,2025*0.50+2024*0.30+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,,,,,58,,,UNKNOWN
-162,Tank Bigsby,RB,PHI,5.9,,5.9,,5.9,UNPROVEN,60.9,2,Handcuff,,24.0,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,152.8,-9.199999999999989,152.8,47.0,59,-12.0,-9.199999999999989,FADE
-164,Audric Estimé,RB,NO,6.1,,6.1,,6.1,UNPROVEN,47.3,1,Handcuff,,23.0,2025*0.50+2024*0.30+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:Audric Estime listed as Questionable. ],,,,,,,,MILD,,,,,60,,,UNKNOWN
-165,Jaydon Blue,RB,DAL,5.79,,5.79,,5.79,UNPROVEN,68.6,0,Handcuff,,22.6,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,167.0,2.0,167.0,59.0,61,-2.0,2.0,NEUTRAL
-166,Bhayshul Tuten,RB,JAX,5.78,,5.78,,5.78,UNPROVEN,51.8,1,Handcuff,,24.5,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,53.3,-112.7,53.3,24.0,62,-38.0,-112.7,FADE
-168,Blake Corum,RB,LAR,5.73,,5.73,,5.73,VOLATILE,53.0,2,Handcuff,,25.8,2025*0.50+2024*0.30+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,120.8,-47.2,120.8,41.0,63,-22.0,-47.2,FADE
-170,Scott Matlock,RB,LAC,5.65,,5.65,,5.65,UNPROVEN,41.9,0,Handcuff,,26.2,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,64,,,UNKNOWN
-172,Tahj Brooks,RB,CIN,5.63,,5.63,,5.63,UNPROVEN,62.6,0,Handcuff,,24.3,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,65,,,UNKNOWN
-174,Ray Davis,RB,BUF,5.61,,5.61,,5.61,UNPROVEN,58.0,2,Handcuff,,26.8,2025*0.50+2024*0.30+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,66,,,UNKNOWN
-176,Nate Carter,RB,ATL,5.6,,5.6,,5.6,UNPROVEN,51.5,0,Handcuff,,24.3,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,67,,,UNKNOWN
-177,Dylan Laube,RB,LV,5.58,,5.58,,5.58,UNPROVEN,50.3,0,Handcuff,,26.7,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,68,,,UNKNOWN
-179,Jacardia Wright,RB,SEA,5.55,,5.55,,5.55,UNPROVEN,45.7,0,Handcuff,,25.9,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,69,,,UNKNOWN
-180,Jack Westover,RB,NE,5.55,,5.55,,5.55,UNPROVEN,47.9,0,Handcuff,,27.2,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,70,,,UNKNOWN
-181,Frank Gore Jr.,RB,BUF,5.54,,5.54,,5.54,UNPROVEN,50.0,0,Handcuff,,24.5,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,71,,,UNKNOWN
-182,Josh Williams,RB,TB,5.54,,5.54,,5.54,UNPROVEN,40.6,0,Handcuff,,26.2,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,72,,,UNKNOWN
-183,Jacob Saylors,RB,DET,5.54,,5.54,,5.54,UNPROVEN,58.8,0,Handcuff,,26.5,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,73,,,UNKNOWN
-184,Corey Kiner,RB,ARI,5.54,,5.54,,5.54,UNPROVEN,38.5,0,Handcuff,,24.6,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,74,,,UNKNOWN
-189,Isaiah Davis,RB,NYJ,5.37,,5.37,,5.37,UNPROVEN,47.5,2,Handcuff,,24.5,2025*0.50+2024*0.30+starter_floor_soft+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:Isaiah Davis listed as Questionable. ],,,,,,,,MILD,,,,,75,,,UNKNOWN
-193,Ronnie Rivers,RB,LAR,5.58,,5.58,,5.58,UNPROVEN,45.0,0,Handcuff,,27.6,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,76,,,UNKNOWN
-194,Zavier Scott,RB,MIN,5.28,,5.28,,5.28,UNPROVEN,52.2,1,Handcuff,,27.1,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,77,,,UNKNOWN
-195,Phil Mafah,RB,DAL,5.26,,5.26,,5.26,UNPROVEN,60.6,0,Handcuff,,23.9,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:Phil Mafah listed as Questionable. ],,,,,,,,MILD,,,,,78,,,UNKNOWN
-196,DJ Giddens,RB,IND,5.25,,5.25,,5.25,UNPROVEN,65.1,0,Handcuff,,23.0,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:DJ Giddens listed as Questionable. ],,,,,,,,MILD,,,,,79,,,UNKNOWN
-198,British Brooks,RB,HOU,5.23,,5.23,,5.23,UNPROVEN,47.4,0,Handcuff,,26.8,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:British Brooks listed as Questionable. ],,,,,,,,MILD,,,,,80,,,UNKNOWN
-200,Brittain Brown,RB,CHI,5.2,,5.2,,5.2,UNPROVEN,44.4,0,Handcuff,,28.9,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,81,,,UNKNOWN
-202,Jeremy McNichols,RB,WAS,5.18,,5.18,,5.18,BASELINE,50.7,4,Handcuff,,30.7,2025*0.50+2024*0.30+starter_floor_soft+rel[BASELINE*1.00] [camp_notes:MILD:0.93:Jeremy McNichols listed as Questionable. ],,,,,,,,MILD,,,,,82,,,UNKNOWN
-203,Jordan James,RB,SF,5.18,,5.18,,5.18,UNPROVEN,61.6,0,Handcuff,,22.4,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:Jordan James listed as Questionable. ],,,,,,,,MILD,166.8,-36.19999999999999,166.8,58.0,83,-25.0,-36.19999999999999,FADE
-205,Hunter Luepke,RB,DAL,5.16,,5.16,,5.16,UNPROVEN,52.6,1,Handcuff,,26.5,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,84,,,UNKNOWN
-211,Trayveon Williams,RB,DET,5.08,,5.08,,5.08,UNPROVEN,50.8,0,Handcuff,,28.9,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,85,,,UNKNOWN
-214,Jawhar Jordan,RB,HOU,5.03,,5.03,,5.03,UNPROVEN,55.4,0,Handcuff,,27.0,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:Jawhar Jordan listed as Questionable. ],,,,,,,,MILD,,,,,86,,,UNKNOWN
-215,Emanuel Wilson,RB,SEA,4.95,,4.95,,4.95,UNPROVEN,53.7,2,Handcuff,,27.3,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:Emanuel Wilson listed as Questionable. ],,,,,,,,MILD,,,,,87,,,UNKNOWN
-216,Brashard Smith,RB,KC,4.95,,4.95,,4.95,UNPROVEN,49.2,1,Handcuff,,23.4,2025_only+starter_floor_soft+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:Brandon Smith listed as Questionable. ],,,,,,,,MILD,,,,,88,,,UNKNOWN
-217,Justice Hill,RB,BAL,5.21,,5.21,,5.21,VOLATILE,48.1,3,Handcuff,,28.8,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,174.2,-42.80000000000001,174.2,61.0,89,-28.0,-42.80000000000001,FADE
-220,Kene Nwangwu,RB,NYJ,5.14,,5.14,,5.14,UNPROVEN,39.5,0,Handcuff,,28.6,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,90,,,UNKNOWN
-221,Ameer Abdullah,RB,JAX,4.87,,4.87,,4.87,VOLATILE,43.8,5,Handcuff,,33.2,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,,,,,91,,,UNKNOWN
-225,Devin Neal,RB,NO,4.83,,4.83,,4.83,UNPROVEN,39.3,0,Handcuff,,23.1,2025_only+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:Devin Neal listed as Questionable. ],,,,,,,,MILD,,,,,92,,,UNKNOWN
-227,Jaylen Wright,RB,MIA,5.07,,5.07,,5.07,VOLATILE,46.9,2,Handcuff,,23.4,2025*0.50+2024*0.30+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,,,,,93,,,UNKNOWN
-229,Trey Benson,RB,ARI,5.04,,5.04,,5.04,UNPROVEN,38.5,1,Handcuff,,24.1,2025*0.50+2024*0.30+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:Trey Benson listed as Questionable. ],,,,,,,,MILD,,,,,94,,,UNKNOWN
-231,Samaje Perine,RB,CIN,4.76,,4.76,,4.76,VOLATILE,54.6,6,Handcuff,,31.0,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,,,,,95,,,UNKNOWN
-236,Kyle Juszczyk,RB,SF,4.74,,4.74,,4.74,UNPROVEN,53.6,1,Handcuff,,35.4,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,96,,,UNKNOWN
-237,Reggie Gilliam,RB,NE,4.74,,4.74,,4.74,UNPROVEN,39.9,0,Handcuff,,29.0,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,97,,,UNKNOWN
-244,Chris Brooks,RB,GB,4.63,,4.63,,4.63,UNPROVEN,51.1,2,Handcuff,,26.6,2025*0.50+2024*0.30+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,99,,,UNKNOWN
-247,Ollie Gordon II,RB,MIA,4.57,,4.57,,4.57,UNPROVEN,38.9,1,Handcuff,,22.6,2025_only+starter_floor_soft+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:Ollie Gordon listed as Questionable. ],,,,,,,,MILD,52.0,-195.0,52.0,23.0,100,-77.0,-195.0,FADE
-250,Velus Jones Jr.,RB,SEA,4.74,,4.74,,4.74,UNPROVEN,37.7,0,Handcuff,,29.3,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,101,,,UNKNOWN
-259,Malik Davis,RB,DAL,4.37,,4.37,,4.37,UNPROVEN,52.6,0,Handcuff,,27.8,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,102,,,UNKNOWN
-266,Raheim Sanders,RB,CLE,4.32,,4.32,,4.32,UNPROVEN,38.3,0,Handcuff,,24.2,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,103,,,UNKNOWN
-267,Tyler Badie,RB,DEN,4.3,,4.3,,4.3,UNPROVEN,48.3,1,Handcuff,,27.6,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,104,,,UNKNOWN
-268,C.J. Ham,RB,MIN,4.29,,4.29,,4.29,UNPROVEN,44.2,0,Handcuff,,33.1,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,105,,,UNKNOWN
-272,Alec Ingold,RB,MIA,4.24,,4.24,,4.24,UNPROVEN,30.9,0,Handcuff,,30.1,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,106,,,UNKNOWN
-279,Patrick Ricard,RB,BAL,4.16,,4.16,,4.16,UNPROVEN,40.1,0,Handcuff,,32.3,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,107,,,UNKNOWN
-283,LeQuint Allen Jr.,RB,JAX,4.08,,4.08,,4.08,UNPROVEN,35.8,1,Handcuff,,22.1,2025_only+starter_floor_soft+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:LeQuint Allen listed as Questionable. ],,,,,,,,MILD,,,,,108,,,UNKNOWN
-289,Kendre Miller,RB,NO,4.25,,4.25,,4.25,UNPROVEN,39.3,0,Handcuff,,24.2,2025*0.50+2024*0.30+2023*0.20+rel[UNPROVEN*0.92],,,,,,,,,,,,,109,,,UNKNOWN
-290,Roschon Johnson,RB,CHI,4.25,,4.25,,4.25,EMERGING,36.4,2,Handcuff,,25.6,2024*0.30+2023*0.20+no_2025*0.72+rel[EMERGING*1.03],,,,,,,,,,,,,110,,,UNKNOWN
-307,Jaret Patterson,RB,LAC,3.71,,3.71,,3.71,UNPROVEN,41.9,1,Handcuff,,26.7,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,111,,,UNKNOWN
-312,Braelon Allen,RB,NYJ,3.88,,3.88,,3.88,UNPROVEN,31.5,1,Handcuff,,22.6,2025*0.50+2024*0.30+rel[UNPROVEN*0.92],,,,,,,,,171.3,-140.7,171.3,60.0,112,-52.0,-140.7,FADE
-326,Khalil Herbert,RB,SF,3.76,,3.76,,3.76,PROVEN_SOLID,53.6,3,Handcuff,,28.4,2024*0.30+2023*0.20+no_2025*0.72+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,114,,,UNKNOWN
-345,George Holani,RB,SEA,3.4,,3.4,,3.4,UNPROVEN,37.7,0,Handcuff,,26.7,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,115,,,UNKNOWN
-360,Tyler Goodson,RB,ATL,3.38,,3.38,,3.38,UNPROVEN,43.5,0,Handcuff,,25.8,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,116,,,UNKNOWN
-378,Dameon Pierce,RB,PHI,2.93,,2.93,,2.93,VOLATILE,52.9,2,Handcuff,,26.5,2024*0.30+2023*0.20+no_2025*0.72+rel[VOLATILE*0.88],,,,,,,,,,,,,135,,,UNKNOWN
-388,AJ Dillon,RB,CAR,2.57,,2.57,,2.57,VOLATILE,49.5,4,Handcuff,,28.3,2025*0.50+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,,,,,137,,,UNKNOWN
-392,Zamir White,RB,SF,2.66,,2.66,,2.66,UNPROVEN,53.6,1,Handcuff,,27.0,2024*0.30+2023*0.20+no_2025*0.72+rel[UNPROVEN*0.92],,,,,,,,,,,,,138,,,UNKNOWN
-395,Ty Chandler,RB,NO,2.62,,2.62,,2.62,UNPROVEN,39.3,1,Handcuff,,28.3,2024*0.30+2023*0.20+no_2025*0.72+rel[UNPROVEN*0.92],,,,,,,,,,,,,141,,,UNKNOWN
-401,Will Shipley,RB,PHI,2.38,,2.38,,2.38,UNPROVEN,44.9,0,Handcuff,,24.0,2025*0.50+2024*0.30+rel[UNPROVEN*0.92],,,,,,,,,,,,,142,,,UNKNOWN
-410,Rasheen Ali,RB,BAL,2.21,,2.21,,2.21,UNPROVEN,32.1,0,Handcuff,,25.5,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,144,,,UNKNOWN
-413,Andrew Beck,RB,NYJ,1.99,,1.99,,1.99,UNPROVEN,31.5,0,Handcuff,,30.3,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,145,,,UNKNOWN
-416,Nyheim Hines,RB,LAC,1.83,,1.83,,1.83,UNPROVEN,41.9,2,Handcuff,,29.8,2022_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,148,,,UNKNOWN
-419,Hassan Haskins,RB,NE,1.83,,1.83,,1.83,UNPROVEN,39.9,0,Handcuff,,26.8,2025*0.50+2024*0.30+rel[UNPROVEN*0.92],,,,,,,,,,,,,150,,,UNKNOWN
-420,Craig Reynolds,RB,WAS,1.82,,1.82,,1.82,UNPROVEN,42.7,0,Handcuff,,30.2,2024*0.30+2023*0.20+no_2025*0.72+rel[UNPROVEN*0.92],,,,,,,,,,,,,151,,,UNKNOWN
-422,DeeJay Dallas,RB,JAX,1.76,,1.76,,1.76,UNPROVEN,35.8,2,Handcuff,,28.0,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,152,,,UNKNOWN
-429,Dare Ogunbowale,RB,LV,1.6,,1.6,,1.6,UNPROVEN,42.3,2,Handcuff,,32.3,2025*0.50+2024*0.30+2023*0.20+rel[UNPROVEN*0.92],,,,,,,,,,,,,153,,,UNKNOWN
-433,Travis Homer,RB,PIT,1.48,,1.48,,1.48,UNPROVEN,32.7,1,Handcuff,,28.1,2022_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,154,,,UNKNOWN
-436,Julius Chestnut,RB,TEN,1.37,,1.37,,1.37,UNPROVEN,45.8,0,Handcuff,,25.8,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,156,,,UNKNOWN
-437,Trevor Etienne,RB,CAR,1.29,,1.29,,1.29,UNPROVEN,33.5,0,Handcuff,,22.1,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,157,,,UNKNOWN
-442,D'Ernest Johnson,RB,TEN,1.09,,1.09,,1.09,VOLATILE,45.8,3,Handcuff,,30.5,2024*0.30+2023*0.20+no_2025*0.72+rel[VOLATILE*0.88],,,,,,,,,,,,,161,,,UNKNOWN
-446,Evan Hull,RB,ARI,0.89,,0.89,,0.89,UNPROVEN,38.5,0,Handcuff,,25.8,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,163,,,UNKNOWN
-450,Kaleb Johnson,RB,PIT,0.74,,0.74,,0.74,UNPROVEN,32.7,0,Handcuff,,23.0,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,164,,,UNKNOWN
-454,Adam Prentice,RB,DEN,0.72,,0.72,,0.72,UNPROVEN,48.3,0,Handcuff,,29.6,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,166,,,UNKNOWN
-504,I.Guerendo,RB,SF,0.9525,,0.9525,,0.9525,UNPROVEN,69.6,1,Handcuff,,26.2,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,55,,,UNKNOWN
-506,S.McCormick,RB,SF,0.7095,,0.7095,,0.7095,UNPROVEN,53.6,0,Handcuff,,26.0,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,98,,,UNKNOWN
-510,S.Ahmed,RB,CHI,0.5505,,0.5505,,0.5505,UNPROVEN,36.4,1,Handcuff,,27.7,2023_old*0.80+rel[UNPROVEN*0.92],,,,,,,,,,,,,113,,,UNKNOWN
-513,A.Armah,RB,WAS,0.441,,0.441,,0.441,UNPROVEN,42.7,0,Handcuff,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,117,,,UNKNOWN
-514,K.Hill,RB,LAC,0.441,,0.441,,0.441,UNPROVEN,41.9,0,Handcuff,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,118,,,UNKNOWN
-515,C.Schrader,RB,DEN,0.441,,0.441,,0.441,UNPROVEN,48.3,0,Handcuff,,27.0,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,119,,,UNKNOWN
-516,W.Smallwood,RB,WAS,0.441,,0.441,,0.441,UNPROVEN,42.7,0,Handcuff,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,120,,,UNKNOWN
-517,A.Killins,RB,DEN,0.441,,0.441,,0.441,UNPROVEN,48.3,0,Handcuff,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,121,,,UNKNOWN
-518,M.Lloyd,RB,GB,0.441,,0.441,,0.441,UNPROVEN,43.1,0,Handcuff,,25.7,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,122,,,UNKNOWN
-519,Ulysses Bentley IV,RB,IND,0.441,,0.441,,0.441,UNPROVEN,49.1,0,Handcuff,,25.7,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,123,,,UNKNOWN
-520,A.Pierce,RB,IND,0.441,,0.441,,0.441,UNPROVEN,57.1,0,Handcuff,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,124,,,UNKNOWN
-521,Owen Wright,RB,HOU,0.441,,0.441,,0.441,UNPROVEN,47.4,0,Handcuff,,27.5,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,125,,,UNKNOWN
-522,Amar Johnson,RB,LAC,0.441,,0.441,,0.441,UNPROVEN,41.9,0,Handcuff,,23.6,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,126,,,UNKNOWN
-523,J.Jefferson,RB,MIN,0.441,,0.441,,0.441,UNPROVEN,44.2,0,Handcuff,,26.4,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,127,,,UNKNOWN
-524,D.Washington,RB,PIT,0.441,,0.441,,0.441,UNPROVEN,40.7,0,Handcuff,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,128,,,UNKNOWN
-525,Kendall Milton,RB,CIN,0.441,,0.441,,0.441,UNPROVEN,46.6,0,Handcuff,,24.6,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,129,,,UNKNOWN
-526,D.Washington,RB,PIT,0.441,,0.441,,0.441,UNPROVEN,32.7,0,Handcuff,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,130,,,UNKNOWN
-527,S.Brown,RB,LAC,0.441,,0.441,,0.441,UNPROVEN,41.9,0,Handcuff,,27.8,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,131,,,UNKNOWN
-528,J.Corbin,RB,DAL,0.441,,0.441,,0.441,UNPROVEN,52.6,0,Handcuff,,26.0,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,132,,,UNKNOWN
-529,Kalel Mullings,RB,TEN,0.438,,0.438,,0.438,UNPROVEN,45.8,0,Handcuff,,23.9,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,133,,,UNKNOWN
-531,Sione Vaki,RB,DET,0.441,,0.441,,0.441,UNPROVEN,50.8,0,Handcuff,,25.1,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,134,,,UNKNOWN
-533,Brady Russell,RB,SEA,0.405,,0.405,,0.405,UNPROVEN,37.7,0,Handcuff,,28.0,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,136,,,UNKNOWN
-536,M.Davis,RB,CAR,0.3764999999999999,,0.3764999999999999,,0.3764999999999999,UNPROVEN,41.5,2,Handcuff,,,2021_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,139,,,UNKNOWN
-537,J.Kelly,RB,HOU,0.375,,0.375,,0.375,UNPROVEN,47.4,0,Handcuff,,29.9,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,140,,,UNKNOWN
-559,F.Gore,RB,BUF,0.3389999999999999,,0.3389999999999999,,0.3389999999999999,UNPROVEN,50.0,1,Handcuff,,,2020_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,143,,,UNKNOWN
-561,J.Hasty,RB,NE,0.2955,,0.2955,,0.2955,EMERGING,39.9,2,Handcuff,,30.0,2024_only*0.85+rel[EMERGING*1.03],,,,,,,,,,,,,146,,,UNKNOWN
-564,P.Strong,RB,GB,0.276,,0.276,,0.276,UNPROVEN,35.1,1,Handcuff,,27.7,2024*0.30+2023*0.20+no_2025*0.72+rel[UNPROVEN*0.92],,,,,,,,,,,,,147,,,UNKNOWN
-565,I.Abanikanda,RB,DAL,0.2715,,0.2715,,0.2715,UNPROVEN,52.6,0,Handcuff,,23.9,2023_old*0.80+rel[UNPROVEN*0.92],,,,,,,,,,,,,149,,,UNKNOWN
-569,C.Steele,RB,PHI,0.1995,,0.1995,,0.1995,UNPROVEN,44.9,0,Handcuff,,23.9,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,155,,,UNKNOWN
-570,I.Smith,RB,DAL,0.192,,0.192,,0.192,UNPROVEN,52.6,1,Handcuff,,,2020_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,158,,,UNKNOWN
-598,R.Blackshear,RB,DET,0.1755,,0.1755,,0.1755,UNPROVEN,50.8,0,Handcuff,,28.2,2023_old*0.80+rel[UNPROVEN*0.92],,,,,,,,,,,,,159,,,UNKNOWN
-605,E.Gray,RB,NYG,0.1635,,0.1635,,0.1635,UNPROVEN,51.6,0,Handcuff,,26.8,2024*0.30+2023*0.20+no_2025*0.72+rel[UNPROVEN*0.92],,,,,,,,,,,,,160,,,UNKNOWN
-607,G.Brightwell,RB,CIN,0.1545,,0.1545,,0.1545,UNPROVEN,46.6,0,Handcuff,,28.5,2022_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,162,,,UNKNOWN
-611,J.Richard,RB,LV,0.111,,0.111,,0.111,UNPROVEN,34.3,1,Handcuff,,,2021_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,165,,,UNKNOWN
+14,James Cook,RB,BUF,15.24,,15.24,,15.24,VOLATILE,77.1,4,Elite,,26.9,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [consensus_floor:15.5:RB6 consensus],,,,,,,,,,,,,8,,,UNKNOWN
+15,Derrick Henry,RB,BAL,15.23,,15.23,,15.23,PROVEN_ELITE,59.5,6,Elite,,32.7,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12] [consensus_floor:14.5:RB7-8 consensus],,,,,,,,,9.7,-5.300000000000001,9.7,6.0,9,-3.0,-5.300000000000001,FADE
+19,Cam Skattebo,RB,NYG,14.46,,14.46,,14.46,EMERGING,58.0,1,Elite,,24.6,2025_only+rel[EMERGING*1.00] [sophomore_leap_player] [team_corr:NYG:1.0:NYG RB1 - Nagy scheme],,,,,,,,,35.3,16.299999999999997,35.3,17.0,10,7.0,16.299999999999997,BUY
+21,Omarion Hampton,RB,LAC,14.04,,14.04,,14.04,EMERGING,80.0,1,Elite,,23.5,2025_only+rel[EMERGING*1.00] [sophomore_leap_player] [team_corr:LAC:1.08:LAC RB1 yr2 - McDaniel zone run scheme] [consensus_floor:13.0:RB10 consensus - LAC yr2],,,,,,,,,24.0,3.0,24.0,12.0,11,1.0,3.0,NEUTRAL
+22,D'Andre Swift,RB,CHI,14.0,,14.0,,14.0,PROVEN_ELITE,62.8,6,Elite,,27.6,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,43.0,21.0,43.0,20.0,12,8.0,21.0,BUY
+23,Kenneth Walker III,RB,KC,13.87,,13.87,,13.87,PROVEN_ELITE,72.1,4,RB1/2,,25.9,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,13,,,UNKNOWN
+24,TreVeyon Henderson,RB,NE,12.92,,12.92,,12.92,EMERGING,65.0,1,RB1/2,,23.9,2025_only+rel[EMERGING*1.00] [sophomore_leap_player] [team_corr:NE:1.0:NE RB1 - Patriots offense] [consensus_floor:13.5:RB9 consensus],,,,,,,,,61.1,37.1,61.1,26.0,14,12.0,37.1,BUY
+27,Jadarian Price,RB,SEA,13.5,,13.5,,13.5,UNPROVEN,73.6,0,RB1/2,,,sleeper_roster+adp_prior,,,,,,,,,74.6,47.599999999999994,74.6,30.0,15,15.0,47.599999999999994,BUY
+28,Jeremiyah Love,RB,ARI,13.5,,13.5,,13.5,UNPROVEN,71.4,0,RB1/2,,,sleeper_roster+adp_prior,,,,,,,,,29.4,1.3999999999999986,29.4,15.0,16,-1.0,1.3999999999999986,NEUTRAL
+29,Saquon Barkley,RB,PHI,13.47,,13.47,,13.47,VOLATILE,74.5,5,RB1/2,,29.6,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [consensus_floor:13.0:RB11 consensus],,,,,,,,,17.4,-11.600000000000001,17.4,10.0,17,-7.0,-11.600000000000001,FADE
+30,Chase Brown,RB,CIN,13.35,,13.35,,13.35,EMERGING,75.0,2,RB1/2,,26.4,2025*0.50+2024*0.30+2023*0.20+rel[EMERGING*1.03] [team_corr:CIN:1.05:CIN RB1 - Burrow healthy] [consensus_floor:13.5:RB8-15 consensus breakout],,,,,,,,,15.3,-14.7,15.3,9.0,18,-9.0,-14.7,FADE
+33,Josh Jacobs,RB,GB,12.86,,12.86,,12.86,PROVEN_ELITE,61.5,6,RB1/2,,28.6,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12] [camp_notes:MILD:0.93:Josh Jacobs listed as Questionable. ],,,,,,,,MILD,24.0,-9.0,24.0,13.0,19,-6.0,-9.0,FADE
+35,J.K. Dobbins,RB,DEN,13.08,,13.08,,13.08,PROVEN_ELITE,77.9,4,RB1/2,,27.7,2025*0.50+2024*0.30+rel[PROVEN_ELITE*1.12],,,,,,,,,80.6,45.599999999999994,80.6,33.0,20,13.0,45.599999999999994,BUY
+39,Breece Hall,RB,NYJ,12.29,,12.29,,12.29,PROVEN_SOLID,58.9,3,RB1/2,,25.3,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06] [camp_notes:MILD:0.93:Breece Hall listed as Questionable. ],,,,,,,,MILD,35.9,-3.1000000000000014,35.9,18.0,21,-3.0,-3.1000000000000014,FADE
+44,Rhamondre Stevenson,RB,NE,11.67,,11.67,,11.67,PROVEN_ELITE,67.7,5,RB1/2,,28.5,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,67.1,23.099999999999994,67.1,28.0,22,6.0,23.099999999999994,BUY
+54,Javonte Williams,RB,DAL,11.11,,11.11,,11.11,PROVEN_SOLID,80.6,4,RB1/2,,26.4,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06],,,,,,,,,33.4,-20.6,33.4,16.0,23,-7.0,-20.6,FADE
+55,Bucky Irving,RB,TB,11.45,,11.45,,11.45,UNPROVEN,65.0,2,RB1/2,,24.0,2025*0.50+2024*0.30+rel[UNPROVEN*0.92] [team_corr:TB:1.0:TB RB1 - Reich scheme] [consensus_floor:12.0:RB14 consensus TB],,,,,,,,,45.8,-9.200000000000003,45.8,21.0,24,-3.0,-9.200000000000003,FADE
+57,Travis Etienne,RB,NO,10.91,,10.91,,10.91,VOLATILE,67.1,4,RB3,,27.6,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,,,,,25,,,UNKNOWN
+67,Zach Charbonnet,RB,SEA,10.21,,10.21,,10.21,PROVEN_SOLID,61.6,3,RB3,,25.6,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06],,,,,,,,,131.3,64.30000000000001,131.3,43.0,26,17.0,64.30000000000001,BUY
+70,Tyrone Tracy Jr.,RB,NYG,10.15,,10.15,,10.15,EMERGING,66.9,2,RB3,,26.8,2025*0.50+2024*0.30+rel[EMERGING*1.03],,,,,,,,,158.5,88.5,158.5,53.0,27,26.0,88.5,BUY
+80,Aaron Jones,RB,MIN,9.74,,9.74,,9.74,PROVEN_ELITE,66.4,6,RB3,,31.7,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,28,,,UNKNOWN
+82,RJ Harvey,RB,DEN,9.56,,9.56,,9.56,UNPROVEN,65.9,1,RB3,,25.6,2025_only+rel[UNPROVEN*0.92],,,,,,,,,96.0,14.0,96.0,34.0,29,5.0,14.0,BUY
+84,David Montgomery,RB,HOU,9.3,,9.3,,9.3,PROVEN_ELITE,62.0,6,RB3,,29.2,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12] [team_corr:HOU:0.85:Traded to Texans from Lions],,,,,,,,,55.0,-29.0,55.0,25.0,30,-5.0,-29.0,FADE
+86,Rachaad White,RB,WAS,9.24,,9.24,,9.24,PROVEN_SOLID,68.4,4,RB3,,27.6,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06] [camp_notes:MILD:0.93:Rachaad White listed as Questionable. ],,,,,,,,MILD,121.8,35.8,121.8,42.0,31,11.0,35.8,BUY
+97,Rico Dowdle,RB,PIT,8.79,,8.79,,8.79,VOLATILE,48.7,3,RB3,,28.2,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [camp_notes:POSITIVE:1.05:That cleared the way for Rico Dowdle to take over the backfield.],,,,,,,,POSITIVE,75.5,-21.5,75.5,31.0,32,-1.0,-21.5,NEUTRAL
+99,Quinshon Judkins,RB,CLE,8.7,,8.7,,8.7,UNPROVEN,60.1,1,RB3,,22.8,2025_only+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:Quinshon Judkins listed as Questionable. ],,,,,,,,MILD,51.6,-47.4,51.6,22.0,33,-11.0,-47.4,FADE
+103,Kenny Gainwell,RB,TB,8.5,,8.5,,8.5,UNPROVEN,57.2,0,RB3,,,sleeper_roster+adp_prior,,,,,,,,,100.1,-2.9000000000000057,100.1,37.0,34,3.0,-2.9000000000000057,BUY
+104,Jonathon Brooks,RB,CAR,8.5,,8.5,,8.5,UNPROVEN,53.7,0,RB3,,,sleeper_roster+adp_prior,,,,,,,,,97.1,-6.900000000000006,97.1,36.0,35,1.0,-6.900000000000006,NEUTRAL
+106,Tony Pollard,RB,TEN,8.4,,8.4,,8.4,VOLATILE,64.2,6,RB3,,29.3,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,67.1,-38.900000000000006,67.1,29.0,36,-7.0,-38.900000000000006,FADE
+110,Jaylen Warren,RB,PIT,8.31,,8.31,,8.31,VOLATILE,60.7,4,Flex,,27.8,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,63.3,-46.7,63.3,27.0,37,-10.0,-46.7,FADE
+112,Tyjae Spears,RB,TEN,8.28,,8.28,,8.28,PROVEN_SOLID,76.2,3,Flex,,25.2,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,140.1,28.099999999999994,140.1,45.0,38,7.0,28.099999999999994,BUY
+115,Chuba Hubbard,RB,CAR,8.09,,8.09,,8.09,VOLATILE,65.7,5,Flex,,27.2,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [camp_notes:MILD:0.93:Chuba Hubbard listed as Questionable. ],,,,,,,,MILD,79.9,-35.099999999999994,79.9,32.0,39,-7.0,-35.099999999999994,FADE
+120,Woody Marks,RB,HOU,7.82,,7.82,,7.82,UNPROVEN,60.8,1,Flex,,25.7,2025_only+rel[UNPROVEN*0.92],,,,,,,,,139.2,19.19999999999999,139.2,44.0,40,4.0,19.19999999999999,BUY
+125,James Conner,RB,ARI,8.11,,8.11,,8.11,PROVEN_ELITE,59.4,5,Flex,,31.3,2024*0.30+2023*0.20+no_2025*0.72+rel[PROVEN_ELITE*1.12] [camp_notes:MILD:0.93:James Conner listed as Questionable. ],,,,,,,,MILD,,,,,41,,,UNKNOWN
+126,Michael Carter,RB,TEN,7.64,,7.64,,7.64,PROVEN_SOLID,56.2,3,Flex,,27.3,2025*0.50+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,42,,,UNKNOWN
+127,Tyler Allgeier,RB,ARI,7.61,,7.61,,7.61,PROVEN_SOLID,51.4,4,Flex,,26.4,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,154.6,27.599999999999994,154.6,49.0,43,6.0,27.599999999999994,BUY
+128,Jacory Croskey-Merritt,RB,WAS,7.59,,7.59,,7.59,UNPROVEN,56.4,1,Flex,,25.4,2025_only+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:Jacory Croskey-Merritt listed as Questionable. ],,,,,,,,MILD,105.0,-23.0,105.0,38.0,44,-6.0,-23.0,FADE
+131,Najee Harris,RB,NYG,7.88,,7.88,,7.88,PROVEN_ELITE,58.9,4,Flex,,28.5,2024*0.30+2023*0.20+no_2025*0.72+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,45,,,UNKNOWN
+132,Isiah Pacheco,RB,DET,7.38,,7.38,,7.38,VOLATILE,67.7,4,Flex,,27.5,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,156.6,24.599999999999994,156.6,50.0,46,4.0,24.599999999999994,BUY
+135,Devin Singletary,RB,NYG,7.32,,7.32,,7.32,PROVEN_SOLID,50.9,6,Flex,,29.0,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,47,,,UNKNOWN
+136,Chris Rodriguez Jr.,RB,JAX,7.3,,7.3,,7.3,UNPROVEN,62.2,1,Flex,,26.9,2025*0.50+2023*0.20+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,156.7,20.69999999999999,156.7,51.0,48,3.0,20.69999999999999,BUY
+142,Alvin Kamara,RB,NO,7.35,,7.35,,7.35,VOLATILE,55.1,6,Handcuff,,31.1,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [camp_notes:MILD:0.93:Alvin Kamara listed as Questionable. ],,,,,,,,MILD,147.2,5.199999999999989,147.2,46.0,49,-3.0,5.199999999999989,FADE
+146,Emari Demercado,RB,KC,7.25,,7.25,,7.25,PROVEN_SOLID,60.1,3,Handcuff,,27.6,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,50,,,UNKNOWN
+151,Sean Tucker,RB,TB,6.79,,6.79,,6.79,EMERGING,49.2,2,Handcuff,,24.9,2025*0.50+2024*0.30+starter_floor_soft+rel[EMERGING*1.03],,,,,,,,,,,,,51,,,UNKNOWN
+152,Keaton Mitchell,RB,LAC,6.72,,6.72,,6.72,UNPROVEN,44.4,1,Handcuff,,24.6,2025*0.50+2023*0.20+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,154.1,2.0999999999999943,154.1,48.0,52,-4.0,2.0999999999999943,FADE
+158,Ty Johnson,RB,BUF,6.7,,6.7,,6.7,PROVEN_SOLID,65.1,5,Handcuff,,29.0,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,53,,,UNKNOWN
+161,Kyle Monangai,RB,CHI,6.59,,6.59,,6.59,UNPROVEN,50.8,1,Handcuff,,24.2,2025_only+starter_floor_soft+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:Kyle Monangai listed as Questionable. ],,,,,,,,MILD,96.2,-64.8,96.2,35.0,54,-19.0,-64.8,FADE
+164,Brian Robinson,RB,ATL,6.54,,6.54,,6.54,VOLATILE,57.9,4,Handcuff,,27.4,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,159.6,-4.400000000000006,159.6,54.0,55,-1.0,-4.400000000000006,NEUTRAL
+165,Mike Washington,RB,LV,6.5,,6.5,,6.5,UNPROVEN,51.6,0,Handcuff,,,sleeper_roster+adp_prior,,,,,,,,,,,,,56,,,UNKNOWN
+166,Jonah Coleman,RB,DEN,6.5,,6.5,,6.5,UNPROVEN,57.9,0,Handcuff,,,sleeper_roster+adp_prior,,,,,,,,,164.3,-1.6999999999999886,164.3,57.0,57,0.0,-1.6999999999999886,NEUTRAL
+167,Kaelon Black,RB,SF,6.5,,6.5,,6.5,UNPROVEN,69.5,0,Handcuff,,,sleeper_roster+adp_prior,,,,,,,,,161.5,-5.5,161.5,56.0,58,-2.0,-5.5,NEUTRAL
+169,Jordan Mason,RB,MIN,6.35,,6.35,,6.35,VOLATILE,54.4,3,Handcuff,,27.3,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,115.5,-53.5,115.5,40.0,59,-19.0,-53.5,FADE
+171,Dylan Sampson,RB,CLE,6.32,,6.32,,6.32,UNPROVEN,48.1,1,Handcuff,,22.0,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,174.6,3.5999999999999943,174.6,62.0,61,1.0,3.5999999999999943,NEUTRAL
+172,Jaleel McLaughlin,RB,DEN,6.48,,6.48,,6.48,PROVEN_SOLID,49.9,3,Handcuff,,26.0,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,62,,,UNKNOWN
+180,Kimani Vidal,RB,LAC,6.01,,6.01,,6.01,VOLATILE,52.4,2,Handcuff,,25.0,2025*0.50+2024*0.30+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,,,,,63,,,UNKNOWN
+185,Tank Bigsby,RB,PHI,5.9,,5.9,,5.9,UNPROVEN,62.5,2,Handcuff,,24.0,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,152.8,-32.19999999999999,152.8,47.0,64,-17.0,-32.19999999999999,FADE
+187,Jaydon Blue,RB,DAL,5.79,,5.79,,5.79,UNPROVEN,68.6,0,Handcuff,,22.6,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,167.0,-20.0,167.0,59.0,65,-6.0,-20.0,FADE
+189,Bhayshul Tuten,RB,JAX,5.78,,5.78,,5.78,UNPROVEN,50.2,1,Handcuff,,24.5,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,53.3,-135.7,53.3,24.0,66,-42.0,-135.7,FADE
+193,Blake Corum,RB,LAR,5.73,,5.73,,5.73,VOLATILE,53.0,2,Handcuff,,25.8,2025*0.50+2024*0.30+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,120.8,-72.2,120.8,41.0,67,-26.0,-72.2,FADE
+197,Tahj Brooks,RB,CIN,5.63,,5.63,,5.63,UNPROVEN,58.6,0,Handcuff,,24.3,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,68,,,UNKNOWN
+199,Ray Davis,RB,BUF,5.61,,5.61,,5.61,UNPROVEN,57.1,2,Handcuff,,26.8,2025*0.50+2024*0.30+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,69,,,UNKNOWN
+202,Nate Carter,RB,ATL,5.6,,5.6,,5.6,UNPROVEN,49.9,0,Handcuff,,24.3,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,70,,,UNKNOWN
+204,Dylan Laube,RB,LV,5.58,,5.58,,5.58,UNPROVEN,43.6,0,Handcuff,,26.7,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,71,,,UNKNOWN
+206,Jacardia Wright,RB,SEA,5.55,,5.55,,5.55,UNPROVEN,45.6,0,Handcuff,,25.9,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,72,,,UNKNOWN
+207,Jack Westover,RB,NE,5.55,,5.55,,5.55,UNPROVEN,47.7,0,Handcuff,,27.2,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,73,,,UNKNOWN
+208,Josh Williams,RB,TB,5.54,,5.54,,5.54,UNPROVEN,41.2,0,Handcuff,,26.2,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,74,,,UNKNOWN
+209,Corey Kiner,RB,ARI,5.54,,5.54,,5.54,UNPROVEN,43.4,0,Handcuff,,24.6,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,75,,,UNKNOWN
+210,Frank Gore Jr.,RB,BUF,5.54,,5.54,,5.54,UNPROVEN,49.1,0,Handcuff,,24.5,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,76,,,UNKNOWN
+211,Jacob Saylors,RB,DET,5.54,,5.54,,5.54,UNPROVEN,59.7,0,Handcuff,,26.5,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,77,,,UNKNOWN
+217,Isaiah Davis,RB,NYJ,5.37,,5.37,,5.37,UNPROVEN,46.9,2,Handcuff,,24.5,2025*0.50+2024*0.30+starter_floor_soft+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:Isaiah Davis listed as Questionable. ],,,,,,,,MILD,,,,,78,,,UNKNOWN
+221,Ronnie Rivers,RB,LAR,5.58,,5.58,,5.58,UNPROVEN,45.0,0,Handcuff,,27.6,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,79,,,UNKNOWN
+222,Zavier Scott,RB,MIN,5.28,,5.28,,5.28,UNPROVEN,46.4,1,Handcuff,,27.1,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,80,,,UNKNOWN
+227,Phil Mafah,RB,DAL,5.26,,5.26,,5.26,UNPROVEN,60.6,0,Handcuff,,23.9,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:Phil Mafah listed as Questionable. ],,,,,,,,MILD,,,,,81,,,UNKNOWN
+228,DJ Giddens,RB,IND,5.25,,5.25,,5.25,UNPROVEN,63.3,0,Handcuff,,23.0,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:DJ Giddens listed as Questionable. ],,,,,,,,MILD,,,,,82,,,UNKNOWN
+230,British Brooks,RB,HOU,5.23,,5.23,,5.23,UNPROVEN,44.8,0,Handcuff,,26.8,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:British Brooks listed as Questionable. ],,,,,,,,MILD,,,,,83,,,UNKNOWN
+234,Brittain Brown,RB,CHI,5.2,,5.2,,5.2,UNPROVEN,42.8,0,Handcuff,,28.9,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,84,,,UNKNOWN
+237,Jordan James,RB,SF,5.18,,5.18,,5.18,UNPROVEN,53.5,0,Handcuff,,22.4,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:Jordan James listed as Questionable. ],,,,,,,,MILD,166.8,-70.19999999999999,166.8,58.0,85,-27.0,-70.19999999999999,FADE
+238,Jeremy McNichols,RB,WAS,5.18,,5.18,,5.18,BASELINE,48.4,4,Handcuff,,30.7,2025*0.50+2024*0.30+starter_floor_soft+rel[BASELINE*1.00] [camp_notes:MILD:0.93:Jeremy McNichols listed as Questionable. ],,,,,,,,MILD,,,,,86,,,UNKNOWN
+243,Trayveon Williams,RB,DET,5.08,,5.08,,5.08,UNPROVEN,51.7,0,Handcuff,,28.9,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,87,,,UNKNOWN
+246,Jawhar Jordan,RB,HOU,5.03,,5.03,,5.03,UNPROVEN,52.8,0,Handcuff,,27.0,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:Jawhar Jordan listed as Questionable. ],,,,,,,,MILD,,,,,88,,,UNKNOWN
+249,Brashard Smith,RB,KC,4.95,,4.95,,4.95,UNPROVEN,52.1,1,Handcuff,,23.4,2025_only+starter_floor_soft+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:Brandon Smith listed as Questionable. ],,,,,,,,MILD,,,,,89,,,UNKNOWN
+250,Emanuel Wilson,RB,SEA,4.95,,4.95,,4.95,UNPROVEN,53.6,2,Handcuff,,27.3,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:Emanuel Wilson listed as Questionable. ],,,,,,,,MILD,,,,,90,,,UNKNOWN
+251,Justice Hill,RB,BAL,5.21,,5.21,,5.21,VOLATILE,47.5,3,Handcuff,,28.8,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,174.2,-76.80000000000001,174.2,61.0,91,-30.0,-76.80000000000001,FADE
+259,Kene Nwangwu,RB,NYJ,5.14,,5.14,,5.14,UNPROVEN,38.9,0,Handcuff,,28.6,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,92,,,UNKNOWN
+261,Ameer Abdullah,RB,JAX,4.87,,4.87,,4.87,VOLATILE,42.2,5,Handcuff,,33.2,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,,,,,93,,,UNKNOWN
+266,Devin Neal,RB,NO,4.83,,4.83,,4.83,UNPROVEN,47.1,0,Handcuff,,23.1,2025_only+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:Devin Neal listed as Questionable. ],,,,,,,,MILD,,,,,94,,,UNKNOWN
+267,Jaylen Wright,RB,MIA,5.07,,5.07,,5.07,VOLATILE,46.3,2,Handcuff,,23.4,2025*0.50+2024*0.30+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,,,,,95,,,UNKNOWN
+272,Trey Benson,RB,ARI,5.04,,5.04,,5.04,UNPROVEN,43.4,1,Handcuff,,24.1,2025*0.50+2024*0.30+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:Trey Benson listed as Questionable. ],,,,,,,,MILD,,,,,96,,,UNKNOWN
+273,Samaje Perine,RB,CIN,4.76,,4.76,,4.76,VOLATILE,50.6,6,Handcuff,,31.0,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,,,,,97,,,UNKNOWN
+274,Reggie Gilliam,RB,NE,4.74,,4.74,,4.74,UNPROVEN,39.7,0,Handcuff,,29.0,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,98,,,UNKNOWN
+283,Chris Brooks,RB,GB,4.63,,4.63,,4.63,UNPROVEN,49.5,2,Handcuff,,26.6,2025*0.50+2024*0.30+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,100,,,UNKNOWN
+286,Ollie Gordon II,RB,MIA,4.57,,4.57,,4.57,UNPROVEN,38.3,1,Handcuff,,22.6,2025_only+starter_floor_soft+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:Ollie Gordon listed as Questionable. ],,,,,,,,MILD,52.0,-234.0,52.0,23.0,101,-78.0,-234.0,FADE
+294,Velus Jones Jr.,RB,SEA,4.74,,4.74,,4.74,UNPROVEN,45.6,0,Handcuff,,29.3,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,102,,,UNKNOWN
+299,Malik Davis,RB,DAL,4.37,,4.37,,4.37,UNPROVEN,52.6,0,Handcuff,,27.8,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,103,,,UNKNOWN
+305,Raheim Sanders,RB,CLE,4.32,,4.32,,4.32,UNPROVEN,40.1,0,Handcuff,,24.2,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,104,,,UNKNOWN
+306,Tyler Badie,RB,DEN,4.3,,4.3,,4.3,UNPROVEN,49.9,1,Handcuff,,27.6,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,105,,,UNKNOWN
+330,LeQuint Allen Jr.,RB,JAX,4.08,,4.08,,4.08,UNPROVEN,34.2,1,Handcuff,,22.1,2025_only+starter_floor_soft+rel[UNPROVEN*0.92] [camp_notes:MILD:0.93:LeQuint Allen listed as Questionable. ],,,,,,,,MILD,,,,,106,,,UNKNOWN
+335,Roschon Johnson,RB,CHI,4.25,,4.25,,4.25,EMERGING,34.8,2,Handcuff,,25.6,2024*0.30+2023*0.20+no_2025*0.72+rel[EMERGING*1.03],,,,,,,,,,,,,107,,,UNKNOWN
+336,Kendre Miller,RB,NO,4.25,,4.25,,4.25,UNPROVEN,39.1,0,Handcuff,,24.2,2025*0.50+2024*0.30+2023*0.20+rel[UNPROVEN*0.92],,,,,,,,,,,,,108,,,UNKNOWN
+364,Jaret Patterson,RB,LAC,3.71,,3.71,,3.71,UNPROVEN,36.4,1,Handcuff,,26.7,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,109,,,UNKNOWN
+366,Braelon Allen,RB,NYJ,3.88,,3.88,,3.88,UNPROVEN,30.9,1,Handcuff,,22.6,2025*0.50+2024*0.30+rel[UNPROVEN*0.92],,,,,,,,,171.3,-194.7,171.3,60.0,110,-50.0,-194.7,FADE
+371,Khalil Herbert,RB,SF,3.76,,3.76,,3.76,PROVEN_SOLID,53.5,3,Handcuff,,28.4,2024*0.30+2023*0.20+no_2025*0.72+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,112,,,UNKNOWN
+380,George Holani,RB,SEA,3.4,,3.4,,3.4,UNPROVEN,45.6,0,Handcuff,,26.7,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,113,,,UNKNOWN
+386,Tyler Goodson,RB,ATL,3.38,,3.38,,3.38,UNPROVEN,41.9,0,Handcuff,,25.8,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,114,,,UNKNOWN
+406,Dameon Pierce,RB,PHI,2.93,,2.93,,2.93,VOLATILE,54.5,2,Handcuff,,26.5,2024*0.30+2023*0.20+no_2025*0.72+rel[VOLATILE*0.88],,,,,,,,,,,,,132,,,UNKNOWN
+413,AJ Dillon,RB,CAR,2.57,,2.57,,2.57,VOLATILE,45.7,4,Handcuff,,28.3,2025*0.50+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,,,,,134,,,UNKNOWN
+415,Zamir White,RB,SF,2.66,,2.66,,2.66,UNPROVEN,53.5,1,Handcuff,,27.0,2024*0.30+2023*0.20+no_2025*0.72+rel[UNPROVEN*0.92],,,,,,,,,,,,,135,,,UNKNOWN
+417,Ty Chandler,RB,NO,2.62,,2.62,,2.62,UNPROVEN,39.1,1,Handcuff,,28.3,2024*0.30+2023*0.20+no_2025*0.72+rel[UNPROVEN*0.92],,,,,,,,,,,,,138,,,UNKNOWN
+419,Will Shipley,RB,PHI,2.38,,2.38,,2.38,UNPROVEN,46.5,0,Handcuff,,24.0,2025*0.50+2024*0.30+rel[UNPROVEN*0.92],,,,,,,,,,,,,139,,,UNKNOWN
+425,Rasheen Ali,RB,BAL,2.21,,2.21,,2.21,UNPROVEN,39.5,0,Handcuff,,25.5,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,141,,,UNKNOWN
+429,Andrew Beck,RB,NYJ,1.99,,1.99,,1.99,UNPROVEN,30.9,0,Handcuff,,30.3,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,142,,,UNKNOWN
+436,Hassan Haskins,RB,NE,1.83,,1.83,,1.83,UNPROVEN,39.7,0,Handcuff,,26.8,2025*0.50+2024*0.30+rel[UNPROVEN*0.92],,,,,,,,,,,,,146,,,UNKNOWN
+437,Craig Reynolds,RB,WAS,1.82,,1.82,,1.82,UNPROVEN,40.4,0,Handcuff,,30.2,2024*0.30+2023*0.20+no_2025*0.72+rel[UNPROVEN*0.92],,,,,,,,,,,,,147,,,UNKNOWN
+439,DeeJay Dallas,RB,JAX,1.76,,1.76,,1.76,UNPROVEN,34.2,2,Handcuff,,28.0,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,148,,,UNKNOWN
+443,Dare Ogunbowale,RB,LV,1.6,,1.6,,1.6,UNPROVEN,35.6,2,Handcuff,,32.3,2025*0.50+2024*0.30+2023*0.20+rel[UNPROVEN*0.92],,,,,,,,,,,,,149,,,UNKNOWN
+445,Travis Homer,RB,PIT,1.48,,1.48,,1.48,UNPROVEN,32.7,1,Handcuff,,28.1,2022_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,150,,,UNKNOWN
+449,Julius Chestnut,RB,TEN,1.37,,1.37,,1.37,UNPROVEN,48.2,0,Handcuff,,25.8,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,152,,,UNKNOWN
+450,Trevor Etienne,RB,CAR,1.29,,1.29,,1.29,UNPROVEN,37.7,0,Handcuff,,22.1,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,153,,,UNKNOWN
+461,D'Ernest Johnson,RB,TEN,1.09,,1.09,,1.09,VOLATILE,48.2,3,Handcuff,,30.5,2024*0.30+2023*0.20+no_2025*0.72+rel[VOLATILE*0.88],,,,,,,,,,,,,157,,,UNKNOWN
+463,Evan Hull,RB,ARI,0.89,,0.89,,0.89,UNPROVEN,43.4,0,Handcuff,,25.8,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,159,,,UNKNOWN
+468,Kaleb Johnson,RB,PIT,0.74,,0.74,,0.74,UNPROVEN,32.7,0,Handcuff,,23.0,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,160,,,UNKNOWN
+506,I.Guerendo,RB,SF,0.9525,,0.9525,,0.9525,UNPROVEN,61.5,1,Handcuff,,26.2,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,60,,,UNKNOWN
+509,S.McCormick,RB,SF,0.7095,,0.7095,,0.7095,UNPROVEN,53.5,0,Handcuff,,26.0,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,99,,,UNKNOWN
+513,S.Ahmed,RB,CHI,0.5505,,0.5505,,0.5505,UNPROVEN,34.8,1,Handcuff,,27.7,2023_old*0.80+rel[UNPROVEN*0.92],,,,,,,,,,,,,111,,,UNKNOWN
+520,C.Schrader,RB,DEN,0.441,,0.441,,0.441,UNPROVEN,49.9,0,Handcuff,,27.0,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,115,,,UNKNOWN
+521,Ulysses Bentley IV,RB,IND,0.441,,0.441,,0.441,UNPROVEN,47.3,0,Handcuff,,25.7,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,116,,,UNKNOWN
+522,A.Killins,RB,DEN,0.441,,0.441,,0.441,UNPROVEN,49.9,0,Handcuff,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,117,,,UNKNOWN
+523,W.Smallwood,RB,WAS,0.441,,0.441,,0.441,UNPROVEN,40.4,0,Handcuff,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,118,,,UNKNOWN
+524,J.Corbin,RB,DAL,0.441,,0.441,,0.441,UNPROVEN,52.6,0,Handcuff,,26.0,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,119,,,UNKNOWN
+525,K.Hill,RB,LAC,0.441,,0.441,,0.441,UNPROVEN,36.4,0,Handcuff,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,120,,,UNKNOWN
+526,D.Washington,RB,PIT,0.441,,0.441,,0.441,UNPROVEN,32.7,0,Handcuff,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,121,,,UNKNOWN
+527,S.Brown,RB,LAC,0.441,,0.441,,0.441,UNPROVEN,36.4,0,Handcuff,,27.8,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,122,,,UNKNOWN
+528,M.Lloyd,RB,GB,0.441,,0.441,,0.441,UNPROVEN,41.5,0,Handcuff,,25.7,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,123,,,UNKNOWN
+529,D.Washington,RB,PIT,0.441,,0.441,,0.441,UNPROVEN,40.7,0,Handcuff,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,124,,,UNKNOWN
+530,Owen Wright,RB,HOU,0.441,,0.441,,0.441,UNPROVEN,44.8,0,Handcuff,,27.5,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,125,,,UNKNOWN
+531,J.Jefferson,RB,MIN,0.441,,0.441,,0.441,UNPROVEN,38.4,0,Handcuff,,26.4,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,126,,,UNKNOWN
+532,Kendall Milton,RB,CIN,0.441,,0.441,,0.441,UNPROVEN,42.6,0,Handcuff,,24.6,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,127,,,UNKNOWN
+533,A.Pierce,RB,IND,0.441,,0.441,,0.441,UNPROVEN,55.3,0,Handcuff,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,128,,,UNKNOWN
+534,Amar Johnson,RB,LAC,0.441,,0.441,,0.441,UNPROVEN,36.4,0,Handcuff,,23.6,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,129,,,UNKNOWN
+535,Kalel Mullings,RB,TEN,0.438,,0.438,,0.438,UNPROVEN,48.2,0,Handcuff,,23.9,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,130,,,UNKNOWN
+551,Sione Vaki,RB,DET,0.441,,0.441,,0.441,UNPROVEN,51.7,0,Handcuff,,25.1,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,131,,,UNKNOWN
+555,Brady Russell,RB,SEA,0.405,,0.405,,0.405,UNPROVEN,45.6,0,Handcuff,,28.0,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,133,,,UNKNOWN
+557,M.Davis,RB,CAR,0.3764999999999999,,0.3764999999999999,,0.3764999999999999,UNPROVEN,37.7,2,Handcuff,,,2021_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,136,,,UNKNOWN
+558,J.Kelly,RB,HOU,0.375,,0.375,,0.375,UNPROVEN,44.8,0,Handcuff,,29.9,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,137,,,UNKNOWN
+561,F.Gore,RB,BUF,0.3389999999999999,,0.3389999999999999,,0.3389999999999999,UNPROVEN,49.1,1,Handcuff,,,2020_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,140,,,UNKNOWN
+564,J.Hasty,RB,NE,0.2955,,0.2955,,0.2955,EMERGING,39.7,2,Handcuff,,30.0,2024_only*0.85+rel[EMERGING*1.03],,,,,,,,,,,,,143,,,UNKNOWN
+566,P.Strong,RB,GB,0.276,,0.276,,0.276,UNPROVEN,33.5,1,Handcuff,,27.7,2024*0.30+2023*0.20+no_2025*0.72+rel[UNPROVEN*0.92],,,,,,,,,,,,,144,,,UNKNOWN
+567,I.Abanikanda,RB,DAL,0.2715,,0.2715,,0.2715,UNPROVEN,52.6,0,Handcuff,,23.9,2023_old*0.80+rel[UNPROVEN*0.92],,,,,,,,,,,,,145,,,UNKNOWN
+602,C.Steele,RB,PHI,0.1995,,0.1995,,0.1995,UNPROVEN,46.5,0,Handcuff,,23.9,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,151,,,UNKNOWN
+604,I.Smith,RB,DAL,0.192,,0.192,,0.192,UNPROVEN,52.6,1,Handcuff,,,2020_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,154,,,UNKNOWN
+608,R.Blackshear,RB,DET,0.1755,,0.1755,,0.1755,UNPROVEN,51.7,0,Handcuff,,28.2,2023_old*0.80+rel[UNPROVEN*0.92],,,,,,,,,,,,,155,,,UNKNOWN
+609,E.Gray,RB,NYG,0.1635,,0.1635,,0.1635,UNPROVEN,50.9,0,Handcuff,,26.8,2024*0.30+2023*0.20+no_2025*0.72+rel[UNPROVEN*0.92],,,,,,,,,,,,,156,,,UNKNOWN
+611,G.Brightwell,RB,CIN,0.1545,,0.1545,,0.1545,UNPROVEN,42.6,0,Handcuff,,28.5,2022_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,158,,,UNKNOWN
+613,J.Richard,RB,LV,0.111,,0.111,,0.111,UNPROVEN,35.6,1,Handcuff,,,2021_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,161,,,UNKNOWN
