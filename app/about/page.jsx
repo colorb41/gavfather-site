@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Script from 'next/script'
 import { LAUNCH_YEAR, SOCIAL_X_URL } from '../../lib/site'
 
 export const metadata = {
@@ -10,6 +11,11 @@ export const metadata = {
 export default function AboutPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-14 md:px-6 md:py-20">
+      <Script
+        src="https://cdn.fantasypros.com/js/fp-widget-2.0.js"
+        strategy="lazyOnload"
+      />
+
       <h1 className="font-display text-4xl font-semibold tracking-wide text-gavfather-gold md:text-6xl">
         About The Gavfather
       </h1>
@@ -93,6 +99,58 @@ export default function AboutPage() {
       <p className="mt-8 text-center text-xs text-gavfather-muted">
         Launching with the {LAUNCH_YEAR} season.
       </p>
+
+      <div style={{marginTop: '48px', paddingTop: '32px', borderTop: '1px solid #1e2740'}}>
+        <p style={{
+          fontSize: '12px',
+          color: '#d4af37',
+          letterSpacing: '2px',
+          textTransform: 'uppercase',
+          marginBottom: '16px',
+          fontFamily: 'Cinzel, serif'
+        }}>
+          The Gavfather on FantasyPros
+        </p>
+
+        <div dangerouslySetInnerHTML={{__html: `
+          <div id="fp-widget"
+            data-height="100%"
+            data-width="100%"
+            data-thead_color="#0a0e1a"
+            data-thead_font="#d4af37"
+            data-t_alt_row="#141824"
+            data-link_color="#d4af37"
+            data-pill_color="#d4af37"
+            data-sport="NFL"
+            data-wtype="preseason"
+            data-filters=""
+            data-scoring="STD"
+            data-expert="7687"
+            data-affiliate_code=""
+            data-year="2026"
+            data-week="0"
+            data-auction="false"
+            data-Notes="false"
+            data-tags="false"
+            data-cards="true"
+            data-showPodcastIcons="false"
+            data-format="table"
+            data-promo_link="true"
+            data-title_header="true"
+            data-positions="ALL:QB:RB:WR:TE:OP"
+            data-ppr_positions="ALL:RB:WR:TE:OP"
+            data-half_positions="ALL:RB:WR:TE:OP">
+          </div>
+          <div class="fpw-footer">
+            <span style="float:left">
+              <a href="https://www.fantasypros.com/nfl/rankings/consensus-cheatsheets.php"
+                 target="_blank" rel="nofollow">
+                2026 Fantasy Football Rankings
+              </a> powered by FantasyPros
+            </span>
+          </div>
+        `}} />
+      </div>
     </div>
   )
 }
