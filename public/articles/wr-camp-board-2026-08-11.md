@@ -150,7 +150,7 @@ receiver the market is
 still treating like a
 scheme orphan.
 
-**Kayshon Boutte, NE.**
+**Kayshon Boutte, HOUNE
 WR55 vs ADP WR78. +23 spots.
 That is a late-round BUY
 if your league is deep

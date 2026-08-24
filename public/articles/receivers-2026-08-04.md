@@ -69,7 +69,7 @@ None - returning from suspension concern
 
 **Darius Slayton (WR, NYG)** — We have WR55 — market has WR75 — 6.9 PPG
 
-**Kayshon Boutte (WR, NE)** — We have WR52 — market has WR72 — 7.3 PPG
+**Kayshon Boutte (WR, HOUNE — We have WR52 — market has WR72 — 7.3 PPG
 
 **Jauan Jennings (WR, MIN)** — We have WR48 — market has WR65 — 7.8 PPG
 
