@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-24T12:37:26",
+  "updated": "2026-08-24T13:57:17",
   "source": "CampResearcher.v2",
   "override_count": 15,
-  "player_count": 44,
-  "news_items_processed": 289,
+  "player_count": 42,
+  "news_items_processed": 263,
   "players": {
     "George Kittle": {
       "status": "PUP",
@@ -27,21 +27,20 @@
       "from_override": true
     },
     "De'Zhaun Stribling": {
-      "status": "POSITIVE",
-      "injury": "De'Zhaun Stribling De'Zhaun Stribling Returns to practice Sunday WR San Francisco 49ers Shoulder August 23, 2026 Stribli",
+      "status": "NEUTRAL",
+      "injury": "De'Zhaun Stribling (shoulder) day-to-day De'Zhaun Stribling (shoulder) day-to-day Sat, Aug 22nd 8:18pm EDT By Ari Koslow",
       "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.05,
-      "ranking_note": "De'Zhaun Stribling Returns to practice Sunday WR San Francisco 49ers Shoulder August 23, 2026 Stribling (shoulder) returned to practice Sunday, Nick Wagoner of ESPN.com reports. ANALYSIS Subscribe now to instantly reveal our take on this ne",
-      "impact": "POSITIVE",
-      "source": "RotoWire",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "De'Zhaun Stribling (shoulder) day-to-day Sat, Aug 22nd 8:18pm EDT By Ari Koslow",
+      "impact": "NEUTRAL",
+      "source": "FantasyPros",
       "headlines": [
-        "De'Zhaun Stribling (shoulder) day-to-day",
-        "De'Zhaun Stribling"
+        "De'Zhaun Stribling (shoulder) day-to-day"
       ],
-      "old_rank": 126,
-      "new_rank": 120,
+      "old_rank": 124,
+      "new_rank": 124,
       "old_ppg": 7.88,
-      "new_ppg": 8.27,
+      "new_ppg": 7.88,
       "position": "WR",
       "team": "SF",
       "updated": "2026-08-24",
@@ -59,7 +58,7 @@
       "headlines": [
         "Clocking 22mph in camp. No issues. Undervalued WAS sleeper. Daniels connection real."
       ],
-      "old_rank": 77,
+      "old_rank": 76,
       "new_rank": 74,
       "old_ppg": 11.06,
       "new_ppg": 11.39,
@@ -68,6 +67,27 @@
       "updated": "2026-08-05",
       "auto_generated": false,
       "from_override": true
+    },
+    "Denzel Boston": {
+      "status": "NEUTRAL",
+      "injury": "Denzel Boston Denzel Boston Goes untargeted in second preseason game WR Cleveland Browns August 24, 2026 Boston went wit",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Denzel Boston Goes untargeted in second preseason game WR Cleveland Browns August 24, 2026 Boston went without a target while playing 11 snaps on offense Saturday in the Browns' 31-7 preseason loss to the Bills. ANALYSIS Subscribe now to in",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Denzel Boston"
+      ],
+      "old_rank": 142,
+      "new_rank": 139,
+      "old_ppg": 7.5,
+      "new_ppg": 7.5,
+      "position": "WR",
+      "team": "CLE",
+      "updated": "2026-08-24",
+      "auto_generated": true,
+      "from_override": false
     },
     "Tyjae Spears": {
       "status": "NEUTRAL",
@@ -143,8 +163,8 @@
       "headlines": [
         "Carnell Tate"
       ],
-      "old_rank": 94,
-      "new_rank": 91,
+      "old_rank": 92,
+      "new_rank": 92,
       "old_ppg": 10.0,
       "new_ppg": 10.0,
       "position": "WR",
@@ -185,8 +205,8 @@
       "headlines": [
         "Bhayshul Tuten"
       ],
-      "old_rank": 42,
-      "new_rank": 40,
+      "old_rank": 46,
+      "new_rank": 45,
       "old_ppg": 13.5,
       "new_ppg": 13.5,
       "position": "RB",
@@ -207,7 +227,7 @@
         "Mike Washington"
       ],
       "old_rank": 166,
-      "new_rank": 162,
+      "new_rank": 165,
       "old_ppg": 6.5,
       "new_ppg": 6.5,
       "position": "RB",
@@ -270,8 +290,8 @@
       "headlines": [
         "Jeremiyah Love, Cardinals (ankle) : Love is dealing with a high ankle sprain but the Cardinals are hopeful he'll be ready for Week 1 (we've been hearing a lot o"
       ],
-      "old_rank": 41,
-      "new_rank": 41,
+      "old_rank": 38,
+      "new_rank": 38,
       "old_ppg": 13.5,
       "new_ppg": 13.5,
       "position": "RB",
@@ -291,7 +311,7 @@
       "headlines": [
         "That cleared the way for Rico Dowdle to take over the backfield."
       ],
-      "old_rank": 120,
+      "old_rank": 119,
       "new_rank": 108,
       "old_ppg": 8.41,
       "new_ppg": 8.83,
@@ -322,27 +342,6 @@
       "auto_generated": true,
       "from_override": false
     },
-    "Daniel Jones": {
-      "status": "SEVERE",
-      "injury": "Achilles tear",
-      "week1_outlook": "UNLIKELY",
-      "ppg_multiplier": 0.65,
-      "ranking_note": "Continue to monitor this situation, as well as the status of QB Daniel Jones , who is coming back from an Achilles tear.",
-      "impact": "SEVERE",
-      "source": "Yahoo Sports",
-      "headlines": [
-        "Continue to monitor this situation, as well as the status of QB Daniel Jones , who is coming back from an Achilles tear."
-      ],
-      "old_rank": 67,
-      "new_rank": 126,
-      "old_ppg": 12.09,
-      "new_ppg": 7.86,
-      "position": "QB",
-      "team": "IND",
-      "updated": "2026-08-24",
-      "auto_generated": true,
-      "from_override": false
-    },
     "Alec Pierce": {
       "status": "MODERATE",
       "injury": "PUP list some time in the next week or so",
@@ -353,10 +352,9 @@
       "source": "Yahoo Sports",
       "headlines": [
         "Alec Pierce , Colts (ankle) : The expectation is for Pierce to come off the PUP list some time in the next week or so.",
-        "Surgery",
         "Alec Pierce - PUP"
       ],
-      "old_rank": 201,
+      "old_rank": 202,
       "new_rank": 253,
       "old_ppg": 5.73,
       "new_ppg": 4.7,
@@ -377,8 +375,8 @@
       "headlines": [
         "Tyler Warren , Colts (groin) : Warren suffered a groin injury at practice on Wednesday and is going to miss about a week, per NFL Network's Ian Rapoport ."
       ],
-      "old_rank": 82,
-      "new_rank": 79,
+      "old_rank": 80,
+      "new_rank": 80,
       "old_ppg": 11.0,
       "new_ppg": 11.0,
       "position": "TE",
@@ -419,7 +417,7 @@
       "headlines": [
         "Breece Hall, NYJ (groin) — out 2-3 weeks"
       ],
-      "old_rank": 90,
+      "old_rank": 89,
       "new_rank": 88,
       "old_ppg": 10.38,
       "new_ppg": 10.38,
@@ -440,7 +438,7 @@
       "headlines": [
         "Chuba Hubbard, CAR (hamstring) — week-to-week"
       ],
-      "old_rank": 74,
+      "old_rank": 73,
       "new_rank": 73,
       "old_ppg": 11.47,
       "new_ppg": 11.47,
@@ -461,8 +459,8 @@
       "headlines": [
         "Kyle Monangai, CHI (knee) — expected to miss multiple weeks"
       ],
-      "old_rank": 113,
-      "new_rank": 114,
+      "old_rank": 114,
+      "new_rank": 113,
       "old_ppg": 8.5,
       "new_ppg": 8.5,
       "position": "RB",
@@ -480,11 +478,10 @@
       "impact": "NEUTRAL",
       "source": "Yahoo Sports",
       "headlines": [
-        "Jordyn Tyson, NO (hamstring) — expected to miss start of season",
-        "Strain"
+        "Jordyn Tyson, NO (hamstring) — expected to miss start of season"
       ],
-      "old_rank": 142,
-      "new_rank": 137,
+      "old_rank": 141,
+      "new_rank": 141,
       "old_ppg": 7.5,
       "new_ppg": 7.5,
       "position": "WR",
@@ -492,27 +489,6 @@
       "updated": "2026-08-24",
       "auto_generated": true,
       "from_override": false
-    },
-    "Patrick Mahomes": {
-      "status": "RETURNING",
-      "injury": "ACL + LCL (Week 15 2025) — fully cleared for camp",
-      "week1_outlook": "LIKELY — 1st-team camp reps; Reid sitting him in preseason only",
-      "ppg_multiplier": 0.95,
-      "ranking_note": "Cleared for full camp with no limitations (Reid + Dr. Cooper). Taking 1st-team 11-on-11. Unlikely to play preseason. Week 1 Sept 14 vs DEN is the target — not a medical hold.",
-      "impact": "MILD",
-      "source": "NFL.com / AP / ESPN camp, Aug 2026",
-      "headlines": [
-        "Cleared for full camp with no limitations (Reid + Dr. Cooper). Taking 1st-team 11-on-11. Unlikely to play preseason. Week 1 Sept 14 vs DEN is the target — not a medical hold."
-      ],
-      "old_rank": 36,
-      "new_rank": 47,
-      "old_ppg": 13.89,
-      "new_ppg": 13.2,
-      "position": "QB",
-      "team": "KC",
-      "updated": "2026-08-12",
-      "auto_generated": false,
-      "from_override": true
     },
     "Sam LaPorta": {
       "status": "MILD",
@@ -525,7 +501,7 @@
       "headlines": [
         "Sam LaPorta - Questionable"
       ],
-      "old_rank": 96,
+      "old_rank": 95,
       "new_rank": 103,
       "old_ppg": 9.76,
       "new_ppg": 9.08,
@@ -607,7 +583,6 @@
       "impact": "MODERATE",
       "source": "Sleeper",
       "headlines": [
-        "Surgery",
         "Isaac Guerendo - PUP"
       ],
       "old_rank": 230,
@@ -631,54 +606,12 @@
       "headlines": [
         "DeVonta Smith - Questionable"
       ],
-      "old_rank": 116,
-      "new_rank": 124,
+      "old_rank": 115,
+      "new_rank": 123,
       "old_ppg": 8.49,
       "new_ppg": 7.9,
       "position": "WR",
       "team": "PHI",
-      "updated": "2026-08-24",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Keon Coleman": {
-      "status": "NEUTRAL",
-      "injury": "Sprain Sprain Sprain",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Sprain",
-      "impact": "NEUTRAL",
-      "source": "Sleeper",
-      "headlines": [
-        "Sprain"
-      ],
-      "old_rank": 200,
-      "new_rank": 200,
-      "old_ppg": 5.73,
-      "new_ppg": 5.73,
-      "position": "WR",
-      "team": "BUF",
-      "updated": "2026-08-24",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Jordan James": {
-      "status": "NEUTRAL",
-      "injury": "Fracture Fracture Fracture",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Fracture",
-      "impact": "NEUTRAL",
-      "source": "Sleeper",
-      "headlines": [
-        "Fracture"
-      ],
-      "old_rank": 163,
-      "new_rank": 166,
-      "old_ppg": 6.5,
-      "new_ppg": 6.5,
-      "position": "RB",
-      "team": "SF",
       "updated": "2026-08-24",
       "auto_generated": true,
       "from_override": false
@@ -692,7 +625,6 @@
       "impact": "MODERATE",
       "source": "Sleeper",
       "headlines": [
-        "Surgery",
         "Zach Charbonnet - PUP"
       ],
       "old_rank": 174,
@@ -747,6 +679,27 @@
       "auto_generated": false,
       "from_override": true
     },
+    "Patrick Mahomes": {
+      "status": "RETURNING",
+      "injury": "ACL + LCL (Week 15 2025) — fully cleared for camp",
+      "week1_outlook": "LIKELY — 1st-team camp reps; Reid sitting him in preseason only",
+      "ppg_multiplier": 0.95,
+      "ranking_note": "Cleared for full camp with no limitations (Reid + Dr. Cooper). Taking 1st-team 11-on-11. Unlikely to play preseason. Week 1 Sept 14 vs DEN is the target — not a medical hold.",
+      "impact": "MILD",
+      "source": "NFL.com / AP / ESPN camp, Aug 2026",
+      "headlines": [
+        "Cleared for full camp with no limitations (Reid + Dr. Cooper). Taking 1st-team 11-on-11. Unlikely to play preseason. Week 1 Sept 14 vs DEN is the target — not a medical hold."
+      ],
+      "old_rank": 36,
+      "new_rank": 47,
+      "old_ppg": 13.89,
+      "new_ppg": 13.2,
+      "position": "QB",
+      "team": "KC",
+      "updated": "2026-08-12",
+      "auto_generated": false,
+      "from_override": true
+    },
     "Jaylen Waddle": {
       "status": "MONITOR",
       "injury": "Muscle tightness (left practice Aug 5)",
@@ -758,7 +711,7 @@
       "headlines": [
         "Monitor. Tightness only but has injury history. Now with DEN (Bo Nix) after March 2026 trade from MIA."
       ],
-      "old_rank": 176,
+      "old_rank": 177,
       "new_rank": 196,
       "old_ppg": 6.05,
       "new_ppg": 5.75,
@@ -800,7 +753,7 @@
       "headlines": [
         "Camp questionable. ATL backup risk with Penix available."
       ],
-      "old_rank": 89,
+      "old_rank": 88,
       "new_rank": 107,
       "old_ppg": 10.43,
       "new_ppg": 8.87,
@@ -842,7 +795,7 @@
       "headlines": [
         "Minor thumb issue. Not serious. Monitor."
       ],
-      "old_rank": 110,
+      "old_rank": 109,
       "new_rank": 111,
       "old_ppg": 8.79,
       "new_ppg": 8.53,
