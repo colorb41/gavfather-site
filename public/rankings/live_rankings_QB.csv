@@ -1,71 +1,71 @@
 overall_rank,player_name,position,recent_team,projected_ppg,projected_ppg_std,projected_ppg_half_ppr,projected_ppg_ppr,projected_ppg_superflex,reliability_tier,situation_score,career_seasons,tier,live_status,age,data_basis,draft_value_score,draft_value_score_std,draft_value_score_half_ppr,draft_value_score_ppr,avg_receptions_per_game,avg_targets_per_game,avg_carries_per_game,Injury_Flag,consensus_adp,adp_diff,consensus_adp_overall,consensus_adp_positional,our_positional_rank,adp_diff_positional,adp_diff_overall,adp_signal
-11,Josh Allen,QB,BUF,24.01,,24.01,,24.01,UNPROVEN,75.0,1,Elite,,30.3,2024_only*0.85+rel[UNPROVEN*0.92] [consensus_floor:24.0:QB1 consensus],,,,,,,,,33.0,22.0,33.0,1.0,1,0.0,22.0,NEUTRAL
+11,Josh Allen,QB,BUF,23.99,,23.99,,23.99,UNPROVEN,74.3,1,Elite,,30.3,2024_only*0.85+rel[UNPROVEN*0.92] [consensus_floor:24.0:QB1 consensus],,,,,,,,,33.0,22.0,33.0,1.0,1,0.0,22.0,NEUTRAL
 21,Lamar Jackson,QB,BAL,22.2,,22.2,,22.2,UNPROVEN,65.9,1,Elite,,29.6,2024_only*0.85+rel[UNPROVEN*0.92] [consensus_floor:22.0:QB2 consensus],,,,,,,,,55.5,34.5,55.5,3.0,2,1.0,34.5,NEUTRAL
-41,Drake Maye,QB,NE,20.27,,20.27,,20.27,EMERGING,62.1,1,Elite,,24.0,2024_only*0.85+starter_floor_soft+rel[EMERGING*1.00] [sophomore_leap_player] [consensus_floor:20.0:QB3 consensus - AJ Brown],,,,,,,,,51.3,10.299999999999997,51.3,2.0,3,-1.0,10.299999999999997,NEUTRAL
+41,Drake Maye,QB,NE,20.26,,20.26,,20.26,EMERGING,62.0,1,Elite,,24.0,2024_only*0.85+starter_floor_soft+rel[EMERGING*1.00] [sophomore_leap_player] [consensus_floor:20.0:QB3 consensus - AJ Brown],,,,,,,,,51.3,10.299999999999997,51.3,2.0,3,-1.0,10.299999999999997,NEUTRAL
 50,Joe Burrow,QB,CIN,20.05,,20.05,,20.05,UNPROVEN,77.4,1,Elite,,29.7,2024_only*0.85+rel[UNPROVEN*0.92] [consensus_floor:19.5:QB4 consensus],,,,,,,,,57.5,7.5,57.5,4.0,4,0.0,7.5,NEUTRAL
 53,Justin Herbert,QB,LAC,19.75,,19.75,,19.75,UNPROVEN,62.6,1,Elite,,28.5,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92] [consensus_floor:19.5:QB8 consensus McDaniel],,,,,,,,,108.5,55.5,108.5,14.0,5,9.0,55.5,BUY
-54,Jayden Daniels,QB,WAS,19.34,,19.34,,19.34,EMERGING,74.2,1,Elite,,25.7,2024_only*0.85+rel[EMERGING*1.00] [sophomore_leap_player] [consensus_floor:19.0:QB5 consensus],,,,,,,,,70.7,16.700000000000003,70.7,6.0,6,0.0,16.700000000000003,NEUTRAL
+54,Jayden Daniels,QB,WAS,19.32,,19.32,,19.32,EMERGING,73.6,1,Elite,,25.7,2024_only*0.85+rel[EMERGING*1.00] [sophomore_leap_player] [consensus_floor:19.0:QB5 consensus],,,,,,,,,70.7,16.700000000000003,70.7,6.0,6,0.0,16.700000000000003,NEUTRAL
 57,Jalen Hurts,QB,PHI,19.22,,19.22,,19.22,UNPROVEN,79.3,1,QB1,,28.1,2024_only*0.85+rel[UNPROVEN*0.92] [consensus_floor:18.5:QB6 consensus],,,,,,,,,79.5,22.5,79.5,8.0,7,1.0,22.5,NEUTRAL
-68,Brock Purdy,QB,SF,17.66,,17.66,,17.66,UNPROVEN,80.4,1,QB1,,26.7,2024_only*0.85+rel[UNPROVEN*0.92] [consensus_floor:17.5:QB10-11 consensus],,,,,,,,,89.8,21.799999999999997,89.8,9.0,8,1.0,21.799999999999997,NEUTRAL
+68,Brock Purdy,QB,SF,17.65,,17.65,,17.65,UNPROVEN,80.3,1,QB1,,26.7,2024_only*0.85+rel[UNPROVEN*0.92] [consensus_floor:17.5:QB10-11 consensus],,,,,,,,,89.8,21.799999999999997,89.8,9.0,8,1.0,21.799999999999997,NEUTRAL
 69,Caleb Williams,QB,CHI,17.49,,17.49,,17.49,EMERGING,65.3,1,QB1,,24.8,2024_only*0.85+starter_floor_soft+rel[EMERGING*1.00] [sophomore_leap_player] [consensus_floor:18.0:QB7 consensus yr2 leap],,,,,,,,,91.9,22.900000000000006,91.9,10.0,9,1.0,22.900000000000006,NEUTRAL
 70,Bo Nix,QB,DEN,17.48,,17.48,,17.48,UNPROVEN,78.3,1,QB1,,26.5,2024_only*0.85+rel[UNPROVEN*0.92] [consensus_floor:17.0:QB12 consensus],,,,,,,,,112.3,42.3,112.3,15.0,10,5.0,42.3,BUY
 71,Jared Goff,QB,DET,17.39,,17.39,,17.39,UNPROVEN,68.8,1,QB1,,31.9,2024_only*0.85+rel[UNPROVEN*0.92] [consensus_floor:17.0:QB12 consensus],,,,,,,,,100.1,29.099999999999994,100.1,12.0,11,1.0,29.099999999999994,NEUTRAL
-91,Trevor Lawrence,QB,JAX,16.68,,16.68,,16.68,UNPROVEN,66.6,1,QB1,,26.9,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92] [consensus_floor:16.5:QB9 consensus],,,,,,,,,92.3,1.2999999999999972,92.3,11.0,12,-1.0,1.2999999999999972,NEUTRAL
-93,Baker Mayfield,QB,TB,16.57,,16.57,,16.57,UNPROVEN,73.5,1,QB2,,31.4,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,134.7,41.69999999999999,134.7,17.0,13,4.0,41.69999999999999,BUY
-104,Jaxson Dart,QB,NYG,15.88,,15.88,,15.88,UNPROVEN,81.5,0,QB2,,,sleeper_roster+adp_prior,,,,,,,,,120.6,16.599999999999994,120.6,16.0,14,2.0,16.599999999999994,NEUTRAL
+90,Trevor Lawrence,QB,JAX,16.68,,16.68,,16.68,UNPROVEN,66.6,1,QB1,,26.9,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92] [consensus_floor:16.5:QB9 consensus],,,,,,,,,92.3,2.299999999999997,92.3,11.0,12,-1.0,2.299999999999997,NEUTRAL
+93,Baker Mayfield,QB,TB,16.6,,16.6,,16.6,UNPROVEN,76.0,1,QB2,,31.4,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,134.7,41.69999999999999,134.7,17.0,13,4.0,41.69999999999999,BUY
+103,Jaxson Dart,QB,NYG,15.88,,15.88,,15.88,UNPROVEN,81.4,0,QB2,,,sleeper_roster+adp_prior,,,,,,,,,120.6,17.599999999999994,120.6,16.0,14,2.0,17.599999999999994,NEUTRAL
 111,Tyler Shough,QB,NO,15.49,,15.49,,15.49,UNPROVEN,71.1,0,QB2,,,sleeper_roster+adp_prior,,,,,,,,,139.4,28.400000000000006,139.4,19.0,15,4.0,28.400000000000006,BUY
 137,Sam Darnold,QB,SEA,14.94,,14.94,,14.94,UNPROVEN,78.0,1,QB2,,29.2,2024_only*0.85+rel[UNPROVEN*0.92] [team_corr:SEA:1.05:SEA - Super Bowl LX winner],,,,,,,,,150.2,13.199999999999989,150.2,20.0,16,4.0,13.199999999999989,BUY
 168,Patrick Mahomes,QB,KC,13.95,,13.95,,13.95,UNPROVEN,71.9,1,QB2,,31.0,2024_only*0.85+rel[UNPROVEN*0.92] [camp_research:RETURNING:0.95:Cleared for full camp with no limitations (Reid + Dr. Cooper). Taking 1st-team 11-on-11. Unlikely to play preseason. Week 1 Sept 14 vs DEN is the target — not a medical hold.],,,,,,,,RETURNING,101.5,-66.5,101.5,13.0,17,-4.0,-66.5,FADE
-229,Geno Smith,QB,NYJ,12.89,,12.89,,12.89,UNPROVEN,59.0,1,QB2,,35.9,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,18,,,UNKNOWN
-235,Cam Ward,QB,TEN,12.85,,12.85,,12.85,UNPROVEN,72.7,0,Streamable,,,sleeper_roster+adp_prior,,,,,,,,,171.8,-63.19999999999999,171.8,25.0,19,6.0,-63.19999999999999,BUY
-243,Dak Prescott,QB,DAL,12.74,,12.74,,12.74,UNPROVEN,61.4,1,Streamable,,33.1,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,66.3,-176.7,66.3,5.0,20,-15.0,-176.7,FADE
-255,Anthony Richardson,QB,IND,12.58,,12.58,,12.58,UNPROVEN,67.3,1,Streamable,,24.3,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,21,,,UNKNOWN
-257,Jordan Love,QB,GB,12.49,,12.49,,12.49,UNPROVEN,60.2,1,Streamable,,27.8,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,152.7,-104.30000000000001,152.7,21.0,22,-1.0,-104.30000000000001,NEUTRAL
-261,C.J. Stroud,QB,HOU,12.39,,12.39,,12.39,UNPROVEN,75.9,1,Streamable,,24.9,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,161.8,-99.19999999999999,161.8,22.0,23,-1.0,-99.19999999999999,NEUTRAL
-267,Aaron Rodgers,QB,PIT,12.2,,12.2,,12.2,UNPROVEN,59.6,1,Streamable,,42.7,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,24,,,UNKNOWN
-271,Matthew Stafford,QB,LAR,12.04,,12.04,,12.04,UNPROVEN,64.7,1,Avoid,,38.6,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,74.5,-196.5,74.5,7.0,25,-18.0,-196.5,FADE
-274,Bryce Young,QB,CAR,11.95,,11.95,,11.95,UNPROVEN,63.9,1,Avoid,,25.1,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,26,,,UNKNOWN
-280,Kyler Murray,QB,MIN,11.67,,11.67,,11.67,UNPROVEN,60.0,1,Avoid,,29.1,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92] [team_corr:MIN:0.85:MIN - backup risk behind McCarthy],,,,,,,,,136.6,-143.4,136.6,18.0,27,-9.0,-143.4,FADE
-289,Kirk Cousins,QB,LV,11.59,,11.59,,11.59,UNPROVEN,68.1,1,Avoid,,38.0,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,28,,,UNKNOWN
-290,Mason Rudolph,QB,PIT,11.57,,11.57,,11.57,UNPROVEN,47.6,1,Avoid,,31.1,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,29,,,UNKNOWN
-293,Justin Fields,QB,KC,11.42,,11.42,,11.42,UNPROVEN,59.9,1,Avoid,,27.5,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,30,,,UNKNOWN
-298,Aidan O'Connell,QB,LV,11.21,,11.21,,11.21,UNPROVEN,56.1,1,Avoid,,28.0,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,31,,,UNKNOWN
-303,Gardner Minshew,QB,ARI,10.88,,10.88,,10.88,UNPROVEN,69.5,1,Avoid,,30.3,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,32,,,UNKNOWN
-306,Mac Jones,QB,SF,10.75,,10.75,,10.75,UNPROVEN,68.4,1,Avoid,,28.0,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,33,,,UNKNOWN
-308,Will Levis,QB,TEN,10.69,,10.69,,10.69,UNPROVEN,60.7,1,Avoid,,27.2,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,34,,,UNKNOWN
-309,Cooper Rush,QB,ATL,10.68,,10.68,,10.68,UNPROVEN,58.3,1,Avoid,,32.8,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,35,,,UNKNOWN
-313,Tua Tagovailoa,QB,ATL,10.43,,10.43,,10.43,UNPROVEN,68.0,1,Avoid,,28.5,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92] [team_corr:ATL:0.9:ATL - competing with Penix] [camp_research:QUESTIONABLE:0.85:Camp questionable. ATL backup risk with Penix available.],,,,,,,,QUESTIONABLE,,,,,36,,,UNKNOWN
-320,Joe Flacco,QB,CIN,10.23,,10.23,,10.23,UNPROVEN,65.4,0,Avoid,,41.6,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,37,,,UNKNOWN
-331,Tyler Huntley,QB,BAL,9.58,,9.58,,9.58,UNPROVEN,53.9,0,Avoid,,28.6,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,38,,,UNKNOWN
-332,Jameis Winston,QB,NYG,9.55,,9.55,,9.55,UNPROVEN,69.5,0,Avoid,,32.7,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,39,,,UNKNOWN
-338,Drew Lock,QB,SEA,9.16,,9.16,,9.16,UNPROVEN,64.7,0,Avoid,,29.8,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,40,,,UNKNOWN
-342,Deshaun Watson,QB,CLE,8.45,,8.45,,8.45,UNPROVEN,63.2,0,Avoid,,31.0,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,41,,,UNKNOWN
-343,Daniel Jones,QB,IND,7.85,,7.85,,7.85,UNPROVEN,55.3,1,Avoid,,29.3,"2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92] [camp_notes:SEVERE:0.65:Continue to monitor this situation, as well as the status of QB Daniel Jones , who is coming back from an Achilles tear.]",,,,,,,,SEVERE,168.6,-174.4,168.6,24.0,42,-18.0,-174.4,FADE
-344,Spencer Rattler,QB,NO,7.51,,7.51,,7.51,UNPROVEN,59.1,0,Avoid,,25.9,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,43,,,UNKNOWN
-345,Andy Dalton,QB,PHI,7.19,,7.19,,7.19,UNPROVEN,67.3,0,Avoid,,38.8,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,44,,,UNKNOWN
-346,Malik Willis,QB,MIA,6.62,,6.62,,6.62,UNPROVEN,58.3,0,Avoid,,27.3,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,165.3,-180.7,165.3,23.0,45,-22.0,-180.7,FADE
-347,Jacoby Brissett,QB,ARI,5.16,,5.16,,5.16,UNPROVEN,57.5,0,Avoid,,33.7,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,46,,,UNKNOWN
-435,Tanner McKee,QB,PHI,0.501,,0.501,,0.501,UNPROVEN,59.3,0,Avoid,,26.3,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,47,,,UNKNOWN
-436,Jarrett Stidham,QB,DEN,0.4965,,0.4965,,0.4965,UNPROVEN,66.3,0,Avoid,,30.1,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,48,,,UNKNOWN
-437,Brandon Allen,QB,NYG,0.4949999999999999,,0.4949999999999999,,0.4949999999999999,UNPROVEN,61.5,0,Avoid,,34.0,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,49,,,UNKNOWN
-438,Davis Mills,QB,HOU,0.4949999999999999,,0.4949999999999999,,0.4949999999999999,UNPROVEN,63.9,0,Avoid,,27.9,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,50,,,UNKNOWN
-439,Jake Haener,QB,NYG,0.4949999999999999,,0.4949999999999999,,0.4949999999999999,UNPROVEN,53.5,0,Avoid,,27.5,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,51,,,UNKNOWN
-440,Chris Oladokun,QB,KC,0.4949999999999999,,0.4949999999999999,,0.4949999999999999,UNPROVEN,51.9,0,Avoid,,29.0,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,52,,,UNKNOWN
-441,Joshua Dobbs,QB,DET,0.4935,,0.4935,,0.4935,UNPROVEN,56.8,0,Avoid,,31.6,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,53,,,UNKNOWN
-442,Michael Penix,QB,ATL,0.4935,,0.4935,,0.4935,UNPROVEN,50.3,0,Avoid,,26.3,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,54,,,UNKNOWN
-443,Marcus Mariota,QB,WAS,0.4919999999999999,,0.4919999999999999,,0.4919999999999999,UNPROVEN,62.2,0,Avoid,,32.8,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,55,,,UNKNOWN
-444,Joe Milton,QB,DAL,0.4889999999999999,,0.4889999999999999,,0.4889999999999999,UNPROVEN,41.4,0,Avoid,,26.5,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,56,,,UNKNOWN
-445,Trey Lance,QB,LAC,0.4889999999999999,,0.4889999999999999,,0.4889999999999999,UNPROVEN,50.6,0,Avoid,,26.3,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,57,,,UNKNOWN
-446,Sam Howell,QB,DAL,0.4889999999999999,,0.4889999999999999,,0.4889999999999999,UNPROVEN,49.4,0,Avoid,,26.0,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,58,,,UNKNOWN
-447,Tommy DeVito,QB,NE,0.4889999999999999,,0.4889999999999999,,0.4889999999999999,UNPROVEN,50.1,0,Avoid,,28.1,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,59,,,UNKNOWN
-448,Nick Mullens,QB,JAX,0.4889999999999999,,0.4889999999999999,,0.4889999999999999,UNPROVEN,54.6,0,Avoid,,31.4,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,60,,,UNKNOWN
-449,Kyle Allen,QB,BUF,0.483,,0.483,,0.483,UNPROVEN,63.0,0,Avoid,,30.5,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,61,,,UNKNOWN
-450,Carson Wentz,QB,MIN,0.483,,0.483,,0.483,UNPROVEN,48.8,0,Avoid,,33.7,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,62,,,UNKNOWN
-451,Jake Browning,QB,TB,0.483,,0.483,,0.483,UNPROVEN,61.5,0,Avoid,,30.4,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,63,,,UNKNOWN
-452,Bailey Zappe,QB,NYJ,0.4785,,0.4785,,0.4785,UNPROVEN,47.0,0,Avoid,,27.4,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,64,,,UNKNOWN
-453,Hendon Hooker,QB,TEN,0.477,,0.477,,0.477,UNPROVEN,44.7,0,Avoid,,28.6,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,65,,,UNKNOWN
-454,Mitchell Trubisky,QB,TEN,0.477,,0.477,,0.477,UNPROVEN,52.7,0,Avoid,,32.0,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,66,,,UNKNOWN
-455,Tyrod Taylor,QB,GB,0.4755,,0.4755,,0.4755,UNPROVEN,48.2,0,Avoid,,37.1,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,67,,,UNKNOWN
-456,Tyson Bagent,QB,CHI,0.4695,,0.4695,,0.4695,UNPROVEN,53.3,0,Avoid,,26.2,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,68,,,UNKNOWN
-457,Kyle Trask,QB,CAR,0.4679999999999999,,0.4679999999999999,,0.4679999999999999,UNPROVEN,51.9,0,Avoid,,28.5,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,69,,,UNKNOWN
-458,Kenny Pickett,QB,CAR,0.4679999999999999,,0.4679999999999999,,0.4679999999999999,UNPROVEN,43.9,0,Avoid,,28.2,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,70,,,UNKNOWN
+227,Geno Smith,QB,NYJ,12.89,,12.89,,12.89,UNPROVEN,59.0,1,QB2,,35.9,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,18,,,UNKNOWN
+233,Cam Ward,QB,TEN,12.85,,12.85,,12.85,UNPROVEN,72.7,0,Streamable,,,sleeper_roster+adp_prior,,,,,,,,,171.8,-61.19999999999999,171.8,25.0,19,6.0,-61.19999999999999,BUY
+242,Dak Prescott,QB,DAL,12.74,,12.74,,12.74,UNPROVEN,61.4,1,Streamable,,33.1,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,66.3,-175.7,66.3,5.0,20,-15.0,-175.7,FADE
+250,Anthony Richardson,QB,IND,12.58,,12.58,,12.58,UNPROVEN,67.3,1,Streamable,,24.3,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,21,,,UNKNOWN
+256,Jordan Love,QB,GB,12.49,,12.49,,12.49,UNPROVEN,60.2,1,Streamable,,27.8,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,152.7,-103.30000000000001,152.7,21.0,22,-1.0,-103.30000000000001,NEUTRAL
+260,C.J. Stroud,QB,HOU,12.39,,12.39,,12.39,UNPROVEN,75.2,1,Streamable,,24.9,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,161.8,-98.19999999999999,161.8,22.0,23,-1.0,-98.19999999999999,NEUTRAL
+266,Aaron Rodgers,QB,PIT,12.2,,12.2,,12.2,UNPROVEN,59.6,1,Streamable,,42.7,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,24,,,UNKNOWN
+268,Daniel Jones,QB,IND,12.08,,12.08,,12.08,UNPROVEN,55.3,1,Avoid,,29.3,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,168.6,-99.4,168.6,24.0,25,-1.0,-99.4,NEUTRAL
+269,Matthew Stafford,QB,LAR,12.04,,12.04,,12.04,UNPROVEN,64.7,1,Avoid,,38.6,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,74.5,-194.5,74.5,7.0,26,-19.0,-194.5,FADE
+274,Bryce Young,QB,CAR,11.95,,11.95,,11.95,UNPROVEN,63.9,1,Avoid,,25.1,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,27,,,UNKNOWN
+280,Kyler Murray,QB,MIN,11.67,,11.67,,11.67,UNPROVEN,60.0,1,Avoid,,29.1,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92] [team_corr:MIN:0.85:MIN - backup risk behind McCarthy],,,,,,,,,136.6,-143.4,136.6,18.0,28,-10.0,-143.4,FADE
+288,Kirk Cousins,QB,LV,11.59,,11.59,,11.59,UNPROVEN,68.1,1,Avoid,,38.0,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,29,,,UNKNOWN
+290,Mason Rudolph,QB,PIT,11.57,,11.57,,11.57,UNPROVEN,47.6,1,Avoid,,31.1,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,30,,,UNKNOWN
+293,Justin Fields,QB,KC,11.42,,11.42,,11.42,UNPROVEN,59.9,1,Avoid,,27.5,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,31,,,UNKNOWN
+298,Aidan O'Connell,QB,LV,11.21,,11.21,,11.21,UNPROVEN,56.1,1,Avoid,,28.0,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,32,,,UNKNOWN
+303,Gardner Minshew,QB,ARI,10.88,,10.88,,10.88,UNPROVEN,69.5,1,Avoid,,30.3,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,33,,,UNKNOWN
+305,Mac Jones,QB,SF,10.74,,10.74,,10.74,UNPROVEN,68.3,1,Avoid,,28.0,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,34,,,UNKNOWN
+308,Will Levis,QB,TEN,10.69,,10.69,,10.69,UNPROVEN,60.7,1,Avoid,,27.2,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,35,,,UNKNOWN
+309,Cooper Rush,QB,ATL,10.68,,10.68,,10.68,UNPROVEN,58.3,1,Avoid,,32.8,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,36,,,UNKNOWN
+313,Tua Tagovailoa,QB,ATL,10.43,,10.43,,10.43,UNPROVEN,68.0,1,Avoid,,28.5,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92] [team_corr:ATL:0.9:ATL - competing with Penix] [camp_research:QUESTIONABLE:0.85:Camp questionable. ATL backup risk with Penix available.],,,,,,,,QUESTIONABLE,,,,,37,,,UNKNOWN
+319,Joe Flacco,QB,CIN,10.23,,10.23,,10.23,UNPROVEN,65.4,0,Avoid,,41.6,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,38,,,UNKNOWN
+331,Tyler Huntley,QB,BAL,9.58,,9.58,,9.58,UNPROVEN,53.9,0,Avoid,,28.6,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,39,,,UNKNOWN
+332,Jameis Winston,QB,NYG,9.55,,9.55,,9.55,UNPROVEN,69.4,0,Avoid,,32.7,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,40,,,UNKNOWN
+336,Drew Lock,QB,SEA,9.16,,9.16,,9.16,UNPROVEN,64.7,0,Avoid,,29.8,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,41,,,UNKNOWN
+342,Deshaun Watson,QB,CLE,8.45,,8.45,,8.45,UNPROVEN,63.2,0,Avoid,,31.0,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,42,,,UNKNOWN
+343,Spencer Rattler,QB,NO,7.51,,7.51,,7.51,UNPROVEN,59.1,0,Avoid,,25.9,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,43,,,UNKNOWN
+344,Andy Dalton,QB,PHI,7.19,,7.19,,7.19,UNPROVEN,67.3,0,Avoid,,38.8,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,44,,,UNKNOWN
+345,Malik Willis,QB,MIA,6.62,,6.62,,6.62,UNPROVEN,58.3,0,Avoid,,27.3,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,165.3,-179.7,165.3,23.0,45,-22.0,-179.7,FADE
+346,Jacoby Brissett,QB,ARI,5.16,,5.16,,5.16,UNPROVEN,57.5,0,Avoid,,33.7,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,46,,,UNKNOWN
+437,Tanner McKee,QB,PHI,0.501,,0.501,,0.501,UNPROVEN,59.3,0,Avoid,,26.3,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,47,,,UNKNOWN
+438,Jarrett Stidham,QB,DEN,0.4965,,0.4965,,0.4965,UNPROVEN,66.3,0,Avoid,,30.1,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,48,,,UNKNOWN
+439,Brandon Allen,QB,NYG,0.4949999999999999,,0.4949999999999999,,0.4949999999999999,UNPROVEN,61.4,0,Avoid,,34.0,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,49,,,UNKNOWN
+440,Davis Mills,QB,HOU,0.4949999999999999,,0.4949999999999999,,0.4949999999999999,UNPROVEN,63.2,0,Avoid,,27.9,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,50,,,UNKNOWN
+441,Jake Haener,QB,NYG,0.4949999999999999,,0.4949999999999999,,0.4949999999999999,UNPROVEN,53.4,0,Avoid,,27.5,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,51,,,UNKNOWN
+442,Chris Oladokun,QB,KC,0.4949999999999999,,0.4949999999999999,,0.4949999999999999,UNPROVEN,51.9,0,Avoid,,29.0,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,52,,,UNKNOWN
+443,Joshua Dobbs,QB,DET,0.4935,,0.4935,,0.4935,UNPROVEN,56.8,0,Avoid,,31.6,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,53,,,UNKNOWN
+444,Michael Penix,QB,ATL,0.4935,,0.4935,,0.4935,UNPROVEN,50.3,0,Avoid,,26.3,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,54,,,UNKNOWN
+445,Marcus Mariota,QB,WAS,0.4905,,0.4905,,0.4905,UNPROVEN,61.6,0,Avoid,,32.8,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,55,,,UNKNOWN
+446,Trey Lance,QB,LAC,0.4889999999999999,,0.4889999999999999,,0.4889999999999999,UNPROVEN,50.6,0,Avoid,,26.3,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,56,,,UNKNOWN
+447,Joe Milton,QB,DAL,0.4889999999999999,,0.4889999999999999,,0.4889999999999999,UNPROVEN,41.4,0,Avoid,,26.5,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,57,,,UNKNOWN
+448,Sam Howell,QB,DAL,0.4889999999999999,,0.4889999999999999,,0.4889999999999999,UNPROVEN,49.4,0,Avoid,,26.0,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,58,,,UNKNOWN
+449,Nick Mullens,QB,JAX,0.4889999999999999,,0.4889999999999999,,0.4889999999999999,UNPROVEN,54.6,0,Avoid,,31.4,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,59,,,UNKNOWN
+450,Tommy DeVito,QB,NE,0.4889999999999999,,0.4889999999999999,,0.4889999999999999,UNPROVEN,50.0,0,Avoid,,28.1,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,60,,,UNKNOWN
+451,Carson Wentz,QB,MIN,0.483,,0.483,,0.483,UNPROVEN,48.8,0,Avoid,,33.7,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,61,,,UNKNOWN
+452,Jake Browning,QB,TB,0.483,,0.483,,0.483,UNPROVEN,64.0,0,Avoid,,30.4,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,62,,,UNKNOWN
+453,Kyle Allen,QB,BUF,0.483,,0.483,,0.483,UNPROVEN,62.3,0,Avoid,,30.5,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,63,,,UNKNOWN
+454,Bailey Zappe,QB,NYJ,0.4785,,0.4785,,0.4785,UNPROVEN,47.0,0,Avoid,,27.4,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,64,,,UNKNOWN
+455,Hendon Hooker,QB,TEN,0.477,,0.477,,0.477,UNPROVEN,44.7,0,Avoid,,28.6,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,65,,,UNKNOWN
+456,Mitchell Trubisky,QB,TEN,0.477,,0.477,,0.477,UNPROVEN,52.7,0,Avoid,,32.0,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,66,,,UNKNOWN
+457,Tyrod Taylor,QB,GB,0.4755,,0.4755,,0.4755,UNPROVEN,48.2,0,Avoid,,37.1,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,67,,,UNKNOWN
+458,Tyson Bagent,QB,CHI,0.4695,,0.4695,,0.4695,UNPROVEN,53.3,0,Avoid,,26.2,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,68,,,UNKNOWN
+459,Kenny Pickett,QB,CAR,0.4679999999999999,,0.4679999999999999,,0.4679999999999999,UNPROVEN,43.9,0,Avoid,,28.2,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,69,,,UNKNOWN
+460,Kyle Trask,QB,CAR,0.4679999999999999,,0.4679999999999999,,0.4679999999999999,UNPROVEN,51.9,0,Avoid,,28.5,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,70,,,UNKNOWN
