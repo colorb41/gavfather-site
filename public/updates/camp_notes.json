@@ -1,8 +1,8 @@
 {
-  "updated": "2026-08-26T08:37:06",
+  "updated": "2026-08-26T12:40:09",
   "source": "CampResearcher.v2",
   "override_count": 15,
-  "player_count": 50,
+  "player_count": 51,
   "news_items_processed": 314,
   "players": {
     "TreVeyon Henderson": {
@@ -63,7 +63,7 @@
         "Sam LaPorta",
         "Sam LaPorta - Questionable"
       ],
-      "old_rank": 96,
+      "old_rank": 97,
       "new_rank": 105,
       "old_ppg": 9.76,
       "new_ppg": 9.08,
@@ -107,8 +107,8 @@
       "headlines": [
         "Tyler Warren (groin) may miss practice this week"
       ],
-      "old_rank": 77,
-      "new_rank": 80,
+      "old_rank": 81,
+      "new_rank": 81,
       "old_ppg": 11.0,
       "new_ppg": 11.0,
       "position": "TE",
@@ -149,8 +149,8 @@
       "headlines": [
         "Mike Washington"
       ],
-      "old_rank": 113,
-      "new_rank": 116,
+      "old_rank": 118,
+      "new_rank": 114,
       "old_ppg": 8.5,
       "new_ppg": 8.5,
       "position": "RB",
@@ -171,7 +171,7 @@
         "Chris Olave"
       ],
       "old_rank": 46,
-      "new_rank": 39,
+      "new_rank": 37,
       "old_ppg": 13.5,
       "new_ppg": 13.5,
       "position": "WR",
@@ -213,8 +213,8 @@
       "headlines": [
         "Quinshon Judkins"
       ],
-      "old_rank": 39,
-      "new_rank": 45,
+      "old_rank": 37,
+      "new_rank": 41,
       "old_ppg": 13.5,
       "new_ppg": 13.5,
       "position": "RB",
@@ -234,7 +234,7 @@
       "headlines": [
         "Josh Downs"
       ],
-      "old_rank": 126,
+      "old_rank": 127,
       "new_rank": 126,
       "old_ppg": 8.17,
       "new_ppg": 8.17,
@@ -255,7 +255,7 @@
       "headlines": [
         "Mike Evans"
       ],
-      "old_rank": 91,
+      "old_rank": 92,
       "new_rank": 90,
       "old_ppg": 10.19,
       "new_ppg": 10.19,
@@ -339,8 +339,8 @@
       "headlines": [
         "Kenneth Walker"
       ],
-      "old_rank": 44,
-      "new_rank": 36,
+      "old_rank": 38,
+      "new_rank": 40,
       "old_ppg": 13.5,
       "new_ppg": 13.5,
       "position": "RB",
@@ -381,8 +381,8 @@
       "headlines": [
         "Cam Skattebo"
       ],
-      "old_rank": 37,
-      "new_rank": 41,
+      "old_rank": 40,
+      "new_rank": 44,
       "old_ppg": 13.5,
       "new_ppg": 13.5,
       "position": "RB",
@@ -423,7 +423,7 @@
       "headlines": [
         "Brian Thomas"
       ],
-      "old_rank": 50,
+      "old_rank": 51,
       "new_rank": 49,
       "old_ppg": 13.0,
       "new_ppg": 13.0,
@@ -465,8 +465,8 @@
       "headlines": [
         "Jeremiyah Love, Cardinals (ankle) : Love is dealing with a high ankle sprain but the Cardinals are hopeful he'll be ready for Week 1 (we've been hearing a lot o"
       ],
-      "old_rank": 41,
-      "new_rank": 43,
+      "old_rank": 39,
+      "new_rank": 42,
       "old_ppg": 13.5,
       "new_ppg": 13.5,
       "position": "RB",
@@ -486,7 +486,7 @@
       "headlines": [
         "That cleared the way for Rico Dowdle to take over the backfield."
       ],
-      "old_rank": 122,
+      "old_rank": 123,
       "new_rank": 110,
       "old_ppg": 8.41,
       "new_ppg": 8.83,
@@ -537,6 +537,27 @@
       "updated": "2026-08-05",
       "auto_generated": false,
       "from_override": true
+    },
+    "Daniel Jones": {
+      "status": "SEVERE",
+      "injury": "Achilles tear",
+      "week1_outlook": "UNLIKELY",
+      "ppg_multiplier": 0.65,
+      "ranking_note": "Continue to monitor this situation, as well as the status of QB Daniel Jones , who is coming back from an Achilles tear.",
+      "impact": "SEVERE",
+      "source": "Yahoo Sports",
+      "headlines": [
+        "Continue to monitor this situation, as well as the status of QB Daniel Jones , who is coming back from an Achilles tear."
+      ],
+      "old_rank": 67,
+      "new_rank": 129,
+      "old_ppg": 12.08,
+      "new_ppg": 7.85,
+      "position": "QB",
+      "team": "IND",
+      "updated": "2026-08-26",
+      "auto_generated": true,
+      "from_override": false
     },
     "Tucker Kraft": {
       "status": "RETURNING",
@@ -591,7 +612,7 @@
       "headlines": [
         "Breece Hall, NYJ (groin) — out 2-3 weeks"
       ],
-      "old_rank": 89,
+      "old_rank": 90,
       "new_rank": 88,
       "old_ppg": 10.38,
       "new_ppg": 10.38,
@@ -612,8 +633,8 @@
       "headlines": [
         "Kyle Monangai, CHI (knee) — expected to miss multiple weeks"
       ],
-      "old_rank": 116,
-      "new_rank": 119,
+      "old_rank": 119,
+      "new_rank": 118,
       "old_ppg": 8.5,
       "new_ppg": 8.5,
       "position": "RB",
@@ -634,8 +655,8 @@
         "Jordyn Tyson, NO (hamstring) — expected to miss start of season",
         "Strain"
       ],
-      "old_rank": 185,
-      "new_rank": 181,
+      "old_rank": 181,
+      "new_rank": 178,
       "old_ppg": 6.0,
       "new_ppg": 6.0,
       "position": "WR",
@@ -909,7 +930,7 @@
       "headlines": [
         "Camp questionable. ATL backup risk with Penix available."
       ],
-      "old_rank": 88,
+      "old_rank": 89,
       "new_rank": 109,
       "old_ppg": 10.43,
       "new_ppg": 8.87,
@@ -930,7 +951,7 @@
       "headlines": [
         "Clocking 22mph in camp. No issues. Undervalued WAS sleeper. Daniels connection real."
       ],
-      "old_rank": 76,
+      "old_rank": 77,
       "new_rank": 75,
       "old_ppg": 11.06,
       "new_ppg": 11.39,
@@ -972,7 +993,7 @@
       "headlines": [
         "Minor thumb issue. Not serious. Monitor."
       ],
-      "old_rank": 111,
+      "old_rank": 112,
       "new_rank": 113,
       "old_ppg": 8.79,
       "new_ppg": 8.53,
