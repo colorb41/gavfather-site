@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-27T18:44:15",
+  "updated": "2026-08-27T22:55:07",
   "source": "CampResearcher.v2",
   "override_count": 15,
-  "player_count": 48,
-  "news_items_processed": 313,
+  "player_count": 47,
+  "news_items_processed": 289,
   "players": {
     "Alec Pierce": {
       "status": "MODERATE",
@@ -16,10 +16,9 @@
       "headlines": [
         "Alec Pierce (ankle) activated from PUP list",
         "Alec Pierce",
-        "Alec Pierce , Colts (ankle) : Pierce was activated off the PUP list on August 27.",
-        "Surgery"
+        "Alec Pierce , Colts (ankle) : Pierce was activated off the PUP list on August 27."
       ],
-      "old_rank": 199,
+      "old_rank": 201,
       "new_rank": 251,
       "old_ppg": 5.73,
       "new_ppg": 4.7,
@@ -39,9 +38,10 @@
       "source": "FantasyPros",
       "headlines": [
         "Mike Evans (groin) planning to play Week 1",
-        "Mike Evans"
+        "Mike Evans",
+        "Mike Evans, SF (groin) — plans to play Week 1"
       ],
-      "old_rank": 92,
+      "old_rank": 91,
       "new_rank": 90,
       "old_ppg": 10.19,
       "new_ppg": 10.19,
@@ -62,8 +62,8 @@
       "headlines": [
         "Rising sleeper TE. Ahead of schedule. GB passing game benefits."
       ],
-      "old_rank": 160,
-      "new_rank": 155,
+      "old_rank": 162,
+      "new_rank": 157,
       "old_ppg": 6.59,
       "new_ppg": 6.92,
       "position": "TE",
@@ -81,15 +81,184 @@
       "impact": "NEUTRAL",
       "source": "FantasyPros",
       "headlines": [
-        "James Conner (foot) progressing, uncertain for Week 1",
-        "James Conner"
+        "James Conner (foot) progressing, uncertain for Week 1"
       ],
-      "old_rank": 121,
+      "old_rank": 119,
       "new_rank": 120,
       "old_ppg": 8.45,
       "new_ppg": 8.45,
       "position": "RB",
       "team": "ARI",
+      "updated": "2026-08-27",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Calvin Austin": {
+      "status": "SEASON_ENDING",
+      "injury": "Knee August 27",
+      "week1_outlook": "OUT",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Calvin Austin Officially moves to IR WR New York Giants Knee August 27, 2026 The Giants placed Austin (knee) on injured reserve Thursday, Patricia Traina of SI.com reports. ANALYSIS Subscribe now to instantly reveal our take on this news.",
+      "impact": "SEASON_ENDING",
+      "source": "RotoWire",
+      "headlines": [
+        "Calvin Austin",
+        "Calvin Austin - IR"
+      ],
+      "old_rank": 216,
+      "new_rank": 213,
+      "old_ppg": 5.52,
+      "new_ppg": 5.52,
+      "position": "WR",
+      "team": "NYG",
+      "updated": "2026-08-27",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "TreVeyon Henderson": {
+      "status": "MILD",
+      "injury": "TreVeyon Henderson - Questionable TreVeyon Henderson listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "TreVeyon Henderson listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "TreVeyon Henderson",
+        "TreVeyon Henderson - Questionable"
+      ],
+      "old_rank": 59,
+      "new_rank": 69,
+      "old_ppg": 12.56,
+      "new_ppg": 11.68,
+      "position": "RB",
+      "team": "NE",
+      "updated": "2026-08-27",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Aaron Rodgers": {
+      "status": "NEUTRAL",
+      "injury": "Aaron Rodgers Aaron Rodgers Won't play Thursday QB Pittsburgh Steelers August 27, 2026 Rodgers isn't in uniform for Thur",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Aaron Rodgers Won't play Thursday QB Pittsburgh Steelers August 27, 2026 Rodgers isn't in uniform for Thursday's preseason contest at Buffalo, Alan Saunders of SteelersNow.com reports. ANALYSIS Subscribe now to instantly reveal our take on ",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Aaron Rodgers"
+      ],
+      "old_rank": 66,
+      "new_rank": 65,
+      "old_ppg": 12.2,
+      "new_ppg": 12.2,
+      "position": "QB",
+      "team": "PIT",
+      "updated": "2026-08-27",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Khalil Shakir": {
+      "status": "NEUTRAL",
+      "injury": "ir Khalil Shakir Not suited up Thursday WR",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Khalil Shakir Not suited up Thursday WR Buffalo Bills Undisclosed August 27, 2026 Shakir (undisclosed) isn't in uniform for Thursday's preseason contest against the Steelers, Alex Brasky of SI.com reports. ANALYSIS Subscribe now to instantl",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Khalil Shakir"
+      ],
+      "old_rank": 146,
+      "new_rank": 145,
+      "old_ppg": 7.42,
+      "new_ppg": 7.42,
+      "position": "WR",
+      "team": "BUF",
+      "updated": "2026-08-27",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Josh Jacobs": {
+      "status": "NEUTRAL",
+      "injury": "Josh Jacobs Josh Jacobs Initial court appearance set for November RB Green Bay Packers Groin August 27, 2026 Jacobs, who",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Josh Jacobs Initial court appearance set for November RB Green Bay Packers Groin August 27, 2026 Jacobs, who was charged Thursday with two misdemeanors stemming from his May arrest, is scheduled for an initial court appearance Nov. 17, Rob ",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Josh Jacobs"
+      ],
+      "old_rank": 62,
+      "new_rank": 63,
+      "old_ppg": 12.5,
+      "new_ppg": 12.5,
+      "position": "RB",
+      "team": "GB",
+      "updated": "2026-08-27",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Keon Coleman": {
+      "status": "NEUTRAL",
+      "injury": "Keon Coleman Keon Coleman Sheds walking boot WR Buffalo Bills Foot August 27, 2026 Coleman (right foot/toe) isn't in uni",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Keon Coleman Sheds walking boot WR Buffalo Bills Foot August 27, 2026 Coleman (right foot/toe) isn't in uniform for Thursday's preseason game against the Steelers, but he wasn't wearing a walking boot, Alex Brasky of SI.com reports. ANALYSI",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Keon Coleman"
+      ],
+      "old_rank": 202,
+      "new_rank": 200,
+      "old_ppg": 5.73,
+      "new_ppg": 5.73,
+      "position": "WR",
+      "team": "BUF",
+      "updated": "2026-08-27",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Tutu Atwell": {
+      "status": "NEUTRAL",
+      "injury": "Tutu Atwell Tutu Atwell Traded back to Rams WR Miami Dolphins August 27, 2026 Atwell has traded to the Rams on Thursday ",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Tutu Atwell Traded back to Rams WR Miami Dolphins August 27, 2026 Atwell has traded to the Rams on Thursday in exchange for running back Jarquez Hunter , Adam Schefter of ESPN reports. ANALYSIS Subscribe now to instantly reveal our take on ",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Tutu Atwell"
+      ],
+      "old_rank": 230,
+      "new_rank": 226,
+      "old_ppg": 5.18,
+      "new_ppg": 5.18,
+      "position": "WR",
+      "team": "MIA",
+      "updated": "2026-08-27",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Jadarian Price": {
+      "status": "NEUTRAL",
+      "injury": "Jadarian Price Jadarian Price Will not play Friday RB Seattle Seahawks August 27, 2026 Price will not play in Friday's p",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Jadarian Price Will not play Friday RB Seattle Seahawks August 27, 2026 Price will not play in Friday's preseason finale against the Chiefs, Brady Henderson of ESPN.com reports. ANALYSIS Subscribe now to instantly reveal our take on this ne",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Jadarian Price"
+      ],
+      "old_rank": 44,
+      "new_rank": 45,
+      "old_ppg": 13.5,
+      "new_ppg": 13.5,
+      "position": "RB",
+      "team": "SEA",
       "updated": "2026-08-27",
       "auto_generated": true,
       "from_override": false
@@ -105,8 +274,8 @@
       "headlines": [
         "Wan'Dale Robinson"
       ],
-      "old_rank": 166,
-      "new_rank": 166,
+      "old_rank": 167,
+      "new_rank": 167,
       "old_ppg": 6.36,
       "new_ppg": 6.36,
       "position": "WR",
@@ -126,8 +295,8 @@
       "headlines": [
         "Keenan Allen"
       ],
-      "old_rank": 157,
-      "new_rank": 158,
+      "old_rank": 159,
+      "new_rank": 160,
       "old_ppg": 6.85,
       "new_ppg": 6.85,
       "position": "WR",
@@ -147,8 +316,8 @@
       "headlines": [
         "Isiah Pacheco"
       ],
-      "old_rank": 188,
-      "new_rank": 185,
+      "old_rank": 190,
+      "new_rank": 186,
       "old_ppg": 5.94,
       "new_ppg": 5.94,
       "position": "RB",
@@ -157,23 +326,23 @@
       "auto_generated": true,
       "from_override": false
     },
-    "Cedric Tillman": {
+    "Jonnu Smith": {
       "status": "NEUTRAL",
-      "injury": "Undisclosed August 27",
+      "injury": "Jonnu Smith Jonnu Smith Will sign with Packers TE Green Bay Packers August 27, 2026 Smith is signing a one-year contract",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "Cedric Tillman Being let go by Cleveland WR Cleveland Browns Undisclosed August 27, 2026 Tillman (undisclosed) is in line to be cut by the Browns, Adam Schefter of ESPN reports. ANALYSIS Subscribe now to instantly reveal our take on this ne",
+      "ranking_note": "Jonnu Smith Will sign with Packers TE Green Bay Packers August 27, 2026 Smith is signing a one-year contract with the Packers, NFL reporter Jordan Schultz reports. ANALYSIS Subscribe now to instantly reveal our take on this news.",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "Cedric Tillman"
+        "Jonnu Smith"
       ],
-      "old_rank": 202,
-      "new_rank": 200,
-      "old_ppg": 5.72,
-      "new_ppg": 5.72,
-      "position": "WR",
-      "team": "CLE",
+      "old_rank": 124,
+      "new_rank": 124,
+      "old_ppg": 8.2,
+      "new_ppg": 8.2,
+      "position": "TE",
+      "team": "GB",
       "updated": "2026-08-27",
       "auto_generated": true,
       "from_override": false
@@ -190,8 +359,8 @@
         "DK Metcalf",
         "DK Metcalf - Questionable"
       ],
-      "old_rank": 130,
-      "new_rank": 152,
+      "old_rank": 132,
+      "new_rank": 154,
       "old_ppg": 7.67,
       "new_ppg": 7.13,
       "position": "WR",
@@ -232,8 +401,8 @@
       "headlines": [
         "Javonte Williams"
       ],
-      "old_rank": 158,
-      "new_rank": 159,
+      "old_rank": 160,
+      "new_rank": 161,
       "old_ppg": 6.66,
       "new_ppg": 6.66,
       "position": "RB",
@@ -263,129 +432,23 @@
       "auto_generated": true,
       "from_override": false
     },
-    "Kenneth Walker": {
+    "Jeremiyah Love": {
       "status": "NEUTRAL",
-      "injury": "Kenneth Walker Kenneth Walker Ankle injury not serious RB Kansas City Chiefs Ankle August 26, 2026 Walker is experiencin",
+      "injury": "Jeremiyah Love, Cardinals (ankle) : Love is dealing with a high ankle sprain but the Cardinals are hopeful he'll be read",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "Kenneth Walker Ankle injury not serious RB Kansas City Chiefs Ankle August 26, 2026 Walker is experiencing swelling around his ankle but is expected to \"be fine,\" Sam McDowell of The Kansas City Star reports. ANALYSIS Subscribe now to insta",
+      "ranking_note": "Jeremiyah Love, Cardinals (ankle) : Love is dealing with a high ankle sprain but the Cardinals are hopeful he'll be ready for Week 1 (we've been hearing a lot of that throughout training camp).",
       "impact": "NEUTRAL",
-      "source": "RotoWire",
+      "source": "Yahoo Sports",
       "headlines": [
-        "Kenneth Walker"
+        "Jeremiyah Love, Cardinals (ankle) : Love is dealing with a high ankle sprain but the Cardinals are hopeful he'll be ready for Week 1 (we've been hearing a lot o"
       ],
-      "old_rank": 40,
+      "old_rank": 42,
       "new_rank": 43,
       "old_ppg": 13.5,
       "new_ppg": 13.5,
       "position": "RB",
-      "team": "KC",
-      "updated": "2026-08-27",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Luther Burden": {
-      "status": "POSITIVE",
-      "injury": "Luther Burden Luther Burden Back at practice Wednesday WR Chicago Bears Groin August 26, 2026 Burden (groin) returned to",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.05,
-      "ranking_note": "Luther Burden Back at practice Wednesday WR Chicago Bears Groin August 26, 2026 Burden (groin) returned to practice Wednesday, but he was contained to individual drills, Courtney Cronin of ESPN.com reports. ANALYSIS Subscribe now to instant",
-      "impact": "POSITIVE",
-      "source": "RotoWire",
-      "headlines": [
-        "Luther Burden"
-      ],
-      "old_rank": 87,
-      "new_rank": 77,
-      "old_ppg": 10.5,
-      "new_ppg": 11.03,
-      "position": "WR",
-      "team": "CHI",
-      "updated": "2026-08-27",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Jeremiyah Love": {
-      "status": "NEUTRAL",
-      "injury": "Jeremiyah Love Jeremiyah Love Doing rehab work Wednesday RB Arizona Cardinals Ankle August 26, 2026 Love (ankle) was spo",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Jeremiyah Love Doing rehab work Wednesday RB Arizona Cardinals Ankle August 26, 2026 Love (ankle) was spotted doing some light agility work with trainers ahead of Wednesday's practice, Theo Mackie of The Arizona Republic reports. ANALYSIS S",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Jeremiyah Love",
-        "Jeremiyah Love, Cardinals (ankle) : Love is dealing with a high ankle sprain but the Cardinals are hopeful he'll be ready for Week 1 (we've been hearing a lot o"
-      ],
-      "old_rank": 43,
-      "new_rank": 37,
-      "old_ppg": 13.5,
-      "new_ppg": 13.5,
-      "position": "RB",
       "team": "ARI",
-      "updated": "2026-08-27",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Zay Flowers": {
-      "status": "NEUTRAL",
-      "injury": "Undisclosed August 26",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Zay Flowers Expected to play Week 1 WR Baltimore Ravens Undisclosed August 26, 2026 Flowers (undisclosed) is being held out of practice \"for precautionary reasons\" and should be ready for Week 1, Jonas Shaffer of The Baltimore Banner report",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Zay Flowers"
-      ],
-      "old_rank": 126,
-      "new_rank": 125,
-      "old_ppg": 7.93,
-      "new_ppg": 7.93,
-      "position": "WR",
-      "team": "BAL",
-      "updated": "2026-08-27",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Josh Downs": {
-      "status": "NEUTRAL",
-      "injury": "Josh Downs Josh Downs Calf injury appears minor WR Indianapolis Colts Calf August 26, 2026 Downs said his calf injury is",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Josh Downs Calf injury appears minor WR Indianapolis Colts Calf August 26, 2026 Downs said his calf injury is \"very minor\" and believes he will resume practicing soon, Jake Arthur of Roundtable.io reports. ANALYSIS Subscribe now to instantl",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Josh Downs"
-      ],
-      "old_rank": 125,
-      "new_rank": 124,
-      "old_ppg": 8.17,
-      "new_ppg": 8.17,
-      "position": "WR",
-      "team": "IND",
-      "updated": "2026-08-27",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Ja'Marr Chase": {
-      "status": "NEUTRAL",
-      "injury": "Knee August 26",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Ja'Marr Chase Not practicing Wednesday WR Cincinnati Bengals Knee August 26, 2026 Chase (knee) is not participating in Wednesday's practice, Ben Baby of ESPN.com reports. ANALYSIS Subscribe now to instantly reveal our take on this news.",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Ja'Marr Chase"
-      ],
-      "old_rank": 9,
-      "new_rank": 10,
-      "old_ppg": 19.0,
-      "new_ppg": 19.0,
-      "position": "WR",
-      "team": "CIN",
       "updated": "2026-08-27",
       "auto_generated": true,
       "from_override": false
@@ -401,7 +464,7 @@
       "headlines": [
         "That cleared the way for Rico Dowdle to take over the backfield."
       ],
-      "old_rank": 122,
+      "old_rank": 121,
       "new_rank": 108,
       "old_ppg": 8.41,
       "new_ppg": 8.83,
@@ -444,7 +507,7 @@
         "Upgrade slightly. Running routes, ahead of schedule. Worst case misses 1-2 games."
       ],
       "old_rank": 47,
-      "new_rank": 57,
+      "new_rank": 58,
       "old_ppg": 13.49,
       "new_ppg": 12.55,
       "position": "WR",
@@ -452,27 +515,6 @@
       "updated": "2026-08-05",
       "auto_generated": false,
       "from_override": true
-    },
-    "Daniel Jones": {
-      "status": "SEVERE",
-      "injury": "Achilles tear",
-      "week1_outlook": "UNLIKELY",
-      "ppg_multiplier": 0.65,
-      "ranking_note": "Continue to monitor this situation, as well as the status of QB Daniel Jones , who is coming back from an Achilles tear.",
-      "impact": "SEVERE",
-      "source": "Yahoo Sports",
-      "headlines": [
-        "Continue to monitor this situation, as well as the status of QB Daniel Jones , who is coming back from an Achilles tear."
-      ],
-      "old_rank": 67,
-      "new_rank": 126,
-      "old_ppg": 12.08,
-      "new_ppg": 7.85,
-      "position": "QB",
-      "team": "IND",
-      "updated": "2026-08-27",
-      "auto_generated": true,
-      "from_override": false
     },
     "George Kittle": {
       "status": "PUP",
@@ -485,7 +527,7 @@
       "headlines": [
         "Achilles PUP — late-round dart only until cleared. McBride and Bowers are the TE1/TE2."
       ],
-      "old_rank": 217,
+      "old_rank": 218,
       "new_rank": 306,
       "old_ppg": 5.5,
       "new_ppg": 2.75,
@@ -506,7 +548,7 @@
       "headlines": [
         "Breece Hall, NYJ (groin) — out 2-3 weeks"
       ],
-      "old_rank": 90,
+      "old_rank": 89,
       "new_rank": 88,
       "old_ppg": 10.38,
       "new_ppg": 10.38,
@@ -527,8 +569,8 @@
       "headlines": [
         "Kyle Monangai, CHI (knee) — expected to miss multiple weeks"
       ],
-      "old_rank": 113,
-      "new_rank": 116,
+      "old_rank": 116,
+      "new_rank": 114,
       "old_ppg": 8.5,
       "new_ppg": 8.5,
       "position": "RB",
@@ -546,11 +588,10 @@
       "impact": "NEUTRAL",
       "source": "Yahoo Sports",
       "headlines": [
-        "Jordyn Tyson, NO (hamstring) — expected to miss start of season",
-        "Strain"
+        "Jordyn Tyson, NO (hamstring) — expected to miss start of season"
       ],
-      "old_rank": 182,
-      "new_rank": 175,
+      "old_rank": 180,
+      "new_rank": 178,
       "old_ppg": 6.0,
       "new_ppg": 6.0,
       "position": "WR",
@@ -558,48 +599,6 @@
       "updated": "2026-08-27",
       "auto_generated": true,
       "from_override": false
-    },
-    "TreVeyon Henderson": {
-      "status": "MILD",
-      "injury": "TreVeyon Henderson - Questionable TreVeyon Henderson listed as Questionable",
-      "week1_outlook": "EXPECTED OK",
-      "ppg_multiplier": 0.93,
-      "ranking_note": "TreVeyon Henderson listed as Questionable. ",
-      "impact": "MILD",
-      "source": "Sleeper",
-      "headlines": [
-        "TreVeyon Henderson - Questionable"
-      ],
-      "old_rank": 58,
-      "new_rank": 69,
-      "old_ppg": 12.56,
-      "new_ppg": 11.68,
-      "position": "RB",
-      "team": "NE",
-      "updated": "2026-08-27",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Patrick Mahomes": {
-      "status": "RETURNING",
-      "injury": "ACL + LCL (Week 15 2025) — fully cleared for camp",
-      "week1_outlook": "LIKELY — 1st-team camp reps; Reid sitting him in preseason only",
-      "ppg_multiplier": 0.95,
-      "ranking_note": "Cleared for full camp with no limitations (Reid + Dr. Cooper). Taking 1st-team 11-on-11. Unlikely to play preseason. Week 1 Sept 14 vs DEN is the target — not a medical hold.",
-      "impact": "MILD",
-      "source": "NFL.com / AP / ESPN camp, Aug 2026",
-      "headlines": [
-        "Cleared for full camp with no limitations (Reid + Dr. Cooper). Taking 1st-team 11-on-11. Unlikely to play preseason. Week 1 Sept 14 vs DEN is the target — not a medical hold."
-      ],
-      "old_rank": 37,
-      "new_rank": 46,
-      "old_ppg": 13.95,
-      "new_ppg": 13.25,
-      "position": "QB",
-      "team": "KC",
-      "updated": "2026-08-12",
-      "auto_generated": false,
-      "from_override": true
     },
     "Sam LaPorta": {
       "status": "MILD",
@@ -612,7 +611,7 @@
       "headlines": [
         "Sam LaPorta - Questionable"
       ],
-      "old_rank": 95,
+      "old_rank": 94,
       "new_rank": 103,
       "old_ppg": 9.76,
       "new_ppg": 9.08,
@@ -633,8 +632,8 @@
       "headlines": [
         "Jalen McMillan - Questionable"
       ],
-      "old_rank": 167,
-      "new_rank": 187,
+      "old_rank": 169,
+      "new_rank": 189,
       "old_ppg": 6.34,
       "new_ppg": 5.9,
       "position": "WR",
@@ -664,27 +663,6 @@
       "auto_generated": true,
       "from_override": false
     },
-    "Kenyon Sadiq": {
-      "status": "NEUTRAL",
-      "injury": "Surgery Surgery Surgery",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Surgery",
-      "impact": "NEUTRAL",
-      "source": "Sleeper",
-      "headlines": [
-        "Surgery"
-      ],
-      "old_rank": 215,
-      "new_rank": 213,
-      "old_ppg": 5.5,
-      "new_ppg": 5.5,
-      "position": "TE",
-      "team": "NYJ",
-      "updated": "2026-08-27",
-      "auto_generated": true,
-      "from_override": false
-    },
     "Tre' Harris": {
       "status": "MILD",
       "injury": "Tre' Harris - Questionable Tre' Harris listed as Questionable",
@@ -696,8 +674,8 @@
       "headlines": [
         "Tre' Harris - Questionable"
       ],
-      "old_rank": 210,
-      "new_rank": 223,
+      "old_rank": 211,
+      "new_rank": 225,
       "old_ppg": 5.58,
       "new_ppg": 5.19,
       "position": "WR",
@@ -715,10 +693,9 @@
       "impact": "MODERATE",
       "source": "Sleeper",
       "headlines": [
-        "Surgery",
         "Isaac Guerendo - PUP"
       ],
-      "old_rank": 227,
+      "old_rank": 229,
       "new_rank": 271,
       "old_ppg": 5.21,
       "new_ppg": 4.27,
@@ -739,33 +716,12 @@
       "headlines": [
         "Christian McCaffrey - Questionable"
       ],
-      "old_rank": 25,
+      "old_rank": 24,
       "new_rank": 33,
       "old_ppg": 15.81,
       "new_ppg": 14.7,
       "position": "RB",
       "team": "SF",
-      "updated": "2026-08-27",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Keon Coleman": {
-      "status": "NEUTRAL",
-      "injury": "Sprain Sprain Sprain",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Sprain",
-      "impact": "NEUTRAL",
-      "source": "Sleeper",
-      "headlines": [
-        "Sprain"
-      ],
-      "old_rank": 200,
-      "new_rank": 197,
-      "old_ppg": 5.73,
-      "new_ppg": 5.73,
-      "position": "WR",
-      "team": "BUF",
       "updated": "2026-08-27",
       "auto_generated": true,
       "from_override": false
@@ -779,11 +735,10 @@
       "impact": "MODERATE",
       "source": "Sleeper",
       "headlines": [
-        "Surgery",
         "Zach Charbonnet - PUP"
       ],
-      "old_rank": 171,
-      "new_rank": 234,
+      "old_rank": 173,
+      "new_rank": 235,
       "old_ppg": 6.14,
       "new_ppg": 5.03,
       "position": "RB",
@@ -813,6 +768,27 @@
       "auto_generated": false,
       "from_override": true
     },
+    "Patrick Mahomes": {
+      "status": "RETURNING",
+      "injury": "ACL + LCL (Week 15 2025) — fully cleared for camp",
+      "week1_outlook": "LIKELY — 1st-team camp reps; Reid sitting him in preseason only",
+      "ppg_multiplier": 0.95,
+      "ranking_note": "Cleared for full camp with no limitations (Reid + Dr. Cooper). Taking 1st-team 11-on-11. Unlikely to play preseason. Week 1 Sept 14 vs DEN is the target — not a medical hold.",
+      "impact": "MILD",
+      "source": "NFL.com / AP / ESPN camp, Aug 2026",
+      "headlines": [
+        "Cleared for full camp with no limitations (Reid + Dr. Cooper). Taking 1st-team 11-on-11. Unlikely to play preseason. Week 1 Sept 14 vs DEN is the target — not a medical hold."
+      ],
+      "old_rank": 37,
+      "new_rank": 46,
+      "old_ppg": 13.95,
+      "new_ppg": 13.25,
+      "position": "QB",
+      "team": "KC",
+      "updated": "2026-08-12",
+      "auto_generated": false,
+      "from_override": true
+    },
     "Jaylen Waddle": {
       "status": "MONITOR",
       "injury": "Muscle tightness (left practice Aug 5)",
@@ -824,8 +800,8 @@
       "headlines": [
         "Monitor. Tightness only but has injury history. Now with DEN (Bo Nix) after March 2026 trade from MIA."
       ],
-      "old_rank": 173,
-      "new_rank": 194,
+      "old_rank": 176,
+      "new_rank": 196,
       "old_ppg": 6.05,
       "new_ppg": 5.75,
       "position": "WR",
@@ -845,7 +821,7 @@
       "headlines": [
         "Healthy and practicing. Suspension risk remains."
       ],
-      "old_rank": 325,
+      "old_rank": 324,
       "new_rank": 329,
       "old_ppg": 1.89,
       "new_ppg": 1.7,
@@ -866,7 +842,7 @@
       "headlines": [
         "Camp questionable. ATL backup risk with Penix available."
       ],
-      "old_rank": 89,
+      "old_rank": 88,
       "new_rank": 107,
       "old_ppg": 10.43,
       "new_ppg": 8.87,
@@ -887,7 +863,7 @@
       "headlines": [
         "Clocking 22mph in camp. No issues. Undervalued WAS sleeper. Daniels connection real."
       ],
-      "old_rank": 77,
+      "old_rank": 76,
       "new_rank": 75,
       "old_ppg": 11.06,
       "new_ppg": 11.39,
@@ -929,7 +905,7 @@
       "headlines": [
         "Minor thumb issue. Not serious. Monitor."
       ],
-      "old_rank": 110,
+      "old_rank": 109,
       "new_rank": 111,
       "old_ppg": 8.79,
       "new_ppg": 8.53,
