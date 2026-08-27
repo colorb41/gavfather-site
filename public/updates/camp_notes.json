@@ -1,10 +1,34 @@
 {
-  "updated": "2026-08-27T06:41:48",
+  "updated": "2026-08-27T18:44:15",
   "source": "CampResearcher.v2",
   "override_count": 15,
-  "player_count": 47,
-  "news_items_processed": 310,
+  "player_count": 48,
+  "news_items_processed": 313,
   "players": {
+    "Alec Pierce": {
+      "status": "MODERATE",
+      "injury": "PUP list Alec Pierce (ankle) activated from",
+      "week1_outlook": "UNCERTAIN",
+      "ppg_multiplier": 0.82,
+      "ranking_note": "Alec Pierce (ankle) activated from PUP list Thu, Aug 27th 10:42am EDT By Nate Miller",
+      "impact": "MODERATE",
+      "source": "FantasyPros",
+      "headlines": [
+        "Alec Pierce (ankle) activated from PUP list",
+        "Alec Pierce",
+        "Alec Pierce , Colts (ankle) : Pierce was activated off the PUP list on August 27.",
+        "Surgery"
+      ],
+      "old_rank": 199,
+      "new_rank": 251,
+      "old_ppg": 5.73,
+      "new_ppg": 4.7,
+      "position": "WR",
+      "team": "IND",
+      "updated": "2026-08-27",
+      "auto_generated": true,
+      "from_override": false
+    },
     "Mike Evans": {
       "status": "NEUTRAL",
       "injury": "Mike Evans (groin) planning to play Week 1 Mike Evans (groin) planning to play Week 1 Wed, Aug 26th 7:53pm EDT By Diego ",
@@ -17,7 +41,7 @@
         "Mike Evans (groin) planning to play Week 1",
         "Mike Evans"
       ],
-      "old_rank": 91,
+      "old_rank": 92,
       "new_rank": 90,
       "old_ppg": 10.19,
       "new_ppg": 10.19,
@@ -60,8 +84,8 @@
         "James Conner (foot) progressing, uncertain for Week 1",
         "James Conner"
       ],
-      "old_rank": 119,
-      "new_rank": 121,
+      "old_rank": 121,
+      "new_rank": 120,
       "old_ppg": 8.45,
       "new_ppg": 8.45,
       "position": "RB",
@@ -70,24 +94,108 @@
       "auto_generated": true,
       "from_override": false
     },
-    "Calvin Austin": {
-      "status": "SEASON_ENDING",
-      "injury": "torn ACL",
-      "week1_outlook": "OUT",
+    "Wan'Dale Robinson": {
+      "status": "NEUTRAL",
+      "injury": "Wan'Dale Robinson Wan'Dale Robinson Being evaluated for concussion WR Tennessee Titans Head August 27, 2026 Robinson is ",
+      "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "Calvin Austin III (knee) out for the season with torn ACL Wed, Aug 26th 8:36am EDT By Garrett Ball",
-      "impact": "SEASON_ENDING",
-      "source": "FantasyPros",
+      "ranking_note": "Wan'Dale Robinson Being evaluated for concussion WR Tennessee Titans Head August 27, 2026 Robinson is being evaluated for a concussion after taking a hard hit in Thursday's joint practice with the Bears, Turron Davenport of ESPN.com reports",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
       "headlines": [
-        "Calvin Austin III (knee) out for the season with torn ACL",
-        "Calvin Austin"
+        "Wan'Dale Robinson"
       ],
-      "old_rank": 215,
-      "new_rank": 212,
-      "old_ppg": 5.52,
-      "new_ppg": 5.52,
+      "old_rank": 166,
+      "new_rank": 166,
+      "old_ppg": 6.36,
+      "new_ppg": 6.36,
       "position": "WR",
-      "team": "NYG",
+      "team": "TEN",
+      "updated": "2026-08-27",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Keenan Allen": {
+      "status": "NEUTRAL",
+      "injury": "irst appearance with the Colts in Saturday",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Keenan Allen Will make Colts debut Saturday WR Indianapolis Colts August 27, 2026 Allen will make his first appearance with the Colts in Saturday's preseason finale against the Lions, James Boyd of The Athletic reports. ANALYSIS Subscribe n",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Keenan Allen"
+      ],
+      "old_rank": 157,
+      "new_rank": 158,
+      "old_ppg": 6.85,
+      "new_ppg": 6.85,
+      "position": "WR",
+      "team": "IND",
+      "updated": "2026-08-27",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Isiah Pacheco": {
+      "status": "NEUTRAL",
+      "injury": "knee injury",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Isiah Pacheco Picks up back injury RB Detroit Lions Back August 27, 2026 Pacheco's knee injury, per head coach Dan Campbell, is not a concern, but he is now dealing with a back injury, Dave Birkett of the Detroit Free Press reports. ANALYSI",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Isiah Pacheco"
+      ],
+      "old_rank": 188,
+      "new_rank": 185,
+      "old_ppg": 5.94,
+      "new_ppg": 5.94,
+      "position": "RB",
+      "team": "DET",
+      "updated": "2026-08-27",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Cedric Tillman": {
+      "status": "NEUTRAL",
+      "injury": "Undisclosed August 27",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Cedric Tillman Being let go by Cleveland WR Cleveland Browns Undisclosed August 27, 2026 Tillman (undisclosed) is in line to be cut by the Browns, Adam Schefter of ESPN reports. ANALYSIS Subscribe now to instantly reveal our take on this ne",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Cedric Tillman"
+      ],
+      "old_rank": 202,
+      "new_rank": 200,
+      "old_ppg": 5.72,
+      "new_ppg": 5.72,
+      "position": "WR",
+      "team": "CLE",
+      "updated": "2026-08-27",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "DK Metcalf": {
+      "status": "MILD",
+      "injury": "DK Metcalf - Questionable DK Metcalf listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "DK Metcalf listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "DK Metcalf",
+        "DK Metcalf - Questionable"
+      ],
+      "old_rank": 130,
+      "new_rank": 152,
+      "old_ppg": 7.67,
+      "new_ppg": 7.13,
+      "position": "WR",
+      "team": "PIT",
       "updated": "2026-08-27",
       "auto_generated": true,
       "from_override": false
@@ -145,33 +253,12 @@
       "headlines": [
         "Theo Johnson"
       ],
-      "old_rank": 269,
+      "old_rank": 268,
       "new_rank": 265,
       "old_ppg": 4.4,
       "new_ppg": 4.4,
       "position": "TE",
       "team": "NYG",
-      "updated": "2026-08-27",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Keenan Allen": {
-      "status": "NEUTRAL",
-      "injury": "Keenan Allen August 26, 2026 Dulin may play more on special teams after the Colts signed Keenan Allen this summer, Natha",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "August 26, 2026 Dulin may play more on special teams after the Colts signed Keenan Allen this summer, Nathan Brown of The Indianapolis Star reports. ANALYSIS Subscribe now to instantly reveal our take on this news.",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Keenan Allen"
-      ],
-      "old_rank": 157,
-      "new_rank": 158,
-      "old_ppg": 6.85,
-      "new_ppg": 6.85,
-      "position": "WR",
-      "team": "IND",
       "updated": "2026-08-27",
       "auto_generated": true,
       "from_override": false
@@ -187,8 +274,8 @@
       "headlines": [
         "Kenneth Walker"
       ],
-      "old_rank": 41,
-      "new_rank": 41,
+      "old_rank": 40,
+      "new_rank": 43,
       "old_ppg": 13.5,
       "new_ppg": 13.5,
       "position": "RB",
@@ -208,7 +295,7 @@
       "headlines": [
         "Luther Burden"
       ],
-      "old_rank": 86,
+      "old_rank": 87,
       "new_rank": 77,
       "old_ppg": 10.5,
       "new_ppg": 11.03,
@@ -230,8 +317,8 @@
         "Jeremiyah Love",
         "Jeremiyah Love, Cardinals (ankle) : Love is dealing with a high ankle sprain but the Cardinals are hopeful he'll be ready for Week 1 (we've been hearing a lot o"
       ],
-      "old_rank": 42,
-      "new_rank": 42,
+      "old_rank": 43,
+      "new_rank": 37,
       "old_ppg": 13.5,
       "new_ppg": 13.5,
       "position": "RB",
@@ -251,7 +338,7 @@
       "headlines": [
         "Zay Flowers"
       ],
-      "old_rank": 125,
+      "old_rank": 126,
       "new_rank": 125,
       "old_ppg": 7.93,
       "new_ppg": 7.93,
@@ -272,7 +359,7 @@
       "headlines": [
         "Josh Downs"
       ],
-      "old_rank": 124,
+      "old_rank": 125,
       "new_rank": 124,
       "old_ppg": 8.17,
       "new_ppg": 8.17,
@@ -303,70 +390,6 @@
       "auto_generated": true,
       "from_override": false
     },
-    "Jalen McMillan": {
-      "status": "MILD",
-      "injury": "Jalen McMillan - Questionable Jalen McMillan listed as Questionable",
-      "week1_outlook": "EXPECTED OK",
-      "ppg_multiplier": 0.93,
-      "ranking_note": "Jalen McMillan listed as Questionable. ",
-      "impact": "MILD",
-      "source": "Sleeper",
-      "headlines": [
-        "Jalen McMillan",
-        "Jalen McMillan - Questionable"
-      ],
-      "old_rank": 167,
-      "new_rank": 187,
-      "old_ppg": 6.34,
-      "new_ppg": 5.9,
-      "position": "WR",
-      "team": "TB",
-      "updated": "2026-08-27",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Brian Thomas": {
-      "status": "NEUTRAL",
-      "injury": "Brian Thomas Brian Thomas Practicing Wednesday, not taking contact WR Jacksonville Jaguars Shoulder August 26, 2026 Thom",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Brian Thomas Practicing Wednesday, not taking contact WR Jacksonville Jaguars Shoulder August 26, 2026 Thomas (shoulder) was present on the field for Wednesday's joint practice with the Buccaneers while sporting a no-contact jersey, John Sh",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Brian Thomas"
-      ],
-      "old_rank": 49,
-      "new_rank": 49,
-      "old_ppg": 13.0,
-      "new_ppg": 13.0,
-      "position": "WR",
-      "team": "JAX",
-      "updated": "2026-08-27",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Darnell Mooney": {
-      "status": "SEVERE",
-      "injury": "torn ACL",
-      "week1_outlook": "UNLIKELY",
-      "ppg_multiplier": 0.65,
-      "ranking_note": "Darnell Mooney Could have path to No. 3 role sans Austin WR New York Giants August 26, 2026 Mooney could have a chance to open the season as the Giants' No. 3 receiver after Calvin Austin (knee) sustained a torn ACL in Tuesday's practice, J",
-      "impact": "SEVERE",
-      "source": "RotoWire",
-      "headlines": [
-        "Darnell Mooney"
-      ],
-      "old_rank": 232,
-      "new_rank": 298,
-      "old_ppg": 5.12,
-      "new_ppg": 3.33,
-      "position": "WR",
-      "team": "NYG",
-      "updated": "2026-08-27",
-      "auto_generated": true,
-      "from_override": false
-    },
     "Rico Dowdle": {
       "status": "POSITIVE",
       "injury": "That cleared the way for Rico Dowdle to take over the backfield",
@@ -378,7 +401,7 @@
       "headlines": [
         "That cleared the way for Rico Dowdle to take over the backfield."
       ],
-      "old_rank": 121,
+      "old_rank": 122,
       "new_rank": 108,
       "old_ppg": 8.41,
       "new_ppg": 8.83,
@@ -430,6 +453,27 @@
       "auto_generated": false,
       "from_override": true
     },
+    "Daniel Jones": {
+      "status": "SEVERE",
+      "injury": "Achilles tear",
+      "week1_outlook": "UNLIKELY",
+      "ppg_multiplier": 0.65,
+      "ranking_note": "Continue to monitor this situation, as well as the status of QB Daniel Jones , who is coming back from an Achilles tear.",
+      "impact": "SEVERE",
+      "source": "Yahoo Sports",
+      "headlines": [
+        "Continue to monitor this situation, as well as the status of QB Daniel Jones , who is coming back from an Achilles tear."
+      ],
+      "old_rank": 67,
+      "new_rank": 126,
+      "old_ppg": 12.08,
+      "new_ppg": 7.85,
+      "position": "QB",
+      "team": "IND",
+      "updated": "2026-08-27",
+      "auto_generated": true,
+      "from_override": false
+    },
     "George Kittle": {
       "status": "PUP",
       "injury": "Achilles tear (January 2026 playoffs)",
@@ -442,7 +486,7 @@
         "Achilles PUP — late-round dart only until cleared. McBride and Bowers are the TE1/TE2."
       ],
       "old_rank": 217,
-      "new_rank": 307,
+      "new_rank": 306,
       "old_ppg": 5.5,
       "new_ppg": 2.75,
       "position": "TE",
@@ -462,7 +506,7 @@
       "headlines": [
         "Breece Hall, NYJ (groin) — out 2-3 weeks"
       ],
-      "old_rank": 89,
+      "old_rank": 90,
       "new_rank": 88,
       "old_ppg": 10.38,
       "new_ppg": 10.38,
@@ -483,8 +527,8 @@
       "headlines": [
         "Kyle Monangai, CHI (knee) — expected to miss multiple weeks"
       ],
-      "old_rank": 112,
-      "new_rank": 117,
+      "old_rank": 113,
+      "new_rank": 116,
       "old_ppg": 8.5,
       "new_ppg": 8.5,
       "position": "RB",
@@ -505,8 +549,8 @@
         "Jordyn Tyson, NO (hamstring) — expected to miss start of season",
         "Strain"
       ],
-      "old_rank": 183,
-      "new_rank": 180,
+      "old_rank": 182,
+      "new_rank": 175,
       "old_ppg": 6.0,
       "new_ppg": 6.0,
       "position": "WR",
@@ -568,12 +612,33 @@
       "headlines": [
         "Sam LaPorta - Questionable"
       ],
-      "old_rank": 94,
+      "old_rank": 95,
       "new_rank": 103,
       "old_ppg": 9.76,
       "new_ppg": 9.08,
       "position": "TE",
       "team": "DET",
+      "updated": "2026-08-27",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Jalen McMillan": {
+      "status": "MILD",
+      "injury": "Jalen McMillan - Questionable Jalen McMillan listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Jalen McMillan listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "Jalen McMillan - Questionable"
+      ],
+      "old_rank": 167,
+      "new_rank": 187,
+      "old_ppg": 6.34,
+      "new_ppg": 5.9,
+      "position": "WR",
+      "team": "TB",
       "updated": "2026-08-27",
       "auto_generated": true,
       "from_override": false
@@ -589,7 +654,7 @@
       "headlines": [
         "Jeremy McNichols - Questionable"
       ],
-      "old_rank": 260,
+      "old_rank": 259,
       "new_rank": 272,
       "old_ppg": 4.55,
       "new_ppg": 4.23,
@@ -610,7 +675,7 @@
       "headlines": [
         "Surgery"
       ],
-      "old_rank": 218,
+      "old_rank": 215,
       "new_rank": 213,
       "old_ppg": 5.5,
       "new_ppg": 5.5,
@@ -632,7 +697,7 @@
         "Tre' Harris - Questionable"
       ],
       "old_rank": 210,
-      "new_rank": 224,
+      "new_rank": 223,
       "old_ppg": 5.58,
       "new_ppg": 5.19,
       "position": "WR",
@@ -653,7 +718,7 @@
         "Surgery",
         "Isaac Guerendo - PUP"
       ],
-      "old_rank": 228,
+      "old_rank": 227,
       "new_rank": 271,
       "old_ppg": 5.21,
       "new_ppg": 4.27,
@@ -684,28 +749,6 @@
       "auto_generated": true,
       "from_override": false
     },
-    "Alec Pierce": {
-      "status": "MODERATE",
-      "injury": "PUP Alec Pierce listed as PUP",
-      "week1_outlook": "UNCERTAIN",
-      "ppg_multiplier": 0.82,
-      "ranking_note": "Alec Pierce listed as PUP. ",
-      "impact": "MODERATE",
-      "source": "Sleeper",
-      "headlines": [
-        "Surgery",
-        "Alec Pierce - PUP"
-      ],
-      "old_rank": 200,
-      "new_rank": 251,
-      "old_ppg": 5.73,
-      "new_ppg": 4.7,
-      "position": "WR",
-      "team": "IND",
-      "updated": "2026-08-27",
-      "auto_generated": true,
-      "from_override": false
-    },
     "Keon Coleman": {
       "status": "NEUTRAL",
       "injury": "Sprain Sprain Sprain",
@@ -717,8 +760,8 @@
       "headlines": [
         "Sprain"
       ],
-      "old_rank": 198,
-      "new_rank": 198,
+      "old_rank": 200,
+      "new_rank": 197,
       "old_ppg": 5.73,
       "new_ppg": 5.73,
       "position": "WR",
@@ -745,27 +788,6 @@
       "new_ppg": 5.03,
       "position": "RB",
       "team": "SEA",
-      "updated": "2026-08-27",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "DK Metcalf": {
-      "status": "MILD",
-      "injury": "DK Metcalf - Questionable DK Metcalf listed as Questionable",
-      "week1_outlook": "EXPECTED OK",
-      "ppg_multiplier": 0.93,
-      "ranking_note": "DK Metcalf listed as Questionable. ",
-      "impact": "MILD",
-      "source": "Sleeper",
-      "headlines": [
-        "DK Metcalf - Questionable"
-      ],
-      "old_rank": 130,
-      "new_rank": 152,
-      "old_ppg": 7.67,
-      "new_ppg": 7.13,
-      "position": "WR",
-      "team": "PIT",
       "updated": "2026-08-27",
       "auto_generated": true,
       "from_override": false
@@ -802,7 +824,7 @@
       "headlines": [
         "Monitor. Tightness only but has injury history. Now with DEN (Bo Nix) after March 2026 trade from MIA."
       ],
-      "old_rank": 174,
+      "old_rank": 173,
       "new_rank": 194,
       "old_ppg": 6.05,
       "new_ppg": 5.75,
@@ -823,8 +845,8 @@
       "headlines": [
         "Healthy and practicing. Suspension risk remains."
       ],
-      "old_rank": 326,
-      "new_rank": 330,
+      "old_rank": 325,
+      "new_rank": 329,
       "old_ppg": 1.89,
       "new_ppg": 1.7,
       "position": "",
@@ -844,7 +866,7 @@
       "headlines": [
         "Camp questionable. ATL backup risk with Penix available."
       ],
-      "old_rank": 88,
+      "old_rank": 89,
       "new_rank": 107,
       "old_ppg": 10.43,
       "new_ppg": 8.87,
@@ -865,7 +887,7 @@
       "headlines": [
         "Clocking 22mph in camp. No issues. Undervalued WAS sleeper. Daniels connection real."
       ],
-      "old_rank": 76,
+      "old_rank": 77,
       "new_rank": 75,
       "old_ppg": 11.06,
       "new_ppg": 11.39,
@@ -907,7 +929,7 @@
       "headlines": [
         "Minor thumb issue. Not serious. Monitor."
       ],
-      "old_rank": 109,
+      "old_rank": 110,
       "new_rank": 111,
       "old_ppg": 8.79,
       "new_ppg": 8.53,
