@@ -4,7 +4,7 @@ date: "2026-08-28"
 week: 0
 theme: "Camp Report"
 category: "research"
-excerpt: "The Gavfather System auto-processed 286 camp news items. 22 players affected."
+excerpt: "The Gavfather System auto-processed 274 camp news items. 21 players affected."
 ---
 
 # Camp Report: Week 9
@@ -15,7 +15,7 @@ excerpt: "The Gavfather System auto-processed 286 camp news items. 22 players af
 ---
 
 The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports — zero manual input.
-22 players had ranking adjustments applied automatically this week.
+21 players had ranking adjustments applied automatically this week.
 
 ## The Biggest Story
 
@@ -27,17 +27,14 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 **George Kittle** — PUP | Achilles tear (January 2026 playoffs)
 *Achilles PUP — late-round dart only until cleared. McBride and Bowers are the TE1/TE2.*
 
-**Daniel Jones** — SEVERE | Achilles tear
-*Continue to monitor this situation, as well as the status of QB Daniel Jones, who is coming back from an Achilles tear.*
-
 **Ricky Pearsall** — SEASON_ENDING | PCL - likely out for 2026 season
 *REMOVE from rankings. SF passes go to Evans and others.*
 
 ## Positive Developments
 
-**Tucker Kraft** — RETURNING | Rising sleeper TE. Ahead of schedule. GB passing game benefits.
-
 **Rico Dowdle** — POSITIVE | That cleared the way for Rico Dowdle to take over the backfield.
+
+**Tucker Kraft** — RETURNING | Rising sleeper TE. Ahead of schedule. GB passing game benefits.
 
 **Terry McLaurin** — HEALTHY | Clocking 22mph in camp. No issues. Undervalued WAS sleeper. Daniels connection real.
 
@@ -51,11 +48,11 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 
 ## This Week's Best Values
 
-**Jauan Jennings (WR, MIN)** — We have WR32, market has WR63
+**Jauan Jennings (WR, MIN)** — We have WR32, market has WR64
 **Rashid Shaheed (WR, SEA)** — We have WR28, market has WR55
-**Alvin Kamara (RB, NO)** — We have RB26, market has RB53
 **Jerry Jeudy (WR, CLE)** — We have WR31, market has WR56
-**Cooper Kupp (WR, SEA)** — We have WR44, market has WR68
+**Alvin Kamara (RB, NO)** — We have RB26, market has RB51
+**Cooper Kupp (WR, SEA)** — We have WR44, market has WR67
 
 ---
 
@@ -68,4 +65,4 @@ An offer your roster can't refuse.
 
 ---
 
-*Auto-generated August 28, 2026 03:58 PM. Sources: FantasyPros, RotoWire, Sleeper, Yahoo.*
+*Auto-generated August 28, 2026 10:59 PM. Sources: FantasyPros, RotoWire, Sleeper, Yahoo.*
