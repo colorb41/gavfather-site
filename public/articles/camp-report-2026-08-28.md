@@ -4,7 +4,7 @@ date: "2026-08-28"
 week: 0
 theme: "Camp Report"
 category: "research"
-excerpt: "The Gavfather System auto-processed 297 camp news items. 22 players affected."
+excerpt: "The Gavfather System auto-processed 263 camp news items. 21 players affected."
 ---
 
 # Camp Report: Week 9
@@ -15,7 +15,7 @@ excerpt: "The Gavfather System auto-processed 297 camp news items. 22 players af
 ---
 
 The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports — zero manual input.
-22 players had ranking adjustments applied automatically this week.
+21 players had ranking adjustments applied automatically this week.
 
 ## The Biggest Story
 
@@ -26,9 +26,6 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 
 **George Kittle** — PUP | Achilles tear (January 2026 playoffs)
 *Achilles PUP — late-round dart only until cleared. McBride and Bowers are the TE1/TE2.*
-
-**Daniel Jones** — SEVERE | Achilles tear
-*Continue to monitor this situation, as well as the status of QB Daniel Jones, who is coming back from an Achilles tear.*
 
 **Ricky Pearsall** — SEASON_ENDING | PCL - likely out for 2026 season
 *REMOVE from rankings. SF passes go to Evans and others.*
@@ -68,4 +65,4 @@ An offer your roster can't refuse.
 
 ---
 
-*Auto-generated August 28, 2026 03:59 AM. Sources: FantasyPros, RotoWire, Sleeper, Yahoo.*
+*Auto-generated August 28, 2026 06:00 AM. Sources: FantasyPros, RotoWire, Sleeper, Yahoo.*

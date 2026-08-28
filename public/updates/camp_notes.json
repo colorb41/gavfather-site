@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-28T03:59:05",
+  "updated": "2026-08-28T06:00:44",
   "source": "CampResearcher.v2",
   "override_count": 15,
-  "player_count": 49,
-  "news_items_processed": 297,
+  "player_count": 45,
+  "news_items_processed": 263,
   "players": {
     "TreVeyon Henderson": {
       "status": "MILD",
@@ -15,7 +15,6 @@
       "source": "Sleeper",
       "headlines": [
         "TreVeyon Henderson (ankle) expected to be \"good to go\" for Week 1",
-        "TreVeyon Henderson",
         "TreVeyon Henderson - Questionable"
       ],
       "old_rank": 59,
@@ -38,10 +37,9 @@
       "source": "FantasyPros",
       "headlines": [
         "Alec Pierce (ankle) activated from PUP list",
-        "Alec Pierce, Colts (ankle) : Pierce was activated off the PUP list on August 27.",
-        "Surgery"
+        "Alec Pierce, Colts (ankle) : Pierce was activated off the PUP list on August 27."
       ],
-      "old_rank": 199,
+      "old_rank": 201,
       "new_rank": 249,
       "old_ppg": 5.73,
       "new_ppg": 4.7,
@@ -63,7 +61,7 @@
         "Mike Evans (groin) planning to play Week 1",
         "Mike Evans, SF (groin) — plans to play Week 1"
       ],
-      "old_rank": 91,
+      "old_rank": 90,
       "new_rank": 89,
       "old_ppg": 10.19,
       "new_ppg": 10.19,
@@ -105,12 +103,96 @@
       "headlines": [
         "James Conner (foot) progressing, uncertain for Week 1"
       ],
-      "old_rank": 120,
+      "old_rank": 119,
       "new_rank": 120,
       "old_ppg": 8.45,
       "new_ppg": 8.45,
       "position": "RB",
       "team": "ARI",
+      "updated": "2026-08-28",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Quentin Johnston": {
+      "status": "NEUTRAL",
+      "injury": "Quentin Johnston Quentin Johnston Hauls in long TD in preseason loss WR Los Angeles Chargers August 27, 2026 Johnston (l",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Quentin Johnston Hauls in long TD in preseason loss WR Los Angeles Chargers August 27, 2026 Johnston (lower body) brought in one of two targets for a 65-yard touchdown in the Chargers' 20-18 preseason loss to the Rams on Thursday. ANALYSIS ",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Quentin Johnston"
+      ],
+      "old_rank": 152,
+      "new_rank": 151,
+      "old_ppg": 7.19,
+      "new_ppg": 7.19,
+      "position": "WR",
+      "team": "LAC",
+      "updated": "2026-08-28",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Justin Herbert": {
+      "status": "NEUTRAL",
+      "injury": "Justin Herbert Justin Herbert Stellar in cameo Thursday QB Los Angeles Chargers August 27, 2026 Herbert completed two of",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Justin Herbert Stellar in cameo Thursday QB Los Angeles Chargers August 27, 2026 Herbert completed two of three passes for 74 yards and a touchdown, rushed once for no gain and lost a fumble in the Chargers' 20-18 preseason loss to the Rams",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Justin Herbert"
+      ],
+      "old_rank": 6,
+      "new_rank": 6,
+      "old_ppg": 19.74,
+      "new_ppg": 19.74,
+      "position": "QB",
+      "team": "LAC",
+      "updated": "2026-08-28",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Michael Mayer": {
+      "status": "NEUTRAL",
+      "injury": "Michael Mayer Michael Mayer Two catches in loss TE Las Vegas Raiders August 27, 2026 Mayer caught both of his targets fo",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Michael Mayer Two catches in loss TE Las Vegas Raiders August 27, 2026 Mayer caught both of his targets for eight yards in Thursday night's 18-12 preseason loss to the 49ers. ANALYSIS Subscribe now to instantly reveal our take on this news.",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Michael Mayer"
+      ],
+      "old_rank": 298,
+      "new_rank": 297,
+      "old_ppg": 3.23,
+      "new_ppg": 3.23,
+      "position": "TE",
+      "team": "LV",
+      "updated": "2026-08-28",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Mason Rudolph": {
+      "status": "NEUTRAL",
+      "injury": "Mason Rudolph Mason Rudolph DNP on Thursday QB Pittsburgh Steelers August 27, 2026 Rudolph did not play in Thursday nigh",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Mason Rudolph DNP on Thursday QB Pittsburgh Steelers August 27, 2026 Rudolph did not play in Thursday night's preseason finale against the Bills. ANALYSIS Subscribe now to instantly reveal our take on this news.",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Mason Rudolph"
+      ],
+      "old_rank": 72,
+      "new_rank": 72,
+      "old_ppg": 11.57,
+      "new_ppg": 11.57,
+      "position": "QB",
+      "team": "PIT",
       "updated": "2026-08-28",
       "auto_generated": true,
       "from_override": false
@@ -168,8 +250,8 @@
       "headlines": [
         "Kaelon Black"
       ],
-      "old_rank": 116,
-      "new_rank": 115,
+      "old_rank": 111,
+      "new_rank": 118,
       "old_ppg": 8.5,
       "new_ppg": 8.5,
       "position": "RB",
@@ -189,7 +271,7 @@
       "headlines": [
         "Kirk Cousins"
       ],
-      "old_rank": 72,
+      "old_rank": 71,
       "new_rank": 71,
       "old_ppg": 11.59,
       "new_ppg": 11.59,
@@ -210,8 +292,8 @@
       "headlines": [
         "Mike Washington"
       ],
-      "old_rank": 112,
-      "new_rank": 118,
+      "old_rank": 116,
+      "new_rank": 115,
       "old_ppg": 8.5,
       "new_ppg": 8.5,
       "position": "RB",
@@ -232,7 +314,7 @@
         "Brock Bowers"
       ],
       "old_rank": 60,
-      "new_rank": 63,
+      "new_rank": 59,
       "old_ppg": 12.5,
       "new_ppg": 12.5,
       "position": "TE",
@@ -274,138 +356,11 @@
         "A.J. Brown"
       ],
       "old_rank": 31,
-      "new_rank": 30,
+      "new_rank": 28,
       "old_ppg": 15.0,
       "new_ppg": 15.0,
       "position": "WR",
       "team": "NE",
-      "updated": "2026-08-28",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "De'Zhaun Stribling": {
-      "status": "NEUTRAL",
-      "injury": "De'Zhaun Stribling De'Zhaun Stribling Not playing in preseason finale WR San Francisco 49ers Shoulder August 27, 2026 St",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "De'Zhaun Stribling Not playing in preseason finale WR San Francisco 49ers Shoulder August 27, 2026 Stribling (shoulder) won't suit up for Thursday's preseason contest at Las Vegas, David Lombardi of SFStandard.com reports. ANALYSIS Subscrib",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "De'Zhaun Stribling"
-      ],
-      "old_rank": 144,
-      "new_rank": 140,
-      "old_ppg": 7.5,
-      "new_ppg": 7.5,
-      "position": "WR",
-      "team": "SF",
-      "updated": "2026-08-28",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Tutu Atwell": {
-      "status": "NEUTRAL",
-      "injury": "Tutu Atwell August 27, 2026 Hunter was traded from the Rams to the Dolphins in exchange for wide receiver Tutu Atwell on",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "August 27, 2026 Hunter was traded from the Rams to the Dolphins in exchange for wide receiver Tutu Atwell on Thursday, Adam Schefter of ESPN reports. ANALYSIS Subscribe now to instantly reveal our take on this news.",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Tutu Atwell"
-      ],
-      "old_rank": 228,
-      "new_rank": 224,
-      "old_ppg": 5.18,
-      "new_ppg": 5.18,
-      "position": "WR",
-      "team": "LAR",
-      "updated": "2026-08-28",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Aaron Rodgers": {
-      "status": "NEUTRAL",
-      "injury": "Aaron Rodgers Aaron Rodgers Won't play Thursday QB Pittsburgh Steelers August 27, 2026 Rodgers isn't in uniform for Thur",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Aaron Rodgers Won't play Thursday QB Pittsburgh Steelers August 27, 2026 Rodgers isn't in uniform for Thursday's preseason contest at Buffalo, Alan Saunders of SteelersNow.com reports. ANALYSIS Subscribe now to instantly reveal our take on ",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Aaron Rodgers"
-      ],
-      "old_rank": 66,
-      "new_rank": 65,
-      "old_ppg": 12.2,
-      "new_ppg": 12.2,
-      "position": "QB",
-      "team": "PIT",
-      "updated": "2026-08-28",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Khalil Shakir": {
-      "status": "NEUTRAL",
-      "injury": "ir Khalil Shakir Not suited up Thursday WR",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Khalil Shakir Not suited up Thursday WR Buffalo Bills Undisclosed August 27, 2026 Shakir (undisclosed) isn't in uniform for Thursday's preseason contest against the Steelers, Alex Brasky of SI.com reports. ANALYSIS Subscribe now to instantl",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Khalil Shakir"
-      ],
-      "old_rank": 146,
-      "new_rank": 145,
-      "old_ppg": 7.42,
-      "new_ppg": 7.42,
-      "position": "WR",
-      "team": "BUF",
-      "updated": "2026-08-28",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Josh Jacobs": {
-      "status": "NEUTRAL",
-      "injury": "Josh Jacobs Josh Jacobs Initial court appearance set for November RB Green Bay Packers Groin August 27, 2026 Jacobs, who",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Josh Jacobs Initial court appearance set for November RB Green Bay Packers Groin August 27, 2026 Jacobs, who was charged Thursday with two misdemeanors stemming from his May arrest, is scheduled for an initial court appearance Nov. 17, Rob ",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Josh Jacobs"
-      ],
-      "old_rank": 61,
-      "new_rank": 62,
-      "old_ppg": 12.5,
-      "new_ppg": 12.5,
-      "position": "RB",
-      "team": "GB",
-      "updated": "2026-08-28",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Keon Coleman": {
-      "status": "NEUTRAL",
-      "injury": "Keon Coleman Keon Coleman Sheds walking boot WR Buffalo Bills Foot August 27, 2026 Coleman (right foot/toe) isn't in uni",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Keon Coleman Sheds walking boot WR Buffalo Bills Foot August 27, 2026 Coleman (right foot/toe) isn't in uniform for Thursday's preseason game against the Steelers, but he wasn't wearing a walking boot, Alex Brasky of SI.com reports. ANALYSI",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Keon Coleman",
-        "Sprain"
-      ],
-      "old_rank": 200,
-      "new_rank": 198,
-      "old_ppg": 5.73,
-      "new_ppg": 5.73,
-      "position": "WR",
-      "team": "BUF",
       "updated": "2026-08-28",
       "auto_generated": true,
       "from_override": false
@@ -421,8 +376,8 @@
       "headlines": [
         "Jeremiyah Love, Cardinals (ankle) : Love is dealing with a high ankle sprain but the Cardinals are hopeful he'll be ready for Week 1 (we've been hearing a lot o"
       ],
-      "old_rank": 44,
-      "new_rank": 38,
+      "old_rank": 38,
+      "new_rank": 40,
       "old_ppg": 13.5,
       "new_ppg": 13.5,
       "position": "RB",
@@ -442,7 +397,7 @@
       "headlines": [
         "That cleared the way for Rico Dowdle to take over the backfield."
       ],
-      "old_rank": 122,
+      "old_rank": 121,
       "new_rank": 108,
       "old_ppg": 8.41,
       "new_ppg": 8.83,
@@ -494,27 +449,6 @@
       "auto_generated": false,
       "from_override": true
     },
-    "Daniel Jones": {
-      "status": "SEVERE",
-      "injury": "Achilles tear",
-      "week1_outlook": "UNLIKELY",
-      "ppg_multiplier": 0.65,
-      "ranking_note": "Continue to monitor this situation, as well as the status of QB Daniel Jones, who is coming back from an Achilles tear.",
-      "impact": "SEVERE",
-      "source": "Yahoo Sports",
-      "headlines": [
-        "Continue to monitor this situation, as well as the status of QB Daniel Jones, who is coming back from an Achilles tear."
-      ],
-      "old_rank": 67,
-      "new_rank": 128,
-      "old_ppg": 12.08,
-      "new_ppg": 7.85,
-      "position": "QB",
-      "team": "IND",
-      "updated": "2026-08-28",
-      "auto_generated": true,
-      "from_override": false
-    },
     "George Kittle": {
       "status": "PUP",
       "injury": "Achilles tear (January 2026 playoffs)",
@@ -526,7 +460,7 @@
       "headlines": [
         "Achilles PUP — late-round dart only until cleared. McBride and Bowers are the TE1/TE2."
       ],
-      "old_rank": 215,
+      "old_rank": 217,
       "new_rank": 304,
       "old_ppg": 5.5,
       "new_ppg": 2.75,
@@ -547,7 +481,7 @@
       "headlines": [
         "Breece Hall, NYJ (groin) — out 2-3 weeks"
       ],
-      "old_rank": 89,
+      "old_rank": 88,
       "new_rank": 87,
       "old_ppg": 10.38,
       "new_ppg": 10.38,
@@ -568,8 +502,8 @@
       "headlines": [
         "Kyle Monangai, CHI (knee) — expected to miss multiple weeks"
       ],
-      "old_rank": 114,
-      "new_rank": 117,
+      "old_rank": 113,
+      "new_rank": 114,
       "old_ppg": 8.5,
       "new_ppg": 8.5,
       "position": "RB",
@@ -587,8 +521,7 @@
       "impact": "NEUTRAL",
       "source": "Yahoo Sports",
       "headlines": [
-        "Jordyn Tyson, NO (hamstring) — expected to miss start of season",
-        "Strain"
+        "Jordyn Tyson, NO (hamstring) — expected to miss start of season"
       ],
       "old_rank": 183,
       "new_rank": 181,
@@ -599,27 +532,6 @@
       "updated": "2026-08-28",
       "auto_generated": true,
       "from_override": false
-    },
-    "Patrick Mahomes": {
-      "status": "RETURNING",
-      "injury": "ACL + LCL (Week 15 2025) — fully cleared for camp",
-      "week1_outlook": "LIKELY — 1st-team camp reps; Reid sitting him in preseason only",
-      "ppg_multiplier": 0.95,
-      "ranking_note": "Cleared for full camp with no limitations (Reid + Dr. Cooper). Taking 1st-team 11-on-11. Unlikely to play preseason. Week 1 Sept 14 vs DEN is the target — not a medical hold.",
-      "impact": "MILD",
-      "source": "NFL.com / AP / ESPN camp, Aug 2026",
-      "headlines": [
-        "Cleared for full camp with no limitations (Reid + Dr. Cooper). Taking 1st-team 11-on-11. Unlikely to play preseason. Week 1 Sept 14 vs DEN is the target — not a medical hold."
-      ],
-      "old_rank": 37,
-      "new_rank": 46,
-      "old_ppg": 13.95,
-      "new_ppg": 13.25,
-      "position": "QB",
-      "team": "KC",
-      "updated": "2026-08-12",
-      "auto_generated": false,
-      "from_override": true
     },
     "Sam LaPorta": {
       "status": "MILD",
@@ -632,7 +544,7 @@
       "headlines": [
         "Sam LaPorta - Questionable"
       ],
-      "old_rank": 95,
+      "old_rank": 94,
       "new_rank": 103,
       "old_ppg": 9.76,
       "new_ppg": 9.08,
@@ -684,27 +596,6 @@
       "auto_generated": true,
       "from_override": false
     },
-    "Kenyon Sadiq": {
-      "status": "NEUTRAL",
-      "injury": "Surgery Surgery Surgery",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Surgery",
-      "impact": "NEUTRAL",
-      "source": "Sleeper",
-      "headlines": [
-        "Surgery"
-      ],
-      "old_rank": 217,
-      "new_rank": 212,
-      "old_ppg": 5.5,
-      "new_ppg": 5.5,
-      "position": "TE",
-      "team": "NYJ",
-      "updated": "2026-08-28",
-      "auto_generated": true,
-      "from_override": false
-    },
     "Tre' Harris": {
       "status": "MILD",
       "injury": "Tre' Harris - Questionable Tre' Harris listed as Questionable",
@@ -735,7 +626,6 @@
       "impact": "MODERATE",
       "source": "Sleeper",
       "headlines": [
-        "Surgery",
         "Isaac Guerendo - PUP"
       ],
       "old_rank": 227,
@@ -778,7 +668,6 @@
       "impact": "MODERATE",
       "source": "Sleeper",
       "headlines": [
-        "Surgery",
         "Zach Charbonnet - PUP"
       ],
       "old_rank": 173,
@@ -830,6 +719,27 @@
       "position": "",
       "team": "",
       "updated": "2026-08-05",
+      "auto_generated": false,
+      "from_override": true
+    },
+    "Patrick Mahomes": {
+      "status": "RETURNING",
+      "injury": "ACL + LCL (Week 15 2025) — fully cleared for camp",
+      "week1_outlook": "LIKELY — 1st-team camp reps; Reid sitting him in preseason only",
+      "ppg_multiplier": 0.95,
+      "ranking_note": "Cleared for full camp with no limitations (Reid + Dr. Cooper). Taking 1st-team 11-on-11. Unlikely to play preseason. Week 1 Sept 14 vs DEN is the target — not a medical hold.",
+      "impact": "MILD",
+      "source": "NFL.com / AP / ESPN camp, Aug 2026",
+      "headlines": [
+        "Cleared for full camp with no limitations (Reid + Dr. Cooper). Taking 1st-team 11-on-11. Unlikely to play preseason. Week 1 Sept 14 vs DEN is the target — not a medical hold."
+      ],
+      "old_rank": 36,
+      "new_rank": 46,
+      "old_ppg": 13.95,
+      "new_ppg": 13.25,
+      "position": "QB",
+      "team": "KC",
+      "updated": "2026-08-12",
       "auto_generated": false,
       "from_override": true
     },
@@ -886,7 +796,7 @@
       "headlines": [
         "Camp questionable. ATL backup risk with Penix available."
       ],
-      "old_rank": 88,
+      "old_rank": 87,
       "new_rank": 107,
       "old_ppg": 10.43,
       "new_ppg": 8.87,
@@ -907,7 +817,7 @@
       "headlines": [
         "Clocking 22mph in camp. No issues. Undervalued WAS sleeper. Daniels connection real."
       ],
-      "old_rank": 77,
+      "old_rank": 76,
       "new_rank": 75,
       "old_ppg": 11.06,
       "new_ppg": 11.39,
@@ -949,7 +859,7 @@
       "headlines": [
         "Minor thumb issue. Not serious. Monitor."
       ],
-      "old_rank": 110,
+      "old_rank": 109,
       "new_rank": 111,
       "old_ppg": 8.79,
       "new_ppg": 8.53,
