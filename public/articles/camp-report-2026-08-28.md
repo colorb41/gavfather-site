@@ -4,7 +4,7 @@ date: "2026-08-28"
 week: 0
 theme: "Camp Report"
 category: "research"
-excerpt: "The Gavfather System auto-processed 263 camp news items. 21 players affected."
+excerpt: "The Gavfather System processed 1000 data points from camp this week. Here is everything that changed and what it means for your draft."
 ---
 
 # Camp Report: Week 9
@@ -14,39 +14,80 @@ excerpt: "The Gavfather System auto-processed 263 camp news items. 21 players af
 
 ---
 
-The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports — zero manual input.
-21 players had ranking adjustments applied automatically this week.
+The Gavfather System processed data from all 32 NFL training camps this week.
+1000 changes detected. 157 flagged as high priority.
+Here is everything that matters for your Labor Day draft.
 
-## The Biggest Story
+---
 
-**George Kittle** — PUP: Achilles tear (January 2026 playoffs)
-*Achilles PUP — late-round dart only until cleared. McBride and Bowers are the TE1/TE2.*
+## The Injury Report
 
-## Season-Ending / Severe
+Players whose situations changed this week:
 
-**George Kittle** — PUP | Achilles tear (January 2026 playoffs)
-*Achilles PUP — late-round dart only until cleared. McBride and Bowers are the TE1/TE2.*
-
-**Ricky Pearsall** — SEASON_ENDING | PCL - likely out for 2026 season
+**🔴 Ricky Pearsall**
+Status: SEASON_ENDING | PCL - likely out for 2026 season
+Week 1: OUT
 *REMOVE from rankings. SF passes go to Evans and others.*
 
-## Positive Developments
+**🔴 George Kittle**
+Status: PUP | Achilles tear (January 2026 playoffs)
+Week 1: UNLIKELY - Australia Week 1 adds risk
+*Achilles PUP — late-round dart only until cleared. McBride and Bowers are the TE1/TE2.*
 
-**Tucker Kraft** — RETURNING | Rising sleeper TE. Ahead of schedule. GB passing game benefits.
+**🟡 Tua Tagovailoa**
+Status: QUESTIONABLE | Undisclosed camp issue
+Week 1: UNCERTAIN
+*Camp questionable. ATL backup risk with Penix available.*
 
-**Rico Dowdle** — POSITIVE | That cleared the way for Rico Dowdle to take over the backfield.
+**🟡 Jaylen Waddle**
+Status: MONITOR | Muscle tightness (left practice Aug 5)
+Week 1: EXPECTED OK - reported not serious
+*Monitor. Tightness only but has injury history. Now with DEN (Bo Nix) after March 2026 trade from MIA.*
 
-**Terry McLaurin** — HEALTHY | Clocking 22mph in camp. No issues. Undervalued WAS sleeper. Daniels connection real.
+## The Risers
 
-**Bijan Robinson** — HEALTHY | Extension signed. Team commitment confirmed. ATL RB1 locked in.
+Players who improved their situation this week:
 
-**Patrick Mahomes** — RETURNING | Cleared for full camp with no limitations (Reid + Dr. Cooper). Taking 1st-team 11-on-11. Unlikely to play preseason. Week 1 Sept 14 vs DEN is the target — not a
+**🟢 Kenny Yeboah (TE, )**
+INJURY_IMPROVED: IR -> Questionable
 
-**Malik Nabers** — RETURNING | Upgrade slightly. Running routes, ahead of schedule. Worst case misses 1-2 games.
+**🟢 Tyjae Spears (RB, TEN)**
+INJURY_IMPROVED: Questionable -> Healthy
 
-**Rashee Rice** — HEALTHY | Healthy and practicing. Suspension risk remains.
+**🟢 Thomas Odukoya (TE, )**
+INJURY_IMPROVED: Questionable -> Healthy
+
+**🟢 Zavion Thomas (WR, CHI)**
+INJURY_IMPROVED: Questionable -> Healthy
+
+**🟢 Kendre Miller (RB, NO)**
+INJURY_IMPROVED: Questionable -> Healthy
+
+**🟢 DJ Giddens (RB, IND)**
+INJURY_IMPROVED: Questionable -> Healthy
+
+**🟢 Brenden Rice (WR, )**
+INJURY_IMPROVED: Questionable -> Healthy
+
+**🟢 Michael Wiley (RB, )**
+INJURY_IMPROVED: Questionable -> Healthy
+
+## The Fallers
+
+Players who hurt their draft stock this week:
+
+**🔴 Kyle Monangai (RB, CHI) — Rank #81**
+INJURY_WORSENED: Healthy -> Questionable (Knee)
+
+**🔴 Brian Thomas (WR, JAX) — Rank #39**
+INJURY_WORSENED: Healthy -> Questionable (Shoulder)
+
+**🔴 Aaron Jones (RB, MIN) — Rank #107**
+DEMOTED_FROM_STARTER: Depth chart 1 -> 2
 
 ## This Week's Best Values
+
+Players the model ranks significantly higher than market ADP:
 
 **Jauan Jennings (WR, MIN)** — We have WR32, market has WR63
 **Rashid Shaheed (WR, SEA)** — We have WR28, market has WR55
@@ -57,7 +98,7 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 ---
 
 Full updated rankings at thegavfather.com/rankings.
-Updated daily by the automated Camp Intelligence engine.
+Updated daily. All camp changes applied.
 
 An offer your roster can't refuse.
 
@@ -65,4 +106,4 @@ An offer your roster can't refuse.
 
 ---
 
-*Auto-generated August 28, 2026 06:00 AM. Sources: FantasyPros, RotoWire, Sleeper, Yahoo.*
+*Rankings updated automatically. Camp data refreshed twice daily. Last update: August 28, 2026 06:01 AM*
