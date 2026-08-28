@@ -4,7 +4,7 @@ date: "2026-08-28"
 week: 0
 theme: "Camp Report"
 category: "research"
-excerpt: "The Gavfather System processed 1000 data points from camp this week. Here is everything that changed and what it means for your draft."
+excerpt: "The Gavfather System auto-processed 286 camp news items. 22 players affected."
 ---
 
 # Camp Report: Week 9
@@ -14,80 +14,42 @@ excerpt: "The Gavfather System processed 1000 data points from camp this week. H
 
 ---
 
-The Gavfather System processed data from all 32 NFL training camps this week.
-1000 changes detected. 157 flagged as high priority.
-Here is everything that matters for your Labor Day draft.
+The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports — zero manual input.
+22 players had ranking adjustments applied automatically this week.
 
----
+## The Biggest Story
 
-## The Injury Report
-
-Players whose situations changed this week:
-
-**🔴 Ricky Pearsall**
-Status: SEASON_ENDING | PCL - likely out for 2026 season
-Week 1: OUT
-*REMOVE from rankings. SF passes go to Evans and others.*
-
-**🔴 George Kittle**
-Status: PUP | Achilles tear (January 2026 playoffs)
-Week 1: UNLIKELY - Australia Week 1 adds risk
+**George Kittle** — PUP: Achilles tear (January 2026 playoffs)
 *Achilles PUP — late-round dart only until cleared. McBride and Bowers are the TE1/TE2.*
 
-**🟡 Tua Tagovailoa**
-Status: QUESTIONABLE | Undisclosed camp issue
-Week 1: UNCERTAIN
-*Camp questionable. ATL backup risk with Penix available.*
+## Season-Ending / Severe
 
-**🟡 Jaylen Waddle**
-Status: MONITOR | Muscle tightness (left practice Aug 5)
-Week 1: EXPECTED OK - reported not serious
-*Monitor. Tightness only but has injury history. Now with DEN (Bo Nix) after March 2026 trade from MIA.*
+**George Kittle** — PUP | Achilles tear (January 2026 playoffs)
+*Achilles PUP — late-round dart only until cleared. McBride and Bowers are the TE1/TE2.*
 
-## The Risers
+**Daniel Jones** — SEVERE | Achilles tear
+*Continue to monitor this situation, as well as the status of QB Daniel Jones, who is coming back from an Achilles tear.*
 
-Players who improved their situation this week:
+**Ricky Pearsall** — SEASON_ENDING | PCL - likely out for 2026 season
+*REMOVE from rankings. SF passes go to Evans and others.*
 
-**🟢 Kenny Yeboah (TE, )**
-INJURY_IMPROVED: IR -> Questionable
+## Positive Developments
 
-**🟢 Tyjae Spears (RB, TEN)**
-INJURY_IMPROVED: Questionable -> Healthy
+**Tucker Kraft** — RETURNING | Rising sleeper TE. Ahead of schedule. GB passing game benefits.
 
-**🟢 Thomas Odukoya (TE, )**
-INJURY_IMPROVED: Questionable -> Healthy
+**Rico Dowdle** — POSITIVE | That cleared the way for Rico Dowdle to take over the backfield.
 
-**🟢 Zavion Thomas (WR, CHI)**
-INJURY_IMPROVED: Questionable -> Healthy
+**Terry McLaurin** — HEALTHY | Clocking 22mph in camp. No issues. Undervalued WAS sleeper. Daniels connection real.
 
-**🟢 Kendre Miller (RB, NO)**
-INJURY_IMPROVED: Questionable -> Healthy
+**Bijan Robinson** — HEALTHY | Extension signed. Team commitment confirmed. ATL RB1 locked in.
 
-**🟢 DJ Giddens (RB, IND)**
-INJURY_IMPROVED: Questionable -> Healthy
+**Patrick Mahomes** — RETURNING | Cleared for full camp with no limitations (Reid + Dr. Cooper). Taking 1st-team 11-on-11. Unlikely to play preseason. Week 1 Sept 14 vs DEN is the target — not a
 
-**🟢 Brenden Rice (WR, )**
-INJURY_IMPROVED: Questionable -> Healthy
+**Malik Nabers** — RETURNING | Upgrade slightly. Running routes, ahead of schedule. Worst case misses 1-2 games.
 
-**🟢 Michael Wiley (RB, )**
-INJURY_IMPROVED: Questionable -> Healthy
-
-## The Fallers
-
-Players who hurt their draft stock this week:
-
-**🔴 Kyle Monangai (RB, CHI) — Rank #81**
-INJURY_WORSENED: Healthy -> Questionable (Knee)
-
-**🔴 Brian Thomas (WR, JAX) — Rank #39**
-INJURY_WORSENED: Healthy -> Questionable (Shoulder)
-
-**🔴 Aaron Jones (RB, MIN) — Rank #107**
-DEMOTED_FROM_STARTER: Depth chart 1 -> 2
+**Rashee Rice** — HEALTHY | Healthy and practicing. Suspension risk remains.
 
 ## This Week's Best Values
-
-Players the model ranks significantly higher than market ADP:
 
 **Jauan Jennings (WR, MIN)** — We have WR32, market has WR63
 **Rashid Shaheed (WR, SEA)** — We have WR28, market has WR55
@@ -98,7 +60,7 @@ Players the model ranks significantly higher than market ADP:
 ---
 
 Full updated rankings at thegavfather.com/rankings.
-Updated daily. All camp changes applied.
+Updated daily by the automated Camp Intelligence engine.
 
 An offer your roster can't refuse.
 
@@ -106,4 +68,4 @@ An offer your roster can't refuse.
 
 ---
 
-*Rankings updated automatically. Camp data refreshed twice daily. Last update: August 28, 2026 06:01 AM*
+*Auto-generated August 28, 2026 03:58 PM. Sources: FantasyPros, RotoWire, Sleeper, Yahoo.*
