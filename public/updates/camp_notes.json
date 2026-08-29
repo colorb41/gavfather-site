@@ -1,10 +1,74 @@
 {
-  "updated": "2026-08-29T10:39:54",
+  "updated": "2026-08-29T16:04:27",
   "source": "CampResearcher.v2",
   "override_count": 15,
   "player_count": 39,
-  "news_items_processed": 280,
+  "news_items_processed": 281,
   "players": {
+    "Jalen McMillan": {
+      "status": "MILD",
+      "injury": "Jalen McMillan - Questionable Jalen McMillan listed as Questionable",
+      "week1_outlook": "EXPECTED OK",
+      "ppg_multiplier": 0.93,
+      "ranking_note": "Jalen McMillan listed as Questionable. ",
+      "impact": "MILD",
+      "source": "Sleeper",
+      "headlines": [
+        "Jalen McMillan",
+        "Jalen McMillan - Questionable"
+      ],
+      "old_rank": 171,
+      "new_rank": 190,
+      "old_ppg": 6.34,
+      "new_ppg": 5.9,
+      "position": "WR",
+      "team": "TB",
+      "updated": "2026-08-29",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Emeka Egbuka": {
+      "status": "NEUTRAL",
+      "injury": "Emeka Egbuka Emeka Egbuka 'Hopeful' for Week 1 WR Tampa Bay Buccaneers Toe August 29, 2026 Egbuka (toe), per head coach ",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Emeka Egbuka 'Hopeful' for Week 1 WR Tampa Bay Buccaneers Toe August 29, 2026 Egbuka (toe), per head coach Todd Bowles, will \"hopefully\" be ready for Week 1, Greg Auman of Fox Sports reports. ANALYSIS Subscribe now to instantly reveal our t",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Emeka Egbuka"
+      ],
+      "old_rank": 63,
+      "new_rank": 62,
+      "old_ppg": 12.5,
+      "new_ppg": 12.5,
+      "position": "WR",
+      "team": "TB",
+      "updated": "2026-08-29",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Marvin Mims": {
+      "status": "NEUTRAL",
+      "injury": "Marvin Mims Marvin Mims Dealing with foot contusion WR Denver Broncos Foot August 29, 2026 Head coach Sean Payton told r",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Marvin Mims Dealing with foot contusion WR Denver Broncos Foot August 29, 2026 Head coach Sean Payton told reporters that Mims bruised his foot during the Broncos' 34-6 preseason win over the Vikings on Friday, Chris Tomasson of The Denver ",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Marvin Mims"
+      ],
+      "old_rank": 195,
+      "new_rank": 193,
+      "old_ppg": 5.81,
+      "new_ppg": 5.81,
+      "position": "WR",
+      "team": "DEN",
+      "updated": "2026-08-29",
+      "auto_generated": true,
+      "from_override": false
+    },
     "John Metchie": {
       "status": "NEUTRAL",
       "injury": "John Metchie John Metchie Quiet in preseason finale WR Carolina Panthers August 29, 2026 Metchie caught one of three tar",
@@ -68,27 +132,6 @@
       "auto_generated": true,
       "from_override": false
     },
-    "Noah Gray": {
-      "status": "NEUTRAL",
-      "injury": "Noah Gray Noah Gray One target in preseason finale TE Kansas City Chiefs August 28, 2026 Gray failed to bring in his onl",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Noah Gray One target in preseason finale TE Kansas City Chiefs August 28, 2026 Gray failed to bring in his only target in the Chiefs' 9-9 preseason tie with the Seahawks on Friday. ANALYSIS Subscribe now to instantly reveal our take on this",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Noah Gray"
-      ],
-      "old_rank": 266,
-      "new_rank": 264,
-      "old_ppg": 4.41,
-      "new_ppg": 4.41,
-      "position": "TE",
-      "team": "KC",
-      "updated": "2026-08-29",
-      "auto_generated": true,
-      "from_override": false
-    },
     "Jeremiyah Love": {
       "status": "NEUTRAL",
       "injury": "Jeremiyah Love, Cardinals (ankle) : Love is dealing with a high ankle sprain but the Cardinals are hopeful he'll be read",
@@ -100,8 +143,8 @@
       "headlines": [
         "Jeremiyah Love, Cardinals (ankle) : Love is dealing with a high ankle sprain but the Cardinals are hopeful he'll be ready for Week 1 (we've been hearing a lot o"
       ],
-      "old_rank": 40,
-      "new_rank": 43,
+      "old_rank": 38,
+      "new_rank": 41,
       "old_ppg": 13.5,
       "new_ppg": 13.5,
       "position": "RB",
@@ -121,7 +164,7 @@
       "headlines": [
         "That cleared the way for Rico Dowdle to take over the backfield."
       ],
-      "old_rank": 123,
+      "old_rank": 122,
       "new_rank": 109,
       "old_ppg": 8.41,
       "new_ppg": 8.83,
@@ -173,27 +216,6 @@
       "auto_generated": false,
       "from_override": true
     },
-    "Daniel Jones": {
-      "status": "SEVERE",
-      "injury": "Achilles tear",
-      "week1_outlook": "UNLIKELY",
-      "ppg_multiplier": 0.65,
-      "ranking_note": "Continue to monitor this situation, as well as the status of QB Daniel Jones, who is coming back from an Achilles tear.",
-      "impact": "SEVERE",
-      "source": "Yahoo Sports",
-      "headlines": [
-        "Continue to monitor this situation, as well as the status of QB Daniel Jones, who is coming back from an Achilles tear."
-      ],
-      "old_rank": 68,
-      "new_rank": 129,
-      "old_ppg": 12.08,
-      "new_ppg": 7.85,
-      "position": "QB",
-      "team": "IND",
-      "updated": "2026-08-29",
-      "auto_generated": true,
-      "from_override": false
-    },
     "Alec Pierce": {
       "status": "MODERATE",
       "injury": "PUP list on August 27",
@@ -206,7 +228,7 @@
         "Alec Pierce, Colts (ankle) : Pierce was activated off the PUP list on August 27.",
         "Surgery"
       ],
-      "old_rank": 200,
+      "old_rank": 201,
       "new_rank": 251,
       "old_ppg": 5.73,
       "new_ppg": 4.7,
@@ -269,7 +291,7 @@
       "headlines": [
         "Breece Hall, NYJ (groin) — out 2-3 weeks"
       ],
-      "old_rank": 90,
+      "old_rank": 89,
       "new_rank": 88,
       "old_ppg": 10.38,
       "new_ppg": 10.38,
@@ -290,8 +312,8 @@
       "headlines": [
         "Kyle Monangai, CHI (knee) — expected to miss multiple weeks"
       ],
-      "old_rank": 116,
-      "new_rank": 116,
+      "old_rank": 113,
+      "new_rank": 117,
       "old_ppg": 8.5,
       "new_ppg": 8.5,
       "position": "RB",
@@ -311,7 +333,7 @@
       "headlines": [
         "Mike Evans, SF (groin) — plans to play Week 1"
       ],
-      "old_rank": 92,
+      "old_rank": 91,
       "new_rank": 90,
       "old_ppg": 10.19,
       "new_ppg": 10.19,
@@ -333,8 +355,8 @@
         "Jordyn Tyson, NO (hamstring) — expected to miss start of season",
         "Strain"
       ],
-      "old_rank": 185,
-      "new_rank": 181,
+      "old_rank": 184,
+      "new_rank": 179,
       "old_ppg": 6.0,
       "new_ppg": 6.0,
       "position": "WR",
@@ -396,33 +418,12 @@
       "headlines": [
         "Sam LaPorta - Questionable"
       ],
-      "old_rank": 96,
+      "old_rank": 95,
       "new_rank": 104,
       "old_ppg": 9.76,
       "new_ppg": 9.08,
       "position": "TE",
       "team": "DET",
-      "updated": "2026-08-29",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Jalen McMillan": {
-      "status": "MILD",
-      "injury": "Jalen McMillan - Questionable Jalen McMillan listed as Questionable",
-      "week1_outlook": "EXPECTED OK",
-      "ppg_multiplier": 0.93,
-      "ranking_note": "Jalen McMillan listed as Questionable. ",
-      "impact": "MILD",
-      "source": "Sleeper",
-      "headlines": [
-        "Jalen McMillan - Questionable"
-      ],
-      "old_rank": 171,
-      "new_rank": 190,
-      "old_ppg": 6.34,
-      "new_ppg": 5.9,
-      "position": "WR",
-      "team": "TB",
       "updated": "2026-08-29",
       "auto_generated": true,
       "from_override": false
@@ -459,8 +460,8 @@
       "headlines": [
         "Surgery"
       ],
-      "old_rank": 218,
-      "new_rank": 213,
+      "old_rank": 219,
+      "new_rank": 215,
       "old_ppg": 5.5,
       "new_ppg": 5.5,
       "position": "TE",
@@ -480,7 +481,7 @@
       "headlines": [
         "Tre' Harris - Questionable"
       ],
-      "old_rank": 211,
+      "old_rank": 212,
       "new_rank": 225,
       "old_ppg": 5.58,
       "new_ppg": 5.19,
@@ -544,7 +545,7 @@
       "headlines": [
         "Sprain"
       ],
-      "old_rank": 202,
+      "old_rank": 203,
       "new_rank": 200,
       "old_ppg": 5.73,
       "new_ppg": 5.73,
@@ -629,8 +630,8 @@
       "headlines": [
         "Monitor. Tightness only but has injury history. Now with DEN (Bo Nix) after March 2026 trade from MIA."
       ],
-      "old_rank": 177,
-      "new_rank": 196,
+      "old_rank": 178,
+      "new_rank": 197,
       "old_ppg": 6.05,
       "new_ppg": 5.75,
       "position": "WR",
@@ -650,7 +651,7 @@
       "headlines": [
         "Healthy and practicing. Suspension risk remains."
       ],
-      "old_rank": 325,
+      "old_rank": 326,
       "new_rank": 330,
       "old_ppg": 1.89,
       "new_ppg": 1.7,
@@ -671,7 +672,7 @@
       "headlines": [
         "Camp questionable. ATL backup risk with Penix available."
       ],
-      "old_rank": 89,
+      "old_rank": 88,
       "new_rank": 108,
       "old_ppg": 10.43,
       "new_ppg": 8.87,
@@ -692,7 +693,7 @@
       "headlines": [
         "Clocking 22mph in camp. No issues. Undervalued WAS sleeper. Daniels connection real."
       ],
-      "old_rank": 78,
+      "old_rank": 77,
       "new_rank": 76,
       "old_ppg": 11.06,
       "new_ppg": 11.39,
@@ -734,7 +735,7 @@
       "headlines": [
         "Minor thumb issue. Not serious. Monitor."
       ],
-      "old_rank": 111,
+      "old_rank": 110,
       "new_rank": 112,
       "old_ppg": 8.79,
       "new_ppg": 8.53,
