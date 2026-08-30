@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-30T03:02:57",
+  "updated": "2026-08-30T09:40:30",
   "source": "CampResearcher.v2",
   "override_count": 15,
-  "player_count": 42,
-  "news_items_processed": 280,
+  "player_count": 43,
+  "news_items_processed": 279,
   "players": {
     "Emeka Egbuka": {
       "status": "NEUTRAL",
@@ -16,8 +16,8 @@
       "headlines": [
         "Emeka Egbuka (toe) hopeful for Week 1"
       ],
-      "old_rank": 61,
-      "new_rank": 61,
+      "old_rank": 64,
+      "new_rank": 60,
       "old_ppg": 12.5,
       "new_ppg": 12.5,
       "position": "WR",
@@ -80,8 +80,8 @@
       "headlines": [
         "Luther Burden"
       ],
-      "old_rank": 94,
-      "new_rank": 91,
+      "old_rank": 93,
+      "new_rank": 93,
       "old_ppg": 10.0,
       "new_ppg": 10.0,
       "position": "WR",
@@ -101,8 +101,8 @@
       "headlines": [
         "Carnell Tate"
       ],
-      "old_rank": 93,
-      "new_rank": 93,
+      "old_rank": 95,
+      "new_rank": 91,
       "old_ppg": 10.0,
       "new_ppg": 10.0,
       "position": "WR",
@@ -185,8 +185,8 @@
       "headlines": [
         "Drake London"
       ],
-      "old_rank": 29,
-      "new_rank": 28,
+      "old_rank": 30,
+      "new_rank": 30,
       "old_ppg": 15.0,
       "new_ppg": 15.0,
       "position": "WR",
@@ -206,7 +206,7 @@
       "headlines": [
         "Kirk Cousins"
       ],
-      "old_rank": 71,
+      "old_rank": 72,
       "new_rank": 70,
       "old_ppg": 11.75,
       "new_ppg": 11.75,
@@ -227,8 +227,8 @@
       "headlines": [
         "Jeremiyah Love, Cardinals (ankle) : Love is dealing with a high ankle sprain but the Cardinals are hopeful he'll be ready for Week 1 (we've been hearing a lot o"
       ],
-      "old_rank": 38,
-      "new_rank": 41,
+      "old_rank": 40,
+      "new_rank": 43,
       "old_ppg": 13.5,
       "new_ppg": 13.5,
       "position": "RB",
@@ -248,7 +248,7 @@
       "headlines": [
         "That cleared the way for Rico Dowdle to take over the backfield."
       ],
-      "old_rank": 121,
+      "old_rank": 122,
       "new_rank": 110,
       "old_ppg": 8.41,
       "new_ppg": 8.83,
@@ -290,7 +290,7 @@
       "headlines": [
         "Upgrade slightly. Running routes, ahead of schedule. Worst case misses 1-2 games."
       ],
-      "old_rank": 47,
+      "old_rank": 48,
       "new_rank": 59,
       "old_ppg": 13.49,
       "new_ppg": 12.55,
@@ -299,6 +299,27 @@
       "updated": "2026-08-05",
       "auto_generated": false,
       "from_override": true
+    },
+    "Daniel Jones": {
+      "status": "SEVERE",
+      "injury": "Achilles tear",
+      "week1_outlook": "UNLIKELY",
+      "ppg_multiplier": 0.65,
+      "ranking_note": "Continue to monitor this situation, as well as the status of QB Daniel Jones, who is coming back from an Achilles tear.",
+      "impact": "SEVERE",
+      "source": "Yahoo Sports",
+      "headlines": [
+        "Continue to monitor this situation, as well as the status of QB Daniel Jones, who is coming back from an Achilles tear."
+      ],
+      "old_rank": 68,
+      "new_rank": 129,
+      "old_ppg": 12.08,
+      "new_ppg": 7.85,
+      "position": "QB",
+      "team": "IND",
+      "updated": "2026-08-30",
+      "auto_generated": true,
+      "from_override": false
     },
     "Alec Pierce": {
       "status": "MODERATE",
@@ -312,7 +333,7 @@
         "Alec Pierce, Colts (ankle) : Pierce was activated off the PUP list on August 27.",
         "Surgery"
       ],
-      "old_rank": 201,
+      "old_rank": 202,
       "new_rank": 252,
       "old_ppg": 5.73,
       "new_ppg": 4.7,
@@ -354,7 +375,7 @@
       "headlines": [
         "Achilles PUP — late-round dart only until cleared. McBride and Bowers are the TE1/TE2."
       ],
-      "old_rank": 219,
+      "old_rank": 218,
       "new_rank": 306,
       "old_ppg": 5.5,
       "new_ppg": 2.75,
@@ -375,7 +396,7 @@
       "headlines": [
         "Breece Hall, NYJ (groin) — out 2-3 weeks"
       ],
-      "old_rank": 89,
+      "old_rank": 90,
       "new_rank": 88,
       "old_ppg": 10.38,
       "new_ppg": 10.38,
@@ -396,8 +417,8 @@
       "headlines": [
         "Kyle Monangai, CHI (knee) — expected to miss multiple weeks"
       ],
-      "old_rank": 118,
-      "new_rank": 115,
+      "old_rank": 116,
+      "new_rank": 116,
       "old_ppg": 8.5,
       "new_ppg": 8.5,
       "position": "RB",
@@ -417,7 +438,7 @@
       "headlines": [
         "Mike Evans, SF (groin) — plans to play Week 1"
       ],
-      "old_rank": 91,
+      "old_rank": 92,
       "new_rank": 90,
       "old_ppg": 10.19,
       "new_ppg": 10.19,
@@ -439,8 +460,8 @@
         "Jordyn Tyson, NO (hamstring) — expected to miss start of season",
         "Strain"
       ],
-      "old_rank": 185,
-      "new_rank": 180,
+      "old_rank": 186,
+      "new_rank": 182,
       "old_ppg": 6.0,
       "new_ppg": 6.0,
       "position": "WR",
@@ -481,7 +502,7 @@
       "headlines": [
         "Sam LaPorta - Questionable"
       ],
-      "old_rank": 96,
+      "old_rank": 97,
       "new_rank": 105,
       "old_ppg": 9.76,
       "new_ppg": 9.08,
@@ -523,8 +544,8 @@
       "headlines": [
         "Surgery"
       ],
-      "old_rank": 218,
-      "new_rank": 215,
+      "old_rank": 217,
+      "new_rank": 214,
       "old_ppg": 5.5,
       "new_ppg": 5.5,
       "position": "TE",
@@ -608,7 +629,7 @@
       "headlines": [
         "Sprain"
       ],
-      "old_rank": 202,
+      "old_rank": 201,
       "new_rank": 201,
       "old_ppg": 5.73,
       "new_ppg": 5.73,
@@ -735,7 +756,7 @@
       "headlines": [
         "Camp questionable. ATL backup risk with Penix available."
       ],
-      "old_rank": 88,
+      "old_rank": 89,
       "new_rank": 109,
       "old_ppg": 10.43,
       "new_ppg": 8.87,
@@ -756,7 +777,7 @@
       "headlines": [
         "Clocking 22mph in camp. No issues. Undervalued WAS sleeper. Daniels connection real."
       ],
-      "old_rank": 77,
+      "old_rank": 78,
       "new_rank": 76,
       "old_ppg": 11.06,
       "new_ppg": 11.39,
@@ -798,7 +819,7 @@
       "headlines": [
         "Minor thumb issue. Not serious. Monitor."
       ],
-      "old_rank": 111,
+      "old_rank": 112,
       "new_rank": 113,
       "old_ppg": 8.79,
       "new_ppg": 8.53,
