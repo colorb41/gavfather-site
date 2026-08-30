@@ -1,549 +1,10 @@
 {
-  "updated_at": "2026-08-30T17:18:46",
+  "updated_at": "2026-08-30T19:38:45",
   "total_changes": 100,
-  "high_priority_count": 9,
+  "high_priority_count": 2,
   "changes": [
     {
-      "timestamp": "2026-08-30T17:18:12",
-      "player_id": "5886",
-      "name": "Hakeem Butler",
-      "position": "TE",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from DEN",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:12",
-      "player_id": "13227",
-      "name": "Mitch Van Vooren",
-      "position": "WR",
-      "team": "DAL",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "NE -> DAL",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:12",
-      "player_id": "13411",
-      "name": "Zavion Thomas",
-      "position": "WR",
-      "team": "CHI",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:12",
-      "player_id": "13407",
-      "name": "Carson Towt",
-      "position": "TE",
-      "team": "IND",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> IR (Undisclosed)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:12",
-      "player_id": "9757",
-      "name": "Kendre Miller",
-      "position": "RB",
-      "team": "NO",
-      "overall_rank": 274,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:12",
-      "player_id": "8123",
-      "name": "Hassan Haskins",
-      "position": "RB",
-      "team": "",
-      "overall_rank": 313,
-      "change_type": "RELEASED",
-      "detail": "Released from NE",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:12",
-      "player_id": "12705",
-      "name": "Graham Mertz",
-      "position": "QB",
-      "team": "HOU",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> IR (Knee - ACL)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:12",
-      "player_id": "12860",
-      "name": "Theo Wease",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from MIA",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:12",
-      "player_id": "11729",
-      "name": "Sione Vaki",
-      "position": "RB",
-      "team": "DET",
-      "overall_rank": 354,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:12",
-      "player_id": "8230",
-      "name": "Ty Chandler",
-      "position": "RB",
-      "team": "NO",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> IR (Knee)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:12",
-      "player_id": "12494",
-      "name": "Kyle McCord",
-      "position": "QB",
-      "team": "MIA",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "GB -> MIA",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:12",
-      "player_id": "11626",
-      "name": "Xavier Legette",
-      "position": "WR",
-      "team": "CAR",
-      "overall_rank": 188,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Lower Body)",
-      "priority": "HIGH"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:12",
-      "player_id": "11582",
-      "name": "Carson Steele",
-      "position": "RB",
-      "team": "",
-      "overall_rank": 329,
-      "change_type": "RELEASED",
-      "detail": "Released from PHI",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:12",
-      "player_id": "11637",
-      "name": "Keon Coleman",
-      "position": "WR",
-      "team": "BUF",
-      "overall_rank": 201,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Foot)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:12",
-      "player_id": "12725",
-      "name": "Luke Lachey",
-      "position": "TE",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from GB",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:12",
-      "player_id": "12500",
-      "name": "Quinn Ewers",
-      "position": "QB",
-      "team": "JAX",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "MIA -> JAX",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:12",
-      "player_id": "13889",
-      "name": "Levi Wentz",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from PIT",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:12",
-      "player_id": "12479",
-      "name": "Ja'Quinden Jackson",
-      "position": "RB",
-      "team": "PHI",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> IR (Undisclosed)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:12",
-      "player_id": "12484",
-      "name": "Jayden Higgins",
-      "position": "WR",
-      "team": "HOU",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> IR (Knee - ACL)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:12",
-      "player_id": "11821",
-      "name": "Tahj Washington",
-      "position": "WR",
-      "team": "PHI",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "MIA -> PHI",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:12",
-      "player_id": "12471",
-      "name": "DJ Giddens",
-      "position": "RB",
-      "team": "IND",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:12",
-      "player_id": "12467",
-      "name": "Jordan James",
-      "position": "RB",
-      "team": "SF",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:12",
-      "player_id": "11621",
-      "name": "Brenden Rice",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:12",
-      "player_id": "12907",
-      "name": "Quentin Skinner",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from BUF",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "12544",
-      "name": "LeQuint Allen",
-      "position": "RB",
-      "team": "JAX",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Undisclosed)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "11421",
-      "name": "Ryan Miller",
-      "position": "WR",
-      "team": "MIA",
-      "overall_rank": 311,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "NYG -> MIA",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "7050",
-      "name": "Josiah Deguara",
-      "position": "TE",
-      "team": "",
-      "overall_rank": 376,
-      "change_type": "RELEASED",
-      "detail": "Released from SF",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "4144",
-      "name": "Jonnu Smith",
-      "position": "TE",
-      "team": "GB",
-      "overall_rank": 77,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> GB",
-      "priority": "HIGH"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "8126",
-      "name": "Wan'Dale Robinson",
-      "position": "WR",
-      "team": "TEN",
-      "overall_rank": 166,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Head)",
-      "priority": "HIGH"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "8801",
-      "name": "Dennis Houston",
-      "position": "WR",
-      "team": "TB",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> IR (Groin)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "12954",
-      "name": "Kye Robichaux",
-      "position": "RB",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from DET",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "11943",
-      "name": "Michael Wiley",
-      "position": "RB",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "8235",
-      "name": "Samori Toure",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from PHI",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "7594",
-      "name": "Chuba Hubbard",
-      "position": "RB",
-      "team": "CAR",
-      "overall_rank": 51,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Hamstring)",
-      "priority": "HIGH"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "13326",
-      "name": "DT Sheffield",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Undisclosed)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "13326",
-      "name": "DT Sheffield",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from NYJ",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "12883",
-      "name": "Joshua Simon",
-      "position": "TE",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from ATL",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "3200",
-      "name": "Sterling Shepard",
-      "position": "WR",
-      "team": "HOU",
-      "overall_rank": 243,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> HOU",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "7559",
-      "name": "Ihmir Smith-Marsette",
-      "position": "WR",
-      "team": "ARI",
-      "overall_rank": 424,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Ankle)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "11748",
-      "name": "Bub Means",
-      "position": "WR",
-      "team": "",
-      "overall_rank": 436,
-      "change_type": "RELEASED",
-      "detail": "Released from NO",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "12412",
-      "name": "Terrell Jennings",
-      "position": "RB",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Undisclosed)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "12412",
-      "name": "Terrell Jennings",
-      "position": "RB",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from NE",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "7528",
-      "name": "Najee Harris",
-      "position": "RB",
-      "team": "NYG",
-      "overall_rank": 100,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "7528",
-      "name": "Najee Harris",
-      "position": "RB",
-      "team": "NYG",
-      "overall_rank": 100,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> NYG",
-      "priority": "HIGH"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "13725",
-      "name": "Dominic Richardson",
-      "position": "RB",
-      "team": "NYJ",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> NYJ",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "8255",
-      "name": "Raheem Blackshear",
-      "position": "RB",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Undisclosed)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "8255",
-      "name": "Raheem Blackshear",
-      "position": "RB",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from DET",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "12803",
-      "name": "Luke Grimm",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Undisclosed)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "12803",
-      "name": "Luke Grimm",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from LAC",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "12743",
       "name": "Junior Bergen",
       "position": "WR",
@@ -554,18 +15,18 @@
       "priority": "MEDIUM"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "3155",
       "name": "Laquon Treadwell",
       "position": "WR",
       "team": "IND",
-      "overall_rank": null,
+      "overall_rank": 494,
       "change_type": "INJURY_IMPROVED",
       "detail": "Questionable -> Healthy",
       "priority": "LOW"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "13434",
       "name": "Will Kacmarek",
       "position": "TE",
@@ -576,29 +37,18 @@
       "priority": "MEDIUM"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "8041",
-      "name": "Shane Zylstra",
-      "position": "TE",
-      "team": "",
-      "overall_rank": 378,
-      "change_type": "RELEASED",
-      "detail": "Released from BUF",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "4035",
       "name": "Alvin Kamara",
       "position": "RB",
       "team": "NO",
-      "overall_rank": 64,
+      "overall_rank": 147,
       "change_type": "INJURY_WORSENED",
       "detail": "Healthy -> Questionable (Knee)",
       "priority": "HIGH"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "11569",
       "name": "Jarquez Hunter",
       "position": "RB",
@@ -609,7 +59,7 @@
       "priority": "MEDIUM"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "13319",
       "name": "Oscar Delp",
       "position": "TE",
@@ -620,7 +70,7 @@
       "priority": "MEDIUM"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "5113",
       "name": "Cedrick Wilson",
       "position": "WR",
@@ -631,7 +81,7 @@
       "priority": "MEDIUM"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "5113",
       "name": "Cedrick Wilson",
       "position": "WR",
@@ -642,18 +92,18 @@
       "priority": "LOW"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "11435",
       "name": "Emanuel Wilson",
       "position": "RB",
       "team": "SEA",
-      "overall_rank": 161,
+      "overall_rank": 241,
       "change_type": "INJURY_WORSENED",
       "detail": "Healthy -> Questionable (Hamstring)",
-      "priority": "HIGH"
+      "priority": "MEDIUM"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "14021",
       "name": "Kadarius Calloway",
       "position": "RB",
@@ -664,7 +114,7 @@
       "priority": "MEDIUM"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "14021",
       "name": "Kadarius Calloway",
       "position": "RB",
@@ -675,18 +125,18 @@
       "priority": "LOW"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "2307",
       "name": "Marcus Mariota",
       "position": "QB",
       "team": "WAS",
-      "overall_rank": 445,
+      "overall_rank": 408,
       "change_type": "INJURY_WORSENED",
       "detail": "Healthy -> Questionable (Knee)",
       "priority": "MEDIUM"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "12975",
       "name": "JJ Galbreath",
       "position": "TE",
@@ -697,18 +147,18 @@
       "priority": "MEDIUM"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "11378",
       "name": "Jordan Mims",
       "position": "RB",
       "team": "PHI",
-      "overall_rank": 312,
+      "overall_rank": 444,
       "change_type": "TRADED_OR_SIGNED",
       "detail": "MIN -> PHI",
       "priority": "MEDIUM"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "8214",
       "name": "Cole Turner",
       "position": "TE",
@@ -719,29 +169,18 @@
       "priority": "MEDIUM"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "4464",
-      "name": "Nick Mullens",
-      "position": "QB",
-      "team": "",
-      "overall_rank": 451,
-      "change_type": "RELEASED",
-      "detail": "Released from JAX",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "8139",
       "name": "Zamir White",
       "position": "RB",
       "team": "NO",
-      "overall_rank": 301,
+      "overall_rank": 430,
       "change_type": "TRADED_OR_SIGNED",
       "detail": "SF -> NO",
       "priority": "MEDIUM"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "14085",
       "name": "Matthew Henry",
       "position": "WR",
@@ -752,29 +191,18 @@
       "priority": "LOW"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "2505",
-      "name": "Darren Waller",
-      "position": "TE",
-      "team": "CAR",
-      "overall_rank": null,
-      "change_type": "PROMOTED_TO_STARTER",
-      "detail": "Depth chart 6 -> 1",
-      "priority": "HIGH"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "5086",
       "name": "Marquez Valdes-Scantling",
       "position": "WR",
       "team": "DAL",
-      "overall_rank": 233,
+      "overall_rank": 359,
       "change_type": "INJURY_IMPROVED",
       "detail": "Questionable -> Healthy",
       "priority": "LOW"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "11568",
       "name": "Blake Watson",
       "position": "RB",
@@ -785,7 +213,7 @@
       "priority": "LOW"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "11911",
       "name": "Jeshaun Jones",
       "position": "WR",
@@ -796,7 +224,7 @@
       "priority": "MEDIUM"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "13435",
       "name": "Joe Royer",
       "position": "TE",
@@ -807,7 +235,7 @@
       "priority": "MEDIUM"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "7865",
       "name": "Brandon Smith",
       "position": "WR",
@@ -818,29 +246,18 @@
       "priority": "MEDIUM"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "13661",
       "name": "Ethan Conner",
       "position": "TE",
-      "team": "",
+      "team": "MIA",
       "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from JAX",
-      "priority": "LOW"
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "JAX -> MIA",
+      "priority": "MEDIUM"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "11065",
-      "name": "Adrian Martinez",
-      "position": "QB",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from SF",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "13806",
       "name": "Matt Lauter",
       "position": "TE",
@@ -851,7 +268,18 @@
       "priority": "MEDIUM"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
+      "player_id": "9505",
+      "name": "Deuce Vaughn",
+      "position": "RB",
+      "team": "HOU",
+      "overall_rank": 472,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> HOU",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "13338",
       "name": "Kevin Coleman",
       "position": "WR",
@@ -862,18 +290,29 @@
       "priority": "LOW"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "13708",
-      "name": "Kobe Prentice",
+      "timestamp": "2026-08-30T15:52:54",
+      "player_id": "8176",
+      "name": "Danny Gray",
       "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from NE",
+      "team": "PHI",
+      "overall_rank": 586,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
       "priority": "LOW"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
+      "player_id": "13708",
+      "name": "Kobe Prentice",
+      "position": "WR",
+      "team": "NYG",
+      "overall_rank": null,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "NE -> NYG",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "13750",
       "name": "TJ Harden",
       "position": "RB",
@@ -884,18 +323,18 @@
       "priority": "LOW"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "9756",
       "name": "Jordan Addison",
       "position": "WR",
       "team": "MIN",
-      "overall_rank": 90,
+      "overall_rank": 124,
       "change_type": "INJURY_IMPROVED",
       "detail": "Questionable -> Healthy",
       "priority": "MEDIUM"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "12799",
       "name": "Bryson Green",
       "position": "WR",
@@ -906,7 +345,7 @@
       "priority": "LOW"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "13873",
       "name": "Sam Scott",
       "position": "RB",
@@ -917,7 +356,7 @@
       "priority": "MEDIUM"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "13873",
       "name": "Sam Scott",
       "position": "RB",
@@ -928,73 +367,51 @@
       "priority": "LOW"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "12889",
       "name": "Beaux Collins",
       "position": "WR",
       "team": "ATL",
-      "overall_rank": null,
+      "overall_rank": 351,
       "change_type": "INJURY_IMPROVED",
       "detail": "IR -> Healthy",
       "priority": "LOW"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "12889",
       "name": "Beaux Collins",
       "position": "WR",
       "team": "ATL",
-      "overall_rank": null,
+      "overall_rank": 351,
       "change_type": "TRADED_OR_SIGNED",
       "detail": "NYG -> ATL",
       "priority": "MEDIUM"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "11068",
-      "name": "Mitch Tinsley",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from CIN",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "12485",
       "name": "Tez Johnson",
       "position": "WR",
       "team": "TB",
-      "overall_rank": null,
+      "overall_rank": 324,
       "change_type": "INJURY_IMPROVED",
       "detail": "Questionable -> Healthy",
       "priority": "LOW"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "13913",
-      "name": "Patrick Gurd",
-      "position": "TE",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from LV",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "8155",
       "name": "Breece Hall",
       "position": "RB",
       "team": "NYJ",
-      "overall_rank": 58,
+      "overall_rank": 29,
       "change_type": "INJURY_WORSENED",
       "detail": "Healthy -> Questionable (Thigh)",
       "priority": "HIGH"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "13879",
       "name": "Jameson Geers",
       "position": "TE",
@@ -1005,7 +422,7 @@
       "priority": "MEDIUM"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "13437",
       "name": "Noah Whittington",
       "position": "RB",
@@ -1016,7 +433,7 @@
       "priority": "MEDIUM"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "12935",
       "name": "Jakobie Keeney-James",
       "position": "WR",
@@ -1027,29 +444,7 @@
       "priority": "LOW"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "12972",
-      "name": "Roc Taylor",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from CAR",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "13949",
-      "name": "Damon Bankston",
-      "position": "RB",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from NYG",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "14064",
       "name": "Roydell Williams",
       "position": "RB",
@@ -1060,31 +455,405 @@
       "priority": "MEDIUM"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "6806",
       "name": "J.K. Dobbins",
       "position": "RB",
       "team": "DEN",
-      "overall_rank": 61,
+      "overall_rank": 38,
       "change_type": "INJURY_IMPROVED",
       "detail": "Questionable -> Healthy",
       "priority": "MEDIUM"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
+      "timestamp": "2026-08-30T15:52:54",
       "player_id": "13294",
       "name": "Makai Lemon",
       "position": "WR",
       "team": "PHI",
-      "overall_rank": 124,
+      "overall_rank": 182,
       "change_type": "INJURY_IMPROVED",
       "detail": "Questionable -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:52:54",
+      "player_id": "4234",
+      "name": "Noah Brown",
+      "position": "WR",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "4992",
+      "name": "Dante Pettis",
+      "position": "WR",
+      "team": "",
+      "overall_rank": 478,
+      "change_type": "RELEASED",
+      "detail": "Released from BUF",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "3269",
+      "name": "Chris Moore",
+      "position": "WR",
+      "team": "",
+      "overall_rank": 447,
+      "change_type": "RELEASED",
+      "detail": "Released from BAL",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "11931",
+      "name": "Austin Reed",
+      "position": "QB",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from BAL",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "6111",
+      "name": "Jake Browning",
+      "position": "QB",
+      "team": "",
+      "overall_rank": 475,
+      "change_type": "RELEASED",
+      "detail": "Released from TB",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "13973",
+      "name": "Keelan Marion",
+      "position": "WR",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from ATL",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "260",
+      "name": "Josh Johnson",
+      "position": "QB",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from CIN",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "13802",
+      "name": "Jacob Clark",
+      "position": "QB",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from LV",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "6849",
+      "name": "Denzel Mims",
+      "position": "WR",
+      "team": "",
+      "overall_rank": 518,
+      "change_type": "RELEASED",
+      "detail": "Released from DAL",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "13428",
+      "name": "Joey Aguilar",
+      "position": "QB",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from JAX",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "13816",
+      "name": "Mark Gronowski",
+      "position": "QB",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from MIA",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "7605",
+      "name": "Kyle Trask",
+      "position": "QB",
+      "team": "",
+      "overall_rank": 607,
+      "change_type": "RELEASED",
+      "detail": "Released from CAR",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "6659",
+      "name": "Craig Reynolds",
+      "position": "RB",
+      "team": "",
+      "overall_rank": 460,
+      "change_type": "RELEASED",
+      "detail": "Released from WAS",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "10221",
+      "name": "Ronnie Bell",
+      "position": "WR",
+      "team": "",
+      "overall_rank": 370,
+      "change_type": "RELEASED",
+      "detail": "Released from NO",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "8799",
+      "name": "Zaire Mitchell-Paden",
+      "position": "TE",
+      "team": "",
+      "overall_rank": 289,
+      "change_type": "RELEASED",
+      "detail": "Released from NO",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "11139",
+      "name": "Elijah Cooks",
+      "position": "WR",
+      "team": "",
+      "overall_rank": 589,
+      "change_type": "RELEASED",
+      "detail": "Released from CAR",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "12504",
+      "name": "Kaleb Johnson",
+      "position": "RB",
+      "team": "GB",
+      "overall_rank": 496,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "PIT -> GB",
       "priority": "MEDIUM"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "12515",
-      "name": "Donovan Edwards",
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "13074",
+      "name": "Isaiah Neyor",
+      "position": "WR",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from GB",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "13261",
+      "name": "Layne Pryor",
+      "position": "TE",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from HOU",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "8157",
+      "name": "Bailey Zappe",
+      "position": "QB",
+      "team": "",
+      "overall_rank": 547,
+      "change_type": "RELEASED",
+      "detail": "Released from NYJ",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "11384",
+      "name": "Owen Wright",
+      "position": "RB",
+      "team": "",
+      "overall_rank": 573,
+      "change_type": "RELEASED",
+      "detail": "Released from HOU",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "13321",
+      "name": "Dan Villari",
+      "position": "TE",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from LAR",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "13217",
+      "name": "Hunter Dekkers",
+      "position": "QB",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from NO",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "6920",
+      "name": "Isaiah Hodgins",
+      "position": "WR",
+      "team": "",
+      "overall_rank": 388,
+      "change_type": "RELEASED",
+      "detail": "Released from NYG",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "14055",
+      "name": "Louis Hansen",
+      "position": "TE",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from HOU",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "13403",
+      "name": "Jam Miller",
+      "position": "RB",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from NE",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "8002",
+      "name": "Shane Buechele",
+      "position": "QB",
+      "team": "",
+      "overall_rank": 528,
+      "change_type": "RELEASED",
+      "detail": "Released from BUF",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "6037",
+      "name": "Brett Rypien",
+      "position": "QB",
+      "team": "",
+      "overall_rank": 600,
+      "change_type": "RELEASED",
+      "detail": "Released from HOU",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "13013",
+      "name": "Mark Redman",
+      "position": "TE",
+      "team": "GB",
+      "overall_rank": null,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "LAR -> GB",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "7357",
+      "name": "Dan Chisena",
+      "position": "WR",
+      "team": "",
+      "overall_rank": 582,
+      "change_type": "RELEASED",
+      "detail": "Released from CAR",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "7087",
+      "name": "Jonathan Ward",
+      "position": "RB",
+      "team": "",
+      "overall_rank": 578,
+      "change_type": "RELEASED",
+      "detail": "Released from BAL",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "7565",
+      "name": "Terrace Marshall",
+      "position": "WR",
+      "team": "",
+      "overall_rank": 489,
+      "change_type": "RELEASED",
+      "detail": "Released from MIA",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "13810",
+      "name": "Rohan Jones",
+      "position": "TE",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from LAR",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "13003",
+      "name": "Tru Edwards",
+      "position": "WR",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from LAR",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "13844",
+      "name": "Coleman Bennett",
       "position": "RB",
       "team": "",
       "overall_rank": null,
@@ -1093,14 +862,245 @@
       "priority": "LOW"
     },
     {
-      "timestamp": "2026-08-30T17:18:13",
-      "player_id": "4234",
-      "name": "Noah Brown",
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "12933",
+      "name": "Caden Prieskorn",
+      "position": "TE",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from CAR",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "8123",
+      "name": "Hassan Haskins",
+      "position": "RB",
+      "team": "",
+      "overall_rank": 459,
+      "change_type": "RELEASED",
+      "detail": "Released from NE",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "12860",
+      "name": "Theo Wease",
       "position": "WR",
       "team": "",
       "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
+      "change_type": "RELEASED",
+      "detail": "Released from MIA",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "12494",
+      "name": "Kyle McCord",
+      "position": "QB",
+      "team": "MIA",
+      "overall_rank": null,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "GB -> MIA",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "11582",
+      "name": "Carson Steele",
+      "position": "RB",
+      "team": "",
+      "overall_rank": 471,
+      "change_type": "RELEASED",
+      "detail": "Released from PHI",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "13889",
+      "name": "Levi Wentz",
+      "position": "WR",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from PIT",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "12907",
+      "name": "Quentin Skinner",
+      "position": "WR",
+      "team": "",
+      "overall_rank": 356,
+      "change_type": "RELEASED",
+      "detail": "Released from BUF",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "7050",
+      "name": "Josiah Deguara",
+      "position": "TE",
+      "team": "",
+      "overall_rank": 293,
+      "change_type": "RELEASED",
+      "detail": "Released from NYG",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "8235",
+      "name": "Samori Toure",
+      "position": "WR",
+      "team": "",
+      "overall_rank": 516,
+      "change_type": "RELEASED",
+      "detail": "Released from PHI",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "12883",
+      "name": "Joshua Simon",
+      "position": "TE",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from ATL",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "11748",
+      "name": "Bub Means",
+      "position": "WR",
+      "team": "",
+      "overall_rank": 595,
+      "change_type": "RELEASED",
+      "detail": "Released from NO",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "8041",
+      "name": "Shane Zylstra",
+      "position": "TE",
+      "team": "",
+      "overall_rank": 300,
+      "change_type": "RELEASED",
+      "detail": "Released from BUF",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "4464",
+      "name": "Nick Mullens",
+      "position": "QB",
+      "team": "",
+      "overall_rank": 503,
+      "change_type": "RELEASED",
+      "detail": "Released from JAX",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "13661",
+      "name": "Ethan Conner",
+      "position": "TE",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from MIA",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "11065",
+      "name": "Adrian Martinez",
+      "position": "QB",
+      "team": "",
+      "overall_rank": 603,
+      "change_type": "RELEASED",
+      "detail": "Released from SF",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "9505",
+      "name": "Deuce Vaughn",
+      "position": "RB",
+      "team": "",
+      "overall_rank": 473,
+      "change_type": "RELEASED",
+      "detail": "Released from HOU",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "13708",
+      "name": "Kobe Prentice",
+      "position": "WR",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from NYG",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "11068",
+      "name": "Mitch Tinsley",
+      "position": "WR",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from CIN",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "13913",
+      "name": "Patrick Gurd",
+      "position": "TE",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from LV",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "12972",
+      "name": "Roc Taylor",
+      "position": "WR",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from CAR",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "13949",
+      "name": "Damon Bankston",
+      "position": "RB",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from NYG",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-08-30T15:20:29",
+      "player_id": "12515",
+      "name": "Donovan Edwards",
+      "position": "RB",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from MIA",
       "priority": "LOW"
     }
   ]
