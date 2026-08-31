@@ -1,50 +1,92 @@
 {
-  "updated": "2026-08-31T10:22:29",
+  "updated": "2026-08-31T18:37:12",
   "source": "CampResearcher.v2",
   "override_count": 22,
   "player_count": 43,
-  "news_items_processed": 319,
+  "news_items_processed": 309,
   "players": {
     "Jeremy McNichols": {
-      "status": "SEVERE",
-      "injury": "IR Jeremy McNichols (quad) placed on IR Su",
-      "week1_outlook": "UNLIKELY",
-      "ppg_multiplier": 0.65,
-      "ranking_note": "Jeremy McNichols (quad) placed on IR Sun, Aug 30th 7:21pm EDT By Ari Koslow",
-      "impact": "SEVERE",
-      "source": "FantasyPros",
+      "status": "SEASON_ENDING",
+      "injury": "IR RB Washington Commanders Quadriceps Aug",
+      "week1_outlook": "OUT",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Jeremy McNichols Opening season on IR RB Washington Commanders Quadriceps August 31, 2026 The Commanders placed McNichols (quadriceps) on injured reserve with a designation to return Sunday, Zach Selby of the team's official site reports. A",
+      "impact": "SEASON_ENDING",
+      "source": "RotoWire",
       "headlines": [
         "Jeremy McNichols (quad) placed on IR",
-        "Jeremy McNichols - Questionable"
+        "Jeremy McNichols",
+        "Jeremy McNichols - IR"
       ],
-      "old_rank": 305,
-      "new_rank": 320,
+      "old_rank": 304,
+      "new_rank": 303,
       "old_ppg": 3.18,
-      "new_ppg": 2.07,
+      "new_ppg": 3.18,
       "position": "RB",
       "team": "WAS",
       "updated": "2026-08-31",
       "auto_generated": true,
       "from_override": false
     },
-    "Christian Kirk": {
-      "status": "SEASON_ENDING",
-      "injury": "irk - IR Christian Kirk listed as IR",
-      "week1_outlook": "OUT",
+    "Emari Demercado": {
+      "status": "NEUTRAL",
+      "injury": "Emari Demercado Emari Demercado Lands with Dallas RB Dallas Cowboys August 31, 2026 Demercado was claimed off waivers by",
+      "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "Christian Kirk listed as IR. ",
-      "impact": "SEASON_ENDING",
-      "source": "Sleeper",
+      "ranking_note": "Emari Demercado Lands with Dallas RB Dallas Cowboys August 31, 2026 Demercado was claimed off waivers by the Cowboys on Monday, Tom Pelissero of Netflix reports. ANALYSIS Subscribe now to instantly reveal our take on this news.",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
       "headlines": [
-        "Christian Kirk",
-        "Christian Kirk - IR"
+        "Emari Demercado"
       ],
-      "old_rank": 219,
-      "new_rank": 217,
-      "old_ppg": 5.61,
-      "new_ppg": 5.61,
+      "old_rank": 245,
+      "new_rank": 243,
+      "old_ppg": 5.09,
+      "new_ppg": 5.09,
+      "position": "RB",
+      "team": "KC",
+      "updated": "2026-08-31",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Nick Westbrook-Ikhine": {
+      "status": "RELEASED",
+      "injury": "Nick Westbrook-Ikhine Nick Westbrook-Ikhine Let go by Indianapolis WR Free Agent August 31, 2026 Westbrook-Ikhine was re",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Nick Westbrook-Ikhine Let go by Indianapolis WR Free Agent August 31, 2026 Westbrook-Ikhine was released by the Colts on Sunday, JJ Stankevitz of the team's official website reports. ANALYSIS Subscribe now to instantly reveal our take on th",
+      "impact": "RELEASED",
+      "source": "RotoWire",
+      "headlines": [
+        "Nick Westbrook-Ikhine"
+      ],
+      "old_rank": 174,
+      "new_rank": 173,
+      "old_ppg": 7.2,
+      "new_ppg": 7.2,
       "position": "WR",
-      "team": "SF",
+      "team": "IND",
+      "updated": "2026-08-31",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Jaleel McLaughlin": {
+      "status": "RELEASED",
+      "injury": "McLaughlin Jaleel McLaughlin Time in Denver",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Jaleel McLaughlin Time in Denver ends RB Free Agent August 31, 2026 The Broncos waived McLaughlin on Sunday, Aric DiLalla of the team's official site reports. ANALYSIS Subscribe now to instantly reveal our take on this news.",
+      "impact": "RELEASED",
+      "source": "RotoWire",
+      "headlines": [
+        "Jaleel McLaughlin"
+      ],
+      "old_rank": 216,
+      "new_rank": 214,
+      "old_ppg": 5.65,
+      "new_ppg": 5.65,
+      "position": "RB",
+      "team": "DEN",
       "updated": "2026-08-31",
       "auto_generated": true,
       "from_override": false
@@ -59,9 +101,9 @@
       "source": "RotoWire",
       "headlines": [
         "Puka Nacua",
-        "Puka Nacua, Rams (groin) : Nacua was still out of practice on Tuesday as we approach Week 3 of preseason."
+        "Puka Nacua, Rams (groin) : Nacua was back at practice on Sunday after missing a few weeks."
       ],
-      "old_rank": 11,
+      "old_rank": 10,
       "new_rank": 11,
       "old_ppg": 18.5,
       "new_ppg": 18.5,
@@ -82,8 +124,8 @@
       "headlines": [
         "Tyrone Tracy"
       ],
-      "old_rank": 237,
-      "new_rank": 236,
+      "old_rank": 235,
+      "new_rank": 235,
       "old_ppg": 5.41,
       "new_ppg": 5.41,
       "position": "RB",
@@ -124,8 +166,8 @@
       "headlines": [
         "Darius Slayton"
       ],
-      "old_rank": 224,
-      "new_rank": 223,
+      "old_rank": 226,
+      "new_rank": 225,
       "old_ppg": 5.52,
       "new_ppg": 5.52,
       "position": "WR",
@@ -145,56 +187,12 @@
       "headlines": [
         "Anthony Richardson"
       ],
-      "old_rank": 66,
+      "old_rank": 65,
       "new_rank": 64,
-      "old_ppg": 12.59,
-      "new_ppg": 12.59,
+      "old_ppg": 12.58,
+      "new_ppg": 12.58,
       "position": "QB",
       "team": "IND",
-      "updated": "2026-08-31",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Greg Dortch": {
-      "status": "NEUTRAL",
-      "injury": "Greg Dortch Greg Dortch Let go by Detroit WR Free Agent August 30, 2026 The Lions are releasing Dortch, Tom Pelissero of",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Greg Dortch Let go by Detroit WR Free Agent August 30, 2026 The Lions are releasing Dortch, Tom Pelissero of NFL Network reports. ANALYSIS Subscribe now to instantly reveal our take on this news.",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Greg Dortch"
-      ],
-      "old_rank": 257,
-      "new_rank": 255,
-      "old_ppg": 4.87,
-      "new_ppg": 4.87,
-      "position": "WR",
-      "team": "DET",
-      "updated": "2026-08-31",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Isaac Guerendo": {
-      "status": "MODERATE",
-      "injury": "PUP list RB San Francisco 49ers Pectoral Au",
-      "week1_outlook": "UNCERTAIN",
-      "ppg_multiplier": 0.82,
-      "ranking_note": "Isaac Guerendo Lands on reserve/PUP list RB San Francisco 49ers Pectoral August 30, 2026 Guerendo (pectoral) was placed on the reserve/PUP list, Jeremy Fowler of ESPN reports. ANALYSIS Subscribe now to instantly reveal our take on this news",
-      "impact": "MODERATE",
-      "source": "RotoWire",
-      "headlines": [
-        "Isaac Guerendo",
-        "Surgery",
-        "Isaac Guerendo - PUP"
-      ],
-      "old_rank": 241,
-      "new_rank": 274,
-      "old_ppg": 5.21,
-      "new_ppg": 4.27,
-      "position": "RB",
-      "team": "SF",
       "updated": "2026-08-31",
       "auto_generated": true,
       "from_override": false
@@ -210,8 +208,8 @@
       "headlines": [
         "Jeremiyah Love, Cardinals (ankle) : Love is dealing with a high ankle sprain but the Cardinals are hopeful he'll be ready for Week 1 (we've been hearing a lot o"
       ],
-      "old_rank": 43,
-      "new_rank": 44,
+      "old_rank": 46,
+      "new_rank": 43,
       "old_ppg": 13.5,
       "new_ppg": 13.5,
       "position": "RB",
@@ -231,7 +229,7 @@
       "headlines": [
         "That cleared the way for Rico Dowdle to take over the backfield."
       ],
-      "old_rank": 103,
+      "old_rank": 102,
       "new_rank": 93,
       "old_ppg": 10.71,
       "new_ppg": 11.25,
@@ -252,7 +250,7 @@
       "headlines": [
         "Upgrade slightly. Running routes, ahead of schedule. Worst case misses 1-2 games."
       ],
-      "old_rank": 37,
+      "old_rank": 38,
       "new_rank": 50,
       "old_ppg": 14.5,
       "new_ppg": 13.49,
@@ -261,27 +259,6 @@
       "updated": "2026-08-05",
       "auto_generated": false,
       "from_override": true
-    },
-    "Daniel Jones": {
-      "status": "SEVERE",
-      "injury": "Achilles tear",
-      "week1_outlook": "UNLIKELY",
-      "ppg_multiplier": 0.65,
-      "ranking_note": "Continue to monitor this situation, as well as the status of QB Daniel Jones, who is coming back from an Achilles tear.",
-      "impact": "SEVERE",
-      "source": "Yahoo Sports",
-      "headlines": [
-        "Continue to monitor this situation, as well as the status of QB Daniel Jones, who is coming back from an Achilles tear."
-      ],
-      "old_rank": 58,
-      "new_rank": 144,
-      "old_ppg": 13.0,
-      "new_ppg": 8.45,
-      "position": "QB",
-      "team": "IND",
-      "updated": "2026-08-31",
-      "auto_generated": true,
-      "from_override": false
     },
     "Alec Pierce": {
       "status": "RETURNING",
@@ -294,7 +271,7 @@
       "headlines": [
         "Off PUP Aug 27. Eligible (not reserved/PUP). Week 1 is the goal. Still ramping — do not treat as PUP / Weeks 1–4 out."
       ],
-      "old_rank": 102,
+      "old_rank": 101,
       "new_rank": 128,
       "old_ppg": 10.8,
       "new_ppg": 9.72,
@@ -336,7 +313,7 @@
       "headlines": [
         "Off PUP Aug 23 — remaining on PUP through cutdown would have locked Weeks 1–4 and that did not happen. Eligible Week 1. Still ramping (no 11-on-11 yet). Australia sit possible; Tonges is the Week 1 handcuff if he sits. Rest-of-year TE1."
       ],
-      "old_rank": 140,
+      "old_rank": 139,
       "new_rank": 176,
       "old_ppg": 8.8,
       "new_ppg": 7.04,
@@ -378,7 +355,7 @@
       "headlines": [
         "Kyle Monangai, CHI (knee) — expected to miss multiple weeks"
       ],
-      "old_rank": 112,
+      "old_rank": 107,
       "new_rank": 110,
       "old_ppg": 10.2,
       "new_ppg": 10.2,
@@ -399,8 +376,8 @@
       "headlines": [
         "Mike Evans, SF (groin) — plans to play Week 1"
       ],
-      "old_rank": 80,
-      "new_rank": 79,
+      "old_rank": 73,
+      "new_rank": 82,
       "old_ppg": 12.0,
       "new_ppg": 12.0,
       "position": "WR",
@@ -420,7 +397,7 @@
       "headlines": [
         "TreVeyon Henderson - Questionable"
       ],
-      "old_rank": 50,
+      "old_rank": 42,
       "new_rank": 65,
       "old_ppg": 13.5,
       "new_ppg": 12.56,
@@ -451,6 +428,27 @@
       "auto_generated": false,
       "from_override": true
     },
+    "Grant Calcaterra": {
+      "status": "SEASON_ENDING",
+      "injury": "IR Grant Calcaterra listed as IR",
+      "week1_outlook": "OUT",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Grant Calcaterra listed as IR. ",
+      "impact": "SEASON_ENDING",
+      "source": "Sleeper",
+      "headlines": [
+        "Grant Calcaterra - IR"
+      ],
+      "old_rank": 287,
+      "new_rank": 285,
+      "old_ppg": 3.66,
+      "new_ppg": 3.66,
+      "position": "TE",
+      "team": "PHI",
+      "updated": "2026-08-31",
+      "auto_generated": true,
+      "from_override": false
+    },
     "Sam LaPorta": {
       "status": "MILD",
       "injury": "Sam LaPorta - Questionable Sam LaPorta listed as Questionable",
@@ -462,7 +460,7 @@
       "headlines": [
         "Sam LaPorta - Questionable"
       ],
-      "old_rank": 106,
+      "old_rank": 105,
       "new_rank": 127,
       "old_ppg": 10.5,
       "new_ppg": 9.77,
@@ -483,7 +481,7 @@
       "headlines": [
         "Jalen McMillan - Questionable"
       ],
-      "old_rank": 179,
+      "old_rank": 178,
       "new_rank": 187,
       "old_ppg": 6.9,
       "new_ppg": 6.42,
@@ -504,12 +502,34 @@
       "headlines": [
         "Tre' Harris - Questionable"
       ],
-      "old_rank": 199,
-      "new_rank": 218,
+      "old_rank": 197,
+      "new_rank": 216,
       "old_ppg": 6.0,
       "new_ppg": 5.58,
       "position": "WR",
       "team": "LAC",
+      "updated": "2026-08-31",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Isaac Guerendo": {
+      "status": "MODERATE",
+      "injury": "PUP Isaac Guerendo listed as PUP",
+      "week1_outlook": "UNCERTAIN",
+      "ppg_multiplier": 0.82,
+      "ranking_note": "Isaac Guerendo listed as PUP. ",
+      "impact": "MODERATE",
+      "source": "Sleeper",
+      "headlines": [
+        "Surgery",
+        "Isaac Guerendo - PUP"
+      ],
+      "old_rank": 239,
+      "new_rank": 274,
+      "old_ppg": 5.21,
+      "new_ppg": 4.27,
+      "position": "RB",
+      "team": "SF",
       "updated": "2026-08-31",
       "auto_generated": true,
       "from_override": false
@@ -546,33 +566,12 @@
       "headlines": [
         "Sprain"
       ],
-      "old_rank": 213,
+      "old_rank": 212,
       "new_rank": 211,
       "old_ppg": 5.73,
       "new_ppg": 5.73,
       "position": "WR",
       "team": "BUF",
-      "updated": "2026-08-31",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Ray-Ray McCloud": {
-      "status": "SEASON_ENDING",
-      "injury": "IR Ray-Ray McCloud listed as IR",
-      "week1_outlook": "OUT",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Ray-Ray McCloud listed as IR. ",
-      "impact": "SEASON_ENDING",
-      "source": "Sleeper",
-      "headlines": [
-        "Ray-Ray McCloud - IR"
-      ],
-      "old_rank": 210,
-      "new_rank": 208,
-      "old_ppg": 5.79,
-      "new_ppg": 5.79,
-      "position": "WR",
-      "team": "CHI",
       "updated": "2026-08-31",
       "auto_generated": true,
       "from_override": false
@@ -609,7 +608,7 @@
       "headlines": [
         "DK Metcalf - Questionable"
       ],
-      "old_rank": 83,
+      "old_rank": 82,
       "new_rank": 94,
       "old_ppg": 12.0,
       "new_ppg": 11.16,
@@ -651,7 +650,7 @@
       "headlines": [
         "Monitor. Tightness only but has injury history. Now with DEN (Bo Nix) after March 2026 trade from MIA."
       ],
-      "old_rank": 79,
+      "old_rank": 85,
       "new_rank": 91,
       "old_ppg": 12.0,
       "new_ppg": 11.4,
@@ -672,8 +671,8 @@
       "headlines": [
         "Healthy and practicing. No current hold."
       ],
-      "old_rank": 41,
-      "new_rank": 38,
+      "old_rank": 40,
+      "new_rank": 39,
       "old_ppg": 14.0,
       "new_ppg": 14.0,
       "position": "WR",
@@ -693,7 +692,7 @@
       "headlines": [
         "Injury flag from Aug 5 is stale. Has practiced and started preseason. Stefanski has not named Week 1 QB (Tua vs Penix). Job risk is the only remaining haircut — not an injury hold."
       ],
-      "old_rank": 95,
+      "old_rank": 93,
       "new_rank": 126,
       "old_ppg": 11.04,
       "new_ppg": 9.94,
@@ -714,7 +713,7 @@
       "headlines": [
         "Clocking 22mph in camp. No issues. Undervalued WAS sleeper. Daniels connection real."
       ],
-      "old_rank": 76,
+      "old_rank": 87,
       "new_rank": 71,
       "old_ppg": 12.0,
       "new_ppg": 12.36,
@@ -735,7 +734,7 @@
       "headlines": [
         "Extension signed. Team commitment confirmed. ATL RB1 locked in."
       ],
-      "old_rank": 10,
+      "old_rank": 11,
       "new_rank": 10,
       "old_ppg": 18.5,
       "new_ppg": 18.87,
@@ -756,7 +755,7 @@
       "headlines": [
         "Minor thumb issue. Not serious. Monitor."
       ],
-      "old_rank": 125,
+      "old_rank": 116,
       "new_rank": 129,
       "old_ppg": 10.0,
       "new_ppg": 9.7,
