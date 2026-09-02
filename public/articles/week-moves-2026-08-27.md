@@ -73,7 +73,7 @@ This is the Thursday digest: what the camp file and the delta log actually chang
 
 **Jeremiyah Love (RB, ARI)** — INJURY_WORSENED: Healthy -> Questionable (Ankle)
 
-**Cedric Tillman (WR, CLE)** — INJURY_WORSENED: Healthy -> Questionable (Undisclosed)
+**Cedric Tillman (WR, NOCLE — INJURY_WORSENED: Healthy -> Questionable (Undisclosed)
 
 **Keenan Allen (WR, IND)** — TRADED_OR_SIGNED: FA -> IND
 
