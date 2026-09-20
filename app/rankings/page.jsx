@@ -8,6 +8,7 @@ import {
   getLatestWeek,
   getPreviewPlayers,
   getRankingsUpdatedAt,
+  getWeeklyRankingsRaw,
   getYearForWeek,
   liveRankingsExists,
   normalizeBoard,
@@ -83,9 +84,13 @@ export default function RankingsPage({ searchParams }) {
   const rosPlayers = liveRankingsExists()
     ? getBoardRankings('ros', format, { superflex })
     : []
-  const weeklyPlayers = weeklyRankingsExists() ? getBoardRankings('weekly') : []
-  const activePlayers = board === 'weekly' ? weeklyPlayers : rosPlayers
-  const totalPlayers = activePlayers.length
+  // Raw weekly with format columns — RankingsBoard re-ranks by Standard/Half/PPR
+  const weeklyPlayers = weeklyRankingsExists() ? getWeeklyRankingsRaw() : []
+  const activePlayers =
+    board === 'weekly'
+      ? getBoardRankings('weekly', format)
+      : rosPlayers
+  const totalPlayers = activePlayers.length || weeklyPlayers.length || rosPlayers.length
   const previewPlayers = getPreviewPlayers()
   const updatedAt = getRankingsUpdatedAt(week, format, year)
   const track = getTrackRecord()

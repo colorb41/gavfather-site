@@ -169,8 +169,10 @@ export default function RankingsBoard({
 
   const rankedPlayers = useMemo(() => {
     if (isWeekly) {
-      // Weekly CSV order is authoritative — do not re-score by format
-      return sourcePlayers.map((p) => ({ ...p }))
+      return rankPlayersByFormat(sourcePlayers, format, {
+        superflex: false,
+        forceValueSort: true,
+      }).map((p) => ({ ...p, board: 'weekly' }))
     }
     return rankPlayersByFormat(sourcePlayers, format, { superflex })
   }, [sourcePlayers, format, superflex, isWeekly])
@@ -244,7 +246,7 @@ export default function RankingsBoard({
       const adp = normalizeAdpFilter(nextAdp ?? adpFilter)
 
       if (nextB && nextB !== defaultBoard) params.set('board', nextB)
-      if (nextB === 'ros' && fmt && fmt !== DEFAULT_FORMAT) params.set('format', fmt)
+      if (fmt && fmt !== DEFAULT_FORMAT) params.set('format', fmt)
       if (nextB === 'ros' && sf) params.set('superflex', '1')
       if (pos && pos !== 'ALL') params.set('pos', pos)
       if (nextB === 'ros' && adp && adp !== 'ALL') params.set('adp', adp)
@@ -307,24 +309,18 @@ export default function RankingsBoard({
     return () => clearTimeout(t)
   }, [search]) // eslint-disable-line react-hooks/exhaustive-deps
 
-  const isCustomized = !isWeekly && (format !== DEFAULT_FORMAT || superflex)
-  const formatMeta = isWeekly
-    ? {
-        id: 'weekly',
-        label: 'Half PPR',
-        badge: 'WEEKLY',
-        ppgHeader: 'Weekly Edge',
-      }
-    : FORMAT_META[format] || FORMAT_META.half_ppr
+  const isCustomized =
+    format !== DEFAULT_FORMAT || (!isWeekly && superflex)
+  const formatMeta = FORMAT_META[format] || FORMAT_META.half_ppr
   const updatedLabel = formatUpdated(updatedAt)
   const sharePath = `/rankings?board=${board}${
-    !isWeekly && format !== DEFAULT_FORMAT ? `&format=${format}` : ''
+    format !== DEFAULT_FORMAT ? `&format=${format}` : ''
   }${!isWeekly && superflex ? '&superflex=1' : ''}${
     position !== 'ALL' ? `&pos=${position}` : ''
   }${!isWeekly && adpFilter !== 'ALL' ? `&adp=${adpFilter}` : ''}`
-  const shareTitle = `The Gavfather ${boardTitle(board, initialWeek, initialYear)}${
-    !isWeekly ? ` — ${formatMeta.label}` : ''
-  }${superflex && !isWeekly ? ' Superflex' : ''}`
+  const shareTitle = `The Gavfather ${boardTitle(board, initialWeek, initialYear)} — ${
+    formatMeta.label
+  }${!isWeekly && superflex ? ' Superflex' : ''}`
 
   const gated = freemiumCapped && !isLoggedIn
 
@@ -444,34 +440,34 @@ export default function RankingsBoard({
         </div>
       )}
 
-      {/* Scoring format — ROS only */}
-      {!isWeekly && (
-        <div className="mt-3">
-          <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-wider text-gavfather-muted">
-            Scoring format
-          </p>
-          <div className="flex flex-wrap gap-2">
-            {FORMAT_PRESETS.map((f) => {
-              const active = format === f.id
-              return (
-                <button
-                  key={f.id}
-                  type="button"
-                  onClick={() => onFormatChange(f.id)}
-                  className={`rounded-md px-3 py-1.5 text-xs font-bold transition ${
-                    active
-                      ? 'border-2 border-gavfather-gold bg-gavfather-gold/15 text-gavfather-gold'
-                      : 'border border-gavfather-border bg-gavfather-navy text-gavfather-muted hover:text-gavfather-text'
-                  }`}
-                  aria-pressed={active}
-                >
-                  {f.label}
-                  {active ? ' ✓' : ''}
-                </button>
-              )
-            })}
-          </div>
+      {/* Scoring format — both boards */}
+      <div className="mt-3">
+        <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-wider text-gavfather-muted">
+          Scoring format
+        </p>
+        <div className="flex flex-wrap gap-2">
+          {FORMAT_PRESETS.map((f) => {
+            const active = format === f.id
+            return (
+              <button
+                key={f.id}
+                type="button"
+                onClick={() => onFormatChange(f.id)}
+                className={`rounded-md px-3 py-1.5 text-xs font-bold transition ${
+                  active
+                    ? 'border-2 border-gavfather-gold bg-gavfather-gold/15 text-gavfather-gold'
+                    : 'border border-gavfather-border bg-gavfather-navy text-gavfather-muted hover:text-gavfather-text'
+                }`}
+                aria-pressed={active}
+              >
+                {f.label}
+                {active ? ' ✓' : ''}
+              </button>
+            )
+          })}
+        </div>
 
+        {!isWeekly && (
           <div className="mt-3 flex flex-wrap items-center gap-3">
             <span className="text-[11px] font-semibold uppercase tracking-wider text-gavfather-muted">
               Roster
@@ -505,25 +501,26 @@ export default function RankingsBoard({
               Affects draft order, not points scoring
             </span>
           </div>
+        )}
 
-          <p className="mt-2 text-[11px] leading-relaxed text-gavfather-muted">
-            Rankings recalculate instantly for your format. Sign in free to customize
-            league size and roster slots.
-          </p>
-        </div>
-      )}
+        <p className="mt-2 text-[11px] leading-relaxed text-gavfather-muted">
+          {isWeekly
+            ? 'Weekly ranks recalculate for Standard, Half PPR, and PPR. Matchups stay the same.'
+            : 'Rankings recalculate instantly for your format. Sign in free to customize league size and roster slots.'}
+        </p>
+      </div>
 
       {isWeekly && (
-        <p className="mt-3 text-[11px] leading-relaxed text-gavfather-muted">
+        <p className="mt-2 text-[11px] leading-relaxed text-gavfather-muted">
           Start/sit board for this week — matchup, weather, and availability baked in.
           Switch to Rest of Season for season-long ranks.
         </p>
       )}
 
-      {/* Customize panel — ROS only */}
-      {!isWeekly && (
-        <div className="mt-2">
-          <div className="flex flex-wrap items-center gap-3">
+      {/* Customize panel — ROS only for roster; format reset works on both */}
+      <div className="mt-2">
+        <div className="flex flex-wrap items-center gap-3">
+          {!isWeekly && (
             <button
               type="button"
               onClick={() => setCustomizeOpen((o) => !o)}
@@ -533,16 +530,18 @@ export default function RankingsBoard({
                 ? '⚙ Customize for your league scoring ↑'
                 : '⚙ Customize for your league scoring →'}
             </button>
-            {isCustomized && (
-              <button
-                type="button"
-                onClick={onResetDefaults}
-                className="text-xs text-gavfather-gold underline-offset-2 hover:underline"
-              >
-                Reset to default
-              </button>
-            )}
-            <div className="ml-auto flex flex-wrap items-center gap-3">
+          )}
+          {isCustomized && (
+            <button
+              type="button"
+              onClick={onResetDefaults}
+              className="text-xs text-gavfather-gold underline-offset-2 hover:underline"
+            >
+              Reset to default
+            </button>
+          )}
+          <div className="ml-auto flex flex-wrap items-center gap-3">
+            {!isWeekly && (
               <a
                 href={FP_DRAFT_SIMULATOR}
                 target="_blank"
@@ -551,35 +550,29 @@ export default function RankingsBoard({
               >
                 Run a mock on this board ↗
               </a>
-              <div className="hidden sm:block">
-                <ShareButtons title={shareTitle} path={sharePath} label="Copy link" />
-              </div>
+            )}
+            <div className="hidden sm:block">
+              <ShareButtons title={shareTitle} path={sharePath} label="Copy link" />
             </div>
           </div>
+        </div>
 
-          {customizeOpen && (
-            <div className="mt-2 rounded-lg border border-gavfather-border bg-gavfather-slate p-3">
-              <p className="text-xs text-gavfather-muted">
-                Default board: <span className="text-gavfather-text">Half PPR</span>,
-                12 teams, 1-QB roster. Switch scoring above — Superflex only changes
-                where QBs are drafted, not how points are scored.
+        {!isWeekly && customizeOpen && (
+          <div className="mt-2 rounded-lg border border-gavfather-border bg-gavfather-slate p-3">
+            <p className="text-xs text-gavfather-muted">
+              Default board: <span className="text-gavfather-text">Half PPR</span>,
+              12 teams, 1-QB roster. Switch scoring above — Superflex only changes
+              where QBs are drafted, not how points are scored.
+            </p>
+            {isCustomized && (
+              <p className="mt-2 text-xs text-gavfather-gold">
+                Showing {formatMeta.label}
+                {superflex ? ' · Superflex (2-QB)' : ''} rankings
               </p>
-              {isCustomized && (
-                <p className="mt-2 text-xs text-gavfather-gold">
-                  Showing {formatMeta.label}
-                  {superflex ? ' · Superflex (2-QB)' : ''} rankings
-                </p>
-              )}
-            </div>
-          )}
-        </div>
-      )}
-
-      {isWeekly && (
-        <div className="mt-2 flex justify-end">
-          <ShareButtons title={shareTitle} path={sharePath} label="Copy link" />
-        </div>
-      )}
+            )}
+          </div>
+        )}
+      </div>
 
       {/* SECTION 3 — Search + position + ADP filters */}
       <div className="mt-3 space-y-2">
