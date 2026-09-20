@@ -86,7 +86,9 @@ function PositionGate({ position }) {
           ? 'WRs'
           : pos === 'TE'
             ? 'TEs'
-            : 'players'
+            : pos === 'FLEX'
+              ? 'FLEX options'
+              : 'players'
 
   return (
     <div className="mx-auto max-w-md px-4 py-6 text-center sm:px-6">

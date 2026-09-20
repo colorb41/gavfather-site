@@ -17,7 +17,8 @@ import {
 } from '../lib/rankPlayersByFormat'
 import { formatEasternDate, FP_DRAFT_SIMULATOR } from '../lib/site'
 
-const POSITIONS = ['ALL', 'QB', 'RB', 'WR', 'TE']
+const POSITIONS = ['ALL', 'QB', 'RB', 'WR', 'TE', 'FLEX']
+const FLEX_ELIGIBLE = new Set(['RB', 'WR', 'TE'])
 const BOARD_OPTIONS = [
   { id: 'weekly', label: 'This Week' },
   { id: 'ros', label: 'Rest of Season' },
@@ -72,7 +73,9 @@ function playerAdpSignal(player) {
 }
 
 function rowDisplayRank(player, position) {
-  return position === 'ALL' ? player.rank : player.positionalRank || player.rank
+  if (position === 'ALL') return player.rank
+  if (position === 'FLEX') return player.flexRank || player.positionalRank || player.rank
+  return player.positionalRank || player.rank
 }
 
 function boardTitle(board, week, year) {
@@ -170,7 +173,7 @@ export default function RankingsBoard({
   const rankedPlayers = useMemo(() => {
     if (isWeekly) {
       return rankPlayersByFormat(sourcePlayers, format, {
-        superflex: false,
+        superflex,
         forceValueSort: true,
       }).map((p) => ({ ...p, board: 'weekly' }))
     }
@@ -193,7 +196,15 @@ export default function RankingsBoard({
 
   const filtered = useMemo(() => {
     let list = [...rankedPlayers]
-    if (position !== 'ALL') {
+    if (position === 'FLEX') {
+      list = list.filter((p) => FLEX_ELIGIBLE.has(String(p.position || '').toUpperCase()))
+      list.sort(
+        (a, b) =>
+          (a.rank || 999) - (b.rank || 999) ||
+          (b.projectedPpg || 0) - (a.projectedPpg || 0),
+      )
+      list = list.map((p, i) => ({ ...p, flexRank: i + 1 }))
+    } else if (position !== 'ALL') {
       list = list.filter((p) => p.position === position)
       list.sort(
         (a, b) =>
@@ -247,7 +258,7 @@ export default function RankingsBoard({
 
       if (nextB && nextB !== defaultBoard) params.set('board', nextB)
       if (fmt && fmt !== DEFAULT_FORMAT) params.set('format', fmt)
-      if (nextB === 'ros' && sf) params.set('superflex', '1')
+      if (sf) params.set('superflex', '1')
       if (pos && pos !== 'ALL') params.set('pos', pos)
       if (nextB === 'ros' && adp && adp !== 'ALL') params.set('adp', adp)
       if (q && String(q).trim()) params.set('search', String(q).trim())
@@ -309,28 +320,31 @@ export default function RankingsBoard({
     return () => clearTimeout(t)
   }, [search]) // eslint-disable-line react-hooks/exhaustive-deps
 
-  const isCustomized =
-    format !== DEFAULT_FORMAT || (!isWeekly && superflex)
+  const isCustomized = format !== DEFAULT_FORMAT || superflex
   const formatMeta = FORMAT_META[format] || FORMAT_META.half_ppr
   const updatedLabel = formatUpdated(updatedAt)
   const sharePath = `/rankings?board=${board}${
     format !== DEFAULT_FORMAT ? `&format=${format}` : ''
-  }${!isWeekly && superflex ? '&superflex=1' : ''}${
+  }${superflex ? '&superflex=1' : ''}${
     position !== 'ALL' ? `&pos=${position}` : ''
   }${!isWeekly && adpFilter !== 'ALL' ? `&adp=${adpFilter}` : ''}`
   const shareTitle = `The Gavfather ${boardTitle(board, initialWeek, initialYear)} — ${
     formatMeta.label
-  }${!isWeekly && superflex ? ' Superflex' : ''}`
+  }${superflex ? ' Superflex' : ''}${position === 'FLEX' ? ' Flex' : ''}`
 
   const gated = freemiumCapped && !isLoggedIn
 
   const countLabel = gated
     ? position === 'ALL'
       ? `Showing top ${FREE_ALL_LIMIT} of ${totalPlayers.toLocaleString()} players — sign in to see all`
-      : `Showing top ${FREE_POS_LIMIT} of ${filtered.length.toLocaleString()} ${position}s — sign in to see all`
+      : `Showing top ${FREE_POS_LIMIT} of ${filtered.length.toLocaleString()} ${
+          position === 'FLEX' ? 'FLEX' : position
+        }s — sign in to see all`
     : !isWeekly && adpFilter !== 'ALL'
       ? `Showing ${filtered.length.toLocaleString()} ${adpFilter} signals | ${formatMeta.label} | ${DEFAULT_TEAMS}`
-      : `Showing all ${totalPlayers.toLocaleString()} players | ${formatMeta.label} | ${DEFAULT_TEAMS}`
+      : `Showing all ${filtered.length.toLocaleString()} ${
+          position === 'FLEX' ? 'FLEX' : position === 'ALL' ? 'players' : position + 's'
+        } | ${formatMeta.label}${superflex ? ' Superflex' : ''} | ${DEFAULT_TEAMS}`
 
   const gateVariant = position === 'ALL' ? 'full' : 'position'
   const showFade = gated && showGate && unlocked.length > 0
@@ -361,9 +375,14 @@ export default function RankingsBoard({
           <span className="rounded-full bg-gavfather-gold px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-gavfather-navy">
             {formatMeta.badge}
           </span>
-          {!isWeekly && superflex && (
+          {superflex && (
             <span className="rounded-full border border-gavfather-gold/60 bg-gavfather-navy px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-gavfather-gold">
               SUPERFLEX
+            </span>
+          )}
+          {position === 'FLEX' && (
+            <span className="rounded-full border border-gavfather-gold/60 bg-gavfather-navy px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-gavfather-gold">
+              FLEX
             </span>
           )}
           <span className="rounded-full bg-gavfather-navy px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-gavfather-muted">
@@ -467,46 +486,46 @@ export default function RankingsBoard({
           })}
         </div>
 
-        {!isWeekly && (
-          <div className="mt-3 flex flex-wrap items-center gap-3">
-            <span className="text-[11px] font-semibold uppercase tracking-wider text-gavfather-muted">
-              Roster
-            </span>
-            <button
-              type="button"
-              role="switch"
-              aria-checked={superflex}
-              onClick={() => onSuperflexChange(!superflex)}
-              className={`inline-flex items-center gap-2 rounded-md border px-3 py-1.5 text-xs font-bold transition ${
-                superflex
-                  ? 'border-gavfather-gold bg-gavfather-gold/15 text-gavfather-gold'
-                  : 'border-gavfather-border bg-gavfather-navy text-gavfather-muted hover:text-gavfather-text'
+        <div className="mt-3 flex flex-wrap items-center gap-3">
+          <span className="text-[11px] font-semibold uppercase tracking-wider text-gavfather-muted">
+            Roster
+          </span>
+          <button
+            type="button"
+            role="switch"
+            aria-checked={superflex}
+            onClick={() => onSuperflexChange(!superflex)}
+            className={`inline-flex items-center gap-2 rounded-md border px-3 py-1.5 text-xs font-bold transition ${
+              superflex
+                ? 'border-gavfather-gold bg-gavfather-gold/15 text-gavfather-gold'
+                : 'border-gavfather-border bg-gavfather-navy text-gavfather-muted hover:text-gavfather-text'
+            }`}
+          >
+            <span
+              className={`relative inline-flex h-4 w-7 shrink-0 items-center rounded-full transition ${
+                superflex ? 'bg-gavfather-gold' : 'bg-gavfather-border'
               }`}
+              aria-hidden
             >
               <span
-                className={`relative inline-flex h-4 w-7 shrink-0 items-center rounded-full transition ${
-                  superflex ? 'bg-gavfather-gold' : 'bg-gavfather-border'
+                className={`inline-block h-3 w-3 rounded-full bg-gavfather-navy transition ${
+                  superflex ? 'translate-x-3.5' : 'translate-x-0.5'
                 }`}
-                aria-hidden
-              >
-                <span
-                  className={`inline-block h-3 w-3 rounded-full bg-gavfather-navy transition ${
-                    superflex ? 'translate-x-3.5' : 'translate-x-0.5'
-                  }`}
-                />
-              </span>
-              Superflex (2-QB) {superflex ? 'ON' : 'OFF'}
-            </button>
-            <span className="text-[11px] text-gavfather-muted">
-              Affects draft order, not points scoring
+              />
             </span>
-          </div>
-        )}
+            Superflex (2-QB) {superflex ? 'ON' : 'OFF'}
+          </button>
+          <span className="text-[11px] text-gavfather-muted">
+            {isWeekly
+              ? 'QB premium for 2-QB start/sit boards'
+              : 'Affects draft order, not points scoring'}
+          </span>
+        </div>
 
         <p className="mt-2 text-[11px] leading-relaxed text-gavfather-muted">
           {isWeekly
-            ? 'Weekly ranks recalculate for Standard, Half PPR, and PPR. Matchups stay the same.'
-            : 'Rankings recalculate instantly for your format. Sign in free to customize league size and roster slots.'}
+            ? 'Weekly ranks recalculate for Standard, Half PPR, and PPR. Use FLEX for RB/WR/TE; Superflex boosts QBs.'
+            : 'Rankings recalculate instantly for your format. FLEX = RB/WR/TE. Superflex boosts QBs for 2-QB leagues.'}
         </p>
       </div>
 
@@ -517,7 +536,7 @@ export default function RankingsBoard({
         </p>
       )}
 
-      {/* Customize panel — ROS only for roster; format reset works on both */}
+      {/* Customize panel */}
       <div className="mt-2">
         <div className="flex flex-wrap items-center gap-3">
           {!isWeekly && (
@@ -562,7 +581,7 @@ export default function RankingsBoard({
             <p className="text-xs text-gavfather-muted">
               Default board: <span className="text-gavfather-text">Half PPR</span>,
               12 teams, 1-QB roster. Switch scoring above — Superflex only changes
-              where QBs are drafted, not how points are scored.
+              where QBs are drafted, not how points are scored. FLEX filters to RB/WR/TE.
             </p>
             {isCustomized && (
               <p className="mt-2 text-xs text-gavfather-gold">
