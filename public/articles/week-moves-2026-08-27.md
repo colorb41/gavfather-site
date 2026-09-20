@@ -61,7 +61,7 @@ This is the Thursday digest: what the camp file and the delta log actually chang
 
 **Theo Johnson (TE, NYG)** — INJURY_WORSENED: Healthy -> Questionable (Undisclosed)
 
-**Jerome Ford (RB, WAS)** — INJURY_WORSENED: Healthy -> Questionable (Hamstring)
+**Jerome Ford (RB, MINWAS — INJURY_WORSENED: Healthy -> Questionable (Hamstring)
 
 **De'Zhaun Stribling (WR, SF)** — INJURY_WORSENED: Healthy -> Questionable (Shoulder)
 
