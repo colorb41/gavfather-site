@@ -7,8 +7,8 @@ import Footer from '../components/Footer'
 import { SITE_NAME, SITE_URL, formatEasternDate } from '../lib/site'
 import '../styles/globals.css'
 
-function getDraftBannerDate() {
-  const fallback = formatEasternDate()
+function getBannerMeta() {
+  const fallbackDate = formatEasternDate()
   const candidates = [
     path.join(process.cwd(), 'public', 'data', 'meta.json'),
     path.join(process.cwd(), 'data', 'meta.json'),
@@ -18,15 +18,28 @@ function getDraftBannerDate() {
       if (!fs.existsSync(filePath)) continue
       const meta = JSON.parse(fs.readFileSync(filePath, 'utf8'))
       const raw = meta?.last_updated
-      if (!raw) continue
-      const parsed = new Date(raw)
-      if (Number.isNaN(parsed.getTime())) return String(raw)
-      return formatEasternDate(parsed)
+      let dateLabel = fallbackDate
+      if (raw) {
+        const parsed = new Date(raw)
+        dateLabel = Number.isNaN(parsed.getTime())
+          ? String(raw)
+          : formatEasternDate(parsed)
+      }
+      const week = Number(meta?.week)
+      const year = Number(meta?.year) || 2026
+      return { dateLabel, week, year }
     } catch {
       // fall through
     }
   }
-  return fallback
+  return { dateLabel: fallbackDate, week: 0, year: 2026 }
+}
+
+function bannerText({ dateLabel, week, year }) {
+  if (Number.isFinite(week) && week >= 1) {
+    return `Week ${week} ${year} — Rankings updated ${dateLabel}`
+  }
+  return `${year} Rest of Season — Rankings updated ${dateLabel}`
 }
 
 const cinzel = Cinzel({
@@ -80,14 +93,14 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
-  const bannerDate = getDraftBannerDate()
+  const banner = getBannerMeta()
 
   return (
     <html lang="en" className={`${cinzel.variable} ${inter.variable} ${jetbrains.variable}`}>
       <body className="flex min-h-screen flex-col bg-gavfather-navy font-body text-gavfather-text antialiased">
         <Navbar />
         <div className="bg-gavfather-gold px-4 py-1.5 text-center text-xs font-semibold tracking-wide text-gavfather-navy md:text-sm">
-          🏈 2026 Draft Season — Rankings updated {bannerDate}
+          {bannerText(banner)}
         </div>
         <main className="flex-1">{children}</main>
         <Footer />
