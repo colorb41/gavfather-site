@@ -199,6 +199,7 @@ export default function PlayerRow({
   locked = false,
   displayRank,
   fadeOut = false,
+  weeklyMode = false,
 }) {
   const rank = displayRank ?? player.rank
   const rankGold = rank <= 5 ? 'text-gavfather-gold' : 'text-gavfather-muted'
@@ -212,6 +213,11 @@ export default function PlayerRow({
     String(player.tier || 'NEUTRAL')
       .toUpperCase()
       .replace(/\s+/g, '_')
+  const opponent = String(player.opponent || '').toUpperCase() || '—'
+  const matchup =
+    player.matchupGrade == null || Number.isNaN(Number(player.matchupGrade))
+      ? '—'
+      : Number(player.matchupGrade).toFixed(0)
 
   if (compact) {
     return (
@@ -235,12 +241,18 @@ export default function PlayerRow({
               <Blur active={locked}>{player.name}</Blur>
             </p>
             <p className="mt-0.5 text-xs text-gavfather-muted">
-              <Blur active={locked}>{player.team || '—'}</Blur>
+              <Blur active={locked}>
+                {weeklyMode
+                  ? `${player.team || '—'} vs ${opponent}`
+                  : player.team || '—'}
+              </Blur>
             </p>
             <div className="mt-2 flex flex-wrap items-center gap-1.5">
-              <Blur active={locked}>
-                <AdpVsMarketPill player={player} />
-              </Blur>
+              {!weeklyMode && (
+                <Blur active={locked}>
+                  <AdpVsMarketPill player={player} />
+                </Blur>
+              )}
               <Blur active={locked}>
                 <OutlookBadge outlook={outlook} />
               </Blur>
@@ -273,10 +285,8 @@ export default function PlayerRow({
         locked ? 'select-none' : 'hover:bg-gavfather-hover/80'
       }`}
     >
-      {/* Rank — always visible */}
       <td className={`px-3 py-3 font-display text-lg font-semibold ${rankGold}`}>{rank}</td>
 
-      {/* Player name — blurred when locked */}
       <td className="px-3 py-3">
         <div className="flex items-center gap-2">
           {locked && (
@@ -290,53 +300,77 @@ export default function PlayerRow({
         </div>
       </td>
 
-      {/* Position — always visible */}
       <td className="hidden px-3 py-3 md:table-cell">
         <PositionBadge position={player.position} />
       </td>
 
-      {/* Team — blurred when locked */}
       <td className="hidden px-3 py-3 text-sm text-gavfather-muted md:table-cell">
         <Blur active={locked}>{player.team || '—'}</Blur>
       </td>
 
-      {/* Score — blurred when locked */}
       <td className="px-3 py-3 font-mono text-base font-bold text-gavfather-gold">
         <Blur active={locked}>{ppg.toFixed(1)}</Blur>
       </td>
 
-      {/* vs Market ADP */}
-      <td className="px-3 py-3">
-        <Blur active={locked}>
-          <AdpVsMarketPill player={player} />
-        </Blur>
-      </td>
-
-      {/* Outlook */}
-      <td className="hidden px-3 py-3 md:table-cell">
-        <Blur active={locked}>
-          <OutlookBadge outlook={outlook} />
-        </Blur>
-      </td>
-
-      <td className="hidden px-3 py-3 md:table-cell">
-        <Blur active={locked}>
-          <ReliabilityBadge value={player.reliability} />
-        </Blur>
-      </td>
-      <td className="hidden px-3 py-3 font-mono text-sm text-gavfather-text md:table-cell">
-        <Blur active={locked}>{sit}</Blur>
-      </td>
-      <td className="px-3 py-3 text-xs">
-        <Blur active={locked}>
-          <InjuryBadge injury={player.injury} />
-        </Blur>
-      </td>
-      <td className="hidden px-3 py-3 md:table-cell">
-        <Blur active={locked}>
-          <TierText tier={player.tier} />
-        </Blur>
-      </td>
+      {weeklyMode ? (
+        <>
+          <td className="px-3 py-3 text-sm font-semibold text-gavfather-text">
+            <Blur active={locked}>{opponent}</Blur>
+          </td>
+          <td className="px-3 py-3 font-mono text-sm text-gavfather-text">
+            <Blur active={locked}>{matchup}</Blur>
+          </td>
+          <td className="hidden px-3 py-3 md:table-cell">
+            <Blur active={locked}>
+              <OutlookBadge outlook={outlook} />
+            </Blur>
+          </td>
+          <td className="hidden px-3 py-3 md:table-cell">
+            <Blur active={locked}>
+              <ReliabilityBadge value={player.reliability} />
+            </Blur>
+          </td>
+          <td className="hidden px-3 py-3 font-mono text-sm text-gavfather-text md:table-cell">
+            <Blur active={locked}>{sit}</Blur>
+          </td>
+          <td className="px-3 py-3 text-xs">
+            <Blur active={locked}>
+              <InjuryBadge injury={player.injury} />
+            </Blur>
+          </td>
+        </>
+      ) : (
+        <>
+          <td className="px-3 py-3">
+            <Blur active={locked}>
+              <AdpVsMarketPill player={player} />
+            </Blur>
+          </td>
+          <td className="hidden px-3 py-3 md:table-cell">
+            <Blur active={locked}>
+              <OutlookBadge outlook={outlook} />
+            </Blur>
+          </td>
+          <td className="hidden px-3 py-3 md:table-cell">
+            <Blur active={locked}>
+              <ReliabilityBadge value={player.reliability} />
+            </Blur>
+          </td>
+          <td className="hidden px-3 py-3 font-mono text-sm text-gavfather-text md:table-cell">
+            <Blur active={locked}>{sit}</Blur>
+          </td>
+          <td className="px-3 py-3 text-xs">
+            <Blur active={locked}>
+              <InjuryBadge injury={player.injury} />
+            </Blur>
+          </td>
+          <td className="hidden px-3 py-3 md:table-cell">
+            <Blur active={locked}>
+              <TierText tier={player.tier} />
+            </Blur>
+          </td>
+        </>
+      )}
     </tr>
   )
 }

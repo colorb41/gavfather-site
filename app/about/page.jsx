@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Script from 'next/script'
-import { LAUNCH_YEAR, SOCIAL_X_URL } from '../../lib/site'
+import { LAUNCH_YEAR, SOCIAL_X_URL, FP_DRAFT_SIMULATOR } from '../../lib/site'
 
 export const metadata = {
   title: 'About',
@@ -126,7 +126,7 @@ export default function AboutPage() {
             data-filters=""
             data-scoring="STD"
             data-expert="7687"
-            data-affiliate_code=""
+            data-affiliate_code="gavfather"
             data-year="2026"
             data-week="0"
             data-auction="false"
@@ -143,10 +143,11 @@ export default function AboutPage() {
           </div>
           <div class="fpw-footer">
             <span style="float:left">
-              <a href="https://www.fantasypros.com/nfl/rankings/consensus-cheatsheets.php"
-                 target="_blank" rel="nofollow">
-                2026 Fantasy Football Rankings
-              </a> powered by FantasyPros
+              <a href="${FP_DRAFT_SIMULATOR}"
+                 target="_blank" rel="sponsored noopener noreferrer">
+                Mock this board
+              </a>
+              — The Gavfather on FantasyPros
             </span>
           </div>
         `}} />

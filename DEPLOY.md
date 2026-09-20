@@ -46,27 +46,29 @@ git push -u origin main
 
 ## Weekly publishing workflow
 
-1. From the engine repo, export the week:
+1. From the engine repo, refresh in-season boards:
 
 ```bat
 cd C:\fantasy-edge
-python main.py --export --week N
+python in_season_update.py --week N
 ```
 
-2. Copy the CSV into the site:
+Or generate weekly only:
 
 ```bat
-copy C:\fantasy-edge\outputs\rankings_week_N_YEAR_ppr.csv C:\gavfather-site\public\rankings\
+python main.py --weekly --week N
 ```
 
-Filename format expected by the site:
+2. Site sync copies:
+- `live_rankings.csv` → **Rest of Season** board
+- `weekly_rankings.csv` → **This Week** board
+
+Filename on the site:
 
 ```
-rankings_week_{N}_{YEAR}.csv
-rankings_week_{N}_{YEAR}_{format}.csv
+public/rankings/live_rankings.csv
+public/rankings/weekly_rankings.csv
 ```
-
-Examples: `rankings_week_1_2026_ppr.csv`, `rankings_week_1_2026_half_ppr.csv`
 
 3. Write / copy the weekly article Markdown into:
 
@@ -84,6 +86,8 @@ git push
 ```
 
 5. Vercel deploys automatically (~60 seconds). The site is live.
+
+The rankings page shows only **This Week** and **Rest of Season** (no preseason label).
 
 ## Optional: track record
 

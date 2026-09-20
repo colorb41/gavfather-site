@@ -15,15 +15,19 @@ import {
   FORMAT_META,
   FORMAT_IDS,
 } from '../lib/rankPlayersByFormat'
-import { formatEasternDate } from '../lib/site'
+import { formatEasternDate, FP_DRAFT_SIMULATOR } from '../lib/site'
 
 const POSITIONS = ['ALL', 'QB', 'RB', 'WR', 'TE']
+const BOARD_OPTIONS = [
+  { id: 'weekly', label: 'This Week' },
+  { id: 'ros', label: 'Rest of Season' },
+]
 const ADP_FILTERS = [
   { id: 'ALL', label: 'All Players' },
   { id: 'BUY', label: '🟢 Buy' },
   { id: 'FADE', label: '🔴 Fade' },
 ]
-const DEFAULT_FORMAT = 'std'
+const DEFAULT_FORMAT = 'half_ppr'
 const DEFAULT_TEAMS = '12 Teams'
 const DEFAULT_ROSTER = 'Standard Roster'
 const TABLE_COL_SPAN = 11
@@ -54,6 +58,13 @@ function normalizeAdpFilter(raw) {
   return f === 'BUY' || f === 'FADE' ? f : 'ALL'
 }
 
+function normalizeBoardId(raw, fallback = 'ros') {
+  const b = String(raw || '').toLowerCase()
+  if (b === 'weekly' || b === 'week') return 'weekly'
+  if (b === 'ros' || b === 'rest' || b === 'rest_of_season') return 'ros'
+  return fallback
+}
+
 function playerAdpSignal(player) {
   return String(player?.adpSignal || player?.adp_signal || '')
     .trim()
@@ -64,8 +75,21 @@ function rowDisplayRank(player, position) {
   return position === 'ALL' ? player.rank : player.positionalRank || player.rank
 }
 
+function boardTitle(board, week, year) {
+  if (board === 'weekly') {
+    return Number(week) >= 1
+      ? `${year} WEEK ${week} RANKINGS`
+      : `${year} WEEKLY RANKINGS`
+  }
+  return `${year} REST OF SEASON`
+}
+
 export default function RankingsBoard({
+  rosPlayers = [],
+  weeklyPlayers = [],
   initialPlayers,
+  availableBoards: boardsProp,
+  initialBoard,
   previewPlayers = [],
   weeks,
   initialWeek,
@@ -81,6 +105,20 @@ export default function RankingsBoard({
 }) {
   const router = useRouter()
   const searchParams = useSearchParams()
+  const boards =
+    Array.isArray(boardsProp) && boardsProp.length
+      ? boardsProp
+      : ['weekly', 'ros'].filter((id) =>
+          id === 'weekly' ? weeklyPlayers.length : (rosPlayers.length || initialPlayers?.length),
+        )
+  const defaultBoard = normalizeBoardId(
+    initialBoard,
+    Number(initialWeek) >= 1 && boards.includes('weekly') ? 'weekly' : 'ros',
+  )
+
+  const [board, setBoard] = useState(() =>
+    normalizeBoardId(searchParams.get('board') || defaultBoard, defaultBoard),
+  )
   const [position, setPosition] = useState(() => normalizePos(initialPos))
   const [search, setSearch] = useState(searchParams.get('search') || '')
   const [format, setFormat] = useState(() =>
@@ -91,6 +129,8 @@ export default function RankingsBoard({
   const [adpFilter, setAdpFilter] = useState(() =>
     normalizeAdpFilter(searchParams.get('adp')),
   )
+
+  const isWeekly = board === 'weekly'
 
   useEffect(() => {
     const q = searchParams.get('search')
@@ -103,7 +143,9 @@ export default function RankingsBoard({
     if (sf != null) setSuperflex(sf === '1' || sf === 'true')
     const adp = searchParams.get('adp')
     if (adp != null) setAdpFilter(normalizeAdpFilter(adp))
-  }, [searchParams])
+    const b = searchParams.get('board')
+    if (b != null) setBoard(normalizeBoardId(b, defaultBoard))
+  }, [searchParams, defaultBoard])
 
   useEffect(() => {
     setFormat(normalizeScoringFormat(initialFormat || DEFAULT_FORMAT))
@@ -113,10 +155,25 @@ export default function RankingsBoard({
     setSuperflex(Boolean(initialSuperflex))
   }, [initialSuperflex])
 
-  const rankedPlayers = useMemo(
-    () => rankPlayersByFormat(initialPlayers, format, { superflex }),
-    [initialPlayers, format, superflex],
-  )
+  useEffect(() => {
+    setBoard(normalizeBoardId(initialBoard, defaultBoard))
+  }, [initialBoard, defaultBoard])
+
+  const sourcePlayers = useMemo(() => {
+    if (isWeekly) {
+      return weeklyPlayers.length ? weeklyPlayers : []
+    }
+    if (rosPlayers.length) return rosPlayers
+    return initialPlayers || []
+  }, [isWeekly, weeklyPlayers, rosPlayers, initialPlayers])
+
+  const rankedPlayers = useMemo(() => {
+    if (isWeekly) {
+      // Weekly CSV order is authoritative — do not re-score by format
+      return sourcePlayers.map((p) => ({ ...p }))
+    }
+    return rankPlayersByFormat(sourcePlayers, format, { superflex })
+  }, [sourcePlayers, format, superflex, isWeekly])
 
   const signalCounts = useMemo(() => {
     let buy = 0
@@ -145,7 +202,7 @@ export default function RankingsBoard({
       list.sort((a, b) => a.rank - b.rank)
     }
 
-    if (adpFilter === 'BUY' || adpFilter === 'FADE') {
+    if (!isWeekly && (adpFilter === 'BUY' || adpFilter === 'FADE')) {
       list = list.filter((p) => playerAdpSignal(p) === adpFilter)
     }
 
@@ -155,11 +212,14 @@ export default function RankingsBoard({
         (p) =>
           p.name.toLowerCase().includes(q) ||
           p.team.toLowerCase().includes(q) ||
-          p.position.toLowerCase().includes(q),
+          p.position.toLowerCase().includes(q) ||
+          String(p.opponent || '')
+            .toLowerCase()
+            .includes(q),
       )
     }
     return list
-  }, [rankedPlayers, position, search, adpFilter])
+  }, [rankedPlayers, position, search, adpFilter, isWeekly])
 
   const { unlocked, blurred, showGate } = useMemo(
     () => splitFreemiumRows(filtered, position, isLoggedIn || !freemiumCapped),
@@ -167,25 +227,41 @@ export default function RankingsBoard({
   )
 
   const pushUrl = useCallback(
-    ({ nextFormat, nextPos, nextSearch, nextSuperflex, nextAdp } = {}) => {
+    ({
+      nextBoard,
+      nextFormat,
+      nextPos,
+      nextSearch,
+      nextSuperflex,
+      nextAdp,
+    } = {}) => {
       const params = new URLSearchParams()
+      const nextB = normalizeBoardId(nextBoard ?? board, defaultBoard)
       const fmt = normalizeScoringFormat(nextFormat ?? format)
       const pos = nextPos ?? position
       const q = nextSearch !== undefined ? nextSearch : search
       const sf = nextSuperflex !== undefined ? nextSuperflex : superflex
       const adp = normalizeAdpFilter(nextAdp ?? adpFilter)
 
-      if (fmt && fmt !== DEFAULT_FORMAT) params.set('format', fmt)
-      if (sf) params.set('superflex', '1')
+      if (nextB && nextB !== defaultBoard) params.set('board', nextB)
+      if (nextB === 'ros' && fmt && fmt !== DEFAULT_FORMAT) params.set('format', fmt)
+      if (nextB === 'ros' && sf) params.set('superflex', '1')
       if (pos && pos !== 'ALL') params.set('pos', pos)
-      if (adp && adp !== 'ALL') params.set('adp', adp)
+      if (nextB === 'ros' && adp && adp !== 'ALL') params.set('adp', adp)
       if (q && String(q).trim()) params.set('search', String(q).trim())
 
       const qs = params.toString()
       router.replace(qs ? `/rankings?${qs}` : '/rankings', { scroll: false })
     },
-    [format, position, search, superflex, adpFilter, router],
+    [board, format, position, search, superflex, adpFilter, defaultBoard, router],
   )
+
+  function onBoardChange(next) {
+    const b = normalizeBoardId(next, defaultBoard)
+    setBoard(b)
+    if (b === 'weekly') setAdpFilter('ALL')
+    pushUrl({ nextBoard: b, nextAdp: b === 'weekly' ? 'ALL' : adpFilter })
+  }
 
   function onFormatChange(next) {
     const fmt = normalizeScoringFormat(next)
@@ -231,15 +307,24 @@ export default function RankingsBoard({
     return () => clearTimeout(t)
   }, [search]) // eslint-disable-line react-hooks/exhaustive-deps
 
-  const isCustomized = format !== DEFAULT_FORMAT || superflex
-  const formatMeta = FORMAT_META[format] || FORMAT_META.std
+  const isCustomized = !isWeekly && (format !== DEFAULT_FORMAT || superflex)
+  const formatMeta = isWeekly
+    ? {
+        id: 'weekly',
+        label: 'Half PPR',
+        badge: 'WEEKLY',
+        ppgHeader: 'Weekly Edge',
+      }
+    : FORMAT_META[format] || FORMAT_META.half_ppr
   const updatedLabel = formatUpdated(updatedAt)
-  const sharePath = `/rankings?format=${format}${superflex ? '&superflex=1' : ''}${
+  const sharePath = `/rankings?board=${board}${
+    !isWeekly && format !== DEFAULT_FORMAT ? `&format=${format}` : ''
+  }${!isWeekly && superflex ? '&superflex=1' : ''}${
     position !== 'ALL' ? `&pos=${position}` : ''
-  }${adpFilter !== 'ALL' ? `&adp=${adpFilter}` : ''}`
-  const shareTitle = `The Gavfather ${initialYear} Rankings — ${formatMeta.label}${
-    superflex ? ' Superflex' : ''
-  }`
+  }${!isWeekly && adpFilter !== 'ALL' ? `&adp=${adpFilter}` : ''}`
+  const shareTitle = `The Gavfather ${boardTitle(board, initialWeek, initialYear)}${
+    !isWeekly ? ` — ${formatMeta.label}` : ''
+  }${superflex && !isWeekly ? ' Superflex' : ''}`
 
   const gated = freemiumCapped && !isLoggedIn
 
@@ -247,12 +332,13 @@ export default function RankingsBoard({
     ? position === 'ALL'
       ? `Showing top ${FREE_ALL_LIMIT} of ${totalPlayers.toLocaleString()} players — sign in to see all`
       : `Showing top ${FREE_POS_LIMIT} of ${filtered.length.toLocaleString()} ${position}s — sign in to see all`
-    : adpFilter !== 'ALL'
+    : !isWeekly && adpFilter !== 'ALL'
       ? `Showing ${filtered.length.toLocaleString()} ${adpFilter} signals | ${formatMeta.label} | ${DEFAULT_TEAMS}`
       : `Showing all ${totalPlayers.toLocaleString()} players | ${formatMeta.label} | ${DEFAULT_TEAMS}`
 
   const gateVariant = position === 'ALL' ? 'full' : 'position'
   const showFade = gated && showGate && unlocked.length > 0
+  const titleText = boardTitle(board, initialWeek, initialYear)
 
   return (
     <div className="relative">
@@ -268,7 +354,7 @@ export default function RankingsBoard({
           className="font-display text-xs font-semibold tracking-[0.14em] text-gavfather-gold sm:text-sm"
           style={{ fontVariant: 'small-caps' }}
         >
-          {initialYear} PRESEASON RANKINGS
+          {titleText}
         </h1>
         <div className="flex flex-wrap items-center gap-2">
           {isLoggedIn && (
@@ -279,7 +365,7 @@ export default function RankingsBoard({
           <span className="rounded-full bg-gavfather-gold px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-gavfather-navy">
             {formatMeta.badge}
           </span>
-          {superflex && (
+          {!isWeekly && superflex && (
             <span className="rounded-full border border-gavfather-gold/60 bg-gavfather-navy px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-gavfather-gold">
               SUPERFLEX
             </span>
@@ -294,16 +380,50 @@ export default function RankingsBoard({
         </div>
       </div>
 
-      {/* ADP signal stats bar */}
-      <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 px-1 text-[12px] sm:px-0">
-        <span className="font-semibold text-emerald-300">
-          {signalCounts.buy} BUY signals
-        </span>
-        <span className="text-gavfather-muted">|</span>
-        <span className="font-semibold text-red-300">
-          {signalCounts.fade} FADE signals today
-        </span>
+      {/* Board type — Weekly vs Rest of Season */}
+      <div className="mt-3">
+        <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-wider text-gavfather-muted">
+          Board
+        </p>
+        <div className="flex flex-wrap gap-2">
+          {BOARD_OPTIONS.filter((opt) => boards.includes(opt.id)).map((opt) => {
+            const active = board === opt.id
+            const weekSuffix =
+              opt.id === 'weekly' && Number(initialWeek) >= 1
+                ? ` ${initialWeek}`
+                : ''
+            return (
+              <button
+                key={opt.id}
+                type="button"
+                onClick={() => onBoardChange(opt.id)}
+                className={`rounded-md px-3 py-1.5 text-xs font-bold transition ${
+                  active
+                    ? 'border-2 border-gavfather-gold bg-gavfather-gold/15 text-gavfather-gold'
+                    : 'border border-gavfather-border bg-gavfather-navy text-gavfather-muted hover:text-gavfather-text'
+                }`}
+                aria-pressed={active}
+              >
+                {opt.label}
+                {weekSuffix}
+                {active ? ' ✓' : ''}
+              </button>
+            )
+          })}
+        </div>
       </div>
+
+      {!isWeekly && (
+        <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 px-1 text-[12px] sm:px-0">
+          <span className="font-semibold text-emerald-300">
+            {signalCounts.buy} BUY signals
+          </span>
+          <span className="text-gavfather-muted">|</span>
+          <span className="font-semibold text-red-300">
+            {signalCounts.fade} FADE signals today
+          </span>
+        </div>
+      )}
 
       {fantasyPros?.submitted && (
         <div className="mt-2">
@@ -324,115 +444,142 @@ export default function RankingsBoard({
         </div>
       )}
 
-      {/* SECTION 2 — Scoring format */}
-      <div className="mt-3">
-        <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-wider text-gavfather-muted">
-          Scoring format
-        </p>
-        <div className="flex flex-wrap gap-2">
-          {FORMAT_PRESETS.map((f) => {
-            const active = format === f.id
-            return (
-              <button
-                key={f.id}
-                type="button"
-                onClick={() => onFormatChange(f.id)}
-                className={`rounded-md px-3 py-1.5 text-xs font-bold transition ${
-                  active
-                    ? 'border-2 border-gavfather-gold bg-gavfather-gold/15 text-gavfather-gold'
-                    : 'border border-gavfather-border bg-gavfather-navy text-gavfather-muted hover:text-gavfather-text'
-                }`}
-                aria-pressed={active}
-              >
-                {f.label}
-                {active ? ' ✓' : ''}
-              </button>
-            )
-          })}
-        </div>
+      {/* Scoring format — ROS only */}
+      {!isWeekly && (
+        <div className="mt-3">
+          <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-wider text-gavfather-muted">
+            Scoring format
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {FORMAT_PRESETS.map((f) => {
+              const active = format === f.id
+              return (
+                <button
+                  key={f.id}
+                  type="button"
+                  onClick={() => onFormatChange(f.id)}
+                  className={`rounded-md px-3 py-1.5 text-xs font-bold transition ${
+                    active
+                      ? 'border-2 border-gavfather-gold bg-gavfather-gold/15 text-gavfather-gold'
+                      : 'border border-gavfather-border bg-gavfather-navy text-gavfather-muted hover:text-gavfather-text'
+                  }`}
+                  aria-pressed={active}
+                >
+                  {f.label}
+                  {active ? ' ✓' : ''}
+                </button>
+              )
+            })}
+          </div>
 
-        <div className="mt-3 flex flex-wrap items-center gap-3">
-          <span className="text-[11px] font-semibold uppercase tracking-wider text-gavfather-muted">
-            Roster
-          </span>
-          <button
-            type="button"
-            role="switch"
-            aria-checked={superflex}
-            onClick={() => onSuperflexChange(!superflex)}
-            className={`inline-flex items-center gap-2 rounded-md border px-3 py-1.5 text-xs font-bold transition ${
-              superflex
-                ? 'border-gavfather-gold bg-gavfather-gold/15 text-gavfather-gold'
-                : 'border-gavfather-border bg-gavfather-navy text-gavfather-muted hover:text-gavfather-text'
-            }`}
-          >
-            <span
-              className={`relative inline-flex h-4 w-7 shrink-0 items-center rounded-full transition ${
-                superflex ? 'bg-gavfather-gold' : 'bg-gavfather-border'
-              }`}
-              aria-hidden
-            >
-              <span
-                className={`inline-block h-3 w-3 rounded-full bg-gavfather-navy transition ${
-                  superflex ? 'translate-x-3.5' : 'translate-x-0.5'
-                }`}
-              />
+          <div className="mt-3 flex flex-wrap items-center gap-3">
+            <span className="text-[11px] font-semibold uppercase tracking-wider text-gavfather-muted">
+              Roster
             </span>
-            Superflex (2-QB) {superflex ? 'ON' : 'OFF'}
-          </button>
-          <span className="text-[11px] text-gavfather-muted">
-            Affects draft order, not points scoring
-          </span>
-        </div>
-
-        <p className="mt-2 text-[11px] leading-relaxed text-gavfather-muted">
-          Rankings recalculate instantly for your format. Sign in free to customize
-          league size and roster slots.
-        </p>
-      </div>
-
-      {/* SECTION 2b — Customize panel */}
-      <div className="mt-2">
-        <div className="flex flex-wrap items-center gap-3">
-          <button
-            type="button"
-            onClick={() => setCustomizeOpen((o) => !o)}
-            className="rounded-md border border-gavfather-border bg-transparent px-3 py-1.5 text-xs text-gavfather-muted transition hover:border-gavfather-muted hover:text-gavfather-text"
-          >
-            {customizeOpen
-              ? '⚙ Customize for your league scoring ↑'
-              : '⚙ Customize for your league scoring →'}
-          </button>
-          {isCustomized && (
             <button
               type="button"
-              onClick={onResetDefaults}
-              className="text-xs text-gavfather-gold underline-offset-2 hover:underline"
+              role="switch"
+              aria-checked={superflex}
+              onClick={() => onSuperflexChange(!superflex)}
+              className={`inline-flex items-center gap-2 rounded-md border px-3 py-1.5 text-xs font-bold transition ${
+                superflex
+                  ? 'border-gavfather-gold bg-gavfather-gold/15 text-gavfather-gold'
+                  : 'border-gavfather-border bg-gavfather-navy text-gavfather-muted hover:text-gavfather-text'
+              }`}
             >
-              Reset to default
+              <span
+                className={`relative inline-flex h-4 w-7 shrink-0 items-center rounded-full transition ${
+                  superflex ? 'bg-gavfather-gold' : 'bg-gavfather-border'
+                }`}
+                aria-hidden
+              >
+                <span
+                  className={`inline-block h-3 w-3 rounded-full bg-gavfather-navy transition ${
+                    superflex ? 'translate-x-3.5' : 'translate-x-0.5'
+                  }`}
+                />
+              </span>
+              Superflex (2-QB) {superflex ? 'ON' : 'OFF'}
             </button>
-          )}
-          <div className="ml-auto hidden sm:block">
-            <ShareButtons title={shareTitle} path={sharePath} label="Copy link" />
+            <span className="text-[11px] text-gavfather-muted">
+              Affects draft order, not points scoring
+            </span>
           </div>
-        </div>
 
-        {customizeOpen && (
-          <div className="mt-2 rounded-lg border border-gavfather-border bg-gavfather-slate p-3">
-            <p className="text-xs text-gavfather-muted">
-              Default board: <span className="text-gavfather-text">Standard</span>,
-              12 teams, 1-QB roster. Switch scoring above — Superflex only changes
-              where QBs are drafted, not how points are scored.
-            </p>
+          <p className="mt-2 text-[11px] leading-relaxed text-gavfather-muted">
+            Rankings recalculate instantly for your format. Sign in free to customize
+            league size and roster slots.
+          </p>
+        </div>
+      )}
+
+      {isWeekly && (
+        <p className="mt-3 text-[11px] leading-relaxed text-gavfather-muted">
+          Start/sit board for this week — matchup, weather, and availability baked in.
+          Switch to Rest of Season for season-long ranks.
+        </p>
+      )}
+
+      {/* Customize panel — ROS only */}
+      {!isWeekly && (
+        <div className="mt-2">
+          <div className="flex flex-wrap items-center gap-3">
+            <button
+              type="button"
+              onClick={() => setCustomizeOpen((o) => !o)}
+              className="rounded-md border border-gavfather-border bg-transparent px-3 py-1.5 text-xs text-gavfather-muted transition hover:border-gavfather-muted hover:text-gavfather-text"
+            >
+              {customizeOpen
+                ? '⚙ Customize for your league scoring ↑'
+                : '⚙ Customize for your league scoring →'}
+            </button>
             {isCustomized && (
-              <p className="mt-2 text-xs text-gavfather-gold">
-                Showing {formatMeta.label}
-                {superflex ? ' · Superflex (2-QB)' : ''} rankings
-              </p>
+              <button
+                type="button"
+                onClick={onResetDefaults}
+                className="text-xs text-gavfather-gold underline-offset-2 hover:underline"
+              >
+                Reset to default
+              </button>
             )}
+            <div className="ml-auto flex flex-wrap items-center gap-3">
+              <a
+                href={FP_DRAFT_SIMULATOR}
+                target="_blank"
+                rel="sponsored noopener noreferrer"
+                className="text-xs font-medium text-gavfather-muted underline-offset-2 transition hover:text-gavfather-gold hover:underline"
+              >
+                Run a mock on this board ↗
+              </a>
+              <div className="hidden sm:block">
+                <ShareButtons title={shareTitle} path={sharePath} label="Copy link" />
+              </div>
+            </div>
           </div>
-        )}
-      </div>
+
+          {customizeOpen && (
+            <div className="mt-2 rounded-lg border border-gavfather-border bg-gavfather-slate p-3">
+              <p className="text-xs text-gavfather-muted">
+                Default board: <span className="text-gavfather-text">Half PPR</span>,
+                12 teams, 1-QB roster. Switch scoring above — Superflex only changes
+                where QBs are drafted, not how points are scored.
+              </p>
+              {isCustomized && (
+                <p className="mt-2 text-xs text-gavfather-gold">
+                  Showing {formatMeta.label}
+                  {superflex ? ' · Superflex (2-QB)' : ''} rankings
+                </p>
+              )}
+            </div>
+          )}
+        </div>
+      )}
+
+      {isWeekly && (
+        <div className="mt-2 flex justify-end">
+          <ShareButtons title={shareTitle} path={sharePath} label="Copy link" />
+        </div>
+      )}
 
       {/* SECTION 3 — Search + position + ADP filters */}
       <div className="mt-3 space-y-2">
@@ -440,7 +587,11 @@ export default function RankingsBoard({
           type="search"
           value={search}
           onChange={(e) => onSearchChange(e.target.value)}
-          placeholder="Search players (e.g. Josh Allen, Chiefs RB...)"
+          placeholder={
+            isWeekly
+              ? 'Search players or opponents...'
+              : 'Search players (e.g. Josh Allen, Chiefs RB...)'
+          }
           className="block w-full rounded-md border border-gavfather-border bg-gavfather-slate px-3 py-2 text-sm text-gavfather-text outline-none placeholder:text-gavfather-muted/50 focus:border-gavfather-gold"
           aria-label="Search players"
         />
@@ -465,33 +616,35 @@ export default function RankingsBoard({
           })}
         </div>
 
-        <div className="flex flex-wrap items-center gap-1.5">
-          <span className="mr-1 text-[11px] font-semibold uppercase tracking-wider text-gavfather-muted">
-            vs Market
-          </span>
-          {ADP_FILTERS.map((f) => {
-            const active = adpFilter === f.id
-            return (
-              <button
-                key={f.id}
-                type="button"
-                onClick={() => onAdpFilterChange(f.id)}
-                className={`rounded-full px-3.5 py-1.5 text-xs font-bold tracking-wide transition ${
-                  active
-                    ? f.id === 'BUY'
-                      ? 'bg-emerald-500 text-gavfather-navy'
-                      : f.id === 'FADE'
-                        ? 'bg-red-500 text-white'
-                        : 'bg-gavfather-gold text-gavfather-navy'
-                    : 'bg-gavfather-slate text-gavfather-muted hover:text-gavfather-text'
-                }`}
-                aria-pressed={active}
-              >
-                {f.label}
-              </button>
-            )
-          })}
-        </div>
+        {!isWeekly && (
+          <div className="flex flex-wrap items-center gap-1.5">
+            <span className="mr-1 text-[11px] font-semibold uppercase tracking-wider text-gavfather-muted">
+              vs Market
+            </span>
+            {ADP_FILTERS.map((f) => {
+              const active = adpFilter === f.id
+              return (
+                <button
+                  key={f.id}
+                  type="button"
+                  onClick={() => onAdpFilterChange(f.id)}
+                  className={`rounded-full px-3.5 py-1.5 text-xs font-bold tracking-wide transition ${
+                    active
+                      ? f.id === 'BUY'
+                        ? 'bg-emerald-500 text-gavfather-navy'
+                        : f.id === 'FADE'
+                          ? 'bg-red-500 text-white'
+                          : 'bg-gavfather-gold text-gavfather-navy'
+                      : 'bg-gavfather-slate text-gavfather-muted hover:text-gavfather-text'
+                  }`}
+                  aria-pressed={active}
+                >
+                  {f.label}
+                </button>
+              )
+            })}
+          </div>
+        )}
       </div>
 
       <p className="mt-2 text-[11px] text-gavfather-muted">{countLabel}</p>
@@ -506,22 +659,36 @@ export default function RankingsBoard({
               <th className="px-3 py-3">Pos</th>
               <th className="px-3 py-3">Team</th>
               <th className="px-3 py-3">{formatMeta.ppgHeader}</th>
-              <th className="px-3 py-3">vs Market</th>
-              <th className="px-3 py-3">Outlook</th>
-              <th className="px-3 py-3">Reliability</th>
-              <th className="px-3 py-3">Situation</th>
-              <th className="px-3 py-3">Injury</th>
-              <th className="px-3 py-3">Tier</th>
+              {isWeekly ? (
+                <>
+                  <th className="px-3 py-3">Opp</th>
+                  <th className="px-3 py-3">Matchup</th>
+                  <th className="px-3 py-3">Outlook</th>
+                  <th className="px-3 py-3">Reliability</th>
+                  <th className="px-3 py-3">Situation</th>
+                  <th className="px-3 py-3">Injury</th>
+                </>
+              ) : (
+                <>
+                  <th className="px-3 py-3">vs Market</th>
+                  <th className="px-3 py-3">Outlook</th>
+                  <th className="px-3 py-3">Reliability</th>
+                  <th className="px-3 py-3">Situation</th>
+                  <th className="px-3 py-3">Injury</th>
+                  <th className="px-3 py-3">Tier</th>
+                </>
+              )}
             </tr>
           </thead>
           <tbody>
             {unlocked.map((p, i) => (
               <PlayerRow
-                key={`${p.rank}-${p.name}`}
+                key={`${board}-${p.rank}-${p.name}`}
                 player={p}
                 locked={false}
                 displayRank={rowDisplayRank(p, position)}
                 fadeOut={showFade && i === unlocked.length - 1}
+                weeklyMode={isWeekly}
               />
             ))}
 
@@ -538,10 +705,11 @@ export default function RankingsBoard({
 
             {blurred.map((p) => (
               <PlayerRow
-                key={`${p.rank}-${p.name}-locked`}
+                key={`${board}-${p.rank}-${p.name}-locked`}
                 player={p}
                 locked
                 displayRank={rowDisplayRank(p, position)}
+                weeklyMode={isWeekly}
               />
             ))}
 
@@ -572,12 +740,13 @@ export default function RankingsBoard({
       <div className="mt-3 space-y-3 md:hidden">
         {unlocked.map((p, i) => (
           <PlayerRow
-            key={`${p.rank}-${p.name}-m`}
+            key={`${board}-${p.rank}-${p.name}-m`}
             player={p}
             compact
             locked={false}
             displayRank={rowDisplayRank(p, position)}
             fadeOut={showFade && i === unlocked.length - 1}
+            weeklyMode={isWeekly}
           />
         ))}
 
@@ -592,11 +761,12 @@ export default function RankingsBoard({
             <div className="space-y-3">
               {blurred.map((p) => (
                 <PlayerRow
-                  key={`${p.rank}-${p.name}-m-locked`}
+                  key={`${board}-${p.rank}-${p.name}-m-locked`}
                   player={p}
                   compact
                   locked
                   displayRank={rowDisplayRank(p, position)}
+                  weeklyMode={isWeekly}
                 />
               ))}
             </div>

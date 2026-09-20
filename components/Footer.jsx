@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { SOCIAL_X_URL } from '../lib/site'
+import { SOCIAL_X_URL, FP_DRAFT_SIMULATOR } from '../lib/site'
 
 export default function Footer() {
   const year = new Date().getFullYear()
@@ -35,10 +35,21 @@ export default function Footer() {
           >
             Follow on X
           </a>
+          <a
+            href={FP_DRAFT_SIMULATOR}
+            target="_blank"
+            rel="sponsored noopener noreferrer"
+            className="text-gavfather-muted transition hover:text-gavfather-gold"
+          >
+            Mock this board
+          </a>
         </div>
 
         <p className="mt-8 text-xs text-gavfather-muted/60">
           © {year} The Gavfather. All rights reserved.
+        </p>
+        <p className="mt-2 text-[11px] text-gavfather-muted/50">
+          Some draft-tool links are FantasyPros affiliate links.
         </p>
       </div>
     </footer>
