@@ -1,140 +1,8 @@
 {
-  "updated_at": "2026-09-25T00:12:34",
+  "updated_at": "2026-09-25T17:47:21",
   "total_changes": 100,
-  "high_priority_count": 25,
+  "high_priority_count": 29,
   "changes": [
-    {
-      "timestamp": "2026-09-23T12:52:23",
-      "player_id": "8195",
-      "name": "Ronnie Rivers",
-      "position": "RB",
-      "team": "LAR",
-      "overall_rank": 250,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Out -> Questionable",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-09-23T12:52:23",
-      "player_id": "11583",
-      "name": "Jonathon Brooks",
-      "position": "RB",
-      "team": "CAR",
-      "overall_rank": 96,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Questionable -> Doubtful (Groin)",
-      "priority": "HIGH"
-    },
-    {
-      "timestamp": "2026-09-23T12:52:23",
-      "player_id": "13297",
-      "name": "Reggie Virgil",
-      "position": "WR",
-      "team": "ARI",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Out -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-09-23T12:52:23",
-      "player_id": "13577",
-      "name": "Dallen Bentley",
-      "position": "TE",
-      "team": "DEN",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Out -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-09-23T12:52:23",
-      "player_id": "4199",
-      "name": "Aaron Jones",
-      "position": "RB",
-      "team": "MIN",
-      "overall_rank": 37,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-09-23T12:52:23",
-      "player_id": "12498",
-      "name": "Mason Taylor",
-      "position": "TE",
-      "team": "NYJ",
-      "overall_rank": 177,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Questionable -> Doubtful (Thumb)",
-      "priority": "HIGH"
-    },
-    {
-      "timestamp": "2026-09-23T12:52:23",
-      "player_id": "11623",
-      "name": "Jordan Whittington",
-      "position": "WR",
-      "team": "LAR",
-      "overall_rank": 336,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Out -> Questionable",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-09-23T12:52:23",
-      "player_id": "4018",
-      "name": "Joe Mixon",
-      "position": "RB",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Out (Foot)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-09-23T12:52:23",
-      "player_id": "9757",
-      "name": "Kendre Miller",
-      "position": "RB",
-      "team": "NO",
-      "overall_rank": 331,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Out -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-09-23T12:52:23",
-      "player_id": "13408",
-      "name": "Tanner Koziol",
-      "position": "TE",
-      "team": "JAX",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Out -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-09-23T12:52:23",
-      "player_id": "12500",
-      "name": "Quinn Ewers",
-      "position": "QB",
-      "team": "JAX",
-      "overall_rank": 520,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Out -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-09-23T12:52:23",
-      "player_id": "8204",
-      "name": "Bo Melton",
-      "position": "WR",
-      "team": "GB",
-      "overall_rank": 358,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
     {
       "timestamp": "2026-09-23T12:52:23",
       "player_id": "13404",
@@ -1102,6 +970,138 @@
       "change_type": "INJURY_IMPROVED",
       "detail": "Questionable -> Healthy",
       "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-09-25T03:41:35",
+      "player_id": "13405",
+      "name": "Kaytron Allen",
+      "position": "RB",
+      "team": "WAS",
+      "overall_rank": null,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-09-25T14:40:56",
+      "player_id": "1737",
+      "name": "Case Keenum",
+      "position": "QB",
+      "team": "CHI",
+      "overall_rank": 569,
+      "change_type": "PROMOTED_TO_STARTER",
+      "detail": "Depth chart 2 -> 1",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-09-25T14:40:56",
+      "player_id": "2133",
+      "name": "Davante Adams",
+      "position": "WR",
+      "team": "LAR",
+      "overall_rank": 24,
+      "change_type": "PROMOTED_TO_STARTER",
+      "detail": "Depth chart 2 -> 1",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-09-25T14:40:56",
+      "player_id": "9493",
+      "name": "Puka Nacua",
+      "position": "WR",
+      "team": "LAR",
+      "overall_rank": 10,
+      "change_type": "DEMOTED_FROM_STARTER",
+      "detail": "Depth chart 1 -> 2",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-09-25T14:40:56",
+      "player_id": "11256",
+      "name": "Tyson Bagent",
+      "position": "QB",
+      "team": "CHI",
+      "overall_rank": 511,
+      "change_type": "DEMOTED_FROM_STARTER",
+      "detail": "Depth chart 1 -> 2",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-09-25T17:45:32",
+      "player_id": "7569",
+      "name": "Nico Collins",
+      "position": "WR",
+      "team": "HOU",
+      "overall_rank": 17,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Questionable -> Doubtful (Hamstring)",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-09-25T17:45:32",
+      "player_id": "13296",
+      "name": "Caleb Douglas",
+      "position": "WR",
+      "team": "MIA",
+      "overall_rank": 243,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Questionable -> Out (Ankle)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-09-25T17:45:32",
+      "player_id": "6290",
+      "name": "Scotty Miller",
+      "position": "WR",
+      "team": "",
+      "overall_rank": null,
+      "change_type": "RELEASED",
+      "detail": "Released from CHI",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-09-25T17:45:32",
+      "player_id": "12498",
+      "name": "Mason Taylor",
+      "position": "TE",
+      "team": "NYJ",
+      "overall_rank": 171,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Doubtful -> Out (Thumb)",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-09-25T17:45:32",
+      "player_id": "8210",
+      "name": "Chig Okonkwo",
+      "position": "TE",
+      "team": "WAS",
+      "overall_rank": 140,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Questionable -> Doubtful (Hamstring)",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-09-25T17:45:32",
+      "player_id": "11643",
+      "name": "Jaylen Wright",
+      "position": "RB",
+      "team": "MIA",
+      "overall_rank": 305,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Questionable -> Doubtful (Foot)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-09-25T17:45:32",
+      "player_id": "6427",
+      "name": "Ashton Dulin",
+      "position": "WR",
+      "team": "IND",
+      "overall_rank": 467,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Questionable -> Out (Ankle)",
+      "priority": "MEDIUM"
     }
   ]
 }
