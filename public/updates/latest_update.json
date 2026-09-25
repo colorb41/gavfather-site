@@ -1,19 +1,8 @@
 {
-  "updated_at": "2026-09-24T23:50:41",
+  "updated_at": "2026-09-25T00:12:34",
   "total_changes": 100,
   "high_priority_count": 25,
   "changes": [
-    {
-      "timestamp": "2026-09-23T12:52:23",
-      "player_id": "13726",
-      "name": "Camden Brown",
-      "position": "WR",
-      "team": "DAL",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Out -> Healthy",
-      "priority": "LOW"
-    },
     {
       "timestamp": "2026-09-23T12:52:23",
       "player_id": "8195",
@@ -1102,6 +1091,17 @@
       "change_type": "INJURY_IMPROVED",
       "detail": "Questionable -> Healthy",
       "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-09-25T00:11:32",
+      "player_id": "12048",
+      "name": "George Holani",
+      "position": "RB",
+      "team": "SEA",
+      "overall_rank": 401,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "LOW"
     }
   ]
 }
