@@ -1,118 +1,8 @@
 {
-  "updated_at": "2026-09-27T16:03:18",
+  "updated_at": "2026-09-27T16:13:46",
   "total_changes": 100,
-  "high_priority_count": 26,
+  "high_priority_count": 28,
   "changes": [
-    {
-      "timestamp": "2026-09-24T23:49:26",
-      "player_id": "4943",
-      "name": "Sam Darnold",
-      "position": "QB",
-      "team": "SEA",
-      "overall_rank": 119,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-09-24T23:49:26",
-      "player_id": "4574",
-      "name": "Cooper Rush",
-      "position": "QB",
-      "team": "ATL",
-      "overall_rank": 523,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Out (Coach's Decision)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-09-24T23:49:26",
-      "player_id": "11280",
-      "name": "Brady Russell",
-      "position": "RB",
-      "team": "SEA",
-      "overall_rank": 545,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-09-24T23:49:26",
-      "player_id": "12487",
-      "name": "Terrance Ferguson",
-      "position": "TE",
-      "team": "LAR",
-      "overall_rank": 153,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-09-24T23:49:26",
-      "player_id": "12489",
-      "name": "RJ Harvey",
-      "position": "RB",
-      "team": "DEN",
-      "overall_rank": 111,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-09-24T23:49:26",
-      "player_id": "11577",
-      "name": "Will Shipley",
-      "position": "RB",
-      "team": "PHI",
-      "overall_rank": 443,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Foot)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-09-24T23:49:26",
-      "player_id": "7525",
-      "name": "DeVonta Smith",
-      "position": "WR",
-      "team": "PHI",
-      "overall_rank": 62,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Hamstring)",
-      "priority": "HIGH"
-    },
-    {
-      "timestamp": "2026-09-24T23:49:26",
-      "player_id": "4039",
-      "name": "Cooper Kupp",
-      "position": "WR",
-      "team": "SEA",
-      "overall_rank": 160,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-09-24T23:49:26",
-      "player_id": "9225",
-      "name": "Tank Bigsby",
-      "position": "RB",
-      "team": "PHI",
-      "overall_rank": 218,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Abdomen)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-09-24T23:49:26",
-      "player_id": "8527",
-      "name": "Dareke Young",
-      "position": "WR",
-      "team": "LV",
-      "overall_rank": 321,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
     {
       "timestamp": "2026-09-24T23:49:26",
       "player_id": "13602",
@@ -1101,6 +991,116 @@
       "overall_rank": 115,
       "change_type": "INJURY_IMPROVED",
       "detail": "Questionable -> Healthy",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-09-27T16:12:43",
+      "player_id": "6130",
+      "name": "Devin Singletary",
+      "position": "RB",
+      "team": "NYG",
+      "overall_rank": 149,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Out (Coach's Decision)",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-09-27T16:12:43",
+      "player_id": "7607",
+      "name": "Michael Carter",
+      "position": "RB",
+      "team": "TEN",
+      "overall_rank": 146,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Out (Coach's Decision)",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-09-27T16:12:43",
+      "player_id": "5133",
+      "name": "Tyler Conklin",
+      "position": "TE",
+      "team": "DET",
+      "overall_rank": 199,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Out (Coach's Decision)",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-09-27T16:12:43",
+      "player_id": "12511",
+      "name": "Will Howard",
+      "position": "QB",
+      "team": "PIT",
+      "overall_rank": null,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Out (Coach's Decision)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-09-27T16:12:43",
+      "player_id": "12715",
+      "name": "Thomas Fidone",
+      "position": "TE",
+      "team": "NYG",
+      "overall_rank": null,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Out (Coach's Decision)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-09-27T16:12:43",
+      "player_id": "7610",
+      "name": "Trey Lance",
+      "position": "QB",
+      "team": "LAC",
+      "overall_rank": 515,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-09-27T16:12:43",
+      "player_id": "11637",
+      "name": "Keon Coleman",
+      "position": "WR",
+      "team": "BUF",
+      "overall_rank": 184,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-09-27T16:12:43",
+      "player_id": "7602",
+      "name": "Kylen Granson",
+      "position": "TE",
+      "team": "TEN",
+      "overall_rank": 377,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Out (Coach's Decision)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-09-27T16:12:43",
+      "player_id": "13402",
+      "name": "Skyler Bell",
+      "position": "WR",
+      "team": "BUF",
+      "overall_rank": null,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Out (Coach's Decision)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-09-27T16:12:43",
+      "player_id": "13306",
+      "name": "Taylen Green",
+      "position": "QB",
+      "team": "CLE",
+      "overall_rank": null,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Out (Coach's Decision)",
       "priority": "MEDIUM"
     }
   ]
