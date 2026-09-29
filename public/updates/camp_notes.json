@@ -1,331 +1,386 @@
 {
-  "updated": "2026-09-28T23:55:42",
+  "updated": "2026-09-29T18:27:37",
   "source": "CampResearcher.v2",
   "override_count": 24,
-  "player_count": 52,
-  "news_items_processed": 296,
+  "player_count": 59,
+  "news_items_processed": 283,
   "players": {
-    "Jalen McMillan": {
-      "status": "MILD",
-      "injury": "Jalen McMillan - Questionable Jalen McMillan listed as Questionable",
-      "week1_outlook": "EXPECTED OK",
-      "ppg_multiplier": 0.93,
-      "ranking_note": "Jalen McMillan listed as Questionable. ",
-      "impact": "MILD",
-      "source": "Sleeper",
-      "headlines": [
-        "Jalen McMillan (knee) to seek second opinion",
-        "Jalen McMillan",
-        "Jalen McMillan - Questionable"
-      ],
-      "old_rank": 212,
-      "new_rank": 227,
-      "old_ppg": 6.96,
-      "new_ppg": 6.47,
-      "position": "WR",
-      "team": "TB",
-      "updated": "2026-09-28",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Rico Dowdle": {
-      "status": "POSITIVE",
-      "injury": "That cleared the way for Rico Dowdle to take over the backfield",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.05,
-      "ranking_note": "That cleared the way for Rico Dowdle to take over the backfield.",
-      "impact": "POSITIVE",
-      "source": "Yahoo Sports",
-      "headlines": [
-        "Rico Dowdle (toe) listed as 'DNP' on Monday’s estimated practice report",
-        "Rico Dowdle",
-        "That cleared the way for Rico Dowdle to take over the backfield."
-      ],
-      "old_rank": 117,
-      "new_rank": 104,
-      "old_ppg": 10.71,
-      "new_ppg": 11.25,
-      "position": "RB",
-      "team": "PIT",
-      "updated": "2026-09-28",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Colby Parkinson": {
+    "Jayden Daniels": {
       "status": "NEUTRAL",
-      "injury": "Colby Parkinson (AC sprain) considered day-to-day Colby Parkinson (AC sprain) considered day-to-day Mon, Sep 28th 7:15pm",
+      "injury": "surgery after season QB Washington Commanders E",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "Colby Parkinson (AC sprain) considered day-to-day Mon, Sep 28th 7:15pm EDT By Ari Koslow",
-      "impact": "NEUTRAL",
-      "source": "FantasyPros",
-      "headlines": [
-        "Colby Parkinson (AC sprain) considered day-to-day",
-        "Colby Parkinson"
-      ],
-      "old_rank": 297,
-      "new_rank": 294,
-      "old_ppg": 5.11,
-      "new_ppg": 5.11,
-      "position": "TE",
-      "team": "LAR",
-      "updated": "2026-09-28",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Terrance Ferguson": {
-      "status": "NEUTRAL",
-      "injury": "Terrance Ferguson (ankle) to likely miss Week 4 Terrance Ferguson (ankle) to likely miss Week 4 Mon, Sep 28th 7:12pm EDT",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Terrance Ferguson (ankle) to likely miss Week 4 Mon, Sep 28th 7:12pm EDT By Ari Koslow",
-      "impact": "NEUTRAL",
-      "source": "FantasyPros",
-      "headlines": [
-        "Terrance Ferguson (ankle) to likely miss Week 4",
-        "Terrance Ferguson"
-      ],
-      "old_rank": 281,
-      "new_rank": 277,
-      "old_ppg": 5.5,
-      "new_ppg": 5.5,
-      "position": "TE",
-      "team": "LAR",
-      "updated": "2026-09-28",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Puka Nacua": {
-      "status": "NEUTRAL",
-      "injury": "Puka Nacua (groin) 'hopeful' to play in Week 4 Puka Nacua (groin) 'hopeful' to play in Week 4 Mon, Sep 28th 6:28pm EDT B",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Puka Nacua (groin) 'hopeful' to play in Week 4 Mon, Sep 28th 6:28pm EDT By Ari Koslow",
-      "impact": "NEUTRAL",
-      "source": "FantasyPros",
-      "headlines": [
-        "Puka Nacua (groin) 'hopeful' to play in Week 4",
-        "Puka Nacua",
-        "Puka Nacua , Rams (groin) : Nacua was back at practice on Sunday after missing a few weeks."
-      ],
-      "old_rank": 42,
-      "new_rank": 40,
-      "old_ppg": 15.03,
-      "new_ppg": 15.03,
-      "position": "WR",
-      "team": "LAR",
-      "updated": "2026-09-28",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Mike Evans": {
-      "status": "MONITOR",
-      "injury": "Groin (minor) + camp quad; plans to play Week 1 vs LAR in Melbourne",
-      "week1_outlook": "LIKELY — Fowler Aug 26 groin minor, plans to play Sept 10",
-      "ppg_multiplier": 0.9,
-      "ranking_note": "Pearsall is the 49er done for 2026, not Evans. SF WR1. Nagging camp injuries; 33 with history. Conservative ramp, not a zero. Revisit if he sits Australia.",
-      "impact": "MODERATE",
-      "source": "ESPN Fowler Aug 26 / NBC / CBS — groin minor, Week 1 plan",
-      "headlines": [
-        "Pearsall is the 49er done for 2026, not Evans. SF WR1. Nagging camp injuries; 33 with history. Conservative ramp, not a zero. Revisit if he sits Australia."
-      ],
-      "old_rank": 84,
-      "new_rank": 113,
-      "old_ppg": 12.04,
-      "new_ppg": 10.84,
-      "position": "WR",
-      "team": "SF",
-      "updated": "2026-08-31",
-      "auto_generated": false,
-      "from_override": true
-    },
-    "Kenny Gainwell": {
-      "status": "NEUTRAL",
-      "injury": "Kenny Gainwell Kenny Gainwell Struggles as rusher in Week 3 loss RB Tampa Bay Buccaneers September 28, 2026 Gainwell tur",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Kenny Gainwell Struggles as rusher in Week 3 loss RB Tampa Bay Buccaneers September 28, 2026 Gainwell turned three carries into minus-four yards and added two catches on five targets for 14 yards in Sunday's 23-16 loss to the Vikings. He al",
+      "ranking_note": "Jayden Daniels Could need surgery after season QB Washington Commanders Elbow September 29, 2026 Daniels will avoid a procedure on his dislocated left elbow for the time being, but Adam Schefter of ESPN reports that the quarterback could un",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "Kenny Gainwell"
+        "Jayden Daniels"
       ],
-      "old_rank": 125,
-      "new_rank": 125,
-      "old_ppg": 10.2,
-      "new_ppg": 10.2,
-      "position": "RB",
-      "team": "TB",
-      "updated": "2026-09-28",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Zay Flowers": {
-      "status": "NEUTRAL",
-      "injury": "Zay Flowers Zay Flowers Slated for full workload Week 4 WR Baltimore Ravens September 28, 2026 Head coach Jesse Minter s",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Zay Flowers Slated for full workload Week 4 WR Baltimore Ravens September 28, 2026 Head coach Jesse Minter said Monday that he expects Flowers to carry a full workload in Week 4 against the Titans on Sunday, Clifton Brown of the Ravens' off",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Zay Flowers"
-      ],
-      "old_rank": 101,
-      "new_rank": 96,
-      "old_ppg": 11.92,
-      "new_ppg": 11.92,
-      "position": "WR",
-      "team": "BAL",
-      "updated": "2026-09-28",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Chig Okonkwo": {
-      "status": "NEUTRAL",
-      "injury": "Hamstring September 28",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Chig Okonkwo Set to practice in Week 4 TE Washington Commanders Hamstring September 28, 2026 Commanders head coach Dan Quinn said that Okonkwo (hamstring) will make the trip to London and will practice in some capacity leading up to Sunday'",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Chig Okonkwo"
-      ],
-      "old_rank": 234,
-      "new_rank": 232,
-      "old_ppg": 6.31,
-      "new_ppg": 6.31,
-      "position": "TE",
-      "team": "WAS",
-      "updated": "2026-09-28",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Josh Allen": {
-      "status": "NEUTRAL",
-      "injury": "Knee not viewed as concern QB Buffalo Bills",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Josh Allen Knee not viewed as concern QB Buffalo Bills Knee September 28, 2026 Bills head coach Joe Brady downplayed any concern about Allen's health after the quarterback took a hit to his knee area during the fourth quarter of Sunday's 24",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Josh Allen"
-      ],
-      "old_rank": 1,
-      "new_rank": 1,
-      "old_ppg": 27.17,
-      "new_ppg": 27.17,
+      "old_rank": 16,
+      "new_rank": 16,
+      "old_ppg": 19.64,
+      "new_ppg": 19.64,
       "position": "QB",
-      "team": "BUF",
-      "updated": "2026-09-28",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Braelon Allen": {
-      "status": "NEUTRAL",
-      "injury": "Braelon Allen Braelon Allen Set for more work with Hall injured RB New York Jets September 28, 2026 Allen and Isaiah Dav",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Braelon Allen Set for more work with Hall injured RB New York Jets September 28, 2026 Allen and Isaiah Davis will man the Jets backfield for as long as Breece Hall (thigh) is potentially sidelined, Rich Cimini of ESPN.com reports. ANALYSIS ",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Braelon Allen"
-      ],
-      "old_rank": 164,
-      "new_rank": 160,
-      "old_ppg": 8.5,
-      "new_ppg": 8.5,
-      "position": "RB",
-      "team": "NYJ",
-      "updated": "2026-09-28",
+      "team": "WAS",
+      "updated": "2026-09-29",
       "auto_generated": true,
       "from_override": false
     },
     "Isaiah Davis": {
       "status": "NEUTRAL",
-      "injury": "Isaiah Davis September 28, 2026 Allen and Isaiah Davis will man the Jets backfield for as long as Breece Hall (thigh) is",
+      "injury": "Isaiah Davis Isaiah Davis Limited to special teams in loss RB New York Jets September 28, 2026 Davis played 16 special-t",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "September 28, 2026 Allen and Isaiah Davis will man the Jets backfield for as long as Breece Hall (thigh) is potentially sidelined, Rich Cimini of ESPN.com reports. ANALYSIS Subscribe now to instantly reveal our take on this news.",
+      "ranking_note": "Isaiah Davis Limited to special teams in loss RB New York Jets September 28, 2026 Davis played 16 special-teams snaps during the Jets' 31-24 loss to the Lions on Sunday. ANALYSIS Subscribe now to instantly reveal our take on this news.",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
         "Isaiah Davis"
       ],
       "old_rank": 249,
-      "new_rank": 245,
+      "new_rank": 244,
       "old_ppg": 5.78,
       "new_ppg": 5.78,
       "position": "RB",
       "team": "NYJ",
-      "updated": "2026-09-28",
+      "updated": "2026-09-29",
       "auto_generated": true,
       "from_override": false
     },
-    "Zach Ertz": {
+    "Cade Otton": {
       "status": "NEUTRAL",
-      "injury": "Zach Ertz Zach Ertz Called up to play Monday night TE Philadelphia Eagles September 28, 2026 The Eagles elevated Ertz fr",
+      "injury": "Cade Otton Cade Otton Produces 56 yards in Week 3 defeat Cade Otton Produces 56 yards in Week 3 defeat",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "Zach Ertz Called up to play Monday night TE Philadelphia Eagles September 28, 2026 The Eagles elevated Ertz from the practice squad ahead of Monday's game against the Bears. ANALYSIS Subscribe now to instantly reveal our take on this news.",
+      "ranking_note": "Cade Otton Produces 56 yards in Week 3 defeat",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "Zach Ertz"
+        "Cade Otton"
       ],
-      "old_rank": 168,
-      "new_rank": 168,
-      "old_ppg": 8.45,
-      "new_ppg": 8.45,
+      "old_rank": 201,
+      "new_rank": 199,
+      "old_ppg": 7.4,
+      "new_ppg": 7.4,
       "position": "TE",
-      "team": "PHI",
-      "updated": "2026-09-28",
+      "team": "TB",
+      "updated": "2026-09-29",
       "auto_generated": true,
       "from_override": false
     },
-    "De'Von Achane": {
-      "status": "IR",
-      "injury": "ACL September 28",
-      "week1_outlook": "OUT — 4-game minimum; conservative return",
-      "ppg_multiplier": 0.5,
-      "ranking_note": "De'Von Achane Shifts to IR RB Miami Dolphins Knee - ACL September 28, 2026 The Dolphins placed Achane (knee) on injured reserve Monday. ANALYSIS Subscribe now to instantly reveal our take on this news.",
-      "impact": "IR",
-      "source": "RotoWire",
-      "headlines": [
-        "De'Von Achane",
-        "De'Von Achane - IR"
-      ],
-      "old_rank": 24,
-      "new_rank": 148,
-      "old_ppg": 18.18,
-      "new_ppg": 9.09,
-      "position": "RB",
-      "team": "MIA",
-      "updated": "2026-09-28",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Justin Jefferson": {
+    "Jauan Jennings": {
       "status": "NEUTRAL",
-      "injury": "Justin Jefferson Justin Jefferson Imaging on ankle returns clean WR Minnesota Vikings Ankle September 28, 2026 Jefferson",
+      "injury": "Jauan Jennings Jauan Jennings Logs just one catch despite Jefferson injury WR Minnesota Vikings September 28, 2026 Jenni",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "Justin Jefferson Imaging on ankle returns clean WR Minnesota Vikings Ankle September 28, 2026 Jefferson was diagnosed Monday with a sprained left ankle following an MRI, and the Vikings are hopeful that he'll be able to play Sunday versus t",
+      "ranking_note": "Jauan Jennings Logs just one catch despite Jefferson injury WR Minnesota Vikings September 28, 2026 Jennings caught one of two targets for one yard Sunday in a 23-16 win against Tampa Bay. ANALYSIS Subscribe now to instantly reveal our take",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "Justin Jefferson"
+        "Jauan Jennings"
       ],
-      "old_rank": 31,
-      "new_rank": 30,
-      "old_ppg": 15.93,
-      "new_ppg": 15.93,
+      "old_rank": 185,
+      "new_rank": 183,
+      "old_ppg": 7.78,
+      "new_ppg": 7.78,
       "position": "WR",
       "team": "MIN",
-      "updated": "2026-09-28",
+      "updated": "2026-09-29",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Greg Dulcich": {
+      "status": "NEUTRAL",
+      "injury": "Greg Dulcich Greg Dulcich Five catches in loss TE Miami Dolphins September 28, 2026 Dulcich caught 5-of-7 targets for 55",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Greg Dulcich Five catches in loss TE Miami Dolphins September 28, 2026 Dulcich caught 5-of-7 targets for 55 yards in the Dolphins' 24-10 loss to the Chiefs on Sunday. ANALYSIS Subscribe now to instantly reveal our take on this news.",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Greg Dulcich"
+      ],
+      "old_rank": 265,
+      "new_rank": 260,
+      "old_ppg": 5.58,
+      "new_ppg": 5.58,
+      "position": "TE",
+      "team": "MIA",
+      "updated": "2026-09-29",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Khalil Shakir": {
+      "status": "NEUTRAL",
+      "injury": "ir Khalil Shakir One catch in win WR Buffa",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Khalil Shakir One catch in win WR Buffalo Bills September 28, 2026 Shakir caught one of his three targets for six yards in the Bills' 24-16 win over the Chargers on Sunday. ANALYSIS Subscribe now to instantly reveal our take on this news.",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Khalil Shakir"
+      ],
+      "old_rank": 195,
+      "new_rank": 193,
+      "old_ppg": 7.5,
+      "new_ppg": 7.5,
+      "position": "WR",
+      "team": "BUF",
+      "updated": "2026-09-29",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Tank Bigsby": {
+      "status": "NEUTRAL",
+      "injury": "Tank Bigsby Tank Bigsby Doesn't log any carries against Chicago RB Philadelphia Eagles September 28, 2026 Bigsby caught ",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Tank Bigsby Doesn't log any carries against Chicago RB Philadelphia Eagles September 28, 2026 Bigsby caught his only target for five yards Monday in a Week 3 loss to the Bears. He also lost a fumble. ANALYSIS Subscribe now to instantly reve",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Tank Bigsby"
+      ],
+      "old_rank": 245,
+      "new_rank": 242,
+      "old_ppg": 5.98,
+      "new_ppg": 5.98,
+      "position": "RB",
+      "team": "PHI",
+      "updated": "2026-09-29",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "T.J. Hockenson": {
+      "status": "NEUTRAL",
+      "injury": "T",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "T.J. Hockenson Catches two passes in win TE Minnesota Vikings September 28, 2026 Hockenson caught two of his four targets for 11 yards in the Vikings' 23-16 win over the Buccaneers on Sunday. ANALYSIS Subscribe now to instantly reveal our t",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "T.J. Hockenson"
+      ],
+      "old_rank": 206,
+      "new_rank": 204,
+      "old_ppg": 7.3,
+      "new_ppg": 7.3,
+      "position": "TE",
+      "team": "MIN",
+      "updated": "2026-09-29",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Oronde Gadsden II": {
+      "status": "NEUTRAL",
+      "injury": "Oronde Gadsden Oronde Gadsden Held catchless despite Week 3 start TE Los Angeles Chargers September 28, 2026 Gadsden did",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Oronde Gadsden Held catchless despite Week 3 start TE Los Angeles Chargers September 28, 2026 Gadsden didn't catch any of his three targets in Sunday's loss to the Bills. ANALYSIS Subscribe now to instantly reveal our take on this news.",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Oronde Gadsden"
+      ],
+      "old_rank": 222,
+      "new_rank": 220,
+      "old_ppg": 6.72,
+      "new_ppg": 6.72,
+      "position": "TE",
+      "team": "LAC",
+      "updated": "2026-09-29",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Kyle Monangai": {
+      "status": "NEUTRAL",
+      "injury": "Kyle Monangai Kyle Monangai Kept in check during win RB Chicago Bears September 28, 2026 Monangai rushed 10 times for 31",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Kyle Monangai Kept in check during win RB Chicago Bears September 28, 2026 Monangai rushed 10 times for 31 yards and wasn't targeted in the Bears' 27-7 win over the Eagles on Monday night. ANALYSIS Subscribe now to instantly reveal our take",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Kyle Monangai",
+        "Kyle Monangai, CHI (knee) — remains week-to-week"
+      ],
+      "old_rank": 135,
+      "new_rank": 133,
+      "old_ppg": 10.0,
+      "new_ppg": 10.0,
+      "position": "RB",
+      "team": "CHI",
+      "updated": "2026-09-29",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "KC Concepcion": {
+      "status": "NEUTRAL",
+      "injury": "KC Concepcion KC Concepcion Records just nine yards in Week 3 win WR Cleveland Browns September 28, 2026 Concepcion fini",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "KC Concepcion Records just nine yards in Week 3 win WR Cleveland Browns September 28, 2026 Concepcion finished Sunday's 21-18 victory versus Carolina with two catches on nine targets for nine yards. He also returned one punt for one yard. A",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "KC Concepcion"
+      ],
+      "old_rank": 197,
+      "new_rank": 192,
+      "old_ppg": 7.5,
+      "new_ppg": 7.5,
+      "position": "WR",
+      "team": "CLE",
+      "updated": "2026-09-29",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Colston Loveland": {
+      "status": "NEUTRAL",
+      "injury": "Colston Loveland Colston Loveland Slight uptick in production Monday TE Chicago Bears September 28, 2026 Loveland secure",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Colston Loveland Slight uptick in production Monday TE Chicago Bears September 28, 2026 Loveland secured all four targets for 31 yards in the Bears' 27-7 win over the Eagles on Monday night. ANALYSIS Subscribe now to instantly reveal our ta",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Colston Loveland"
+      ],
+      "old_rank": 108,
+      "new_rank": 107,
+      "old_ppg": 11.0,
+      "new_ppg": 11.0,
+      "position": "TE",
+      "team": "CHI",
+      "updated": "2026-09-29",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Jalen Nailor": {
+      "status": "NEUTRAL",
+      "injury": "Jalen Nailor Jalen Nailor Three targets in win WR Las Vegas Raiders September 28, 2026 Nailor caught one of his three ta",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Jalen Nailor Three targets in win WR Las Vegas Raiders September 28, 2026 Nailor caught one of his three targets for 16 yards in the Raiders' 35-27 win over the Saints on Sunday. ANALYSIS Subscribe now to instantly reveal our take on this n",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Jalen Nailor"
+      ],
+      "old_rank": 252,
+      "new_rank": 247,
+      "old_ppg": 5.71,
+      "new_ppg": 5.71,
+      "position": "WR",
+      "team": "LV",
+      "updated": "2026-09-29",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Rome Odunze": {
+      "status": "NEUTRAL",
+      "injury": "Rome Odunze Rome Odunze Three more catches in win WR Chicago Bears September 28, 2026 Odunze secured three of six target",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Rome Odunze Three more catches in win WR Chicago Bears September 28, 2026 Odunze secured three of six targets for 44 yards in the Bears' 27-7 win over the Eagles on Monday night. ANALYSIS Subscribe now to instantly reveal our take on this n",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Rome Odunze"
+      ],
+      "old_rank": 93,
+      "new_rank": 88,
+      "old_ppg": 12.0,
+      "new_ppg": 12.0,
+      "position": "WR",
+      "team": "CHI",
+      "updated": "2026-09-29",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Gunnar Helm": {
+      "status": "NEUTRAL",
+      "injury": "Gunnar Helm Gunnar Helm Quiet again in Week 3 loss TE Tennessee Titans September 28, 2026 Helm notched two catches on fo",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Gunnar Helm Quiet again in Week 3 loss TE Tennessee Titans September 28, 2026 Helm notched two catches on four targets for 14 yards Sunday in a loss to the Giants. ANALYSIS Subscribe now to instantly reveal our take on this news.",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Gunnar Helm"
+      ],
+      "old_rank": 369,
+      "new_rank": 363,
+      "old_ppg": 4.09,
+      "new_ppg": 4.09,
+      "position": "TE",
+      "team": "TEN",
+      "updated": "2026-09-29",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Luther Burden III": {
+      "status": "NEUTRAL",
+      "injury": "Luther Burden Luther Burden Scores TD on productive night WR Chicago Bears September 28, 2026 Burden secured seven of 11",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Luther Burden Scores TD on productive night WR Chicago Bears September 28, 2026 Burden secured seven of 11 targets for 61 yards and a touchdown while rushing once for seven yards in the Bears' 27-7 win over the Eagles on Monday night. ANALY",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Luther Burden"
+      ],
+      "old_rank": 88,
+      "new_rank": 93,
+      "old_ppg": 12.0,
+      "new_ppg": 12.0,
+      "position": "WR",
+      "team": "CHI",
+      "updated": "2026-09-29",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "AJ Barner": {
+      "status": "NEUTRAL",
+      "injury": "AJ Barner AJ Barner Nine targets in loss TE Seattle Seahawks September 28, 2026 Barner caught 5-of-9 targets for 69 yard",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "AJ Barner Nine targets in loss TE Seattle Seahawks September 28, 2026 Barner caught 5-of-9 targets for 69 yards in the Seahawks' 33-31 loss to the Commanders on Sunday. ANALYSIS Subscribe now to instantly reveal our take on this news.",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "AJ Barner"
+      ],
+      "old_rank": 236,
+      "new_rank": 233,
+      "old_ppg": 6.11,
+      "new_ppg": 6.11,
+      "position": "TE",
+      "team": "SEA",
+      "updated": "2026-09-29",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Jalen Hurts": {
+      "status": "NEUTRAL",
+      "injury": "Jalen Hurts Jalen Hurts Forgettable night in loss QB Philadelphia Eagles September 28, 2026 Hurts completed 16 of 25 pas",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Jalen Hurts Forgettable night in loss QB Philadelphia Eagles September 28, 2026 Hurts completed 16 of 25 passes for 153 yards with no touchdowns and one interception while rushing four times for 25 yards and a touchdown in the Eagles' 27-7 ",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Jalen Hurts"
+      ],
+      "old_rank": 2,
+      "new_rank": 2,
+      "old_ppg": 23.33,
+      "new_ppg": 23.33,
+      "position": "QB",
+      "team": "PHI",
+      "updated": "2026-09-29",
       "auto_generated": true,
       "from_override": false
     },
@@ -342,8 +397,8 @@
       ],
       "old_rank": 3,
       "new_rank": 5,
-      "old_ppg": 22.36,
-      "new_ppg": 21.24,
+      "old_ppg": 22.37,
+      "new_ppg": 21.25,
       "position": "QB",
       "team": "KC",
       "updated": "2026-08-30",
@@ -362,12 +417,54 @@
         "TreVeyon Henderson , Patriots (ankle) : Henderson hasn't practiced since Aug."
       ],
       "old_rank": 74,
-      "new_rank": 70,
+      "new_rank": 71,
       "old_ppg": 12.92,
       "new_ppg": 12.92,
       "position": "RB",
       "team": "NE",
-      "updated": "2026-09-28",
+      "updated": "2026-09-29",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Rico Dowdle": {
+      "status": "POSITIVE",
+      "injury": "That cleared the way for Rico Dowdle to take over the backfield",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.05,
+      "ranking_note": "That cleared the way for Rico Dowdle to take over the backfield.",
+      "impact": "POSITIVE",
+      "source": "Yahoo Sports",
+      "headlines": [
+        "That cleared the way for Rico Dowdle to take over the backfield."
+      ],
+      "old_rank": 115,
+      "new_rank": 104,
+      "old_ppg": 10.71,
+      "new_ppg": 11.25,
+      "position": "RB",
+      "team": "PIT",
+      "updated": "2026-09-29",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Puka Nacua": {
+      "status": "NEUTRAL",
+      "injury": "Puka Nacua , Rams (groin) : Nacua was back at practice on Sunday after missing a few weeks",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Puka Nacua , Rams (groin) : Nacua was back at practice on Sunday after missing a few weeks.",
+      "impact": "NEUTRAL",
+      "source": "Yahoo Sports",
+      "headlines": [
+        "Puka Nacua , Rams (groin) : Nacua was back at practice on Sunday after missing a few weeks."
+      ],
+      "old_rank": 23,
+      "new_rank": 23,
+      "old_ppg": 18.34,
+      "new_ppg": 18.34,
+      "position": "WR",
+      "team": "LAR",
+      "updated": "2026-09-29",
       "auto_generated": true,
       "from_override": false
     },
@@ -383,7 +480,7 @@
         "Upgrade slightly. Running routes, ahead of schedule. Worst case misses 1-2 games."
       ],
       "old_rank": 47,
-      "new_rank": 62,
+      "new_rank": 63,
       "old_ppg": 14.5,
       "new_ppg": 13.49,
       "position": "WR",
@@ -403,8 +500,8 @@
       "headlines": [
         "Official IR (heel). Minimum 4 games; earliest Week 7. Conservative lottery until designated to return — do not use stale Aug RETURNING/ramp note. STICKY: data-update must not restore RETURNING x0.90."
       ],
-      "old_rank": 242,
-      "new_rank": 414,
+      "old_rank": 243,
+      "new_rank": 413,
       "old_ppg": 6.0,
       "new_ppg": 3.0,
       "position": "WR",
@@ -424,13 +521,13 @@
       "headlines": [
         "Tyler Warren , Colts (groin) : Warren was back at practice on Tuesday and should be good to go for Week 1."
       ],
-      "old_rank": 111,
-      "new_rank": 107,
+      "old_rank": 110,
+      "new_rank": 108,
       "old_ppg": 11.0,
       "new_ppg": 11.0,
       "position": "TE",
       "team": "IND",
-      "updated": "2026-09-28",
+      "updated": "2026-09-29",
       "auto_generated": true,
       "from_override": false
     },
@@ -445,8 +542,8 @@
       "headlines": [
         "Rising sleeper TE. Ahead of schedule. GB passing game benefits."
       ],
-      "old_rank": 108,
-      "new_rank": 101,
+      "old_rank": 107,
+      "new_rank": 102,
       "old_ppg": 11.0,
       "new_ppg": 11.55,
       "position": "TE",
@@ -466,36 +563,36 @@
       "headlines": [
         "Breece Hall, NYJ (groin) — on track to play Week 1"
       ],
-      "old_rank": 64,
-      "new_rank": 60,
+      "old_rank": 65,
+      "new_rank": 59,
       "old_ppg": 13.5,
       "new_ppg": 13.5,
       "position": "RB",
       "team": "NYJ",
-      "updated": "2026-09-28",
+      "updated": "2026-09-29",
       "auto_generated": true,
       "from_override": false
     },
-    "Kyle Monangai": {
-      "status": "NEUTRAL",
-      "injury": "knee) — remains week-to-week Kyle Monangai",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Kyle Monangai, CHI (knee) — remains week-to-week",
-      "impact": "NEUTRAL",
-      "source": "Yahoo Sports",
+    "Mike Evans": {
+      "status": "MONITOR",
+      "injury": "Groin (minor) + camp quad; plans to play Week 1 vs LAR in Melbourne",
+      "week1_outlook": "LIKELY — Fowler Aug 26 groin minor, plans to play Sept 10",
+      "ppg_multiplier": 0.9,
+      "ranking_note": "Pearsall is the 49er done for 2026, not Evans. SF WR1. Nagging camp injuries; 33 with history. Conservative ramp, not a zero. Revisit if he sits Australia.",
+      "impact": "MODERATE",
+      "source": "ESPN Fowler Aug 26 / NBC / CBS — groin minor, Week 1 plan",
       "headlines": [
-        "Kyle Monangai, CHI (knee) — remains week-to-week"
+        "Pearsall is the 49er done for 2026, not Evans. SF WR1. Nagging camp injuries; 33 with history. Conservative ramp, not a zero. Revisit if he sits Australia."
       ],
-      "old_rank": 135,
-      "new_rank": 128,
-      "old_ppg": 10.0,
-      "new_ppg": 10.0,
-      "position": "RB",
-      "team": "CHI",
-      "updated": "2026-09-28",
-      "auto_generated": true,
-      "from_override": false
+      "old_rank": 86,
+      "new_rank": 113,
+      "old_ppg": 12.04,
+      "new_ppg": 10.84,
+      "position": "WR",
+      "team": "SF",
+      "updated": "2026-08-31",
+      "auto_generated": false,
+      "from_override": true
     },
     "Jake Tonges": {
       "status": "IR",
@@ -509,12 +606,33 @@
         "Jake Tonges - IR"
       ],
       "old_rank": 393,
-      "new_rank": 483,
+      "new_rank": 482,
       "old_ppg": 3.62,
       "new_ppg": 1.81,
       "position": "TE",
       "team": "SF",
-      "updated": "2026-09-28",
+      "updated": "2026-09-29",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Jalen McMillan": {
+      "status": "NEUTRAL",
+      "injury": "Jalen McMillan - Out Jalen McMillan listed as Out",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Jalen McMillan listed as Out. ",
+      "impact": "NEUTRAL",
+      "source": "Sleeper",
+      "headlines": [
+        "Jalen McMillan - Out"
+      ],
+      "old_rank": 212,
+      "new_rank": 209,
+      "old_ppg": 6.96,
+      "new_ppg": 6.96,
+      "position": "WR",
+      "team": "TB",
+      "updated": "2026-09-29",
       "auto_generated": true,
       "from_override": false
     },
@@ -535,7 +653,7 @@
       "new_ppg": 2.9,
       "position": "RB",
       "team": "ARI",
-      "updated": "2026-09-28",
+      "updated": "2026-09-29",
       "auto_generated": true,
       "from_override": false
     },
@@ -550,13 +668,13 @@
       "headlines": [
         "Isaac Guerendo - PUP"
       ],
-      "old_rank": 232,
-      "new_rank": 289,
+      "old_rank": 233,
+      "new_rank": 288,
       "old_ppg": 6.35,
       "new_ppg": 5.21,
       "position": "RB",
       "team": "SF",
-      "updated": "2026-09-28",
+      "updated": "2026-09-29",
       "auto_generated": true,
       "from_override": false
     },
@@ -577,7 +695,7 @@
       "new_ppg": 2.5,
       "position": "RB",
       "team": "MIN",
-      "updated": "2026-09-28",
+      "updated": "2026-09-29",
       "auto_generated": true,
       "from_override": false
     },
@@ -592,13 +710,13 @@
       "headlines": [
         "RJ Harvey - Questionable"
       ],
-      "old_rank": 136,
-      "new_rank": 145,
+      "old_rank": 134,
+      "new_rank": 144,
       "old_ppg": 10.0,
       "new_ppg": 9.3,
       "position": "RB",
       "team": "DEN",
-      "updated": "2026-09-28",
+      "updated": "2026-09-29",
       "auto_generated": true,
       "from_override": false
     },
@@ -619,7 +737,28 @@
       "new_ppg": 3.59,
       "position": "WR",
       "team": "NE",
-      "updated": "2026-09-28",
+      "updated": "2026-09-29",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "De'Von Achane": {
+      "status": "IR",
+      "injury": "IR De'Von Achane listed as IR",
+      "week1_outlook": "OUT — 4-game minimum; conservative return",
+      "ppg_multiplier": 0.5,
+      "ranking_note": "De'Von Achane listed as IR. ",
+      "impact": "IR",
+      "source": "Sleeper",
+      "headlines": [
+        "De'Von Achane - IR"
+      ],
+      "old_rank": 150,
+      "new_rank": 339,
+      "old_ppg": 9.09,
+      "new_ppg": 4.54,
+      "position": "RB",
+      "team": "MIA",
+      "updated": "2026-09-29",
       "auto_generated": true,
       "from_override": false
     },
@@ -640,7 +779,7 @@
       "new_ppg": 3.2,
       "position": "TE",
       "team": "GB",
-      "updated": "2026-09-28",
+      "updated": "2026-09-29",
       "auto_generated": true,
       "from_override": false
     },
@@ -655,13 +794,13 @@
       "headlines": [
         "Jonathon Brooks - IR"
       ],
-      "old_rank": 299,
+      "old_rank": 298,
       "new_rank": 436,
       "old_ppg": 5.1,
       "new_ppg": 2.55,
       "position": "RB",
       "team": "CAR",
-      "updated": "2026-09-28",
+      "updated": "2026-09-29",
       "auto_generated": true,
       "from_override": false
     },
@@ -677,12 +816,12 @@
         "DJ Giddens - Out"
       ],
       "old_rank": 257,
-      "new_rank": 253,
+      "new_rank": 252,
       "old_ppg": 5.65,
       "new_ppg": 5.65,
       "position": "RB",
       "team": "IND",
-      "updated": "2026-09-28",
+      "updated": "2026-09-29",
       "auto_generated": true,
       "from_override": false
     },
@@ -703,7 +842,7 @@
       "new_ppg": 2.87,
       "position": "TE",
       "team": "ARI",
-      "updated": "2026-09-28",
+      "updated": "2026-09-29",
       "auto_generated": true,
       "from_override": false
     },
@@ -745,7 +884,7 @@
       "new_ppg": 1.84,
       "position": "TE",
       "team": "LAC",
-      "updated": "2026-09-28",
+      "updated": "2026-09-29",
       "auto_generated": true,
       "from_override": false
     },
@@ -761,7 +900,7 @@
         "Off PUP Aug 23 — remaining on PUP through cutdown would have locked Weeks 1–4 and that did not happen. Eligible Week 1. Still ramping (no 11-on-11 yet). Australia sit possible; Tonges is the Week 1 handcuff if he sits. Rest-of-year TE1."
       ],
       "old_rank": 73,
-      "new_rank": 119,
+      "new_rank": 118,
       "old_ppg": 12.98,
       "new_ppg": 10.38,
       "position": "TE",
@@ -866,7 +1005,7 @@
         "Healthy and practicing. No current hold."
       ],
       "old_rank": 45,
-      "new_rank": 43,
+      "new_rank": 44,
       "old_ppg": 14.74,
       "new_ppg": 14.74,
       "position": "WR",
@@ -887,7 +1026,7 @@
         "Injury flag from Aug 5 is stale. Has practiced and started preseason. Stefanski has not named Week 1 QB (Tua vs Penix). Job risk is the only remaining haircut — not an injury hold."
       ],
       "old_rank": 54,
-      "new_rank": 74,
+      "new_rank": 76,
       "old_ppg": 14.02,
       "new_ppg": 12.62,
       "position": "QB",
@@ -907,8 +1046,8 @@
       "headlines": [
         "Clocking 22mph in camp. No issues. Undervalued WAS sleeper. Daniels connection real."
       ],
-      "old_rank": 97,
-      "new_rank": 80,
+      "old_rank": 99,
+      "new_rank": 83,
       "old_ppg": 11.99,
       "new_ppg": 12.35,
       "position": "WR",
@@ -949,7 +1088,7 @@
       "headlines": [
         "Minor thumb issue. Not serious. Monitor."
       ],
-      "old_rank": 140,
+      "old_rank": 139,
       "new_rank": 141,
       "old_ppg": 9.96,
       "new_ppg": 9.66,
@@ -1033,8 +1172,8 @@
       "headlines": [
         "Still on roster. Colts gathering information. Typical first-offense DUI is up to 2 games; do not REMOVE. Downgrade / monitor."
       ],
-      "old_rank": 148,
-      "new_rank": 164,
+      "old_rank": 147,
+      "new_rank": 163,
       "old_ppg": 9.22,
       "new_ppg": 8.48,
       "position": "WR",
