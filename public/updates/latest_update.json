@@ -1,162 +1,8 @@
 {
-  "updated_at": "2026-10-02T01:15:15",
+  "updated_at": "2026-10-02T18:13:50",
   "total_changes": 100,
-  "high_priority_count": 29,
+  "high_priority_count": 34,
   "changes": [
-    {
-      "timestamp": "2026-09-30T08:49:07",
-      "player_id": "11911",
-      "name": "Jeshaun Jones",
-      "position": "WR",
-      "team": "MIN",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Sus -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-09-30T08:49:07",
-      "player_id": "13350",
-      "name": "Joe Fagnano",
-      "position": "QB",
-      "team": "BAL",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Out -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-09-30T08:49:07",
-      "player_id": "13289",
-      "name": "Drew Allar",
-      "position": "QB",
-      "team": "PIT",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Out -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-09-30T08:49:07",
-      "player_id": "11566",
-      "name": "Jayden Daniels",
-      "position": "QB",
-      "team": "WAS",
-      "overall_rank": 109,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Out -> Questionable",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-09-30T08:49:07",
-      "player_id": "11643",
-      "name": "Jaylen Wright",
-      "position": "RB",
-      "team": "MIA",
-      "overall_rank": 291,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Out -> Questionable",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-09-30T08:49:07",
-      "player_id": "13602",
-      "name": "Jack Strand",
-      "position": "QB",
-      "team": "ATL",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Out -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-09-30T08:49:07",
-      "player_id": "8155",
-      "name": "Breece Hall",
-      "position": "RB",
-      "team": "NYJ",
-      "overall_rank": 31,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Out -> Questionable",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-09-30T08:49:07",
-      "player_id": "6427",
-      "name": "Ashton Dulin",
-      "position": "WR",
-      "team": "IND",
-      "overall_rank": 471,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Out -> Questionable",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-09-30T15:32:26",
-      "player_id": "8136",
-      "name": "Rachaad White",
-      "position": "RB",
-      "team": "WAS",
-      "overall_rank": 103,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Shoulder)",
-      "priority": "HIGH"
-    },
-    {
-      "timestamp": "2026-09-30T15:32:26",
-      "player_id": "11618",
-      "name": "Jalen McMillan",
-      "position": "WR",
-      "team": "TB",
-      "overall_rank": 207,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Out -> IR (Knee - PCL)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-09-30T15:32:26",
-      "player_id": "3321",
-      "name": "Tyreek Hill",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Out -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-09-30T15:32:26",
-      "player_id": "12001",
-      "name": "Lawrence Keys",
-      "position": "WR",
-      "team": "DET",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> DET",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-09-30T18:16:03",
-      "player_id": "12971",
-      "name": "Ke'Shawn Williams",
-      "position": "WR",
-      "team": "",
-      "overall_rank": 559,
-      "change_type": "RELEASED",
-      "detail": "Released from CIN",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-09-30T18:16:03",
-      "player_id": "11579",
-      "name": "Audric Estime",
-      "position": "RB",
-      "team": "MIN",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> MIN",
-      "priority": "MEDIUM"
-    },
     {
       "timestamp": "2026-09-30T18:16:03",
       "player_id": "10222",
@@ -1102,6 +948,160 @@
       "change_type": "INJURY_IMPROVED",
       "detail": "Questionable -> Healthy",
       "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-10-02T15:16:56",
+      "player_id": "13296",
+      "name": "Caleb Douglas",
+      "position": "WR",
+      "team": "MIA",
+      "overall_rank": 262,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Questionable -> Out (Ankle)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-10-02T15:16:56",
+      "player_id": "11625",
+      "name": "Adonai Mitchell",
+      "position": "WR",
+      "team": "NYJ",
+      "overall_rank": 295,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Doubtful -> Out (Finger)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-10-02T15:16:56",
+      "player_id": "11566",
+      "name": "Jayden Daniels",
+      "position": "QB",
+      "team": "WAS",
+      "overall_rank": 106,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Questionable -> Out (Elbow)",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-10-02T15:16:56",
+      "player_id": "8155",
+      "name": "Breece Hall",
+      "position": "RB",
+      "team": "NYJ",
+      "overall_rank": 31,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Doubtful -> Out (Quadriceps)",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-10-02T18:11:55",
+      "player_id": "8136",
+      "name": "Rachaad White",
+      "position": "RB",
+      "team": "WAS",
+      "overall_rank": 99,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Questionable -> Out (Shoulder)",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-10-02T18:11:55",
+      "player_id": "8484",
+      "name": "Ko Kieft",
+      "position": "TE",
+      "team": "TB",
+      "overall_rank": 430,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Questionable -> Out (Elbow)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-10-02T18:11:55",
+      "player_id": "5773",
+      "name": "KhaDarel Hodge",
+      "position": "WR",
+      "team": "",
+      "overall_rank": 460,
+      "change_type": "RELEASED",
+      "detail": "Released from SF",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-10-02T18:11:55",
+      "player_id": "12171",
+      "name": "British Brooks",
+      "position": "RB",
+      "team": "HOU",
+      "overall_rank": 209,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Questionable -> Out (Hamstring)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-10-02T18:11:55",
+      "player_id": "11596",
+      "name": "Ben Sinnott",
+      "position": "TE",
+      "team": "WAS",
+      "overall_rank": 310,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-10-02T18:11:55",
+      "player_id": "5927",
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "team": "WAS",
+      "overall_rank": 82,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Hamstring)",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-10-02T18:11:55",
+      "player_id": "12498",
+      "name": "Mason Taylor",
+      "position": "TE",
+      "team": "NYJ",
+      "overall_rank": 175,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Doubtful -> Out (Thumb)",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-10-02T18:11:55",
+      "player_id": "11626",
+      "name": "Xavier Legette",
+      "position": "WR",
+      "team": "CAR",
+      "overall_rank": 298,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Doubtful -> Out (Knee)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-10-02T18:11:55",
+      "player_id": "11560",
+      "name": "Caleb Williams",
+      "position": "QB",
+      "team": "CHI",
+      "overall_rank": 124,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Doubtful -> Out (Hamstring)",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-10-02T18:11:55",
+      "player_id": "8210",
+      "name": "Chig Okonkwo",
+      "position": "TE",
+      "team": "WAS",
+      "overall_rank": 138,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "MEDIUM"
     }
   ]
 }
