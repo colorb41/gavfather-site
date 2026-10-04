@@ -1,133 +1,133 @@
 overall_rank,player_name,position,recent_team,projected_ppg,projected_ppg_std,projected_ppg_half_ppr,projected_ppg_ppr,projected_ppg_superflex,reliability_tier,situation_score,career_seasons,tier,live_status,age,data_basis,draft_value_score,draft_value_score_std,draft_value_score_half_ppr,draft_value_score_ppr,avg_receptions_per_game,avg_targets_per_game,avg_carries_per_game,Injury_Flag,consensus_adp,adp_diff,consensus_adp_overall,consensus_adp_positional,our_positional_rank,adp_diff_positional,adp_diff_overall,adp_signal
-15,Trey McBride,TE,ARI,13.63,,13.63,,13.63,VOLATILE,67.6,4,Elite,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [consensus_floor:13.0:TE1 consensus],,,,,,,,,47.9,32.9,47.9,2.0,1,1.0,32.9,NEUTRAL
-20,George Kittle,TE,SF,12.98,,12.98,,12.98,PROVEN_ELITE,81.5,6,Elite,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,2,,,UNKNOWN
-27,Brock Bowers,TE,LV,12.59,,12.59,,12.59,EMERGING,63.9,2,Elite,,,2025*0.50+2024*0.30+rel[EMERGING*1.00] [sophomore_leap_player] [consensus_floor:12.5:TE2 consensus],,,,,,,,,36.8,9.799999999999997,36.8,1.0,3,-2.0,9.799999999999997,NEUTRAL
+14,Trey McBride,TE,ARI,13.63,,13.63,,13.63,VOLATILE,68.2,4,Elite,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [consensus_floor:13.0:TE1 consensus],,,,,,,,,47.9,33.9,47.9,2.0,1,1.0,33.9,NEUTRAL
+18,George Kittle,TE,SF,12.98,,12.98,,12.98,PROVEN_ELITE,81.5,6,Elite,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,2,,,UNKNOWN
+23,Brock Bowers,TE,LV,12.59,,12.59,,12.59,EMERGING,63.9,2,Elite,,,2025*0.50+2024*0.30+rel[EMERGING*1.00] [sophomore_leap_player] [consensus_floor:12.5:TE2 consensus],,,,,,,,,36.8,13.799999999999997,36.8,1.0,3,-2.0,13.799999999999997,NEUTRAL
 45,Tyler Warren,TE,IND,11.0,,11.0,,11.0,EMERGING,65.0,1,TE1,,,2025_only+rel[EMERGING*1.00] [sophomore_leap_player] [team_corr:IND:1.0:IND TE1 - Steichen offense] [consensus_floor:10.0:TE4 consensus IND] [adp_ecr_floor:11.0],,,,,,,,,72.4,27.400000000000006,72.4,4.0,4,0.0,27.400000000000006,NEUTRAL
 46,Harold Fannin Jr.,TE,CLE,11.0,,11.0,,11.0,EMERGING,58.0,1,TE1,,,2025_only+rel[EMERGING*1.00] [sophomore_leap_player] [team_corr:CLE:1.0:CLE TE1 - Monken run heavy] [consensus_floor:10.5:TE3 consensus CLE] [adp_ecr_floor:11.0],,,,,,,,,,,,,5,,,UNKNOWN
 47,Colston Loveland,TE,CHI,11.0,,11.0,,11.0,EMERGING,72.0,1,TE1,,,2025_only+rel[EMERGING*1.00] [sophomore_leap_player] [team_corr:CHI:1.05:CHI TE1 - Caleb Williams year 2] [consensus_floor:10.0:TE4 consensus CHI] [adp_ecr_floor:11.0],,,,,,,,,62.2,15.200000000000003,62.2,3.0,6,-3.0,15.200000000000003,FADE
-48,Dallas Goedert,TE,PHI,10.9,,10.9,,10.9,PROVEN_ELITE,80.5,6,TE1,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,7,,,UNKNOWN
-56,Tucker Kraft,TE,GB,11.0,,11.0,,11.0,VOLATILE,66.8,3,TE1,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [adp_ecr_floor:11.0],,,,,,,,,89.8,33.8,89.8,5.0,8,-3.0,33.8,FADE
-64,Sam LaPorta,TE,DET,10.53,,10.53,,10.53,PROVEN_SOLID,73.3,3,TE1/2,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,9,,,UNKNOWN
-77,Darren Waller,TE,CAR,9.51,,9.51,,9.51,PROVEN_SOLID,58.9,4,TE1/2,,,2025*0.50+2023*0.20+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,10,,,UNKNOWN
-91,Travis Kelce,TE,KC,8.97,,8.97,,8.97,VOLATILE,70.3,6,TE1/2,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,130.6,39.599999999999994,130.6,6.0,11,-5.0,39.599999999999994,FADE
-92,Kyle Pitts,TE,ATL,8.96,,8.96,,8.96,PROVEN_ELITE,72.6,5,TE1/2,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,12,,,UNKNOWN
-99,Dalton Kincaid,TE,BUF,8.74,,8.74,,8.74,PROVEN_SOLID,77.0,3,TE2,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06] [consensus_floor:9.5:TE BUF],,,,,,,,,,,,,13,,,UNKNOWN
-103,Zach Ertz,TE,PHI,8.45,,8.45,,8.45,PROVEN_ELITE,68.5,5,TE2,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,14,,,UNKNOWN
-104,Hunter Henry,TE,NE,8.24,,8.24,,8.24,PROVEN_ELITE,66.0,6,TE2,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,15,,,UNKNOWN
-107,Jake Ferguson,TE,DAL,8.0,,8.0,,8.0,VOLATILE,76.3,4,TE2,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [adp_ecr_floor:8.0],,,,,,,,,,,,,16,,,UNKNOWN
-108,Juwan Johnson,TE,NO,8.0,,8.0,,8.0,VOLATILE,71.0,5,TE2,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [adp_ecr_floor:8.0],,,,,,,,,,,,,17,,,UNKNOWN
-109,Mark Andrews,TE,BAL,8.0,,8.0,,8.0,VOLATILE,61.1,6,TE2,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [adp_ecr_floor:8.0],,,,,,,,,,,,,18,,,UNKNOWN
-111,Dalton Schultz,TE,HOU,7.88,,7.88,,7.88,PROVEN_ELITE,74.8,6,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,19,,,UNKNOWN
+50,Dallas Goedert,TE,PHI,10.9,,10.9,,10.9,PROVEN_ELITE,80.5,6,TE1,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,7,,,UNKNOWN
+56,Tucker Kraft,TE,GB,11.0,,11.0,,11.0,VOLATILE,67.4,3,TE1,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [adp_ecr_floor:11.0],,,,,,,,,89.8,33.8,89.8,5.0,8,-3.0,33.8,FADE
+63,Sam LaPorta,TE,DET,10.53,,10.53,,10.53,PROVEN_SOLID,73.3,3,TE1/2,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,9,,,UNKNOWN
+74,Darren Waller,TE,CAR,9.51,,9.51,,9.51,PROVEN_SOLID,58.9,4,TE1/2,,,2025*0.50+2023*0.20+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,10,,,UNKNOWN
+84,Travis Kelce,TE,KC,8.97,,8.97,,8.97,VOLATILE,70.2,6,TE1/2,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,130.6,46.599999999999994,130.6,6.0,11,-5.0,46.599999999999994,FADE
+85,Kyle Pitts,TE,ATL,8.96,,8.96,,8.96,PROVEN_ELITE,72.6,5,TE1/2,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,12,,,UNKNOWN
+87,Dalton Kincaid,TE,BUF,8.74,,8.74,,8.74,PROVEN_SOLID,77.0,3,TE2,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06] [consensus_floor:9.5:TE BUF],,,,,,,,,,,,,13,,,UNKNOWN
+101,Zach Ertz,TE,PHI,8.45,,8.45,,8.45,PROVEN_ELITE,68.5,5,TE2,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,14,,,UNKNOWN
+102,Hunter Henry,TE,NE,8.24,,8.24,,8.24,PROVEN_ELITE,66.0,6,TE2,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,15,,,UNKNOWN
+106,Mark Andrews,TE,BAL,8.0,,8.0,,8.0,VOLATILE,61.1,6,TE2,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [adp_ecr_floor:8.0],,,,,,,,,,,,,16,,,UNKNOWN
+107,Juwan Johnson,TE,NO,8.0,,8.0,,8.0,VOLATILE,71.0,5,TE2,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [adp_ecr_floor:8.0],,,,,,,,,,,,,17,,,UNKNOWN
+108,Jake Ferguson,TE,DAL,8.0,,8.0,,8.0,VOLATILE,76.3,4,TE2,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [adp_ecr_floor:8.0],,,,,,,,,,,,,18,,,UNKNOWN
+110,Dalton Schultz,TE,HOU,7.88,,7.88,,7.88,PROVEN_ELITE,74.8,6,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,19,,,UNKNOWN
 112,Isaiah Likely,TE,NYG,8.0,,8.0,,8.0,PROVEN_ELITE,67.6,4,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12] [adp_ecr_floor:8.0],,,,,,,,,,,,,20,,,UNKNOWN
-121,Tyler Higbee,TE,LAR,7.5,,7.5,,7.5,PROVEN_ELITE,69.7,5,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,21,,,UNKNOWN
-125,Cade Otton,TE,TB,7.4,,7.4,,7.4,PROVEN_ELITE,75.5,4,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,22,,,UNKNOWN
-126,Pat Freiermuth,TE,PIT,7.38,,7.38,,7.38,PROVEN_ELITE,60.4,5,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,23,,,UNKNOWN
-128,T.J. Hockenson,TE,MIN,7.3,,7.3,,7.3,PROVEN_SOLID,65.4,6,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,24,,,UNKNOWN
-133,Brenton Strange,TE,JAX,6.76,,6.76,,6.76,EMERGING,62.5,2,Streamer,,,2025*0.50+2024*0.30+rel[EMERGING*1.03],,,,,,,,,,,,,25,,,UNKNOWN
-134,Oronde Gadsden II,TE,LAC,6.72,,6.72,,6.72,UNPROVEN,52.8,1,Streamer,,,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,26,,,UNKNOWN
-138,Theo Johnson,TE,NYG,6.35,,6.35,,6.35,EMERGING,79.6,2,Streamer,,,2025*0.50+2024*0.30+rel[EMERGING*1.03],,,,,,,,,,,,,27,,,UNKNOWN
-139,Chig Okonkwo,TE,WAS,6.31,,6.31,,6.31,PROVEN_ELITE,78.7,4,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,28,,,UNKNOWN
+120,Tyler Higbee,TE,LAR,7.5,,7.5,,7.5,PROVEN_ELITE,66.6,5,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,21,,,UNKNOWN
+122,Cade Otton,TE,TB,7.4,,7.4,,7.4,PROVEN_ELITE,75.5,4,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,22,,,UNKNOWN
+124,Pat Freiermuth,TE,PIT,7.38,,7.38,,7.38,PROVEN_ELITE,60.4,5,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,23,,,UNKNOWN
+125,T.J. Hockenson,TE,MIN,7.3,,7.3,,7.3,PROVEN_SOLID,65.4,6,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,24,,,UNKNOWN
+131,Brenton Strange,TE,JAX,6.76,,6.76,,6.76,EMERGING,62.5,2,Streamer,,,2025*0.50+2024*0.30+rel[EMERGING*1.03],,,,,,,,,,,,,25,,,UNKNOWN
+132,Oronde Gadsden II,TE,LAC,6.72,,6.72,,6.72,UNPROVEN,52.8,1,Streamer,,,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,26,,,UNKNOWN
+135,Theo Johnson,TE,NYG,6.35,,6.35,,6.35,EMERGING,79.6,2,Streamer,,,2025*0.50+2024*0.30+rel[EMERGING*1.03],,,,,,,,,,,,,27,,,UNKNOWN
+136,Chig Okonkwo,TE,WAS,6.31,,6.31,,6.31,PROVEN_ELITE,78.7,4,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,28,,,UNKNOWN
 141,AJ Barner,TE,SEA,6.11,,6.11,,6.11,EMERGING,71.8,2,Streamer,,,2025*0.50+2024*0.30+rel[EMERGING*1.03],,,,,,,,,,,,,29,,,UNKNOWN
-146,Jonnu Smith,TE,GB,5.66,,5.66,,5.66,VOLATILE,54.8,6,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,,,,,30,,,UNKNOWN
-149,Evan Engram,TE,DEN,5.54,,5.54,,5.54,VOLATILE,77.8,6,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,,,,,31,,,UNKNOWN
-150,Terrance Ferguson,TE,LAR,5.5,,5.5,,5.5,UNPROVEN,41.7,1,Streamer,,,2025_only+starter_floor_soft+rel[UNPROVEN*0.92] [adp_ecr_floor:5.5],,,,,,,,,,,,,32,,,UNKNOWN
-156,Cole Kmet,TE,CHI,5.38,,5.38,,5.38,VOLATILE,51.1,6,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,,,,,33,,,UNKNOWN
-158,Greg Dulcich,TE,MIA,5.58,,5.58,,5.58,UNPROVEN,58.3,2,Streamer,,,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,34,,,UNKNOWN
-162,Colby Parkinson,TE,LAR,5.11,,5.11,,5.11,VOLATILE,57.7,4,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,,,,,35,,,UNKNOWN
-189,Tommy Tremble,TE,CAR,4.59,,4.59,,4.59,PROVEN_SOLID,46.9,5,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,36,,,UNKNOWN
-192,Daniel Bellinger,TE,TEN,4.57,,4.57,,4.57,PROVEN_SOLID,68.3,3,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,37,,,UNKNOWN
-213,Noah Fant,TE,NO,4.38,,4.38,,4.38,VOLATILE,59.0,6,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,,,,,38,,,UNKNOWN
-215,Mike Gesicki,TE,CIN,4.33,,4.33,,4.33,VOLATILE,69.0,6,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,,,,,39,,,UNKNOWN
-217,Tyler Conklin,TE,DET,4.54,,4.54,,4.54,PROVEN_ELITE,61.3,4,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,40,,,UNKNOWN
-219,Michael Mayer,TE,LV,4.28,,4.28,,4.28,VOLATILE,51.9,3,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,,,,,41,,,UNKNOWN
-222,Elijah Higgins,TE,ARI,4.24,,4.24,,4.24,EMERGING,55.6,2,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[EMERGING*1.03],,,,,,,,,,,,,42,,,UNKNOWN
-226,Darnell Washington,TE,PIT,4.22,,4.22,,4.22,EMERGING,48.4,2,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[EMERGING*1.03],,,,,,,,,,,,,43,,,UNKNOWN
-229,Adam Trautman,TE,DEN,4.15,,4.15,,4.15,PROVEN_SOLID,65.8,5,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,44,,,UNKNOWN
-231,Dawson Knox,TE,BUF,4.1,,4.1,,4.1,VOLATILE,65.0,6,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,,,,,45,,,UNKNOWN
-232,Gunnar Helm,TE,TEN,4.09,,4.09,,4.09,UNPROVEN,56.3,1,Streamer,,,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,46,,,UNKNOWN
-234,Davis Allen,TE,LAR,4.05,,4.05,,4.05,UNPROVEN,49.7,1,Streamer,,,2025*0.50+2023*0.20+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,47,,,UNKNOWN
-236,Tanner Hudson,TE,CIN,4.12,,4.12,,4.12,UNPROVEN,57.0,2,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,48,,,UNKNOWN
-241,Luke Musgrave,TE,GB,3.9,,3.9,,3.9,VOLATILE,46.8,2,Streamer,,,2025*0.50+2023*0.20+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,,,,,49,,,UNKNOWN
-242,Jackson Hawes,TE,BUF,3.9,,3.9,,3.9,UNPROVEN,57.0,1,Streamer,,,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,50,,,UNKNOWN
-243,Ja'Tavion Sanders,TE,CAR,4.02,,4.02,,4.02,UNPROVEN,38.9,2,Streamer,,,2025*0.50+2024*0.30+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,51,,,UNKNOWN
-245,Brevin Jordan,TE,HOU,3.78,,3.78,,3.78,UNPROVEN,62.8,2,Streamer,,,2023_old*0.80+rel[UNPROVEN*0.92],,,,,,,,,,,,,52,,,UNKNOWN
-246,Austin Hooper,TE,ATL,3.75,,3.75,,3.75,VOLATILE,60.6,6,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,,,,,53,,,UNKNOWN
-250,Jeremy Ruckert,TE,NYJ,3.65,,3.65,,3.65,BASELINE,47.7,3,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[BASELINE*1.00],,,,,,,,,,,,,54,,,UNKNOWN
-252,Noah Gray,TE,KC,3.64,,3.64,,3.64,VOLATILE,58.3,4,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,,,,,55,,,UNKNOWN
-254,Mitchell Evans,TE,CAR,3.63,,3.63,,3.63,UNPROVEN,30.9,1,Streamer,,,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,56,,,UNKNOWN
+145,Jonnu Smith,TE,GB,5.66,,5.66,,5.66,VOLATILE,55.4,6,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,,,,,30,,,UNKNOWN
+146,Evan Engram,TE,DEN,5.54,,5.54,,5.54,VOLATILE,77.8,6,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,,,,,31,,,UNKNOWN
+151,Cole Kmet,TE,CHI,5.38,,5.38,,5.38,VOLATILE,51.1,6,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,,,,,32,,,UNKNOWN
+154,Greg Dulcich,TE,MIA,5.58,,5.58,,5.58,UNPROVEN,58.3,2,Streamer,,,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,33,,,UNKNOWN
+164,Colby Parkinson,TE,LAR,5.11,,5.11,,5.11,VOLATILE,54.6,4,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,,,,,34,,,UNKNOWN
+173,Mason Taylor,TE,NYJ,4.97,,4.97,,4.97,UNPROVEN,59.7,1,Streamer,,,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,35,,,UNKNOWN
+184,Tommy Tremble,TE,CAR,4.59,,4.59,,4.59,PROVEN_SOLID,46.9,5,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,36,,,UNKNOWN
+185,Daniel Bellinger,TE,TEN,4.57,,4.57,,4.57,PROVEN_SOLID,68.9,3,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,37,,,UNKNOWN
+195,Mike Gesicki,TE,CIN,4.33,,4.33,,4.33,VOLATILE,69.6,6,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,,,,,38,,,UNKNOWN
+196,Tyler Conklin,TE,DET,4.54,,4.54,,4.54,PROVEN_ELITE,61.3,4,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12],,,,,,,,,,,,,39,,,UNKNOWN
+198,Michael Mayer,TE,LV,4.28,,4.28,,4.28,VOLATILE,51.9,3,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,,,,,40,,,UNKNOWN
+199,Elijah Higgins,TE,ARI,4.24,,4.24,,4.24,EMERGING,56.2,2,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[EMERGING*1.03],,,,,,,,,,,,,41,,,UNKNOWN
+200,Darnell Washington,TE,PIT,4.22,,4.22,,4.22,EMERGING,48.4,2,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[EMERGING*1.03],,,,,,,,,,,,,42,,,UNKNOWN
+203,Adam Trautman,TE,DEN,4.15,,4.15,,4.15,PROVEN_SOLID,65.8,5,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,43,,,UNKNOWN
+207,Dawson Knox,TE,BUF,4.1,,4.1,,4.1,VOLATILE,65.0,6,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,,,,,44,,,UNKNOWN
+209,Gunnar Helm,TE,TEN,4.09,,4.09,,4.09,UNPROVEN,56.9,1,Streamer,,,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,45,,,UNKNOWN
+213,Noah Fant,TE,NO,4.07,,4.07,,4.07,VOLATILE,59.0,6,Streamer,,,"2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[VOLATILE*0.88] [camp_notes:MILD:0.93:Noah Fant Questionable for MNF TE New Orleans Saints Abdomen October 3, 2026 Fant (abdomen) is listed as questionable for Monday's game against the Falcons, Matthew Paras of The New Orleans Times-Picayune reports. ANALYSIS Subscribe now to ]",,,,,,,,MILD,,,,,46,,,UNKNOWN
+219,Davis Allen,TE,LAR,4.05,,4.05,,4.05,UNPROVEN,46.6,1,Streamer,,,2025*0.50+2023*0.20+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,47,,,UNKNOWN
+224,Tanner Hudson,TE,CIN,4.12,,4.12,,4.12,UNPROVEN,57.6,2,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,48,,,UNKNOWN
+228,Jackson Hawes,TE,BUF,3.9,,3.9,,3.9,UNPROVEN,57.0,1,Streamer,,,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,49,,,UNKNOWN
+229,Luke Musgrave,TE,GB,3.9,,3.9,,3.9,VOLATILE,47.4,2,Streamer,,,2025*0.50+2023*0.20+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,,,,,50,,,UNKNOWN
+230,Ja'Tavion Sanders,TE,CAR,4.02,,4.02,,4.02,UNPROVEN,38.9,2,Streamer,,,2025*0.50+2024*0.30+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,51,,,UNKNOWN
+239,Brevin Jordan,TE,HOU,3.78,,3.78,,3.78,UNPROVEN,62.8,2,Streamer,,,2023_old*0.80+rel[UNPROVEN*0.92],,,,,,,,,,,,,52,,,UNKNOWN
+241,Austin Hooper,TE,ATL,3.75,,3.75,,3.75,VOLATILE,60.6,6,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,,,,,53,,,UNKNOWN
+248,Jeremy Ruckert,TE,NYJ,3.65,,3.65,,3.65,BASELINE,47.7,3,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[BASELINE*1.00],,,,,,,,,,,,,54,,,UNKNOWN
+252,Noah Gray,TE,KC,3.64,,3.64,,3.64,VOLATILE,58.2,4,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,,,,,55,,,UNKNOWN
+253,Mitchell Evans,TE,CAR,3.63,,3.63,,3.63,UNPROVEN,30.9,1,Streamer,,,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,56,,,UNKNOWN
 256,Jake Tonges,TE,SF,3.62,,3.62,,3.62,UNPROVEN,69.5,1,Streamer,,,2025_only+rel[UNPROVEN*0.92] [camp_notes:IR:0.5:Jake Tonges listed as IR. ],,,,,,,,IR,,,,,57,,,UNKNOWN
-257,Nick Vannett,TE,BAL,3.61,,3.61,,3.61,UNPROVEN,49.1,1,Streamer,,,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,58,,,UNKNOWN
-260,David Njoku,TE,LAC,3.69,,3.69,,3.69,VOLATILE,64.8,6,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [camp_notes:IR:0.5:David Njoku listed as IR. ],,,,,,,,IR,,,,,59,,,UNKNOWN
-265,Charlie Kolar,TE,LAC,3.66,,3.66,,3.66,UNPROVEN,44.8,1,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,60,,,UNKNOWN
-266,Brenden Bates,TE,JAX,3.54,,3.54,,3.54,UNPROVEN,50.5,0,Streamer,,,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,61,,,UNKNOWN
-268,Johnny Mundt,TE,PHI,3.63,,3.63,,3.63,BASELINE,60.5,3,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[BASELINE*1.00],,,,,,,,,,,,,62,,,UNKNOWN
-269,Keleki Latu,TE,BUF,3.52,,3.52,,3.52,UNPROVEN,49.0,0,Streamer,,,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,63,,,UNKNOWN
-270,James Mitchell,TE,DAL,3.51,,3.51,,3.51,UNPROVEN,64.3,0,Streamer,,,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,64,,,UNKNOWN
-271,Zaire Mitchell-Paden,TE,HOU,3.49,,3.49,,3.49,UNPROVEN,54.8,0,Streamer,,,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,65,,,UNKNOWN
-272,Colson Yankoff,TE,WAS,3.49,,3.49,,3.49,UNPROVEN,66.7,0,Streamer,,,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,66,,,UNKNOWN
-274,Luke Schoonmaker,TE,DAL,3.43,,3.43,,3.43,UNPROVEN,56.3,1,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,67,,,UNKNOWN
-276,Josiah Deguara,TE,PHI,3.59,,3.59,,3.59,UNPROVEN,52.5,1,Streamer,,,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,68,,,UNKNOWN
-277,Devin Culp,TE,TB,3.54,,3.54,,3.54,UNPROVEN,63.5,0,Streamer,,,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,69,,,UNKNOWN
-278,Tip Reiman,TE,ARI,3.5,,3.5,,3.5,UNPROVEN,47.6,0,Streamer,,,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,70,,,UNKNOWN
+259,Nick Vannett,TE,BAL,3.61,,3.61,,3.61,UNPROVEN,49.1,1,Streamer,,,2024_only*0.85+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,58,,,UNKNOWN
+261,David Njoku,TE,LAC,3.69,,3.69,,3.69,VOLATILE,64.8,6,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [camp_notes:IR:0.5:David Njoku listed as IR. ],,,,,,,,IR,,,,,59,,,UNKNOWN
+262,Charlie Kolar,TE,LAC,3.66,,3.66,,3.66,UNPROVEN,44.8,1,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,60,,,UNKNOWN
+263,Brenden Bates,TE,JAX,3.54,,3.54,,3.54,UNPROVEN,50.5,0,Streamer,,,2025_small_sample(3g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,61,,,UNKNOWN
+264,Johnny Mundt,TE,PHI,3.63,,3.63,,3.63,BASELINE,60.5,3,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[BASELINE*1.00],,,,,,,,,,,,,62,,,UNKNOWN
+265,Keleki Latu,TE,BUF,3.52,,3.52,,3.52,UNPROVEN,49.0,0,Streamer,,,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,63,,,UNKNOWN
+267,James Mitchell,TE,DAL,3.51,,3.51,,3.51,UNPROVEN,64.3,0,Streamer,,,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,64,,,UNKNOWN
+268,Zaire Mitchell-Paden,TE,HOU,3.49,,3.49,,3.49,UNPROVEN,54.8,0,Streamer,,,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,65,,,UNKNOWN
+269,Colson Yankoff,TE,WAS,3.49,,3.49,,3.49,UNPROVEN,66.7,0,Streamer,,,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,66,,,UNKNOWN
+271,Luke Schoonmaker,TE,DAL,3.43,,3.43,,3.43,UNPROVEN,56.3,1,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,67,,,UNKNOWN
+273,Josiah Deguara,TE,PHI,3.59,,3.59,,3.59,UNPROVEN,52.5,1,Streamer,,,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,68,,,UNKNOWN
+276,Devin Culp,TE,TB,3.54,,3.54,,3.54,UNPROVEN,63.5,0,Streamer,,,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,69,,,UNKNOWN
+279,Tip Reiman,TE,ARI,3.5,,3.5,,3.5,UNPROVEN,48.2,0,Streamer,,,2025_small_sample(2g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,70,,,UNKNOWN
 282,Cam Grandy,TE,MIN,3.47,,3.47,,3.47,UNPROVEN,37.4,0,Streamer,,,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,71,,,UNKNOWN
 283,Chris Manhertz,TE,NYG,3.47,,3.47,,3.47,UNPROVEN,59.6,0,Streamer,,,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92],,,,,,,,,,,,,72,,,UNKNOWN
-288,Mason Taylor,TE,NYJ,3.23,,3.23,,3.23,UNPROVEN,59.7,1,Streamer,,,"2025_only+starter_floor_soft+rel[UNPROVEN*0.92] [camp_notes:SEVERE:0.65:Mason Taylor Ruled out for Week 4 TE New York Jets Thumb October 2, 2026 Taylor (thumb) has been ruled out for Sunday's game against the Bears, Zack Rosenblatt of The Athletic reports. ANALYSIS Subscribe now to instantly reveal our take on ]",,,,,,,,SEVERE,,,,,73,,,UNKNOWN
-290,Mo Alie-Cox,TE,IND,3.32,,3.32,,3.32,VOLATILE,54.0,5,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,,,,,74,,,UNKNOWN
-296,Brock Wright,TE,DET,3.26,,3.26,,3.26,UNPROVEN,53.3,2,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[UNPROVEN*0.92],,,,,,,,,,,,,75,,,UNKNOWN
-298,Foster Moreau,TE,HOU,3.24,,3.24,,3.24,PROVEN_SOLID,46.8,4,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,76,,,UNKNOWN
-305,Hunter Long,TE,ARI,2.93,,2.93,,2.93,UNPROVEN,39.6,0,Streamer,,,2025*0.50+2024*0.30+rel[UNPROVEN*0.92],,,,,,,,,,,,,77,,,UNKNOWN
+288,Mo Alie-Cox,TE,IND,3.32,,3.32,,3.32,VOLATILE,54.0,5,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,,,,,73,,,UNKNOWN
+294,Brock Wright,TE,DET,3.26,,3.26,,3.26,UNPROVEN,53.3,2,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[UNPROVEN*0.92],,,,,,,,,,,,,74,,,UNKNOWN
+296,Foster Moreau,TE,HOU,3.24,,3.24,,3.24,PROVEN_SOLID,46.8,4,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,75,,,UNKNOWN
+304,Hunter Long,TE,ARI,2.93,,2.93,,2.93,UNPROVEN,40.2,0,Streamer,,,2025*0.50+2024*0.30+rel[UNPROVEN*0.92],,,,,,,,,,,,,76,,,UNKNOWN
+306,Terrance Ferguson,TE,LAR,2.75,,2.75,,2.75,UNPROVEN,38.6,1,Streamer,,,2025_only+starter_floor_soft+rel[UNPROVEN*0.92] [adp_ecr_floor:5.5] [camp_notes:IR:0.5:Terrance Ferguson listed as IR. ],,,,,,,,IR,,,,,77,,,UNKNOWN
 308,Ben Sinnott,TE,WAS,2.82,,2.82,,2.82,UNPROVEN,58.7,0,Streamer,,,2025*0.50+2024*0.30+rel[UNPROVEN*0.92],,,,,,,,,,,,,78,,,UNKNOWN
-313,Payne Durham,TE,TB,2.7,,2.7,,2.7,UNPROVEN,55.5,0,Streamer,,,2024*0.30+2023*0.20+no_2025*0.72+rel[UNPROVEN*0.92],,,,,,,,,,,,,79,,,UNKNOWN
-314,Erick All,TE,CIN,2.52,,2.52,,2.52,UNPROVEN,49.0,0,Streamer,,,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,80,,,UNKNOWN
-315,Quintin Morris,TE,JAX,2.62,,2.62,,2.62,UNPROVEN,42.5,0,Streamer,,,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,81,,,UNKNOWN
-322,Josh Oliver,TE,MIN,2.44,,2.44,,2.44,PROVEN_SOLID,53.4,3,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06] [availability:0.50],,,,,,,,,,,,,82,,,UNKNOWN
-326,David Martin-Robinson,TE,TEN,2.53,,2.53,,2.53,UNPROVEN,48.3,0,Streamer,,,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,83,,,UNKNOWN
-340,Nate Adkins,TE,DEN,2.38,,2.38,,2.38,UNPROVEN,57.8,1,Streamer,,,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,84,,,UNKNOWN
-344,Elijah Arroyo,TE,SEA,2.22,,2.22,,2.22,UNPROVEN,59.8,0,Streamer,,,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,85,,,UNKNOWN
-356,Connor Heyward,TE,LV,2.22,,2.22,,2.22,UNPROVEN,43.9,2,Streamer,,,2025*0.50+2023*0.20+rel[UNPROVEN*0.92],,,,,,,,,,,,,86,,,UNKNOWN
-357,Josh Whyle,TE,GB,2.26,,2.26,,2.26,UNPROVEN,38.8,1,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[UNPROVEN*0.92],,,,,,,,,,,,,87,,,UNKNOWN
-360,Drew Sample,TE,CIN,2.2,,2.2,,2.2,UNPROVEN,41.0,2,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[UNPROVEN*0.92],,,,,,,,,,,,,88,,,UNKNOWN
-362,Stone Smartt,TE,NO,2.2,,2.2,,2.2,UNPROVEN,43.0,0,Streamer,,,2024*0.30+2023*0.20+no_2025*0.72+rel[UNPROVEN*0.92],,,,,,,,,,,,,89,,,UNKNOWN
+310,Payne Durham,TE,TB,2.7,,2.7,,2.7,UNPROVEN,55.5,0,Streamer,,,2024*0.30+2023*0.20+no_2025*0.72+rel[UNPROVEN*0.92],,,,,,,,,,,,,79,,,UNKNOWN
+317,Erick All,TE,CIN,2.52,,2.52,,2.52,UNPROVEN,49.6,0,Streamer,,,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,80,,,UNKNOWN
+322,Quintin Morris,TE,JAX,2.62,,2.62,,2.62,UNPROVEN,42.5,0,Streamer,,,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,81,,,UNKNOWN
+328,Josh Oliver,TE,MIN,2.44,,2.44,,2.44,PROVEN_SOLID,53.4,3,Streamer,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06] [availability:0.50],,,,,,,,,,,,,82,,,UNKNOWN
+330,David Martin-Robinson,TE,TEN,2.53,,2.53,,2.53,UNPROVEN,48.9,0,Streamer,,,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,83,,,UNKNOWN
+345,Nate Adkins,TE,DEN,2.38,,2.38,,2.38,UNPROVEN,57.8,1,Streamer,,,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,84,,,UNKNOWN
+352,Elijah Arroyo,TE,SEA,2.22,,2.22,,2.22,UNPROVEN,59.8,0,Streamer,,,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,85,,,UNKNOWN
+357,Connor Heyward,TE,LV,2.22,,2.22,,2.22,UNPROVEN,43.9,2,Streamer,,,2025*0.50+2023*0.20+rel[UNPROVEN*0.92],,,,,,,,,,,,,86,,,UNKNOWN
+358,Josh Whyle,TE,GB,2.26,,2.26,,2.26,UNPROVEN,39.4,1,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[UNPROVEN*0.92],,,,,,,,,,,,,87,,,UNKNOWN
+359,Drew Sample,TE,CIN,2.2,,2.2,,2.2,UNPROVEN,41.6,2,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[UNPROVEN*0.92],,,,,,,,,,,,,88,,,UNKNOWN
+361,Stone Smartt,TE,NO,2.2,,2.2,,2.2,UNPROVEN,43.0,0,Streamer,,,2024*0.30+2023*0.20+no_2025*0.72+rel[UNPROVEN*0.92],,,,,,,,,,,,,89,,,UNKNOWN
 364,Ian Thomas,TE,LV,2.12,,2.12,,2.12,BASELINE,35.9,3,Streamer,,,2025*0.50+2023*0.20+rel[BASELINE*1.00],,,,,,,,,,,,,90,,,UNKNOWN
 365,Darren Fells,TE,TB,2.01,,2.01,,2.01,UNPROVEN,47.5,1,Streamer,,,2020_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,91,,,UNKNOWN
-367,Eric Saubert,TE,SEA,2.11,,2.11,,2.11,UNPROVEN,51.8,0,Streamer,,,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,92,,,UNKNOWN
-370,Cade Stover,TE,HOU,2.05,,2.05,,2.05,UNPROVEN,46.8,1,Streamer,,,2025*0.50+2024*0.30+rel[UNPROVEN*0.92],,,,,,,,,,,,,93,,,UNKNOWN
-373,Jelani Woods,TE,NYJ,1.89,,1.89,,1.89,UNPROVEN,39.7,1,Streamer,,,2022_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,94,,,UNKNOWN
-375,Luke Farrell,TE,SF,1.91,,1.91,,1.91,UNPROVEN,61.5,0,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[UNPROVEN*0.92],,,,,,,,,,,,,95,,,UNKNOWN
-376,Kylen Granson,TE,TEN,1.95,,1.95,,1.95,EMERGING,40.3,2,Streamer,,,2024*0.30+2023*0.20+no_2025*0.72+rel[EMERGING*1.03],,,,,,,,,,,,,96,,,UNKNOWN
-377,John FitzPatrick,TE,CLE,1.79,,1.79,,1.79,UNPROVEN,41.8,0,Streamer,,,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,97,,,UNKNOWN
-381,Ben Yurosek,TE,MIN,1.75,,1.75,,1.75,UNPROVEN,45.4,0,Streamer,,,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92] [availability:0.50],,,,,,,,,,,,,98,,,UNKNOWN
-383,Brevyn Spann-Ford,TE,DAL,1.8,,1.8,,1.8,UNPROVEN,48.3,0,Streamer,,,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,99,,,UNKNOWN
-384,Moliki Matavao,TE,NO,1.74,,1.74,,1.74,UNPROVEN,51.0,0,Streamer,,,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92] [availability:0.50],,,,,,,,,,,,,100,,,UNKNOWN
-387,Tanner Conner,TE,NE,1.78,,1.78,,1.78,UNPROVEN,54.0,0,Streamer,,,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,101,,,UNKNOWN
-388,Will Mallory,TE,IND,1.74,,1.74,,1.74,UNPROVEN,62.0,1,Streamer,,,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92] [availability:0.50],,,,,,,,,,,,,102,,,UNKNOWN
-390,Jack Doyle,TE,IND,1.59,,1.59,,1.59,UNPROVEN,46.0,2,Streamer,,,2021_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,103,,,UNKNOWN
-392,John Bates,TE,WAS,1.67,,1.67,,1.67,VOLATILE,50.7,2,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,,,,,104,,,UNKNOWN
-394,Lucas Krull,TE,DEN,1.66,,1.66,,1.66,UNPROVEN,49.8,0,Streamer,,,2024*0.30+2023*0.20+no_2025*0.72+rel[UNPROVEN*0.92],,,,,,,,,,,,,105,,,UNKNOWN
-396,Durham Smythe,TE,BAL,1.58,,1.58,,1.58,PROVEN_SOLID,41.1,4,Streamer,,,2024*0.30+2023*0.20+no_2025*0.72+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,106,,,UNKNOWN
-397,Jack Stoll,TE,SF,1.58,,1.58,,1.58,UNPROVEN,53.5,0,Streamer,,,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,107,,,UNKNOWN
-401,Teagan Quitoriano,TE,ARI,1.41,,1.41,,1.41,UNPROVEN,39.6,0,Streamer,,,2022_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,108,,,UNKNOWN
-408,Pharaoh Brown,TE,IND,1.34,,1.34,,1.34,UNPROVEN,46.0,1,Streamer,,,2024*0.30+2023*0.20+no_2025*0.72+rel[UNPROVEN*0.92],,,,,,,,,,,,,109,,,UNKNOWN
-412,Eric Ebron,TE,PIT,1.21,,1.21,,1.21,UNPROVEN,40.4,1,Streamer,,,2021_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,110,,,UNKNOWN
-413,Grant Calcaterra,TE,PHI,1.25,,1.25,,1.25,UNPROVEN,52.5,1,Streamer,,,2025*0.50+2024*0.30+rel[UNPROVEN*0.92] [availability:0.50],,,,,,,,,,,,,111,,,UNKNOWN
-418,Robert Tonyan,TE,PIT,1.11,,1.11,,1.11,UNPROVEN,32.4,3,Streamer,,,2023_old*0.80+rel[UNPROVEN*0.92],,,,,,,,,,,,,112,,,UNKNOWN
-422,Lee Smith,TE,ATL,1.04,,1.04,,1.04,UNPROVEN,44.6,0,Streamer,,,2021_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,113,,,UNKNOWN
-426,Cole Turner,TE,MIA,0.92,,0.92,,0.92,UNPROVEN,46.3,0,Streamer,,,2023_old*0.80+rel[UNPROVEN*0.92] [availability:0.50],,,,,,,,,,,,,114,,,UNKNOWN
-429,Chris Myarick,TE,LV,0.84,,0.84,,0.84,UNPROVEN,35.9,0,Streamer,,,2022_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,115,,,UNKNOWN
-430,Julian Hill,TE,NE,0.82,,0.82,,0.82,UNPROVEN,46.0,0,Streamer,,,2025*0.50+2024*0.30+rel[UNPROVEN*0.92] [availability:0.50],,,,,,,,,,,,,116,,,UNKNOWN
-434,Charlie Woerner,TE,ATL,0.77,,0.77,,0.77,UNPROVEN,44.6,0,Streamer,,,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,117,,,UNKNOWN
-435,Ko Kieft,TE,TB,0.72,,0.72,,0.72,UNPROVEN,47.5,0,Streamer,,,2022_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,118,,,UNKNOWN
-442,Levine Toilolo,TE,NYG,0.52,,0.52,,0.52,UNPROVEN,51.6,0,Streamer,,,2020_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,119,,,UNKNOWN
-542,Stephen Carlson,TE,CHI,0.276,,0.276,,0.276,UNPROVEN,43.1,0,Streamer,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,120,,,UNKNOWN
-543,Isaac Nauta,TE,GB,0.276,,0.276,,0.276,UNPROVEN,38.8,0,Streamer,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,121,,,UNKNOWN
-544,Nick Muse,TE,ATL,0.276,,0.276,,0.276,UNPROVEN,52.6,0,Streamer,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,122,,,UNKNOWN
-545,Tommy Stevens,TE,NYG,0.276,,0.276,,0.276,UNPROVEN,51.6,0,Streamer,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,123,,,UNKNOWN
-546,Temarrick Hemingway,TE,WAS,0.276,,0.276,,0.276,UNPROVEN,50.7,0,Streamer,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,124,,,UNKNOWN
-547,Nick Kallerup,TE,SEA,0.276,,0.276,,0.276,UNPROVEN,43.8,0,Streamer,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,125,,,UNKNOWN
-548,E.J. Jenkins,TE,PHI,0.276,,0.276,,0.276,UNPROVEN,52.5,0,Streamer,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,126,,,UNKNOWN
-549,Brayden Willis,TE,SF,0.276,,0.276,,0.276,UNPROVEN,53.5,0,Streamer,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,127,,,UNKNOWN
-550,Drake Dabney,TE,GB,0.276,,0.276,,0.276,UNPROVEN,38.8,0,Streamer,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,128,,,UNKNOWN
-551,Blake Whiteheart,TE,CLE,0.276,,0.276,,0.276,UNPROVEN,49.8,0,Streamer,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,129,,,UNKNOWN
-552,Feleipe Franks,TE,CAR,0.276,,0.276,,0.276,UNPROVEN,30.9,0,Streamer,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,130,,,UNKNOWN
-553,Jared Wiley,TE,KC,0.276,,0.276,,0.276,UNPROVEN,50.3,0,Streamer,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,131,,,UNKNOWN
-555,Carter Runyon,TE,LV,0.138,,0.138,,0.138,UNPROVEN,35.9,0,Streamer,,,rookie_baseline_depth+rel[UNPROVEN*0.92] [availability:0.50],,,,,,,,,,,,,132,,,UNKNOWN
+366,Eric Saubert,TE,SEA,2.11,,2.11,,2.11,UNPROVEN,51.8,0,Streamer,,,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,92,,,UNKNOWN
+369,Cade Stover,TE,HOU,2.05,,2.05,,2.05,UNPROVEN,46.8,1,Streamer,,,2025*0.50+2024*0.30+rel[UNPROVEN*0.92],,,,,,,,,,,,,93,,,UNKNOWN
+372,Jelani Woods,TE,NYJ,1.89,,1.89,,1.89,UNPROVEN,39.7,1,Streamer,,,2022_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,94,,,UNKNOWN
+374,Luke Farrell,TE,SF,1.91,,1.91,,1.91,UNPROVEN,61.5,0,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[UNPROVEN*0.92],,,,,,,,,,,,,95,,,UNKNOWN
+375,Kylen Granson,TE,TEN,1.95,,1.95,,1.95,EMERGING,40.9,2,Streamer,,,2024*0.30+2023*0.20+no_2025*0.72+rel[EMERGING*1.03],,,,,,,,,,,,,96,,,UNKNOWN
+376,John FitzPatrick,TE,CLE,1.79,,1.79,,1.79,UNPROVEN,41.8,0,Streamer,,,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,97,,,UNKNOWN
+379,Ben Yurosek,TE,MIN,1.75,,1.75,,1.75,UNPROVEN,45.4,0,Streamer,,,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92] [availability:0.50],,,,,,,,,,,,,98,,,UNKNOWN
+380,Brevyn Spann-Ford,TE,DAL,1.8,,1.8,,1.8,UNPROVEN,48.3,0,Streamer,,,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,99,,,UNKNOWN
+382,Moliki Matavao,TE,NO,1.74,,1.74,,1.74,UNPROVEN,51.0,0,Streamer,,,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92] [availability:0.50],,,,,,,,,,,,,100,,,UNKNOWN
+385,Tanner Conner,TE,NE,1.78,,1.78,,1.78,UNPROVEN,54.0,0,Streamer,,,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,101,,,UNKNOWN
+387,Will Mallory,TE,IND,1.74,,1.74,,1.74,UNPROVEN,62.0,1,Streamer,,,2025_small_sample(1g)_regressed+rel[UNPROVEN*0.92] [availability:0.50],,,,,,,,,,,,,102,,,UNKNOWN
+388,Jack Doyle,TE,IND,1.59,,1.59,,1.59,UNPROVEN,46.0,2,Streamer,,,2021_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,103,,,UNKNOWN
+389,John Bates,TE,WAS,1.67,,1.67,,1.67,VOLATILE,50.7,2,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88],,,,,,,,,,,,,104,,,UNKNOWN
+390,Lucas Krull,TE,DEN,1.66,,1.66,,1.66,UNPROVEN,49.8,0,Streamer,,,2024*0.30+2023*0.20+no_2025*0.72+rel[UNPROVEN*0.92],,,,,,,,,,,,,105,,,UNKNOWN
+393,Jack Stoll,TE,SF,1.58,,1.58,,1.58,UNPROVEN,53.5,0,Streamer,,,2025_only+rel[UNPROVEN*0.92],,,,,,,,,,,,,106,,,UNKNOWN
+394,Durham Smythe,TE,BAL,1.58,,1.58,,1.58,PROVEN_SOLID,41.1,4,Streamer,,,2024*0.30+2023*0.20+no_2025*0.72+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,107,,,UNKNOWN
+396,Teagan Quitoriano,TE,ARI,1.41,,1.41,,1.41,UNPROVEN,40.2,0,Streamer,,,2022_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,108,,,UNKNOWN
+406,Pharaoh Brown,TE,IND,1.34,,1.34,,1.34,UNPROVEN,46.0,1,Streamer,,,2024*0.30+2023*0.20+no_2025*0.72+rel[UNPROVEN*0.92],,,,,,,,,,,,,109,,,UNKNOWN
+407,Eric Ebron,TE,PIT,1.21,,1.21,,1.21,UNPROVEN,40.4,1,Streamer,,,2021_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,110,,,UNKNOWN
+408,Grant Calcaterra,TE,PHI,1.25,,1.25,,1.25,UNPROVEN,52.5,1,Streamer,,,2025*0.50+2024*0.30+rel[UNPROVEN*0.92] [availability:0.50],,,,,,,,,,,,,111,,,UNKNOWN
+413,Robert Tonyan,TE,PIT,1.11,,1.11,,1.11,UNPROVEN,32.4,3,Streamer,,,2023_old*0.80+rel[UNPROVEN*0.92],,,,,,,,,,,,,112,,,UNKNOWN
+415,Lee Smith,TE,ATL,1.04,,1.04,,1.04,UNPROVEN,44.6,0,Streamer,,,2021_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,113,,,UNKNOWN
+418,Cole Turner,TE,MIA,0.92,,0.92,,0.92,UNPROVEN,46.3,0,Streamer,,,2023_old*0.80+rel[UNPROVEN*0.92] [availability:0.50],,,,,,,,,,,,,114,,,UNKNOWN
+421,Chris Myarick,TE,LV,0.84,,0.84,,0.84,UNPROVEN,35.9,0,Streamer,,,2022_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,115,,,UNKNOWN
+425,Julian Hill,TE,NE,0.82,,0.82,,0.82,UNPROVEN,46.0,0,Streamer,,,2025*0.50+2024*0.30+rel[UNPROVEN*0.92] [availability:0.50],,,,,,,,,,,,,116,,,UNKNOWN
+428,Charlie Woerner,TE,ATL,0.77,,0.77,,0.77,UNPROVEN,44.6,0,Streamer,,,2024_only*0.85+rel[UNPROVEN*0.92],,,,,,,,,,,,,117,,,UNKNOWN
+429,Ko Kieft,TE,TB,0.72,,0.72,,0.72,UNPROVEN,47.5,0,Streamer,,,2022_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,118,,,UNKNOWN
+438,Levine Toilolo,TE,NYG,0.52,,0.52,,0.52,UNPROVEN,51.6,0,Streamer,,,2020_ancient*0.40+rel[UNPROVEN*0.92],,,,,,,,,,,,,119,,,UNKNOWN
+531,Isaac Nauta,TE,GB,0.276,,0.276,,0.276,UNPROVEN,39.4,0,Streamer,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,120,,,UNKNOWN
+532,Temarrick Hemingway,TE,WAS,0.276,,0.276,,0.276,UNPROVEN,50.7,0,Streamer,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,121,,,UNKNOWN
+533,Nick Muse,TE,ATL,0.276,,0.276,,0.276,UNPROVEN,52.6,0,Streamer,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,122,,,UNKNOWN
+534,Tommy Stevens,TE,NYG,0.276,,0.276,,0.276,UNPROVEN,51.6,0,Streamer,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,123,,,UNKNOWN
+535,Stephen Carlson,TE,CHI,0.276,,0.276,,0.276,UNPROVEN,43.1,0,Streamer,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,124,,,UNKNOWN
+536,E.J. Jenkins,TE,PHI,0.276,,0.276,,0.276,UNPROVEN,52.5,0,Streamer,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,125,,,UNKNOWN
+537,Nick Kallerup,TE,SEA,0.276,,0.276,,0.276,UNPROVEN,43.8,0,Streamer,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,126,,,UNKNOWN
+538,Drake Dabney,TE,GB,0.276,,0.276,,0.276,UNPROVEN,39.4,0,Streamer,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,127,,,UNKNOWN
+539,Brayden Willis,TE,SF,0.276,,0.276,,0.276,UNPROVEN,53.5,0,Streamer,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,128,,,UNKNOWN
+540,Jared Wiley,TE,KC,0.276,,0.276,,0.276,UNPROVEN,50.2,0,Streamer,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,129,,,UNKNOWN
+541,Blake Whiteheart,TE,CLE,0.276,,0.276,,0.276,UNPROVEN,49.8,0,Streamer,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,130,,,UNKNOWN
+542,Feleipe Franks,TE,CAR,0.276,,0.276,,0.276,UNPROVEN,30.9,0,Streamer,,,rookie_baseline_depth+rel[UNPROVEN*0.92],,,,,,,,,,,,,131,,,UNKNOWN
+554,Carter Runyon,TE,LV,0.138,,0.138,,0.138,UNPROVEN,35.9,0,Streamer,,,rookie_baseline_depth+rel[UNPROVEN*0.92] [availability:0.50],,,,,,,,,,,,,132,,,UNKNOWN
