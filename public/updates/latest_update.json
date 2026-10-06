@@ -1,41 +1,8 @@
 {
-  "updated_at": "2026-10-05T23:51:21",
+  "updated_at": "2026-10-06T13:45:16",
   "total_changes": 100,
-  "high_priority_count": 28,
+  "high_priority_count": 27,
   "changes": [
-    {
-      "timestamp": "2026-10-03T18:05:44",
-      "player_id": "1479",
-      "name": "Keenan Allen",
-      "position": "WR",
-      "team": "IND",
-      "overall_rank": 131,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Questionable -> Out (Groin)",
-      "priority": "HIGH"
-    },
-    {
-      "timestamp": "2026-10-03T18:05:44",
-      "player_id": "5927",
-      "name": "Terry McLaurin",
-      "position": "WR",
-      "team": "WAS",
-      "overall_rank": 82,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Questionable -> Doubtful (Hamstring)",
-      "priority": "HIGH"
-    },
-    {
-      "timestamp": "2026-10-03T18:05:44",
-      "player_id": "11168",
-      "name": "Xavier Smith",
-      "position": "WR",
-      "team": "",
-      "overall_rank": 312,
-      "change_type": "RELEASED",
-      "detail": "Released from LAR",
-      "priority": "LOW"
-    },
     {
       "timestamp": "2026-10-03T18:05:44",
       "player_id": "11256",
@@ -1101,6 +1068,39 @@
       "overall_rank": null,
       "change_type": "INJURY_WORSENED",
       "detail": "Healthy -> Out (Coach's Decision)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-10-06T07:06:44",
+      "player_id": "13418",
+      "name": "Robert Henry",
+      "position": "RB",
+      "team": "SEA",
+      "overall_rank": null,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "WAS -> SEA",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-10-06T07:06:45",
+      "player_id": "4035",
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "team": "NO",
+      "overall_rank": 90,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Knee)",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-10-06T07:06:45",
+      "player_id": "4314",
+      "name": "Johnny Mundt",
+      "position": "TE",
+      "team": "PHI",
+      "overall_rank": 264,
+      "change_type": "DEMOTED_FROM_STARTER",
+      "detail": "Depth chart 1 -> 2",
       "priority": "MEDIUM"
     }
   ]
