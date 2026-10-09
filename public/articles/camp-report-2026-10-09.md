@@ -4,7 +4,7 @@ date: "2026-10-09"
 week: 0
 theme: "Camp Report"
 category: "research"
-excerpt: "The Gavfather System auto-processed 299 camp news items. 34 players affected."
+excerpt: "The Gavfather System auto-processed 295 camp news items. 41 players affected."
 ---
 
 # Camp Report: Week 15
@@ -15,7 +15,7 @@ excerpt: "The Gavfather System auto-processed 299 camp news items. 34 players af
 ---
 
 The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports — zero manual input.
-34 players had ranking adjustments applied automatically this week.
+41 players had ranking adjustments applied automatically this week.
 
 ## The Biggest Story
 
@@ -30,6 +30,9 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 **Zach Charbonnet** — PUP | ACL tear (January 2026 playoffs); surgery Feb 20; still on PUP
 *ACL PUP — not a Week 1 back and likely misses the first 1–2 months. Price is the early-season SEA RB. Late-round stash only.*
 
+**Jordan Mason** — IR | IR Jordan Mason listed as IR
+*Jordan Mason listed as IR. *
+
 **Alec Pierce** — IR | Heel; aggravated surgically repaired heel Week 2 vs KC; Colts placed on IR ~Sep 26 2026
 *Official IR (heel). Minimum 4 games; earliest Week 7. Conservative lottery until designated to return — do not use stale Aug RETURNING/ramp note. STICKY: data-update must not restore RETURNING x0.90.*
 
@@ -41,9 +44,6 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 
 **James Conner** — IR | IR James Conner listed as IR
 *James Conner listed as IR. *
-
-**Jordan Mason** — IR | IR Jordan Mason listed as IR
-*Jordan Mason listed as IR. *
 
 **A.J. Brown** — IR | IR A
 *A.J. Brown listed as IR. *
@@ -78,6 +78,18 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 **Christian Kirk** — IR | Calf; IR designated to return (Aug 30 cutdown). Misses at least Weeks 1-4.
 *IR designated to return — 4-game minimum, not done for the year. Calf kept him out of camp/preseason. Conservative lottery when activated; Evans / Samuel / Stribling hold the early targets.*
 
+**DeVonta Smith** — SEVERE | hamstring) ruled out Sunday DeVonta Smith (hamstr
+*DeVonta Smith (hamstring) ruled out Sunday Fri, Oct 9th 2:05pm EDT By Ari Koslow*
+
+**Lamar Jackson** — SEVERE | Lamar Jackson October 9, 2026 Huntley will start Sunday night's game against the Falcons after Lamar Jackson (ankle) was
+*October 9, 2026 Huntley will start Sunday night's game against the Falcons after Lamar Jackson (ankle) was ruled out Friday, Jeff Zrebiec of The Athletic Zrebiec reports. ANALYSIS Subscribe now to instantly reveal our take on this news.*
+
+**Mack Hollins** — SEVERE | Mack Hollins Mack Hollins Ruled out for Sunday's game WR New England Patriots Calf October 9, 2026 Hollins (calf) is rul
+*Mack Hollins Ruled out for Sunday's game WR New England Patriots Calf October 9, 2026 Hollins (calf) is ruled out for Sunday's game against the Raiders. ANALYSIS Subscribe now to instantly reveal our take on this news.*
+
+**Kyle Monangai** — SEVERE | Kyle Monangai Kyle Monangai Ruled out for Week 5 RB Chicago Bears Toe October 9, 2026 Monangai (toe) has been ruled out 
+*Kyle Monangai Ruled out for Week 5 RB Chicago Bears Toe October 9, 2026 Monangai (toe) has been ruled out for Sunday's game against the Packers, Patrick Finley of the Chicago Sun-Times reports. ANALYSIS Subscribe now to instantly reveal our*
+
 **Ricky Pearsall** — SEASON_ENDING | PCL - likely out for 2026 season
 *REMOVE from rankings. SF passes go to Evans and others.*
 
@@ -85,8 +97,6 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 *REMOVE. 2026 in Arizona over unless injury settlement. Auto notes had IR status with a 1.0 multiplier — that is a miss.*
 
 ## Positive Developments
-
-**Brock Bowers** — POSITIVE | Brock Bowers Turns in full practice Thursday TE Las Vegas Raiders October 8, 2026 Bowers (knee) was listed as a full participant in Thursday's practice, Anthony
 
 **Rico Dowdle** — POSITIVE | That cleared the way for Rico Dowdle to take over the backfield.
 
@@ -101,6 +111,8 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 **Christian McCaffrey** — HEALTHY | Sleeper 'listed as Questionable' stub is not a ranking haircut. AP Aug 23 back at practice; NY Post Aug 28 expected Week 1.
 
 **Patrick Mahomes** — RETURNING | Starter. Fully cleared for camp practice (late July). Reid sitting entire preseason as a precaution — game-action still pending. On track to start Week 1 vs DEN
+
+**Malik Nabers** — RETURNING | Upgrade slightly. Running routes, ahead of schedule. Worst case misses 1-2 games.
 
 ## This Week's Best Values
 
@@ -117,4 +129,4 @@ An offer your roster can't refuse.
 
 ---
 
-*Auto-generated October 09, 2026 01:37 AM. Sources: FantasyPros, RotoWire, Sleeper, Yahoo.*
+*Auto-generated October 09, 2026 06:55 PM. Sources: FantasyPros, RotoWire, Sleeper, Yahoo.*
