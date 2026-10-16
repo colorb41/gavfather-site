@@ -67,7 +67,7 @@ None - returning from suspension concern
 
 **Romeo Doubs (WR, NE)** — We have WR30 — market has WR51 — 10.2 PPG
 
-**Darius Slayton (WR, INDNYG — We have WR55 — market has WR75 — 6.9 PPG
+**Darius Slayton (WR, NYG)** — We have WR55 — market has WR75 — 6.9 PPG
 
 **Kayshon Boutte (WR, HOUNE — We have WR52 — market has WR72 — 7.3 PPG
 

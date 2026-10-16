@@ -4,7 +4,7 @@ date: "2026-10-16"
 week: 0
 theme: "Camp Report"
 category: "research"
-excerpt: "The Gavfather System auto-processed 309 camp news items. 44 players affected."
+excerpt: "The Gavfather System auto-processed 313 camp news items. 45 players affected."
 ---
 
 # Camp Report: Week 16
@@ -15,7 +15,7 @@ excerpt: "The Gavfather System auto-processed 309 camp news items. 44 players af
 ---
 
 The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports — zero manual input.
-44 players had ranking adjustments applied automatically this week.
+45 players had ranking adjustments applied automatically this week.
 
 ## The Biggest Story
 
@@ -29,6 +29,9 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 
 **Zach Charbonnet** — PUP | ACL tear (January 2026 playoffs); surgery Feb 20; still on PUP
 *ACL PUP — not a Week 1 back and likely misses the first 1–2 months. Price is the early-season SEA RB. Late-round stash only.*
+
+**A.J. Brown** — IR | IR A
+*A.J. Brown listed as IR. *
 
 **Alec Pierce** — IR | Heel; aggravated surgically repaired heel Week 2 vs KC; Colts placed on IR ~Sep 26 2026
 *Official IR (heel). Minimum 4 games; earliest Week 7. Conservative lottery until designated to return — do not use stale Aug RETURNING/ramp note. STICKY: data-update must not restore RETURNING x0.90.*
@@ -47,9 +50,6 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 
 **Jordan Mason** — IR | IR Jordan Mason listed as IR
 *Jordan Mason listed as IR. *
-
-**A.J. Brown** — IR | IR A
-*A.J. Brown listed as IR. *
 
 **Jadarian Price** — IR | IR Jadarian Price listed as IR
 *Jadarian Price listed as IR. *
@@ -99,8 +99,14 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 **Christian Kirk** — IR | Calf; IR designated to return (Aug 30 cutdown). Misses at least Weeks 1-4.
 *IR designated to return — 4-game minimum, not done for the year. Calf kept him out of camp/preseason. Conservative lottery when activated; Evans / Samuel / Stribling hold the early targets.*
 
-**David Montgomery** — SEVERE | David Montgomery David Montgomery Ruled out for London game RB Houston Texans Groin October 15, 2026 The Texans ruled Mo
-*David Montgomery Ruled out for London game RB Houston Texans Groin October 15, 2026 The Texans ruled Montgomery (groin) out for Sunday's game against the Jaguars in London. ANALYSIS Subscribe now to instantly reveal our take on this news.*
+**Breece Hall** — SEVERE | Breece Hall (quad) officially ruled out for Week 6 Breece Hall (quad) officially ruled out for Week 6 Fri, Oct 16th 10:5
+*Breece Hall (quad) officially ruled out for Week 6 Fri, Oct 16th 10:57am EDT By Nate Miller*
+
+**Adonai Mitchell** — SEVERE | Adonai Mitchell Adonai Mitchell Ruled out for Sunday's game WR New York Jets Finger October 16, 2026 Mitchell (finger) h
+*Adonai Mitchell Ruled out for Sunday's game WR New York Jets Finger October 16, 2026 Mitchell (finger) has been ruled out for Sunday's game, Brian Costello of the New York Post reports. ANALYSIS Subscribe now to instantly reveal our take on*
+
+**Baker Mayfield** — SEVERE | Baker Mayfield Baker Mayfield Ruled out for Sunday's game QB Tampa Bay Buccaneers Thumb October 16, 2026 Mayfield (thumb
+*Baker Mayfield Ruled out for Sunday's game QB Tampa Bay Buccaneers Thumb October 16, 2026 Mayfield (thumb) will not play Sunday, Brianna Dix of the Buccaneers' official site reports. ANALYSIS Subscribe now to instantly reveal our take on th*
 
 **Ricky Pearsall** — SEASON_ENDING | PCL - likely out for 2026 season
 *REMOVE from rankings. SF passes go to Evans and others.*
@@ -141,4 +147,4 @@ An offer your roster can't refuse.
 
 ---
 
-*Auto-generated October 16, 2026 12:01 AM. Sources: FantasyPros, RotoWire, Sleeper, Yahoo.*
+*Auto-generated October 16, 2026 05:10 PM. Sources: FantasyPros, RotoWire, Sleeper, Yahoo.*
