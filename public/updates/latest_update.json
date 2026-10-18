@@ -1,41 +1,8 @@
 {
-  "updated_at": "2026-10-18T07:30:22",
+  "updated_at": "2026-10-18T15:07:47",
   "total_changes": 100,
-  "high_priority_count": 38,
+  "high_priority_count": 37,
   "changes": [
-    {
-      "timestamp": "2026-10-15T22:33:07",
-      "player_id": "4068",
-      "name": "Mike Williams",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "DNR -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-10-15T22:33:07",
-      "player_id": "12036",
-      "name": "Ian Wheeler",
-      "position": "RB",
-      "team": "PHI",
-      "overall_rank": null,
-      "change_type": "TRADED_OR_SIGNED",
-      "detail": "FA -> PHI",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-10-15T22:33:07",
-      "player_id": "12533",
-      "name": "Jacory Croskey-Merritt",
-      "position": "RB",
-      "team": "WAS",
-      "overall_rank": 84,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Groin)",
-      "priority": "HIGH"
-    },
     {
       "timestamp": "2026-10-15T22:33:07",
       "player_id": "7090",
@@ -1102,6 +1069,39 @@
       "change_type": "DEMOTED_FROM_STARTER",
       "detail": "Depth chart 1 -> 2",
       "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-10-18T15:06:38",
+      "player_id": "2359",
+      "name": "Ameer Abdullah",
+      "position": "RB",
+      "team": "JAX",
+      "overall_rank": 218,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Concussion)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-10-18T15:06:38",
+      "player_id": "13554",
+      "name": "CJ Williams",
+      "position": "WR",
+      "team": "JAX",
+      "overall_rank": null,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Out (Coach's Decision)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-10-18T15:06:38",
+      "player_id": "13307",
+      "name": "Marlin Klein",
+      "position": "TE",
+      "team": "HOU",
+      "overall_rank": null,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Out (Coach's Decision)",
+      "priority": "MEDIUM"
     }
   ]
 }
