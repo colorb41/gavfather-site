@@ -4,7 +4,7 @@ date: "2026-10-23"
 week: 0
 theme: "Camp Report"
 category: "research"
-excerpt: "The Gavfather System auto-processed 305 camp news items. 48 players affected."
+excerpt: "The Gavfather System auto-processed 290 camp news items. 52 players affected."
 ---
 
 # Camp Report: Week 17
@@ -15,23 +15,20 @@ excerpt: "The Gavfather System auto-processed 305 camp news items. 48 players af
 ---
 
 The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports — zero manual input.
-48 players had ranking adjustments applied automatically this week.
+52 players had ranking adjustments applied automatically this week.
 
 ## The Biggest Story
 
-**Zach Charbonnet** — PUP: ACL tear (January 2026 playoffs); surgery Feb 20; still on PUP
-*ACL PUP — not a Week 1 back and likely misses the first 1–2 months. Price is the early-season SEA RB. Late-round stash only.*
+**Josh Jacobs** — EXEMPT: Commissioner's exempt list since Aug 30; Sleeper injury_status NA (Personal). Still cannot practice or play. No reinstatement as of Oct 6 2026 — NFL review ongoing, no suspension length announced.
+*STICKY: still exempt (Sleeper NA / Personal). Do not rank as a weekly starter. Data-update must not restore an active RB1 note. Lottery only until reinstated; Lloyd / Johnson get the work.*
 
 ## Season-Ending / Severe
-
-**Zach Charbonnet** — PUP | ACL tear (January 2026 playoffs); surgery Feb 20; still on PUP
-*ACL PUP — not a Week 1 back and likely misses the first 1–2 months. Price is the early-season SEA RB. Late-round stash only.*
 
 **Josh Jacobs** — EXEMPT | Commissioner's exempt list since Aug 30; Sleeper injury_status NA (Personal). Still cannot practice or play. No reinstatement as of Oct 6 2026 — NFL review ongoing, no suspension length announced.
 *STICKY: still exempt (Sleeper NA / Personal). Do not rank as a weekly starter. Data-update must not restore an active RB1 note. Lottery only until reinstated; Lloyd / Johnson get the work.*
 
-**Jordan Mason** — IR | IR Jordan Mason listed as IR
-*Jordan Mason listed as IR. *
+**Zach Charbonnet** — PUP | ACL tear (January 2026 playoffs); surgery Feb 20; still on PUP
+*ACL PUP — not a Week 1 back and likely misses the first 1–2 months. Price is the early-season SEA RB. Late-round stash only.*
 
 **Alec Pierce** — IR | Heel; aggravated surgically repaired heel Week 2 vs KC; Colts placed on IR ~Sep 26 2026
 *Official IR (heel). Minimum 4 games; earliest Week 7. Conservative lottery until designated to return — do not use stale Aug RETURNING/ramp note. STICKY: data-update must not restore RETURNING x0.90.*
@@ -50,6 +47,9 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 
 **Josh Oliver** — IR | IR Josh Oliver listed as IR
 *Josh Oliver listed as IR. *
+
+**Jordan Mason** — IR | IR Jordan Mason listed as IR
+*Jordan Mason listed as IR. *
 
 **Jadarian Price** — IR | IR Jadarian Price listed as IR
 *Jadarian Price listed as IR. *
@@ -117,6 +117,18 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 **Christian Kirk** — IR | Calf; IR designated to return (Aug 30 cutdown). Misses at least Weeks 1-4.
 *IR designated to return — 4-game minimum, not done for the year. Calf kept him out of camp/preseason. Conservative lottery when activated; Evans / Samuel / Stribling hold the early targets.*
 
+**Emeka Egbuka** — SEVERE | Emeka Egbuka (concussion/foot) ruled out for Week 7 Emeka Egbuka (concussion/foot) ruled out for Week 7 Fri, Oct 23rd 1:
+*Emeka Egbuka (concussion/foot) ruled out for Week 7 Fri, Oct 23rd 1:08pm EDT By Chris Schommer*
+
+**Tyler Warren** — SEVERE | Tyler Warren (groin) ruled out for Week 7 Tyler Warren (groin) ruled out for Week 7 Fri, Oct 23rd 1:05pm EDT By Chris Sc
+*Tyler Warren (groin) ruled out for Week 7 Fri, Oct 23rd 1:05pm EDT By Chris Schommer*
+
+**Khalil Herbert** — SEVERE | hamstring) was ruled out
+*Khalil Herbert Set for RB2 duties in Week 7 RB Atlanta Falcons October 23, 2026 After Brian Robinson (hamstring) was ruled out, Falcons coach Kevin Stefanski said Friday that Herbert will be Bijan Robinson 's backup against the 49ers on Sun*
+
+**Cole Kmet** — SEASON_ENDING | knee) believed to have season-ending knee in
+*Cole Kmet (knee) believed to have season-ending knee injury Fri, Oct 23rd 11:58am EDT By Garrett Ball*
+
 **Ricky Pearsall** — SEASON_ENDING | PCL - likely out for 2026 season
 *REMOVE from rankings. SF passes go to Evans and others.*
 
@@ -124,8 +136,6 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 *REMOVE. 2026 in Arizona over unless injury settlement. Auto notes had IR status with a 1.0 multiplier — that is a miss.*
 
 ## Positive Developments
-
-**Rashid Shaheed** — POSITIVE | Rashid Shaheed Upgrades to full practice Thursday WR Seattle Seahawks October 22, 2026 Shaheed (hip) was a full participant in Thursday's practice, John Boyle o
 
 **Rico Dowdle** — POSITIVE | That cleared the way for Rico Dowdle to take over the backfield.
 
@@ -140,6 +150,8 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 **Christian McCaffrey** — HEALTHY | Sleeper 'listed as Questionable' stub is not a ranking haircut. AP Aug 23 back at practice; NY Post Aug 28 expected Week 1.
 
 **Patrick Mahomes** — RETURNING | Starter. Fully cleared for camp practice (late July). Reid sitting entire preseason as a precaution — game-action still pending. On track to start Week 1 vs DEN
+
+**Malik Nabers** — RETURNING | Upgrade slightly. Running routes, ahead of schedule. Worst case misses 1-2 games.
 
 ## This Week's Best Values
 
@@ -156,4 +168,4 @@ An offer your roster can't refuse.
 
 ---
 
-*Auto-generated October 23, 2026 12:18 AM. Sources: FantasyPros, RotoWire, Sleeper, Yahoo.*
+*Auto-generated October 23, 2026 05:41 PM. Sources: FantasyPros, RotoWire, Sleeper, Yahoo.*
