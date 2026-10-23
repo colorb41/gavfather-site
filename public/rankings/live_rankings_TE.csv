@@ -53,8 +53,8 @@ overall_rank,player_name,position,recent_team,projected_ppg,projected_ppg_std,pr
 209,Ja'Tavion Sanders,TE,CAR,4.1,,4.1,,4.1,UNPROVEN,41.8,2,Streamer,,,"2025_regressed(9g,w=0.90)*0.50+2024*0.30+starter_floor_soft+rel[UNPROVEN*0.92]",,,,,,,,,,,,,52,,,UNKNOWN
 214,Jackson Hawes,TE,BUF,3.9,,3.9,,3.9,UNPROVEN,51.5,1,Streamer,,,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,53,,,UNKNOWN
 215,Ben Sinnott,TE,WAS,4.1,,4.1,,4.1,UNPROVEN,67.6,0,Streamer,,,"2025_regressed(7g,w=0.70)*0.50+2024_regressed(4g,w=0.40)*0.30+rel[UNPROVEN*0.92]",,,,,,,,,,,,,54,,,UNKNOWN
-217,Luke Schoonmaker,TE,DAL,3.85,,3.85,,3.85,UNPROVEN,62.4,1,Streamer,,,"2025_regressed(8g,w=0.80)*0.50+2024_regressed(7g,w=0.70)*0.30+2023_regressed(6g,w=0.60)*0.20+starter_floor_soft+rel[UNPROVEN*0.92]",,,,,,,,,,,,,55,,,UNKNOWN
-218,Jeremy Ruckert,TE,NYJ,3.85,,3.85,,3.85,BASELINE,46.8,3,Streamer,,,"2025*0.50+2024_regressed(8g,w=0.80)*0.30+2023_regressed(8g,w=0.80)*0.20+starter_floor_soft+rel[BASELINE*1.00]",,,,,,,,,,,,,56,,,UNKNOWN
+217,Jeremy Ruckert,TE,NYJ,3.85,,3.85,,3.85,BASELINE,46.8,3,Streamer,,,"2025*0.50+2024_regressed(8g,w=0.80)*0.30+2023_regressed(8g,w=0.80)*0.20+starter_floor_soft+rel[BASELINE*1.00]",,,,,,,,,,,,,55,,,UNKNOWN
+218,Luke Schoonmaker,TE,DAL,3.85,,3.85,,3.85,UNPROVEN,62.4,1,Streamer,,,"2025_regressed(8g,w=0.80)*0.50+2024_regressed(7g,w=0.70)*0.30+2023_regressed(6g,w=0.60)*0.20+starter_floor_soft+rel[UNPROVEN*0.92]",,,,,,,,,,,,,56,,,UNKNOWN
 219,Brock Wright,TE,DET,4.04,,4.04,,4.04,UNPROVEN,53.8,2,Streamer,,,"2025_regressed(6g,w=0.60)*0.50+2024_regressed(6g,w=0.60)*0.30+2023_regressed(8g,w=0.80)*0.20+rel[UNPROVEN*0.92]",,,,,,,,,,,,,57,,,UNKNOWN
 222,Johnny Mundt,TE,PHI,3.93,,3.93,,3.93,BASELINE,60.5,3,Streamer,,,"2025_regressed(8g,w=0.80)*0.50+2024*0.30+2023_regressed(7g,w=0.70)*0.20+starter_floor_soft+rel[BASELINE*1.00]",,,,,,,,,,,,,58,,,UNKNOWN
 224,Noah Gray,TE,KC,3.81,,3.81,,3.81,VOLATILE,53.1,4,Streamer,,,"2025_regressed(8g,w=0.80)*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[VOLATILE*0.88]",,,,,,,,,,,,,59,,,UNKNOWN
@@ -68,11 +68,11 @@ overall_rank,player_name,position,recent_team,projected_ppg,projected_ppg_std,pr
 238,John FitzPatrick,TE,CLE,3.7,,3.7,,3.7,UNPROVEN,61.1,0,Streamer,,,"2025_regressed(5g,w=0.50)+rel[UNPROVEN*0.92]",,,,,,,,,,,,,67,,,UNKNOWN
 240,David Njoku,TE,LAC,3.69,,3.69,,3.69,VOLATILE,64.4,6,Streamer,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [camp_notes:IR:0.5:David Njoku listed as IR. ],,,,,,,,IR,,,,,68,,,UNKNOWN
 241,Brevyn Spann-Ford,TE,DAL,3.68,,3.68,,3.68,UNPROVEN,54.4,0,Streamer,,,"2025_regressed(5g,w=0.50)+rel[UNPROVEN*0.92]",,,,,,,,,,,,,69,,,UNKNOWN
-244,Jake Tonges,TE,SF,3.62,,3.62,,3.62,UNPROVEN,69.5,1,Streamer,,,2025_only+rel[UNPROVEN*0.92] [camp_notes:IR:0.5:Jake Tonges listed as IR. ],,,,,,,,IR,,,,,70,,,UNKNOWN
-247,Josh Whyle,TE,GB,3.67,,3.67,,3.67,UNPROVEN,48.1,1,Streamer,,,"2025_regressed(4g,w=0.40)*0.50+2024_regressed(9g,w=0.90)*0.30+2023_regressed(7g,w=0.70)*0.20+rel[UNPROVEN*0.92]",,,,,,,,,,,,,71,,,UNKNOWN
-249,Luke Farrell,TE,SF,3.55,,3.55,,3.55,UNPROVEN,53.5,0,Streamer,,,"2025_regressed(6g,w=0.60)*0.50+2024_regressed(4g,w=0.40)*0.30+2023_regressed(7g,w=0.70)*0.20+rel[UNPROVEN*0.92]",,,,,,,,,,,,,72,,,UNKNOWN
-250,Connor Heyward,TE,LV,3.52,,3.52,,3.52,UNPROVEN,32.3,2,Streamer,,,"2025_regressed(5g,w=0.50)*0.50+2023_regressed(9g,w=0.90)*0.20+rel[UNPROVEN*0.92]",,,,,,,,,,,,,73,,,UNKNOWN
-262,Eric Saubert,TE,SEA,3.45,,3.45,,3.45,UNPROVEN,63.3,0,Streamer,,,"2024_only*2024_regressed(5g,w=0.50)*0.85+rel[UNPROVEN*0.92]",,,,,,,,,,,,,74,,,UNKNOWN
+243,Jake Tonges,TE,SF,3.62,,3.62,,3.62,UNPROVEN,69.5,1,Streamer,,,2025_only+rel[UNPROVEN*0.92] [camp_notes:IR:0.5:Jake Tonges listed as IR. ],,,,,,,,IR,,,,,70,,,UNKNOWN
+246,Josh Whyle,TE,GB,3.67,,3.67,,3.67,UNPROVEN,48.1,1,Streamer,,,"2025_regressed(4g,w=0.40)*0.50+2024_regressed(9g,w=0.90)*0.30+2023_regressed(7g,w=0.70)*0.20+rel[UNPROVEN*0.92]",,,,,,,,,,,,,71,,,UNKNOWN
+248,Luke Farrell,TE,SF,3.55,,3.55,,3.55,UNPROVEN,53.5,0,Streamer,,,"2025_regressed(6g,w=0.60)*0.50+2024_regressed(4g,w=0.40)*0.30+2023_regressed(7g,w=0.70)*0.20+rel[UNPROVEN*0.92]",,,,,,,,,,,,,72,,,UNKNOWN
+249,Connor Heyward,TE,LV,3.52,,3.52,,3.52,UNPROVEN,32.3,2,Streamer,,,"2025_regressed(5g,w=0.50)*0.50+2023_regressed(9g,w=0.90)*0.20+rel[UNPROVEN*0.92]",,,,,,,,,,,,,73,,,UNKNOWN
+261,Eric Saubert,TE,SEA,3.45,,3.45,,3.45,UNPROVEN,63.3,0,Streamer,,,"2024_only*2024_regressed(5g,w=0.50)*0.85+rel[UNPROVEN*0.92]",,,,,,,,,,,,,74,,,UNKNOWN
 267,Payne Durham,TE,TB,3.34,,3.34,,3.34,UNPROVEN,56.4,0,Streamer,,,"2024_regressed(5g,w=0.50)*0.30+2023_regressed(5g,w=0.50)*0.20+no_2025*0.72+rel[UNPROVEN*0.92]",,,,,,,,,,,,,75,,,UNKNOWN
 268,Erick All,TE,CIN,3.17,,3.17,,3.17,UNPROVEN,45.7,0,Streamer,,,"2024_only*2024_regressed(7g,w=0.70)*0.85+rel[UNPROVEN*0.92]",,,,,,,,,,,,,76,,,UNKNOWN
 270,Tanner Conner,TE,NE,3.28,,3.28,,3.28,UNPROVEN,51.8,0,Streamer,,,"2025_regressed(6g,w=0.60)+rel[UNPROVEN*0.92]",,,,,,,,,,,,,77,,,UNKNOWN
@@ -82,7 +82,7 @@ overall_rank,player_name,position,recent_team,projected_ppg,projected_ppg_std,pr
 288,Cade Stover,TE,HOU,2.96,,2.96,,2.96,UNPROVEN,49.8,1,Streamer,,,"2025_regressed(7g,w=0.70)*0.50+2024_regressed(8g,w=0.80)*0.30+rel[UNPROVEN*0.92]",,,,,,,,,,,,,81,,,UNKNOWN
 291,Terrance Ferguson,TE,LAR,2.75,,2.75,,2.75,UNPROVEN,43.2,1,Streamer,,,"2025_regressed(8g,w=0.80)+starter_floor_soft+rel[UNPROVEN*0.92] [adp_ecr_floor:5.5] [camp_notes:IR:0.5:Terrance Ferguson listed as IR. ]",,,,,,,,IR,,,,,82,,,UNKNOWN
 297,Pharaoh Brown,TE,IND,2.66,,2.66,,2.66,UNPROVEN,50.7,1,Streamer,,,"2024_regressed(5g,w=0.50)*0.30+2023_regressed(5g,w=0.50)*0.20+no_2025*0.72+rel[UNPROVEN*0.92]",,,,,,,,,,,,,83,,,UNKNOWN
-300,Josh Oliver,TE,MIN,2.52,,2.52,,2.52,PROVEN_SOLID,54.3,3,Streamer,,,"2025_regressed(8g,w=0.80)*0.50+2024_regressed(8g,w=0.80)*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06] [availability:0.50]",,,,,,,,,,,,,84,,,UNKNOWN
+300,Josh Oliver,TE,MIN,2.52,,2.52,,2.52,PROVEN_SOLID,54.3,3,Streamer,,,"2025_regressed(8g,w=0.80)*0.50+2024_regressed(8g,w=0.80)*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06] [camp_notes:IR:0.5:Josh Oliver listed as IR. ]",,,,,,,,IR,,,,,84,,,UNKNOWN
 303,Nate Adkins,TE,DEN,2.61,,2.61,,2.61,UNPROVEN,52.2,1,Streamer,,,"2024_only*2024_regressed(9g,w=0.90)*0.85+rel[UNPROVEN*0.92]",,,,,,,,,,,,,85,,,UNKNOWN
 304,Lucas Krull,TE,DEN,2.6,,2.6,,2.6,UNPROVEN,44.2,0,Streamer,,,"2024_regressed(7g,w=0.70)*0.30+2023_regressed(4g,w=0.40)*0.20+no_2025*0.72+rel[UNPROVEN*0.92]",,,,,,,,,,,,,86,,,UNKNOWN
 305,John Bates,TE,WAS,2.6,,2.6,,2.6,VOLATILE,59.6,2,Streamer,,,"2025_regressed(7g,w=0.70)*0.50+2024_regressed(7g,w=0.70)*0.30+2023_regressed(9g,w=0.90)*0.20+rel[VOLATILE*0.88]",,,,,,,,,,,,,87,,,UNKNOWN

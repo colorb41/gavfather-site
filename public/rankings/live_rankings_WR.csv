@@ -53,9 +53,9 @@ overall_rank,player_name,position,recent_team,projected_ppg,projected_ppg_std,pr
 159,Xavier Worthy,WR,KC,7.52,,7.52,,7.52,UNPROVEN,53.1,2,Deep,,,2025*0.50+2024*0.30+rel[UNPROVEN*0.92],,,,,,,,,,,,,52,,,UNKNOWN
 160,Makai Lemon,WR,PHI,7.51,,7.51,,7.51,UNPROVEN,60.5,0,Deep,,,sleeper_roster+adp_prior,,,,,,,,,,,,,53,,,UNKNOWN
 161,KC Concepcion Jr.,WR,CLE,7.5,,7.5,,7.5,UNPROVEN,61.1,0,Deep,,,sleeper_roster+adp_prior,,,,,,,,,114.4,-46.599999999999994,114.4,19.0,54,-35.0,-46.599999999999994,FADE
-162,Matthew Golden,WR,GB,7.5,,7.5,,7.5,UNPROVEN,56.1,1,Deep,,,2025_only+starter_floor_soft+rel[UNPROVEN*0.92] [adp_ecr_floor:7.5],,,,,,,,,,,,,55,,,UNKNOWN
-163,Khalil Shakir,WR,BUF,7.5,,7.5,,7.5,VOLATILE,59.5,4,Deep,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [adp_ecr_floor:7.5],,,,,,,,,,,,,56,,,UNKNOWN
-164,Cyrus Allen,WR,KC,7.5,,7.5,,7.5,UNPROVEN,45.1,0,Deep,,,sleeper_roster+adp_prior,,,,,,,,,,,,,57,,,UNKNOWN
+162,Khalil Shakir,WR,BUF,7.5,,7.5,,7.5,VOLATILE,59.5,4,Deep,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [adp_ecr_floor:7.5],,,,,,,,,,,,,55,,,UNKNOWN
+163,Cyrus Allen,WR,KC,7.5,,7.5,,7.5,UNPROVEN,45.1,0,Deep,,,sleeper_roster+adp_prior,,,,,,,,,,,,,56,,,UNKNOWN
+164,Matthew Golden,WR,GB,7.5,,7.5,,7.5,UNPROVEN,56.1,1,Deep,,,2025_only+starter_floor_soft+rel[UNPROVEN*0.92] [adp_ecr_floor:7.5],,,,,,,,,,,,,57,,,UNKNOWN
 167,Tre Tucker,WR,LV,7.42,,7.42,,7.42,PROVEN_SOLID,60.3,3,Deep,,,"2025*0.50+2024*0.30+2023_regressed(9g,w=0.90)*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06]",,,,,,,,,,,,,58,,,UNKNOWN
 172,Kayshon Boutte,WR,HOU,7.34,,7.34,,7.34,EMERGING,57.8,2,Deep,,,2025*0.50+2024*0.30+rel[EMERGING*1.03],,,,,,,,,,,,,59,,,UNKNOWN
 178,Davante Adams,WR,LAR,7.21,,7.21,,7.21,PROVEN_ELITE,72.0,6,Deep,,,2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12] [team_corr:LAR:1.0:Rams - Stafford connection] [consensus_floor_checked:13.5] [camp_notes:IR:0.5:Davante Adams listed as IR. ],,,,,,,,IR,37.0,-141.0,37.0,10.0,60,-50.0,-141.0,FADE
@@ -71,15 +71,15 @@ overall_rank,player_name,position,recent_team,projected_ppg,projected_ppg_std,pr
 233,KaVontae Turpin,WR,DAL,6.35,,6.35,,6.35,PROVEN_SOLID,54.4,3,Deep,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,70,,,UNKNOWN
 239,Kalif Raymond,WR,CHI,6.26,,6.26,,6.26,PROVEN_SOLID,39.5,5,Deep,,,"2025_regressed(9g,w=0.90)*0.50+2024_regressed(9g,w=0.90)*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06]",,,,,,,,,,,,,71,,,UNKNOWN
 242,Dontayvion Wicks,WR,PHI,6.21,,6.21,,6.21,PROVEN_SOLID,52.5,3,Deep,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,72,,,UNKNOWN
-245,Ryan Flournoy,WR,DAL,6.17,,6.17,,6.17,UNPROVEN,46.4,1,Deep,,,"2025*0.50+2024_regressed(4g,w=0.40)*0.30+starter_floor_soft+rel[UNPROVEN*0.92]",,,,,,,,,,,,,73,,,UNKNOWN
-252,Troy Franklin,WR,DEN,6.06,,6.06,,6.06,VOLATILE,44.2,2,Deep,,,2025*0.50+2024*0.30+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,,,,,74,,,UNKNOWN
-253,Greg Dortch,WR,BUF,6.04,,6.04,,6.04,BASELINE,43.5,3,Deep,,,"2025*0.50+2024*0.30+2023_regressed(7g,w=0.70)*0.20+starter_floor_soft+rel[BASELINE*1.00]",,,,,,,,,,,,,75,,,UNKNOWN
-255,Tutu Atwell,WR,LAR,6.34,,6.34,,6.34,PROVEN_SOLID,43.2,3,Deep,,,"2025_regressed(4g,w=0.40)*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]",,,,,,,,,,,,,76,,,UNKNOWN
-256,Elic Ayomanor,WR,TEN,6.02,,6.02,,6.02,UNPROVEN,39.0,1,Deep,,,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,77,,,UNKNOWN
-257,Malachi Fields,WR,NYG,6.0,,6.0,,6.0,UNPROVEN,50.7,0,Deep,,,sleeper_roster+adp_prior,,,,,,,,,,,,,78,,,UNKNOWN
-258,Alec Pierce,WR,IND,6.0,,6.0,,6.0,VOLATILE,50.7,4,Deep,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [adp_ecr_floor:12.0] [camp_research:IR:0.5:Official IR (heel). Minimum 4 games; earliest Week 7. Conservative lottery until designated to return — do not use stale Aug RETURNING/ramp note. STICKY: data-update must not restore RETURNING x0.90.],,,,,,,,IR,,,,,79,,,UNKNOWN
-259,Caleb Douglas,WR,MIA,6.0,,6.0,,6.0,UNPROVEN,46.3,0,Deep,,,sleeper_roster+adp_prior,,,,,,,,,,,,,80,,,UNKNOWN
-260,Ja'Kobi Lane,WR,BAL,6.0,,6.0,,6.0,UNPROVEN,49.9,0,Deep,,,sleeper_roster+adp_prior,,,,,,,,,,,,,81,,,UNKNOWN
+244,Ryan Flournoy,WR,DAL,6.17,,6.17,,6.17,UNPROVEN,46.4,1,Deep,,,"2025*0.50+2024_regressed(4g,w=0.40)*0.30+starter_floor_soft+rel[UNPROVEN*0.92]",,,,,,,,,,,,,73,,,UNKNOWN
+251,Troy Franklin,WR,DEN,6.06,,6.06,,6.06,VOLATILE,44.2,2,Deep,,,2025*0.50+2024*0.30+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,,,,,74,,,UNKNOWN
+252,Greg Dortch,WR,BUF,6.04,,6.04,,6.04,BASELINE,43.5,3,Deep,,,"2025*0.50+2024*0.30+2023_regressed(7g,w=0.70)*0.20+starter_floor_soft+rel[BASELINE*1.00]",,,,,,,,,,,,,75,,,UNKNOWN
+254,Tutu Atwell,WR,LAR,6.34,,6.34,,6.34,PROVEN_SOLID,43.2,3,Deep,,,"2025_regressed(4g,w=0.40)*0.50+2024*0.30+2023*0.20+rel[PROVEN_SOLID*1.06]",,,,,,,,,,,,,76,,,UNKNOWN
+255,Elic Ayomanor,WR,TEN,6.02,,6.02,,6.02,UNPROVEN,39.0,1,Deep,,,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,77,,,UNKNOWN
+256,Alec Pierce,WR,IND,6.0,,6.0,,6.0,VOLATILE,50.7,4,Deep,,,2025*0.50+2024*0.30+2023*0.20+rel[VOLATILE*0.88] [adp_ecr_floor:12.0] [camp_research:IR:0.5:Official IR (heel). Minimum 4 games; earliest Week 7. Conservative lottery until designated to return — do not use stale Aug RETURNING/ramp note. STICKY: data-update must not restore RETURNING x0.90.],,,,,,,,IR,,,,,78,,,UNKNOWN
+257,Malachi Fields,WR,NYG,6.0,,6.0,,6.0,UNPROVEN,50.7,0,Deep,,,sleeper_roster+adp_prior,,,,,,,,,,,,,79,,,UNKNOWN
+258,Ja'Kobi Lane,WR,BAL,6.0,,6.0,,6.0,UNPROVEN,49.9,0,Deep,,,sleeper_roster+adp_prior,,,,,,,,,,,,,80,,,UNKNOWN
+259,Caleb Douglas,WR,MIA,6.0,,6.0,,6.0,UNPROVEN,46.3,0,Deep,,,sleeper_roster+adp_prior,,,,,,,,,,,,,81,,,UNKNOWN
 272,Darnell Mooney,WR,NYG,5.72,,5.72,,5.72,VOLATILE,50.7,6,Deep,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[VOLATILE*0.88],,,,,,,,,,,,,82,,,UNKNOWN
 273,Jalen Nailor,WR,LV,5.71,,5.71,,5.71,UNPROVEN,48.3,2,Deep,,,2025*0.50+2024*0.30+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,83,,,UNKNOWN
 274,Isaac TeSlaa,WR,DET,5.69,,5.69,,5.69,UNPROVEN,53.8,1,Deep,,,"2025_regressed(9g,w=0.90)+starter_floor_soft+rel[UNPROVEN*0.92]",,,,,,,,,,,,,84,,,UNKNOWN
