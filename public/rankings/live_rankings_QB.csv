@@ -23,24 +23,24 @@ overall_rank,player_name,position,recent_team,projected_ppg,projected_ppg_std,pr
 153,Justin Fields,QB,KC,16.15,,16.15,,16.15,PROVEN_SOLID,53.7,5,Streamable,,,"2025_regressed(9g,w=0.90)*0.50+2024_regressed(8g,w=0.80)*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06]",,,,,,,,,,,,,22,,,UNKNOWN
 156,Bryce Young,QB,CAR,15.25,,15.25,,15.25,PROVEN_SOLID,61.8,3,Streamable,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06],,,,,,,,,,,,,23,,,UNKNOWN
 166,Tyler Shough,QB,NO,15.5,,15.5,,15.5,UNPROVEN,67.8,1,Streamable,,,2025_only+starter_floor_soft+rel[UNPROVEN*0.92] [adp_ecr_floor:15.5],,,,,,,,,,,,,24,,,UNKNOWN
-179,Jacoby Brissett,QB,ARI,14.79,,14.79,,14.79,EMERGING,69.2,2,Avoid,,,"2025*0.50+2024_regressed(6g,w=0.60)*0.30+starter_floor_soft+rel[EMERGING*1.03]",,,,,,,,,,,,,25,,,UNKNOWN
-181,Carson Wentz,QB,MIN,15.53,,15.53,,15.53,PROVEN_SOLID,54.3,3,Avoid,,,"2025_regressed(5g,w=0.50)+rel[PROVEN_SOLID*1.06]",,,,,,,,,,,,,26,,,UNKNOWN
-182,Mac Jones,QB,SF,14.72,,14.72,,14.72,PROVEN_SOLID,69.5,5,Avoid,,,"2025_regressed(8g,w=0.80)*0.50+2024_regressed(8g,w=0.80)*0.30+2023_regressed(8g,w=0.80)*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06]",,,,,,,,,,,,,27,,,UNKNOWN
-192,Kirk Cousins,QB,LV,14.97,,14.97,,14.97,PROVEN_SOLID,60.3,6,Avoid,,,"2025*0.50+2024*0.30+2023_regressed(8g,w=0.80)*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06]",,,,,,,,,,,,,28,,,UNKNOWN
-215,Lamar Jackson,QB,BAL,14.11,,14.11,,14.11,PROVEN_ELITE,70.0,6,Avoid,,,"2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12] [consensus_floor_checked:22.0] [camp_notes:SEVERE:0.65:Lamar Jackson (ankle) ruled out for Week 7 Sat, Oct 24th 5:10pm EDT By Jordan Epp]",,,,,,,,SEVERE,,,,,29,,,UNKNOWN
-221,Tua Tagovailoa,QB,ATL,14.06,,14.06,,14.06,PROVEN_ELITE,68.0,6,Avoid,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_ELITE*1.12] [team_corr:ATL:0.9:ATL - competing with Penix],,,,,,,,,,,,,30,,,UNKNOWN
-271,Joe Flacco,QB,CIN,13.33,,13.33,,13.33,UNPROVEN,53.1,0,Avoid,,,"2025*0.50+2024_regressed(7g,w=0.70)*0.30+2023_regressed(6g,w=0.60)*0.20+starter_floor_soft+rel[UNPROVEN*0.92]",,,,,,,,,,,,,31,,,UNKNOWN
-287,Michael Penix Jr.,QB,ATL,13.76,,13.76,,13.76,UNPROVEN,65.0,1,Avoid,,,"2025_regressed(9g,w=0.90)+starter_floor_soft+rel[UNPROVEN*0.92]",,,,,,,,,,,,,32,,,UNKNOWN
-318,Marcus Mariota,QB,WAS,12.86,,12.86,,12.86,UNPROVEN,67.6,2,Avoid,,,"2025_regressed(9g,w=0.90)+starter_floor_soft+rel[UNPROVEN*0.92]",,,,,,,,,,,,,33,,,UNKNOWN
-319,J.J. McCarthy,QB,NYG,12.86,,12.86,,12.86,UNPROVEN,66.7,1,Avoid,,,"2025_regressed(9g,w=0.90)+starter_floor_soft+rel[UNPROVEN*0.92]",,,,,,,,,,,,,34,,,UNKNOWN
-320,Davis Mills,QB,HOU,13.13,,13.13,,13.13,EMERGING,65.8,2,Avoid,,,"2025_regressed(6g,w=0.60)+rel[EMERGING*1.03]",,,,,,,,,,,,,35,,,UNKNOWN
-328,Malik Willis,QB,MIA,13.0,,13.0,,13.0,UNPROVEN,46.3,0,Avoid,,,"2024_only*2024_regressed(5g,w=0.50)*0.85+rel[UNPROVEN*0.92] [adp_ecr_floor:13.0]",,,,,,,,,,,,,36,,,UNKNOWN
-352,Jake Browning,QB,LAC,12.68,,12.68,,12.68,UNPROVEN,52.4,1,Avoid,,,"2025_regressed(4g,w=0.40)*0.50+2023_regressed(8g,w=0.80)*0.20+rel[UNPROVEN*0.92]",,,,,,,,,,,,,37,,,UNKNOWN
-355,Cam Ward,QB,TEN,11.98,,11.98,,11.98,UNPROVEN,67.0,1,Avoid,,,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,38,,,UNKNOWN
-359,Spencer Rattler,QB,NO,12.54,,12.54,,12.54,UNPROVEN,55.8,1,Avoid,,,"2025_regressed(8g,w=0.80)*0.50+2024_regressed(7g,w=0.70)*0.30+starter_floor_soft+rel[UNPROVEN*0.92]",,,,,,,,,,,,,39,,,UNKNOWN
-363,Tyler Huntley,QB,BAL,12.46,,12.46,,12.46,UNPROVEN,58.0,0,Avoid,,,"2025_regressed(4g,w=0.40)*0.50+2024_regressed(5g,w=0.50)*0.30+rel[UNPROVEN*0.92]",,,,,,,,,,,,,40,,,UNKNOWN
-366,Shedeur Sanders,QB,CLE,12.32,,12.32,,12.32,UNPROVEN,73.1,1,Avoid,,,"2025_regressed(8g,w=0.80)+starter_floor_soft+rel[UNPROVEN*0.92]",,,,,,,,,,,,,41,,,UNKNOWN
-367,Jalen Hurts,QB,PHI,11.68,,11.68,,11.68,PROVEN_ELITE,80.6,5,Avoid,,,"2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12] [consensus_floor_checked:18.5] [camp_notes:IR:0.5:Jalen Hurts (blood clot) placed on IR Sat, Oct 17th 4:31pm EDT By Garrett Ball]",,,,,,,,IR,73.4,-293.6,73.4,2.0,42,-40.0,-293.6,FADE
+178,Jacoby Brissett,QB,ARI,14.79,,14.79,,14.79,EMERGING,69.2,2,Avoid,,,"2025*0.50+2024_regressed(6g,w=0.60)*0.30+starter_floor_soft+rel[EMERGING*1.03]",,,,,,,,,,,,,25,,,UNKNOWN
+179,Carson Wentz,QB,MIN,15.53,,15.53,,15.53,PROVEN_SOLID,54.3,3,Avoid,,,"2025_regressed(5g,w=0.50)+rel[PROVEN_SOLID*1.06]",,,,,,,,,,,,,26,,,UNKNOWN
+180,Mac Jones,QB,SF,14.72,,14.72,,14.72,PROVEN_SOLID,69.5,5,Avoid,,,"2025_regressed(8g,w=0.80)*0.50+2024_regressed(8g,w=0.80)*0.30+2023_regressed(8g,w=0.80)*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06]",,,,,,,,,,,,,27,,,UNKNOWN
+190,Kirk Cousins,QB,LV,14.97,,14.97,,14.97,PROVEN_SOLID,60.3,6,Avoid,,,"2025*0.50+2024*0.30+2023_regressed(8g,w=0.80)*0.20+starter_floor_soft+rel[PROVEN_SOLID*1.06]",,,,,,,,,,,,,28,,,UNKNOWN
+213,Lamar Jackson,QB,BAL,14.11,,14.11,,14.11,PROVEN_ELITE,70.0,6,Avoid,,,"2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12] [consensus_floor_checked:22.0] [camp_notes:SEVERE:0.65:Lamar Jackson (ankle) ruled out for Week 7 Sat, Oct 24th 5:10pm EDT By Jordan Epp]",,,,,,,,SEVERE,,,,,29,,,UNKNOWN
+219,Tua Tagovailoa,QB,ATL,14.06,,14.06,,14.06,PROVEN_ELITE,68.0,6,Avoid,,,2025*0.50+2024*0.30+2023*0.20+starter_floor_soft+rel[PROVEN_ELITE*1.12] [team_corr:ATL:0.9:ATL - competing with Penix],,,,,,,,,,,,,30,,,UNKNOWN
+270,Joe Flacco,QB,CIN,13.33,,13.33,,13.33,UNPROVEN,53.1,0,Avoid,,,"2025*0.50+2024_regressed(7g,w=0.70)*0.30+2023_regressed(6g,w=0.60)*0.20+starter_floor_soft+rel[UNPROVEN*0.92]",,,,,,,,,,,,,31,,,UNKNOWN
+286,Michael Penix Jr.,QB,ATL,13.76,,13.76,,13.76,UNPROVEN,65.0,1,Avoid,,,"2025_regressed(9g,w=0.90)+starter_floor_soft+rel[UNPROVEN*0.92]",,,,,,,,,,,,,32,,,UNKNOWN
+317,Marcus Mariota,QB,WAS,12.86,,12.86,,12.86,UNPROVEN,67.6,2,Avoid,,,"2025_regressed(9g,w=0.90)+starter_floor_soft+rel[UNPROVEN*0.92]",,,,,,,,,,,,,33,,,UNKNOWN
+318,J.J. McCarthy,QB,NYG,12.86,,12.86,,12.86,UNPROVEN,66.7,1,Avoid,,,"2025_regressed(9g,w=0.90)+starter_floor_soft+rel[UNPROVEN*0.92]",,,,,,,,,,,,,34,,,UNKNOWN
+319,Davis Mills,QB,HOU,13.13,,13.13,,13.13,EMERGING,65.8,2,Avoid,,,"2025_regressed(6g,w=0.60)+rel[EMERGING*1.03]",,,,,,,,,,,,,35,,,UNKNOWN
+327,Malik Willis,QB,MIA,13.0,,13.0,,13.0,UNPROVEN,46.3,0,Avoid,,,"2024_only*2024_regressed(5g,w=0.50)*0.85+rel[UNPROVEN*0.92] [adp_ecr_floor:13.0]",,,,,,,,,,,,,36,,,UNKNOWN
+351,Jake Browning,QB,LAC,12.68,,12.68,,12.68,UNPROVEN,52.4,1,Avoid,,,"2025_regressed(4g,w=0.40)*0.50+2023_regressed(8g,w=0.80)*0.20+rel[UNPROVEN*0.92]",,,,,,,,,,,,,37,,,UNKNOWN
+354,Cam Ward,QB,TEN,11.98,,11.98,,11.98,UNPROVEN,67.0,1,Avoid,,,2025_only+starter_floor_soft+rel[UNPROVEN*0.92],,,,,,,,,,,,,38,,,UNKNOWN
+358,Spencer Rattler,QB,NO,12.54,,12.54,,12.54,UNPROVEN,55.8,1,Avoid,,,"2025_regressed(8g,w=0.80)*0.50+2024_regressed(7g,w=0.70)*0.30+starter_floor_soft+rel[UNPROVEN*0.92]",,,,,,,,,,,,,39,,,UNKNOWN
+362,Tyler Huntley,QB,BAL,12.46,,12.46,,12.46,UNPROVEN,58.0,0,Avoid,,,"2025_regressed(4g,w=0.40)*0.50+2024_regressed(5g,w=0.50)*0.30+rel[UNPROVEN*0.92]",,,,,,,,,,,,,40,,,UNKNOWN
+365,Shedeur Sanders,QB,CLE,12.32,,12.32,,12.32,UNPROVEN,73.1,1,Avoid,,,"2025_regressed(8g,w=0.80)+starter_floor_soft+rel[UNPROVEN*0.92]",,,,,,,,,,,,,41,,,UNKNOWN
+366,Jalen Hurts,QB,PHI,11.68,,11.68,,11.68,PROVEN_ELITE,80.6,5,Avoid,,,"2025*0.50+2024*0.30+2023*0.20+rel[PROVEN_ELITE*1.12] [consensus_floor_checked:18.5] [camp_notes:IR:0.5:Jalen Hurts (blood clot) placed on IR Sat, Oct 17th 4:31pm EDT By Garrett Ball]",,,,,,,,IR,73.4,-292.6,73.4,2.0,42,-40.0,-292.6,FADE
 373,Sam Howell,QB,DAL,11.53,,11.53,,11.53,UNPROVEN,62.5,1,Avoid,,,2023_old*0.80+rel[UNPROVEN*0.92],,,,,,,,,,,,,43,,,UNKNOWN
 392,Andy Dalton,QB,ATL,11.79,,11.79,,11.79,EMERGING,57.0,2,Avoid,,,"2024_only*2024_regressed(4g,w=0.40)*0.85+rel[EMERGING*1.03]",,,,,,,,,,,,,44,,,UNKNOWN
 398,Joshua Dobbs,QB,DET,11.6,,11.6,,11.6,UNPROVEN,61.8,1,Avoid,,,2023_old*0.80+rel[UNPROVEN*0.92],,,,,,,,,,,,,45,,,UNKNOWN

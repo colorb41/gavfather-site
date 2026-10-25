@@ -1,32 +1,10 @@
 {
-  "updated": "2026-10-25T07:53:07",
+  "updated": "2026-10-25T11:31:12",
   "source": "CampResearcher.v2",
   "override_count": 24,
-  "player_count": 67,
-  "news_items_processed": 255,
+  "player_count": 69,
+  "news_items_processed": 257,
   "players": {
-    "Dontayvion Wicks": {
-      "status": "SEVERE",
-      "injury": "Dontayvion Wicks Dontayvion Wicks Ruled out for Monday's game WR Philadelphia Eagles Ankle October 24, 2026 Wicks (ankle",
-      "week1_outlook": "UNLIKELY",
-      "ppg_multiplier": 0.65,
-      "ranking_note": "Dontayvion Wicks Ruled out for Monday's game WR Philadelphia Eagles Ankle October 24, 2026 Wicks (ankle) has been ruled out for Monday's game versus the Cowboys. ANALYSIS Subscribe now to instantly reveal our take on this news.",
-      "impact": "SEVERE",
-      "source": "RotoWire",
-      "headlines": [
-        "Dontayvion Wicks (ankle) out for Week 7",
-        "Dontayvion Wicks"
-      ],
-      "old_rank": 223,
-      "new_rank": 331,
-      "old_ppg": 6.21,
-      "new_ppg": 4.04,
-      "position": "WR",
-      "team": "PHI",
-      "updated": "2026-10-25",
-      "auto_generated": true,
-      "from_override": false
-    },
     "DeVonta Smith": {
       "status": "SEVERE",
       "injury": "hamstring) ruled out vs",
@@ -40,10 +18,10 @@
         "DeVonta Smith",
         "DeVonta Smith - Out"
       ],
-      "old_rank": 85,
-      "new_rank": 161,
-      "old_ppg": 12.5,
-      "new_ppg": 8.12,
+      "old_rank": 167,
+      "new_rank": 265,
+      "old_ppg": 8.12,
+      "new_ppg": 5.28,
       "position": "WR",
       "team": "PHI",
       "updated": "2026-10-25",
@@ -61,10 +39,10 @@
       "headlines": [
         "Lamar Jackson (ankle) ruled out for Week 7"
       ],
-      "old_rank": 3,
-      "new_rank": 46,
-      "old_ppg": 21.71,
-      "new_ppg": 14.11,
+      "old_rank": 49,
+      "new_rank": 143,
+      "old_ppg": 14.11,
+      "new_ppg": 9.17,
       "position": "QB",
       "team": "BAL",
       "updated": "2026-10-25",
@@ -82,7 +60,7 @@
       "headlines": [
         "ACL PUP — not a Week 1 back and likely misses the first 1–2 months. Price is the early-season SEA RB. Late-round stash only."
       ],
-      "old_rank": 314,
+      "old_rank": 316,
       "new_rank": 425,
       "old_ppg": 4.6,
       "new_ppg": 2.07,
@@ -91,6 +69,70 @@
       "updated": "2026-08-29",
       "auto_generated": false,
       "from_override": true
+    },
+    "Cam Skattebo": {
+      "status": "NEUTRAL",
+      "injury": "Cam Skattebo Cam Skattebo Slated to resume role as RB1 RB New York Giants October 25, 2026 Skattebo is expected to resum",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Cam Skattebo Slated to resume role as RB1 RB New York Giants October 25, 2026 Skattebo is expected to resume his role as the Giants' lead running back in Sunday's game at Houston, Ian Rapoport of NFL Network reports. ANALYSIS Subscribe now ",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Cam Skattebo"
+      ],
+      "old_rank": 53,
+      "new_rank": 49,
+      "old_ppg": 13.97,
+      "new_ppg": 13.97,
+      "position": "RB",
+      "team": "NYG",
+      "updated": "2026-10-25",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Jonah Coleman": {
+      "status": "IR",
+      "injury": "IR RB Denver Broncos Ankle October 24",
+      "week1_outlook": "OUT — 4-game minimum; conservative return",
+      "ppg_multiplier": 0.5,
+      "ranking_note": "Jonah Coleman Activated from IR RB Denver Broncos Ankle October 24, 2026 The Broncos activated Coleman (ankle) from injured reserve Saturday, Jeremy Fowler of ESPN.com reports. ANALYSIS Subscribe now to instantly reveal our take on this new",
+      "impact": "IR",
+      "source": "RotoWire",
+      "headlines": [
+        "Jonah Coleman"
+      ],
+      "old_rank": 213,
+      "new_rank": 374,
+      "old_ppg": 6.5,
+      "new_ppg": 3.25,
+      "position": "RB",
+      "team": "DEN",
+      "updated": "2026-10-25",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Christian Kirk": {
+      "status": "IR",
+      "injury": "irk Christian Kirk Activated from injured",
+      "week1_outlook": "OUT — 4-game minimum; conservative return",
+      "ppg_multiplier": 0.5,
+      "ranking_note": "Christian Kirk Activated from injured reserve WR San Francisco 49ers October 24, 2026 The 49ers activated Kirk (calf) from injured reserve and removed his questionable designation for Sunday's game in Atlanta. ANALYSIS Subscribe now to inst",
+      "impact": "IR",
+      "source": "RotoWire",
+      "headlines": [
+        "Christian Kirk",
+        "Christian Kirk , SF (calf) — placed on IR"
+      ],
+      "old_rank": 224,
+      "new_rank": 379,
+      "old_ppg": 6.3,
+      "new_ppg": 3.15,
+      "position": "WR",
+      "team": "SF",
+      "updated": "2026-10-25",
+      "auto_generated": true,
+      "from_override": false
     },
     "Jordan Mason": {
       "status": "IR",
@@ -104,7 +146,7 @@
         "Jordan Mason"
       ],
       "old_rank": 288,
-      "new_rank": 413,
+      "new_rank": 412,
       "old_ppg": 5.0,
       "new_ppg": 2.5,
       "position": "RB",
@@ -124,8 +166,8 @@
       "headlines": [
         "STICKY: still exempt (Sleeper NA / Personal). Do not rank as a weekly starter. Data-update must not restore an active RB1 note. Lottery only until reinstated; Lloyd / Johnson get the work."
       ],
-      "old_rank": 40,
-      "new_rank": 202,
+      "old_rank": 39,
+      "new_rank": 201,
       "old_ppg": 15.03,
       "new_ppg": 6.76,
       "position": "RB",
@@ -145,10 +187,10 @@
       "headlines": [
         "Saquon Barkley"
       ],
-      "old_rank": 46,
-      "new_rank": 55,
-      "old_ppg": 14.69,
-      "new_ppg": 13.66,
+      "old_rank": 58,
+      "new_rank": 72,
+      "old_ppg": 13.67,
+      "new_ppg": 12.71,
       "position": "RB",
       "team": "PHI",
       "updated": "2026-10-25",
@@ -166,12 +208,33 @@
       "headlines": [
         "Dallas Goedert"
       ],
-      "old_rank": 117,
-      "new_rank": 105,
-      "old_ppg": 10.9,
-      "new_ppg": 11.45,
+      "old_rank": 109,
+      "new_rank": 86,
+      "old_ppg": 11.45,
+      "new_ppg": 12.02,
       "position": "TE",
       "team": "PHI",
+      "updated": "2026-10-25",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Dylan Sampson": {
+      "status": "IR",
+      "injury": "knee) was activated from injured reserve Sat",
+      "week1_outlook": "OUT — 4-game minimum; conservative return",
+      "ppg_multiplier": 0.5,
+      "ranking_note": "Dylan Sampson Activated from injured reserve RB Cleveland Browns October 24, 2026 Sampson (knee) was activated from injured reserve Saturday. ANALYSIS Subscribe now to instantly reveal our take on this news.",
+      "impact": "IR",
+      "source": "RotoWire",
+      "headlines": [
+        "Dylan Sampson"
+      ],
+      "old_rank": 222,
+      "new_rank": 377,
+      "old_ppg": 6.33,
+      "new_ppg": 3.17,
+      "position": "RB",
+      "team": "CLE",
       "updated": "2026-10-25",
       "auto_generated": true,
       "from_override": false
@@ -187,8 +250,8 @@
       "headlines": [
         "Kalif Raymond"
       ],
-      "old_rank": 222,
-      "new_rank": 219,
+      "old_rank": 225,
+      "new_rank": 218,
       "old_ppg": 6.26,
       "new_ppg": 6.26,
       "position": "WR",
@@ -229,8 +292,8 @@
       "headlines": [
         "TreVeyon Henderson , Patriots (ankle) : Henderson hasn't practiced since Aug."
       ],
-      "old_rank": 72,
-      "new_rank": 69,
+      "old_rank": 73,
+      "new_rank": 68,
       "old_ppg": 12.92,
       "new_ppg": 12.92,
       "position": "RB",
@@ -250,8 +313,8 @@
       "headlines": [
         "That cleared the way for Rico Dowdle to take over the backfield."
       ],
-      "old_rank": 109,
-      "new_rank": 99,
+      "old_rank": 110,
+      "new_rank": 100,
       "old_ppg": 11.35,
       "new_ppg": 11.92,
       "position": "RB",
@@ -271,7 +334,7 @@
       "headlines": [
         "Puka Nacua , Rams (groin) : Nacua was back at practice on Sunday after missing a few weeks."
       ],
-      "old_rank": 22,
+      "old_rank": 21,
       "new_rank": 21,
       "old_ppg": 18.34,
       "new_ppg": 18.34,
@@ -292,8 +355,8 @@
       "headlines": [
         "Upgrade slightly. Running routes, ahead of schedule. Worst case misses 1-2 games."
       ],
-      "old_rank": 47,
-      "new_rank": 60,
+      "old_rank": 45,
+      "new_rank": 59,
       "old_ppg": 14.5,
       "new_ppg": 13.49,
       "position": "WR",
@@ -313,7 +376,7 @@
       "headlines": [
         "Official IR (heel). Minimum 4 games; earliest Week 7. Conservative lottery until designated to return — do not use stale Aug RETURNING/ramp note. STICKY: data-update must not restore RETURNING x0.90."
       ],
-      "old_rank": 236,
+      "old_rank": 238,
       "new_rank": 383,
       "old_ppg": 6.0,
       "new_ppg": 3.0,
@@ -334,10 +397,10 @@
       "headlines": [
         "Tyler Warren , Colts (groin) : Warren was back at practice on Tuesday and should be good to go for Week 1."
       ],
-      "old_rank": 194,
-      "new_rank": 190,
-      "old_ppg": 7.15,
-      "new_ppg": 7.15,
+      "old_rank": 113,
+      "new_rank": 110,
+      "old_ppg": 11.0,
+      "new_ppg": 11.0,
       "position": "TE",
       "team": "IND",
       "updated": "2026-10-25",
@@ -355,8 +418,8 @@
       "headlines": [
         "Rising sleeper TE. Ahead of schedule. GB passing game benefits."
       ],
-      "old_rank": 112,
-      "new_rank": 102,
+      "old_rank": 114,
+      "new_rank": 103,
       "old_ppg": 11.0,
       "new_ppg": 11.55,
       "position": "TE",
@@ -376,10 +439,10 @@
       "headlines": [
         "Breece Hall, NYJ (groin) — on track to play Week 1"
       ],
-      "old_rank": 80,
-      "new_rank": 78,
-      "old_ppg": 12.56,
-      "new_ppg": 12.56,
+      "old_rank": 61,
+      "new_rank": 56,
+      "old_ppg": 13.5,
+      "new_ppg": 13.5,
       "position": "RB",
       "team": "NYJ",
       "updated": "2026-10-25",
@@ -397,8 +460,8 @@
       "headlines": [
         "Kyle Monangai, CHI (knee) — remains week-to-week"
       ],
-      "old_rank": 134,
-      "new_rank": 133,
+      "old_rank": 137,
+      "new_rank": 135,
       "old_ppg": 10.0,
       "new_ppg": 10.0,
       "position": "RB",
@@ -439,8 +502,8 @@
       "headlines": [
         "Jake Tonges - IR"
       ],
-      "old_rank": 377,
-      "new_rank": 440,
+      "old_rank": 379,
+      "new_rank": 439,
       "old_ppg": 3.62,
       "new_ppg": 1.81,
       "position": "TE",
@@ -460,33 +523,12 @@
       "headlines": [
         "Ladd McConkey - Out"
       ],
-      "old_rank": 99,
-      "new_rank": 86,
+      "old_rank": 100,
+      "new_rank": 87,
       "old_ppg": 12.0,
       "new_ppg": 12.0,
       "position": "WR",
       "team": "LAC",
-      "updated": "2026-10-25",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Brashard Smith": {
-      "status": "IR",
-      "injury": "IR Brashard Smith listed as IR",
-      "week1_outlook": "OUT — 4-game minimum; conservative return",
-      "ppg_multiplier": 0.5,
-      "ranking_note": "Brashard Smith listed as IR. ",
-      "impact": "IR",
-      "source": "Sleeper",
-      "headlines": [
-        "Brashard Smith - IR"
-      ],
-      "old_rank": 257,
-      "new_rank": 394,
-      "old_ppg": 5.56,
-      "new_ppg": 2.78,
-      "position": "RB",
-      "team": "KC",
       "updated": "2026-10-25",
       "auto_generated": true,
       "from_override": false
@@ -502,7 +544,7 @@
       "headlines": [
         "Davante Adams - IR"
       ],
-      "old_rank": 193,
+      "old_rank": 194,
       "new_rank": 364,
       "old_ppg": 7.21,
       "new_ppg": 3.6,
@@ -523,7 +565,7 @@
       "headlines": [
         "James Conner - IR"
       ],
-      "old_rank": 244,
+      "old_rank": 246,
       "new_rank": 389,
       "old_ppg": 5.81,
       "new_ppg": 2.9,
@@ -544,33 +586,12 @@
       "headlines": [
         "Terrance Ferguson - IR"
       ],
-      "old_rank": 413,
-      "new_rank": 455,
+      "old_rank": 411,
+      "new_rank": 456,
       "old_ppg": 2.75,
       "new_ppg": 1.38,
       "position": "TE",
       "team": "LAR",
-      "updated": "2026-10-25",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Josh Oliver": {
-      "status": "IR",
-      "injury": "IR Josh Oliver listed as IR",
-      "week1_outlook": "OUT — 4-game minimum; conservative return",
-      "ppg_multiplier": 0.5,
-      "ranking_note": "Josh Oliver listed as IR. ",
-      "impact": "IR",
-      "source": "Sleeper",
-      "headlines": [
-        "Josh Oliver - IR"
-      ],
-      "old_rank": 423,
-      "new_rank": 459,
-      "old_ppg": 2.52,
-      "new_ppg": 1.26,
-      "position": "TE",
-      "team": "MIN",
       "updated": "2026-10-25",
       "auto_generated": true,
       "from_override": false
@@ -586,8 +607,8 @@
       "headlines": [
         "Jadarian Price - IR"
       ],
-      "old_rank": 280,
-      "new_rank": 407,
+      "old_rank": 283,
+      "new_rank": 406,
       "old_ppg": 5.1,
       "new_ppg": 2.55,
       "position": "RB",
@@ -608,7 +629,7 @@
         "Jacory Croskey-Merritt - IR"
       ],
       "old_rank": 281,
-      "new_rank": 406,
+      "new_rank": 405,
       "old_ppg": 5.1,
       "new_ppg": 2.55,
       "position": "RB",
@@ -629,7 +650,7 @@
         "DJ Moore - Out"
       ],
       "old_rank": 103,
-      "new_rank": 98,
+      "new_rank": 99,
       "old_ppg": 11.97,
       "new_ppg": 11.97,
       "position": "WR",
@@ -649,8 +670,8 @@
       "headlines": [
         "KaVontae Turpin - Out"
       ],
-      "old_rank": 219,
-      "new_rank": 216,
+      "old_rank": 220,
+      "new_rank": 213,
       "old_ppg": 6.35,
       "new_ppg": 6.35,
       "position": "WR",
@@ -670,8 +691,8 @@
       "headlines": [
         "De'Von Achane - IR"
       ],
-      "old_rank": 145,
-      "new_rank": 301,
+      "old_rank": 147,
+      "new_rank": 302,
       "old_ppg": 9.09,
       "new_ppg": 4.54,
       "position": "RB",
@@ -691,8 +712,8 @@
       "headlines": [
         "Travis Etienne Jr. - IR"
       ],
-      "old_rank": 263,
-      "new_rank": 397,
+      "old_rank": 264,
+      "new_rank": 396,
       "old_ppg": 5.46,
       "new_ppg": 2.73,
       "position": "RB",
@@ -712,8 +733,8 @@
       "headlines": [
         "Jonathon Brooks - IR"
       ],
-      "old_rank": 279,
-      "new_rank": 408,
+      "old_rank": 282,
+      "new_rank": 407,
       "old_ppg": 5.1,
       "new_ppg": 2.55,
       "position": "RB",
@@ -754,7 +775,7 @@
       "headlines": [
         "David Njoku - IR"
       ],
-      "old_rank": 367,
+      "old_rank": 370,
       "new_rank": 437,
       "old_ppg": 3.69,
       "new_ppg": 1.84,
@@ -763,6 +784,69 @@
       "updated": "2026-10-25",
       "auto_generated": true,
       "from_override": false
+    },
+    "Michael Pittman": {
+      "status": "IR",
+      "injury": "IR Michael Pittman Jr",
+      "week1_outlook": "OUT — 4-game minimum; conservative return",
+      "ppg_multiplier": 0.5,
+      "ranking_note": "Michael Pittman Jr. listed as IR. ",
+      "impact": "IR",
+      "source": "Sleeper",
+      "headlines": [
+        "Michael Pittman Jr. - IR"
+      ],
+      "old_rank": 277,
+      "new_rank": 402,
+      "old_ppg": 5.17,
+      "new_ppg": 2.58,
+      "position": "WR",
+      "team": "PIT",
+      "updated": "2026-10-25",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Brashard Smith": {
+      "status": "IR",
+      "injury": "IR Brashard Smith listed as IR",
+      "week1_outlook": "OUT — 4-game minimum; conservative return",
+      "ppg_multiplier": 0.5,
+      "ranking_note": "Brashard Smith listed as IR. ",
+      "impact": "IR",
+      "source": "Sleeper",
+      "headlines": [
+        "Brashard Smith - IR"
+      ],
+      "old_rank": 409,
+      "new_rank": 453,
+      "old_ppg": 5.56,
+      "new_ppg": 2.78,
+      "position": "RB",
+      "team": "KC",
+      "updated": "2026-10-25",
+      "auto_generated": true,
+      "from_override": true
+    },
+    "Josh Oliver": {
+      "status": "IR",
+      "injury": "IR Josh Oliver listed as IR",
+      "week1_outlook": "OUT — 4-game minimum; conservative return",
+      "ppg_multiplier": 0.5,
+      "ranking_note": "Josh Oliver listed as IR. ",
+      "impact": "IR",
+      "source": "Sleeper",
+      "headlines": [
+        "Josh Oliver - IR"
+      ],
+      "old_rank": 423,
+      "new_rank": 459,
+      "old_ppg": 2.52,
+      "new_ppg": 1.26,
+      "position": "TE",
+      "team": "MIN",
+      "updated": "2026-10-25",
+      "auto_generated": true,
+      "from_override": true
     },
     "Cole Kmet": {
       "status": "SEASON_ENDING",
@@ -807,27 +891,6 @@
       "auto_generated": true,
       "from_override": true
     },
-    "Michael Pittman": {
-      "status": "IR",
-      "injury": "IR Michael Pittman Jr",
-      "week1_outlook": "OUT — 4-game minimum; conservative return",
-      "ppg_multiplier": 0.5,
-      "ranking_note": "Michael Pittman Jr. listed as IR. ",
-      "impact": "IR",
-      "source": "Sleeper",
-      "headlines": [
-        "Michael Pittman Jr. - IR"
-      ],
-      "old_rank": 275,
-      "new_rank": 403,
-      "old_ppg": 5.17,
-      "new_ppg": 2.58,
-      "position": "WR",
-      "team": "PIT",
-      "updated": "2026-10-22",
-      "auto_generated": true,
-      "from_override": true
-    },
     "Isiah Pacheco": {
       "status": "IR",
       "injury": "knee/back) — placed on IR Isiah Pacheco",
@@ -840,7 +903,7 @@
         "Isiah Pacheco , DET (knee/back) — placed on IR",
         "Isiah Pacheco - IR"
       ],
-      "old_rank": 333,
+      "old_rank": 334,
       "new_rank": 424,
       "old_ppg": 4.25,
       "new_ppg": 2.12,
@@ -861,8 +924,8 @@
       "headlines": [
         "Romeo Doubs - IR"
       ],
-      "old_rank": 282,
-      "new_rank": 410,
+      "old_rank": 284,
+      "new_rank": 408,
       "old_ppg": 10.16,
       "new_ppg": 5.08,
       "position": "WR",
@@ -882,7 +945,7 @@
       "headlines": [
         "Tanner Hudson - IR"
       ],
-      "old_rank": 437,
+      "old_rank": 436,
       "new_rank": 468,
       "old_ppg": 4.12,
       "new_ppg": 2.06,
@@ -906,7 +969,7 @@
         "Jalen Hurts - IR"
       ],
       "old_rank": 105,
-      "new_rank": 239,
+      "new_rank": 238,
       "old_ppg": 23.33,
       "new_ppg": 11.66,
       "position": "QB",
@@ -926,7 +989,7 @@
       "headlines": [
         "Raheim Sanders - IR"
       ],
-      "old_rank": 391,
+      "old_rank": 392,
       "new_rank": 446,
       "old_ppg": 4.32,
       "new_ppg": 2.16,
@@ -948,7 +1011,7 @@
         "Tyquan Thornton",
         "Tyquan Thornton - IR"
       ],
-      "old_rank": 383,
+      "old_rank": 385,
       "new_rank": 442,
       "old_ppg": 6.6,
       "new_ppg": 3.3,
@@ -971,7 +1034,7 @@
         "Chris Brooks",
         "Chris Brooks - IR"
       ],
-      "old_rank": 430,
+      "old_rank": 429,
       "new_rank": 461,
       "old_ppg": 4.63,
       "new_ppg": 2.31,
@@ -993,7 +1056,7 @@
         "Reggie Gilliam - IR"
       ],
       "old_rank": 567,
-      "new_rank": 573,
+      "new_rank": 574,
       "old_ppg": 5.58,
       "new_ppg": 2.79,
       "position": "RB",
@@ -1013,8 +1076,8 @@
       "headlines": [
         "Pat Bryant - IR"
       ],
-      "old_rank": 412,
-      "new_rank": 456,
+      "old_rank": 413,
+      "new_rank": 455,
       "old_ppg": 5.5,
       "new_ppg": 2.75,
       "position": "WR",
@@ -1034,8 +1097,8 @@
       "headlines": [
         "Tank Bigsby - IR"
       ],
-      "old_rank": 398,
-      "new_rank": 449,
+      "old_rank": 396,
+      "new_rank": 448,
       "old_ppg": 5.98,
       "new_ppg": 2.99,
       "position": "RB",
@@ -1055,7 +1118,7 @@
       "headlines": [
         "Isaac Guerendo - PUP"
       ],
-      "old_rank": 392,
+      "old_rank": 391,
       "new_rank": 445,
       "old_ppg": 6.35,
       "new_ppg": 3.17,
@@ -1098,7 +1161,7 @@
         "Tip Reiman - PUP"
       ],
       "old_rank": 573,
-      "new_rank": 574,
+      "new_rank": 575,
       "old_ppg": 3.5,
       "new_ppg": 1.75,
       "position": "TE",
@@ -1202,34 +1265,13 @@
       "headlines": [
         "Off PUP Aug 23 — remaining on PUP through cutdown would have locked Weeks 1–4 and that did not happen. Eligible Week 1. Still ramping (no 11-on-11 yet). Australia sit possible; Tonges is the Week 1 handcuff if he sits. Rest-of-year TE1."
       ],
-      "old_rank": 71,
-      "new_rank": 118,
+      "old_rank": 72,
+      "new_rank": 119,
       "old_ppg": 12.98,
       "new_ppg": 10.38,
       "position": "TE",
       "team": "SF",
       "updated": "2026-08-30",
-      "auto_generated": false,
-      "from_override": true
-    },
-    "Christian Kirk": {
-      "status": "IR",
-      "injury": "Calf; IR designated to return (Aug 30 cutdown). Misses at least Weeks 1-4.",
-      "week1_outlook": "OUT Weeks 1-4; eligible Week 5 vs SEA. WR4/5 when back.",
-      "ppg_multiplier": 0.5,
-      "ranking_note": "IR designated to return — 4-game minimum, not done for the year. Calf kept him out of camp/preseason. Conservative lottery when activated; Evans / Samuel / Stribling hold the early targets.",
-      "impact": "SEVERE",
-      "source": "CBS / NBC Maiocco / PFT — IR designated to return Aug 30",
-      "headlines": [
-        "IR designated to return — 4-game minimum, not done for the year. Calf kept him out of camp/preseason. Conservative lottery when activated; Evans / Samuel / Stribling hold the early targets."
-      ],
-      "old_rank": 397,
-      "new_rank": 448,
-      "old_ppg": 3.15,
-      "new_ppg": 1.57,
-      "position": "",
-      "team": "",
-      "updated": "2026-08-31",
       "auto_generated": false,
       "from_override": true
     },
@@ -1244,7 +1286,7 @@
       "headlines": [
         "Monitor. Tightness only but has injury history. Now with DEN (Bo Nix) after March 2026 trade from MIA."
       ],
-      "old_rank": 90,
+      "old_rank": 97,
       "new_rank": 106,
       "old_ppg": 12.0,
       "new_ppg": 11.4,
@@ -1265,7 +1307,7 @@
       "headlines": [
         "Healthy and practicing. No current hold."
       ],
-      "old_rank": 49,
+      "old_rank": 47,
       "new_rank": 45,
       "old_ppg": 14.34,
       "new_ppg": 14.34,
@@ -1286,7 +1328,7 @@
       "headlines": [
         "Injury flag from Aug 5 is stale. Has practiced and started preseason. Stefanski has not named Week 1 QB (Tua vs Penix). Job risk is the only remaining haircut — not an injury hold."
       ],
-      "old_rank": 52,
+      "old_rank": 51,
       "new_rank": 76,
       "old_ppg": 14.06,
       "new_ppg": 12.65,
@@ -1307,7 +1349,7 @@
       "headlines": [
         "Extension signed. Team commitment confirmed. ATL RB1 locked in."
       ],
-      "old_rank": 11,
+      "old_rank": 10,
       "new_rank": 7,
       "old_ppg": 20.35,
       "new_ppg": 20.76,
@@ -1328,8 +1370,8 @@
       "headlines": [
         "Minor thumb issue. Not serious. Monitor."
       ],
-      "old_rank": 139,
-      "new_rank": 139,
+      "old_rank": 141,
+      "new_rank": 141,
       "old_ppg": 9.96,
       "new_ppg": 9.66,
       "position": "WR",
@@ -1370,8 +1412,8 @@
       "headlines": [
         "Still on roster. Colts gathering information. Typical first-offense DUI is up to 2 games; do not REMOVE. Downgrade / monitor."
       ],
-      "old_rank": 144,
-      "new_rank": 155,
+      "old_rank": 146,
+      "new_rank": 159,
       "old_ppg": 9.22,
       "new_ppg": 8.48,
       "position": "WR",
@@ -1391,7 +1433,7 @@
       "headlines": [
         "Sleeper 'listed as Questionable' stub is not a ranking haircut. AP Aug 23 back at practice; NY Post Aug 28 expected Week 1."
       ],
-      "old_rank": 14,
+      "old_rank": 13,
       "new_rank": 13,
       "old_ppg": 19.86,
       "new_ppg": 19.86,
