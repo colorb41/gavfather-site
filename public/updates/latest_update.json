@@ -1,107 +1,8 @@
 {
-  "updated_at": "2026-10-25T11:32:26",
+  "updated_at": "2026-10-25T15:20:41",
   "total_changes": 100,
-  "high_priority_count": 41,
+  "high_priority_count": 42,
   "changes": [
-    {
-      "timestamp": "2026-10-22T22:34:25",
-      "player_id": "11773",
-      "name": "Keilan Robinson",
-      "position": "RB",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-10-22T22:34:25",
-      "player_id": "8489",
-      "name": "Drew Ogletree",
-      "position": "TE",
-      "team": "IND",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-10-22T22:34:25",
-      "player_id": "13324",
-      "name": "Matt Hibner",
-      "position": "TE",
-      "team": "BAL",
-      "overall_rank": null,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-10-22T23:49:24",
-      "player_id": "13295",
-      "name": "Behren Morton",
-      "position": "QB",
-      "team": "NE",
-      "overall_rank": null,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Out (Coach's Decision)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-10-22T23:49:24",
-      "player_id": "1737",
-      "name": "Case Keenum",
-      "position": "QB",
-      "team": "CHI",
-      "overall_rank": 572,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Out (Coach's Decision)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-10-22T23:49:24",
-      "player_id": "9486",
-      "name": "Dontayvion Wicks",
-      "position": "WR",
-      "team": "PHI",
-      "overall_rank": 237,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Ankle)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-10-22T23:49:24",
-      "player_id": "8676",
-      "name": "Rashid Shaheed",
-      "position": "WR",
-      "team": "SEA",
-      "overall_rank": 161,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-10-22T23:49:24",
-      "player_id": "5022",
-      "name": "Dallas Goedert",
-      "position": "TE",
-      "team": "PHI",
-      "overall_rank": 48,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Knee)",
-      "priority": "HIGH"
-    },
-    {
-      "timestamp": "2026-10-22T23:49:24",
-      "player_id": "7525",
-      "name": "DeVonta Smith",
-      "position": "WR",
-      "team": "PHI",
-      "overall_rank": 64,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Hamstring)",
-      "priority": "HIGH"
-    },
     {
       "timestamp": "2026-10-22T23:49:24",
       "player_id": "11604",
@@ -1101,6 +1002,105 @@
       "overall_rank": 160,
       "change_type": "PROMOTED_TO_STARTER",
       "detail": "Depth chart 4 -> 1",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-10-25T12:40:48",
+      "player_id": "7538",
+      "name": "Zach Wilson",
+      "position": "QB",
+      "team": "NO",
+      "overall_rank": 683,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Out (Coach's Decision)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-10-25T12:40:48",
+      "player_id": "7021",
+      "name": "Rico Dowdle",
+      "position": "RB",
+      "team": "PIT",
+      "overall_rank": 68,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-10-25T12:40:48",
+      "player_id": "12079",
+      "name": "Treyton Welch",
+      "position": "TE",
+      "team": "NO",
+      "overall_rank": 436,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Out (Coach's Decision)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-10-25T12:40:48",
+      "player_id": "13423",
+      "name": "Eli Heidenreich",
+      "position": "RB",
+      "team": "PIT",
+      "overall_rank": 190,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Out (Coach's Decision)",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-10-25T12:40:48",
+      "player_id": "12511",
+      "name": "Will Howard",
+      "position": "QB",
+      "team": "PIT",
+      "overall_rank": 314,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Out (Coach's Decision)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-10-25T12:40:48",
+      "player_id": "13289",
+      "name": "Drew Allar",
+      "position": "QB",
+      "team": "PIT",
+      "overall_rank": 313,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Out (Coach's Decision)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-10-25T15:16:48",
+      "player_id": "11576",
+      "name": "Braelon Allen",
+      "position": "RB",
+      "team": "NYJ",
+      "overall_rank": 131,
+      "change_type": "PROMOTED_TO_STARTER",
+      "detail": "Depth chart 2 -> 1",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-10-25T15:16:49",
+      "player_id": "13277",
+      "name": "CJ Donaldson",
+      "position": "RB",
+      "team": "NO",
+      "overall_rank": 469,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Shoulder)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-10-25T15:16:49",
+      "player_id": "8155",
+      "name": "Breece Hall",
+      "position": "RB",
+      "team": "NYJ",
+      "overall_rank": 30,
+      "change_type": "DEMOTED_FROM_STARTER",
+      "detail": "Depth chart 1 -> 2",
       "priority": "HIGH"
     }
   ]
