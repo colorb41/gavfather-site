@@ -4,7 +4,7 @@ date: "2026-10-30"
 week: 0
 theme: "Camp Report"
 category: "research"
-excerpt: "The Gavfather System auto-processed 307 camp news items. 53 players affected."
+excerpt: "The Gavfather System auto-processed 311 camp news items. 56 players affected."
 ---
 
 # Camp Report: Week 18
@@ -15,7 +15,7 @@ excerpt: "The Gavfather System auto-processed 307 camp news items. 53 players af
 ---
 
 The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports — zero manual input.
-53 players had ranking adjustments applied automatically this week.
+56 players had ranking adjustments applied automatically this week.
 
 ## The Biggest Story
 
@@ -29,6 +29,9 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 
 **Zach Charbonnet** — PUP | ACL tear (January 2026 playoffs); surgery Feb 20; still on PUP
 *ACL PUP — not a Week 1 back and likely misses the first 1–2 months. Price is the early-season SEA RB. Late-round stash only.*
+
+**Alec Pierce** — IR | Heel; aggravated surgically repaired heel Week 2 vs KC; Colts placed on IR ~Sep 26 2026
+*Official IR (heel). Minimum 4 games; earliest Week 7. Conservative lottery until designated to return — do not use stale Aug RETURNING/ramp note. STICKY: data-update must not restore RETURNING x0.90.*
 
 **Christian Kirk** — IR | Calf; IR designated to return (Aug 30 cutdown). Misses at least Weeks 1-4.
 *IR designated to return — 4-game minimum, not done for the year. Calf kept him out of camp/preseason. Conservative lottery when activated; Evans / Samuel / Stribling hold the early targets.*
@@ -53,9 +56,6 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 
 **Tyrone Tracy Jr.** — IR | Hamstring October 27
 *Tyrone Tracy Bound for IR RB New York Giants Hamstring October 27, 2026 Giants general manager Joe Schoen said Tuesday that Tracy (hamstring) is slated to be placed on injured reserve, Dan Duggan of The Athletic reports. ANALYSIS Subscribe *
-
-**Alec Pierce** — IR | Heel; aggravated surgically repaired heel Week 2 vs KC; Colts placed on IR ~Sep 26 2026
-*Official IR (heel). Minimum 4 games; earliest Week 7. Conservative lottery until designated to return — do not use stale Aug RETURNING/ramp note. STICKY: data-update must not restore RETURNING x0.90.*
 
 **Terrance Ferguson** — IR | IR Terrance Ferguson listed as IR
 *Terrance Ferguson listed as IR. *
@@ -120,6 +120,12 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 **Tip Reiman** — PUP | PUP Tip Reiman listed as PUP
 *STICKY: Sleeper PUP. Conservative x0.50 until activated. Not a weekly starter.*
 
+**Brian Robinson** — SEVERE | Hamstring October 30
+*Brian Robinson Won't play Sunday RB Atlanta Falcons Hamstring October 30, 2026 Robinson (hamstring) has been ruled out for Sunday's game at Tampa Bay, Will McFadden of the Falcons' official site reports. ANALYSIS Subscribe now to instantly *
+
+**Emeka Egbuka** — SEVERE | Emeka Egbuka Emeka Egbuka Ruled out for Week 8 WR Tampa Bay Buccaneers Foot October 30, 2026 Egbuka (foot) has been rule
+*Emeka Egbuka Ruled out for Week 8 WR Tampa Bay Buccaneers Foot October 30, 2026 Egbuka (foot) has been ruled out for Sunday's game against the Falcons, Scott Smith of the Bucs' official site reports. ANALYSIS Subscribe now to instantly reve*
+
 **Cole Kmet** — SEASON_ENDING | knee) believed to have season-ending knee in
 *Cole Kmet (knee) believed to have season-ending knee injury Fri, Oct 23rd 11:58am EDT By Garrett Ball*
 
@@ -130,6 +136,8 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 *REMOVE. 2026 in Arizona over unless injury settlement. Auto notes had IR status with a 1.0 multiplier — that is a miss.*
 
 ## Positive Developments
+
+**Aaron Jones** — POSITIVE | Aaron Jones Cleared for Sunday RB Minnesota Vikings October 30, 2026 Jones (knee) doesn't have an injury designation for Sunday's game against the Lions, Dane M
 
 **Rico Dowdle** — POSITIVE | That cleared the way for Rico Dowdle to take over the backfield.
 
@@ -144,8 +152,6 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 **Christian McCaffrey** — HEALTHY | Sleeper 'listed as Questionable' stub is not a ranking haircut. AP Aug 23 back at practice; NY Post Aug 28 expected Week 1.
 
 **Patrick Mahomes** — RETURNING | Starter. Fully cleared for camp practice (late July). Reid sitting entire preseason as a precaution — game-action still pending. On track to start Week 1 vs DEN
-
-**Malik Nabers** — RETURNING | Upgrade slightly. Running routes, ahead of schedule. Worst case misses 1-2 games.
 
 ## This Week's Best Values
 
@@ -162,4 +168,4 @@ An offer your roster can't refuse.
 
 ---
 
-*Auto-generated October 30, 2026 01:30 AM. Sources: FantasyPros, RotoWire, Sleeper, Yahoo.*
+*Auto-generated October 30, 2026 06:24 PM. Sources: FantasyPros, RotoWire, Sleeper, Yahoo.*

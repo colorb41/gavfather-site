@@ -1,63 +1,8 @@
 {
-  "updated_at": "2026-10-30T01:32:15",
+  "updated_at": "2026-10-30T18:26:47",
   "total_changes": 100,
-  "high_priority_count": 23,
+  "high_priority_count": 25,
   "changes": [
-    {
-      "timestamp": "2026-10-28T13:45:21",
-      "player_id": "12534",
-      "name": "Kyle Monangai",
-      "position": "RB",
-      "team": "CHI",
-      "overall_rank": 99,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Out -> Questionable",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-10-28T13:45:21",
-      "player_id": "13577",
-      "name": "Dallen Bentley",
-      "position": "TE",
-      "team": "DEN",
-      "overall_rank": 430,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Out -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-10-28T13:45:21",
-      "player_id": "11646",
-      "name": "Jalen Coker",
-      "position": "WR",
-      "team": "CAR",
-      "overall_rank": 169,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-10-28T13:45:21",
-      "player_id": "4995",
-      "name": "Ian Thomas",
-      "position": "TE",
-      "team": "LV",
-      "overall_rank": 270,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-10-28T13:45:21",
-      "player_id": "11199",
-      "name": "Emari Demercado",
-      "position": "RB",
-      "team": "DAL",
-      "overall_rank": 159,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Out -> Healthy",
-      "priority": "LOW"
-    },
     {
       "timestamp": "2026-10-28T13:45:21",
       "player_id": "12486",
@@ -1102,6 +1047,61 @@
       "change_type": "INJURY_IMPROVED",
       "detail": "Questionable -> Healthy",
       "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-10-30T07:28:09",
+      "player_id": "8167",
+      "name": "Christian Watson",
+      "position": "WR",
+      "team": "GB",
+      "overall_rank": 104,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Undisclosed)",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-10-30T18:24:10",
+      "player_id": "8154",
+      "name": "Brian Robinson Jr.",
+      "position": "RB",
+      "team": "ATL",
+      "overall_rank": null,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Questionable -> Out (Hamstring)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-10-30T18:24:10",
+      "player_id": "4881",
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "team": "BAL",
+      "overall_rank": 35,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-10-30T18:24:10",
+      "player_id": "12518",
+      "name": "Tyler Warren",
+      "position": "TE",
+      "team": "IND",
+      "overall_rank": 43,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-10-30T18:24:10",
+      "player_id": "12514",
+      "name": "Emeka Egbuka",
+      "position": "WR",
+      "team": "TB",
+      "overall_rank": 52,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Questionable -> Out (Foot)",
+      "priority": "HIGH"
     }
   ]
 }
