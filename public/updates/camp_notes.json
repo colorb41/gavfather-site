@@ -1,394 +1,348 @@
 {
-  "updated": "2026-10-30T18:24:43",
+  "updated": "2026-11-01T09:51:44",
   "source": "CampResearcher.v2",
   "override_count": 24,
-  "player_count": 74,
-  "news_items_processed": 311,
+  "player_count": 72,
+  "news_items_processed": 273,
   "players": {
-    "DJ Moore": {
-      "status": "MILD",
-      "injury": "DJ Moore (shoulder) listed questionable Sunday DJ Moore (shoulder) listed questionable Sunday Fri, Oct 30th 1:54pm EDT B",
-      "week1_outlook": "EXPECTED OK",
-      "ppg_multiplier": 0.93,
-      "ranking_note": "DJ Moore (shoulder) listed questionable Sunday Fri, Oct 30th 1:54pm EDT By Ari Koslow",
-      "impact": "MILD",
-      "source": "FantasyPros",
+    "Josh Jacobs": {
+      "status": "EXEMPT",
+      "injury": "Commissioner's exempt list since Aug 30; Sleeper injury_status NA (Personal). Still cannot practice or play. No reinstatement as of Oct 6 2026 — NFL review ongoing, no suspension length announced.",
+      "week1_outlook": "OUT — still on the Commissioner's Exempt List; not a weekly start",
+      "ppg_multiplier": 0.45,
+      "ranking_note": "STICKY: still exempt (Sleeper NA / Personal). Do not rank as a weekly starter. Data-update must not restore an active RB1 note. Lottery only until reinstated; Lloyd / Johnson get the work.",
+      "impact": "SEVERE",
+      "source": "Sleeper NA/Personal Oct 6 + ESPN/PFT — still exempt, no reinstatement",
       "headlines": [
-        "DJ Moore (shoulder) listed questionable Sunday",
-        "DJ Moore",
-        "DJ Moore - Questionable"
+        "STICKY: still exempt (Sleeper NA / Personal). Do not rank as a weekly starter. Data-update must not restore an active RB1 note. Lottery only until reinstated; Lloyd / Johnson get the work."
       ],
-      "old_rank": 110,
-      "new_rank": 116,
-      "old_ppg": 11.97,
-      "new_ppg": 11.13,
+      "old_rank": 40,
+      "new_rank": 216,
+      "old_ppg": 15.03,
+      "new_ppg": 6.76,
+      "position": "RB",
+      "team": "GB",
+      "updated": "2026-10-06",
+      "auto_generated": false,
+      "from_override": true
+    },
+    "Rashid Shaheed": {
+      "status": "SEVERE",
+      "injury": "Knee October 31",
+      "week1_outlook": "UNLIKELY",
+      "ppg_multiplier": 0.65,
+      "ranking_note": "Rashid Shaheed Ruled out for MNF WR Seattle Seahawks Knee October 31, 2026 Shaheed (knee) has been ruled out for Monday's game against the Bears, Curtis Crabtree of FOX 13 Seattle reports. ANALYSIS Subscribe now to instantly reveal our take",
+      "impact": "SEVERE",
+      "source": "RotoWire",
+      "headlines": [
+        "Rashid Shaheed"
+      ],
+      "old_rank": 196,
+      "new_rank": 356,
+      "old_ppg": 7.5,
+      "new_ppg": 4.88,
       "position": "WR",
-      "team": "BUF",
-      "updated": "2026-10-30",
+      "team": "SEA",
+      "updated": "2026-11-01",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "RJ Harvey": {
+      "status": "IR",
+      "injury": "Knee October 31",
+      "week1_outlook": "OUT — 4-game minimum; conservative return",
+      "ppg_multiplier": 0.5,
+      "ranking_note": "RJ Harvey Lands on injured reserve RB Denver Broncos Knee October 31, 2026 The Broncos placed Harvey (knee) on injured reserve Saturday, Ian Rapoport of NFL Network reports. ANALYSIS Subscribe now to instantly reveal our take on this news.",
+      "impact": "IR",
+      "source": "RotoWire",
+      "headlines": [
+        "RJ Harvey",
+        "RJ Harvey - IR"
+      ],
+      "old_rank": 143,
+      "new_rank": 342,
+      "old_ppg": 10.0,
+      "new_ppg": 5.0,
+      "position": "RB",
+      "team": "DEN",
+      "updated": "2026-11-01",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Colston Loveland": {
+      "status": "POSITIVE",
+      "injury": "Colston Loveland Colston Loveland Cleared for Monday Night Football TE Chicago Bears October 31, 2026 Loveland (neck) do",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.05,
+      "ranking_note": "Colston Loveland Cleared for Monday Night Football TE Chicago Bears October 31, 2026 Loveland (neck) does not carry an injury designation into Monday's game against the Seahawks. ANALYSIS Subscribe now to instantly reveal our take on this n",
+      "impact": "POSITIVE",
+      "source": "RotoWire",
+      "headlines": [
+        "Colston Loveland"
+      ],
+      "old_rank": 119,
+      "new_rank": 107,
+      "old_ppg": 11.0,
+      "new_ppg": 11.55,
+      "position": "TE",
+      "team": "CHI",
+      "updated": "2026-11-01",
       "auto_generated": true,
       "from_override": false
     },
     "TreVeyon Henderson": {
       "status": "MILD",
-      "injury": "TreVeyon Henderson (illness) listed questionable Sunday TreVeyon Henderson (illness) listed questionable Sunday Fri, Oct",
+      "injury": "TreVeyon Henderson TreVeyon Henderson Not available for Week 8 RB New England Patriots Illness October 31, 2026 Henderso",
       "week1_outlook": "EXPECTED OK",
       "ppg_multiplier": 0.93,
-      "ranking_note": "TreVeyon Henderson (illness) listed questionable Sunday Fri, Oct 30th 1:43pm EDT By Ari Koslow",
+      "ranking_note": "TreVeyon Henderson Not available for Week 8 RB New England Patriots Illness October 31, 2026 Henderson (illness) has been downgraded from questionable to out for Sunday's game against the Dolphins, Ian Rapoport of ESPN and NFL Network repor",
       "impact": "MILD",
-      "source": "FantasyPros",
+      "source": "RotoWire",
       "headlines": [
-        "TreVeyon Henderson (illness) listed questionable Sunday",
         "TreVeyon Henderson",
         "TreVeyon Henderson , Patriots (ankle) : Henderson hasn't practiced since Aug.",
-        "TreVeyon Henderson - Questionable"
+        "TreVeyon Henderson - Out"
       ],
-      "old_rank": 79,
-      "new_rank": 92,
-      "old_ppg": 12.92,
-      "new_ppg": 12.02,
+      "old_rank": 96,
+      "new_rank": 114,
+      "old_ppg": 12.02,
+      "new_ppg": 11.18,
       "position": "RB",
       "team": "NE",
-      "updated": "2026-10-30",
+      "updated": "2026-11-01",
       "auto_generated": true,
       "from_override": false
     },
     "A.J. Brown": {
-      "status": "MILD",
-      "injury": "knee/ankle) listed questionable Sunday A",
-      "week1_outlook": "EXPECTED OK",
-      "ppg_multiplier": 0.93,
-      "ranking_note": "A.J. Brown (knee/ankle) listed questionable Sunday Fri, Oct 30th 1:41pm EDT By Ari Koslow",
-      "impact": "MILD",
-      "source": "FantasyPros",
+      "status": "SEVERE",
+      "injury": "knee/ankle) has been ruled out for Sunday's",
+      "week1_outlook": "UNLIKELY",
+      "ppg_multiplier": 0.65,
+      "ranking_note": "A.J. Brown Won't play against Miami WR New England Patriots Ankle October 31, 2026 Brown (knee/ankle) has been ruled out for Sunday's game against the Dolphins, Ian Rapoport of ESPN and NFL Network reports. ANALYSIS Subscribe now to instant",
+      "impact": "SEVERE",
+      "source": "RotoWire",
       "headlines": [
-        "A.J. Brown (knee/ankle) listed questionable Sunday",
         "A.J. Brown",
-        "A.J. Brown - Questionable"
+        "A.J. Brown - Out"
       ],
-      "old_rank": 48,
-      "new_rank": 68,
-      "old_ppg": 14.35,
-      "new_ppg": 13.35,
+      "old_rank": 70,
+      "new_rank": 156,
+      "old_ppg": 13.35,
+      "new_ppg": 8.68,
       "position": "WR",
       "team": "NE",
-      "updated": "2026-10-30",
+      "updated": "2026-11-01",
       "auto_generated": true,
       "from_override": false
     },
-    "Aaron Jones": {
-      "status": "POSITIVE",
-      "injury": "knee) doesn't have an injury designation for",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.05,
-      "ranking_note": "Aaron Jones Cleared for Sunday RB Minnesota Vikings October 30, 2026 Jones (knee) doesn't have an injury designation for Sunday's game against the Lions, Dane Mizutani of the St. Paul Pioneer Press reports. ANALYSIS Subscribe now to instant",
-      "impact": "POSITIVE",
-      "source": "RotoWire",
-      "headlines": [
-        "Aaron Jones"
-      ],
-      "old_rank": 75,
-      "new_rank": 55,
-      "old_ppg": 13.0,
-      "new_ppg": 13.65,
-      "position": "RB",
-      "team": "MIN",
-      "updated": "2026-10-30",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Rashee Rice": {
-      "status": "HEALTHY",
-      "injury": "None",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Healthy and practicing. No current hold.",
-      "impact": "NEUTRAL",
-      "source": "Camp research Aug 29 — dropped stale Aug 5 suspension overlay",
-      "headlines": [
-        "Healthy and practicing. No current hold."
-      ],
-      "old_rank": 49,
-      "new_rank": 46,
-      "old_ppg": 14.34,
-      "new_ppg": 14.34,
-      "position": "WR",
-      "team": "KC",
-      "updated": "2026-08-29",
-      "auto_generated": false,
-      "from_override": true
-    },
-    "Kenny Gainwell": {
-      "status": "MILD",
-      "injury": "Kenny Gainwell Kenny Gainwell Questionable for Week 8 RB Tampa Bay Buccaneers Hip October 30, 2026 Gainwell (hip) is que",
-      "week1_outlook": "EXPECTED OK",
-      "ppg_multiplier": 0.93,
-      "ranking_note": "Kenny Gainwell Questionable for Week 8 RB Tampa Bay Buccaneers Hip October 30, 2026 Gainwell (hip) is questionable for Sunday's game against the Falcons. ANALYSIS Subscribe now to instantly reveal our take on this news.",
-      "impact": "MILD",
-      "source": "RotoWire",
-      "headlines": [
-        "Kenny Gainwell"
-      ],
-      "old_rank": 135,
-      "new_rank": 149,
-      "old_ppg": 10.2,
-      "new_ppg": 9.49,
-      "position": "RB",
-      "team": "TB",
-      "updated": "2026-10-30",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Michael Wilson": {
+    "Kyle Monangai": {
       "status": "NEUTRAL",
-      "injury": "Michael Wilson Michael Wilson Slated to play Sunday WR Arizona Cardinals Ribs October 30, 2026 Head coach Mike LaFleur s",
+      "injury": "Kyle Monangai Kyle Monangai Won't play against Seattle RB Chicago Bears Thumb October 31, 2026 Head coach Ben Johnson to",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "Michael Wilson Slated to play Sunday WR Arizona Cardinals Ribs October 30, 2026 Head coach Mike LaFleur said Friday that Wilson (ribs) is expected to play Sunday at Dallas, Theo Mackie of The Arizona Republic reports. ANALYSIS Subscribe now",
+      "ranking_note": "Kyle Monangai Won't play against Seattle RB Chicago Bears Thumb October 31, 2026 Head coach Ben Johnson told reporters Saturday that Monangai (thumb/toe) will not play against the Seahawks on Monday, Courtney Cronin of ESPN.com reports. ANA",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "Michael Wilson"
+        "Kyle Monangai",
+        "Kyle Monangai, CHI (knee) — remains week-to-week"
       ],
-      "old_rank": 148,
-      "new_rank": 143,
+      "old_rank": 140,
+      "new_rank": 136,
+      "old_ppg": 10.0,
+      "new_ppg": 10.0,
+      "position": "RB",
+      "team": "CHI",
+      "updated": "2026-11-01",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Carnell Tate": {
+      "status": "NEUTRAL",
+      "injury": "Carnell Tate Carnell Tate Expected back after bye WR Tennessee Titans Shoulder October 31, 2026 Tate (shoulder) will not",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Carnell Tate Expected back after bye WR Tennessee Titans Shoulder October 31, 2026 Tate (shoulder) will not play against the Bengals on Sunday but is expected to be back in action following the Titans' bye for Week 10 against the Jaguars on",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Carnell Tate"
+      ],
+      "old_rank": 145,
+      "new_rank": 139,
       "old_ppg": 10.0,
       "new_ppg": 10.0,
       "position": "WR",
-      "team": "ARI",
-      "updated": "2026-10-30",
+      "team": "TEN",
+      "updated": "2026-11-01",
       "auto_generated": true,
       "from_override": false
     },
-    "Saquon Barkley": {
+    "Jonathan Taylor": {
       "status": "NEUTRAL",
-      "injury": "Hamstring October 30",
+      "injury": "Jonathan Taylor Jonathan Taylor Trade talks heating up RB Indianapolis Colts October 31, 2026 Taylor is being made avail",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "Saquon Barkley Hopes to play Sunday night RB Philadelphia Eagles Hamstring October 30, 2026 Barkley (hamstring/back) said Friday that he hopes to play in Sunday night's game against the Commanders, Jimmy Kempski of PhillyVoice.com reports. ",
+      "ranking_note": "Jonathan Taylor Trade talks heating up RB Indianapolis Colts October 31, 2026 Taylor is being made available via trade by the Colts, Adam Schefter of ESPN reports. ANALYSIS Subscribe now to instantly reveal our take on this news.",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "Saquon Barkley"
+        "Jonathan Taylor"
       ],
-      "old_rank": 46,
-      "new_rank": 45,
-      "old_ppg": 14.69,
-      "new_ppg": 14.69,
+      "old_rank": 8,
+      "new_rank": 9,
+      "old_ppg": 20.67,
+      "new_ppg": 20.67,
       "position": "RB",
-      "team": "PHI",
-      "updated": "2026-10-30",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Dalton Kincaid": {
-      "status": "MILD",
-      "injury": "Dalton Kincaid Dalton Kincaid Listed as questionable for Sunday TE Buffalo Bills Chest October 30, 2026 Kincaid (chest) ",
-      "week1_outlook": "EXPECTED OK",
-      "ppg_multiplier": 0.93,
-      "ranking_note": "Dalton Kincaid Listed as questionable for Sunday TE Buffalo Bills Chest October 30, 2026 Kincaid (chest) is listed as questionable for Sunday's game against the Ravens, Katherine Fitzgerald of The Buffalo News reports. ANALYSIS Subscribe no",
-      "impact": "MILD",
-      "source": "RotoWire",
-      "headlines": [
-        "Dalton Kincaid"
-      ],
-      "old_rank": 163,
-      "new_rank": 173,
-      "old_ppg": 8.74,
-      "new_ppg": 8.13,
-      "position": "TE",
-      "team": "BUF",
-      "updated": "2026-10-30",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Jeremiyah Love": {
-      "status": "NEUTRAL",
-      "injury": "Jeremiyah Love Jeremiyah Love In line to play Sunday RB Arizona Cardinals Ankle October 30, 2026 Coach Mike LaFleur said",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Jeremiyah Love In line to play Sunday RB Arizona Cardinals Ankle October 30, 2026 Coach Mike LaFleur said Friday that Love (ankle) is expected to play in Sunday's game against the Cowboys, Darren Urban of the Cardinals' official site report",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Jeremiyah Love"
-      ],
-      "old_rank": 65,
-      "new_rank": 63,
-      "old_ppg": 13.5,
-      "new_ppg": 13.5,
-      "position": "RB",
-      "team": "ARI",
-      "updated": "2026-10-30",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Lamar Jackson": {
-      "status": "NEUTRAL",
-      "injury": "irmed Friday that Jackson (ankle) will pla",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Lamar Jackson Will play Sunday QB Baltimore Ravens October 30, 2026 Ravens coach Jesse Minter confirmed Friday that Jackson (ankle) will play in Sunday's game at Buffalo, Brian Wacker of The Baltimore Sun reports. ANALYSIS Subscribe now to ",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Lamar Jackson"
-      ],
-      "old_rank": 3,
-      "new_rank": 2,
-      "old_ppg": 21.83,
-      "new_ppg": 21.83,
-      "position": "QB",
-      "team": "BAL",
-      "updated": "2026-10-30",
+      "team": "IND",
+      "updated": "2026-11-01",
       "auto_generated": true,
       "from_override": false
     },
     "Josh Downs": {
       "status": "NEUTRAL",
-      "injury": "Josh Downs Josh Downs Will play Sunday WR Indianapolis Colts October 30, 2026 Colts coach Shan Steichen said Friday that",
+      "injury": "Josh Downs Josh Downs Set for normal role despite trade request WR Indianapolis Colts October 30, 2026 Colts head coach ",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "Josh Downs Will play Sunday WR Indianapolis Colts October 30, 2026 Colts coach Shan Steichen said Friday that Downs will play Sunday against the Jaguars, Mike Chappell of Fox 59 News Indianapolis reports. ANALYSIS Subscribe now to instantly",
+      "ranking_note": "Josh Downs Set for normal role despite trade request WR Indianapolis Colts October 30, 2026 Colts head coach Shane Steichen said Friday that Downs will perform his usual role Sunday against Jacksonville in spite of the fact that he requeste",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
         "Josh Downs"
       ],
-      "old_rank": 171,
-      "new_rank": 165,
+      "old_rank": 167,
+      "new_rank": 163,
       "old_ppg": 8.5,
       "new_ppg": 8.5,
       "position": "WR",
       "team": "IND",
-      "updated": "2026-10-30",
+      "updated": "2026-11-01",
       "auto_generated": true,
       "from_override": false
     },
-    "Brian Robinson": {
-      "status": "SEVERE",
-      "injury": "Hamstring October 30",
-      "week1_outlook": "UNLIKELY",
-      "ppg_multiplier": 0.65,
-      "ranking_note": "Brian Robinson Won't play Sunday RB Atlanta Falcons Hamstring October 30, 2026 Robinson (hamstring) has been ruled out for Sunday's game at Tampa Bay, Will McFadden of the Falcons' official site reports. ANALYSIS Subscribe now to instantly ",
-      "impact": "SEVERE",
-      "source": "RotoWire",
-      "headlines": [
-        "Brian Robinson"
-      ],
-      "old_rank": 229,
-      "new_rank": 405,
-      "old_ppg": 6.53,
-      "new_ppg": 4.24,
-      "position": "RB",
-      "team": "ATL",
-      "updated": "2026-10-30",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Tyler Warren": {
+    "Ladd McConkey": {
       "status": "NEUTRAL",
-      "injury": "Tyler Warren Tyler Warren Will play Sunday TE Indianapolis Colts October 30, 2026 Warren (groin) is good to go for Sunda",
+      "injury": "hamstring) are set to return to action",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "Tyler Warren Will play Sunday TE Indianapolis Colts October 30, 2026 Warren (groin) is good to go for Sunday's game against the Jaguars, Mike Chappell of FOX59 reports. ANALYSIS Subscribe now to instantly reveal our take on this news.",
+      "ranking_note": "Lambert-Smith is likely to drop down the wideout pecking order Sunday versus the Rams, as Eric Smith of the Chargers' official site reports that both Ladd McConkey (concussion) and Tre' Harris (hamstring) are set to return to action.",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "Tyler Warren",
-        "Tyler Warren , Colts (groin) : Warren was back at practice on Tuesday and should be good to go for Week 1."
+        "Eric Smith of the Chargers' official site"
       ],
-      "old_rank": 121,
-      "new_rank": 118,
-      "old_ppg": 11.0,
-      "new_ppg": 11.0,
-      "position": "TE",
-      "team": "IND",
-      "updated": "2026-10-30",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Emeka Egbuka": {
-      "status": "SEVERE",
-      "injury": "Emeka Egbuka Emeka Egbuka Ruled out for Week 8 WR Tampa Bay Buccaneers Foot October 30, 2026 Egbuka (foot) has been rule",
-      "week1_outlook": "UNLIKELY",
-      "ppg_multiplier": 0.65,
-      "ranking_note": "Emeka Egbuka Ruled out for Week 8 WR Tampa Bay Buccaneers Foot October 30, 2026 Egbuka (foot) has been ruled out for Sunday's game against the Falcons, Scott Smith of the Bucs' official site reports. ANALYSIS Subscribe now to instantly reve",
-      "impact": "SEVERE",
-      "source": "RotoWire",
-      "headlines": [
-        "Emeka Egbuka"
-      ],
-      "old_rank": 94,
-      "new_rank": 174,
-      "old_ppg": 12.5,
-      "new_ppg": 8.12,
+      "old_rank": 106,
+      "new_rank": 102,
+      "old_ppg": 12.0,
+      "new_ppg": 12.0,
       "position": "WR",
-      "team": "TB",
-      "updated": "2026-10-30",
+      "team": "LAC",
+      "updated": "2026-11-01",
       "auto_generated": true,
       "from_override": false
     },
-    "Dontayvion Wicks": {
-      "status": "NEUTRAL",
-      "injury": "irds",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Dontayvion Wicks Absent from Friday's practice WR Philadelphia Eagles Ankle October 30, 2026 Wicks (ankle) wasn't spotted at the start of Friday's practice, Andrew DiCecco of InsideTheBirds.com reports. ANALYSIS Subscribe now to instantly r",
-      "impact": "NEUTRAL",
-      "source": "RotoWire",
-      "headlines": [
-        "Dontayvion Wicks"
-      ],
-      "old_rank": 254,
-      "new_rank": 248,
-      "old_ppg": 6.21,
-      "new_ppg": 6.21,
-      "position": "WR",
-      "team": "PHI",
-      "updated": "2026-10-30",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "DeVonta Smith": {
+    "Calvin Ridley": {
       "status": "MILD",
-      "injury": "DeVonta Smith - Questionable DeVonta Smith listed as Questionable",
+      "injury": "Calvin Ridley Calvin Ridley Questionable for Week 8 WR Tennessee Titans Hip October 30, 2026 Ridley (hip) is officially ",
       "week1_outlook": "EXPECTED OK",
       "ppg_multiplier": 0.93,
-      "ranking_note": "DeVonta Smith listed as Questionable. ",
+      "ranking_note": "Calvin Ridley Questionable for Week 8 WR Tennessee Titans Hip October 30, 2026 Ridley (hip) is officially questionable for Sunday's matchup against Cincinnati. ANALYSIS Subscribe now to instantly reveal our take on this news.",
       "impact": "MILD",
-      "source": "Sleeper",
+      "source": "RotoWire",
       "headlines": [
-        "DeVonta Smith",
-        "DeVonta Smith - Questionable"
+        "Calvin Ridley"
       ],
-      "old_rank": 91,
-      "new_rank": 106,
-      "old_ppg": 12.5,
-      "new_ppg": 11.62,
+      "old_rank": 161,
+      "new_rank": 171,
+      "old_ppg": 8.77,
+      "new_ppg": 8.16,
       "position": "WR",
-      "team": "PHI",
-      "updated": "2026-10-30",
+      "team": "TEN",
+      "updated": "2026-11-01",
       "auto_generated": true,
       "from_override": false
     },
-    "Bryce Young": {
+    "Elic Ayomanor": {
+      "status": "SEVERE",
+      "injury": "Elic Ayomanor Elic Ayomanor Expanded role for Week 8 sans Tate WR Tennessee Titans October 30, 2026 Carnell Tate (should",
+      "week1_outlook": "UNLIKELY",
+      "ppg_multiplier": 0.65,
+      "ranking_note": "Elic Ayomanor Expanded role for Week 8 sans Tate WR Tennessee Titans October 30, 2026 Carnell Tate (shoulder) has been ruled out for Sunday's game against the Bengals, leaving Ayomanor and Wan'Dale Robinson as the top wide receivers in the ",
+      "impact": "SEVERE",
+      "source": "RotoWire",
+      "headlines": [
+        "Elic Ayomanor"
+      ],
+      "old_rank": 268,
+      "new_rank": 432,
+      "old_ppg": 6.02,
+      "new_ppg": 3.91,
+      "position": "WR",
+      "team": "TEN",
+      "updated": "2026-11-01",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Wan'Dale Robinson": {
       "status": "NEUTRAL",
-      "injury": "knee issue QB Carolina Panthers October 30",
+      "injury": "Wan'Dale Robinson Wan'Dale Robinson Bigger role on tap without Tate WR Tennessee Titans October 30, 2026 Robinson and th",
       "week1_outlook": "FULL GO",
       "ppg_multiplier": 1.0,
-      "ranking_note": "Bryce Young Playing through left knee issue QB Carolina Panthers October 30, 2026 Young has been playing through a left knee issue since initially suffering the injury in Week 3 against the Browns, Mike Kaye of ESPN.com reports. ANALYSIS Su",
+      "ranking_note": "Wan'Dale Robinson Bigger role on tap without Tate WR Tennessee Titans October 30, 2026 Robinson and the other pass catchers will operate in elevated roles against the Bengals on Sunday due to the absence of rookie fourth overall pick Carnel",
       "impact": "NEUTRAL",
       "source": "RotoWire",
       "headlines": [
-        "Bryce Young"
+        "Wan'Dale Robinson"
       ],
-      "old_rank": 38,
-      "new_rank": 38,
-      "old_ppg": 15.25,
-      "new_ppg": 15.25,
-      "position": "QB",
-      "team": "CAR",
-      "updated": "2026-10-30",
+      "old_rank": 148,
+      "new_rank": 143,
+      "old_ppg": 9.8,
+      "new_ppg": 9.8,
+      "position": "WR",
+      "team": "TEN",
+      "updated": "2026-11-01",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Tony Pollard": {
+      "status": "NEUTRAL",
+      "injury": "knee)",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Tony Pollard No Spears for Week 8 RB Tennessee Titans October 30, 2026 Pollard will have a chance to easily pace the Titans backfield against Cincinnati on Sunday due to the absence of Tyjae Spears (knee), Jim Wyatt of the Titans' official ",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Tony Pollard"
+      ],
+      "old_rank": 133,
+      "new_rank": 129,
+      "old_ppg": 10.2,
+      "new_ppg": 10.2,
+      "position": "RB",
+      "team": "TEN",
+      "updated": "2026-11-01",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "Tyjae Spears": {
+      "status": "NEUTRAL",
+      "injury": "knee)",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Pollard will have a chance to easily pace the Titans backfield against Cincinnati on Sunday due to the absence of Tyjae Spears (knee), Jim Wyatt of the Titans' official site reports.",
+      "impact": "NEUTRAL",
+      "source": "RotoWire",
+      "headlines": [
+        "Tyjae Spears"
+      ],
+      "old_rank": 137,
+      "new_rank": 137,
+      "old_ppg": 10.0,
+      "new_ppg": 10.0,
+      "position": "RB",
+      "team": "TEN",
+      "updated": "2026-11-01",
       "auto_generated": true,
       "from_override": false
     },
@@ -405,8 +359,8 @@
       ],
       "old_rank": 2,
       "new_rank": 5,
-      "old_ppg": 22.41,
-      "new_ppg": 21.29,
+      "old_ppg": 22.42,
+      "new_ppg": 21.3,
       "position": "QB",
       "team": "KC",
       "updated": "2026-08-30",
@@ -424,13 +378,13 @@
       "headlines": [
         "That cleared the way for Rico Dowdle to take over the backfield."
       ],
-      "old_rank": 116,
-      "new_rank": 103,
+      "old_rank": 115,
+      "new_rank": 104,
       "old_ppg": 11.35,
       "new_ppg": 11.92,
       "position": "RB",
       "team": "PIT",
-      "updated": "2026-10-30",
+      "updated": "2026-11-01",
       "auto_generated": true,
       "from_override": false
     },
@@ -451,7 +405,7 @@
       "new_ppg": 18.34,
       "position": "WR",
       "team": "LAR",
-      "updated": "2026-10-30",
+      "updated": "2026-11-01",
       "auto_generated": true,
       "from_override": false
     },
@@ -476,26 +430,26 @@
       "auto_generated": false,
       "from_override": true
     },
-    "Alec Pierce": {
-      "status": "IR",
-      "injury": "Heel; aggravated surgically repaired heel Week 2 vs KC; Colts placed on IR ~Sep 26 2026",
-      "week1_outlook": "OUT — IR 4-game minimum; earliest return Week 7 at MIN (Oct 25); not season-ending",
-      "ppg_multiplier": 0.5,
-      "ranking_note": "Official IR (heel). Minimum 4 games; earliest Week 7. Conservative lottery until designated to return — do not use stale Aug RETURNING/ramp note. STICKY: data-update must not restore RETURNING x0.90.",
-      "impact": "SEVERE",
-      "source": "ESPN / Reuters / Colts release Sep 23–26 2026",
+    "Tyler Warren": {
+      "status": "NEUTRAL",
+      "injury": "Tyler Warren , Colts (groin) : Warren was back at practice on Tuesday and should be good to go for Week 1",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Tyler Warren , Colts (groin) : Warren was back at practice on Tuesday and should be good to go for Week 1.",
+      "impact": "NEUTRAL",
+      "source": "Yahoo Sports",
       "headlines": [
-        "Official IR (heel). Minimum 4 games; earliest Week 7. Conservative lottery until designated to return — do not use stale Aug RETURNING/ramp note. STICKY: data-update must not restore RETURNING x0.90."
+        "Tyler Warren , Colts (groin) : Warren was back at practice on Tuesday and should be good to go for Week 1."
       ],
-      "old_rank": 278,
-      "new_rank": 555,
-      "old_ppg": 6.0,
-      "new_ppg": 3.0,
-      "position": "WR",
+      "old_rank": 120,
+      "new_rank": 117,
+      "old_ppg": 11.0,
+      "new_ppg": 11.0,
+      "position": "TE",
       "team": "IND",
-      "updated": "2026-09-27",
-      "auto_generated": false,
-      "from_override": true
+      "updated": "2026-11-01",
+      "auto_generated": true,
+      "from_override": false
     },
     "Tucker Kraft": {
       "status": "RETURNING",
@@ -508,8 +462,8 @@
       "headlines": [
         "Rising sleeper TE. Ahead of schedule. GB passing game benefits."
       ],
-      "old_rank": 120,
-      "new_rank": 107,
+      "old_rank": 121,
+      "new_rank": 108,
       "old_ppg": 11.0,
       "new_ppg": 11.55,
       "position": "TE",
@@ -530,33 +484,12 @@
         "Breece Hall, NYJ (groin) — on track to play Week 1"
       ],
       "old_rank": 66,
-      "new_rank": 61,
+      "new_rank": 62,
       "old_ppg": 13.5,
       "new_ppg": 13.5,
       "position": "RB",
       "team": "NYJ",
-      "updated": "2026-10-30",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Kyle Monangai": {
-      "status": "NEUTRAL",
-      "injury": "knee) — remains week-to-week Kyle Monangai",
-      "week1_outlook": "FULL GO",
-      "ppg_multiplier": 1.0,
-      "ranking_note": "Kyle Monangai, CHI (knee) — remains week-to-week",
-      "impact": "NEUTRAL",
-      "source": "Yahoo Sports",
-      "headlines": [
-        "Kyle Monangai, CHI (knee) — remains week-to-week"
-      ],
-      "old_rank": 139,
-      "new_rank": 135,
-      "old_ppg": 10.0,
-      "new_ppg": 10.0,
-      "position": "RB",
-      "team": "CHI",
-      "updated": "2026-10-30",
+      "updated": "2026-11-01",
       "auto_generated": true,
       "from_override": false
     },
@@ -571,8 +504,8 @@
       "headlines": [
         "Pearsall is the 49er done for 2026, not Evans. SF WR1. Nagging camp injuries; 33 with history. Conservative ramp, not a zero. Revisit if he sits Australia."
       ],
-      "old_rank": 89,
-      "new_rank": 111,
+      "old_rank": 88,
+      "new_rank": 112,
       "old_ppg": 12.54,
       "new_ppg": 11.29,
       "position": "WR",
@@ -619,28 +552,7 @@
       "new_ppg": 1.81,
       "position": "TE",
       "team": "SF",
-      "updated": "2026-10-30",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "Ladd McConkey": {
-      "status": "MILD",
-      "injury": "Ladd McConkey - Questionable Ladd McConkey listed as Questionable",
-      "week1_outlook": "EXPECTED OK",
-      "ppg_multiplier": 0.93,
-      "ranking_note": "Ladd McConkey listed as Questionable. ",
-      "impact": "MILD",
-      "source": "Sleeper",
-      "headlines": [
-        "Ladd McConkey - Questionable"
-      ],
-      "old_rank": 101,
-      "new_rank": 115,
-      "old_ppg": 12.0,
-      "new_ppg": 11.16,
-      "position": "WR",
-      "team": "LAC",
-      "updated": "2026-10-30",
+      "updated": "2026-11-01",
       "auto_generated": true,
       "from_override": false
     },
@@ -655,13 +567,13 @@
       "headlines": [
         "Davante Adams - IR"
       ],
-      "old_rank": 205,
+      "old_rank": 206,
       "new_rank": 462,
       "old_ppg": 7.21,
       "new_ppg": 3.6,
       "position": "WR",
       "team": "LAR",
-      "updated": "2026-10-30",
+      "updated": "2026-11-01",
       "auto_generated": true,
       "from_override": false
     },
@@ -676,34 +588,13 @@
       "headlines": [
         "James Conner - IR"
       ],
-      "old_rank": 298,
+      "old_rank": 297,
       "new_rank": 564,
       "old_ppg": 5.81,
       "new_ppg": 2.9,
       "position": "RB",
       "team": "ARI",
-      "updated": "2026-10-30",
-      "auto_generated": true,
-      "from_override": false
-    },
-    "RJ Harvey": {
-      "status": "MILD",
-      "injury": "RJ Harvey - Questionable RJ Harvey listed as Questionable",
-      "week1_outlook": "EXPECTED OK",
-      "ppg_multiplier": 0.93,
-      "ranking_note": "RJ Harvey listed as Questionable. ",
-      "impact": "MILD",
-      "source": "Sleeper",
-      "headlines": [
-        "RJ Harvey - Questionable"
-      ],
-      "old_rank": 145,
-      "new_rank": 150,
-      "old_ppg": 10.0,
-      "new_ppg": 9.3,
-      "position": "RB",
-      "team": "DEN",
-      "updated": "2026-10-30",
+      "updated": "2026-11-01",
       "auto_generated": true,
       "from_override": false
     },
@@ -728,24 +619,45 @@
       "auto_generated": false,
       "from_override": true
     },
-    "KaVontae Turpin": {
+    "DJ Moore": {
       "status": "MILD",
-      "injury": "KaVontae Turpin - Questionable KaVontae Turpin listed as Questionable",
+      "injury": "DJ Moore - Questionable DJ Moore listed as Questionable",
       "week1_outlook": "EXPECTED OK",
       "ppg_multiplier": 0.93,
-      "ranking_note": "KaVontae Turpin listed as Questionable. ",
+      "ranking_note": "DJ Moore listed as Questionable. ",
       "impact": "MILD",
       "source": "Sleeper",
       "headlines": [
-        "KaVontae Turpin - Questionable"
+        "DJ Moore - Questionable"
       ],
-      "old_rank": 244,
-      "new_rank": 285,
+      "old_rank": 118,
+      "new_rank": 126,
+      "old_ppg": 11.14,
+      "new_ppg": 10.36,
+      "position": "WR",
+      "team": "BUF",
+      "updated": "2026-11-01",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "KaVontae Turpin": {
+      "status": "NEUTRAL",
+      "injury": "KaVontae Turpin - Out KaVontae Turpin listed as Out",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "KaVontae Turpin listed as Out. ",
+      "impact": "NEUTRAL",
+      "source": "Sleeper",
+      "headlines": [
+        "KaVontae Turpin - Out"
+      ],
+      "old_rank": 243,
+      "new_rank": 237,
       "old_ppg": 6.35,
-      "new_ppg": 5.91,
+      "new_ppg": 6.35,
       "position": "WR",
       "team": "DAL",
-      "updated": "2026-10-30",
+      "updated": "2026-11-01",
       "auto_generated": true,
       "from_override": false
     },
@@ -760,13 +672,34 @@
       "headlines": [
         "De'Von Achane - IR"
       ],
-      "old_rank": 156,
-      "new_rank": 378,
+      "old_rank": 155,
+      "new_rank": 377,
       "old_ppg": 9.09,
       "new_ppg": 4.54,
       "position": "RB",
       "team": "MIA",
-      "updated": "2026-10-30",
+      "updated": "2026-11-01",
+      "auto_generated": true,
+      "from_override": false
+    },
+    "DeVonta Smith": {
+      "status": "NEUTRAL",
+      "injury": "DeVonta Smith - Out DeVonta Smith listed as Out",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "DeVonta Smith listed as Out. ",
+      "impact": "NEUTRAL",
+      "source": "Sleeper",
+      "headlines": [
+        "DeVonta Smith - Out"
+      ],
+      "old_rank": 90,
+      "new_rank": 87,
+      "old_ppg": 12.5,
+      "new_ppg": 12.5,
+      "position": "WR",
+      "team": "PHI",
+      "updated": "2026-11-01",
       "auto_generated": true,
       "from_override": false
     },
@@ -781,13 +714,13 @@
       "headlines": [
         "Travis Etienne Jr. - IR"
       ],
-      "old_rank": 329,
-      "new_rank": 585,
+      "old_rank": 328,
+      "new_rank": 586,
       "old_ppg": 5.46,
       "new_ppg": 2.73,
       "position": "RB",
       "team": "NO",
-      "updated": "2026-10-30",
+      "updated": "2026-11-01",
       "auto_generated": true,
       "from_override": false
     },
@@ -802,15 +735,36 @@
       "headlines": [
         "David Njoku - IR"
       ],
-      "old_rank": 464,
+      "old_rank": 465,
       "new_rank": 670,
       "old_ppg": 3.69,
       "new_ppg": 1.84,
       "position": "TE",
       "team": "LAC",
-      "updated": "2026-10-30",
+      "updated": "2026-11-01",
       "auto_generated": true,
       "from_override": false
+    },
+    "Alec Pierce": {
+      "status": "IR",
+      "injury": "Heel; aggravated surgically repaired heel Week 2 vs KC; Colts placed on IR ~Sep 26 2026",
+      "week1_outlook": "OUT — IR 4-game minimum; earliest return Week 7 at MIN (Oct 25); not season-ending",
+      "ppg_multiplier": 0.5,
+      "ranking_note": "Official IR (heel). Minimum 4 games; earliest Week 7. Conservative lottery until designated to return — do not use stale Aug RETURNING/ramp note. STICKY: data-update must not restore RETURNING x0.90.",
+      "impact": "SEVERE",
+      "source": "ESPN / Reuters / Colts release Sep 23–26 2026",
+      "headlines": [
+        "Official IR (heel). Minimum 4 games; earliest Week 7. Conservative lottery until designated to return — do not use stale Aug RETURNING/ramp note. STICKY: data-update must not restore RETURNING x0.90."
+      ],
+      "old_rank": 272,
+      "new_rank": 554,
+      "old_ppg": 6.0,
+      "new_ppg": 3.0,
+      "position": "",
+      "team": "",
+      "updated": "2026-09-27",
+      "auto_generated": false,
+      "from_override": true
     },
     "Tyrone Tracy Jr.": {
       "status": "IR",
@@ -824,7 +778,7 @@
         "Tyrone Tracy"
       ],
       "old_rank": 379,
-      "new_rank": 640,
+      "new_rank": 641,
       "old_ppg": 8.73,
       "new_ppg": 4.37,
       "position": "RB",
@@ -844,8 +798,8 @@
       "headlines": [
         "Terrance Ferguson - IR"
       ],
-      "old_rank": 600,
-      "new_rank": 687,
+      "old_rank": 597,
+      "new_rank": 686,
       "old_ppg": 2.75,
       "new_ppg": 1.38,
       "position": "TE",
@@ -865,8 +819,8 @@
       "headlines": [
         "Jadarian Price - IR"
       ],
-      "old_rank": 352,
-      "new_rank": 603,
+      "old_rank": 350,
+      "new_rank": 605,
       "old_ppg": 5.1,
       "new_ppg": 2.55,
       "position": "RB",
@@ -907,8 +861,8 @@
       "headlines": [
         "Jonathon Brooks - IR"
       ],
-      "old_rank": 350,
-      "new_rank": 605,
+      "old_rank": 349,
+      "new_rank": 606,
       "old_ppg": 5.1,
       "new_ppg": 2.55,
       "position": "RB",
@@ -928,8 +882,8 @@
       "headlines": [
         "Michael Pittman Jr. - IR"
       ],
-      "old_rank": 347,
-      "new_rank": 599,
+      "old_rank": 346,
+      "new_rank": 600,
       "old_ppg": 5.17,
       "new_ppg": 2.58,
       "position": "WR",
@@ -949,7 +903,7 @@
       "headlines": [
         "Brashard Smith - IR"
       ],
-      "old_rank": 592,
+      "old_rank": 593,
       "new_rank": 685,
       "old_ppg": 5.56,
       "new_ppg": 2.78,
@@ -970,7 +924,7 @@
       "headlines": [
         "Josh Oliver - IR"
       ],
-      "old_rank": 621,
+      "old_rank": 622,
       "new_rank": 693,
       "old_ppg": 2.52,
       "new_ppg": 1.26,
@@ -1036,7 +990,7 @@
         "Isiah Pacheco - IR"
       ],
       "old_rank": 418,
-      "new_rank": 649,
+      "new_rank": 650,
       "old_ppg": 4.25,
       "new_ppg": 2.12,
       "position": "RB",
@@ -1056,7 +1010,7 @@
       "headlines": [
         "Romeo Doubs - IR"
       ],
-      "old_rank": 353,
+      "old_rank": 352,
       "new_rank": 607,
       "old_ppg": 10.16,
       "new_ppg": 5.08,
@@ -1100,8 +1054,8 @@
         "Jalen Hurts",
         "Jalen Hurts - IR"
       ],
-      "old_rank": 113,
-      "new_rank": 294,
+      "old_rank": 112,
+      "new_rank": 291,
       "old_ppg": 23.33,
       "new_ppg": 11.66,
       "position": "QB",
@@ -1121,8 +1075,8 @@
       "headlines": [
         "Raheim Sanders - IR"
       ],
-      "old_rank": 510,
-      "new_rank": 677,
+      "old_rank": 509,
+      "new_rank": 676,
       "old_ppg": 4.32,
       "new_ppg": 2.16,
       "position": "RB",
@@ -1166,7 +1120,7 @@
         "Chris Brooks",
         "Chris Brooks - IR"
       ],
-      "old_rank": 646,
+      "old_rank": 630,
       "new_rank": 694,
       "old_ppg": 4.63,
       "new_ppg": 2.31,
@@ -1208,8 +1162,8 @@
       "headlines": [
         "Pat Bryant - IR"
       ],
-      "old_rank": 596,
-      "new_rank": 686,
+      "old_rank": 603,
+      "new_rank": 687,
       "old_ppg": 5.5,
       "new_ppg": 2.75,
       "position": "WR",
@@ -1250,8 +1204,8 @@
       "headlines": [
         "Isaac Guerendo - PUP"
       ],
-      "old_rank": 509,
-      "new_rank": 676,
+      "old_rank": 510,
+      "new_rank": 677,
       "old_ppg": 6.35,
       "new_ppg": 3.17,
       "position": "RB",
@@ -1292,7 +1246,7 @@
       "headlines": [
         "Tip Reiman - PUP"
       ],
-      "old_rank": 814,
+      "old_rank": 813,
       "new_rank": 814,
       "old_ppg": 3.5,
       "new_ppg": 1.75,
@@ -1398,33 +1352,12 @@
         "Off PUP Aug 23 — remaining on PUP through cutdown would have locked Weeks 1–4 and that did not happen. Eligible Week 1. Still ramping (no 11-on-11 yet). Australia sit possible; Tonges is the Week 1 handcuff if he sits. Rest-of-year TE1."
       ],
       "old_rank": 78,
-      "new_rank": 126,
+      "new_rank": 124,
       "old_ppg": 12.98,
       "new_ppg": 10.38,
       "position": "TE",
       "team": "SF",
       "updated": "2026-08-30",
-      "auto_generated": false,
-      "from_override": true
-    },
-    "Josh Jacobs": {
-      "status": "EXEMPT",
-      "injury": "Commissioner's exempt list since Aug 30; Sleeper injury_status NA (Personal). Still cannot practice or play. No reinstatement as of Oct 6 2026 — NFL review ongoing, no suspension length announced.",
-      "week1_outlook": "OUT — still on the Commissioner's Exempt List; not a weekly start",
-      "ppg_multiplier": 0.45,
-      "ranking_note": "STICKY: still exempt (Sleeper NA / Personal). Do not rank as a weekly starter. Data-update must not restore an active RB1 note. Lottery only until reinstated; Lloyd / Johnson get the work.",
-      "impact": "SEVERE",
-      "source": "Sleeper NA/Personal Oct 6 + ESPN/PFT — still exempt, no reinstatement",
-      "headlines": [
-        "STICKY: still exempt (Sleeper NA / Personal). Do not rank as a weekly starter. Data-update must not restore an active RB1 note. Lottery only until reinstated; Lloyd / Johnson get the work."
-      ],
-      "old_rank": 40,
-      "new_rank": 217,
-      "old_ppg": 15.03,
-      "new_ppg": 6.76,
-      "position": "RB",
-      "team": "GB",
-      "updated": "2026-10-06",
       "auto_generated": false,
       "from_override": true
     },
@@ -1439,8 +1372,8 @@
       "headlines": [
         "Monitor. Tightness only but has injury history. Now with DEN (Bo Nix) after March 2026 trade from MIA."
       ],
-      "old_rank": 105,
-      "new_rank": 110,
+      "old_rank": 103,
+      "new_rank": 111,
       "old_ppg": 12.0,
       "new_ppg": 11.4,
       "position": "WR",
@@ -1460,12 +1393,33 @@
       "headlines": [
         "ACL PUP — not a Week 1 back and likely misses the first 1–2 months. Price is the early-season SEA RB. Late-round stash only."
       ],
-      "old_rank": 390,
-      "new_rank": 657,
+      "old_rank": 389,
+      "new_rank": 658,
       "old_ppg": 4.6,
       "new_ppg": 2.07,
       "position": "",
       "team": "",
+      "updated": "2026-08-29",
+      "auto_generated": false,
+      "from_override": true
+    },
+    "Rashee Rice": {
+      "status": "HEALTHY",
+      "injury": "None",
+      "week1_outlook": "FULL GO",
+      "ppg_multiplier": 1.0,
+      "ranking_note": "Healthy and practicing. No current hold.",
+      "impact": "NEUTRAL",
+      "source": "Camp research Aug 29 — dropped stale Aug 5 suspension overlay",
+      "headlines": [
+        "Healthy and practicing. No current hold."
+      ],
+      "old_rank": 48,
+      "new_rank": 46,
+      "old_ppg": 14.34,
+      "new_ppg": 14.34,
+      "position": "WR",
+      "team": "KC",
       "updated": "2026-08-29",
       "auto_generated": false,
       "from_override": true
@@ -1481,8 +1435,8 @@
       "headlines": [
         "Injury flag from Aug 5 is stale. Has practiced and started preseason. Stefanski has not named Week 1 QB (Tua vs Penix). Job risk is the only remaining haircut — not an injury hold."
       ],
-      "old_rank": 52,
-      "new_rank": 83,
+      "old_rank": 51,
+      "new_rank": 82,
       "old_ppg": 14.01,
       "new_ppg": 12.61,
       "position": "QB",
@@ -1502,8 +1456,8 @@
       "headlines": [
         "Clocking 22mph in camp. No issues. Undervalued WAS sleeper. Daniels connection real."
       ],
-      "old_rank": 275,
-      "new_rank": 251,
+      "old_rank": 273,
+      "new_rank": 252,
       "old_ppg": 6.0,
       "new_ppg": 6.18,
       "position": "",
@@ -1544,8 +1498,8 @@
       "headlines": [
         "Minor thumb issue. Not serious. Monitor."
       ],
-      "old_rank": 149,
-      "new_rank": 148,
+      "old_rank": 147,
+      "new_rank": 147,
       "old_ppg": 9.96,
       "new_ppg": 9.66,
       "position": "WR",
@@ -1565,8 +1519,8 @@
       "headlines": [
         "Still on roster. Colts gathering information. Typical first-offense DUI is up to 2 games; do not REMOVE. Downgrade / monitor."
       ],
-      "old_rank": 155,
-      "new_rank": 167,
+      "old_rank": 154,
+      "new_rank": 165,
       "old_ppg": 9.22,
       "new_ppg": 8.48,
       "position": "WR",
