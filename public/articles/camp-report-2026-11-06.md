@@ -4,7 +4,7 @@ date: "2026-11-06"
 week: 0
 theme: "Camp Report"
 category: "research"
-excerpt: "The Gavfather System auto-processed 301 camp news items. 58 players affected."
+excerpt: "The Gavfather System auto-processed 308 camp news items. 58 players affected."
 ---
 
 # Camp Report: Week 19
@@ -29,9 +29,6 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 
 **Zach Charbonnet** — PUP | ACL tear (January 2026 playoffs); surgery Feb 20; still on PUP
 *ACL PUP — not a Week 1 back and likely misses the first 1–2 months. Price is the early-season SEA RB. Late-round stash only.*
-
-**David Njoku** — IR | IR David Njoku listed as IR
-*David Njoku listed as IR. *
 
 **Christian Kirk** — IR | Calf; IR designated to return (Aug 30 cutdown). Misses at least Weeks 1-4.
 *IR designated to return — 4-game minimum, not done for the year. Calf kept him out of camp/preseason. Conservative lottery when activated; Evans / Samuel / Stribling hold the early targets.*
@@ -62,6 +59,9 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 
 **Jonathon Brooks** — IR | IR Jonathon Brooks listed as IR
 *Jonathon Brooks listed as IR. *
+
+**David Njoku** — IR | IR David Njoku listed as IR
+*David Njoku listed as IR. *
 
 **Lamar Jackson** — IR | IR Lamar Jackson (thumb) officially placed
 *Lamar Jackson (thumb) officially placed on IR Thu, Nov 5th 4:36pm EST By Ari Koslow*
@@ -135,6 +135,15 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 **Terry McLaurin** — IR | Torn left patellar tendon vs SF (Oct 19 2026); surgery Oct 30; Commanders placed him on IR Oct 28
 *IR since Oct 28 (torn left patellar tendon, surgery Oct 30). Not a starter. Quinn and Peters pointed the recovery at 2027. The Aug 5 HEALTHY camp boost is dead.*
 
+**Rhamondre Stevenson** — SEVERE | Rhamondre Stevenson Rhamondre Stevenson Set for expanded workload again in Week 9 RB New England Patriots November 6, 20
+*Rhamondre Stevenson Set for expanded workload again in Week 9 RB New England Patriots November 6, 2026 With TreVeyon Henderson (illness) ruled out for Week 9, Stevenson is set to handle an expanded workload Sunday against the Packers, Mark *
+
+**TreVeyon Henderson** — SEVERE | TreVeyon Henderson November 6, 2026 With TreVeyon Henderson (illness) ruled out for Week 9, Stevenson is set to handle a
+*November 6, 2026 With TreVeyon Henderson (illness) ruled out for Week 9, Stevenson is set to handle an expanded workload Sunday against the Packers, Mark Daniels of MassLive.com reports. ANALYSIS Subscribe now to instantly reveal our take o*
+
+**Woody Marks** — SEVERE | Woody Marks Woody Marks Set for RB1 work RB Houston Texans November 6, 2026 With David Montgomery (groin) again ruled ou
+*Woody Marks Set for RB1 work RB Houston Texans November 6, 2026 With David Montgomery (groin) again ruled out for Week 9, Marks is expected to remain the Texans' clear RB1 for Sunday's game against the Chargers, Aaron Wilson of KPRC 2 Houst*
+
 **Cole Kmet** — SEASON_ENDING | knee) believed to have season-ending knee in
 *Cole Kmet (knee) believed to have season-ending knee injury Fri, Oct 23rd 11:58am EDT By Garrett Ball*
 
@@ -145,6 +154,8 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 *REMOVE. 2026 in Arizona over unless injury settlement. Auto notes had IR status with a 1.0 multiplier — that is a miss.*
 
 ## Positive Developments
+
+**Denzel Boston** — POSITIVE | Denzel Boston Cleared for Sunday WR Cleveland Browns November 6, 2026 Boston (calf) was a full participant in Friday's practice and doesn't have an injury desig
 
 **Rico Dowdle** — POSITIVE | That cleared the way for Rico Dowdle to take over the backfield.
 
@@ -160,8 +171,6 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 
 **Malik Nabers** — RETURNING | Upgrade slightly. Running routes, ahead of schedule. Worst case misses 1-2 games.
 
-**George Kittle** — RETURNING | Off PUP Aug 23 — remaining on PUP through cutdown would have locked Weeks 1–4 and that did not happen. Eligible Week 1. Still ramping (no 11-on-11 yet). Austral
-
 ---
 
 Full updated rankings at thegavfather.com/rankings.
@@ -173,4 +182,4 @@ An offer your roster can't refuse.
 
 ---
 
-*Auto-generated November 06, 2026 01:57 AM. Sources: FantasyPros, RotoWire, Sleeper, Yahoo.*
+*Auto-generated November 06, 2026 07:50 PM. Sources: FantasyPros, RotoWire, Sleeper, Yahoo.*
