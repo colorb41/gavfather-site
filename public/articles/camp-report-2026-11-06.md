@@ -4,7 +4,7 @@ date: "2026-11-06"
 week: 0
 theme: "Camp Report"
 category: "research"
-excerpt: "The Gavfather System auto-processed 301 camp news items. 59 players affected."
+excerpt: "The Gavfather System auto-processed 301 camp news items. 58 players affected."
 ---
 
 # Camp Report: Week 19
@@ -15,7 +15,7 @@ excerpt: "The Gavfather System auto-processed 301 camp news items. 59 players af
 ---
 
 The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports — zero manual input.
-59 players had ranking adjustments applied automatically this week.
+58 players had ranking adjustments applied automatically this week.
 
 ## The Biggest Story
 
@@ -29,9 +29,6 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 
 **Zach Charbonnet** — PUP | ACL tear (January 2026 playoffs); surgery Feb 20; still on PUP
 *ACL PUP — not a Week 1 back and likely misses the first 1–2 months. Price is the early-season SEA RB. Late-round stash only.*
-
-**Lamar Jackson** — IR | IR Lamar Jackson (thumb) officially placed
-*Lamar Jackson (thumb) officially placed on IR Thu, Nov 5th 4:36pm EST By Ari Koslow*
 
 **David Njoku** — IR | IR David Njoku listed as IR
 *David Njoku listed as IR. *
@@ -65,6 +62,9 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 
 **Jonathon Brooks** — IR | IR Jonathon Brooks listed as IR
 *Jonathon Brooks listed as IR. *
+
+**Lamar Jackson** — IR | IR Lamar Jackson (thumb) officially placed
+*Lamar Jackson (thumb) officially placed on IR Thu, Nov 5th 4:36pm EST By Ari Koslow*
 
 **Zavier Scott** — IR | IR Zavier Scott (thumb) placed on IR Thu
 *Zavier Scott (thumb) placed on IR Thu, Nov 5th 2:30pm EST By Ari Koslow*
@@ -173,4 +173,4 @@ An offer your roster can't refuse.
 
 ---
 
-*Auto-generated November 06, 2026 12:53 AM. Sources: FantasyPros, RotoWire, Sleeper, Yahoo.*
+*Auto-generated November 06, 2026 01:57 AM. Sources: FantasyPros, RotoWire, Sleeper, Yahoo.*

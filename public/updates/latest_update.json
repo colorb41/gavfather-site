@@ -1,74 +1,8 @@
 {
-  "updated_at": "2026-11-06T00:56:44",
+  "updated_at": "2026-11-06T02:01:21",
   "total_changes": 100,
-  "high_priority_count": 26,
+  "high_priority_count": 29,
   "changes": [
-    {
-      "timestamp": "2026-11-04T12:44:12",
-      "player_id": "8155",
-      "name": "Breece Hall",
-      "position": "RB",
-      "team": "NYJ",
-      "overall_rank": 29,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Out -> Questionable",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-11-04T12:44:12",
-      "player_id": "6828",
-      "name": "AJ Dillon",
-      "position": "RB",
-      "team": "CAR",
-      "overall_rank": 273,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Out -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-11-04T12:44:12",
-      "player_id": "6865",
-      "name": "Colby Parkinson",
-      "position": "TE",
-      "team": "LAR",
-      "overall_rank": 170,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Out -> Questionable",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-11-04T12:44:12",
-      "player_id": "6865",
-      "name": "Colby Parkinson",
-      "position": "TE",
-      "team": "LAR",
-      "overall_rank": 170,
-      "change_type": "PROMOTED_TO_STARTER",
-      "detail": "Depth chart 2 -> 1",
-      "priority": "HIGH"
-    },
-    {
-      "timestamp": "2026-11-04T20:14:02",
-      "player_id": "4943",
-      "name": "Sam Darnold",
-      "position": "QB",
-      "team": "SEA",
-      "overall_rank": 111,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Out (Quadriceps)",
-      "priority": "HIGH"
-    },
-    {
-      "timestamp": "2026-11-04T20:14:03",
-      "player_id": "13744",
-      "name": "Cameron Ross",
-      "position": "WR",
-      "team": "",
-      "overall_rank": 597,
-      "change_type": "RELEASED",
-      "detail": "Released from DEN",
-      "priority": "LOW"
-    },
     {
       "timestamp": "2026-11-04T20:14:03",
       "player_id": "6386",
@@ -1101,6 +1035,72 @@
       "overall_rank": 28,
       "change_type": "INJURY_IMPROVED",
       "detail": "Questionable -> Healthy",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-11-06T01:57:25",
+      "player_id": "13421",
+      "name": "Eli Raridon",
+      "position": "TE",
+      "team": "NE",
+      "overall_rank": 164,
+      "change_type": "PROMOTED_TO_STARTER",
+      "detail": "Depth chart 2 -> 1",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-11-06T01:57:25",
+      "player_id": "9501",
+      "name": "DeMario Douglas",
+      "position": "WR",
+      "team": "NE",
+      "overall_rank": 236,
+      "change_type": "PROMOTED_TO_STARTER",
+      "detail": "Depth chart 2 -> 1",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-11-06T01:57:25",
+      "player_id": "5859",
+      "name": "A.J. Brown",
+      "position": "WR",
+      "team": "NE",
+      "overall_rank": 32,
+      "change_type": "DEMOTED_FROM_STARTER",
+      "detail": "Depth chart 1 -> 2",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-11-06T01:57:25",
+      "player_id": "3214",
+      "name": "Hunter Henry",
+      "position": "TE",
+      "team": "NE",
+      "overall_rank": 103,
+      "change_type": "DEMOTED_FROM_STARTER",
+      "detail": "Depth chart 1 -> 2",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-11-06T01:57:25",
+      "player_id": "3161",
+      "name": "Carson Wentz",
+      "position": "QB",
+      "team": "MIN",
+      "overall_rank": 208,
+      "change_type": "PROMOTED_TO_STARTER",
+      "detail": "Depth chart 2 -> 1",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-11-06T01:57:25",
+      "player_id": "5849",
+      "name": "Kyler Murray",
+      "position": "QB",
+      "team": "MIN",
+      "overall_rank": 165,
+      "change_type": "DEMOTED_FROM_STARTER",
+      "detail": "Depth chart 1 -> 2",
       "priority": "MEDIUM"
     }
   ]
