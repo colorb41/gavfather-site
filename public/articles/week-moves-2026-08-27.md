@@ -75,7 +75,7 @@ This is the Thursday digest: what the camp file and the delta log actually chang
 
 **Cedric Tillman (WR, NOCLE — INJURY_WORSENED: Healthy -> Questionable (Undisclosed)
 
-**Keenan Allen (WR, IND)** — TRADED_OR_SIGNED: FA -> IND
+**Keenan Allen (WR, SFIND — TRADED_OR_SIGNED: FA -> IND
 
 **Kenneth Walker (RB, KC)** — INJURY_WORSENED: Healthy -> Questionable (Foot)
 

@@ -27,7 +27,7 @@ Groin (minor) + camp quad; plans to play Week 1 vs LAR in Melbourne
 Achilles tear (January 2026 playoffs); activated off PUP Aug 23; individual drills only as of Aug 28, no team periods yet
 *Off PUP Aug 23 — remaining on PUP through cutdown would have locked Weeks 1–4 and that did not happen. Eligible Week 1. Still ramping (no 11-on-11 yet). Australia sit possible; Tonges is the Week 1 handcuff if he sits. Rest-of-year TE1.*
 
-**Keenan Allen (WR, IND)** — MONITOR
+**Keenan Allen (WR, SFIND — MONITOR
 Arrested ~1 a.m. ET Aug 30; two misdemeanor OVWI charges
 *Still on roster. Colts gathering information. Typical first-offense DUI is up to 2 games; do not REMOVE. Downgrade / monitor.*
 

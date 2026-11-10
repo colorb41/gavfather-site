@@ -61,7 +61,7 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 
 **Chris Godwin Jr. (WR, TB)** — We have WR16, market has WR38
 **Deebo Samuel Sr. (WR, SF)** — We have WR33, market has WR51
-**Keenan Allen (WR, IND)** — We have WR43, market has WR60
+**Keenan Allen (WR, SFIND — We have WR43, market has WR60
 **KC Concepcion (WR, CLE)** — We have WR35, market has WR52
 **Jauan Jennings (WR, MIN)** — We have WR46, market has WR63
 
