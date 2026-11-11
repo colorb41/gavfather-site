@@ -158,7 +158,7 @@ Do not bid until Arrowhead ends. Johnson is the reported Walker cuff; Coleman is
 | --- | --- | --- |
 | **Mike Gesicki (TE, CIN)** | 5–78–1, more yards than Chase+Higgins | 21 of 64 snaps. Target rate is a mirage. All/Sample rotation does not support weekly TE1. |
 | **Kalif Raymond (WR, CHI)** | 8–84 on nine targets | Odunze limited, Burden still the long-term piece. Watch list, not FAAB. |
-| **Kendre Miller (RB, NO)** | Tied Etienne in carries, scored | Kamara looming; 26 of 90 snaps. Deep-league only. |
+| **Kendre Miller (RB, DALNO | Tied Etienne in carries, scored | Kamara looming; 26 of 90 snaps. Deep-league only. |
 | **Tyler Shough (QB, NO)** | 410 yards, comeback script | Most of the points came on late desperation drives. Superflex streamer at best after BAL. |
 
 ---

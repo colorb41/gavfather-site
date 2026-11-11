@@ -54,7 +54,7 @@ INJURY_IMPROVED: Questionable -> Healthy
 **🟢 Zavion Thomas (WR, CHI)**
 INJURY_IMPROVED: Questionable -> Healthy
 
-**🟢 Kendre Miller (RB, NO)**
+**🟢 Kendre Miller (RB, DALNO
 INJURY_IMPROVED: Questionable -> Healthy
 
 **🟢 DJ Giddens (RB, IND)**
