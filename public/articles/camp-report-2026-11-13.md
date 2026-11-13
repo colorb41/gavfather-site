@@ -4,7 +4,7 @@ date: "2026-11-13"
 week: 0
 theme: "Camp Report"
 category: "research"
-excerpt: "The Gavfather System auto-processed 306 camp news items. 58 players affected."
+excerpt: "The Gavfather System auto-processed 307 camp news items. 58 players affected."
 ---
 
 # Camp Report: Week 20
@@ -35,9 +35,6 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 
 **David Njoku** — IR | IR David Njoku listed as IR
 *David Njoku listed as IR. *
-
-**Jordyn Tyson** — IR | hamstring) : The Saints placed Tyson on injured r
-*Jordyn Tyson, Saints (hamstring) : The Saints placed Tyson on injured reserve to start the season, so he'll miss at least the first four games (and likely more time).*
 
 **Alec Pierce** — IR | Heel; aggravated surgically repaired heel Week 2 vs KC; Colts placed on IR ~Sep 26 2026
 *Official IR (heel). Minimum 4 games; earliest Week 7. Conservative lottery until designated to return — do not use stale Aug RETURNING/ramp note. STICKY: data-update must not restore RETURNING x0.90.*
@@ -182,4 +179,4 @@ An offer your roster can't refuse.
 
 ---
 
-*Auto-generated November 13, 2026 12:48 AM. Sources: FantasyPros, RotoWire, Sleeper, Yahoo.*
+*Auto-generated November 13, 2026 02:19 AM. Sources: FantasyPros, RotoWire, Sleeper, Yahoo.*

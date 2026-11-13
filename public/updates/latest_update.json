@@ -1,30 +1,8 @@
 {
-  "updated_at": "2026-11-13T00:51:39",
+  "updated_at": "2026-11-13T02:21:35",
   "total_changes": 100,
   "high_priority_count": 43,
   "changes": [
-    {
-      "timestamp": "2026-11-11T17:38:55",
-      "player_id": "13276",
-      "name": "Omar Cooper Jr.",
-      "position": "WR",
-      "team": "NYJ",
-      "overall_rank": 132,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Ankle)",
-      "priority": "HIGH"
-    },
-    {
-      "timestamp": "2026-11-11T17:38:55",
-      "player_id": "4274",
-      "name": "David Moore",
-      "position": "WR",
-      "team": "",
-      "overall_rank": 544,
-      "change_type": "RELEASED",
-      "detail": "Released from CAR",
-      "priority": "LOW"
-    },
     {
       "timestamp": "2026-11-11T17:38:55",
       "player_id": "6154",
@@ -1102,6 +1080,28 @@
       "change_type": "INJURY_IMPROVED",
       "detail": "Questionable -> Healthy",
       "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-11-13T02:19:02",
+      "player_id": "9490",
+      "name": "Tyler Scott",
+      "position": "WR",
+      "team": "LAR",
+      "overall_rank": null,
+      "change_type": "TRADED_OR_SIGNED",
+      "detail": "FA -> LAR",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-11-13T02:19:02",
+      "player_id": "8210",
+      "name": "Chig Okonkwo",
+      "position": "TE",
+      "team": "WAS",
+      "overall_rank": 132,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Back)",
+      "priority": "HIGH"
     }
   ]
 }
