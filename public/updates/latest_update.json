@@ -1,151 +1,8 @@
 {
-  "updated_at": "2026-11-13T02:21:35",
+  "updated_at": "2026-11-13T20:19:44",
   "total_changes": 100,
   "high_priority_count": 43,
   "changes": [
-    {
-      "timestamp": "2026-11-11T17:38:55",
-      "player_id": "6154",
-      "name": "David Sills V",
-      "position": "WR",
-      "team": "",
-      "overall_rank": null,
-      "change_type": "RELEASED",
-      "detail": "Released from TB",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-11-11T17:38:55",
-      "player_id": "12389",
-      "name": "Hayden Rucci",
-      "position": "TE",
-      "team": "",
-      "overall_rank": 307,
-      "change_type": "RELEASED",
-      "detail": "Released from LAC",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-11-11T17:38:55",
-      "player_id": "13346",
-      "name": "Denzel Boston",
-      "position": "WR",
-      "team": "CLE",
-      "overall_rank": 121,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Toe)",
-      "priority": "HIGH"
-    },
-    {
-      "timestamp": "2026-11-11T17:38:55",
-      "player_id": "11569",
-      "name": "Jarquez Hunter",
-      "position": "RB",
-      "team": "",
-      "overall_rank": 192,
-      "change_type": "RELEASED",
-      "detail": "Released from NO",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-11-11T17:38:55",
-      "player_id": "11320",
-      "name": "Nikko Remigio",
-      "position": "WR",
-      "team": "",
-      "overall_rank": 791,
-      "change_type": "RELEASED",
-      "detail": "Released from KC",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-11-11T17:38:55",
-      "player_id": "4017",
-      "name": "Deshaun Watson",
-      "position": "QB",
-      "team": "CLE",
-      "overall_rank": 678,
-      "change_type": "INJURY_IMPROVED",
-      "detail": "Questionable -> Healthy",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-11-11T17:38:55",
-      "player_id": "13630",
-      "name": "Evan Svoboda",
-      "position": "TE",
-      "team": "",
-      "overall_rank": 150,
-      "change_type": "RELEASED",
-      "detail": "Released from LAC",
-      "priority": "HIGH"
-    },
-    {
-      "timestamp": "2026-11-11T17:38:55",
-      "player_id": "12851",
-      "name": "Rivaldo Fairweather",
-      "position": "TE",
-      "team": "",
-      "overall_rank": 405,
-      "change_type": "RELEASED",
-      "detail": "Released from ARI",
-      "priority": "LOW"
-    },
-    {
-      "timestamp": "2026-11-11T19:59:30",
-      "player_id": "3161",
-      "name": "Carson Wentz",
-      "position": "QB",
-      "team": "MIN",
-      "overall_rank": 202,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Healthy -> Questionable (Ankle)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-11-11T19:59:30",
-      "player_id": "11942",
-      "name": "Colson Yankoff",
-      "position": "TE",
-      "team": "WAS",
-      "overall_rank": 733,
-      "change_type": "INJURY_WORSENED",
-      "detail": "Questionable -> Out (Knee)",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-11-11T23:57:41",
-      "player_id": "8116",
-      "name": "Pierre Strong Jr.",
-      "position": "RB",
-      "team": "GB",
-      "overall_rank": null,
-      "change_type": "DEMOTED_FROM_STARTER",
-      "detail": "Depth chart 1 -> 3",
-      "priority": "MEDIUM"
-    },
-    {
-      "timestamp": "2026-11-11T23:57:41",
-      "player_id": "11579",
-      "name": "Audric Estime",
-      "position": "RB",
-      "team": "NO",
-      "overall_rank": 138,
-      "change_type": "PROMOTED_TO_STARTER",
-      "detail": "Depth chart 2 -> 1",
-      "priority": "HIGH"
-    },
-    {
-      "timestamp": "2026-11-11T23:57:41",
-      "player_id": "11610",
-      "name": "Malik Washington",
-      "position": "WR",
-      "team": "MIA",
-      "overall_rank": 224,
-      "change_type": "DEMOTED_FROM_STARTER",
-      "detail": "Depth chart 1 -> 2",
-      "priority": "MEDIUM"
-    },
     {
       "timestamp": "2026-11-11T23:57:41",
       "player_id": "5844",
@@ -1102,6 +959,149 @@
       "change_type": "INJURY_WORSENED",
       "detail": "Healthy -> Questionable (Back)",
       "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-11-13T17:28:21",
+      "player_id": "13311",
+      "name": "Chris Bell",
+      "position": "WR",
+      "team": "MIA",
+      "overall_rank": 363,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Questionable -> Doubtful (Knee)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-11-13T17:28:21",
+      "player_id": "3214",
+      "name": "Hunter Henry",
+      "position": "TE",
+      "team": "NE",
+      "overall_rank": 104,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-11-13T17:28:21",
+      "player_id": "13279",
+      "name": "Carnell Tate",
+      "position": "WR",
+      "team": "TEN",
+      "overall_rank": 115,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Questionable -> Out (Shoulder)",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-11-13T17:28:21",
+      "player_id": "5848",
+      "name": "Marquise Brown",
+      "position": "WR",
+      "team": "",
+      "overall_rank": 142,
+      "change_type": "RELEASED",
+      "detail": "Released from PHI",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-11-13T17:28:21",
+      "player_id": "13276",
+      "name": "Omar Cooper Jr.",
+      "position": "WR",
+      "team": "NYJ",
+      "overall_rank": 132,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-11-13T20:17:09",
+      "player_id": "4054",
+      "name": "Mo Alie-Cox",
+      "position": "TE",
+      "team": "IND",
+      "overall_rank": 271,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Questionable -> Out (Groin)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-11-13T20:17:09",
+      "player_id": "5947",
+      "name": "Jakobi Meyers",
+      "position": "WR",
+      "team": "JAX",
+      "overall_rank": 92,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-11-13T20:17:09",
+      "player_id": "13277",
+      "name": "CJ Donaldson",
+      "position": "RB",
+      "team": "NO",
+      "overall_rank": 450,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Questionable -> Out (Shoulder)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-11-13T20:17:09",
+      "player_id": "12490",
+      "name": "Bhayshul Tuten",
+      "position": "RB",
+      "team": "JAX",
+      "overall_rank": 34,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-11-13T20:17:09",
+      "player_id": "13320",
+      "name": "Zachariah Branch",
+      "position": "WR",
+      "team": "ATL",
+      "overall_rank": 537,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Doubtful -> Out (Hamstring)",
+      "priority": "MEDIUM"
+    },
+    {
+      "timestamp": "2026-11-13T20:17:09",
+      "player_id": "8151",
+      "name": "Kenneth Walker III",
+      "position": "RB",
+      "team": "KC",
+      "overall_rank": 23,
+      "change_type": "INJURY_WORSENED",
+      "detail": "Healthy -> Questionable (Groin)",
+      "priority": "HIGH"
+    },
+    {
+      "timestamp": "2026-11-13T20:17:09",
+      "player_id": "8122",
+      "name": "Zonovan Knight",
+      "position": "RB",
+      "team": "ARI",
+      "overall_rank": 250,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "Questionable -> Healthy",
+      "priority": "LOW"
+    },
+    {
+      "timestamp": "2026-11-13T20:17:09",
+      "player_id": "11963",
+      "name": "Chris Collier",
+      "position": "RB",
+      "team": "LV",
+      "overall_rank": 776,
+      "change_type": "INJURY_IMPROVED",
+      "detail": "IR -> Questionable",
+      "priority": "LOW"
     }
   ]
 }

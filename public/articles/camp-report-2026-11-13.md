@@ -4,7 +4,7 @@ date: "2026-11-13"
 week: 0
 theme: "Camp Report"
 category: "research"
-excerpt: "The Gavfather System auto-processed 307 camp news items. 58 players affected."
+excerpt: "The Gavfather System auto-processed 333 camp news items. 60 players affected."
 ---
 
 # Camp Report: Week 20
@@ -15,7 +15,7 @@ excerpt: "The Gavfather System auto-processed 307 camp news items. 58 players af
 ---
 
 The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports — zero manual input.
-58 players had ranking adjustments applied automatically this week.
+60 players had ranking adjustments applied automatically this week.
 
 ## The Biggest Story
 
@@ -30,11 +30,17 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 **Zach Charbonnet** — PUP | ACL tear (January 2026 playoffs); surgery Feb 20; still on PUP
 *ACL PUP — not a Week 1 back and likely misses the first 1–2 months. Price is the early-season SEA RB. Late-round stash only.*
 
-**Puka Nacua** — IR | MCL November 12
-*Puka Nacua Lands on injured reserve WR Los Angeles Rams Knee - MCL November 12, 2026 The Rams placed Nacua (knee) on injured reserve Thursday, Greg Beacham of the Associated Press reports. ANALYSIS Subscribe now to instantly reveal our take*
+**Travis Etienne** — IR | IR Travis Etienne Jr
+*Travis Etienne Jr. listed as IR. *
 
-**David Njoku** — IR | IR David Njoku listed as IR
-*David Njoku listed as IR. *
+**Jonathon Brooks** — IR | IR Jonathon Brooks listed as IR
+*Jonathon Brooks listed as IR. *
+
+**Jordyn Tyson** — IR | hamstring) : The Saints placed Tyson on injured r
+*Jordyn Tyson, Saints (hamstring) : The Saints placed Tyson on injured reserve to start the season, so he'll miss at least the first four games (and likely more time).*
+
+**Puka Nacua** — IR | IR Puka Nacua listed as IR
+*Puka Nacua listed as IR. *
 
 **Alec Pierce** — IR | Heel; aggravated surgically repaired heel Week 2 vs KC; Colts placed on IR ~Sep 26 2026
 *Official IR (heel). Minimum 4 games; earliest Week 7. Conservative lottery until designated to return — do not use stale Aug RETURNING/ramp note. STICKY: data-update must not restore RETURNING x0.90.*
@@ -57,11 +63,8 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 **Jeremiyah Love** — IR | IR Jeremiyah Love listed as IR
 *Jeremiyah Love listed as IR. *
 
-**Travis Etienne** — IR | IR Travis Etienne Jr
-*Travis Etienne Jr. listed as IR. *
-
-**Jonathon Brooks** — IR | IR Jonathon Brooks listed as IR
-*Jonathon Brooks listed as IR. *
+**David Njoku** — IR | IR David Njoku listed as IR
+*David Njoku listed as IR. *
 
 **RJ Harvey** — IR | IR RJ Harvey listed as IR
 *RJ Harvey listed as IR. *
@@ -141,6 +144,9 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 **Terry McLaurin** — IR | Torn left patellar tendon vs SF (Oct 19 2026); surgery Oct 30; Commanders placed him on IR Oct 28
 *IR since Oct 28 (torn left patellar tendon, surgery Oct 30). Not a starter. Quinn and Peters pointed the recovery at 2027. The Aug 5 HEALTHY camp boost is dead.*
 
+**Carnell Tate** — SEVERE | Carnell Tate Carnell Tate Ruled out for Sunday's game WR Tennessee Titans Shoulder November 13, 2026 Tate (shoulder) has
+*Carnell Tate Ruled out for Sunday's game WR Tennessee Titans Shoulder November 13, 2026 Tate (shoulder) has been ruled out for Sunday's game against the Jaguars, Jim Wyatt of the Titans' official site reports. ANALYSIS Subscribe now to inst*
+
 **Cole Kmet** — SEASON_ENDING | knee) believed to have season-ending knee in
 *Cole Kmet (knee) believed to have season-ending knee injury Fri, Oct 23rd 11:58am EDT By Garrett Ball*
 
@@ -151,6 +157,8 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 *REMOVE. 2026 in Arizona over unless injury settlement. Auto notes had IR status with a 1.0 multiplier — that is a miss.*
 
 ## Positive Developments
+
+**Hunter Henry** — POSITIVE | Hunter Henry Cleared to play Sunday TE New England Patriots November 13, 2026 Henry (foot) doesn't carry an injury designation for Sunday's game against the Lio
 
 **Rico Dowdle** — POSITIVE | That cleared the way for Rico Dowdle to take over the backfield.
 
@@ -166,8 +174,6 @@ The Gavfather System scanned FantasyPros, RotoWire, Sleeper, and Yahoo Sports �
 
 **Malik Nabers** — RETURNING | Upgrade slightly. Running routes, ahead of schedule. Worst case misses 1-2 games.
 
-**George Kittle** — RETURNING | Off PUP Aug 23 — remaining on PUP through cutdown would have locked Weeks 1–4 and that did not happen. Eligible Week 1. Still ramping (no 11-on-11 yet). Austral
-
 ---
 
 Full updated rankings at thegavfather.com/rankings.
@@ -179,4 +185,4 @@ An offer your roster can't refuse.
 
 ---
 
-*Auto-generated November 13, 2026 02:19 AM. Sources: FantasyPros, RotoWire, Sleeper, Yahoo.*
+*Auto-generated November 13, 2026 08:17 PM. Sources: FantasyPros, RotoWire, Sleeper, Yahoo.*
